@@ -54,10 +54,10 @@
                             <a href="{{ url('about') }}">About</a>
                         </li>
                         <li class="{{ Request::is('lecture-style-class') ? 'active' : '' }}">
-                            <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
+                            <a href="">Lecture Style Class</a>
                         </li>
                         <li class="{{ Request::is('studio-style-class') ? 'active' : '' }}">
-                            <a href="{{ url('studio-style-class') }}">Studio Style Class</a>
+                            <a href="">Studio Style Class</a>
                         </li>
                         <li class="{{ Request::is('resources') ? 'active' : '' }}">
                             <a href="{{ url('resources') }}">Resources</a>
@@ -66,7 +66,7 @@
                             <a href="{{ url('help') }}">Help</a>
                         </li>
                         <li class="{{ Request::is('login') ? 'active' : '' }}">
-                            <a href="{{ url('login') }}">Login</a>
+                            <a href="">Login</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
