@@ -27,3 +27,6 @@ Route::get('/help', function () {
     return view('pages.help');
 });
 
+Route::get('/lecture-style-class', function () {
+    return view('lecture-style.index');
+});
