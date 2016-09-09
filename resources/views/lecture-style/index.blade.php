@@ -12,7 +12,11 @@
         
         <section class="banner-image">
             <div class="fill" style="background-image:url('//placehold.it/1920x300');">
-                <div class="container"></div>
+                <div class="container">
+                    <div class="banner-box col-xs-12 col-md-8 fade-in one">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda cupiditate dignissimos dolor, exercitationem in ipsam laboriosam, laudantium minus nostrum obcaecati pariatur quod recusandae reiciendis unde veniam. Nemo, nisi!
+                    </div>
+                </div>
             </div>
         </section>
         

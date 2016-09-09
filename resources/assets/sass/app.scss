@@ -27,6 +27,7 @@ $font-family-sans-serif-text : 'Open Sans', 'Helvetica Neue', Helvetica, Arial, 
 @import "header";
 @import "footer";
 @import "general";
+@import "animations";
 
 html, body { height : 100%; }
 
@@ -58,24 +59,24 @@ html, body { height : 100%; }
 .pdf-content {
     height        : 800px;
     display       : none;
-    overflow: hidden;
-    border-bottom: 1px solid #dddddd;
+    overflow      : hidden;
+    border-bottom : 1px solid #dddddd;
 
     h3 {
-        margin-top: 0;
+        margin-top : 0;
     }
 
     .iframe {
         height : 800px;
         width  : 100%;
-        border: 1px solid #dddddd;
+        border : 1px solid #dddddd;
     }
 
 }
 
 .html-content {
     h3 {
-        margin-top: 0;
+        margin-top : 0;
     }
 }
 
@@ -94,6 +95,16 @@ html, body { height : 100%; }
 .banner-image {
     .fill {
         height : 300px;
+    }
+
+    position: relative;
+
+    .banner-box {
+        background : rgba(0, 0, 0, .75);
+        padding    : 20px;
+        color      : #ffffff;
+        border-radius: 5px;
+        margin-top: 30px;
     }
 }
 

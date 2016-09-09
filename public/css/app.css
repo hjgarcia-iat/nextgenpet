@@ -8203,6 +8203,53 @@ blockquote {
     line-height: 1.45833333;
     /* 35px / 24px */ } }
 
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s; }
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  animation-delay: 0.7s; }
+
+.fade-in.two {
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s; }
+
+.fade-in.three {
+  -webkit-animation-delay: 1.6s;
+  animation-delay: 1.6s; }
+
+/*---make a basic box ---*/
+.box {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 10px;
+  float: left;
+  border: 1px solid #333333;
+  background: #999999; }
+
 html, body {
   height: 100%; }
 
@@ -8260,8 +8307,16 @@ html, body {
   background-position: center;
   background-size: cover; }
 
-.banner-image .fill {
-  height: 300px; }
+.banner-image {
+  position: relative; }
+  .banner-image .fill {
+    height: 300px; }
+  .banner-image .banner-box {
+    background: rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    margin-top: 30px; }
 
 /* faster sliding speed */
 .carousel-inner > .item {
