@@ -5,10 +5,15 @@
 
 <script>
     $(function () {
-        
         $('#page-navbar').affix({
             offset: {
                 top: $('.top-row').height()
+            }
+        });
+    
+        $('#menu').affix({
+            offset: {
+                top: 543
             }
         });
     

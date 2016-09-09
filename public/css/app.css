@@ -8375,4 +8375,16 @@ html, body {
     border-bottom-right-radius: 0;
     border-bottom: none; }
 
+/*
+//
+// Menu
+// --------------------------------------------------
+*/
+@media (min-width: 979px) {
+  #menu.affix {
+    position: fixed;
+    z-index: 100;
+    width: 358px;
+    top: 70px; } }
+
 /*# sourceMappingURL=app.css.map */

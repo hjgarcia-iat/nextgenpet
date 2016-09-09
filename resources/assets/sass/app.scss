@@ -196,4 +196,19 @@ html, body { height : 100%; }
 }
 
 
+/*
+//
+// Menu
+// --------------------------------------------------
+*/
+
+@media (min-width : 979px) {
+    #menu.affix {
+        position : fixed;
+        z-index  : 100;
+        width    : 358px;
+        top : 70px;
+    }
+}
+
 
