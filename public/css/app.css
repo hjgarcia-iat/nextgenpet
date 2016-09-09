@@ -8342,6 +8342,7 @@ html, body {
     padding-right: 0 !important; } }
 
 .media-list .media {
+  padding: 20px 0 40px;
   border-bottom: 1px dashed #dddddd; }
   .media-list .media:last-child {
     border-bottom: none; }
