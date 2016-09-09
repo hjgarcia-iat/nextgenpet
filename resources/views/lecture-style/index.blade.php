@@ -14,7 +14,11 @@
             <div class="fill" style="background-image:url('//placehold.it/1920x300');">
                 <div class="container">
                     <div class="banner-box col-xs-12 col-md-8 fade-in one">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet aperiam assumenda cupiditate dignissimos dolor, exercitationem in ipsam laboriosam, laudantium minus nostrum obcaecati pariatur quod recusandae reiciendis unde veniam. Nemo, nisi!
+                        <strong>Enrollment is greater than 35 students</strong>
+                        <br>
+                        Students do not have large tables where they can perform experiments
+                        Individual, movable desks are preferred to auditorium-style seating
+                        45 hours/semester, typically in 50- or 75-minute sessions
                     </div>
                 </div>
             </div>

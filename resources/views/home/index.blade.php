@@ -27,12 +27,8 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                </p>
-                                <p>
-                                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </p>
+                                <h4 class="media-heading">2017 Physics Teacher Education Coalition (PhysTEC) Conference, Atlanta, GA February 17-18, 2017</h4>
+                                <p>A half-day workshop on Next Gen PET will be offered at the pre-conference session from 1:00 pm– 5:00 pm, February 16, 2017.</p>
                             </div>
                         </li>
                         <li class="media">
@@ -43,30 +39,10 @@
                                 </a>
                             </div>
                             <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                                <h4 class="media-heading">Next Gen PET workshops</h4>
+                                <p>For faculty members from the California State University system, the Chancellor’s Office is sponsoring two full-day Next Gen PET workshops: July 15, 2017 at CSU Sacramento and September 16, 2017 at the Chancellor’s Office in Long Beach, CA. Travel support for faculty attending either workshop will be provided by each institution’s MSTI funds. Contact
+                                    <a href="mailto:fgoldberg@mail.sdsu.edu">fgoldberg@mail.sdsu.edu</a> for more information.</p>
                                 
-                                   Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                <p>
-                                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </p>
-                            </div>
-                        </li>
-                        <li class="media">
-                            <div class="media-left">
-                                <a href="#">
-                                    <img class="media-object img-responsive img-thumbnail" src="//placehold.it/64x64"
-                                         alt="...">
-                                </a>
-                            </div>
-                            <div class="media-body">
-                                <h4 class="media-heading">Media heading</h4>
-                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                                
-                                   Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                                <p>
-                                    Donec sed odio dui. Nullam quis risus eget urna mollis ornare vel eu leo. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-                                </p>
                             </div>
                         </li>
                     </ul>
