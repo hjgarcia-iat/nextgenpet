@@ -22,8 +22,11 @@
                             <a href="{{ url('lecture-style-class') }}"
                                class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Pedagogy</a>
                             <a href="#" class="list-group-item">Teaching and Learning Materials</a>
-                            <a href="#" class="list-group-item">Equipment and Materials</a>
-                            <a href="#" class="list-group-item">Table of Contents with Time Estimates</a>
+                            <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
+                               data-file="true" target="_blank" class="list-group-item">Equipment and Materials</a>
+                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Table_of_Contents_Lecture-style_Class.pdf"
+                               data-file="true" target="-_blank"
+                               class="list-group-item">Table of Contents with Time Estimates</a>
                             
                             <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
                                data-target="#sm"
@@ -36,7 +39,9 @@
                                 <a class="list-group-item">Matter and Interactions Module</a>
                             </div>
                             
-                            <a href="#" class="list-group-item">Student Materials (for viewing only)</a>
+                            <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
+                               data-file="true" target="_blank"
+                               class="list-group-item">Student Materials (for viewing only)</a>
                             <a href="#" class="list-group-item">Extensions Index</a>
                             <a href="#" class="list-group-item">Demonstration Videos</a>
                             <a href="#" class="list-group-item">Videos</a>
@@ -66,7 +71,7 @@
                     </ul>
                     <p>
                         Each LC lesson consists of three sections. First a brief <em>Purpose and Key Question(s)</em>
-                        section gives the rationale for the lesson and provides the lesson'  focus. (This
+                        section gives the rationale for the lesson and provides the lesson' focus. (This
                         section may include <em>Materials Needed</em> for lessons where students do experiments
                         with simple materials. The use of hands-on materials is optional, as there are videos
                         available showing each of the experiments being performed.) The second and major
@@ -177,7 +182,8 @@
                         <small class="text-muted">FIG. 3. First Summarizing Question in Module IF, Unit FM, Lesson 1</small>
                     </p>
                     <p>
-                        Lesson 1 illustrates how <em>Next Gen PET</em> incorporates the Design Principles. Students' prior knowledge is elicited through the first clicker
+                        Lesson 1 illustrates how
+                        <em>Next Gen PET</em> incorporates the Design Principles. Students' prior knowledge is elicited through the first clicker
                         question (supporting Design Principle 1), providing opportunities for students to
                         engage in discussions (supporting Design Principle 4). Videos, clickers, and the
                         student workbook are tools that facilitate learning and help structure interactions
