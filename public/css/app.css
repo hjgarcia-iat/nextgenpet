@@ -8260,6 +8260,9 @@ html, body {
   background-position: center;
   background-size: cover; }
 
+.banner-image .fill {
+  height: 300px; }
+
 /* faster sliding speed */
 .carousel-inner > .item {
   -webkit-transition: 0.3s ease-in-out left;

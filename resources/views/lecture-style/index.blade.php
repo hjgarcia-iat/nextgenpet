@@ -9,6 +9,13 @@
         
         @include('layouts.partials.title')
         
+        
+        <section class="banner-image">
+            <div class="fill" style="background-image:url('//placehold.it/1920x300');">
+                <div class="container"></div>
+            </div>
+        </section>
+        
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
