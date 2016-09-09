@@ -11,5 +11,19 @@
                 top: $('.top-row').height()
             }
         });
+    
+    
+        $('a[data-file="true"]').on('click', function (e) {
+            e.preventDefault();
+            
+            $(this).parent('.list-group').find('a.active').removeClass('active');
+            $(this).addClass('active');
+            
+            $('#html-content').hide().siblings('#pdf-content').show();
+            
+            $('#pdf-content').html('<h3>'+ $(this).text() +'</h3><iframe class="iframe" src="'+ $(this).attr('href') +'"></iframe>');
+            
+        })
+        
     });
 </script>

@@ -8,7 +8,7 @@
         </ol>
         <div class="carousel-inner">
             <div class="active item">
-                <div class="fill" style="background-image:url('//placehold.it/1024x500/449955/FFF');">
+                <div class="fill" style="background-image:url('//placehold.it/1920x500');">
                     <div class="container"></div>
                 </div>
                 <div class="carousel-caption">
@@ -16,7 +16,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('//placehold.it/1024x500');">
+                <div class="fill" style="background-image:url('//placehold.it/1920x500');">
                     <div class="container">
                     
                     </div>
@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="item">
-                <div class="fill" style="background-image:url('//placehold.it/1024x500/CC1111/FFF');">
+                <div class="fill" style="background-image:url('//placehold.it/1920x500');">
                     <div class="container">
                     
                     </div>

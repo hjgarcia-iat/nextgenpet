@@ -8225,6 +8225,26 @@ html, body {
 
 /*
 //
+// Content Styles
+// --------------------------------------------------
+*/
+.pdf-content {
+  height: 800px;
+  display: none;
+  overflow: hidden;
+  border-bottom: 1px solid #dddddd; }
+  .pdf-content h3 {
+    margin-top: 0; }
+  .pdf-content .iframe {
+    height: 800px;
+    width: 100%;
+    border: 1px solid #dddddd; }
+
+.html-content h3 {
+  margin-top: 0; }
+
+/*
+//
 // Carousel
 // --------------------------------------------------
 */

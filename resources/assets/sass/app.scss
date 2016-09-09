@@ -36,20 +36,48 @@ html, body { height : 100%; }
 // --------------------------------------------------
 */
 .title-bar {
-    background: #1d1819;
+    background : #1d1819;
     h1 {
-        color : #ffffff;
-        font-size: 40px;
-        text-transform: uppercase;
-        font-weight: 300;
-        margin-bottom: 20px;
+        color          : #ffffff;
+        font-size      : 40px;
+        text-transform : uppercase;
+        font-weight    : 300;
+        margin-bottom  : 20px;
     }
 }
 
 .highlight {
-    color: #f68d2d;
+    color : #f68d2d;
 }
 
+/*
+//
+// Content Styles
+// --------------------------------------------------
+*/
+.pdf-content {
+    height        : 800px;
+    display       : none;
+    overflow: hidden;
+    border-bottom: 1px solid #dddddd;
+
+    h3 {
+        margin-top: 0;
+    }
+
+    .iframe {
+        height : 800px;
+        width  : 100%;
+        border: 1px solid #dddddd;
+    }
+
+}
+
+.html-content {
+    h3 {
+        margin-top: 0;
+    }
+}
 
 /*
 //
@@ -82,9 +110,8 @@ html, body { height : 100%; }
 // --------------------------------------------------
 */
 
-
 .media-block {
-    margin: 40px 20px;
+    margin : 40px 20px;
 }
 
 /* keep full widget on smaller screens */
@@ -100,7 +127,7 @@ html, body { height : 100%; }
         border-bottom : 1px dashed #dddddd;
 
         &:last-child {
-            border-bottom: none;
+            border-bottom : none;
         }
     }
 }
@@ -113,13 +140,13 @@ html, body { height : 100%; }
 .list-group {
 
     .list-group-item.active {
-        cursor: default;
+        cursor : default;
     }
 
     .sublink {
         &:after {
             font-family : 'FontAwesome';
-            content : "\f139";
+            content     : "\f139";
             float       : right;
         }
     }
@@ -127,26 +154,25 @@ html, body { height : 100%; }
     .sublink.collapsed {
         &:after {
             content : "\f13a";
-
         }
     }
 
     .sublinks {
-        margin-left: 25px;
+        margin-left : 25px;
 
         .list-group-item {
-            font-size: .95em;
+            font-size : .95em;
         }
 
         .list-group-item:first-child {
-            border-top-left-radius : 0;
+            border-top-left-radius  : 0;
             border-top-right-radius : 0;
         }
 
         .list-group-item:last-child {
-            border-bottom-left-radius : 0;
+            border-bottom-left-radius  : 0;
             border-bottom-right-radius : 0;
-            border-bottom: none;
+            border-bottom              : none;
         }
     }
 }
