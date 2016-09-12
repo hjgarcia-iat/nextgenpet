@@ -31,7 +31,7 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 visible-md visible-lg">
                     <div id="menu">
                         <div class="panel list-group">
                             <a href="{{ url('lecture-style-class') }}"
