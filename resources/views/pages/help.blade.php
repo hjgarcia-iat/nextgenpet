@@ -39,7 +39,7 @@
                     
                     <div class="form-group{{ ($errors->first('subject') ? ' has-error' : '') }}">
                         <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Email" name="subject"
+                        <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject"
                                value="{{ old('subject') }}">
                         {{ $errors->first('subject','<span class="help-block"></span>') }}
                     </div>
