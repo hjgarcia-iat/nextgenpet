@@ -11,7 +11,7 @@
         
         
         <section class="banner-image">
-            <div class="fill" style="background-image:url('//placehold.it/1920x300');">
+            <div class="fill" style="background-image:url('../img/lecture-style-class.jpg');">
                 <div class="container">
                     <div class="banner-box col-xs-12 col-md-8 fade-in one">
                         <strong>Enrollment is greater than 35 students</strong>
