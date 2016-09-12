@@ -8203,6 +8203,13 @@ blockquote {
     line-height: 1.45833333;
     /* 35px / 24px */ } }
 
+a {
+  color: #f68d2d;
+  text-decoration: none; }
+
+a:hover {
+  color: #f68d2d; }
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
   from {
@@ -8400,5 +8407,19 @@ html, body {
     z-index: 100;
     width: 358px;
     top: 70px; } }
+
+/*
+//
+// Buttons
+// --------------------------------------------------
+*/
+.btn-primary {
+  color: #ffffff;
+  background-color: #f68d2d;
+  border-color: #fba128; }
+
+.btn-primary:hover {
+  background-color: #e27a2c;
+  border-color: #ed852c; }
 
 /*# sourceMappingURL=app.css.map */

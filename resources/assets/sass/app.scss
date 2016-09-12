@@ -224,4 +224,20 @@ html, body { height : 100%; }
     }
 }
 
+/*
+//
+// Buttons
+// --------------------------------------------------
+*/
+
+.btn-primary {
+    color            : #ffffff;
+    background-color : #f68d2d;
+    border-color     : #fba128;
+}
+
+.btn-primary:hover {
+    background-color : #e27a2c;
+    border-color     : #ed852c;
+}
 
