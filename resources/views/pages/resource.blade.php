@@ -17,7 +17,7 @@
             </div>
             <div class="row">
                 <div class="col-md-3 visible-lg visible-md">
-                    <img src="//placehold.it/300x200" alt="NextGEN PET" class="img-responsive img-thumbnail">
+                    <img src="{{ asset('img/resource-order.jpg') }}" alt="NextGEN PET" class="img-responsive img-thumbnail">
                 </div>
                 <div class="col-xs-12 col-md-9">
                     <h3>Order Student materials</h3>
@@ -30,7 +30,7 @@
     
             <div class="row">
                 <div class="col-md-3 visible-lg visible-md">
-                    <img src="//placehold.it/300x200" alt="NextGEN PET" class="img-responsive img-thumbnail">
+                    <img src="{{ asset('img/resource-additional-materials.jpg') }}" alt="NextGEN PET" class="img-responsive img-thumbnail">
                 </div>
                 <div class="col-xs-12 col-md-9">
                     <h3>Additional Instructor Resources</h3>

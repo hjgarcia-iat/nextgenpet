@@ -22,7 +22,7 @@
                         <li class="media">
                             <div class="media-left">
                                 <a href="#">
-                                    <img class="media-object img-responsive img-thumbnail" src="//placehold.it/64x64"
+                                    <img class="media-object img-responsive img-thumbnail" src="{{ asset('img/news-icon.jpg') }}"
                                          alt="...">
                                 </a>
                             </div>
@@ -34,7 +34,7 @@
                         <li class="media">
                             <div class="media-left">
                                 <a href="#">
-                                    <img class="media-object img-responsive img-thumbnail" src="//placehold.it/64x64"
+                                    <img class="media-object img-responsive img-thumbnail" src="{{ asset('img/news-icon.jpg') }}"
                                          alt="...">
                                 </a>
                             </div>
