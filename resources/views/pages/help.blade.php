@@ -81,7 +81,7 @@
                     </p>
                 </div>
                 <div class="col-md-7 visible-md visible-lg">
-                    <img src="//placehold.it/600x200" class="img-responsive img-thumbnail" alt="">
+                    <img src="{{ asset('img/contact-us.jpg') }}" class="img-responsive img-thumbnail" alt="">
                 </div>
             </div>
         
