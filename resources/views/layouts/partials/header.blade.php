@@ -66,7 +66,7 @@
                             <a href="{{ url('help') }}">Help</a>
                         </li>
                         <li class="{{ Request::is('login') ? 'active' : '' }}">
-                            <a href="">Login</a>
+                            <a href="https://petcyberpd.iat.com/login/">Login</a>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
