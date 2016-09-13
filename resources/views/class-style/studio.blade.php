@@ -22,7 +22,7 @@
                     </a>
                 </li>
                 <li class="sidebar-menu-link">
-                    <a href="https://petcyberpd.iat.com/introduction/Curriculum/Table_of_Contents_Lecture-style_Class.pdf"
+                    <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
                        data-file="true" target="-_blank">Table of Contents with Time Estimates
                     </a>
                 </li>
@@ -86,7 +86,7 @@
                             <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
                                data-file="true" target="_blank" class="list-group-item">Equipment and Materials
                             </a>
-                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Table_of_Contents_Lecture-style_Class.pdf"
+                            <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
                                     data-file="true" target="-_blank"
                                     class="list-group-item">Table of Contents with Time Estimates
                             </a>
