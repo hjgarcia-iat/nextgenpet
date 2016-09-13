@@ -32,7 +32,7 @@
                     </a>
                 </li>
                 <li class="sidebar-menu-link">
-                    <a href="https://petcyberpd.iat.com/introduction/lecture-style/Next_Gen_PET_Lecture-Style.pdf"
+                    <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
                        target="_blank" data-file="true">Teaching and Learning Materials
                     </a>
                 </li>
@@ -106,7 +106,7 @@
                                data-file="true" target="_blank"
                                class="list-group-item">Student Materials (for viewing only)
                             </a>
-                            <a href="https://petcyberpd.iat.com/introduction/lecture-style/Next_Gen_PET_Lecture-Style.pdf"
+                            <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
                                target="_blank" data-file="true"
                                class="list-group-item">Teaching and Learning Materials
                             </a>
