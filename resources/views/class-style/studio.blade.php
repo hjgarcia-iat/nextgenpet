@@ -5,6 +5,54 @@
         @include('layouts.partials.styles')
     </head>
     <body>
+    
+        <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-lg" style="">
+            <a class="navmenu-brand" href="#">
+                <img src="http://www.iat.com/img/main/978/header-logo-slim.png" alt="It's About Time">
+            </a>
+            <ul class="nav navmenu-nav">
+                @include('class-style/_nav_sidebar_links')
+                <li class="divider"></li>
+                <li class="sidebar-menu-link{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
+                    <a href="{{ url('studio-style-class') }}">Pedagogy</a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
+                       data-file="true" target="_blank">Equipment and Materials
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a href="https://petcyberpd.iat.com/introduction/Curriculum/Table_of_Contents_Lecture-style_Class.pdf"
+                       data-file="true" target="-_blank">Table of Contents with Time Estimates
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
+                       data-file="true" target="_blank">Student Materials (for viewing only)
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a href="https://petcyberpd.iat.com/introduction/lecture-style/Next_Gen_PET_Lecture-Style.pdf"
+                       target="_blank" data-file="true">Teaching and Learning Materials
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a target="_blank"
+                       href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
+                    </a>
+                </li>
+                <li class="sidebar-menu-link">
+                    <a target="_blank"
+                       href="http://nextgenpet.sdsu.edu/lc/">Classroom Videos
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
         @include('layouts.partials.header')
         
         @include('layouts.partials.title')
@@ -79,7 +127,6 @@
                 <div class="col-md-8">
                     <section id="pdf-content" class="pdf-content"></section>
                     <section id="html-content" class="html-content">
-                        
                         <h3>Pedagogy</h3>
                         <p>The <em>Studio-style class (SC)</em> version is appropriate if:</p>
                         <ul>

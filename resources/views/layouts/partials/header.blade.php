@@ -1,11 +1,10 @@
 <header class="site-header">
-    <section class="top-row">
+    <section class="top-row visible-md visible-lg">
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
                     <section class="logo">
-                        <a href="/" class="full visible-md visible-lg"></a>
-                        <a href="/" class="slim visible-xs visible-sm"></a>
+                        <a href="/" class="full"></a>
                     </section>
                 </div>
                 <div class="col-md-8">
@@ -39,13 +38,18 @@
         <nav class="navbar navbar-default nav-justified navbar-static">
             <div class="container">
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
+    
+                    <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
+                        <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
+                    
+                    {{--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"--}}
+                            {{--data-target="#bs-example-navbar-collapse-1" aria-expanded="false">--}}
+                        {{--<span class="sr-only">Toggle navigation</span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                        {{--<span class="icon-bar"></span>--}}
+                    {{--</button>--}}
                 
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
