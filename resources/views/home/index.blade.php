@@ -42,106 +42,93 @@
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Modules_&_Units.pdf"
                            target="_blank">
-                            <img src="{{ asset('img/modules-and-units.jpg') }}" alt="NextGEN PET"
+                            <img width="75" src="{{ asset('img/modules-and-units.jpg') }}" alt="NextGEN PET"
                                  class="img-responsive img-thumbnail center-block">
                         </a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a target="_blank"
                                href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Modules_&_Units.pdf">Modules &amp; Units</a>
-                        </h4>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Curriculum/Learning_Objectives.pdf"
-                           target="_blank"><img src="{{ asset('img/learning-objectives.jpg') }}"
-                                                alt="NextGEN PET"
-                                                class="img-responsive img-thumbnail center-block"></a>
-                        <h4 class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Learning_Objectives.pdf"
-                               target="_blank">Learning Objectives</a>
-                        </h4>
+                        </p>
                     </div>
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Extensions.pdf"
                            target="_blank">
-                            <img src="{{ asset('img/extensions.jpg') }}" alt="NextGEN PET"
+                            <img width="75" src="{{ asset('img/extensions.jpg') }}" alt="NextGEN PET"
                                  class="img-responsive img-thumbnail center-block">
                         </a>
                 
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Extensions.pdf"
                                target="_blank">
                                 Extensions (Homework)
                             </a>
-                        </h4>
+                        </p>
                     </div>
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Teaching_&_Learning_Activities.pdf"
                            target="_blank">
-                            <img src="{{ asset('img/teacher-and-learning-activities.jpg') }}" alt="NextGEN PET"
+                            <img width="75" src="{{ asset('img/teacher-and-learning-activities.jpg') }}" alt="NextGEN PET"
                                  class="img-responsive img-thumbnail center-block">
                         </a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Teaching_&_Learning_Activities.pdf"
                                target="_blank">Teaching &amp; Learning Activities</a>
-                        </h4>
+                        </p>
                     </div>
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Engineering_Design_Activities.pdf"
                            target="_blank">
-                            <img src="{{ asset('img/engineering-design-activities.jpg') }}" alt="NextGEN PET"
+                            <img width="75" src="{{ asset('img/engineering-design-activities.jpg') }}" alt="NextGEN PET"
                                  class="img-responsive img-thumbnail center-block">
                         </a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Engineering_Design_Activities.pdf"
                                target="_blank">Engineering Design Activities</a>
-                        </h4>
+                        </p>
                     </div>
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/General_Information/NGSS_&_Next_Gen_PET.pdf"
                            target="_blank">
-                            <img src="{{ asset('img/ngss-and-next-gen-pet.jpg') }}" alt="NextGEN PET"
+                            <img width="75" src="{{ asset('img/ngss-and-next-gen-pet.jpg') }}" alt="NextGEN PET"
                                  class="img-responsive img-thumbnail center-block">
                         </a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/General_Information/NGSS_&_Next_Gen_PET.pdf"
                                target="_blank">NGSS &amp; Next Gen PET</a>
-                        </h4>
+                        </p>
                     </div>
-                    
-                </div>
-        
-                <div class="row">
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/Pedagogy/Two_Versions_of_Next_Gen_PET.pdf"
-                           target="_blank"><img src="{{ asset('img/learning-objectives.jpg') }}"
+                           target="_blank"><img width="75" src="{{ asset('img/imp_versions.jpg') }}"
                                                 alt="NextGEN PET"
                                                 class="img-responsive img-thumbnail center-block"></a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/Pedagogy/Two_Versions_of_Next_Gen_PET.pdf"
-                               target="_blank">Implementation Versions</a>
-                        </h4>
+                               target="_blank">Implementation Versions
+                            </a>
+                        </p>
                     </div>
-            
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/General_Information/Workshops_for_Faculty_&_PD_Providers.pdf"
-                           target="_blank"><img src="{{ asset('img/learning-objectives.jpg') }}"
+                           target="_blank"><img width="75" src="{{ asset('img/workshops.jpg') }}"
                                                 alt="NextGEN PET"
                                                 class="img-responsive img-thumbnail center-block"></a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/General_Information/Workshops_for_Faculty_&_PD_Providers.pdf"
-                               target="_blank">Workshop for Faculties and PD Providers</a>
-                        </h4>
+                               target="_blank">Workshop for Faculties and PD Providers
+                            </a>
+                        </p>
                     </div>
-            
                     <div class="col-xs-6 col-md-2">
                         <a href="https://petcyberpd.iat.com/introduction/General_Information/About_the_Development_Staff.pdf"
-                           target="_blank"><img src="{{ asset('img/learning-objectives.jpg') }}"
+                           target="_blank"><img width="75" src="{{ asset('img/dev_staff.jpg') }}"
                                                 alt="NextGEN PET"
                                                 class="img-responsive img-thumbnail center-block"></a>
-                        <h4 class="text-center">
+                        <p class="text-center">
                             <a href="https://petcyberpd.iat.com/introduction/General_Information/About_the_Development_Staff.pdf"
-                               target="_blank">About the Development Staff</a>
-                        </h4>
+                               target="_blank">About the Development Staff
+                            </a>
+                        </p>
                     </div>
                 </div>
             </section>
