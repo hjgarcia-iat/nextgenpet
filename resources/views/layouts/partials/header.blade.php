@@ -50,8 +50,8 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="{{ Request::is('about') ? 'active' : '' }}">
-                            <a href="{{ url('about') }}">About</a>
+                        <li class="{{ Request::is('/') ? 'active' : '' }}">
+                            <a href="{{ url('/') }}">Home</a>
                         </li>
                         <li class="{{ Request::is('lecture-style-class') ? 'active' : '' }}">
                             <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
