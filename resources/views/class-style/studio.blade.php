@@ -32,7 +32,7 @@
                     <div id="menu">
                         <div class="panel list-group">
                             <a href="{{ url('lecture-style-class') }}"
-                               class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Pedagogy
+                               class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">Pedagogy
                             </a>
                             
                             <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
