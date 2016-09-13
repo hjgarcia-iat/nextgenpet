@@ -17,7 +17,7 @@
                     <a href="{{ url('studio-style-class') }}">Pedagogy</a>
                 </li>
                 <li class="sidebar-menu-link">
-                    <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
+                    <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Studio-style_Class.pdf"
                        data-file="true" target="_blank">Equipment and Materials
                     </a>
                 </li>
@@ -83,7 +83,7 @@
                                class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">Pedagogy
                             </a>
                             
-                            <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
+                            <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Studio-style_Class.pdf"
                                data-file="true" target="_blank" class="list-group-item">Equipment and Materials
                             </a>
                             <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
