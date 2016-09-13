@@ -36,47 +36,52 @@
                         <div class="panel list-group">
                             <a href="{{ url('lecture-style-class') }}"
                                class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Pedagogy</a>
-                            <a href="#" class="list-group-item">Teaching and Learning Materials</a>
+                            
                             <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
                                data-file="true" target="_blank" class="list-group-item">Equipment and Materials</a>
                             <a href="https://petcyberpd.iat.com/introduction/Curriculum/Table_of_Contents_Lecture-style_Class.pdf"
                                data-file="true" target="-_blank"
                                class="list-group-item">Table of Contents with Time Estimates</a>
                             
-                            <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
-                               data-target="#sm"
-                               data-parent="#menu">Content Modules</a>
-                            <div id="sm" class="sublinks collapse">
-                                <a class="list-group-item">Magnetism and Static Electricity Module</a>
-                                <a class="list-group-item">Interactions and Energy Module</a>
-                                <a class="list-group-item">Interactions and Waves Module</a>
-                                <a class="list-group-item">Waves, Sounds and Light Module</a>
-                                <a class="list-group-item">Matter and Interactions Module</a>
-                            </div>
+                            {{--<a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"--}}
+                            {{--data-target="#sm"--}}
+                            {{--data-parent="#menu">Content Modules</a>--}}
+                            {{--<div id="sm" class="sublinks collapse">--}}
+                            {{--<a class="list-group-item">Magnetism and Static Electricity Module</a>--}}
+                            {{--<a class="list-group-item">Interactions and Energy Module</a>--}}
+                            {{--<a class="list-group-item">Interactions and Waves Module</a>--}}
+                            {{--<a class="list-group-item">Waves, Sounds and Light Module</a>--}}
+                            {{--<a class="list-group-item">Matter and Interactions Module</a>--}}
+                            {{--</div>--}}
                             
                             <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
                                data-file="true" target="_blank"
                                class="list-group-item">Student Materials (for viewing only)</a>
-                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/" class="list-group-item">Extensions Index</a>
-                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/" class="list-group-item">Demonstration Videos</a>
-                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/" class="list-group-item">Videos</a>
-                            <a href="#" class="list-group-item">Simulations</a>
+                            <a href="https://petcyberpd.iat.com/introduction/lecture-style/Next_Gen_PET_Lecture-Style.pdf"
+                               target="_blank" data-file="true"
+                               class="list-group-item">Teaching and Learning Materials</a>
+                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
+                               class="list-group-item">Extensions Index</a>
+                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
+                               class="list-group-item">Demonstration Movies &amp; Videos</a>
+                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
+                               class="list-group-item">Classroom Videos</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-8">
                     <section id="pdf-content" class="pdf-content"></section>
                     <section id="html-content" class="html-content">
-    
+                        
                         <h3>Pedagogy</h3>
                         <p>The Lecture-style class (LC) version is appropriate if:</p>
                         <ul>
                             <li>Students sit in desks and do not have large tables where they can perform
                                 experiments (individual, movable desks are preferred to auditorium-style
                                 seating)
-        
+                            
                             </li>
-        
+                            
                             <li>
                                 Enrollment is greater than 35 students (but lower enrollments are also suitable,
                                 for instance if the room and meeting time requirements preclude using the SC
@@ -115,7 +120,7 @@
                             the appropriate scientific idea(s). Most LC lessons are intended to take 25-75 minutes
                             of class time.
                         </p>
-    
+                        
                         <p>
                             As an example of the LC lesson structure—and the way the <em>Next Gen PET</em> Design
                             Principles are incorporated—consider Lesson 1 from the Force Model Unit of the
@@ -130,7 +135,7 @@
                             between two objects, not something carried by an object or something associated
                             with an individual object.
                         </p>
-    
+                        
                         <p>
                             The <em>Predictions, Observations and Making Sense</em> (POM) section includes three parts;
                             Part 1 addresses the
@@ -214,7 +219,7 @@
                             Lesson 1 is part of a unit that successively builds the complex ideas associated with
                             force and motion (Design Principle 2).
                         </p>
-
+                    
                     </section>
                 </div>
             </div>
