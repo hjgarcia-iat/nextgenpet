@@ -57,7 +57,7 @@
                             <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
                         </li>
                         <li class="{{ Request::is('studio-style-class') ? 'active' : '' }}">
-                            <a href="">Studio Style Class</a>
+                            <a href="{{ url('studio-style-class') }}">Studio Style Class</a>
                         </li>
                         <li class="{{ Request::is('resources') ? 'active' : '' }}">
                             <a href="{{ url('resources') }}">Resources</a>

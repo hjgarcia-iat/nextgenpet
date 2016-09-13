@@ -24,5 +24,9 @@ Route::get('/help', function () {
 });
 
 Route::get('/lecture-style-class', function () {
-    return view('lecture-style.index');
+    return view('class-style.lecture');
+});
+
+Route::get('/studio-style-class', function () {
+    return view('class-style.studio');
 });
