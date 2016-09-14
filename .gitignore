@@ -9,3 +9,4 @@ _ide_helper.php
 /public/img/content
 /public/docs
 /public/build
+.env.*

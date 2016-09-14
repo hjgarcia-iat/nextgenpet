@@ -1,7 +1,7 @@
 @if(env('APP_ENV') == 'local')
     <script src="{{ asset('js/all.js') }}"></script>
 @else
-    <link rel="stylesheet" href="{{ elixir('js/all.js') }}">
+    <script src="{{ elixir('js/all.js') }}"></script>
 @endif
 
 
