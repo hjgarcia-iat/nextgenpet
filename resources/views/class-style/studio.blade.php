@@ -5,7 +5,7 @@
         @include('layouts.partials.styles')
     </head>
     <body>
-    
+        
         <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-lg" style="">
             <a class="navmenu-brand" href="#">
                 <img src="http://www.iat.com/img/main/978/header-logo-slim.png" alt="It's About Time">
@@ -16,32 +16,32 @@
                 <li class="sidebar-menu-link{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
                     <a href="{{ url('studio-style-class') }}">Pedagogy</a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Studio-style_Class.pdf"
-                       data-file="true" target="_blank">Equipment and Materials
+                       target="_blank">Equipment and Materials
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
-                       data-file="true" target="-_blank">Table of Contents with Time Estimates
+                       target="-_blank">Table of Contents with Time Estimates
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
-                       data-file="true" target="_blank">Student Materials (for viewing only)
+                       target="_blank">Student Materials (for viewing only)
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
-                       target="_blank" data-file="true">Teaching and Learning Materials
+                       target="_blank"> Teaching and Learning Materials
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a target="_blank"
                        href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
+                <li>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
                     </a>
                 </li>
@@ -87,8 +87,8 @@
                                data-file="true" target="_blank" class="list-group-item">Equipment and Materials
                             </a>
                             <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
-                                    data-file="true" target="-_blank"
-                                    class="list-group-item">Table of Contents with Time Estimates
+                               data-file="true" target="-_blank"
+                               class="list-group-item">Table of Contents with Time Estimates
                             </a>
                             
                             {{--<a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"--}}
