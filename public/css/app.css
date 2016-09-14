@@ -8594,12 +8594,6 @@ button.close {
     margin-left: 10px;
     border-radius: 6px 0 6px 6px; }
 
-.page-footer {
-  border-top: 1px solid #f3f3f3;
-  margin-top: 20px;
-  margin-bottom: 40px;
-  padding-top: 20px; }
-
 /*
 //
 // General Bootstrap Resets and Overides
@@ -8793,8 +8787,21 @@ a:hover {
         font-size: 13px;
         white-space: normal; }
 
-html, body {
-  height: 100%; }
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  margin-bottom: 80px; }
+
+.page-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 80px; }
+  .page-footer .page-footer-content {
+    border-top: 1px solid #f3f3f3;
+    padding: 20px 0; }
 
 /*
 //

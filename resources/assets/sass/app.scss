@@ -31,7 +31,23 @@ $input-border-focus : $general-color-orange;
 @import "animations";
 @import "sidebar";
 
-html, body { height : 100%; }
+html { position: relative; min-height: 100%; }
+
+body {
+    margin-bottom: 80px;
+}
+
+.page-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+
+    .page-footer-content {
+        border-top : 1px solid #f3f3f3;
+        padding: 20px 0;
+    }
+}
 
 /*
 //
