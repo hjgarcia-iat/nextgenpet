@@ -8733,6 +8733,20 @@ body {
         font-size: 13px;
         white-space: normal; }
 
+.nav .social-icons {
+  background: #2a2a2a; }
+  .nav .social-icons a {
+    float: left;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    background: #111111 !important;
+    color: white !important;
+    border-radius: 50%; }
+  .nav .social-icons a:hover {
+    color: white !important;
+    background: #111111 !important; }
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
   from {
