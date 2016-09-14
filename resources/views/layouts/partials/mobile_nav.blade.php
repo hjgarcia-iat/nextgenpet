@@ -57,7 +57,7 @@
                     <a href="{{ url('studio-style-class') }}">Pedagogy</a>
                 </li>
                 <li>
-                    <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Studio-style_Class.pdf"
+                    <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
                        target="_blank">Equipment and Materials
                     </a>
                 </li>
@@ -67,7 +67,7 @@
                     </a>
                 </li>
                 <li>
-                    <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
+                    <a href="{{ asset('docs/Next_Gen_PET_Studio-style_Class.pdf') }}"
                        target="_blank">Student Materials (for viewing only)
                     </a>
                 </li>
