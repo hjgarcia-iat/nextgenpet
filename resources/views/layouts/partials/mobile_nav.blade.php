@@ -1,6 +1,6 @@
-<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-lg" style="">
+<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-lg">
     <a class="navmenu-brand" href="#">
-        <img src="http://www.iat.com/img/main/978/header-logo-slim.png" alt="It's About Time">
+        <img src="{{ asset('img/mobile-logo.png') }}" alt="It's About Time">
     </a>
     <ul class="nav navmenu-nav">
         <li class="{{ Request::is('/') ? 'active' : '' }}">

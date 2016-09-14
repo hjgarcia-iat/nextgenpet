@@ -5,16 +5,7 @@
 .logo .full {
     width      : 222px;
     height     : 89px;
-    background : transparent url(http://www.iat.com/img/main/978/header-logo-full-20140314.png) no-repeat 0 0;
-    display    : block;
-}
-
-.logo .slim {
-    width      : 221px;
-    height     : 20px;
-    background : transparent url(http://www.iat.com/img/main/978/header-logo-slim.png) no-repeat 0 0;
-    left       : 4px;
-    top        : 9px;
+    background : transparent url('../img/logo.png') no-repeat 0 0;
     display    : block;
 }
 
