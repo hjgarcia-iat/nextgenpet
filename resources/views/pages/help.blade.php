@@ -5,14 +5,7 @@
         @include('layouts.partials.styles')
     </head>
     <body>
-        <div class="navmenu navmenu-default navmenu-fixed-left offcanvas-lg" style="">
-            <a class="navmenu-brand" href="#">
-                <img src="http://www.iat.com/img/main/978/header-logo-slim.png" alt="It's About Time">
-            </a>
-            <ul class="nav navmenu-nav">
-                @include('class-style/_nav_sidebar_links')
-            </ul>
-        </div>
+        @include('layouts.partials.mobile_nav')
         @include('layouts.partials.header')
         
         @include('layouts.partials.title')
