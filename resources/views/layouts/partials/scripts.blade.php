@@ -1,8 +1,9 @@
-<script src="https://code.jquery.com/jquery-1.12.4.js"
-        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
-        crossorigin="anonymous"></script>
-<script src="{{ asset('js/bootstrap.js') }}"></script>
-<script src="{{ asset('js/jasny-bootstrap.min.js') }}"></script>
+@if(env('APP_ENV') == 'local')
+    <script src="{{ asset('js/all.js') }}"></script>
+@else
+    <link rel="stylesheet" href="{{ elixir('js/all.js') }}">
+@endif
+
 
 <script>
     $(function () {
