@@ -15,9 +15,9 @@ Route::get('/', function () {
     return view('home.index');
 });
 
-Route::get('/resources', function () {
-    return view('pages.resource');
-});
+//Route::get('/resources', function () {
+//    return view('pages.resource');
+//});
 
 Route::get('/help', function () {
     return view('pages.help');

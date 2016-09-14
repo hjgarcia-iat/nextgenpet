@@ -63,9 +63,9 @@
                         <li class="{{ Request::is('studio-style-class') ? 'active' : '' }}">
                             <a href="{{ url('studio-style-class') }}">Studio Style Class</a>
                         </li>
-                        <li class="{{ Request::is('resources') ? 'active' : '' }}">
-                            <a href="{{ url('resources') }}">Resources</a>
-                        </li>
+                        {{--<li class="{{ Request::is('resources') ? 'active' : '' }}">--}}
+                            {{--<a href="{{ url('resources') }}">Resources</a>--}}
+                        {{--</li>--}}
                         <li class="{{ Request::is('help') ? 'active' : '' }}">
                             <a href="{{ url('help') }}">Help</a>
                         </li>
