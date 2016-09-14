@@ -38,7 +38,7 @@
                                class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Pedagogy
                             </a>
                             
-                            <a href="https://petcyberpd.iat.com/introduction/Planning_Your_Course/Equipment-Materials_Lecture-style_Class.pdf"
+                            <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
                                data-file="true" target="_blank" class="list-group-item">Equipment and Materials
                             </a>
                             <a href="{{ asset('docs/Table_of_Contents_Lecture-style_Class.pdf') }}"
@@ -57,7 +57,7 @@
                             {{--<a class="list-group-item">Matter and Interactions Module</a>--}}
                             {{--</div>--}}
                             
-                            <a href="https://petcyberpd.iat.com/introduction/studio-style/Next_Gen_PET_Studio-style_Class.pdf"
+                            <a href="{{ asset('docs/Next_Gen_PET_Lecture-Style.pdf') }}"
                                data-file="true" target="_blank"
                                class="list-group-item">Student Materials (for viewing only)
                             </a>
