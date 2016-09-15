@@ -1,4 +1,4 @@
-<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-lg">
+<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-sm">
     <a class="navmenu-brand" href="#">
         <img src="{{ asset('img/mobile-logo.png') }}" alt="It's About Time">
     </a>
@@ -27,8 +27,47 @@
 
         </li>
         
-        <li class="{{ Request::is('/') ? 'active' : '' }}">
-            <a href="{{ url('/') }}">Home</a>
+        <li class="dropdown{{ (Request::is('/') or Request::is('about/*') or Request::is('workshops')) ? ' active open' : '' }}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
+            <ul class="dropdown-menu navmenu-nav">
+                
+                
+                <li class="{{ (Request::is('/')) ? 'active' : '' }}">
+                    <a href="{{ url('/') }}">About</a>
+                </li>
+                <li class="{{ (Request::is('about/module-and-units')) ? 'active' : '' }}">
+                    <a href="{{ asset('about/module-and-units') }}">Modules &amp; Units
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/overview-of-extensions')) ? 'active' : '' }}">
+                    <a href="{{ url('about/overview-of-extensions') }}">Overview of Extensions (Homework)
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/overview-of-teaching-and-learning-activities')) ? 'active' : '' }}">
+                    <a href="{{ url('about/overview-of-teaching-and-learning-activities') }}">Overview of Teaching &amp; Learning Activities
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/engineering-design-activities')) ? 'active' : '' }}">
+                    <a href="{{ url('about/engineering-design-activities') }}">Engineering Design Activities
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/ngss-and-next-gen-pet')) ? 'active' : '' }}">
+                    <a href="{{ url('about/ngss-and-next-gen-pet') }}">NGSS &amp; Next Gen PET
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/implementation-versions')) ? 'active' : '' }}">
+                    <a href="{{ url('about/implementation-versions') }}">Implementation Versions
+                    </a>
+                </li>
+                <li class="{{ (Request::is('workshops')) ? 'active' : '' }}">
+                    <a href="{{ url('workshops') }}">Workshops for Faculties &amp; PDF Providers
+                    </a>
+                </li>
+                <li class="{{ (Request::is('about/development-staff')) ? 'active' : '' }}">
+                    <a href="{{ url('about/development-staff') }}">About the Development Staff
+                    </a>
+                </li>
+            </ul>
         </li>
     
         <li class="dropdown{{ Request::is('lecture-style-class') ? ' active open' : '' }}">
