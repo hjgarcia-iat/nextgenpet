@@ -25,32 +25,29 @@
                     {{ Form::open(['class' => 'form']) }}
                     
                     <div class="form-group{{ ($errors->first('name') ? ' has-error' : '') }}">
-                        <label for="name">Name</label>
-                        <input type="text" class="form-control" id="name" placeholder="Name" name="name"
-                               value="{{ old('name') }}">
+                        <label for="name">Name</label> <input type="text" class="form-control" id="name"
+                                                              placeholder="Name" name="name"
+                                                              value="{{ old('name') }}">
                         {{ $errors->first('name','<span class="help-block"></span>') }}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('email') ? ' has-error' : '') }}">
-                        <label for="email">Email Address</label>
-                        <input type="email" class="form-control" id="email" placeholder="Email" name="email"
-                               value="{{ old('email') }}">
+                        <label for="email">Email Address</label> <input type="email" class="form-control" id="email"
+                                                                        placeholder="Email" name="email"
+                                                                        value="{{ old('email') }}">
                         {{ $errors->first('name','<span class="help-block"></span>') }}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('subject') ? ' has-error' : '') }}">
-                        <label for="subject">Subject</label>
-                        <input type="text" class="form-control" id="subject" placeholder="Subject" name="subject"
-                               value="{{ old('subject') }}">
+                        <label for="subject">Subject</label> <input type="text" class="form-control" id="subject"
+                                                                    placeholder="Subject" name="subject"
+                                                                    value="{{ old('subject') }}">
                         {{ $errors->first('subject','<span class="help-block"></span>') }}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('message') ? ' has-error' : '') }}">
                         <label for="message">Subject</label>
-                        <textarea name="message" id="message" class="form-control" placeholder="Message" cols="30"
-                                  rows="10">
-                            {{ old('message') }}
-                        </textarea>
+                        <textarea name="message" id="message" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
                         
                         {{ $errors->first('message','<span class="help-block"></span>') }}
                     </div>
@@ -67,18 +64,10 @@
                 <div class="col-xs-12 col-md-5">
                     <h4>Contact Us</h4>
                     <p>
-                        It's About Time<sup>&reg;</sup>
-                        <br>
-                        333 North Bedford Road Suite 110
-                        <br>
-                        Mount Kisco, N.Y. 10549
+                    It's About Time<sup>&reg;</sup> <br> 333 North Bedford Road Suite 110 <br> Mount Kisco, N.Y. 10549
                     </p>
                     <p>
-                        Toll Free: 1-888-698-TIME
-                        <br>
-                        Office: 914-273-2233
-                        <br>
-                        Fax: 914-206-6444
+                    Toll Free: 1-888-698-TIME <br> Office: 914-273-2233 <br> Fax: 914-206-6444
                     </p>
                 </div>
                 <div class="col-md-7 visible-md visible-lg">

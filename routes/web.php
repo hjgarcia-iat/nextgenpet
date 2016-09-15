@@ -11,6 +11,8 @@
 |
 */
 
+use Illuminate\Http\Request;
+
 Route::get('/', function () {
     return view('home.index');
 });
@@ -61,6 +63,14 @@ Route::get('about/development-staff', function () {
 
 Route::get('/help', function () {
     return view('pages.help');
+});
+
+Route::post('/help', function (Request $request) {
+
+
+
+
+    return redirect()->to('help');
 });
 
 Route::get('/lecture-style-class', function () {
