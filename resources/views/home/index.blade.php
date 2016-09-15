@@ -5,136 +5,105 @@
         @include('layouts.partials.styles')
     </head>
     <body>
-    
+        
         @include('layouts.partials.mobile_nav')
         
         @include('layouts.partials.header')
-    
+        
         @include('layouts.partials.title')
         
         
         @include('home._slider')
         
+        
         <div class="container">
-            <section class="media-block">
-                <div class="row">
-            
-                    <div class="col-md-12">
-                        <h2>About</h2>
-                    </div>
-                    <div class="col-md-2 visible-lg visible-md">
-                        <img src="{{ asset('img/cover.jpg') }}" alt="NextGEN PET"
-                             class="img-responsive img-thumbnail">
-                    </div>
-                    <div class="col-xs-12 col-md-10">
-                        <p class="lead">Next Gen PET is intended primarily for university courses in physics or physical science for prospective elementary teachers. There is sufficient material for a one-semester (quarter) course or a two-semester (two quarter) sequence. Next Gen PET is also appropriate for general education courses on conceptual physics or physical science, science methods courses, or workshops for inservice teachers. Next Gen PET materials are flexible and modular, and instructors can use them in a variety of ways, depending on audience, time, and learning objectives.</p>
-                
-                        <a href="https://petcyberpd.iat.com/introduction/General_Information/Overview_of_Next_Gen_PET.pdf"
-                           target="_blank" class="btn btn-primary">Learn More</a>
-                    </div>
-        
-        
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Overview</h2>
                 </div>
-            </section>
-            <hr>
-            <section class="media-block">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h2>Overview</h2>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Modules_&_Units.pdf"
-                           target="_blank">
-                            <img width="75" src="{{ asset('img/modules-and-units.jpg') }}" alt="NextGEN PET"
-                                 class="img-responsive img-thumbnail center-block">
-                        </a>
-                        <p class="text-center">
-                            <a target="_blank"
-                               href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Modules_&_Units.pdf">Modules &amp; Units</a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Extensions.pdf"
-                           target="_blank">
-                            <img width="75" src="{{ asset('img/extensions.jpg') }}" alt="NextGEN PET"
-                                 class="img-responsive img-thumbnail center-block">
-                        </a>
-                
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Extensions.pdf"
-                               target="_blank">
-                                Extensions (Homework)
+            </div>
+            <div class="row">
+                <div class="col-md-4 visible-md visible-lg">
+                    <div id="menu">
+                        <div class="panel list-group">
+                            <a href="{{ url('/') }}"
+                               class="list-group-item{{ (Request::is('/')) ? ' active' : '' }}">
+                                About
                             </a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Teaching_&_Learning_Activities.pdf"
-                           target="_blank">
-                            <img width="75" src="{{ asset('img/teacher-and-learning-activities.jpg') }}" alt="NextGEN PET"
-                                 class="img-responsive img-thumbnail center-block">
-                        </a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Teaching_&_Learning_Activities.pdf"
-                               target="_blank">Teaching &amp; Learning Activities</a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Engineering_Design_Activities.pdf"
-                           target="_blank">
-                            <img width="75" src="{{ asset('img/engineering-design-activities.jpg') }}" alt="NextGEN PET"
-                                 class="img-responsive img-thumbnail center-block">
-                        </a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/Curriculum/Overview_of_Engineering_Design_Activities.pdf"
-                               target="_blank">Engineering Design Activities</a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/General_Information/NGSS_&_Next_Gen_PET.pdf"
-                           target="_blank">
-                            <img width="75" src="{{ asset('img/ngss-and-next-gen-pet.jpg') }}" alt="NextGEN PET"
-                                 class="img-responsive img-thumbnail center-block">
-                        </a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/General_Information/NGSS_&_Next_Gen_PET.pdf"
-                               target="_blank">NGSS &amp; Next Gen PET</a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/Pedagogy/Two_Versions_of_Next_Gen_PET.pdf"
-                           target="_blank"><img width="75" src="{{ asset('img/imp_versions.jpg') }}"
-                                                alt="NextGEN PET"
-                                                class="img-responsive img-thumbnail center-block"></a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/Pedagogy/Two_Versions_of_Next_Gen_PET.pdf"
-                               target="_blank">Implementation Versions
+                            <a href=""
+                               class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">Modules &amp; Units
                             </a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/General_Information/Workshops_for_Faculty_&_PD_Providers.pdf"
-                           target="_blank"><img width="75" src="{{ asset('img/workshops.jpg') }}"
-                                                alt="NextGEN PET"
-                                                class="img-responsive img-thumbnail center-block"></a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/General_Information/Workshops_for_Faculty_&_PD_Providers.pdf"
-                               target="_blank">Workshop for Faculties and PD Providers
+                            
+                            <a href="" class="list-group-item">Extensions (Homework)
                             </a>
-                        </p>
-                    </div>
-                    <div class="col-xs-6 col-md-2">
-                        <a href="https://petcyberpd.iat.com/introduction/General_Information/About_the_Development_Staff.pdf"
-                           target="_blank"><img width="75" src="{{ asset('img/dev_staff.jpg') }}"
-                                                alt="NextGEN PET"
-                                                class="img-responsive img-thumbnail center-block"></a>
-                        <p class="text-center">
-                            <a href="https://petcyberpd.iat.com/introduction/General_Information/About_the_Development_Staff.pdf"
-                               target="_blank">About the Development Staff
+                            <a href="" class="list-group-item">Teaching &amp; Learning
                             </a>
-                        </p>
+                            <a href="" class="list-group-item">Engineering Design Activities
+                            </a>
+                            <a href=""
+                               class="list-group-item">NGSS &amp; Next Gen PET
+                            </a>
+                            <a href=""
+                               class="list-group-item">Implementation Versions
+                            </a>
+                            <a class="list-group-item">Workshops for Faculties &amp; PDF Providers
+                            </a>
+                            <a href=""
+                               class="list-group-item">About the Development Staff
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </section>
+                <div class="col-md-8">
+                    <section class="html-content">
+                        <h3>About</h3>
+                        
+                        <p>
+                        <strong class="highlight">Science courses or science methods courses</strong>
+                        <em>Next Gen PET</em> is intended primarily for university courses in physics or physical science for prospective elementary teachers. There is sufficient material for a one-semester (quarter) course or a two-semester (two-quarter) sequence.
+                        <em>Next Gen PET</em> is also appropriate for general education courses on conceptual physics or physical science, science methods courses, or workshops for in-service teachers.
+                        <em>Next Gen PET</em> materials are flexible and modular, and instructors can use them in a variety of ways, depending on audience, time, and learning objectives.
+                        </p>
+                        <p>
+                        <strong class="highlight">NGSS alignment</strong> The
+                        <em>Next Gen PET</em> materials are aligned with the physical science disciplinary core ideas, crosscutting concepts, and science and engineering practices in the National Research Council K-12 Science Education Framework and Next Generation Science Standards (NGSS).
+                        <em>Next Gen PET</em> consists of five modules: (1) Developing Models for Magnetism and Static Electricity; (2) Interactions and Energy; (3) Interactions and Forces; (4) Waves, Sound and Light; and (5) Matter and Interactions.
+                        <em>Next Gen PET</em> students will be prepared for teaching elementary-level science in alignment with the NGSS.
+                        </p>
+                        <p>
+                        <strong class="highlight">Versions for small or large courses</strong>
+                        <em>Next Gen PET</em> is a suite of materials, with a
+                        <em>mStudio Style Class</em> version for small lab and discussion classroom environments of 12-36 students; and a Lecture-style Class version for lecture-style classrooms. In both versions, students draw on evidence, discuss ideas, develop, test and modify models, and engage in practices of scientific argumentation.
+                        </p>
+                        
+                        <p>
+                        <strong class="highlight">Explicit focus on teaching and learning</strong> Included
+                        <em>Teaching and Learning activities</em> help students make explicit connections between their own learning, the learning and teaching of children in elementary school, and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS. These can be used optionally, as desired.
+                        </p>
+                        <p>
+                        <strong class="highlight">Integrated Engineering Design Activities</strong> Each of the five content modules includes two
+                        <em>Engineering Design Activities</em> requiring application of the module’s physical science content.
+                        </p>
+                        <p>
+                        <strong class="highlight">Research based and proven</strong>
+                        <em>Next Gen PET</em> has been developed over the past ten years by a team of scientists and science educators using design principles based on research on science learning.
+                        <em>Next Gen PET</em> uses a proven, guided-inquiry approach that engages future teachers in many of the practices of science while developing a deep understanding of core ideas of physics or physical science (physics and chemistry). Preliminary data from learning impact studies suggest that both the
+                        <em>Studio-style Class</em> and <em>Lecture-style Class</em> versions of
+                        <em>Next Gen PET</em> promote significant growth in students’ conceptual understanding. Studies of the earlier versions of
+                        <em>Next Gen PET</em> found significant gains in students’ conceptual understanding of core ideas from physical science and significant positive shifts in their attitudes and beliefs about the nature of science and their learning of science.
+                        </p>
+                        
+                        <p>
+                        To learn more about <em>Next Gen PET</em>'s Flexibility,
+                        <a href="">click here</a>
+                        </p>
+                        <p>
+                        Learn how <em>Next Gen PET</em> is Research-Based,
+                        <a href="">click here</a>
+                        </p>
+                    </section>
+                </div>
+            </div>
         </div>
         
         @include('layouts.partials.footer')
