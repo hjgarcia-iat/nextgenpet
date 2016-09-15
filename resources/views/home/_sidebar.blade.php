@@ -4,8 +4,8 @@
            class="list-group-item{{ (Request::is('/') or Request::is('about/flexibility') or Request::is('about/research-based')) ? ' active' : '' }}">
             About
         </a>
-        <a href=""
-           class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">Modules &amp; Units
+        <a href="{{ url('about/module-and-units') }}"
+           class="list-group-item{{ (Request::is('about/module-and-units')) ? ' active' : '' }}">Modules &amp; Units
         </a>
         
         <a href="" class="list-group-item">Extensions (Homework)
