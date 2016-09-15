@@ -15,6 +15,18 @@ Route::get('/', function () {
     return view('home.index');
 });
 
+Route::get('about/module-and-units', function(){
+    return view('home.modules');
+});
+
+Route::get('about/flexibility', function () {
+    return view('home.flexibility');
+});
+
+Route::get('about/research-based', function () {
+    return view('home.research-based');
+});
+
 //Route::get('/resources', function () {
 //    return view('pages.resource');
 //});

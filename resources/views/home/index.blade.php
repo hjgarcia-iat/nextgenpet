@@ -24,35 +24,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 visible-md visible-lg">
-                    <div id="menu">
-                        <div class="panel list-group">
-                            <a href="{{ url('/') }}"
-                               class="list-group-item{{ (Request::is('/')) ? ' active' : '' }}">
-                                About
-                            </a>
-                            <a href=""
-                               class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">Modules &amp; Units
-                            </a>
-                            
-                            <a href="" class="list-group-item">Extensions (Homework)
-                            </a>
-                            <a href="" class="list-group-item">Teaching &amp; Learning
-                            </a>
-                            <a href="" class="list-group-item">Engineering Design Activities
-                            </a>
-                            <a href=""
-                               class="list-group-item">NGSS &amp; Next Gen PET
-                            </a>
-                            <a href=""
-                               class="list-group-item">Implementation Versions
-                            </a>
-                            <a class="list-group-item">Workshops for Faculties &amp; PDF Providers
-                            </a>
-                            <a href=""
-                               class="list-group-item">About the Development Staff
-                            </a>
-                        </div>
-                    </div>
+                    @include('home._sidebar')
                 </div>
                 <div class="col-md-8">
                     <section class="html-content">
@@ -95,11 +67,11 @@
                         
                         <p>
                         To learn more about <em>Next Gen PET</em>'s Flexibility,
-                        <a href="">click here</a>
+                        <a href="{{ url('about/flexibility') }}">click here</a>
                         </p>
                         <p>
                         Learn how <em>Next Gen PET</em> is Research-Based,
-                        <a href="">click here</a>
+                        <a href="{{ url('about/research-based') }}">click here</a>
                         </p>
                     </section>
                 </div>

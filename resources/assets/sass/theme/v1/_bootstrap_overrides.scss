@@ -171,3 +171,16 @@ hr {
     background-color : #e27a2c;
     border-color     : #ed852c;
 }
+
+/*
+//
+// Tables
+// --------------------------------------------------
+*/
+.table {
+    thead th {
+        background : $general-color-orange;
+        color      : white;
+        text-align: center;
+    }
+}
