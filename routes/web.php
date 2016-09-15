@@ -15,16 +15,44 @@ Route::get('/', function () {
     return view('home.index');
 });
 
-Route::get('about/module-and-units', function(){
-    return view('home.modules');
-});
-
 Route::get('about/flexibility', function () {
     return view('home.flexibility');
 });
 
 Route::get('about/research-based', function () {
     return view('home.research-based');
+});
+
+Route::get('about/module-and-units', function(){
+    return view('home.modules');
+});
+
+Route::get('about/overview-of-extensions', function () {
+    return view('home.extensions');
+});
+
+Route::get('about/overview-of-teaching-and-learning-activities', function () {
+    return view('home.teaching-and-learning');
+});
+
+Route::get('about/engineering-design-activities', function () {
+    return view('home.engineering');
+});
+
+Route::get('about/ngss-and-next-gen-pet', function () {
+    return view('home.ngss');
+});
+
+Route::get('about/implementation-versions', function () {
+    return view('home.implementation');
+});
+
+Route::get('workshops', function () {
+    return view('home.workshops');
+});
+
+Route::get('about/development-staff', function () {
+    return view('home.staff');
 });
 
 //Route::get('/resources', function () {

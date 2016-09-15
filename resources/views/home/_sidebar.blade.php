@@ -8,22 +8,25 @@
            class="list-group-item{{ (Request::is('about/module-and-units')) ? ' active' : '' }}">Modules &amp; Units
         </a>
         
-        <a href="" class="list-group-item">Extensions (Homework)
+        <a href="{{ url('about/overview-of-extensions') }}"
+           class="list-group-item{{ (Request::is('about/overview-of-extensions')) ? ' active' : '' }}">Overview of Extensions (Homework)
         </a>
-        <a href="" class="list-group-item">Teaching &amp; Learning
+        <a href="{{ url('about/overview-of-teaching-and-learning-activities') }}"
+           class="list-group-item{{ (Request::is('about/overview-of-teaching-and-learning-activities')) ? ' active' : '' }}">Overview of Teaching &amp; Learning Activities
         </a>
-        <a href="" class="list-group-item">Engineering Design Activities
+        <a href="{{ url('about/engineering-design-activities') }}"
+           class="list-group-item{{ (Request::is('about/engineering-design-activities')) ? ' active' : '' }}">Engineering Design Activities
         </a>
-        <a href=""
-           class="list-group-item">NGSS &amp; Next Gen PET
+        <a href="{{ url('about/ngss-and-next-gen-pet') }}"
+           class="list-group-item{{ (Request::is('about/ngss-and-next-gen-pet')) ? ' active' : '' }}">NGSS &amp; Next Gen PET
         </a>
-        <a href=""
-           class="list-group-item">Implementation Versions
+        <a href="{{ url('about/implementation-versions') }}"
+           class="list-group-item{{ (Request::is('about/implementation-versions')) ? ' active' : '' }}">Implementation Versions
         </a>
-        <a class="list-group-item">Workshops for Faculties &amp; PDF Providers
+        <a href="{{ url('workshops') }}" class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">Workshops for Faculties &amp; PDF Providers
         </a>
-        <a href=""
-           class="list-group-item">About the Development Staff
+        <a href="{{ url('about/development-staff') }}"
+           class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">About the Development Staff
         </a>
     </div>
 </div>
