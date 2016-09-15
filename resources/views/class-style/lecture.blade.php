@@ -16,10 +16,7 @@
         <section class="banner-image">
             <div class="fill" style="background-image:url('../img/lecture-style-class.jpg');">
                 <div class="container">
-                    <div class="banner-box col-xs-12 col-md-8 fade-in one">
-                        <strong>Enrollment is greater than 35 students</strong>
-                        <br> Students do not have large tables where they can perform experiments Individual, movable desks are preferred to auditorium-style seating 45 hours/semester, typically in 50- or 75-minute sessions
-                    </div>
+                    
                 </div>
             </div>
         </section>
