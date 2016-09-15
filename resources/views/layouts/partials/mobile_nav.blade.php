@@ -1,4 +1,4 @@
-<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-sm">
+<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-lg">
     <a class="navmenu-brand" href="#">
         <img src="{{ asset('img/mobile-logo.png') }}" alt="It's About Time">
     </a>
