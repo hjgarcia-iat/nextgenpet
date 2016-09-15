@@ -23,6 +23,6 @@ $(function () {
         $('#html-content').hide().siblings('#pdf-content').show();
         $('#pdf-content').html('<h3>' + $(this).text() + '</h3><iframe class="iframe" src="' + $(this).attr('href') + '"></iframe>');
 
-    })
+    });
 
 });
