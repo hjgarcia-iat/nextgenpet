@@ -45,11 +45,11 @@
                         {{ $errors->first('subject','<span class="help-block"></span>') }}
                     </div>
                     
-                    <div class="form-group{{ ($errors->first('message') ? ' has-error' : '') }}">
-                        <label for="message">Subject</label>
-                        <textarea name="message" id="message" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                    <div class="form-group{{ ($errors->first('comment') ? ' has-error' : '') }}">
+                        <label for="comment">Message</label>
+                        <textarea name="comment" id="comment" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
                         
-                        {{ $errors->first('message','<span class="help-block"></span>') }}
+                        {{ $errors->first('comment','<span class="help-block"></span>') }}
                     </div>
                     
                     <input type="submit" name="submit" class="btn btn-primary" value="Submit">

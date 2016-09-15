@@ -11,6 +11,7 @@
 |
 */
 
+use App\Mail\Help;
 use Illuminate\Http\Request;
 
 Route::get('/', function () {
@@ -67,8 +68,7 @@ Route::get('/help', function () {
 
 Route::post('/help', function (Request $request) {
 
-
-
+    \Mail::to('contact@iat.com')->send(new Help($request));
 
     return redirect()->to('help');
 });
