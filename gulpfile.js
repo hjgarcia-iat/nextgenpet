@@ -14,16 +14,13 @@ require('laravel-elixir-vue');
  */
 
 elixir(function (mix) {
-    mix.sass(['app.scss']);
+    mix.sass(['app.scss']).version('css/app.css');
     mix.scripts([
         './public/js/jquery.js',
         './public/js/bootstrap.js',
         './public/js/jasny-bootstrap.min.js',
         './public/js/app.js'
     ],'public/js/all.js');
-
-    mix.version('css/app.css');
-    mix.version('js/all.js');
 
     mix.copy('public/fonts', 'public/build/fonts')
         .copy('public/img', 'public/build/img');
