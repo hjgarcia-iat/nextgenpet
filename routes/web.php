@@ -70,6 +70,8 @@ Route::post('/help', function (HelpRequest $request) {
 
     \Mail::to('contact@iat.com')->send(new Help($request));
 
+    Session::flash('success','Message sent!');
+
     return redirect()->to('help');
 });
 

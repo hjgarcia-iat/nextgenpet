@@ -24,6 +24,9 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
+                    
+                    @include('layouts.partials.message')
+                    
                     <h4>
                         We'd love to hear from you
                     </h4>
