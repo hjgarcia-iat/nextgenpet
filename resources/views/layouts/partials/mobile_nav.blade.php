@@ -155,11 +155,7 @@
                 </li>
             </ul>
         </li>
-    
-    
-        <li class="{{ Request::is('resources') ? 'active' : '' }}">
-            <a href="{{ url('resources') }}">Resources</a>
-        </li>
+        
         <li class="{{ Request::is('help') ? 'active' : '' }}">
             <a href="{{ url('help') }}">Help</a>
         </li>
