@@ -68,7 +68,7 @@
                             <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
                                class="list-group-item">Demonstration Movies &amp; Videos
                             </a>
-                            <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
+                            <a href="{{ url('lecture-style-class/classroom-videos') }}"
                                class="list-group-item">Classroom Videos
                             </a>
                         </div>
