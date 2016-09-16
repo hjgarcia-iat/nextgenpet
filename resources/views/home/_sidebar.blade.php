@@ -23,7 +23,7 @@
         <a href="{{ url('about/implementation-versions') }}"
            class="list-group-item{{ (Request::is('about/implementation-versions')) ? ' active' : '' }}">Implementation Versions
         </a>
-        <a href="{{ url('workshops') }}" class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">Workshops for Faculties &amp; PDF Providers
+        <a href="{{ url('workshops') }}" class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">Workshops for Faculties &amp; PD Providers
         </a>
         <a href="{{ url('about/development-staff') }}"
            class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">About the Development Staff

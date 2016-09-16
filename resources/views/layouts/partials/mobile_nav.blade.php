@@ -60,7 +60,7 @@
                     </a>
                 </li>
                 <li class="{{ (Request::is('workshops')) ? 'active' : '' }}">
-                    <a href="{{ url('workshops') }}">Workshops for Faculties &amp; PDF Providers
+                    <a href="{{ url('workshops') }}">Workshops for Faculties &amp; PD Providers
                     </a>
                 </li>
                 <li class="{{ (Request::is('about/development-staff')) ? 'active' : '' }}">
