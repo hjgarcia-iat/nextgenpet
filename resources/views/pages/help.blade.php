@@ -9,7 +9,13 @@
         @include('layouts.partials.header')
         
         @include('layouts.partials.title')
-        
+        <section class="banner-image">
+            <div class="fill" style="background-image:url('../img/lecture-style-class.jpg');">
+                <div class="container">
+            
+                </div>
+            </div>
+        </section>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
