@@ -21,7 +21,7 @@ class HelpController extends Controller
      */
     public function create()
     {
-        return view('pages.help')->with('pageTitle', 'Help');
+        return view('help.create')->with('pageTitle', 'Help');
     }
 
     /**

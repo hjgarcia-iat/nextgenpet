@@ -12,7 +12,7 @@
         <section class="banner-image visible-md visible-lg">
             <div class="fill" style="background-image:url('../img/lecture-style-class.jpg');">
                 <div class="container">
-            
+                
                 </div>
             </div>
         </section>
@@ -34,29 +34,39 @@
                     {{ Form::open(['class' => 'form']) }}
                     
                     <div class="form-group{{ ($errors->first('name') ? ' has-error' : '') }}">
-                        <label class="control-label" for="name">Name</label> <input type="text" class="form-control" id="name"
-                                                              placeholder="Name" name="name"
-                                                              value="{{ old('name') }}">
+                        <label class="control-label" for="name">Name</label> <input type="text" class="form-control"
+                                                                                    id="name"
+                                                                                    placeholder="Name" name="name"
+                                                                                    value="{{ old('name') }}">
                         {!! $errors->first('name','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('email') ? ' has-error' : '') }}">
-                        <label class="control-label" for="email">Email Address</label> <input type="email" class="form-control" id="email"
-                                                                        placeholder="Email" name="email"
-                                                                        value="{{ old('email') }}">
+                        <label class="control-label" for="email">Email Address</label> <input type="email"
+                                                                                              class="form-control"
+                                                                                              id="email"
+                                                                                              placeholder="Email"
+                                                                                              name="email"
+                                                                                              value="{{ old('email') }}">
                         {!! $errors->first('name','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('subject') ? ' has-error' : '') }}">
-                        <label class="control-label" for="subject">Subject</label> <input type="text" class="form-control" id="subject"
-                                                                    placeholder="Subject" name="subject"
-                                                                    value="{{ old('subject') }}">
+                        <label class="control-label" for="subject">Subject</label> <input type="text"
+                                                                                          class="form-control"
+                                                                                          id="subject"
+                                                                                          placeholder="Subject"
+                                                                                          name="subject"
+                                                                                          value="{{ old('subject') }}">
                         {!! $errors->first('subject','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('comment') ? ' has-error' : '') }}">
-                        <label class="control-label" for="comment">Message</label>
-                        <textarea name="comment" id="comment" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
+                        <label class="control-label" for="comment">Message</label> <textarea name="comment" id="comment"
+                                                                                             class="form-control"
+                                                                                             placeholder="Message"
+                                                                                             cols="30"
+                                                                                             rows="10"></textarea>
                         
                         {!! $errors->first('comment','<span class="help-block">:message</span>') !!}
                     </div>

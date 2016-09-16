@@ -7,7 +7,6 @@
     <body>
         
         
-        
         @include('layouts.partials.mobile_nav')
         @include('layouts.partials.header')
         
