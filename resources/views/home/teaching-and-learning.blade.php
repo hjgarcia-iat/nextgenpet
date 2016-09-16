@@ -48,162 +48,164 @@
                             Teaching and Learning Module contents
                         </h3>
                         
-                        <table class="table table-bordered">
-                            <thead>
-                                <tr>
-                                    <th>Module</th>
-                                    <th>Lesson</th>
-                                    <th>Topic</th>
-                                    <th>Sequence</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td class="col-md-1">Any</td>
-                                    <td class="col-md-2">L1</td>
-                                    <td>Teaching and Learning Science</td>
-                                    <td>First activity</td>
-                                </tr>
-                                <tr>
-                                    <td>Any</td>
-                                    <td>TL Ext A</td>
-                                    <td>Reading: The Next Generation Science Standards and Next Gen PET</td>
-                                    <td>Before/with L1 (or first TL lesson done)</td>
-                                </tr>
-                                <tr>
-                                    <td>Any</td>
-                                    <td>TL Ext B</td>
-                                    <td>Reading: Engineering and the Next Generation Science Standards</td>
-                                    <td>Before/with L1 (or first TL lesson done)</td>
-                                </tr>
-                                <tr>
-                                    <td>Any</td>
-                                    <td>TL Ext C</td>
-                                    <td>Conducting Interviews with Children</td>
-                                    <td>Before/with Ext D or other “interview” extension</td>
-                                </tr>
-                                <tr>
-                                    <td>MSE</td>
-                                    <td>TL Ext D*</td>
-                                    <td>Interviewing Children about Magnetism</td>
-                                    <td>Before L2</td>
-                                </tr>
-                                <tr>
-                                    <td>IE</td>
-                                    <td>TL Ext E</td>
-                                    <td>Online</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>IE</td>
-                                    <td>TL Ext F</td>
-                                    <td>Questions, Problems, and Data – Preparation for Lesson 3</td>
-                                    <td>Before L3</td>
-                                </tr>
-                                <tr>
-                                    <td>IE</td>
-                                    <td>L3</td>
-                                    <td>Energy and data (NGSS practice 4)</td>
-                                    <td>Before Ext G</td>
-                                </tr>
-                                <tr>
-                                    <td>IE</td>
-                                    <td>TL Ext G*</td>
-                                    <td>Energy, Evidence, and Engaging children data analysis</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>IE</td>
-                                    <td>L4</td>
-                                    <td>Data, evidence, and arguments (NGSS practice 6)</td>
-                                    <td>After Ext G</td>
-                                </tr>
-                                <tr>
-                                    <td>IF</td>
-                                    <td>TL Ext H</td>
-                                    <td>Facilitating Investigations - Prep for Lesson 5</td>
-                                    <td>Before L5</td>
-                                </tr>
-                                <tr>
-                                    <td>IF</td>
-                                    <td>L5</td>
-                                    <td>Questions and Problems (NGSS practice 1)</td>
-                                    <td>After Ext H</td>
-                                </tr>
-                                <tr>
-                                    <td>IF</td>
-                                    <td>TL Ext I*</td>
-                                    <td>Forces, Friction, and Facilitating Investigations</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>IF</td>
-                                    <td>TL Ext J</td>
-                                    <td>Common ideas about force and motion</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>IF</td>
-                                    <td>L6</td>
-                                    <td>Investigations (NGSS practice 3)</td>
-                                    <td>After Ext I</td>
-                                </tr>
-                                <tr>
-                                    <td>WSL</td>
-                                    <td>TL Ext K</td>
-                                    <td>Explanations and Solutions – Preparation for Lesson 7</td>
-                                    <td>Before L7</td>
-                                </tr>
-                                <tr>
-                                    <td>WSL</td>
-                                    <td>L7</td>
-                                    <td>Arguments from Evidence (NGSS practice 7)</td>
-                                    <td>Before Ext L</td>
-                                </tr>
-                                <tr>
-                                    <td>WSL</td>
-                                    <td>L8</td>
-                                    <td>Obtaining, Evaluating and Communicating Information (NGSS practice 8)</td>
-                                    <td>Before Ext L</td>
-                                </tr>
-                                <tr>
-                                    <td>WSL</td>
-                                    <td>TL Ext L*</td>
-                                    <td>Guiding Explanations and Solutions</td>
-                                    <td>After L7 and L8</td>
-                                </tr>
-                                <tr>
-                                    <td>WSL</td>
-                                    <td>TL Ext M</td>
-                                    <td>Preparation for Lesson 8</td>
-                                    <td>Before L8</td>
-                                </tr>
-                                <tr>
-                                    <td>MI</td>
-                                    <td>TL Ext N</td>
-                                    <td>Prep for Lesson 9</td>
-                                    <td>Before L9</td>
-                                </tr>
-                                <tr>
-                                    <td>MI</td>
-                                    <td>L9</td>
-                                    <td>NGSS Practice 8, putting practices together</td>
-                                    <td>Before Ext O</td>
-                                </tr>
-                                <tr>
-                                    <td>MI</td>
-                                    <td>TL Ext O</td>
-                                    <td>Interview Chemistry</td>
-                                    <td></td>
-                                </tr>
-                                <tr>
-                                    <td>MI</td>
-                                    <td>L10</td>
-                                    <td>Crosscutting Concepts</td>
-                                    <td></td>
-                                </tr>
-                            </tbody>
-                        </table>
+                        <div class="table-responsive">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th>Module</th>
+                                        <th>Lesson</th>
+                                        <th>Topic</th>
+                                        <th>Sequence</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="col-md-1">Any</td>
+                                        <td class="col-md-2">L1</td>
+                                        <td>Teaching and Learning Science</td>
+                                        <td>First activity</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Any</td>
+                                        <td>TL Ext A</td>
+                                        <td>Reading: The Next Generation Science Standards and Next Gen PET</td>
+                                        <td>Before/with L1 (or first TL lesson done)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Any</td>
+                                        <td>TL Ext B</td>
+                                        <td>Reading: Engineering and the Next Generation Science Standards</td>
+                                        <td>Before/with L1 (or first TL lesson done)</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Any</td>
+                                        <td>TL Ext C</td>
+                                        <td>Conducting Interviews with Children</td>
+                                        <td>Before/with Ext D or other “interview” extension</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MSE</td>
+                                        <td>TL Ext D*</td>
+                                        <td>Interviewing Children about Magnetism</td>
+                                        <td>Before L2</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IE</td>
+                                        <td>TL Ext E</td>
+                                        <td>Online</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>IE</td>
+                                        <td>TL Ext F</td>
+                                        <td>Questions, Problems, and Data – Preparation for Lesson 3</td>
+                                        <td>Before L3</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IE</td>
+                                        <td>L3</td>
+                                        <td>Energy and data (NGSS practice 4)</td>
+                                        <td>Before Ext G</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IE</td>
+                                        <td>TL Ext G*</td>
+                                        <td>Energy, Evidence, and Engaging children data analysis</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>IE</td>
+                                        <td>L4</td>
+                                        <td>Data, evidence, and arguments (NGSS practice 6)</td>
+                                        <td>After Ext G</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IF</td>
+                                        <td>TL Ext H</td>
+                                        <td>Facilitating Investigations - Prep for Lesson 5</td>
+                                        <td>Before L5</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IF</td>
+                                        <td>L5</td>
+                                        <td>Questions and Problems (NGSS practice 1)</td>
+                                        <td>After Ext H</td>
+                                    </tr>
+                                    <tr>
+                                        <td>IF</td>
+                                        <td>TL Ext I*</td>
+                                        <td>Forces, Friction, and Facilitating Investigations</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>IF</td>
+                                        <td>TL Ext J</td>
+                                        <td>Common ideas about force and motion</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>IF</td>
+                                        <td>L6</td>
+                                        <td>Investigations (NGSS practice 3)</td>
+                                        <td>After Ext I</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WSL</td>
+                                        <td>TL Ext K</td>
+                                        <td>Explanations and Solutions – Preparation for Lesson 7</td>
+                                        <td>Before L7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WSL</td>
+                                        <td>L7</td>
+                                        <td>Arguments from Evidence (NGSS practice 7)</td>
+                                        <td>Before Ext L</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WSL</td>
+                                        <td>L8</td>
+                                        <td>Obtaining, Evaluating and Communicating Information (NGSS practice 8)</td>
+                                        <td>Before Ext L</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WSL</td>
+                                        <td>TL Ext L*</td>
+                                        <td>Guiding Explanations and Solutions</td>
+                                        <td>After L7 and L8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>WSL</td>
+                                        <td>TL Ext M</td>
+                                        <td>Preparation for Lesson 8</td>
+                                        <td>Before L8</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MI</td>
+                                        <td>TL Ext N</td>
+                                        <td>Prep for Lesson 9</td>
+                                        <td>Before L9</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MI</td>
+                                        <td>L9</td>
+                                        <td>NGSS Practice 8, putting practices together</td>
+                                        <td>Before Ext O</td>
+                                    </tr>
+                                    <tr>
+                                        <td>MI</td>
+                                        <td>TL Ext O</td>
+                                        <td>Interview Chemistry</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>MI</td>
+                                        <td>L10</td>
+                                        <td>Crosscutting Concepts</td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </section>
                 </div>
             </div>
