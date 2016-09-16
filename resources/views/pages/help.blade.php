@@ -25,31 +25,31 @@
                     {{ Form::open(['class' => 'form']) }}
                     
                     <div class="form-group{{ ($errors->first('name') ? ' has-error' : '') }}">
-                        <label for="name">Name</label> <input type="text" class="form-control" id="name"
+                        <label class="control-label" for="name">Name</label> <input type="text" class="form-control" id="name"
                                                               placeholder="Name" name="name"
                                                               value="{{ old('name') }}">
-                        {{ $errors->first('name','<span class="help-block"></span>') }}
+                        {!! $errors->first('name','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('email') ? ' has-error' : '') }}">
-                        <label for="email">Email Address</label> <input type="email" class="form-control" id="email"
+                        <label class="control-label" for="email">Email Address</label> <input type="email" class="form-control" id="email"
                                                                         placeholder="Email" name="email"
                                                                         value="{{ old('email') }}">
-                        {{ $errors->first('name','<span class="help-block"></span>') }}
+                        {!! $errors->first('name','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('subject') ? ' has-error' : '') }}">
-                        <label for="subject">Subject</label> <input type="text" class="form-control" id="subject"
+                        <label class="control-label" for="subject">Subject</label> <input type="text" class="form-control" id="subject"
                                                                     placeholder="Subject" name="subject"
                                                                     value="{{ old('subject') }}">
-                        {{ $errors->first('subject','<span class="help-block"></span>') }}
+                        {!! $errors->first('subject','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <div class="form-group{{ ($errors->first('comment') ? ' has-error' : '') }}">
-                        <label for="comment">Message</label>
+                        <label class="control-label" for="comment">Message</label>
                         <textarea name="comment" id="comment" class="form-control" placeholder="Message" cols="30" rows="10"></textarea>
                         
-                        {{ $errors->first('comment','<span class="help-block"></span>') }}
+                        {!! $errors->first('comment','<span class="help-block">:message</span>') !!}
                     </div>
                     
                     <input type="submit" name="submit" class="btn btn-primary" value="Submit">

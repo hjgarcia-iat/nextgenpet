@@ -11,8 +11,8 @@
 |
 */
 
+use App\Http\Requests\HelpRequest;
 use App\Mail\Help;
-use Illuminate\Http\Request;
 
 Route::get('/', function () {
     return view('home.index');
@@ -66,7 +66,7 @@ Route::get('/help', function () {
     return view('pages.help');
 });
 
-Route::post('/help', function (Request $request) {
+Route::post('/help', function (HelpRequest $request) {
 
     \Mail::to('contact@iat.com')->send(new Help($request));
 
