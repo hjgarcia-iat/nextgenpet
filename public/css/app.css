@@ -8935,6 +8935,14 @@ hr {
   background-color: #e27a2c;
   border-color: #ed852c; }
 
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background-color: #f68d2d;
+  border-color: #fba128; }
+
+.btn-primary:focus, .btn-primary.focus {
+  background-color: #f68d2d;
+  border-color: #fba128; }
+
 /*
 //
 // Tables
