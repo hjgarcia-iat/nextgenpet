@@ -10,3 +10,4 @@ _ide_helper.php
 /public/docs
 /public/build
 .env.*
+/public/.DS_Store

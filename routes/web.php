@@ -70,18 +70,8 @@ Route::get('about/development-staff', function () {
 //    return view('pages.resource');
 //});
 
-Route::get('/help', function () {
-    return view('pages.help')->with('pageTitle', 'Help');
-});
-
-Route::post('/help', function (HelpRequest $request) {
-
-    \Mail::to('contact@iat.com')->send(new Help($request));
-
-    Session::flash('success','Message sent!');
-
-    return redirect()->to('help');
-});
+Route::get('/help', 'HelpController@create');
+Route::post('/help', 'HelpController@store');
 
 Route::get('/lecture-style-class', function () {
     return view('class-style.lecture')->with('pageTitle', 'Lecture Style Class');
