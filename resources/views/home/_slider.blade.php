@@ -1,4 +1,4 @@
-<div class="container carousel-container fill">
+<div class="container carousel-container fill visible-md visible-lg">
     <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="active item">

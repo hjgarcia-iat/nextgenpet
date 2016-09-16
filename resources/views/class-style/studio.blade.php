@@ -14,7 +14,7 @@
         @include('layouts.partials.title')
         
         
-        <section class="banner-image">
+        <section class="banner-image visible-md visible-lg">
             <div class="fill" style="background-image:url('../img/studio-slider.jpg');">
                 <div class="container">
                 </div>
