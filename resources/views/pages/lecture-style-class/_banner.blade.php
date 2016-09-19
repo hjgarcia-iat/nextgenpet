@@ -2,7 +2,7 @@
     <div id="myCarousel" class="carousel slide">
         <div class="carousel-inner">
             <div class="active item">
-                <div class="fill" style="background-image:url('../img/lecture-style-class.jpg');">
+                <div class="fill" style="background-image:url('/img/lecture-style-class.jpg');">
                     <div class="container"></div>
                 </div>
             </div>
