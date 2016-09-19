@@ -8603,7 +8603,9 @@ body {
     position: fixed;
     top: 0;
     z-index: 100;
-    width: 100%; }
+    width: 100%;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); }
   .site-header .affix .navbar-default {
     background-color: #000000;
     background-color: rgba(0, 0, 0, 0.8);
@@ -8755,23 +8757,11 @@ body {
 @media (min-width: 992px) {
   #menu.affix {
     position: fixed;
+    width: auto;
     z-index: 100;
-    width: 358px;
-    top: 70px; } }
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
-  #menu.affix {
-    position: fixed;
-    z-index: 100;
-    width: 300px;
-    top: 70px; } }
-
-@media only screen and (min-device-width: 1536px) and (max-device-width: 2048px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
-  #menu.affix {
-    position: fixed;
-    z-index: 100;
-    width: 300px;
-    top: 70px; } }
+    top: 70px;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
 
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {

@@ -62,48 +62,10 @@
 @media (min-width : $screen-md-min) {
     #menu.affix {
         position : fixed;
+        width    : auto;
         z-index  : 100;
-        width    : 358px;
         top      : 70px;
+        -webkit-transform : translate3d(0, 0, 0);
+        transform         : translate3d(0, 0, 0);
     }
 }
-
-//Ipad Landscape Fixes
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-    #menu.affix {
-        position : fixed;
-        z-index  : 100;
-        width    : 300px;
-        top      : 70px;
-    }
-
-}
-
-@media only screen and (min-device-width : 1536px) and (max-device-width : 2048px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
-    #menu.affix {
-        position : fixed;
-        z-index  : 100;
-        width    : 300px;
-        top      : 70px;
-    }
-}
-
-//.container {
-//    position : relative;
-//}
-//
-//.nav-button {
-//    display  : none;
-//    position : absolute;
-//    top      : 0;
-//    z-index  : 100;
-//    right    : 0;
-//}
-//
-////Ipad Portrait Fixes
-//@media (min-width : 769px) and (max-width : 979px) {
-//    .nav-button {
-//        display : block;
-//    }
-//}

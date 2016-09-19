@@ -7,7 +7,12 @@ $(function () {
 
     $('#menu').affix({
         offset: {
-            top: 543
+            top   : function () {
+                return (this.top = $('.carousel-container').offset().top + $('.carousel-container').outerHeight(true))
+            },
+            bottom: function () {
+                $('.page-footer').outerHeight(true);
+            }
         }
     });
 
