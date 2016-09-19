@@ -24,7 +24,7 @@
             </div>
             <div class="row">
                 <div class="col-md-4 visible-md visible-lg">
-                    @include('home._sidebar')
+                    @yield('sidebar')
                 </div>
                 <div class="col-md-8">
                     <section class="html-content">

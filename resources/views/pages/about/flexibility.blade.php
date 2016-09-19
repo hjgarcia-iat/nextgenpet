@@ -1,8 +1,10 @@
 @extends('layouts.two-column')
 
-
 @section('pageTitle')
 | Flexibility
+@stop
+@section('sidebar')
+    @include('home._sidebar')
 @stop
 @section('content')
     <section class="html-content">

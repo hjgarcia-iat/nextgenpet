@@ -3,7 +3,9 @@
 @section('pageTitle')
     | About The Development Staff
 @stop
-
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     
     

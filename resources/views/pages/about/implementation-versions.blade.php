@@ -3,7 +3,9 @@
 @section('pageTitle')
 | Implementation Versions
 @stop
-
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     <section class="html-content">
         <h3>Implementation Versions</h3>

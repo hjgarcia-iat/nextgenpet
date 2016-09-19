@@ -3,7 +3,9 @@
 @section('pageTitle')
     | Overview of Extensions (Homework)
     @stop
-
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     
     <section class="html-content">

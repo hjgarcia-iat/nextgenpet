@@ -3,7 +3,9 @@
 @section('pageTitle')
     | Overview of Teaching &amp; Learning Activities
     @stop
-
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     
     <section class="html-content">

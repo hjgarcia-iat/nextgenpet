@@ -4,6 +4,10 @@
 | Home
 @stop
 
+@section('sidebar')
+    @include('home._sidebar')
+    @stop
+
 @section('content')
     <h3>About</h3>
     

@@ -3,7 +3,9 @@
 @section('pageTitle')
     | NGSS and Next Gen PET
     @stop
-
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     
     <section class="html-content">

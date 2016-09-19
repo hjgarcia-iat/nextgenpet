@@ -3,7 +3,9 @@
 @section('pageTitle')
    | Engineering Design Activities
 @stop
-    
+@section('sidebar')
+    @include('home._sidebar')
+@stop
 @section('content')
     <section class="html-content">
         <h3>Engineering Design Activities</h3>
