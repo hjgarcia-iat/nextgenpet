@@ -3,3 +3,5 @@
 @else
     <script src="{{ elixir('js/all.js') }}"></script>
 @endif
+
+@yield('scripts')

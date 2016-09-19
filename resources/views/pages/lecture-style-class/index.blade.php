@@ -6,7 +6,9 @@
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')
 @stop
-
+@section('banner')
+    @include('pages.lecture-style-class._banner')
+@stop
 @section('content')
     
     <section id="pdf-content" class="pdf-content"></section>

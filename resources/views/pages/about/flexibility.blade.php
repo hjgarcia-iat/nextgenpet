@@ -6,6 +6,10 @@
 @section('sidebar')
     @include('home._sidebar')
 @stop
+@section('banner')
+    @include('home._slider')
+@stop
+
 @section('content')
     <section class="html-content">
         <h3>Flexibility</h3>

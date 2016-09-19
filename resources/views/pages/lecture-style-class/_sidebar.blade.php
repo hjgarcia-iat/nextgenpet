@@ -38,7 +38,7 @@
            class="list-group-item">Demonstration Movies &amp; Videos
         </a>
         <a href="{{ url('lecture-style-class/classroom-videos') }}"
-           class="list-group-item">Classroom Videos
+           class="list-group-item{{ (Request::is('lecture-style-class/classroom-videos')) ? ' active' : '' }}">Classroom Videos
         </a>
     </div>
 </div>

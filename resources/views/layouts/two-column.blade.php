@@ -12,8 +12,7 @@
         
         @include('layouts.partials.title')
         
-        
-        @include('home._slider')
+        @yield('banner')
         
         
         <div class="container">

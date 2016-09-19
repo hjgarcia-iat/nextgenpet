@@ -8,6 +8,10 @@
     @include('home._sidebar')
     @stop
 
+@section('banner')
+    @include('home._slider')
+    @stop
+
 @section('content')
     <h3>About</h3>
     

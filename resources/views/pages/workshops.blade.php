@@ -7,6 +7,9 @@
 @section('sidebar')
     @include('home._sidebar')
 @stop
+@section('banner')
+    @include('home._slider')
+@stop
 
 @section('content')
     
