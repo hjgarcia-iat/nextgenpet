@@ -17,17 +17,17 @@
     }
 
     li.dropdown {
-        margin-bottom: 0;
+        margin-bottom : 0;
 
         li:first-child {
-            margin-top: 0;
+            margin-top : 0;
         }
 
         li {
             background : none;
             a {
-                font-size : 13px;
-                white-space: normal;
+                font-size   : 13px;
+                white-space : normal;
             }
         }
     }
@@ -35,20 +35,75 @@
 
 .nav {
     .social-icons {
-        background: #2a2a2a;
+        background : #2a2a2a;
         a {
-            float: left;
-            display: inline-block;
-            padding: 5px 10px;
-            margin: 5px;
-            background: #111111 !important;
-            color: white !important;
+            float         : left;
+            display       : inline-block;
+            padding       : 5px 10px;
+            margin        : 5px;
+            background    : #111111 !important;
+            color         : white !important;
             border-radius : 50%;
         }
 
         a:hover {
-            color: white !important;
+            color      : white !important;
             background : #111111 !important;
         }
     }
 }
+
+/*
+//
+// Menu
+// --------------------------------------------------
+*/
+
+@media (min-width : $screen-md-min) {
+    #menu.affix {
+        position : fixed;
+        z-index  : 100;
+        width    : 358px;
+        top      : 70px;
+    }
+}
+
+//Ipad Landscape Fixes
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+    #menu.affix {
+        position : fixed;
+        z-index  : 100;
+        width    : 300px;
+        top      : 70px;
+    }
+
+}
+
+@media only screen and (min-device-width : 1536px) and (max-device-width : 2048px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) {
+    #menu.affix {
+        position : fixed;
+        z-index  : 100;
+        width    : 300px;
+        top      : 70px;
+    }
+}
+
+//.container {
+//    position : relative;
+//}
+//
+//.nav-button {
+//    display  : none;
+//    position : absolute;
+//    top      : 0;
+//    z-index  : 100;
+//    right    : 0;
+//}
+//
+////Ipad Portrait Fixes
+//@media (min-width : 769px) and (max-width : 979px) {
+//    .nav-button {
+//        display : block;
+//    }
+//}
