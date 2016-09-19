@@ -22,14 +22,22 @@ class PagesController extends Controller
      */
     public function show(Request $request)
     {
+        //load the page if the request path is the home page
         if($request->path() == '/') {
-            return view('pages.index')->with('pageTitle','home');
+            return view('pages.index');
         }
 
-        if(!\File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php')) {
-            abort(404);
+
+        //load subdir home page if necessary
+        if(\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
+            return view('pages.' . $request->path() . '.index');
         }
 
-        return view('pages.' . $request->path());
+        //load subdir view (not the home page)
+        if(\File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php')) {
+            return view('pages.' . $request->path());
+        }
+
+        abort(404);
     }
 }
