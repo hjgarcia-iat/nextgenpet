@@ -8955,6 +8955,45 @@ hr {
 
 /*
 //
+// Panels
+// --------------------------------------------------
+*/
+.panel.panel-primary {
+  border-color: #dddddd; }
+  .panel.panel-primary .panel-heading {
+    background: #f68d2d;
+    border-color: #dddddd; }
+
+/*
+//
+// Forms
+// --------------------------------------------------
+*/
+.form-control:focus {
+  border-color: #f68d2d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6); }
+
+/*
+//
+// Paginations
+// --------------------------------------------------
+*/
+.pagination > li > a, .pagination > li > span {
+  color: #222222; }
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #ffffff;
+  background: #f68d2d; }
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #222;
+  background-color: #dddddd;
+  border-color: #dddddd;
+  cursor: default; }
+
+/*
+//
 // Title Bar
 // --------------------------------------------------
 */
