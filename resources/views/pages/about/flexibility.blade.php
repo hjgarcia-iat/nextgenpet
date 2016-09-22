@@ -1,8 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-| Flexibility
-@stop
+@section('pageTitle','Flexibility')
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -12,7 +10,6 @@
 
 @section('content')
     <section class="html-content">
-        <h3>Flexibility</h3>
         <p>
         <strong class="highlight">Next Gen PET’s flexibility</strong> provides many options. In either the
         <em>Studio-style Class</em> or

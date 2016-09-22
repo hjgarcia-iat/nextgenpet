@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle')
-    | About The Development Staff
+    About The Development Staff
 @stop
 @section('sidebar')
     @include('home._sidebar')

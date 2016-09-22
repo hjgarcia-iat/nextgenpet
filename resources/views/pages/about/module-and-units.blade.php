@@ -1,8 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    | Modules &amp; Units
-@stop
+@section('pageTitle', 'Modules &amp; Units')e
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -13,7 +11,7 @@
 @section('content')
     
     <section class="html-content">
-        <h3>Modules &amp; Units</h3>
+        <h3></h3>
         
         
         <p>

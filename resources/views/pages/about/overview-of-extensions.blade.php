@@ -1,8 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    | Overview of Extensions (Homework)
-    @stop
+@section('pageTitle','Overview of Extensions (Homework)')
 @section('sidebar')
     @include('home._sidebar')
 @stop

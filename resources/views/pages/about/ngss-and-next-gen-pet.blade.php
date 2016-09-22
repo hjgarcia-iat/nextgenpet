@@ -1,8 +1,7 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    | NGSS and Next Gen PET
-    @stop
+@section('pageTitle','NGSS and Next Gen PET')
+
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -13,7 +12,6 @@
 @section('content')
     
     <section class="html-content">
-        <h3>NGSS and <em>Next Gen PET</em></h3>
         <p>
         The
         <em>Next Gen PET</em> materials are aligned with the physical science disciplinary core ideas, crosscutting concepts, and science and engineering practices in the National Research Council (NRC) K-12 Science Education Framework and Next Generation Science Standards (NGSS). The tables below provide more information on this alignment.

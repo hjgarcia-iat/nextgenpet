@@ -1,8 +1,7 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    | Research-Based
-    @stop
+@section('pageTitle','Research-Based')
+e
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -13,7 +12,7 @@
 @section('content')
     
     <section class="html-content">
-        <h3>Research-Based</h3>
+        
         <p>
         The development of
         <em>Next Gen PET</em> and its predecessor curricula was guided by five design principles based on research on learning. The following table shows how the design principles are put into action in

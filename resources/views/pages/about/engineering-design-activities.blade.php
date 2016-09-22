@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle')
-   | Engineering Design Activities
+   Engineering Design Activities
 @stop
 @section('sidebar')
     @include('home._sidebar')
@@ -12,7 +12,6 @@
 
 @section('content')
     <section class="html-content">
-        <h3>Engineering Design Activities</h3>
         <p>
         The <em>Framework for K-12 Science Education</em> and NGSS include Science and
         <em>Engineering Practices</em>. According to the Framework, "Engineering and technology are featured alongside the natural sciences... for two critical reasons: (1) to reflect the importance of understanding the human-built world and (2) to recognize the value of better integrating the teaching and learning of science, engineering, and technology." Engineering practices largely overlap with scientific practices. Scientists pose questions and answer them through inquiry, while engineers specify problems and solve them through design. This distinction is reflected in two of the eight NGSS practices: asking questions (for science) and defining problems (for engineering); and constructing explanations (for science) and designing solutions (for engineering).

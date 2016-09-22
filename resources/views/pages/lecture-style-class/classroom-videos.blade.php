@@ -1,6 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle','| Classroom Videos')
+@section('pageTitle','Lecture Style Class')
 
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')

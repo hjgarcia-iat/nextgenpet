@@ -1,8 +1,7 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-| Implementation Versions
-@stop
+@section('pageTitle','Implementation Versions')|
+
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -12,8 +11,6 @@
 
 @section('content')
     <section class="html-content">
-        <h3>Implementation Versions</h3>
-        
         <p>
         <em>Next Gen PET</em> is available in a
         <em>Studio-style</em> class version for small lab and discussion classroom environments of 12-36 students; and a

@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle')
-    | Lecture Style Class Pedagogy
+    Lecture Style Class
 @stop
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')

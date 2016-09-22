@@ -1,8 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    | Overview of Teaching &amp; Learning Activities
-    @stop
+@section('pageTitle','Overview of Teaching &amp; Learning Activities')
 @section('sidebar')
     @include('home._sidebar')
 @stop
@@ -13,7 +11,6 @@
 @section('content')
     
     <section class="html-content">
-        <h3>Overview of Teaching &amp; Learning Activities</h3>
         <p>
         Teaching and Learning activities help Next Gen PET students make explicit connections between their own learning; the learning and teaching of children in elementary school; and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS. Each content module includes one or more Teaching and Learning activity (both in-class and extension) aligned with the module’s content. More detail on their structure, and a list of the activities, is included below. The first few Teaching and Learning activities are intended to introduce this part of the curricula to students; they are not aligned with any specific content module.
         </p>
