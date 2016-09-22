@@ -1,6 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle', 'Modules &amp; Units')e
+@section('pageTitle', 'Modules &amp; Units')
 @section('sidebar')
     @include('home._sidebar')
 @stop

@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle')
-    | Workshops
+    Workshops
 @stop
 
 @section('sidebar')

@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle')
-| Home
+About
 @stop
 
 @section('sidebar')
@@ -13,8 +13,6 @@
     @stop
 
 @section('content')
-    <h3>About</h3>
-    
     <p>
     <strong class="highlight">Science courses or science methods courses</strong>
     <em>Next Gen PET</em> is intended primarily for university courses in physics or physical science for prospective elementary teachers. There is sufficient material for a one-semester (quarter) course or a two-semester (two-quarter) sequence.
