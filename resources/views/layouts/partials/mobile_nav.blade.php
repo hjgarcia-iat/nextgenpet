@@ -104,7 +104,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Simulations
                     </a>
                 </li>
                 <li class="sidebar-menu-link">
@@ -147,7 +147,7 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Simulations
                     </a>
                 </li>
                 <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">

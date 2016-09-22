@@ -66,7 +66,7 @@
                                class="list-group-item">Extensions Index
                             </a>
                             <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
-                               class="list-group-item">Demonstration Movies &amp; Videos
+                               class="list-group-item">Demonstration Movies &amp; Simulations
                             </a>
                             <a target="_blank"
                                href="http://nextgenpet.sdsu.edu/lc/"
