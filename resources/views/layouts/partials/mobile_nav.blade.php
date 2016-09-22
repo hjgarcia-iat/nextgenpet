@@ -70,48 +70,7 @@
             </ul>
         </li>
     
-        <li class="dropdown{{ (Request::is('lecture-style-class') or Request::is('lecture-style-class/*')) ? ' active open' : '' }}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lecture Style Class <b class="caret"></b></a>
-            <ul class="dropdown-menu navmenu-nav">
-                <li class="{{ (Request::is('lecture-style-class')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class') }}">Pedagogy</a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
-                       target="_blank">Equipment and Materials
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Table_of_Contents_Lecture-style_Class.pdf') }}"
-                       target="-_blank">Table of Contents with Time Estimates
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Next_Gen_PET_Lecture-Style.pdf') }}"
-                       target="_blank">Student Materials (for viewing only)
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}"
-                       target="_blank">Teaching and Learning Materials
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank"
-                       href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
-                    </a>
-                </li>
-                <li>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
-                    </a>
-                </li>
-                <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">
-                    <a
-                       href="{{ url('lecture-style-class/classroom-videos') }}">Classroom Videos
-                    </a>
-                </li>
-            </ul>
-        </li>
+        
     
         <li class="dropdown{{ Request::is('studio-style-class') ? ' active open' : '' }}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studio Style Class <b class="caret"></b></a>
@@ -151,6 +110,49 @@
                 <li class="sidebar-menu-link">
                     <a target="_blank"
                        href="http://nextgenpet.sdsu.edu/lc/">Classroom Videos
+                    </a>
+                </li>
+            </ul>
+        </li>
+    
+        <li class="dropdown{{ (Request::is('lecture-style-class') or Request::is('lecture-style-class/*')) ? ' active open' : '' }}">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lecture Style Class <b class="caret"></b></a>
+            <ul class="dropdown-menu navmenu-nav">
+                <li class="{{ (Request::is('lecture-style-class')) ? 'active' : '' }}">
+                    <a href="{{ url('lecture-style-class') }}">Pedagogy</a>
+                </li>
+                <li>
+                    <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
+                       target="_blank">Equipment and Materials
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ asset('docs/Table_of_Contents_Lecture-style_Class.pdf') }}"
+                       target="-_blank">Table of Contents with Time Estimates
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ asset('docs/Next_Gen_PET_Lecture-Style.pdf') }}"
+                       target="_blank">Student Materials (for viewing only)
+                    </a>
+                </li>
+                <li>
+                    <a href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}"
+                       target="_blank">Teaching and Learning Materials
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank"
+                       href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Videos
+                    </a>
+                </li>
+                <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">
+                    <a
+                            href="{{ url('lecture-style-class/classroom-videos') }}">Classroom Videos
                     </a>
                 </li>
             </ul>

@@ -38,30 +38,21 @@
         <nav class="navbar navbar-default nav-justified navbar-static">
             <div class="container">
                 <div class="navbar-header">
-    
                     <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target=".navmenu">
                         <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span>
                     </button>
-                    
-                    {{--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"--}}
-                            {{--data-target="#bs-example-navbar-collapse-1" aria-expanded="false">--}}
-                        {{--<span class="sr-only">Toggle navigation</span>--}}
-                        {{--<span class="icon-bar"></span>--}}
-                        {{--<span class="icon-bar"></span>--}}
-                        {{--<span class="icon-bar"></span>--}}
-                    {{--</button>--}}
-                
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
                         <li class="{{ Request::is('/') ? 'active' : '' }}">
                             <a href="{{ url('/') }}">Home</a>
                         </li>
-                        <li class="{{ Request::is('lecture-style-class') ? 'active' : '' }}">
-                            <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
-                        </li>
+                        
                         <li class="{{ Request::is('studio-style-class') ? 'active' : '' }}">
                             <a href="{{ url('studio-style-class') }}">Studio Style Class</a>
+                        </li>
+                        <li class="{{ Request::is('lecture-style-class') ? 'active' : '' }}">
+                            <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
                         </li>
                         {{--<li class="{{ Request::is('resources') ? 'active' : '' }}">--}}
                             {{--<a href="{{ url('resources') }}">Resources</a>--}}
