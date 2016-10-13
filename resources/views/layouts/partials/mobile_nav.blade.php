@@ -142,12 +142,14 @@
                     </a>
                 </li>
                 <li>
-                    <a target="_blank"
-                       href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
+                    <a href="{{ url('lecture-style-class/extension-index') }}"
+                       class="{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">Extensions Index
                     </a>
+                    
                 </li>
                 <li>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Simulations
+                    <a href="{{ url('lecture-style-class/demonstration-movies-and-simulations') }}"
+                       class="{{ (Request::is('lecture-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">Demonstration Movies &amp; Simulations
                     </a>
                 </li>
                 <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">
