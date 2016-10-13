@@ -45,11 +45,11 @@
            target="_blank" data-file="true"
            class="list-group-item">Teaching and Learning Materials
         </a>
-        <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
-           class="list-group-item">Extensions Index
+        <a  href="{{ url('lecture-style-class/extension-index') }}"
+           class="list-group-item{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">Extensions Index
         </a>
-        <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/"
-           class="list-group-item">Demonstration Movies &amp; Simulations
+        <a href="{{ url('lecture-style-class/demonstration-movies-and-simulations') }}"
+           class="list-group-item{{ (Request::is('lecture-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">Demonstration Movies &amp; Simulations
         </a>
         <a href="{{ url('lecture-style-class/classroom-videos') }}"
            class="list-group-item{{ (Request::is('lecture-style-class/classroom-videos')) ? ' active' : '' }}">Classroom Videos
