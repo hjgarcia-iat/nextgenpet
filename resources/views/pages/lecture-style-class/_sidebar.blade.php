@@ -23,10 +23,18 @@
             <a class="list-group-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">Magnetism and Static Electricity Module
             </a>
-            <a class="list-group-item">Interactions and Energy Module</a>
-            <a class="list-group-item">Interactions and Waves Module</a>
-            <a class="list-group-item">Waves, Sounds and Light Module</a>
-            <a class="list-group-item">Matter and Interactions Module</a>
+            <a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"
+               href="{{ url('lecture-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module
+            </a>
+            <a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-waves-module') ? ' active' : '') }}"
+               href="{{ url('lecture-style-class/content/interactions-and-waves-module') }}">Interactions and Waves Module
+            </a>
+            <a class="list-group-item{{ (Request::is('lecture-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"
+               href="{{ url('lecture-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module
+            </a>
+            <a class="list-group-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
+               href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">Matter and Interactions Module
+            </a>
         </div>
         
         <a href="{{ asset('docs/Next_Gen_PET_Lecture-Style.pdf') }}"

@@ -13,18 +13,18 @@
     
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h3>Magnetism and Static Electricity Module</h3>
+        <h3>Interactions and Energy Module</h3>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Magnetism</h4>
+        <h4>Units of Energy Model</h4>
         <div id="canvas" class="canvas">
         
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Static Electricity</h4>
+        <h4>Unit on Potential Energy &amp; Fields</h4>
         <div id="canvas2" class="canvas">
         
         </div>
@@ -82,15 +82,21 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UM L1: Modeling and \nthe Mystery Tube', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UM L2: Exploring Magnetic \nEffects', x: "-750", y: "-1000"},
-            {id: 3, label: 'UM L3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
-            {id: 4, label: 'UM L4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
-            {id: 5, label: 'UM L5: Explaining Phenomena \nInvolving Magnetism', x: "-750", y: "-800"},
-            {id: 6, label: 'UM L6 ED: Designing a \nMaglev Train', x: "-1000", y: "-800"},
-            {id: 7, label: 'UM L7: Exploring Static \nElectric Effects (Optional)', x: "-1000", y: "-900"},
+            {id: 1, label: 'UEM L1: Interactions and \nMotion', x: "-1100", y: "-1100"},
+            {id: 2, label: 'UEM L2: Motion and \nEnergy', x: "-850", y: "-1100"},
+            {id: 3, label: 'UEM L3: Slowing and \nStopping', x: "-600", y: "-1100"},
+            {id: 4, label: 'UEM L4: Friction as \nan Interaction', x: "-600", y: "-950"},
+            {id: 5, label: 'UEM L5: Warming and \nCooling', x: "-600", y: "-800"},
             {
-                id: 8, label: 'UM Ext A: Exploring the \nRegion around a Magnet', x: "-615", y: "-1075", color: {
+                id   : 6,
+                label: 'UEM L6: Keeping Track \n of Energy in Electric \nCircuit Interactions',
+                x    : "-850",
+                y    : "-800"
+            },
+            {id: 7, label: 'UEM L7: More on Keeping \nTrack of Energy', x: "-1100", y: "-800"},
+            {id: 10, label: 'UEM L8: No More \nCold Showers', x: "-1100", y: "-900"},
+            {
+                id: 8, label: 'Ext A: Representing Motion \non Speed-Time Graphs', x: "-1000", y: "-1175", color: {
                 border    : '#fcd5b5',
                 background: '#fcd5b5',
                 highlight : {
@@ -104,29 +110,105 @@
             }
             },
             {
-                id: 9, label: 'UM Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900", color: {
-                border    : '#fcd5b5',
-                background: '#fcd5b5',
-                highlight : {
+                id   : 9, label: 'Ext C: Describing Interactions \nin Terms of Energy', x: "-750", y: "-1175",
+                color: {
                     border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                hover     : {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
                 }
-            }
+            },
+            {
+                id   : 11, label: 'Ext D: Scientific \nExplanations', x: "-500", y: "-1175",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 12, label: 'Ext E: Scientific \nExplanations', x: "-725", y: "-1025",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 13, label: 'Ext F: Scientific \nExplanations', x: "-725", y: "-890",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 14, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-725", y: "-725",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 15, label: 'Ext H: More on \nElectromagnetic Interactions', x: "-985", y: "-725",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
             }
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'USE L1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
-            {id: 2, label: 'USE L2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
-            {id: 3, label: 'USE L3: Representing \nUncharged Objects', x: "-600", y: "-1000"},
-            {id: 4, label: 'USE L4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
-            {id: 6, label: 'USE L5: Explaining Phenomena Involving \nStatic Electricity', x: "-1140", y: "-800"},
+            {id: 1, label: 'UPEF L1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
+            {id: 2, label: 'UPEF L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
+            {id: 3, label: 'UPEF L3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
+            {id: 4, label: 'UPEF L4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
+            {id: 6, label: 'UPEF L5: Electromagnetic \nInteractions', x: "-1000", y: "-800"},
             {
-                id   : 8, label: 'USE Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
+                id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-1050", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -141,7 +223,7 @@
                 }
             },
             {
-                id   : 9, label: 'USE Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
+                id   : 9, label: 'Ext B: Magnetic\nPoles and Electrict Charges', x: "-750", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -156,7 +238,7 @@
                 }
             },
             {
-                id   : 10, label: 'USE Ext C: Electroscope and \nNegative Object', x: "-750", y: "-935",
+                id   : 10, label: 'Ext C: Exploring \nMagnetic and Electric Fields', x: "-750", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -171,7 +253,7 @@
                 }
             },
             {
-                id   : 11, label: 'USE Ext D: What do Charged \nEntities Represent', x: "-750", y: "-865",
+                id   : 12, label: 'Ext D: Exploring \nGravitational Potential Energy', x: "-785", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -186,22 +268,7 @@
                 }
             },
             {
-                id   : 12, label: 'USE Ext E: What Happens when \nCharged Object is Discharged?', x: "-750", y: "-735",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 14, label: 'USE Ext F: Charged and \nUncharged Objects', x: "-1000", y: "-735",
+                id   : 14, label: 'Ext E: More on \nElectromagnetic Interactions', x: "-1200", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -223,6 +290,17 @@
             {from: 1, to: 2},
             {from: 2, to: 3},
             {from: 3, to: 4},
+            {from: 4, to: 5},
+            {from: 5, to: 6},
+            {from: 6, to: 7},
+            {from: 7, to: 10}
+        ]);
+
+        // create an array with edges
+        var edges2 = new vis.DataSet([
+            {from: 1, to: 2},
+            {from: 2, to: 3},
+            {from: 3, to: 4},
             {from: 4, to: 6}
         ]);
 
@@ -235,7 +313,7 @@
         };
         var data2      = {
             nodes: nodes2,
-            edges: edges
+            edges: edges2
         };
         var options    = {
             "physics": {

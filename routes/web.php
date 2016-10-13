@@ -6,4 +6,3 @@ Route::post('/help', 'HelpController@store');
 Route::get('{page}', [
     'uses' => 'PagesController@show',
 ])->where(['page' => '.*']);
-

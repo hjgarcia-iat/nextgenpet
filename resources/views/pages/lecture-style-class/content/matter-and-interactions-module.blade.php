@@ -13,21 +13,17 @@
     
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h3>Magnetism and Static Electricity Module</h3>
+        <h3>Matter and Interactions Module</h3>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Magnetism</h4>
-        <div id="canvas" class="canvas">
+        
+        <div id="canvas">
         
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Static Electricity</h4>
-        <div id="canvas2" class="canvas">
-        
-        </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
@@ -119,125 +115,23 @@
             }
         ]);
 
-        var nodes2 = new vis.DataSet([
-            {id: 1, label: 'USE L1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
-            {id: 2, label: 'USE L2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
-            {id: 3, label: 'USE L3: Representing \nUncharged Objects', x: "-600", y: "-1000"},
-            {id: 4, label: 'USE L4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
-            {id: 6, label: 'USE L5: Explaining Phenomena Involving \nStatic Electricity', x: "-1140", y: "-800"},
-            {
-                id   : 8, label: 'USE Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 9, label: 'USE Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 10, label: 'USE Ext C: Electroscope and \nNegative Object', x: "-750", y: "-935",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 11, label: 'USE Ext D: What do Charged \nEntities Represent', x: "-750", y: "-865",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 12, label: 'USE Ext E: What Happens when \nCharged Object is Discharged?', x: "-750", y: "-735",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 14, label: 'USE Ext F: Charged and \nUncharged Objects', x: "-1000", y: "-735",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            }
-        ]);
-
-
         // create an array with edges
         var edges = new vis.DataSet([
             {from: 1, to: 2},
             {from: 2, to: 3},
             {from: 3, to: 4},
-            {from: 4, to: 6}
+            {from: 4, to: 5},
+            {from: 5, to: 6},
+            {from: 6, to: 7, dashes: true}
         ]);
 
-        var container  = document.getElementById('canvas');
-        var container2 = document.getElementById('canvas2');
+        var container = document.getElementById('canvas');
         // provide the data in the vis format
-        var data       = {
+        var data      = {
             nodes: nodes,
             edges: edges
         };
-        var data2      = {
-            nodes: nodes2,
-            edges: edges
-        };
-        var options    = {
+        var options   = {
             "physics": {
                 enabled: false
             },
@@ -279,12 +173,11 @@
                     size   : 10,
                     x      : 3,
                     y      : 3
-                }
+                },
             }
         };
 
-        var network  = new vis.Network(container, data, options);
-        var network2 = new vis.Network(container2, data2, options);
+        var network = new vis.Network(container, data, options);
 
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
@@ -295,4 +188,7 @@
 
 @section('styles')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css">
+    <style>
+        #canvas { width : 100%; height : 500px; border : 1px solid lightgray; margin-bottom : 40px; }
+    </style>
 @stop
