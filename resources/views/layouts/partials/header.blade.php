@@ -48,10 +48,10 @@
                             <a href="{{ url('/') }}">Home</a>
                         </li>
                         
-                        <li class="{{ Request::is('studio-style-class') ? 'active' : '' }}">
+                        <li class="{{ (Request::is('studio-style-class')  or Request::is('studio-style-class/*') ) ? 'active' : '' }}">
                             <a href="{{ url('studio-style-class') }}">Studio Style Class</a>
                         </li>
-                        <li class="{{ Request::is('lecture-style-class') ? 'active' : '' }}">
+                        <li class="{{ (Request::is('lecture-style-class') or Request::is('lecture-style-class/*')) ? 'active' : '' }}">
                             <a href="{{ url('lecture-style-class') }}">Lecture Style Class</a>
                         </li>
                         {{--<li class="{{ Request::is('resources') ? 'active' : '' }}">--}}
