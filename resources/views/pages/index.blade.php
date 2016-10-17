@@ -28,7 +28,7 @@ About
     <p>
     <strong class="highlight">Versions for small or large courses</strong>
     <em>Next Gen PET</em> is a suite of materials, with a
-    <em>mStudio Style Class</em> version for small lab and discussion classroom environments of 12-36 students; and a Lecture-style Class version for lecture-style classrooms. In both versions, students draw on evidence, discuss ideas, develop, test and modify models, and engage in practices of scientific argumentation.
+    <em>Studio Style Class</em> version for small lab and discussion classroom environments of 12-36 students; and a Lecture-style Class version for lecture-style classrooms. In both versions, students draw on evidence, discuss ideas, develop, test and modify models, and engage in practices of scientific argumentation.
     </p>
     
     <p>
