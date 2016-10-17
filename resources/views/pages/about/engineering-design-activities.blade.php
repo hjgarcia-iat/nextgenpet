@@ -46,18 +46,12 @@
                     </tr>
                     <tr>
                         <td>Unit PEF: Potential Energy and Fields (SC)</td>
-                        <td><strong>Story Energy from Braking</strong>: After considering how different interactions could be used to slow a moving vehicle and store its energy for recovery later, students design a system based on an electrical capacitor.
+                        <td><strong>Storing Energy from Braking</strong>: After considering how different interactions could be used to slow a moving vehicle and store its energy for recovery later, students design a system based on an electrical capacitor.
                         </td>
                     </tr>
                     <tr>
                         <td>Unit FM: Force-based Model for Interactions (SC)</td>
                         <td><strong>A Better Car Bumper</strong>: Students consider the function of a low-impact car bumper, and then incorporate it in a bumper design.</td>
-                    </tr>
-                    <tr>
-                        <td>Unit CF #1: Combinations of Forces</td>
-                        <td>
-                            <em>Safety on the Docks</em>: Conduct a series of online simulations of forces and motion to develop safety lessons for dockworkers.
-                        </td>
                     </tr>
                     <tr>
                         <td>Unit CF: Combinations of Forces</td>
