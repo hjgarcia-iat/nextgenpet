@@ -67,6 +67,11 @@
                     <a href="{{ url('about/development-staff') }}">About the Development Staff
                     </a>
                 </li>
+                <li class="{{ (Request::is('about/faculty-online-learning')) ? 'active' : '' }}">
+                    <a href="{{ url('about/faculty-online-learning') }}">Faculty Online Learning Community for NGP
+                    </a>
+                </li>
+
             </ul>
         </li>
     

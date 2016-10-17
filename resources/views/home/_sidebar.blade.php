@@ -28,5 +28,8 @@
         <a href="{{ url('about/development-staff') }}"
            class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">About the Development Staff
         </a>
+        <a href="{{ url('about/faculty-online-learning') }}" class="list-group-item{{ (Request::is('about/faculty-online-learning')) ? ' active' : '' }}">
+            Faculty Online Learning Community for NGP
+        </a>
     </div>
 </div>
