@@ -554,6 +554,191 @@
                 </tbody>
             </table>
         </div>
+    
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>L#</th>
+                        <th>Lesson (L) Title</th>
+                        <th>~Time (min)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="highlight">
+                        <td colspan="3" class="text-center">Matter and Interactions Module</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit PC: Physical Changes (~15 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>An Introduction to Pressure</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Introduction to Spreadsheets and Graphing</td>
+                        <td>online</td>
+                    </tr>
+                
+                    <tr>
+                        <td>A2</td>
+                        <td>Pressure and the Amount of Gas</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>Pressure-Volume Relationship</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Pressure and Temperature Relationship</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Gas Law Graphing</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Explanations Involving Gases</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Properties of Liquids</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A6</td>
+                        <td>More on Liquids and Characteristic Properties</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>A7</td>
+                        <td>Solids and SPT</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>Energy Involved in Heating Substances and Phase Changes</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A8</td>
+                        <td>Density</td>
+                        <td>100</td>
+                    </tr>
+                    <tr>
+                        <td>Ext E</td>
+                        <td>SPT and Density of Gases, Liquids and Solids</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A9</td>
+                        <td>Mixing and Solubility</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext F</td>
+                        <td>Using Characteristic Physical Properties of Matter</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A10</td>
+                        <td>Explanations Involving Physical Changes</td>
+                        <td>90</td>
+                    </tr>
+                
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit CR: Chemical Reactions (~15 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Physical Changes vs. Chemical Reactions</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>Classification of Matter</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Separating Mixtures Using Physical Properties</td>
+                        <td>online</td>
+                    </tr>
+                
+                    <tr>
+                        <td>A3</td>
+                        <td>Evidence of Chemical Reaction</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>Reaction Rates and Temperature</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Conservation of Mass and SPT</td>
+                        <td>90</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Collision Theory and Chemical Reactions</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Chemical Reactions and Energy Transfer</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>Reaction Rate and Energy Diagrams</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A6</td>
+                        <td>Elements and the Periodic Table</td>
+                        <td>90</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ext E</td>
+                        <td>Models of the Atom</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A7</td>
+                        <td>Atoms, Ions, and the Periodic Table</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A9</td>
+                        <td>Molecular Structure (Supplemental)</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>A10</td>
+                        <td>Using the Class Consensus to Explain Observations</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
 @stop
