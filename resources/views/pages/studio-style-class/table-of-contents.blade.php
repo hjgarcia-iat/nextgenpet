@@ -144,7 +144,165 @@
             </table>
         </div>
     
-       
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>L#</th>
+                        <th>Lesson (L) Title</th>
+                        <th>~Time (min)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="highlight">
+                        <td colspan="3" class="text-center">Interactions and Energy Module</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit EM: Energy-based Model for Interactions (~11 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Interactions and Motion</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Representing Motion on Speed-Time Graphs</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>Motion and Energy</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>Explanations using Energy Ideas.</td>
+                        <td>Online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Slowing and Stopping</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>Scientific Explanations</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>Ext E</td>
+                        <td>Simultaneous Interactions</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Friction as an Interaction</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>Ext G</td>
+                        <td>Mechanisms for Heat Interactions</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Keeping Track of Energy in Electric Circuit Interactions</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>A6</td>
+                        <td>More on Keeping Track of Energy</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>A7</td>
+                        <td>Conservation of Energy</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Ext I</td>
+                        <td>More on Efficiency and Conservation of Energy</td>
+                        <td>online</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>A8</td>
+                        <td>Engineering Design: The Solar Shower</td>
+                        <td>60</td>
+                    </tr>
+                
+                
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit PEF: Potential Energy and Fields (~7/8 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Elastic Objects and Energy</td>
+                        <td>70</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>More on Elastic Energy</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>L2</td>
+                        <td>Comparing Magnetic and Static Electric Interactions (optional)</td>
+                        <td>50</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>More on Magnetic and Static Electric Interactions (optional)</td>
+                        <td>online</td>
+                    </tr>
+                
+                    <tr>
+                        <td>A3</td>
+                        <td>Magnetic and Static Electricity Interactions and Energy</td>
+                        <td>110</td>
+                    </tr>
+                
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Exploring Magnetic and Electric Fields</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Gravitational Interactions and Energy</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>Exploring Gravitational Potential Energy</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Electromagnetic Interactions</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Ext E</td>
+                        <td>More on Electromagnetic Interactions</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A6 ED</td>
+                        <td>Engineering Design: Storing Energy from Braking</td>
+                        <td>70</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
         
     </section>
 
