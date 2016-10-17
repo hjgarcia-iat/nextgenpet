@@ -141,9 +141,8 @@
                        target="_blank">Equipment and Materials
                     </a>
                 </li>
-                <li>
-                    <a href="{{ asset('docs/Table_of_Contents_Lecture-style_Class.pdf') }}"
-                       target="-_blank">Table of Contents with Time Estimates
+                <li class="{{ (Request::is('lecture-style-class/table-of-contents')) ? 'active' : '' }}">
+                    <a href="{{ url('lecture-style-class/table-of-contents') }}">Table of Contents with Time Estimates
                     </a>
                 </li>
                 <li>

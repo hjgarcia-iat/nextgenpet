@@ -10,9 +10,9 @@
         <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
            data-file="true" target="_blank" class="list-group-item">Equipment and Materials
         </a>
-        <a href="{{ asset('docs/Table_of_Contents_Lecture-style_Class.pdf') }}"
-           data-file="true" target="-_blank"
-           class="list-group-item">Table of Contents with Time Estimates
+    
+        <a href="{{ url('lecture-style-class/table-of-contents') }}"
+           class="list-group-item{{ (Request::is('lecture-style-class/table-of-contents')) ? ' active' : '' }}">Table of Contents with Time Estimates
         </a>
         
         {{--<a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"--}}
