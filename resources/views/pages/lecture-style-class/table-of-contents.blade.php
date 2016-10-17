@@ -42,11 +42,6 @@
                         <td>90</td>
                     </tr>
                     <tr>
-                        <td>L2</td>
-                        <td>Exploring Magnetic Effects</td>
-                        <td>90</td>
-                    </tr>
-                    <tr>
                         <td>Ext A<sup>1</sup></td>
                         <td>Exploring the Region Around a Magnet</td>
                         <td>Online</td>

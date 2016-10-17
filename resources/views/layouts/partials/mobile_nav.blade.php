@@ -91,9 +91,9 @@
                        target="_blank">Equipment and Materials
                     </a>
                 </li>
-                <li>
-                    <a href="{{ asset('docs/Table_of_Contents_Studio-style_Class.pdf') }}"
-                       target="-_blank">Table of Contents with Time Estimates
+                <li class="{{ (Request::is('studio-style-class/table-of-contents')) ? 'active' : '' }}">
+                    <a href="{{ url('studio-style-class/table-of-contents') }}">
+                        Table of Contents with Time Estimates
                     </a>
                 </li>
                 <li>
@@ -167,8 +167,7 @@
                     </a>
                 </li>
                 <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">
-                    <a
-                            href="{{ url('lecture-style-class/classroom-videos') }}">Classroom Videos
+                    <a href="{{ url('lecture-style-class/classroom-videos') }}">Classroom Videos
                     </a>
                 </li>
             </ul>
