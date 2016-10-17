@@ -448,7 +448,112 @@
                 </tbody>
             </table>
         </div>
-    
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>L#</th>
+                        <th>Lesson (L) Title</th>
+                        <th>~Time (min)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="highlight">
+                        <td colspan="3" class="text-center">Waves, Sound and Light Module</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit WS: Mechanical Waves and Sound (~7 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Wave Pulses</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>Continuous Waves</td>
+                        <td>50</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Ext A</td>
+                        <td>How Do Waves Move?</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Two-Dimensional Waves</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Reflection of 2D Waves</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Sound Waves</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>Seismic Waves</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Engineering Design: Locating an Earthquake</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit L: Light and Color (~7 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Pinholes and Shadows</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Drawing Light Ray Diagrams for Pinholes and Shadows</td>
+                        <td>online</td>
+                    </tr>
+                
+                    <tr>
+                        <td>A2</td>
+                        <td>Reflection of Light</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>Further Investigations of Mirror Reflections and Images</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Refraction of Light</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Color</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Engineering Design: Measuring the Moon’s Distance</td>
+                        <td>60</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
     </section>
 
 @stop

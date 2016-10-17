@@ -330,22 +330,22 @@
                     <tr>
                         <td>Ext A</td>
                         <td>Force Diagrams</td>
-                        <td>online<td>
+                        <td>online</td>
                     </tr>
                     <tr>
                         <td>L2</td>
                         <td>Motion with a Continuous Force</td>
-                        <td>35<td>
+                        <td>35</td>
                     </tr>
                     <tr>
                         <td>Ext B</td>
                         <td>Pushing a Skateboarder</td>
-                        <td>online<td>
+                        <td>online</td>
                     </tr>
                     <tr>
                         <td>L3</td>
                         <td>Pushes and Slowing Down</td>
-                        <td>40<td>
+                        <td>40</td>
                     </tr>
                     <tr>
                         <td>Ext C</td>
@@ -429,12 +429,12 @@
                     <tr>
                         <td>Ext E</td>
                         <td>Newton’s Third Law and Balanced Forces</td>
-                        <td>online<td>
+                        <td>online</td>
                     </tr>
                     <tr>
                         <td>L5 ED</td>
                         <td>Engineering Design: Inspiration from Nature</td>
-                        <td>60<td>
+                        <td>60</td>
                     </tr>
                 </tbody>
             </table>
