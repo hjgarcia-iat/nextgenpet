@@ -8957,6 +8957,10 @@ hr {
   color: white;
   text-align: center; }
 
+.table tr.highlight td {
+  background: #c7642c;
+  color: white; }
+
 /*
 //
 // Panels
@@ -8991,7 +8995,7 @@ hr {
 
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
   z-index: 3;
-  color: #222;
+  color: #222222;
   background-color: #dddddd;
   border-color: #dddddd;
   cursor: default; }

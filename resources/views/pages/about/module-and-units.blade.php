@@ -11,13 +11,10 @@
 @section('content')
     
     <section class="html-content">
-        <h3></h3>
+        <h3>Modules & Units</h3>
         
         
-        <p>
-        <em>Next Gen PET</em> consists of five modules: (1) Module MSE: Developing Models for Magnetism and Static Electricity; (2) Module IE: Interactions and Energy; (3) Module IF: Interactions and Forces; (4) Module WSL: Waves, Sound and Light; and (5) Module MI: Matter and Interactions. Each module includes two engineering design activities requiring application of the module’s physical science content.
-        </p>
-        
+        <p><em>Next Gen PET</em> consists of five modules: (1) Module MSE: Developing Models for Magnetism and Static Electricity; (2) Module IE: Interactions and Energy; (3) Module IF: Interactions and Forces; (4) Module WSL: Waves, Sound and Light; and (5) Module MI: Matter and Interactions. Each module includes one or two engineering design activities requiring application of the module’s physical science content. </p>
         <p>
         <em>Next Gen PET</em> also includes
         <em>Teaching and Learning activities</em> to help students make explicit connections between their own learning; the learning and teaching of children in elementary school; and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS.
@@ -30,6 +27,9 @@
         Instructors can choose which modules to include, whether or not to include
         <em>Engineering Design</em> activities, whether or not to include
         <em>Teaching and Learning activities</em>, and which instructional format to use. This allows instructors to tailor their course to match their content focus, meeting time, classroom setting, and students’ interests.
+        </p>
+        <p>
+        Below are brief summaries of the five content modules. Viewable-only versions of the entire curriculum are available from the ‘Student Materials’ link on the Studio Style Class page or the Lecture Style Class page.
         </p>
         <h3>Module MSE</h3>
         <p>

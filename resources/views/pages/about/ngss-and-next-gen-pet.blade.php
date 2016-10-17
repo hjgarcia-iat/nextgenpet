@@ -21,6 +21,9 @@
         <p>
         <em>Next Gen PET</em> consists of five modules: (1) Module MSE: Developing Models for Magnetism and Static Electricity; (2) Module IE: Interactions and Energy; (3) Module IF: Interactions and Forces; (4) Module WSL: Waves, Sound and Light; and (5) Module MI: Matter and Interactions. Each module includes two engineering design activities requiring application of the module’s physical science content.
         </p>
+        <p>
+        The Teaching & Learning Activities (see Overview link) explicitly address the Science and Engineering Practices and the Crosscutting Concepts.
+        </p>
         
         <div class="table-responsive">
             <table class="table table-bordered">
