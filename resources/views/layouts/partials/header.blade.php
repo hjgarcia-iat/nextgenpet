@@ -44,7 +44,7 @@
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="{{ Request::is('/') ? 'active' : '' }}">
+                        <li class="{{ (Request::is('/')  or Request::is('about/*') ) ? 'active' : '' }}">
                             <a href="{{ url('/') }}">Home</a>
                         </li>
                         
