@@ -29,7 +29,8 @@
                         <td colspan="3" class="text-center">Magnetism and Static Electricity Module</td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="text-center"><em>Unit M: Developing a Model for Magnetism (~9 Hours)</em></td>
+                        <td colspan="3" class="text-center"><em>Unit M: Developing a Model for Magnetism (~9 Hours)</em>
+                        </td>
                     </tr>
                     <tr>
                         <td>A1</td>
@@ -81,7 +82,8 @@
                         <td colspan="3"></td>
                     </tr>
                     <tr>
-                        <td colspan="3" class="text-center"><em>Unit SE: Developing a Model for Static Electricity (~ 10 hours )</em>
+                        <td colspan="3" class="text-center">
+                            <em>Unit SE: Developing a Model for Static Electricity (~ 10 hours )</em>
                         </td>
                     </tr>
                     <tr>
@@ -143,7 +145,7 @@
                 </tbody>
             </table>
         </div>
-    
+        
         <div class="table-responsive">
             <table class="table table-bordered">
                 <thead>
@@ -233,8 +235,8 @@
                         <td>Engineering Design: The Solar Shower</td>
                         <td>60</td>
                     </tr>
-                
-                
+                    
+                    
                     <tr>
                         <td colspan="3"></td>
                     </tr>
@@ -263,13 +265,13 @@
                         <td>More on Magnetic and Static Electric Interactions (optional)</td>
                         <td>online</td>
                     </tr>
-                
+                    
                     <tr>
                         <td>A3</td>
                         <td>Magnetic and Static Electricity Interactions and Energy</td>
                         <td>110</td>
                     </tr>
-                
+                    
                     <tr>
                         <td>Ext C</td>
                         <td>Exploring Magnetic and Electric Fields</td>
@@ -304,6 +306,149 @@
             </table>
         </div>
         
+        
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>L#</th>
+                        <th>Lesson (L) Title</th>
+                        <th>~Time (min)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="highlight">
+                        <td colspan="3" class="text-center">Interactions and Forces Module</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit FM: Force-based Model for Interactions (~10 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Interactions, Force and Motion</td>
+                        <td>120</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Force Diagrams</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A2</td>
+                        <td>Motion with a Continuous Force</td>
+                        <td>110</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>Pushing a Skateboarder</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Pushes and Slowing Down</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Connecting Force and Energy Models</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A4</td>
+                        <td>Forces and Friction</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext D</td>
+                        <td>How Does Friction Work?</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Changing Force Strength and Mass</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>Ext E</td>
+                        <td>Changing Direction</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A6</td>
+                        <td>Falling Objects</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td>A7</td>
+                        <td>Engineering Design: A Better Car Bumper</td>
+                        <td>80</td>
+                    </tr>
+                    <tr>
+                        <td colspan="3"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" class="text-center">
+                            <em>Unit CF: Combinations of Forces (~7 hours)</em>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>A1</td>
+                        <td>Combinations of Forces</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Ext A</td>
+                        <td>Newton’s Second Law</td>
+                        <td>online</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>A2</td>
+                        <td>Balanced Forces</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext B</td>
+                        <td>More on Balanced Forces</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>Ext C</td>
+                        <td>Balanced and Unbalanced Forces</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A3</td>
+                        <td>Comparing Forces During Interactions</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>Ext F</td>
+                        <td>Newton’s Third Law and Balanced Forces</td>
+                        <td>online</td>
+                    </tr>
+                    
+                    <tr>
+                        <td>A4</td>
+                        <td>Explaining Phenomena Using Force Ideas</td>
+                        <td>60</td>
+                    </tr>
+                    <tr>
+                        <td>Ext DS</td>
+                        <td>More on Vertical Motion</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
+                        <td>A5</td>
+                        <td>Engineering Design: Inspiration from Nature</td>
+                        <td>90</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    
     </section>
 
 @stop
