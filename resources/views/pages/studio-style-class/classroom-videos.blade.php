@@ -1,13 +1,13 @@
 @extends('layouts.two-column')
 
-@section('pageTitle','Lecture Style Class')
+@section('pageTitle','Studio Style Class')
 
 @section('sidebar')
-    @include('pages.lecture-style-class._sidebar')
+    @include('pages.studio-style-class._sidebar')
 @stop
 
 @section('banner')
-    @include('pages.lecture-style-class._banner')
+    @include('pages.studio-style-class._banner')
 @stop
 
 @section('content')
@@ -15,7 +15,7 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Classroom Videos</h3>
-        <p>We have video clips available of student discussions in lecture-style classrooms for most Next Gen PET lessons (LC). In these video clips, students conduct simple chair top experiments in small groups or watch movies of experiments; have small group discussions about the experiments or questions posed to them by the workbook (text) or the instructor; and engage in whole-class discussions. The video clips range from less than a minute in duration to a few minutes long. </p>
+        <p>We have video clips available of student discussions in studio-style classrooms for many Next Gen PET activities (SC). In these video clips, students conduct experiments or run computer simulations in small groups; have small group discussions about the experiments or questions posed to them by the workbook (text) or the instructor; and present their ideas on whiteboards to the whole class. The video clips range from less than a minute in duration to a few minutes long. </p>
         <p>
         The video clips are intended to illustrate what actual classroom discourse may look like, so instructors can be prepared for student discussions in their own classrooms. Many video clips also illustrate the common ideas that students have about physical science phenomena before instruction. The clips can also be used for professional development purposes, for use in a course that addresses science learning, or for researchers interested in studying student learning.
         </p>
@@ -24,7 +24,7 @@
         The video clips are organized by module (linked below), unit, and lesson. Each lesson page has all the video clips for that activity.
         </p>
         <ul class="fa-ul">
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Magnetism and Static Electricity Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i><a href="http://nextgenpet.sdsu.edu/videos/index_sc_mse.html" target="_blank">Magnetism and Static Electricity Module</a></li>
             <li><i class="fa-li fa fa-video-camera"></i><a href="">Interactions and Energy Module</a></li>
             <li><i class="fa-li fa fa-video-camera"></i><a href="">Interactions and Force Module</a></li>
             <li><i class="fa-li fa fa-video-camera"></i><a href="">Waves, Sound, and Light Module</a></li>
