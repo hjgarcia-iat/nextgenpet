@@ -12,9 +12,6 @@
 @stop
 
 @section('content')
-    
-    
-    <h3>Workshops</h3>
     <p>
     The following Next Gen PET workshops are currently scheduled.
     </p>
