@@ -77,11 +77,14 @@
     
         
     
-        <li class="dropdown{{ Request::is('studio-style-class') ? ' active open' : '' }}">
+        <li class="dropdown{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' active open' : '' }}">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studio Style Class <b class="caret"></b></a>
             <ul class="dropdown-menu navmenu-nav">
-                <li class="{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
-                    <a href="{{ url('studio-style-class') }}">Pedagogy</a>
+                <li class="{{ (Request::is('studio-style-class')) ? 'active' : '' }}">
+                    <a href="{{ url('studio-style-class') }}">Introdcutiuon</a>
+                </li>
+                <li class="{{ (Request::is('studio-style-class/pedagogy')) ? 'active' : '' }}">
+                    <a href="{{ url('studio-style-class/pedagogy') }}">Pedagogy</a>
                 </li>
                 <li>
                     <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
@@ -103,18 +106,21 @@
                        target="_blank"> Teaching and Learning Materials
                     </a>
                 </li>
+    
                 <li>
-                    <a target="_blank"
-                       href="http://nextgenpet.sdsu.edu/lc/">Extensions Index
+                    <a href="{{ url('studio-style-class/extension-index') }}"
+                       class="{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">Extensions Index
                     </a>
+    
                 </li>
                 <li>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/lc/">Demonstration Movies &amp; Simulations
+                    <a href="{{ url('studio-style-class/demonstration-movies-and-simulations') }}"
+                       class="{{ (Request::is('studio-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">Demonstration Movies &amp; Simulations
                     </a>
                 </li>
-                <li class="sidebar-menu-link">
-                    <a target="_blank"
-                       href="http://nextgenpet.sdsu.edu/lc/">Classroom Videos
+                <li class="{{ (Request::is('studio-style-class/classroom-videos')) ? 'active' : '' }}">
+                    <a
+                            href="{{ url('studio-style-class/classroom-videos') }}">Classroom Videos
                     </a>
                 </li>
             </ul>
