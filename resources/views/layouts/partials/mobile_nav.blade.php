@@ -124,7 +124,11 @@
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lecture Style Class <b class="caret"></b></a>
             <ul class="dropdown-menu navmenu-nav">
                 <li class="{{ (Request::is('lecture-style-class')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class') }}">Pedagogy</a>
+                    <a href="{{ url('lecture-style-class') }}">Introdcutiuon</a>
+                </li>
+    
+                <li class="{{ (Request::is('lecture-style-class/pedagogy')) ? 'active' : '' }}">
+                    <a href="{{ url('lecture-style-class/pedagogy') }}">Pedagogy</a>
                 </li>
                 <li>
                     <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"

@@ -15,19 +15,6 @@
     <section id="html-content" class="html-content">
         
         <h3>Pedagogy</h3>
-        <p>The Lecture-style class (LC) version is appropriate if:</p>
-        <ul>
-            <li>Students sit in desks and do not have large tables where they can perform experiments (individual, movable desks are preferred to auditorium-style seating)
-            
-            </li>
-            
-            <li>
-                Enrollment is greater than 35 students (but lower enrollments are also suitable, for instance if the room and meeting time requirements preclude using the SC version)
-            </li>
-            <li>
-                The class meets approximately 45 hours/semester, typically in 50- or 75-minute sessions
-            </li>
-        </ul>
         <p>
         Each LC lesson consists of three sections. First a brief
         <em>Purpose and Key Question(s)</em> section gives the rationale for the lesson and provides the lesson' focus. (This section may include

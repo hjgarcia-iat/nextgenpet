@@ -1,8 +1,8 @@
 <div id="menu">
     <div class="panel list-group">
-        {{--<a href="{{ url('lecture-style-class') }}"--}}
-           {{--class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Introduction--}}
-        {{--</a>--}}
+        <a href="{{ url('lecture-style-class') }}"
+           class="list-group-item{{ (Request::is('lecture-style-class')) ? ' active' : '' }}">Introduction
+        </a>
         <a href="{{ url('lecture-style-class/pedagogy') }}"
            class="list-group-item{{ (Request::is('lecture-style-class/pedagogy')) ? ' active' : '' }}">Pedagogy
         </a>
