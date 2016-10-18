@@ -17,6 +17,8 @@ elixir(function (mix) {
     mix.sass(['app.scss']).version('css/app.css');
     mix.scripts([
         './public/js/jquery.js',
+        'jquery.validate.min.js',
+        'additional-methods.min.js',
         './public/js/bootstrap.js',
         './public/js/jasny-bootstrap.min.js',
         './public/js/app.js'
