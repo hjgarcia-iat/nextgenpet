@@ -30,4 +30,85 @@ $(function () {
 
     });
 
+
+    $.validator.setDefaults({
+        highlight     : function (element) {
+            $(element).closest('.form-group').addClass('has-error');
+        },
+        unhighlight   : function (element) {
+            $(element).closest('.form-group').removeClass('has-error');
+        },
+        errorElement  : 'span',
+        errorClass    : 'help-block',
+        errorPlacement: function (error, element) {
+            if (element.parent('.input-group').length) {
+                error.insertAfter(element.parent());
+            } else {
+                error.insertAfter(element);
+            }
+        }
+    });
+
+    $('#message-form').validate({
+        rules        : {
+            name : 'required',
+            email: {
+                required: true,
+                email   : true
+            }
+        },
+        messages     : {
+            name : "Please provide your name",
+            email: {
+                required: "Please provide an email address",
+                email   : "The email address provided is not valid"
+            }
+        },
+        submitHandler: function (e) {
+            var form      = $(e),
+                formData  = form.serialize(),
+                url       = form.attr('action'),
+                method    = form.attr('method'),
+                formModal = $('#messageModal');
+
+            $.ajax({
+                url       : url,
+                data      : formData,
+                type      : method,
+                dataType  : 'json',
+                beforeSend: function () {
+                    $('.alert').remove();
+                },
+                error     : function (data, status, errors) {
+                    if (data.status === 422) {
+                        //process validation errors here.
+                        $errors = data.responseJSON; //this will get the errors response data.
+                        //show them somewhere in the markup
+                        //e.g
+                        errorsHtml = '<div class="alert alert-danger"><ul class="list-unstyled">';
+
+                        $.each($errors, function (key, value) {
+                            errorsHtml += '<li>' + value[0] + '</li>'; //showing only the first error.
+                        });
+                        errorsHtml += '</ul></di>';
+
+                        $('#message-form .modal-body').prepend(errorsHtml);
+
+                    } else {
+                        form.trigger('reset');
+                        $('#message-form .modal-body').prepend('<div class="alert alert-danger">Your request could not processed at this time!</div>')
+                    }
+                },
+                success   : function (data) {
+                    formModal.modal('toggle');
+                    form.trigger('reset');
+
+                    $('.html-content').prepend('<div class="alert alert-success" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><i class="fa fa-times"></i></button> <strong>Success!</strong> '+ data.message +'!</div>');
+
+                    $("html, body").animate({scrollTop: $('.html-content').offset().top - $('.carousel').height()}, "slow");
+                }
+            });
+        }
+    });
+
 });

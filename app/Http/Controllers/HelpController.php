@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\HelpRequest;
+use App\Http\Requests\OnlineLearningRequest;
 use App\Mail\Help;
+use App\Mail\OnlineLearning;
+use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
@@ -37,5 +40,22 @@ class HelpController extends Controller
         \Session::flash('success', 'Message sent!');
 
         return redirect()->to('help');
+    }
+
+	/**
+	 * Process form
+	 *
+	 * @param OnlineLearningRequest $request
+	 *
+	 * @return \Illuminate\Http\JsonResponse
+	 */
+    public function storeOnlineLearning(OnlineLearningRequest $request)
+    {
+//	    \Mail::to('contact@iat.com')->send(new OnlineLearning($request));
+
+	    return response()->json([
+	    	'status' => 'success',
+	        'message' => 'Your message was sent, we will get back to your shortly!'
+	    ]);
     }
 }

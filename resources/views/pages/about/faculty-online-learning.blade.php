@@ -80,7 +80,67 @@
     <strong><em>Do you want to participate?</em></strong>
     </p>
     <p>
-    If you are interested participating in Next Gen PET FOLC, contact
-    <a href="mailto:eprice@csusm.edu">Ed Price</a>
+    If you are interested participating in Next Gen PET FOLC,
+    <a href="#" data-toggle="modal" data-target="#messageModal">
+        Click Here <i class="fa fa-angle-double-right"></i>
+    </a>
     </p>
+
+
+    <!-- Button trigger modal -->
+    
+
+    <!-- Modal -->
+    <div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                {{ Form::open(['class' => 'form','id' => 'message-form','url' => '/online-learning']) }}
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                                aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                </div>
+                <div class="modal-body">
+                    
+    
+                    <div class="form-group{{ ($errors->first('name') ? ' has-error' : '') }}">
+                        <label class="control-label" for="name">Name</label>
+                        <input type="text" class="form-control"
+                               id="name"
+                               placeholder="Name" name="name"
+                               value="{{ old('name') }}">
+                        {!! $errors->first('name','<span class="help-block">:message</span>') !!}
+                    </div>
+    
+                    <div class="form-group{{ ($errors->first('email') ? ' has-error' : '') }}">
+                        <label class="control-label" for="email">Email Address</label>
+                        <input type="email"
+                               class="form-control"
+                               id="email"
+                               placeholder="Email"
+                               name="email"
+                               value="{{ old('email') }}">
+                        {!! $errors->first('name','<span class="help-block">:message</span>') !!}
+                    </div>
+    
+                    <div class="form-group{{ ($errors->first('comment') ? ' has-error' : '') }}">
+                        <label class="control-label" for="comment">Message</label>
+                        <textarea name="comment" id="comment"
+                                  class="form-control"
+                                  placeholder="Message"
+                                  cols="30"
+                                  rows="10"></textarea>
+        
+                        {!! $errors->first('comment','<span class="help-block">:message</span>') !!}
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <input type="submit" name="submit" class="btn btn-primary" value="Submit">
+                </div>
+                {{ Form::close() }}
+            </div>
+        </div>
+    </div>
+    
 @stop
