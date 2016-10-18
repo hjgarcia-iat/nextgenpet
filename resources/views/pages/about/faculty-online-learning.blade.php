@@ -81,6 +81,6 @@
     </p>
     <p>
     If you are interested participating in Next Gen PET FOLC, contact
-    <a href="mailto:Ed Price">Ed Price</a>
+    <a href="mailto:eprice@csusm.edu">Ed Price</a>
     </p>
 @stop
