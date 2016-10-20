@@ -60,8 +60,17 @@
                         <li class="{{ Request::is('help') ? 'active' : '' }}">
                             <a href="{{ url('help') }}">Help</a>
                         </li>
-                        <li class="{{ Request::is('login') ? 'active' : '' }}">
-                            <a href="https://petcyberpd.iat.com/login/">Login</a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-haspopup="true" aria-expanded="false">Additional Instructor Resources <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="https://petcyberpd.iat.com/login/?redirect=%2Funit%2Fstudio-style%2F">Studio Style</a>
+                                </li>
+                                <li>
+                                    <a href="https://petcyberpd.iat.com/login/?redirect=%2Funit%2Flecture-style%2F">Lecture Style</a>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
