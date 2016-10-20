@@ -65,10 +65,10 @@
                                aria-haspopup="true" aria-expanded="false">Additional Instructor Resources <span class="caret"></span></a>
                             <ul class="dropdown-menu">
                                 <li>
-                                    <a href="https://petcyberpd.iat.com/login/?redirect=%2Funit%2Fstudio-style%2F">Studio Style</a>
+                                    <a href="https://petcyberpd.iat.com/unit/studio-style/">Studio Style</a>
                                 </li>
                                 <li>
-                                    <a href="https://petcyberpd.iat.com/login/?redirect=%2Funit%2Flecture-style%2F">Lecture Style</a>
+                                    <a href="https://petcyberpd.iat.com/unit/lecture-style/">Lecture Style</a>
                                 </li>
                             </ul>
                         </li>
