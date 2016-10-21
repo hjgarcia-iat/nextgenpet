@@ -19,8 +19,8 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>L#</th>
-                        <th>Lesson (L) Title</th>
+                        <th>A#</th>
+                        <th>Activity (A) Title</th>
                         <th>~Time (min)</th>
                     </tr>
                 </thead>
@@ -150,8 +150,8 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>L#</th>
-                        <th>Lesson (L) Title</th>
+                        <th>A#</th>
+                        <th>Activity (A) Title</th>
                         <th>~Time (min)</th>
                     </tr>
                 </thead>
@@ -311,8 +311,8 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>L#</th>
-                        <th>Lesson (L) Title</th>
+                        <th>A#</th>
+                        <th>Activity (A) Title</th>
                         <th>~Time (min)</th>
                     </tr>
                 </thead>
@@ -452,8 +452,8 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>L#</th>
-                        <th>Lesson (L) Title</th>
+                        <th>A#</th>
+                        <th>Activity (A) Title</th>
                         <th>~Time (min)</th>
                     </tr>
                 </thead>
@@ -559,8 +559,8 @@
             <table class="table table-bordered">
                 <thead>
                     <tr>
-                        <th>L#</th>
-                        <th>Lesson (L) Title</th>
+                        <th>A#</th>
+                        <th>Activity (A) Title</th>
                         <th>~Time (min)</th>
                     </tr>
                 </thead>

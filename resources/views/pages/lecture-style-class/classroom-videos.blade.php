@@ -24,11 +24,14 @@
         The video clips are organized by module (linked below), unit, and lesson. Each lesson page has all the video clips for that activity.
         </p>
         <ul class="fa-ul">
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Magnetism and Static Electricity Module</a></li>
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Interactions and Energy Module</a></li>
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Interactions and Force Module</a></li>
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Waves, Sound, and Light Module</a></li>
-            <li><i class="fa-li fa fa-video-camera"></i><a href="">Matter and Interactions Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i><a href="http://nextgenpet.sdsu.edu/videos/index_lc_mse.html" target="_blank">Magnetism and Static Electricity Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i>
+                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_ie.html" target="_blank">Interactions and Energy Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i>
+                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_if.html" target="_blank">Interactions and Force Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i>
+                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_wsl.html" target="_blank">Waves, Sound, and Light Module</a></li>
+            <li><i class="fa-li fa fa-video-camera"></i> Matter and Interactions Module</li>
         </ul>
         
         
