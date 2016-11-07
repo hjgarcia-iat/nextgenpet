@@ -13378,7 +13378,9 @@ $(function () {
 
         var index = $(this).index();
 
-        $(this).parent('.list-group').find('a.active').removeClass('active');
+        $('#menu a.active').removeClass('active');
+        $(this).siblings('a').removeClass('active');
+
         $(this).addClass('active');
 
         $('#html-content').hide().siblings('#pdf-content').show();
