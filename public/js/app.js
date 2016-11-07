@@ -1,4 +1,14 @@
 $(function () {
+    $(window).on('load', function () {
+        var htmlHeight = $('.html-content').height();
+
+        if (htmlHeight > 800) {
+            $('html, body').animate({
+                scrollTop: $("#menu").offset().top - 200
+            }, 1500);
+        }
+    });
+
     $('#page-navbar').affix({
         offset: {
             top: $('.top-row').height()
