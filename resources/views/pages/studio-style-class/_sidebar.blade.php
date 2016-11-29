@@ -14,33 +14,33 @@
            class="list-group-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">Table of Contents with Time Estimates
         </a>
         
-        {{--<a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"--}}
-           {{--data-target="#sm"--}}
-           {{--data-parent="#menu">Content Modules--}}
-        {{--</a>--}}
-        {{--<div id="sm" class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' in' : '') }}">--}}
-            {{--<a class="list-group-item {{ (Request::is('studio-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"--}}
-               {{--href="{{ url('studio-style-class/content/magnetism-and-static-electricity-module') }}">Magnetism and Static Electricity Module--}}
-            {{--</a>--}}
-            {{--<a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"--}}
-               {{--href="{{ url('studio-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module--}}
-            {{--</a>--}}
-            {{--<a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-waves-module') ? ' active' : '') }}"--}}
-               {{--href="{{ url('studio-style-class/content/interactions-and-waves-module') }}">Interactions and Waves Module--}}
-            {{--</a>--}}
-            {{--<a class="list-group-item{{ (Request::is('studio-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"--}}
-               {{--href="{{ url('studio-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module--}}
-            {{--</a>--}}
-            {{--<a class="list-group-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"--}}
-               {{--href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">Matter and Interactions Module--}}
-            {{--</a>--}}
-        {{--</div>--}}
-    
         <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
            data-target="#sm"
+           data-parent="#menu">Content Modules
+        </a>
+        <div id="sm" class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' in' : '') }}">
+            <a class="list-group-item {{ (Request::is('studio-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/magnetism-and-static-electricity-module') }}">Magnetism and Static Electricity Module
+            </a>
+            <a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module
+            </a>
+            <a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-waves-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/interactions-and-waves-module') }}">Interactions and Waves Module
+            </a>
+            <a class="list-group-item{{ (Request::is('studio-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module
+            </a>
+            <a class="list-group-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">Matter and Interactions Module
+            </a>
+        </div>
+    
+        <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
+           data-target="#sm-student-materials"
            data-parent="#menu">Student Materials (for viewing only)
         </a>
-        <div id="sm" class="sublinks collapse">
+        <div id="sm-student-materials" class="sublinks collapse">
             <a class="list-group-item"
                target="_blank" data-file="true"
                href="{{ asset('docs/studio/Module_MSE_Studio_Style.pdf') }}">Magnetism and Static Electricity Module
