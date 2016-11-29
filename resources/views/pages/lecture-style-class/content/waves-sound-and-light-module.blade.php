@@ -13,17 +13,22 @@
     
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h3>Waves, Sounds and Light Module</h3>
+        <h3>Waves, Sound &amp; Light Module</h3>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        
+        <h4>Mechanical Waves &amp; Sound Unit</h4>
         <div id="canvas">
         
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
+        
+        <h4>Light and Color Unit</h4>
+        <div id="canvas2" class="canvas">
+        
+        </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
@@ -78,40 +83,124 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UM L1: Modeling and \nthe Mystery Tube', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UM L2: Exploring Magnetic \nEffects', x: "-750", y: "-1000"},
-            {id: 3, label: 'UM L3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
-            {id: 4, label: 'UM L4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
-            {id: 5, label: 'UM L5: Explaining Phenomena \nInvolving Magnetism', x: "-750", y: "-800"},
-            {id: 6, label: 'UM L6 ED: Designing a \nMaglev Train', x: "-1000", y: "-800"},
-            {id: 7, label: 'UM L7: Exploring Static \nElectric Effects (Optional)', x: "-1000", y: "-900"},
+            {id: 1, label: 'UFM L1: Interactions Force \nand Motion', x: "-1000", y: "-1000"},
+            {id: 2, label: 'UFM L2: Motion with a \nContinuous Force', x: "-750", y: "-1000"},
+            {id: 3, label: 'UFM L3: Pushes and \nSlowing Down', x: "-485", y: "-1000"},
+            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-800"},
+            {id: 5, label: 'UFM L5: Changing Force \nStrength and Mass', x: "-750", y: "-800"},
+            {id: 6, label: 'UFM L6: Falling Objects', x: "-1000", y: "-800"},
             {
-                id: 8, label: 'UM Ext A: Exploring the \nRegion around a Magnet', x: "-615", y: "-1075", color: {
-                border    : '#fcd5b5',
-                background: '#fcd5b5',
-                highlight : {
+                id       : 7, label: 'Ext A: Force Diagrams', x: "-875", y: "-1075",
+                color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
                 },
-                hover     : {
+                highlight: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5'
+                },
+                hover    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
                 }
-            }
             },
             {
-                id: 9, label: 'UM Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900", color: {
-                border    : '#fcd5b5',
-                background: '#fcd5b5',
-                highlight : {
+                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-615", y: "-1075",
+                color: {
                     border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                hover     : {
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 9, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-650", y: "-900",
+                color: {
                     border    : '#fcd5b5',
-                    background: '#fcd5b5'
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-650", y: "-725",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 11, label: 'Ext E: Changing Direction', x: "-875", y: "-725",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
                 }
             }
+        ]);
+
+        var nodes2 = new vis.DataSet([
+            {id: 1, label: 'UL L1: Light Waves, Pinholes \nand Shadows', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UL L2: Reflection \nof Light', x: "-825", y: "-1000"},
+            {id: 3, label: 'UL L3: Refraction of \nLight', x: "-600", y: "-1000"},
+            {id: 4, label: 'UL L4: Color', x: "-600", y: "-900"},
+            {id: 5, label: 'UL L5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
+            {
+                id   : 8, label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows', x: "-975", y: "-1075",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 9, label: 'Ext B: More on Mirror \nReflections and Images', x: "-725", y: "-1075",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
             }
         ]);
 
@@ -121,17 +210,28 @@
             {from: 2, to: 3},
             {from: 3, to: 4},
             {from: 4, to: 5},
-            {from: 5, to: 6},
-            {from: 6, to: 7, dashes: true}
+            {from: 5, to: 6}
         ]);
 
-        var container = document.getElementById('canvas');
+        var edges2 = new vis.DataSet([
+            {from: 1, to: 2},
+            {from: 2, to: 3},
+            {from: 3, to: 4},
+            {from: 4, to: 5}
+        ]);
+
+        var container  = document.getElementById('canvas');
+        var container2 = document.getElementById('canvas2');
         // provide the data in the vis format
-        var data      = {
+        var data       = {
             nodes: nodes,
             edges: edges
         };
-        var options   = {
+        var data2      = {
+            nodes: nodes2,
+            edges: edges2
+        };
+        var options    = {
             "physics": {
                 enabled: false
             },
@@ -177,7 +277,8 @@
             }
         };
 
-        var network = new vis.Network(container, data, options);
+        var network  = new vis.Network(container, data, options);
+        var network2 = new vis.Network(container2, data2, options);
 
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
