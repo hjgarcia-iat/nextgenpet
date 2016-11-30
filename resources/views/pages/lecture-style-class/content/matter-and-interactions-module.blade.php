@@ -83,16 +83,16 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UPC L1: Pressure', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UPC L2: The SPT of \nGases', x: "-850", y: "-1000"},
-            {id: 3, label: 'UPC L3: Pressure and \nSPT', x: "-675", y: "-1000"},
+            {id: 1, label: 'UPC L1: Pressure', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UPC L2: The SPT of \nGases', x: "-900", y: "-1000"},
+            {id: 3, label: 'UPC L3: Pressure and \nSPT', x: "-685", y: "-1000"},
             {id: 4, label: 'UPC L4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
             {id: 5, label: 'UPC L5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
             {id: 6, label: 'UPC L6: Changes of \nState', x: "-485", y: "-750"},
-            {id: 7, label: 'UPC L7: Change of State \nand the SPT', x: "-750", y: "-750"},
-            {id: 8, label: 'UPC L8: Evaluating \nBallonet Designs', x: "-1000", y: "-750"},
+            {id: 7, label: 'UPC L7: Change of State \nand the SPT', x: "-800", y: "-750"},
+            {id: 8, label: 'UPC L8: Evaluating \nBallonet Designs', x: "-1100", y: "-750"},
             {
-                id       : 10, label: 'Ext G: Effects due \nto air Pressure', x: "-925", y: "-1075",
+                id       : 10, label: 'Ext G: Effects due \nto air Pressure', x: "-1000", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -107,7 +107,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext H: Properties of \ngases and SPT', x: "-750", y: "-1075",
+                id   : 11, label: 'Ext H: Properties of \ngases and SPT', x: "-800", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -182,7 +182,7 @@
                 }
             },
             {
-                id   : 16, label: 'Ext  M: Heating Curves and SPT', x: "-875", y: "-685",
+                id   : 16, label: 'Ext  M: Heating Curves and SPT', x: "-950", y: "-685",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
