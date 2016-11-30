@@ -82,19 +82,19 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UEM L1: Interactions and \nMotion', x: "-1100", y: "-1100"},
-            {id: 2, label: 'UEM L2: Motion and \nEnergy', x: "-850", y: "-1100"},
-            {id: 3, label: 'UEM L3: Slowing and \nStopping', x: "-600", y: "-1100"},
-            {id: 4, label: 'UEM L4: Friction as \nan Interaction', x: "-600", y: "-950"},
-            {id: 5, label: 'UEM L5: Warming and \nCooling', x: "-600", y: "-800"},
+            {id: 1, label: 'UEM A1: Interactions and \nMotion', x: "-1100", y: "-1100"},
+            {id: 2, label: 'UEM A2: Motion and \nEnergy', x: "-850", y: "-1100"},
+            {id: 3, label: 'UEM A3: Slowing and \nStopping', x: "-600", y: "-1100"},
+            {id: 4, label: 'UEM A4: Friction as \nan Interaction', x: "-600", y: "-950"},
+            {id: 5, label: 'UEM A5: Warming and \nCooling', x: "-600", y: "-800"},
             {
                 id   : 6,
-                label: 'UEM L6: Keeping Track \n of Energy in Electric \nCircuit Interactions',
+                label: 'UEM A6: Keeping Track \n of Energy in Electric \nCircuit Interactions',
                 x    : "-850",
                 y    : "-800"
             },
-            {id: 7, label: 'UEM L7: More on Keeping \nTrack of Energy', x: "-1100", y: "-800"},
-            {id: 10, label: 'UEM L8: No More \nCold Showers', x: "-1100", y: "-900"},
+            {id: 7, label: 'UEM A7: More on Keeping \nTrack of Energy', x: "-1100", y: "-800"},
+            {id: 10, label: 'UEM A8: No More \nCold Showers', x: "-1100", y: "-900"},
             {
                 id: 8, label: 'Ext A: Representing Motion \non Speed-Time Graphs', x: "-1000", y: "-1175", color: {
                 border    : '#fcd5b5',
@@ -110,7 +110,7 @@
             }
             },
             {
-                id   : 9, label: 'Ext C: Describing Interactions \nin Terms of Energy', x: "-750", y: "-1175",
+                id   : 9, label: 'Ext B: Explanations \nUsing Energy Ideas', x: "-750", y: "-1175",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -140,7 +140,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: Scientific \nExplanations', x: "-725", y: "-1025",
+                id   : 12, label: 'Ext E: Simultaneous \nInteractions', x: "-725", y: "-1025",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -155,7 +155,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext F: Scientific \nExplanations', x: "-725", y: "-890",
+                id   : 13, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-725", y: "-890",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -170,22 +170,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-725", y: "-725",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 15, label: 'Ext H: More on \nElectromagnetic Interactions', x: "-985", y: "-725",
+                id   : 15, label: 'Ext I: More on \nEfficiency and Conversation \nof Energy', x: "-985", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -202,11 +187,11 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UPEF L1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
-            {id: 2, label: 'UPEF L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
-            {id: 3, label: 'UPEF L3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
-            {id: 4, label: 'UPEF L4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
-            {id: 6, label: 'UPEF L5: Electromagnetic \nInteractions', x: "-1000", y: "-800"},
+            {id: 1, label: 'UPEF A1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
+            {id: 2, label: 'UPEF A2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
+            {id: 3, label: 'UPEF A3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
+            {id: 4, label: 'UPEF A4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
+            {id: 6, label: 'UPEF A5: Electromagnetic \nInteractions', x: "-1000", y: "-800"},
             {
                 id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-1050", y: "-1075",
                 color: {

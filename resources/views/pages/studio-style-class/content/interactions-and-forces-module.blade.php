@@ -27,7 +27,7 @@
         
         <h4>Unit on Combined Forces</h4>
         <div id="canvas2" class="canvas">
-    
+        
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -83,14 +83,15 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UFM L1: Interactions Force \nand Motion', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UFM L2: Motion with a \nContinuous Force', x: "-750", y: "-1000"},
-            {id: 3, label: 'UFM L3: Pushes and \nSlowing Down', x: "-485", y: "-1000"},
-            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-800"},
-            {id: 5, label: 'UFM L5: Changing Force \nStrength and Mass', x: "-750", y: "-800"},
-            {id: 6, label: 'UFM L6: Falling Objects', x: "-1000", y: "-800"},
+            {id: 1, label: 'UFM A1: Interactions Force \nand Motion', x: "-1000", y: "-1000"},
+            {id: 2, label: 'UFM A2: Motion with a \nContinuous Force', x: "-750", y: "-1000"},
+            {id: 3, label: 'UFM A3: Pushes and \nSlowing Down', x: "-485", y: "-1000"},
+            {id: 4, label: 'UFM A4: Forces \nand Friction', x: "-485", y: "-800"},
+            {id: 5, label: 'UFM A5: Changing Force \nStrength and Mass', x: "-750", y: "-800"},
+            {id: 6, label: 'UFM A6: Falling Objects', x: "-1000", y: "-800"},
+            {id: 7, label: 'UFM A7: Crash Barrier Design', x: "-1000", y: "-875"},
             {
-                id       : 7, label: 'Ext A: Force Diagrams', x: "-875", y: "-1075",
+                id       : 10, label: 'Ext A: Force Diagrams', x: "-875", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -105,7 +106,7 @@
                 }
             },
             {
-                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-615", y: "-1075",
+                id   : 11, label: 'Ext B: Pushing a \nSkateboarder', x: "-615", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -120,7 +121,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-650", y: "-900",
+                id   : 12, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-650", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -135,7 +136,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-650", y: "-725",
+                id   : 13, label: 'Ext D: How Does \nFriction Work?', x: "-650", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -150,7 +151,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext E: Changing Direction', x: "-875", y: "-725",
+                id   : 14, label: 'Ext E: Changing Direction', x: "-875", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -167,11 +168,11 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UCF L1: Combination of Forces', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UCF L2: Balanced Forces', x: "-825", y: "-1000"},
-            {id: 3, label: 'UCF L3: Situations \nInvolving Friction', x: "-600", y: "-1000"},
-            {id: 4, label: 'UCF L4: Comparing Forces \nDuring Interactions', x: "-600", y: "-800"},
-            {id: 5, label: 'UCF L5: \'Whirligig\' \nChallenge', x: "-900", y: "-800"},
+            {id: 1, label: 'UCF A1: Combination of Forces', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UCF A2: Balanced Forces', x: "-825", y: "-1000"},
+            {id: 3, label: 'UCF A3: Comparing Forces \nDuring Interactions', x: "-600", y: "-1000"},
+            {id: 4, label: 'UCF A4: Explaining \nPhenomena Using \nForce Ideas', x: "-600", y: "-800"},
+            {id: 5, label: 'UCF A5: \'Whirligig\' \nChallenge', x: "-900", y: "-800"},
             {
                 id   : 8, label: 'UCF Ext A: Newton\'s Second \n Law and Net Force', x: "-975", y: "-1075",
                 color: {
@@ -218,7 +219,8 @@
                 }
             },
             {
-                id   : 11, label: 'UCF Ext D: More on Vertical \nMotion (Air Drag)', x: "-750", y: "-865",
+                id   : 11,
+                label: 'UCF Ext E: Newton\'s Third Law and \nBalanced Forces', x: "-750", y: "-875",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -233,7 +235,7 @@
                 }
             },
             {
-                id   : 12, label: 'UCF Ext E: Newton\'s Third Law and \nBalanced Forces', x: "-750", y: "-735",
+                id   : 12, label: 'UCF Ext D: More on Vertical \nMotion (Air Drag)', x: "-750", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -255,7 +257,8 @@
             {from: 2, to: 3},
             {from: 3, to: 4},
             {from: 4, to: 5},
-            {from: 5, to: 6}
+            {from: 5, to: 6},
+            {from: 6, to: 7}
         ]);
 
         var edges2 = new vis.DataSet([
@@ -264,18 +267,18 @@
             {from: 4, to: 5}
         ]);
 
-        var container = document.getElementById('canvas');
+        var container  = document.getElementById('canvas');
         var container2 = document.getElementById('canvas2');
         // provide the data in the vis format
-        var data      = {
+        var data       = {
             nodes: nodes,
             edges: edges
         };
-        var data2 = {
+        var data2      = {
             nodes: nodes2,
             edges: edges2
         };
-        var options   = {
+        var options    = {
             "physics": {
                 enabled: false
             },
@@ -321,7 +324,7 @@
             }
         };
 
-        var network = new vis.Network(container, data, options);
+        var network  = new vis.Network(container, data, options);
         var network2 = new vis.Network(container2, data2, options);
 
         network.on("doubleClick", function (params) {

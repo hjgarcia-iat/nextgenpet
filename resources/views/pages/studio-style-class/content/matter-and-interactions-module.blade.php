@@ -83,16 +83,19 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UPC L1: Pressure', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UPC L2: The SPT of \nGases', x: "-850", y: "-1000"},
-            {id: 3, label: 'UPC L3: Pressure and \nSPT', x: "-675", y: "-1000"},
-            {id: 4, label: 'UPC L4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
-            {id: 5, label: 'UPC L5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
-            {id: 6, label: 'UPC L6: Changes of \nState', x: "-485", y: "-750"},
-            {id: 7, label: 'UPC L7: Change of State \nand the SPT', x: "-750", y: "-750"},
-            {id: 8, label: 'UPC L8: Evaluating \nBallonet Designs', x: "-1000", y: "-750"},
+            {id: 1, label: 'UPC A1: Pressure', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UPC A2: The SPT of \nGases', x: "-900", y: "-1000"},
+            {id: 3, label: 'UPC A3: Pressure and \nSPT', x: "-685", y: "-1000"},
+            {id: 4, label: 'UPC A4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
+            {id: 5, label: 'UPC A5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
+            {id: 6, label: 'UPC A6: Changes of \nState', x: "-800", y: "-875"},
+            {id: 7, label: 'UPC A7: Change of State \nand the SPT', x: "-1100", y: "-875"},
+            {id: 8, label: 'UPC A8: Evaluating \nBallonet Designs', x: "-1100", y: "-725"},
+            {id: 9, label: 'UPC A9: Evaluating \nBallonet Designs', x: "-900", y: "-725"},
+            {id: 10, label: 'UPC A10: Evaluating \nBallonet Designs', x: "-685", y: "-725"},
+            {id: 11, label: 'UPC A11: Evaluating \nBallonet Designs', x: "-485", y: "-725"},
             {
-                id       : 10, label: 'Ext G: Effects due \nto air Pressure', x: "-925", y: "-1075",
+                id       : 15, label: 'Ext A: Intro to \nSpreadsheets & Graphing', x: "-1000", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -107,7 +110,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext H: Properties of \ngases and SPT', x: "-750", y: "-1075",
+                id   : 16, label: 'Ext B: Pressure-Volume \nRelationship', x: "-800", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -122,7 +125,7 @@
                 }
             },
             {
-                id: 12, label: 'Ext I: Mass, Volume \nand Density', x: "-575", y: "-1075",
+                id   : 17, label: 'Ext C: Gas \nLaw Graphing', x: "-655", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -137,7 +140,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext J: Sinking \nand Floating', x: "-650", y: "-935",
+                id   : 18, label: 'Ext D: Energy in \nHeating & Phase Changes', x: "-975", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -152,7 +155,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext K: Rates of Warming of \nDifferent Materials', x: "-650", y: "-815",
+                id   : 19, label: 'Ext E: SPT & Density \nof Gases, Liquids \n& Solids', x: "-1000", y: "-650",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -167,22 +170,10 @@
                 }
             },
             {
-                id   : 15, label: 'Ext L: Explanations Involving \nHeating and Cooling', x: "-625", y: "-685",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 16, label: 'Ext  M: Heating Curves and SPT', x: "-875", y: "-685",
+                id   : 20,
+                label: 'Ext F: Using Characteristic \nPhysical Properties \nof Matter',
+                x    : "-800y",
+                y    : "-650",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -196,19 +187,22 @@
                     }
                 }
             }
-
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UCR L1: Physical \nChanges versus \nChemical Reactions', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UCR L2: Chemical \nReactions and \nConversation of Mass', x: "-750", y: "-1000"},
-            {id: 3, label: 'UCR L3: Chemical \nReactions and Conservation \nof Mass and SPT', x: "-485", y: "-1000"},
-            {id: 4, label: 'UCR L4: Chemical \nReactions and \nEnergy Transfer', x: "-485", y: "-875"},
-            {id: 5, label: 'UCR L5: Classifying \nand Organizing Elements', x: "-485", y: "-750"},
-            {id: 6, label: 'UCR L6: Periodic Trends \nand the Elements', x: "-750", y: "-750"},
-            {id: 7, label: 'UCR L7: Atoms, Ions \nand the Periodic \nTable', x: "-1000", y: "-750"},
+            {id: 1, label: 'UCR A1: Physical \nChanges vs. \nChemical Reactions', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UCR A2: Classification \nof Matter', x: "-900", y: "-1000"},
+            {id: 3, label: 'UCR A3: Evidence of \nChemical Reactions', x: "-685", y: "-1000"},
+            {id: 4, label: 'UCR A4: Conservation of \nMass and SPT', x: "-485", y: "-1000"},
+            {id: 5, label: 'UCR A5: Chemical \nReactions & Energy Transfer', x: "-485", y: "-875"},
+            {id: 6, label: 'UCR A6: Elements & \nthe Periodic Table', x: "-800", y: "-875"},
+            {id: 7, label: 'UCR A7: Atoms & \nthe Periodic Table', x: "-1100", y: "-875"},
+            {id: 8, label: 'UCR A8: Electrons & \nChemical Bonding', x: "-1100", y: "-725"},
+            {id: 9, label: 'UCR A9: Molecular \nStructure \n(Supplemental)', x: "-900", y: "-725"},
+            {id: 10, label: 'UCR A10: Using the \nClass Consensus \nto Explain Observations', x: "-685", y: "-725"},
+            {id: 11, label: 'UCR A11: Evaluating \nHand Warmers', x: "-485", y: "-725"},
             {
-                id       : 10, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-900", y: "-1075",
+                id       : 12, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-800", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -223,7 +217,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext B: Reaction Rates \nand Temperature', x: "-625", y: "-1075",
+                id   : 13, label: 'Ext B: Reaction Rates \nand Temperature', x: "-600", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -238,7 +232,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext F: Balancing \nChemical Equations', x: "-650", y: "-935",
+                id   : 14, label: 'Ext C: Collision Theory & Chemical Reactions', x: "-650", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -253,7 +247,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext G: Characteristics \nProperties', x: "-650", y: "-815",
+                id   : 15, label: 'Ext D: Reaction Rate & Energy Diagrams', x: "-650", y: "-815",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -268,22 +262,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: Models of \nthe Atom', x: "-625", y: "-680",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 15, label: 'Ext H: Atomic Structure, \nthe Periodic Table, and\n Isotopes', x: "-875", y: "-680",
+                id   : 16, label: 'Ext E: Models of \nthe Atom', x: "-950", y: "-815",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -307,7 +286,10 @@
             {from: 4, to: 5},
             {from: 5, to: 6},
             {from: 6, to: 7},
-            {from: 7, to: 8}
+            {from: 7, to: 8},
+            {from: 8, to: 9},
+            {from: 9, to: 10},
+            {from: 10, to: 11}
         ]);
 
         var edges2 = new vis.DataSet([

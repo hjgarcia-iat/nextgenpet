@@ -83,14 +83,13 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UFM L1: Interactions Force \nand Motion', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UFM L2: Motion with a \nContinuous Force', x: "-750", y: "-1000"},
-            {id: 3, label: 'UFM L3: Pushes and \nSlowing Down', x: "-485", y: "-1000"},
-            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-800"},
-            {id: 5, label: 'UFM L5: Changing Force \nStrength and Mass', x: "-750", y: "-800"},
-            {id: 6, label: 'UFM L6: Falling Objects', x: "-1000", y: "-800"},
+            {id: 1, label: 'UWS A1: Wave Pulses', x: "-1000", y: "-1000"},
+            {id: 2, label: 'UWS A2: Continuous Waves', x: "-750", y: "-1000"},
+            {id: 3, label: 'UWS A3: Two Dimensional Waves', x: "-485", y: "-1000"},
+            {id: 4, label: 'UWS A4: Sound Waves', x: "-485", y: "-800"},
+            {id: 5, label: 'UWS A5 ED: Earthquake Epicenter', x: "-750", y: "-800"},
             {
-                id       : 7, label: 'Ext A: Force Diagrams', x: "-875", y: "-1075",
+                id       : 7, label: 'Ext A: How Do Waves Move?', x: "-625", y: "-1050",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -105,7 +104,7 @@
                 }
             },
             {
-                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-615", y: "-1075",
+                id   : 8, label: 'Ext C: Reflection of\n 2D Waves', x: "-615", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -120,37 +119,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-650", y: "-900",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-650", y: "-725",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 11, label: 'Ext E: Changing Direction', x: "-875", y: "-725",
+                id   : 9, label: 'Ext D: Reflection of\n 2D Waves', x: "-615", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -167,11 +136,11 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UL L1: Light Waves, Pinholes \nand Shadows', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UL L2: Reflection \nof Light', x: "-825", y: "-1000"},
-            {id: 3, label: 'UL L3: Refraction of \nLight', x: "-600", y: "-1000"},
-            {id: 4, label: 'UL L4: Color', x: "-600", y: "-900"},
-            {id: 5, label: 'UL L5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
+            {id: 1, label: 'UL A1: Pinholes', x: "-1100", y: "-1000"},
+            {id: 2, label: 'UL A2: Reflection \nof Light', x: "-825", y: "-1000"},
+            {id: 3, label: 'UL A3: Refraction of \nLight', x: "-600", y: "-1000"},
+            {id: 4, label: 'UL A4: Color', x: "-600", y: "-900"},
+            {id: 5, label: 'UL A5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
             {
                 id   : 8, label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows', x: "-975", y: "-1075",
                 color: {

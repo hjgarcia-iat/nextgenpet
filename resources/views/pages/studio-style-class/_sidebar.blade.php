@@ -25,8 +25,8 @@
             <a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"
                href="{{ url('studio-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module
             </a>
-            <a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-waves-module') ? ' active' : '') }}"
-               href="{{ url('studio-style-class/content/interactions-and-waves-module') }}">Interactions and Waves Module
+            <a class="list-group-item{{ (Request::is('studio-style-class/content/interactions-and-forces-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/interactions-and-forces-module') }}">Interactions and Forces Module
             </a>
             <a class="list-group-item{{ (Request::is('studio-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"
                href="{{ url('studio-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module
