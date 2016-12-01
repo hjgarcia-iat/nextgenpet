@@ -256,7 +256,7 @@
                         <td>online</td>
                     </tr>
                     <tr>
-                        <td>L2</td>
+                        <td>A2</td>
                         <td>Comparing Magnetic and Static Electric Interactions (optional)</td>
                         <td>50</td>
                     </tr>

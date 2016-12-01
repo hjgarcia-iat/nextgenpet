@@ -18,14 +18,14 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Magnetism</h4>
+        <h4>Unit M: Developing a Model for Magnetism</h4>
         <div id="canvas" class="canvas">
         
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit of Developing a Model for Static Electricity</h4>
+        <h4>Unit SE: Developing a Model for Static Electricity</h4>
         <div id="canvas2" class="canvas">
         
         </div>
@@ -83,14 +83,14 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UM A1: Modeling and \nthe Mystery Tube', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UM A2: Exploring Magnetic \nEffects', x: "-750", y: "-1000"},
-            {id: 3, label: 'UM A3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
-            {id: 4, label: 'UM A4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
-            {id: 5, label: 'UM A5: Explaining Phenomena \nInvolving Magnetism', x: "-750", y: "-800"},
-            {id: 6, label: 'UM A6 ED: Designing a \nMaglev Train', x: "-1000", y: "-800"},
+            {id: 1, label: 'A1: Modeling and \nthe Mystery Tube', x: "-1000", y: "-1000"},
+            {id: 2, label: 'A2: Exploring Magnetic \nEffects', x: "-750", y: "-1000"},
+            {id: 3, label: 'A3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
+            {id: 4, label: 'A4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
+            {id: 5, label: 'A5: Explaining Phenomena \nInvolving Magnetism', x: "-750", y: "-800"},
+            {id: 6, label: 'A6 ED: Designing a \nMaglev Train', x: "-1000", y: "-800"},
             {
-                id   : 8, label: 'UM Ext A: Exploring the \nRegion around a Magnet', x: "-615", y: "-1075",
+                id   : 8, label: 'Ext A: Exploring the \nRegion around a Magnet', x: "-615", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -105,7 +105,7 @@
                 }
             },
             {
-                id   : 9, label: 'UM Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900",
+                id   : 9, label: 'Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -120,7 +120,7 @@
                 }
             },
             {
-                id   : 10, label: 'UM Ext C: Explaining \n Magnetism Phenomenon', x: "-885", y: "-865",
+                id   : 10, label: 'Ext C: Explaining \nAnother Magnetic \nPhenomenon', x: "-885", y: "-865",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -137,15 +137,15 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'USE A1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
-            {id: 2, label: 'USE A2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
-            {id: 3, label: 'USE A3: Representing \nUncharged Objects', x: "-600", y: "-1000"},
-            {id: 4, label: 'USE A4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
-            {id: 6, label: 'USE A5: Explaining Phenomena \nInvolving Static \nElectricity', x: "-925", y: "-800"},
-            {id: 7, label: 'USE A6: Explaining \nPhenomena Involving \nStatic Electricity', x: "-1200", y: "-800"},
-            {id: 8, label: 'USE A7: Refueling Safety', x: "-1200", y: "-900"},
+            {id: 1, label: 'A1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
+            {id: 2, label: 'A2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
+            {id: 3, label: 'A3: Representing \nUncharged Objects', x: "-600", y: "-1000"},
+            {id: 4, label: 'A4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
+            {id: 6, label: 'A5: Explaining Phenomena \nInvolving Static \nElectricity', x: "-925", y: "-800"},
+            {id: 7, label: 'A6: Explaining \nPhenomena Involving \nStatic Electricity', x: "-1200", y: "-800"},
+            {id: 8, label: 'A7: Refueling Safety', x: "-1200", y: "-900"},
             {
-                id   : 12, label: 'USE Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
+                id   : 12, label: 'Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -160,7 +160,7 @@
                 }
             },
             {
-                id   : 13, label: 'USE Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
+                id   : 13, label: 'Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -175,7 +175,7 @@
                 }
             },
             {
-                id   : 14, label: 'USE Ext C: Electroscope and \nNegative Object', x: "-750", y: "-935",
+                id   : 15, label: 'Ext D: What do Charged \nEntities Represent', x: "-750", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -190,22 +190,7 @@
                 }
             },
             {
-                id   : 15, label: 'USE Ext D: What do Charged \nEntities Represent', x: "-750", y: "-865",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 16, label: 'USE Ext E: What Happens when \nCharged Object is Discharged?', x: "-750", y: "-735",
+                id   : 16, label: 'Ext E: What Happens when \nCharged Object is Discharged?', x: "-750", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',

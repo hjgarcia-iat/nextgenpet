@@ -17,14 +17,14 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Units of Energy Model</h4>
+        <h4>Unit EM: Energy-based Model for Interactions</h4>
         <div id="canvas" class="canvas">
         
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit on Potential Energy &amp; Fields</h4>
+        <h4>Unit PEF: Potential Energy and Fields</h4>
         <div id="canvas2" class="canvas">
         
         </div>
@@ -82,19 +82,19 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UEM A1: Interactions and \nMotion', x: "-1100", y: "-1100"},
-            {id: 2, label: 'UEM A2: Motion and \nEnergy', x: "-850", y: "-1100"},
-            {id: 3, label: 'UEM A3: Slowing and \nStopping', x: "-600", y: "-1100"},
-            {id: 4, label: 'UEM A4: Friction as \nan Interaction', x: "-600", y: "-950"},
-            {id: 5, label: 'UEM A5: Warming and \nCooling', x: "-600", y: "-800"},
+            {id: 1, label: 'A1: Interactions and \nMotion', x: "-1100", y: "-1100"},
+            {id: 2, label: 'A2: Motion and \nEnergy', x: "-850", y: "-1100"},
+            {id: 3, label: 'A3: Slowing and \nStopping', x: "-600", y: "-1100"},
+            {id: 4, label: 'A4: Friction as \nan Interaction', x: "-600", y: "-950"},
+            {id: 5, label: 'A5: Keeping Track \nof Energy in Electric \nCircuit Interactions', x: "-600", y: "-800"},
             {
                 id   : 6,
-                label: 'UEM A6: Keeping Track \n of Energy in Electric \nCircuit Interactions',
+                label: 'A6: More on Keeping \nTrack of Energy',
                 x    : "-850",
                 y    : "-800"
             },
-            {id: 7, label: 'UEM A7: More on Keeping \nTrack of Energy', x: "-1100", y: "-800"},
-            {id: 10, label: 'UEM A8: No More \nCold Showers', x: "-1100", y: "-900"},
+            {id: 7, label: 'A7: Conservation \nof Energy', x: "-1100", y: "-800"},
+            {id: 10, label: 'A8: Engineering Design: \nThe Solar Shower', x: "-1100", y: "-950"},
             {
                 id: 8, label: 'Ext A: Representing Motion \non Speed-Time Graphs', x: "-1000", y: "-1175", color: {
                 border    : '#fcd5b5',
@@ -170,7 +170,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext I: More on \nEfficiency and Conversation \nof Energy', x: "-985", y: "-725",
+                id   : 15, label: 'Ext I: More on \nEfficiency and Conversation \nof Energy', x: "-965", y: "-875",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -187,11 +187,12 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UPEF A1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
-            {id: 2, label: 'UPEF A2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
-            {id: 3, label: 'UPEF A3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
-            {id: 4, label: 'UPEF A4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
-            {id: 6, label: 'UPEF A5: Electromagnetic \nInteractions', x: "-1000", y: "-800"},
+            {id: 1, label: 'A1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
+            {id: 2, label: 'A2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
+            {id: 3, label: 'A3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
+            {id: 4, label: 'A4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
+            {id: 6, label: 'A5: Electromagnetic \nInteractions', x: "-900", y: "-800"},
+            {id: 7, label: 'A6: Engineering Design: \nStoring Energy from \nBraking', x: "-1200", y: "-800"},
             {
                 id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-1050", y: "-1075",
                 color: {
@@ -208,7 +209,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Magnetic\nPoles and Electrict Charges', x: "-750", y: "-1075",
+                id   : 9, label: 'Ext B: Magnetic\nPoles and Electric Charges', x: "-750", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -253,7 +254,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: More on \nElectromagnetic Interactions', x: "-1200", y: "-735",
+                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-1035", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -286,7 +287,8 @@
             {from: 1, to: 2},
             {from: 2, to: 3},
             {from: 3, to: 4},
-            {from: 4, to: 6}
+            {from: 4, to: 6},
+            {from: 6, to: 7}
         ]);
 
         var container  = document.getElementById('canvas');

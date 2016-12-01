@@ -10,24 +10,24 @@
     @include('pages.studio-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Waves, Sound &amp; Light Module</h3>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Mechanical Waves &amp; Sound Unit</h4>
+        <h4>Unit WS: Mechanical Waves and Sound</h4>
         <div id="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        
-        <h4>Light and Color Unit</h4>
+
+        <h4>Unit L: Light and Color</h4>
         <div id="canvas2" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!</p>
-                    
+
                     <span class="wistia_embed wistia_async_ft3r1d6oru popover=true popoverAnimateThumbnail=true"
                           style="display:inline-block;height:240px;width:300px">&nbsp;</span>
                 </div>
@@ -78,16 +78,16 @@
     <script src="//fast.wistia.com/embed/medias/el4h8jlwzj.jsonp" async></script>
     <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-    
-    
+
+
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UWS A1: Wave Pulses', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UWS A2: Continuous Waves', x: "-750", y: "-1000"},
-            {id: 3, label: 'UWS A3: Two Dimensional Waves', x: "-485", y: "-1000"},
-            {id: 4, label: 'UWS A4: Sound Waves', x: "-485", y: "-800"},
-            {id: 5, label: 'UWS A5 ED: Earthquake Epicenter', x: "-750", y: "-800"},
+            {id: 1, label: 'A1: Wave Pulses', x: "-1000", y: "-1000"},
+            {id: 2, label: 'A2: Continuous Waves', x: "-750", y: "-1000"},
+            {id: 3, label: 'A3: Two Dimensional Waves', x: "-485", y: "-1000"},
+            {id: 4, label: 'A4: Sound Waves', x: "-485", y: "-800"},
+            {id: 5, label: 'A5: Engineering \nDesign: Locating an \nEarthquake', x: "-750", y: "-800"},
             {
                 id       : 7, label: 'Ext A: How Do Waves Move?', x: "-625", y: "-1050",
                 color    : {
@@ -136,11 +136,11 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UL A1: Pinholes', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UL A2: Reflection \nof Light', x: "-825", y: "-1000"},
-            {id: 3, label: 'UL A3: Refraction of \nLight', x: "-600", y: "-1000"},
-            {id: 4, label: 'UL A4: Color', x: "-600", y: "-900"},
-            {id: 5, label: 'UL A5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
+            {id: 1, label: 'A1: Pinholes \nand Shadows', x: "-1100", y: "-1000"},
+            {id: 2, label: 'A2: Reflection \nof Light', x: "-825", y: "-1000"},
+            {id: 3, label: 'A3: Refraction of \nLight', x: "-600", y: "-1000"},
+            {id: 4, label: 'A4: Color', x: "-600", y: "-900"},
+            {id: 5, label: 'A5: Engineering \nDesign: Measuring \nthe Moon\'s Distance', x: "-900", y: "-900"},
             {
                 id   : 8, label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows', x: "-975", y: "-1075",
                 color: {
@@ -157,7 +157,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: More on Mirror \nReflections and Images', x: "-725", y: "-1075",
+                id   : 9, label: 'Ext B: Further \nInvestigations of Mirror \nReflections and Images', x: "-725", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -252,7 +252,7 @@
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
         });
-    
+
     </script>
 @stop
 
