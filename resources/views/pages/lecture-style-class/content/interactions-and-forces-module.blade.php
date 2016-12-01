@@ -17,7 +17,7 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Unit on Force</h4>
+        <h4>Unit FM: Force-based Model for Interactions</h4>
         <div id="canvas">
         
         </div>
@@ -25,7 +25,7 @@
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         
-        <h4>Unit on Combined Forces</h4>
+        <h4>Unit CF: Combinations of Forces</h4>
         <div id="canvas2" class="canvas">
     
         </div>
@@ -167,13 +167,13 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UCF L1: Combination of Forces', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UCF L2: Balanced Forces', x: "-825", y: "-1000"},
-            {id: 3, label: 'UCF L3: Situations \nInvolving Friction', x: "-600", y: "-1000"},
-            {id: 4, label: 'UCF L4: Comparing Forces \nDuring Interactions', x: "-600", y: "-800"},
-            {id: 5, label: 'UCF L5: \'Whirligig\' \nChallenge', x: "-900", y: "-800"},
+            {id: 1, label: 'L1: Combination of Forces', x: "-1100", y: "-1000"},
+            {id: 2, label: 'L2: Balanced Forces', x: "-825", y: "-1000"},
+            {id: 3, label: 'L3: Situations \nInvolving Friction', x: "-600", y: "-1000"},
+            {id: 4, label: 'L4: Comparing Forces \nDuring Interactions', x: "-600", y: "-800"},
+            {id: 5, label: 'L5 ED: Engineering Design: \nInspiration from Nature', x: "-900", y: "-800"},
             {
-                id   : 8, label: 'UCF Ext A: Newton\'s Second \n Law and Net Force', x: "-975", y: "-1075",
+                id   : 8, label: 'Ext A: Newton\'s Second \n Law', x: "-975", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -188,7 +188,7 @@
                 }
             },
             {
-                id   : 9, label: 'UCF Ext B: More on Balanced \n Forces', x: "-725", y: "-1075",
+                id   : 9, label: 'Ext B: More on Balanced \n Forces', x: "-725", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -203,7 +203,7 @@
                 }
             },
             {
-                id   : 10, label: 'UCF Ext C: Balanced and \nUnbalanced Forces', x: "-750", y: "-935",
+                id   : 10, label: 'Ext C: Balanced and \nUnbalanced Forces', x: "-750", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -218,7 +218,7 @@
                 }
             },
             {
-                id   : 11, label: 'UCF Ext D: More on Vertical \nMotion (Air Drag)', x: "-750", y: "-865",
+                id   : 11, label: 'Ext D: More on Vertical \nMotion (Air Drag)', x: "-750", y: "-865",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -233,7 +233,7 @@
                 }
             },
             {
-                id   : 12, label: 'UCF Ext E: Newton\'s Third Law and \nBalanced Forces', x: "-750", y: "-735",
+                id   : 12, label: 'Ext E: Newton\'s Third Law and \nBalanced Forces', x: "-750", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',

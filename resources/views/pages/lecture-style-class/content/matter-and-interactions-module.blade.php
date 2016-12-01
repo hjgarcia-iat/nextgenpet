@@ -17,7 +17,7 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Physical Changes Unit</h4>
+        <h4>Unit PC: Physical Changes</h4>
         <div id="canvas">
         
         </div>
@@ -25,7 +25,7 @@
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         
-        <h4>Chemical Reactions Unit</h4>
+        <h4>Unit CR: Chemical Reactions</h4>
         <div id="canvas2" class="canvas">
         
         </div>
@@ -83,16 +83,16 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UPC L1: Pressure', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UPC L2: The SPT of \nGases', x: "-900", y: "-1000"},
-            {id: 3, label: 'UPC L3: Pressure and \nSPT', x: "-685", y: "-1000"},
-            {id: 4, label: 'UPC L4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
-            {id: 5, label: 'UPC L5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
-            {id: 6, label: 'UPC L6: Changes of \nState', x: "-485", y: "-750"},
-            {id: 7, label: 'UPC L7: Change of State \nand the SPT', x: "-800", y: "-750"},
-            {id: 8, label: 'UPC L8: Evaluating \nBallonet Designs', x: "-1100", y: "-750"},
+            {id: 1, label: 'L1: Pressure', x: "-1100", y: "-1000"},
+            {id: 2, label: 'L2: The SPT of \nGases', x: "-900", y: "-1000"},
+            {id: 3, label: 'L3: Pressure and \nSPT', x: "-685", y: "-1000"},
+            {id: 4, label: 'L4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
+            {id: 5, label: 'L5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
+            {id: 6, label: 'L6: Changes of \nState', x: "-485", y: "-750"},
+            {id: 7, label: 'L7: Change of State \nand the SPT', x: "-800", y: "-750"},
+            {id: 8, label: 'L8: Evaluating \nBallonet Designs', x: "-1100", y: "-750"},
             {
-                id       : 10, label: 'Ext G: Effects due \nto air Pressure', x: "-1000", y: "-1075",
+                id       : 10, label: 'Ext G: Effects Due \nto Air Pressure', x: "-1000", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -107,7 +107,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext H: Properties of \ngases and SPT', x: "-800", y: "-1075",
+                id   : 11, label: 'Ext H: Properties of \nGases and SPT', x: "-800", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -200,13 +200,15 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UCR L1: Physical \nChanges versus \nChemical Reactions', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UCR L2: Chemical \nReactions and \nConversation of Mass', x: "-750", y: "-1000"},
-            {id: 3, label: 'UCR L3: Chemical \nReactions and Conservation \nof Mass and SPT', x: "-485", y: "-1000"},
-            {id: 4, label: 'UCR L4: Chemical \nReactions and \nEnergy Transfer', x: "-485", y: "-875"},
-            {id: 5, label: 'UCR L5: Classifying \nand Organizing Elements', x: "-485", y: "-750"},
-            {id: 6, label: 'UCR L6: Periodic Trends \nand the Elements', x: "-750", y: "-750"},
-            {id: 7, label: 'UCR L7: Atoms, Ions \nand the Periodic \nTable', x: "-1000", y: "-750"},
+            {id: 1, label: 'L1: Physical \nChanges versus \nChemical Reactions', x: "-1000", y: "-1000"},
+            {id: 2, label: 'L2: Chemical \nReactions and \nConversation of Mass', x: "-750", y: "-1000"},
+            {id: 3, label: 'L3: Chemical \nReactions and Conservation \nof Mass and SPT', x: "-485", y: "-1000"},
+            {id: 4, label: 'L4: Chemical \nReactions and \nEnergy Transfer', x: "-485", y: "-875"},
+            {id: 5, label: 'L5: Classifying \nand Organizing Elements', x: "-485", y: "-750"},
+            {id: 6, label: 'L6: Periodic Trends \nand the Elements', x: "-675", y: "-750"},
+            {id: 7, label: 'L7: Atoms, Ions \nand the Periodic \nTable', x: "-845", y: "-750"},
+            {id: 18, label: 'L8: Electrons \nand Chemical \nBonding', x: "-1000", y: "-750"},
+            {id: 19, label: 'L9: Using the \nClass Consensus \nto Explain Observations', x: "-1000", y: "-875"},
             {
                 id       : 10, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-900", y: "-1075",
                 color    : {
@@ -253,7 +255,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext G: Characteristics \nProperties', x: "-650", y: "-815",
+                id   : 13, label: 'Ext G: Characteristics \nProperties', x: "-600", y: "-810",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -268,7 +270,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: Models of \nthe Atom', x: "-625", y: "-680",
+                id   : 14, label: 'Ext E: Models of \nthe Atom', x: "-775", y: "-680",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -283,7 +285,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext H: Atomic Structure, \nthe Periodic Table, and\n Isotopes', x: "-875", y: "-680",
+                id   : 15, label: 'Ext H: Atomic Structure, \nthe Periodic Table, and\n Isotopes', x: "-825", y: "-825",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -317,7 +319,8 @@
             {from: 4, to: 5},
             {from: 5, to: 6},
             {from: 6, to: 7},
-            {from: 7, to: 8}
+            {from: 7, to: 18},
+            {from: 18, to: 19}
         ]);
 
         var container  = document.getElementById('canvas');

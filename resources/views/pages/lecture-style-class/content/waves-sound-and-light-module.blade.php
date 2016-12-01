@@ -17,7 +17,7 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        <h4>Mechanical Waves &amp; Sound Unit</h4>
+        <h4>Unit WS: Mechanical Waves and Sound </h4>
         <div id="canvas">
         
         </div>
@@ -25,7 +25,7 @@
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         
-        <h4>Light and Color Unit</h4>
+        <h4>Unit L: Light and Color</h4>
         <div id="canvas2" class="canvas">
         
         </div>
@@ -83,9 +83,9 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UWS L1: Properties \nof Waves', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UWS L2: Two-Dimensional \nWaves', x: "-600", y: "-1000"},
-            {id: 3, label: 'UWS L3: Sound Waves', x: "-600", y: "-800"},
+            {id: 1, label: 'L1: Properties \nof Waves', x: "-1000", y: "-1000"},
+            {id: 2, label: 'L2: Two-Dimensional \nWaves', x: "-600", y: "-1000"},
+            {id: 3, label: 'L3: Sound Waves', x: "-600", y: "-800"},
             {
                 id       : 7, label: 'Ext A: How Do \nWaves Move?', x: "-800", y: "-1075",
                 color    : {
@@ -102,7 +102,7 @@
                 }
             },
             {
-                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-725", y: "-935",
+                id   : 8, label: 'Ext B: An Analogy \nfor Refraction', x: "-725", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -117,7 +117,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-725", y: "-865",
+                id   : 9, label: 'Ext C: Reflection \nof 2D Waves', x: "-725", y: "-865",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -132,7 +132,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-725", y: "-740",
+                id   : 10, label: 'Ext D: Seismic \nWaves', x: "-725", y: "-740",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -149,11 +149,11 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'UL L1: Light Waves, Pinholes \nand Shadows', x: "-1100", y: "-1000"},
-            {id: 2, label: 'UL L2: Reflection \nof Light', x: "-825", y: "-1000"},
-            {id: 3, label: 'UL L3: Refraction of \nLight', x: "-600", y: "-1000"},
-            {id: 4, label: 'UL L4: Color', x: "-600", y: "-900"},
-            {id: 5, label: 'UL L5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
+            {id: 1, label: 'L1: Pinholes \nand Shadows', x: "-1100", y: "-1000"},
+            {id: 2, label: 'L2: Reflection \nof Light', x: "-825", y: "-1000"},
+            {id: 3, label: 'L3: Refraction of \nLight', x: "-600", y: "-1000"},
+            {id: 4, label: 'L4: Color', x: "-600", y: "-900"},
+            {id: 5, label: 'L5 ED: Measuring the \nMoon\'s Distance', x: "-900", y: "-900"},
             {
                 id   : 8,
                 label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows',
@@ -173,7 +173,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: More on Mirror \nReflections and Images', x: "-725", y: "-1075",
+                id   : 9, label: 'Ext B: Further Investigations \nof Mirror Reflections \nand Images', x: "-725", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
