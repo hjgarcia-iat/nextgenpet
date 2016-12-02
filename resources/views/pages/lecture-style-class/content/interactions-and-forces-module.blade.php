@@ -10,7 +10,7 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Interactions and Forces Module</h3>
@@ -19,15 +19,15 @@
         </p>
         <h4>Unit FM: Force-based Model for Interactions</h4>
         <div id="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        
+
         <h4>Unit CF: Combinations of Forces</h4>
         <div id="canvas2" class="canvas">
-    
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!</p>
-                    
+
                     <span class="wistia_embed wistia_async_ft3r1d6oru popover=true popoverAnimateThumbnail=true"
                           style="display:inline-block;height:240px;width:300px">&nbsp;</span>
                 </div>
@@ -78,19 +78,19 @@
     <script src="//fast.wistia.com/embed/medias/el4h8jlwzj.jsonp" async></script>
     <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-    
-    
+
+
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UFM L1: Interactions Force \nand Motion', x: "-1000", y: "-1000"},
-            {id: 2, label: 'UFM L2: Motion with a \nContinuous Force', x: "-750", y: "-1000"},
-            {id: 3, label: 'UFM L3: Pushes and \nSlowing Down', x: "-485", y: "-1000"},
-            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-800"},
-            {id: 5, label: 'UFM L5: Changing Force \nStrength and Mass', x: "-750", y: "-800"},
-            {id: 6, label: 'UFM L6: Falling Objects', x: "-1000", y: "-800"},
+            {id: 1, label: 'UFM L1: Interactions \nForce and \nMotion', x: "-900", y: "-1000"},
+            {id: 2, label: 'UFM L2: Motion \nwith a Continuous \nForce', x: "-675", y: "-1000"},
+            {id: 3, label: 'UFM L3: Pushes \nand Slowing \nDown', x: "-485", y: "-1000"},
+            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-875"},
+            {id: 5, label: 'UFM L5: Changing \nForce Strength \nand Mass', x: "-675", y: "-875"},
+            {id: 6, label: 'UFM L6: Falling \nObjects', x: "-900", y: "-875"},
             {
-                id       : 7, label: 'Ext A: Force Diagrams', x: "-875", y: "-1075",
+                id       : 7, label: 'Ext A: Force \nDiagrams', x: "-775", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -105,7 +105,7 @@
                 }
             },
             {
-                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-615", y: "-1075",
+                id   : 8, label: 'Ext B: Pushing a \nSkateboarder', x: "-575", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -120,7 +120,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext C: Connecting Force and \nEnergy Models', x: "-650", y: "-900",
+                id   : 9, label: 'Ext C: Connecting \nForce and Energy \nModels', x: "-345", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -135,7 +135,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-650", y: "-725",
+                id   : 10, label: 'Ext D: How Does \nFriction Work?', x: "-575", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -150,7 +150,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext E: Changing Direction', x: "-875", y: "-725",
+                id   : 11, label: 'Ext E: Changing \nDirection', x: "-800", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -167,13 +167,13 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'L1: Combination of Forces', x: "-1100", y: "-1000"},
-            {id: 2, label: 'L2: Balanced Forces', x: "-825", y: "-1000"},
+            {id: 1, label: 'L1: Combination of \nForces', x: "-925", y: "-1000"},
+            {id: 2, label: 'L2: Balanced \nForces', x: "-755", y: "-1000"},
             {id: 3, label: 'L3: Situations \nInvolving Friction', x: "-600", y: "-1000"},
-            {id: 4, label: 'L4: Comparing Forces \nDuring Interactions', x: "-600", y: "-800"},
-            {id: 5, label: 'L5 ED: Engineering Design: \nInspiration from Nature', x: "-900", y: "-800"},
+            {id: 4, label: 'L4: Comparing \nForces During \nInteractions', x: "-600", y: "-800"},
+            {id: 5, label: 'L5 ED: Engineering \nDesign: Inspiration \nfrom Nature', x: "-800", y: "-800"},
             {
-                id   : 8, label: 'Ext A: Newton\'s Second \n Law', x: "-975", y: "-1075",
+                id   : 8, label: 'Ext A: Newton\'s \nSecond \n Law', x: "-835", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -188,7 +188,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: More on Balanced \n Forces', x: "-725", y: "-1075",
+                id   : 9, label: 'Ext B: More on \nBalanced \n Forces', x: "-675", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -203,7 +203,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Balanced and \nUnbalanced Forces', x: "-750", y: "-935",
+                id   : 10, label: 'Ext C: Balanced \nand Unbalanced \nForces', x: "-500", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -218,7 +218,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext D: More on Vertical \nMotion (Air Drag)', x: "-750", y: "-865",
+                id   : 11, label: 'Ext D: More on \nVertical Motion \n(Air Drag)', x: "-500", y: "-865",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -233,7 +233,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: Newton\'s Third Law and \nBalanced Forces', x: "-750", y: "-735",
+                id   : 12, label: 'Ext E: Newton\'s \nThird Law and \nBalanced Forces', x: "-685", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -328,7 +328,7 @@
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
         });
-    
+
     </script>
 @stop
 

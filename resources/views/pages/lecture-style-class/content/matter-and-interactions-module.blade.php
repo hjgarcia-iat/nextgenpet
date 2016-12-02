@@ -10,7 +10,7 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Matter and Interactions Module</h3>
@@ -19,15 +19,15 @@
         </p>
         <h4>Unit PC: Physical Changes</h4>
         <div id="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
-        
+
         <h4>Unit CR: Chemical Reactions</h4>
         <div id="canvas2" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -43,7 +43,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!</p>
-                    
+
                     <span class="wistia_embed wistia_async_ft3r1d6oru popover=true popoverAnimateThumbnail=true"
                           style="display:inline-block;height:240px;width:300px">&nbsp;</span>
                 </div>
@@ -78,21 +78,21 @@
     <script src="//fast.wistia.com/embed/medias/el4h8jlwzj.jsonp" async></script>
     <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-    
-    
+
+
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'L1: Pressure', x: "-1100", y: "-1000"},
-            {id: 2, label: 'L2: The SPT of \nGases', x: "-900", y: "-1000"},
-            {id: 3, label: 'L3: Pressure and \nSPT', x: "-685", y: "-1000"},
-            {id: 4, label: 'L4: Liquids and \nthe SPT', x: "-485", y: "-1000"},
-            {id: 5, label: 'L5: Solids, the SPT \nand Energy', x: "-485", y: "-875"},
-            {id: 6, label: 'L6: Changes of \nState', x: "-485", y: "-750"},
-            {id: 7, label: 'L7: Change of State \nand the SPT', x: "-800", y: "-750"},
-            {id: 8, label: 'L8: Evaluating \nBallonet Designs', x: "-1100", y: "-750"},
+            {id: 1, label: 'L1: Pressure', x: "-950", y: "-1000"},
+            {id: 2, label: 'L2: The SPT \nof Gases', x: "-800", y: "-1000"},
+            {id: 3, label: 'L3: Pressure \nand SPT', x: "-650", y: "-1000"},
+            {id: 4, label: 'L4: Liquids \nand the \nSPT', x: "-485", y: "-1000"},
+            {id: 5, label: 'L5: Solids, \nthe SPT \nand Energy', x: "-485", y: "-875"},
+            {id: 6, label: 'L6: Changes \nof State', x: "-485", y: "-750"},
+            {id: 7, label: 'L7: Change of \nState and \nthe SPT', x: "-650", y: "-750"},
+            {id: 8, label: 'L8: Evaluating \nBallonet \nDesigns', x: "-800", y: "-750"},
             {
-                id       : 10, label: 'Ext G: Effects Due \nto Air Pressure', x: "-1000", y: "-1075",
+                id       : 10, label: 'Ext G: Effects \nDue to Air \nPressure', x: "-875", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -107,7 +107,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext H: Properties of \nGases and SPT', x: "-800", y: "-1075",
+                id   : 11, label: 'Ext H: Properties \nof Gases \nand SPT', x: "-725", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -122,7 +122,7 @@
                 }
             },
             {
-                id: 12, label: 'Ext I: Mass, Volume \nand Density', x: "-575", y: "-1075",
+                id: 12, label: 'Ext I: Mass, \nVolume and \nDensity', x: "-575", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -137,7 +137,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext J: Sinking \nand Floating', x: "-650", y: "-935",
+                id   : 13, label: 'Ext J: Sinking \nand Floating', x: "-350", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -152,7 +152,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext K: Rates of Warming of \nDifferent Materials', x: "-650", y: "-815",
+                id   : 14, label: 'Ext K: Rates of \nWarming of \nDifferent Materials', x: "-350", y: "-815",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -167,7 +167,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext L: Explanations Involving \nHeating and Cooling', x: "-625", y: "-685",
+                id   : 15, label: 'Ext L: Explanations \nInvolving Heating \nand Cooling', x: "-565", y: "-675",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -182,7 +182,7 @@
                 }
             },
             {
-                id   : 16, label: 'Ext  M: Heating Curves and SPT', x: "-950", y: "-685",
+                id   : 16, label: 'Ext  M: Heating \nCurves and \nSPT', x: "-725", y: "-675",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -202,15 +202,15 @@
         var nodes2 = new vis.DataSet([
             {id: 1, label: 'L1: Physical \nChanges versus \nChemical Reactions', x: "-1000", y: "-1000"},
             {id: 2, label: 'L2: Chemical \nReactions and \nConversation of Mass', x: "-750", y: "-1000"},
-            {id: 3, label: 'L3: Chemical \nReactions and Conservation \nof Mass and SPT', x: "-485", y: "-1000"},
+            {id: 3, label: 'L3: Chemical \nReactions and \nConservation of Mass \nand SPT', x: "-485", y: "-1000"},
             {id: 4, label: 'L4: Chemical \nReactions and \nEnergy Transfer', x: "-485", y: "-875"},
-            {id: 5, label: 'L5: Classifying \nand Organizing Elements', x: "-485", y: "-750"},
-            {id: 6, label: 'L6: Periodic Trends \nand the Elements', x: "-675", y: "-750"},
-            {id: 7, label: 'L7: Atoms, Ions \nand the Periodic \nTable', x: "-845", y: "-750"},
+            {id: 5, label: 'L5: Classifying \nand Organizing \nElements', x: "-485", y: "-750"},
+            {id: 6, label: 'L6: Periodic Trends \nand the \nElements', x: "-675", y: "-750"},
+            {id: 7, label: 'L7: Atoms, Ions \nand the \nPeriodic Table', x: "-845", y: "-750"},
             {id: 18, label: 'L8: Electrons \nand Chemical \nBonding', x: "-1000", y: "-750"},
-            {id: 19, label: 'L9: Using the \nClass Consensus \nto Explain Observations', x: "-1000", y: "-875"},
+            {id: 19, label: 'L9: Using the \nClass Consensus \nto Explain \nObservations', x: "-1000", y: "-875"},
             {
-                id       : 10, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-900", y: "-1075",
+                id       : 10, label: 'Ext A: Separating \nMixtures Using \nPhysical Properties', x: "-875", y: "-1075",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -225,7 +225,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext B: Reaction Rates \nand Temperature', x: "-625", y: "-1075",
+                id   : 11, label: 'Ext B: Reaction \nRates and \nTemperature', x: "-625", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -240,7 +240,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext F: Balancing \nChemical Equations', x: "-650", y: "-935",
+                id   : 12, label: 'Ext F: Balancing \nChemical \nEquations', x: "-325", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -255,7 +255,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext G: Characteristics \nProperties', x: "-600", y: "-810",
+                id   : 13, label: 'Ext G: \nCharacteristics \nProperties', x: "-575", y: "-680",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -285,7 +285,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext H: Atomic Structure, \nthe Periodic Table, and\n Isotopes', x: "-825", y: "-825",
+                id   : 15, label: 'Ext H: Atomic \nStructure, the \nPeriodic Table, and\n Isotopes', x: "-1150", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -386,7 +386,7 @@
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
         });
-    
+
     </script>
 @stop
 

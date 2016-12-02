@@ -205,8 +205,8 @@
             {id: 1, label: 'L1: Elastic Objects \nand Energy', x: "-1025", y: "-1000"},
             {id: 2, label: 'L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-815", y: "-1000"},
             {id: 3, label: 'L3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
-            {id: 4, label: 'L4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
-            {id: 6, label: 'L5: Electromagnetic \nInteractions', x: "-850", y: "-800"},
+            {id: 4, label: 'L4: Gravitational \nInteractions and Energy', x: "-600", y: "-850"},
+            {id: 6, label: 'L5: Electromagnetic \nInteractions', x: "-850", y: "-850"},
             {
                 id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-925", y: "-1075",
                 color: {
@@ -238,7 +238,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Exploring \nMagnetic and Electric Fields', x: "-475", y: "-900",
+                id   : 10, label: 'Ext C: Exploring \nMagnetic and \nElectric Fields', x: "-475", y: "-925",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -253,7 +253,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext D: Exploring \nGravitational Potential \nEnergy', x: "-725", y: "-735",
+                id   : 12, label: 'Ext D: Exploring \nGravitational Potential \nEnergy', x: "-725", y: "-785",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -268,7 +268,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-925", y: "-735",
+                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-925", y: "-785",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
