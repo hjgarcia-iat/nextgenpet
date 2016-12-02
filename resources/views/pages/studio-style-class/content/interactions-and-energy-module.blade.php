@@ -82,21 +82,21 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Interactions and \nMotion', x: "-1100", y: "-1100"},
-            {id: 2, label: 'A2: Motion and \nEnergy', x: "-850", y: "-1100"},
-            {id: 3, label: 'A3: Slowing and \nStopping', x: "-600", y: "-1100"},
-            {id: 4, label: 'A4: Friction as \nan Interaction', x: "-600", y: "-950"},
-            {id: 5, label: 'A5: Keeping Track \nof Energy in Electric \nCircuit Interactions', x: "-600", y: "-800"},
+            {id: 1, label: 'A1: Interactions \nand \nMotion', x: "-975", y: "-1100"},
+            {id: 2, label: 'A2: Motion \nand \nEnergy', x: "-775", y: "-1100"},
+            {id: 3, label: 'A3: Slowing \nand \nStopping', x: "-600", y: "-1100"},
+            {id: 4, label: 'A4: Friction \nas an \nInteraction', x: "-600", y: "-950"},
+            {id: 5, label: 'A5: Keeping Track \nof Energy in \nElectric Circuit \nInteractions', x: "-600", y: "-800"},
             {
                 id   : 6,
-                label: 'A6: More on Keeping \nTrack of Energy',
-                x    : "-850",
+                label: 'A6: More on \nKeeping Track \nof Energy',
+                x    : "-775",
                 y    : "-800"
             },
-            {id: 7, label: 'A7: Conservation \nof Energy', x: "-1100", y: "-800"},
-            {id: 10, label: 'A8: Engineering Design: \nThe Solar Shower', x: "-1100", y: "-950"},
+            {id: 7, label: 'A7: Conservation \nof Energy', x: "-975", y: "-800"},
+            {id: 10, label: 'A8: Engineering \nDesign: The \nSolar Shower', x: "-975", y: "-950"},
             {
-                id: 8, label: 'Ext A: Representing Motion \non Speed-Time Graphs', x: "-1000", y: "-1175", color: {
+                id: 8, label: 'Ext A: Representing \nMotion on \nSpeed-Time \nGraphs', x: "-865", y: "-1175", color: {
                 border    : '#fcd5b5',
                 background: '#fcd5b5',
                 highlight : {
@@ -110,7 +110,7 @@
             }
             },
             {
-                id   : 9, label: 'Ext B: Explanations \nUsing Energy Ideas', x: "-750", y: "-1175",
+                id   : 9, label: 'Ext B: Explanations \nUsing Energy \nIdeas', x: "-685", y: "-1175",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -125,7 +125,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext D: Scientific \nExplanations', x: "-500", y: "-1175",
+                id   : 11, label: 'Ext D: Scientific \nExplanations', x: "-475", y: "-1065",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -140,7 +140,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: Simultaneous \nInteractions', x: "-725", y: "-1025",
+                id   : 12, label: 'Ext E: Simultaneous \nInteractions', x: "-465", y: "-1000",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -155,7 +155,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-725", y: "-890",
+                id   : 13, label: 'Ext G: Mechanisms \nfor Heat \nInteractions', x: "-465", y: "-880",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -170,7 +170,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext I: More on \nEfficiency and Conversation \nof Energy', x: "-965", y: "-875",
+                id   : 15, label: 'Ext I: More on \nEfficiency and \nConversation of \nEnergy', x: "-1100", y: "-875",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -187,14 +187,14 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
-            {id: 2, label: 'A2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
-            {id: 3, label: 'A3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
-            {id: 4, label: 'A4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
-            {id: 6, label: 'A5: Electromagnetic \nInteractions', x: "-900", y: "-800"},
-            {id: 7, label: 'A6: Engineering Design: \nStoring Energy from \nBraking', x: "-1200", y: "-800"},
+            {id: 1, label: 'A1: Elastic \nObjects and \nEnergy', x: "-975", y: "-1000"},
+            {id: 2, label: 'A2: Comparing \nMagnetic and \nStatic Electric \nInteractions', x: "-800", y: "-1000"},
+            {id: 3, label: 'A3: Magnetic \nand Static Electric \nInteractions and \nEnergy', x: "-600", y: "-1000"},
+            {id: 4, label: 'A4: Gravitational \nInteractions and \nEnergy', x: "-600", y: "-800"},
+            {id: 6, label: 'A5: Electromagnetic \nInteractions', x: "-785", y: "-800"},
+            {id: 7, label: 'A6: Engineering \nDesign: Storing \nEnergy from \nBraking', x: "-975", y: "-800"},
             {
-                id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-1050", y: "-1075",
+                id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-900", y: "-1085",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -209,7 +209,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Magnetic\nPoles and Electric Charges', x: "-750", y: "-1075",
+                id   : 9, label: 'Ext B: Magnetic \nPoles and Electric \nCharges', x: "-700", y: "-1085",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -224,7 +224,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Exploring \nMagnetic and Electric Fields', x: "-750", y: "-900",
+                id   : 10, label: 'Ext C: Exploring \nMagnetic and \nElectric Fields', x: "-500", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -239,7 +239,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext D: Exploring \nGravitational Potential Energy', x: "-785", y: "-735",
+                id   : 12, label: 'Ext D: Exploring \nGravitational \nPotential Energy', x: "-685", y: "-715",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -254,7 +254,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-1035", y: "-735",
+                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-885", y: "-715",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
