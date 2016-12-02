@@ -83,14 +83,14 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Modeling and \nthe Mystery Tube', x: "-1000", y: "-1000"},
-            {id: 2, label: 'A2: Exploring Magnetic \nEffects', x: "-750", y: "-1000"},
-            {id: 3, label: 'A3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
-            {id: 4, label: 'A4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
-            {id: 5, label: 'A5: Explaining Phenomena \nInvolving Magnetism', x: "-750", y: "-800"},
-            {id: 6, label: 'A6 ED: Designing a \nMaglev Train', x: "-1000", y: "-800"},
+            {id: 1, label: 'A1: Modeling \nand the \nMystery Tube', x: "-850", y: "-1000"},
+            {id: 2, label: 'A2: Exploring \nMagnetic \nEffects', x: "-675", y: "-1000"},
+            {id: 3, label: 'A3: Developing \nModel for \nMagnetism', x: "-485", y: "-1000"},
+            {id: 4, label: 'A4: Better \nModel for \nMagnetism', x: "-485", y: "-875"},
+            {id: 5, label: 'A5: Explaining \nPhenomena Involving \nMagnetism', x: "-650", y: "-875"},
+            {id: 6, label: 'A6 ED: Designing \na Maglev \nTrain', x: "-850", y: "-875"},
             {
-                id   : 8, label: 'Ext A: Exploring the \nRegion around a Magnet', x: "-615", y: "-1075",
+                id   : 8, label: 'Ext A: Exploring \nthe Region \naround a Magnet', x: "-575", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -105,7 +105,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900",
+                id   : 9, label: 'Ext B: Evaluating \nMagnetism \nModels', x: "-350", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -120,7 +120,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Explaining \nAnother Magnetic \nPhenomenon', x: "-885", y: "-865",
+                id   : 10, label: 'Ext C: Explaining \nAnother Magnetic \nPhenomenon', x: "-765", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -137,15 +137,15 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
-            {id: 2, label: 'A2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
-            {id: 3, label: 'A3: Representing \nUncharged Objects', x: "-600", y: "-1000"},
-            {id: 4, label: 'A4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
-            {id: 6, label: 'A5: Explaining Phenomena \nInvolving Static \nElectricity', x: "-925", y: "-800"},
-            {id: 7, label: 'A6: Explaining \nPhenomena Involving \nStatic Electricity', x: "-1200", y: "-800"},
-            {id: 8, label: 'A7: Refueling Safety', x: "-1200", y: "-900"},
+            {id: 1, label: 'A1: Exploring \nStatic Electric \nEffects', x: "-975", y: "-1000"},
+            {id: 2, label: 'A2: Developing a \nModel for \nStatic Electricity', x: "-785", y: "-1000"},
+            {id: 3, label: 'A3: Representing \nUncharged \nObjects', x: "-600", y: "-1000"},
+            {id: 4, label: 'A4: Refining Model \nfor Different \nMaterials', x: "-600", y: "-800"},
+            {id: 6, label: 'A5: Interactions \nBetween Charged \nand Uncharged Objects', x: "-815", y: "-800"},
+            {id: 7, label: 'A6: Explaining \nPhenomena Involving \nStatic Electricity', x: "-1025", y: "-800"},
+            {id: 8, label: 'A7: Refueling \nSafety', x: "-1025", y: "-900"},
             {
-                id   : 12, label: 'Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
+                id   : 12, label: 'Ext A: Which \nis Charge \nis Which?', x: "-900", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -160,7 +160,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
+                id   : 13, label: 'Ext B: The Law \nof Electric \nCharges', x: "-700", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -175,7 +175,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext D: What do Charged \nEntities Represent', x: "-750", y: "-900",
+                id   : 15, label: 'Ext D: What do \nCharged Entities \nRepresent', x: "-450", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -190,7 +190,7 @@
                 }
             },
             {
-                id   : 16, label: 'Ext E: What Happens when \nCharged Object is Discharged?', x: "-750", y: "-735",
+                id   : 16, label: 'Ext E: What Happens \nwhen Charged Object \nis Discharged?', x: "-700", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -212,6 +212,14 @@
             {from: 1, to: 2},
             {from: 2, to: 3},
             {from: 3, to: 4},
+            {from: 4, to: 5},
+            {from: 5, to: 6}
+        ]);
+
+        var edges2 = new vis.DataSet([
+            {from: 1, to: 2},
+            {from: 2, to: 3},
+            {from: 3, to: 4},
             {from: 4, to: 6},
             {from: 6, to: 7},
             {from: 7, to: 8}
@@ -226,7 +234,7 @@
         };
         var data2      = {
             nodes: nodes2,
-            edges: edges
+            edges: edges2
         };
         var options    = {
             "physics": {
