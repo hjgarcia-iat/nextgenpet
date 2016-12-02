@@ -83,13 +83,13 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Wave Pulses', x: "-1000", y: "-1000"},
-            {id: 2, label: 'A2: Continuous Waves', x: "-750", y: "-1000"},
-            {id: 3, label: 'A3: Two Dimensional Waves', x: "-485", y: "-1000"},
-            {id: 4, label: 'A4: Sound Waves', x: "-485", y: "-800"},
-            {id: 5, label: 'A5: Engineering \nDesign: Locating an \nEarthquake', x: "-750", y: "-800"},
+            {id: 1, label: 'A1: Wave \nPulses', x: "-850", y: "-1000"},
+            {id: 2, label: 'A2: Continuous \nWaves', x: "-675", y: "-1000"},
+            {id: 3, label: 'A3: Two \nDimensional \nWaves', x: "-485", y: "-1000"},
+            {id: 4, label: 'A4: Sound \nWaves', x: "-485", y: "-875"},
+            {id: 5, label: 'A5: Engineering \nDesign: Locating an \nEarthquake', x: "-675", y: "-875"},
             {
-                id       : 7, label: 'Ext A: How Do Waves Move?', x: "-625", y: "-1050",
+                id       : 7, label: 'Ext A: How \nDo Waves \nMove?', x: "-575", y: "-1065",
                 color    : {
                     border    : '#fcd5b5',
                     background: '#fcd5b5'
@@ -104,7 +104,7 @@
                 }
             },
             {
-                id   : 8, label: 'Ext C: Reflection of\n 2D Waves', x: "-615", y: "-900",
+                id   : 8, label: 'Ext C: Reflection \nof 2D \nWaves', x: "-350", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -119,7 +119,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext D: Reflection of\n 2D Waves', x: "-615", y: "-725",
+                id   : 9, label: 'Ext D: Seismic \nWaves', x: "-565", y: "-800",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -136,13 +136,13 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Pinholes \nand Shadows', x: "-1100", y: "-1000"},
-            {id: 2, label: 'A2: Reflection \nof Light', x: "-825", y: "-1000"},
-            {id: 3, label: 'A3: Refraction of \nLight', x: "-600", y: "-1000"},
-            {id: 4, label: 'A4: Color', x: "-600", y: "-900"},
-            {id: 5, label: 'A5: Engineering \nDesign: Measuring \nthe Moon\'s Distance', x: "-900", y: "-900"},
+            {id: 1, label: 'A1: Pinholes \nand Shadows', x: "-875", y: "-1000"},
+            {id: 2, label: 'A2: Reflection \nof Light', x: "-675", y: "-1000"},
+            {id: 3, label: 'A3: Refraction of \nLight', x: "-500", y: "-1000"},
+            {id: 4, label: 'A4: Color', x: "-500", y: "-900"},
+            {id: 5, label: 'A5: Engineering \nDesign: Measuring \nthe Moon\'s Distance', x: "-675", y: "-900"},
             {
-                id   : 8, label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows', x: "-975", y: "-1075",
+                id   : 8, label: 'Ext A: Drawing Light \nRay Diagrams for Pinholes \nand Shadows', x: "-785", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -157,7 +157,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Further \nInvestigations of Mirror \nReflections and Images', x: "-725", y: "-1075",
+                id   : 9, label: 'Ext B: Further \nInvestigations of Mirror \nReflections and Images', x: "-585", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
