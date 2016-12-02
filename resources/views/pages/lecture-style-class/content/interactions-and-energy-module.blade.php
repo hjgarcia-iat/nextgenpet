@@ -10,7 +10,7 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Interactions and Energy Module</h3>
@@ -19,14 +19,14 @@
         </p>
         <h4>Unit EM: Energy-based Model for Interactions</h4>
         <div id="canvas" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         <h4>Unit PEF: Potential Energy and Fields</h4>
         <div id="canvas2" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!</p>
-                    
+
                     <span class="wistia_embed wistia_async_ft3r1d6oru popover=true popoverAnimateThumbnail=true"
                           style="display:inline-block;height:240px;width:300px">&nbsp;</span>
                 </div>
@@ -77,26 +77,26 @@
     <script src="//fast.wistia.com/embed/medias/el4h8jlwzj.jsonp" async></script>
     <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-    
-    
+
+
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'L1: Interactions and \nMotion', x: "-1100", y: "-1100"},
-            {id: 2, label: 'L2: Motion and \nEnergy', x: "-850", y: "-1100"},
+            {id: 1, label: 'L1: Interactions and \nMotion', x: "-1000", y: "-1100"},
+            {id: 2, label: 'L2: Motion and \nEnergy', x: "-800", y: "-1100"},
             {id: 3, label: 'L3: Slowing and \nStopping', x: "-600", y: "-1100"},
             {id: 4, label: 'L4: Friction as \nan Interaction', x: "-600", y: "-950"},
-            {id: 5, label: 'L5: Warming and \nCooling', x: "-600", y: "-800"},
+            {id: 5, label: 'L5: Warming and \nCooling', x: "-600", y: "-850"},
             {
                 id   : 6,
                 label: 'L6: Keeping Track \n of Energy in Electric \nCircuit Interactions',
-                x    : "-850",
-                y    : "-800"
+                x    : "-800",
+                y    : "-850"
             },
-            {id: 7, label: 'L7: More on Keeping \nTrack of Energy', x: "-1100", y: "-800"},
-            {id: 10, label: 'L8 ED: No More \nCold Showers', x: "-1100", y: "-900"},
+            {id: 7, label: 'L7: More on Keeping \nTrack of Energy', x: "-1000", y: "-850"},
+            {id: 10, label: 'L8 ED: No More \nCold Showers', x: "-1000", y: "-950"},
             {
-                id: 8, label: 'Ext A: Representing Motion \non Speed-Time Graphs', x: "-1000", y: "-1175", color: {
+                id: 8, label: 'Ext A: Representing \nMotion on Speed-Time \nGraphs', x: "-900", y: "-1175", color: {
                 border    : '#fcd5b5',
                 background: '#fcd5b5',
                 highlight : {
@@ -110,7 +110,7 @@
             }
             },
             {
-                id   : 9, label: 'Ext C: Describing Interactions \nin Terms of Energy', x: "-750", y: "-1175",
+                id   : 9, label: 'Ext C: Describing \nInteractions in Terms \nof Energy', x: "-700", y: "-1175",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -125,7 +125,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext D: Scientific \nExplanations', x: "-500", y: "-1175",
+                id   : 11, label: 'Ext D: Scientific \nExplanations', x: "-465", y: "-1055",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -140,7 +140,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: Simultaneous \nInteractions', x: "-725", y: "-1025",
+                id   : 12, label: 'Ext E: Simultaneous \nInteractions', x: "-465", y: "-1000",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -155,7 +155,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext F: Effects of \nFriction', x: "-725", y: "-890",
+                id   : 13, label: 'Ext F: Effects of \nFriction', x: "-465", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -170,7 +170,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-725", y: "-725",
+                id   : 14, label: 'Ext G: Mechanisms \nfor Heat Interactions', x: "-700", y: "-775",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -185,7 +185,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext H: More on \nKeeping Track of \nEnergy', x: "-985", y: "-725",
+                id   : 15, label: 'Ext H: More on \nKeeping Track of \nEnergy', x: "-900", y: "-775",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -202,13 +202,13 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'L1: Elastic Objects \nand Energy', x: "-1200", y: "-1000"},
-            {id: 2, label: 'L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-900", y: "-1000"},
+            {id: 1, label: 'L1: Elastic Objects \nand Energy', x: "-1025", y: "-1000"},
+            {id: 2, label: 'L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-815", y: "-1000"},
             {id: 3, label: 'L3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
             {id: 4, label: 'L4: Gravitational \nInteractions and Energy', x: "-600", y: "-800"},
-            {id: 6, label: 'L5: Electromagnetic \nInteractions', x: "-1000", y: "-800"},
+            {id: 6, label: 'L5: Electromagnetic \nInteractions', x: "-850", y: "-800"},
             {
-                id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-1050", y: "-1075",
+                id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-925", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -223,7 +223,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Magnetic\nPoles and Electrict Charges', x: "-750", y: "-1075",
+                id   : 9, label: 'Ext B: Magnetic\nPoles and Electrict \nCharges', x: "-700", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -238,7 +238,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Exploring \nMagnetic and Electric Fields', x: "-750", y: "-900",
+                id   : 10, label: 'Ext C: Exploring \nMagnetic and Electric Fields', x: "-475", y: "-900",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -253,7 +253,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext D: Exploring \nGravitational Potential Energy', x: "-785", y: "-735",
+                id   : 12, label: 'Ext D: Exploring \nGravitational Potential \nEnergy', x: "-725", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -268,7 +268,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext E: More on \nElectromagnetic Interactions', x: "-1200", y: "-735",
+                id   : 14, label: 'Ext E: More on \nElectromagnetic \nInteractions', x: "-925", y: "-735",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -367,7 +367,7 @@
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
         });
-    
+
     </script>
 @stop
 

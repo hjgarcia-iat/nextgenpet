@@ -10,7 +10,7 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Magnetism and Static Electricity Module</h3>
@@ -19,14 +19,14 @@
         </p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <div id="canvas" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         <h4>Unit SE: Developing a Model for Static Electricity </h4>
         <div id="canvas2" class="canvas">
-        
+
         </div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
@@ -42,7 +42,7 @@
                 </div>
                 <div class="modal-body">
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!</p>
-                    
+
                     <span class="wistia_embed wistia_async_ft3r1d6oru popover=true popoverAnimateThumbnail=true"
                           style="display:inline-block;height:240px;width:300px">&nbsp;</span>
                 </div>
@@ -77,8 +77,8 @@
     <script src="//fast.wistia.com/embed/medias/el4h8jlwzj.jsonp" async></script>
     <script src="//fast.wistia.com/assets/external/E-v1.js" async></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-    
-    
+
+
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
@@ -104,7 +104,7 @@
             }
             },
             {
-                id: 9, label: 'Ext B: Evaluating Magnetism \nModels', x: "-650", y: "-900", color: {
+                id: 9, label: 'Ext B: Evaluating Magnetism \nModels', x: "-350", y: "-900", color: {
                 border    : '#fcd5b5',
                 background: '#fcd5b5',
                 highlight : {
@@ -120,13 +120,13 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'L1: Exploring Static \nElectric Effects', x: "-1200", y: "-1000"},
+            {id: 1, label: 'L1: Exploring Static \nElectric Effects', x: "-1100", y: "-1000"},
             {id: 2, label: 'L2: Developing a Model \nfor Static Electricity', x: "-850", y: "-1000"},
             {id: 3, label: 'L3: Representing \nUncharged Objects \nIn Your Model', x: "-600", y: "-1000"},
             {id: 4, label: 'L4: Refining Model for \nDifferent Materials', x: "-600", y: "-800"},
-            {id: 6, label: 'L5: Explaining Phenomena \nInvolving Static \nElectricity', x: "-1140", y: "-800"},
+            {id: 6, label: 'L5: Explaining Phenomena \nInvolving Static \nElectricity', x: "-900", y: "-800"},
             {
-                id   : 8, label: 'Ext A: Which is Charge \nis Which?', x: "-1150", y: "-1075",
+                id   : 8, label: 'Ext A: Which is Charge \nis Which?', x: "-1075", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -141,7 +141,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: The Law of \nElectric Charges', x: "-950", y: "-1075",
+                id   : 9, label: 'Ext B: The Law of \nElectric Charges', x: "-915", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -156,7 +156,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Electroscope and \nNegative(-) Charged Object', x: "-750", y: "-935",
+                id   : 10, label: 'Ext C: Electroscope and \nNegative(-) Charged Object', x: "-465", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -171,7 +171,7 @@
                 }
             },
             {
-                id   : 11, label: 'Ext D: What do Charged \nEntities Represent?', x: "-750", y: "-865",
+                id   : 11, label: 'Ext D: What do Charged \nEntities Represent?', x: "-465", y: "-865",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -186,7 +186,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: What Happens \nwhen Charged Object \nis Discharged?', x: "-750", y: "-725",
+                id   : 12, label: 'Ext E: What Happens \nwhen Charged Object \nis Discharged?', x: "-650", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -201,7 +201,7 @@
                 }
             },
             {
-                id   : 14, label: 'Ext F: Interactions \nBetween Charged and \nUncharged Objects', x: "-1000", y: "-725",
+                id   : 14, label: 'Ext F: Interactions \nBetween Charged and \nUncharged Objects', x: "-825", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -289,7 +289,7 @@
         network.on("doubleClick", function (params) {
             $('#myModal-' + params.nodes[0]).modal();
         });
-    
+
     </script>
 @stop
 
