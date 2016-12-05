@@ -84,10 +84,10 @@
         var nodes = new vis.DataSet([
             {id: 1, label: 'L1: Modeling and \nthe Mystery Tube', x: "-900", y: "-1000"},
             {id: 2, label: 'L2: Exploring \nMagnetic \nEffects', x: "-700", y: "-1000"},
-            {id: 3, label: 'L3: Developing Model \nfor Magnetism', x: "-485", y: "-1000"},
+            {id: 3, label: 'L3: Developing \na Model \nfor Magnetism', x: "-485", y: "-1000"},
             {id: 4, label: 'L4: Better Model \nfor Magnetism', x: "-485", y: "-800"},
             {id: 5, label: 'L5: Explaining \nPhenomena Involving \nMagnetism', x: "-665", y: "-800"},
-            {id: 6, label: 'L6: Engineering Design: \nIs the U.S. Losing \nits Edge?', x: "-900", y: "-800"},
+            {id: 6, label: 'L6 ED: Engineering Design: \nIs the U.S. Losing \nits Edge?', x: "-900", y: "-800"},
             {id: 7, label: 'L7: Exploring Static \nElectric Effects (Optional)', x: "-900", y: "-900"},
             {
                 id: 8, label: 'Ext A: Exploring the \nRegion around \na Magnet', x: "-615", y: "-1075", color: {
@@ -156,7 +156,7 @@
                 }
             },
             {
-                id   : 10, label: 'Ext C: Electroscope \nand Negative(-) \nCharged Object', x: "-465", y: "-935",
+                id   : 10, label: 'Ext C: Electroscope \nand Negatively(-) \nCharged Object', x: "-465", y: "-935",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -186,7 +186,7 @@
                 }
             },
             {
-                id   : 12, label: 'Ext E: What Happens \nwhen Charged Object \nis Discharged?', x: "-610", y: "-725",
+                id   : 12, label: 'Ext E: What Happens \nWhen a Charged \nObject Is \nDischarged? ', x: "-610", y: "-725",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',

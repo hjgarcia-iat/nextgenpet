@@ -203,7 +203,7 @@
 
         var nodes2 = new vis.DataSet([
             {id: 1, label: 'L1: Elastic Objects \nand Energy', x: "-1025", y: "-1000"},
-            {id: 2, label: 'L2: Comparing \nMagnetic and Static \nElectric Interactions', x: "-815", y: "-1000"},
+            {id: 2, label: 'L2: Comparing \nMagnetic and Static \nElectric Interactions \n(optional)', x: "-815", y: "-1000"},
             {id: 3, label: 'L3: Magnetic \nand Static Electric \nInteractions and Energy', x: "-600", y: "-1000"},
             {id: 4, label: 'L4: Gravitational \nInteractions and Energy', x: "-600", y: "-850"},
             {id: 6, label: 'L5: Electromagnetic \nInteractions', x: "-850", y: "-850"},
@@ -223,7 +223,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Magnetic\nPoles and Electrict \nCharges', x: "-700", y: "-1075",
+                id   : 9, label: 'Ext B: Magnetic\nPoles and Electric \nCharges (optional)', x: "-700", y: "-1075",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',

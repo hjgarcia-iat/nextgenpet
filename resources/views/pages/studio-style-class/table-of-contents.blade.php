@@ -357,7 +357,7 @@
                     </tr>
                     <tr>
                         <td>A4</td>
-                        <td>Forces and Friction</td>
+                        <td>Warming and Cooling</td>
                         <td>90</td>
                     </tr>
                     <tr>
@@ -724,6 +724,11 @@
                     <tr>
                         <td>A7</td>
                         <td>Atoms, Ions, and the Periodic Table</td>
+                        <td>90</td>
+                    </tr>
+                    <tr>
+                        <td>A8</td>
+                        <td>Electrons and Chemical Bonding</td>
                         <td>90</td>
                     </tr>
                     <tr>

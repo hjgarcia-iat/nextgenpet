@@ -719,6 +719,11 @@
                         <td>online</td>
                     </tr>
                     <tr>
+                        <td>Ext I</td>
+                        <td>Bond Types and the Chemical Structure of Materials</td>
+                        <td>online</td>
+                    </tr>
+                    <tr>
                         <td>L9</td>
                         <td>Using the Class Consensus to Explain Observations</td>
                         <td>30</td>

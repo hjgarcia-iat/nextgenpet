@@ -86,7 +86,7 @@
             {id: 1, label: 'A1: Interactions, \nForce and \nMotion', x: "-850", y: "-1000"},
             {id: 2, label: 'A2: Motion \nwith a Continuous \nForce', x: "-650", y: "-1000"},
             {id: 3, label: 'A3: Pushes \nand Slowing \nDown', x: "-485", y: "-1000"},
-            {id: 4, label: 'A4: Forces \nand Friction', x: "-485", y: "-875"},
+            {id: 4, label: 'A4: Warming \nand Cooling', x: "-485", y: "-875"},
             {id: 5, label: 'A5: Changing \nForce Strength \nand Mass', x: "-650", y: "-875"},
             {id: 6, label: 'A6: Falling \nObjects', x: "-825", y: "-875"},
             {id: 7, label: 'A7: Engineering \nDesign: A Better \nCar Bumper', x: "-1000", y: "-875"},

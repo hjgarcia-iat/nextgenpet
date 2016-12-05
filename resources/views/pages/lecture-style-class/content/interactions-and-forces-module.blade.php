@@ -83,12 +83,12 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'UFM L1: Interactions \nForce and \nMotion', x: "-900", y: "-1000"},
-            {id: 2, label: 'UFM L2: Motion \nwith a Continuous \nForce', x: "-675", y: "-1000"},
-            {id: 3, label: 'UFM L3: Pushes \nand Slowing \nDown', x: "-485", y: "-1000"},
-            {id: 4, label: 'UFM L4: Forces \nand Friction', x: "-485", y: "-875"},
-            {id: 5, label: 'UFM L5: Changing \nForce Strength \nand Mass', x: "-675", y: "-875"},
-            {id: 6, label: 'UFM L6: Falling \nObjects', x: "-900", y: "-875"},
+            {id: 1, label: 'L1: Interactions, \nForce and \nMotion', x: "-900", y: "-1000"},
+            {id: 2, label: 'L2: Motion \nwith a Continuous \nForce', x: "-675", y: "-1000"},
+            {id: 3, label: 'L3: Pushes \nand Slowing \nDown', x: "-485", y: "-1000"},
+            {id: 4, label: 'L4: Forces \nand Friction', x: "-485", y: "-875"},
+            {id: 5, label: 'L5: Changing \nForce Strength \nand Mass', x: "-675", y: "-875"},
+            {id: 6, label: 'L6: Falling \nObjects', x: "-900", y: "-875"},
             {
                 id       : 7, label: 'Ext A: Force \nDiagrams', x: "-775", y: "-1075",
                 color    : {

@@ -196,8 +196,9 @@
             {id: 5, label: 'A5: Chemical \nReactions & Energy Transfer', x: "-485", y: "-875"},
             {id: 6, label: 'A6: Elements & \nthe Periodic Table', x: "-800", y: "-875"},
             {id: 7, label: 'A7: Atoms & \nthe Periodic Table', x: "-1100", y: "-875"},
-            {id: 8, label: 'A9: Molecular \nStructure \n(Supplemental)', x: "-1100", y: "-725"},
-            {id: 9, label: 'A10: Using the \nClass Consensus \nto Explain Observations', x: "-900", y: "-725"},
+            {id: 8, label: 'A8: Electrons \nand Chemical \nBonding', x: "-1100", y: "-725"},
+            {id: 9, label: 'A9: Molecular \nStructure \n(Supplemental)', x: "-900", y: "-725"},
+            {id: 10, label: 'A10: Using the \nClass Consensus \nto Explain Observations', x: "-650", y: "-725"},
             {
                 id       : 12, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-800", y: "-1075",
                 color    : {

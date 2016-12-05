@@ -90,7 +90,7 @@
             {id: 5, label: 'L5: Solids, \nthe SPT \nand Energy', x: "-485", y: "-875"},
             {id: 6, label: 'L6: Changes \nof State', x: "-485", y: "-750"},
             {id: 7, label: 'L7: Change of \nState and \nthe SPT', x: "-650", y: "-750"},
-            {id: 8, label: 'L8: Evaluating \nBallonet \nDesigns', x: "-800", y: "-750"},
+            {id: 8, label: 'L8 ED: Evaluating \nBallonet \nDesigns', x: "-800", y: "-750"},
             {
                 id       : 10, label: 'Ext G: Effects \nDue to Air \nPressure', x: "-875", y: "-1075",
                 color    : {
@@ -202,7 +202,7 @@
         var nodes2 = new vis.DataSet([
             {id: 1, label: 'L1: Physical \nChanges versus \nChemical Reactions', x: "-1000", y: "-1000"},
             {id: 2, label: 'L2: Chemical \nReactions and \nConversation of Mass', x: "-750", y: "-1000"},
-            {id: 3, label: 'L3: Chemical \nReactions and \nConservation of Mass \nand SPT', x: "-485", y: "-1000"},
+            {id: 3, label: 'L3: Chemical \nReactions, \nConservation of Mass \nand SPT', x: "-485", y: "-1000"},
             {id: 4, label: 'L4: Chemical \nReactions and \nEnergy Transfer', x: "-485", y: "-875"},
             {id: 5, label: 'L5: Classifying \nand Organizing \nElements', x: "-485", y: "-750"},
             {id: 6, label: 'L6: Periodic Trends \nand the \nElements', x: "-675", y: "-750"},
@@ -255,7 +255,7 @@
                 }
             },
             {
-                id   : 13, label: 'Ext G: \nCharacteristics \nProperties', x: "-575", y: "-680",
+                id   : 13, label: 'Ext G: \nCharacteristic \nProperties', x: "-575", y: "-680",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -285,7 +285,25 @@
                 }
             },
             {
-                id   : 15, label: 'Ext H: Atomic \nStructure, the \nPeriodic Table, and\n Isotopes', x: "-1150", y: "-800",
+                id   : 15, label: 'Ext H: Atomic \nStructure, the \nPeriodic Table, and\n Isotopes', x: "-1150", y: "-750",
+                color: {
+                    border    : '#fcd5b5',
+                    background: '#fcd5b5',
+                    highlight : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    },
+                    hover     : {
+                        border    : '#fcd5b5',
+                        background: '#fcd5b5'
+                    }
+                }
+            },
+            {
+                id   : 16,
+                label: 'Ext I: Bond \nTypes and \nthe Chemical \nStructure of \nMaterials',
+                x    : "-1150",
+                y    : "-850",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',

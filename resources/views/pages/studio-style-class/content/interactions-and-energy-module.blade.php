@@ -189,10 +189,10 @@
         var nodes2 = new vis.DataSet([
             {id: 1, label: 'A1: Elastic \nObjects and \nEnergy', x: "-975", y: "-1000"},
             {id: 2, label: 'A2: Comparing \nMagnetic and \nStatic Electric \nInteractions', x: "-800", y: "-1000"},
-            {id: 3, label: 'A3: Magnetic \nand Static Electric \nInteractions and \nEnergy', x: "-600", y: "-1000"},
+            {id: 3, label: 'A3: Magnetic \nand Static Electric \nInteractions and \nEnergy (optional)', x: "-600", y: "-1000"},
             {id: 4, label: 'A4: Gravitational \nInteractions and \nEnergy', x: "-600", y: "-800"},
             {id: 6, label: 'A5: Electromagnetic \nInteractions', x: "-785", y: "-800"},
-            {id: 7, label: 'A6: Engineering \nDesign: Storing \nEnergy from \nBraking', x: "-975", y: "-800"},
+            {id: 7, label: 'A6 ED: Engineering \nDesign: Storing \nEnergy from \nBraking', x: "-975", y: "-800"},
             {
                 id   : 8, label: 'Ext A: More on\nElastic Energy', x: "-900", y: "-1085",
                 color: {
@@ -209,7 +209,7 @@
                 }
             },
             {
-                id   : 9, label: 'Ext B: Magnetic \nPoles and Electric \nCharges', x: "-700", y: "-1085",
+                id   : 9, label: 'Ext B: Magnetic \nPoles and Electric \nCharges (optional)', x: "-700", y: "-1085",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
