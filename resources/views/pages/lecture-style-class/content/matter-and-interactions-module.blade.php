@@ -285,7 +285,7 @@
                 }
             },
             {
-                id   : 15, label: 'Ext H: Atomic \nStructure, the \nPeriodic Table, and\n Isotopes', x: "-1150", y: "-750",
+                id   : 15, label: 'Ext H: Atomic \nStructure, the \nPeriodic Table, and\n Isotopes', x: "-925", y: "-660",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
@@ -303,7 +303,7 @@
                 id   : 16,
                 label: 'Ext I: Bond \nTypes and \nthe Chemical \nStructure of \nMaterials',
                 x    : "-1150",
-                y    : "-850",
+                y    : "-810",
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
