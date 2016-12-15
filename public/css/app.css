@@ -8490,6 +8490,18 @@ body {
   .page-footer .page-footer-content {
     border-top: 1px solid #f3f3f3;
     padding: 20px 0; }
+  .page-footer .page-footer-logos {
+    margin-bottom: 40px; }
+  @media (min-width: 992px) {
+    .page-footer .page-footer-logos .row-eq-height {
+      display: -webkit-box;
+      display: flex;
+      -webkit-box-flex: 1;
+      flex: 1 0 auto;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-box-pack: center;
+      justify-content: center; } }
 
 .top-row {
   margin: 20px 0; }
