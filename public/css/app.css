@@ -8494,7 +8494,7 @@ body > .container {
 .page-footer {
   width: 100%;
   background: #fafafa;
-  border-top: 1px solid #f1f1f1;
+  border-top: 1px solid #e3e3e3;
   padding: 20px 0 50px;
   margin-top: 40px; }
   @media (min-width: 992px) {
@@ -8774,7 +8774,7 @@ body > .container {
 @media (min-width: 992px) {
   #menu.affix {
     position: fixed !important;
-    width: auto;
+    min-width: 363px;
     z-index: 100;
     top: 70px;
     -webkit-transform: translate3d(0, 0, 0);
@@ -8897,11 +8897,12 @@ body > .container {
 .list-group .list-group-item {
   width: 100%;
   color: #898989;
-  background: #fbfbfb;
+  background: #fafafa;
   margin-top: 3px;
   text-transform: uppercase;
   font-size: 12px;
-  border-radius: 0; }
+  border-radius: 0;
+  border: 1px solid #e3e3e3; }
 
 .list-group .list-group-item:hover, .list-group .list-group-item.active {
   background: #f68d2d;

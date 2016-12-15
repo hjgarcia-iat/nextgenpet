@@ -61,10 +61,10 @@
 
 @media (min-width : $screen-md-min) {
     #menu.affix {
-        position : fixed !important;
-        width    : auto;
-        z-index  : 100;
-        top      : 70px;
+        position          : fixed !important;
+        min-width         : 363px;
+        z-index           : 100;
+        top               : 70px;
         -webkit-transform : translate3d(0, 0, 0);
         transform         : translate3d(0, 0, 0);
     }
