@@ -18,10 +18,11 @@ $(function () {
     $('#menu').affix({
         offset: {
             top   : function () {
-                return (this.top = $('.carousel-container').offset().top + $('.carousel-container').outerHeight(true))
+                var $carousel = $('.carousel-container');
+                return (this.top = $carousel.offset().top + $carousel.height())
             },
             bottom: function () {
-                $('.page-footer').outerHeight(true);
+                return (this.bottom = $('.page-footer-wrapper').height());
             }
         }
     });

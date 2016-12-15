@@ -8773,7 +8773,7 @@ body > .container {
 */
 @media (min-width: 992px) {
   #menu.affix {
-    position: fixed;
+    position: fixed !important;
     width: auto;
     z-index: 100;
     top: 70px;
