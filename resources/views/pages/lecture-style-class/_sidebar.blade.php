@@ -15,27 +15,27 @@
            class="list-group-item{{ (Request::is('lecture-style-class/table-of-contents')) ? ' active' : '' }}">Table of Contents with Time Estimates
         </a>
         
-        <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
-           data-target="#sm"
-           data-parent="#menu">Content Modules
-        </a>
-        <div id="sm" class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' in' : '') }}">
-            <a class="list-group-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
-               href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">Magnetism and Static Electricity Module
-            </a>
-            <a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"
-               href="{{ url('lecture-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module
-            </a>
-            <a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-forces-module') ? ' active' : '') }}"
-               href="{{ url('lecture-style-class/content/interactions-and-forces-module') }}">Interactions and Forces Module
-            </a>
-            <a class="list-group-item{{ (Request::is('lecture-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"
-               href="{{ url('lecture-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module
-            </a>
-            <a class="list-group-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
-               href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">Matter and Interactions Module
-            </a>
-        </div>
+        {{--<a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"--}}
+           {{--data-target="#sm"--}}
+           {{--data-parent="#menu">Content Modules--}}
+        {{--</a>--}}
+        {{--<div id="sm" class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' in' : '') }}">--}}
+            {{--<a class="list-group-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"--}}
+               {{--href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">Magnetism and Static Electricity Module--}}
+            {{--</a>--}}
+            {{--<a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"--}}
+               {{--href="{{ url('lecture-style-class/content/interactions-and-energy-module') }}">Interactions and Energy Module--}}
+            {{--</a>--}}
+            {{--<a class="list-group-item{{ (Request::is('lecture-style-class/content/interactions-and-forces-module') ? ' active' : '') }}"--}}
+               {{--href="{{ url('lecture-style-class/content/interactions-and-forces-module') }}">Interactions and Forces Module--}}
+            {{--</a>--}}
+            {{--<a class="list-group-item{{ (Request::is('lecture-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"--}}
+               {{--href="{{ url('lecture-style-class/content/waves-sound-and-light-module') }}">Waves, Sounds and Light Module--}}
+            {{--</a>--}}
+            {{--<a class="list-group-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"--}}
+               {{--href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">Matter and Interactions Module--}}
+            {{--</a>--}}
+        {{--</div>--}}
     
         <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse"
         data-target="#sm-student-materials"
