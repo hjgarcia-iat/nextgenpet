@@ -45,7 +45,7 @@
                     <tr class="highlight">
                         <td class="col-md-1">L1/A1</td>
                         <td class="col-md-3">Teaching and Learning Science</td>
-                        <td class="col-md-1">MSE</td>
+                        <td class="col-md-1">MSE/All</td>
                         <td class="col-md-1">Intro All</td>
                         <td>Intro All</td>
                         <td>25</td>
