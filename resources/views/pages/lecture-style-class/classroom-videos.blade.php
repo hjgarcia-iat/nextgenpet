@@ -31,7 +31,10 @@
                 <a href="http://nextgenpet.sdsu.edu/videos/index_lc_if.html" target="_blank">Interactions and Force Module</a></li>
             <li><i class="fa-li fa fa-video-camera"></i>
                 <a href="http://nextgenpet.sdsu.edu/videos/index_lc_wsl.html" target="_blank">Waves, Sound, and Light Module</a></li>
-            <li><i class="fa-li fa fa-video-camera"></i> Matter and Interactions Module</li>
+            <li><i class="fa-li fa fa-video-camera"></i>
+                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_mi.html" target="_blank">
+                    Matter and Interactions Module
+                </a></li>
         </ul>
         
         
