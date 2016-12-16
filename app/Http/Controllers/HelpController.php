@@ -41,21 +41,4 @@ class HelpController extends Controller
 
         return redirect()->to('help');
     }
-
-	/**
-	 * Process form
-	 *
-	 * @param OnlineLearningRequest $request
-	 *
-	 * @return \Illuminate\Http\JsonResponse
-	 */
-    public function storeOnlineLearning(OnlineLearningRequest $request)
-    {
-//	    \Mail::to('contact@iat.com')->send(new OnlineLearning($request));
-
-	    return response()->json([
-	    	'status' => 'success',
-	        'message' => 'Your message was sent, we will get back to your shortly!'
-	    ]);
-    }
 }
