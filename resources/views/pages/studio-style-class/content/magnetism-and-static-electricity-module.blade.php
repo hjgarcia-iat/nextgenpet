@@ -85,7 +85,7 @@
                 label      : 'A1: Modeling \nand the \nMystery Tube',
                 x          : "-850",
                 y          : "-1000",
-                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href='http://google.com' target='_blank'>Beatae commodi fuga odit</a>? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"
             },
             {id            : 2,
                 label      : 'A2: Exploring \nMagnetic \nEffects',
