@@ -81,8 +81,18 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Modeling \nand the \nMystery Tube', x: "-850", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
-            {id: 2, label: 'A2: Exploring \nMagnetic \nEffects', x: "-675", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
+            {id            : 1,
+                label      : 'A1: Modeling \nand the \nMystery Tube',
+                x          : "-850",
+                y          : "-1000",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"
+            },
+            {id            : 2,
+                label      : 'A2: Exploring \nMagnetic \nEffects',
+                x          : "-675",
+                y          : "-1000",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"
+            },
             {id: 3, label: 'A3: Developing a \nModel for \nMagnetism', x: "-485", y: "-1000"},
             {id: 4, label: 'A4: Better \nModel for \nMagnetism', x: "-485", y: "-875"},
             {id: 5, label: 'A5: Explaining \nPhenomena Involving \nMagnetism', x: "-650", y: "-875"},
@@ -135,7 +145,12 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Exploring \nStatic Electric \nEffects', x: "-975", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
+            {id            : 1,
+                label      : 'A1: Exploring \nStatic Electric \nEffects',
+                x          : "-975",
+                y          : "-1000",
+                description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"
+            },
             {id: 2, label: 'A2: Developing a \nModel for \nStatic Electricity', x: "-785", y: "-1000"},
             {id: 3, label: 'A3: Representing \nUncharged \nObjects', x: "-600", y: "-1000"},
             {id: 4, label: 'A4: Refining Model \nfor Different \nMaterials', x: "-600", y: "-800"},
@@ -285,21 +300,33 @@
 
         network.on("doubleClick", function (params) {
             //get canvas element
-            var $canvas = $(params.event.target.parentNode.parentNode);
-
+            var $canvas      = $(params.event.target.parentNode.parentNode);
             var ids          = params.nodes;
             var clickedNodes = nodes.get(ids);
-            var label = clickedNodes[0].label;
-            var description = clickedNodes[0].description;
+            var label        = clickedNodes[0].label;
+            var description  = clickedNodes[0].description;
             //drawer effect
+            setUpDrawer($canvas, label, description)
+        });
+
+        network2.on("doubleClick", function (params) {
+            //get canvas element
+            var $canvas      = $(params.event.target.parentNode.parentNode);
+            var ids          = params.nodes;
+            var clickedNodes = nodes2.get(ids);
+            var label        = clickedNodes[0].label;
+            var description  = clickedNodes[0].description;
+            //drawer effect
+            setUpDrawer($canvas, label, description)
+        });
+
+        function setUpDrawer(canvas, label, description) {
             $('div.canvas-drawer').stop().slideUp(function () {
                 $(this).empty();
-                $(this).html('<h3>' + label + '</h3><p>' + description + '</p>');
+                $(this).html('<h4>' + label + '</h4><p>' + description + '</p>');
             });
-            
-            $canvas.next('div.canvas-drawer').slideDown();
-        });
-    
+            canvas.next('div.canvas-drawer').slideDown();
+        }
     </script>
 @stop
 
