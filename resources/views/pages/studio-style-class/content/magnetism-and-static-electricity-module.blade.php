@@ -415,14 +415,14 @@
         network2.on("doubleClick", function (params) {
             var $canvas      = $(params.event.target.parentNode.parentNode);
             var ids          = params.nodes;
-            var clickedNodes = nodes.get(ids);
+            var clickedNodes = nodes2.get(ids);
             var label        = clickedNodes[0].label;
             var description  = clickedNodes[0].description;
             setUpDrawer($canvas, label, description);
         });
 
         function setUpDrawer(canvas, label, description) {
-            $('div.canvas-drawer').html('<h4>' + label + '</h4><p>' + description + '</p>');
+            canvas.next('div.canvas-drawer').html('<h4>' + label + '</h4><p>' + description + '</p>');
         }
     </script>
 @stop
