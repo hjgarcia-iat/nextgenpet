@@ -201,7 +201,7 @@
                     </tr>
                     <tr>
                         <td>A4</td>
-                        <td>Friction as an Interaction</td>
+                        <td>Warming and Cooling</td>
                         <td>70</td>
                     </tr>
                     <tr>
@@ -357,7 +357,7 @@
                     </tr>
                     <tr>
                         <td>A4</td>
-                        <td>Warming and Cooling</td>
+                        <td>Friction and Slowing</td>
                         <td>90</td>
                     </tr>
                     <tr>
@@ -425,7 +425,7 @@
                         <td>90</td>
                     </tr>
                     <tr>
-                        <td>Ext F</td>
+                        <td>Ext E</td>
                         <td>Newton’s Third Law and Balanced Forces</td>
                         <td>online</td>
                     </tr>
@@ -436,7 +436,7 @@
                         <td>60</td>
                     </tr>
                     <tr>
-                        <td>Ext DS</td>
+                        <td>Ext D</td>
                         <td>More on Vertical Motion</td>
                         <td>online</td>
                     </tr>
