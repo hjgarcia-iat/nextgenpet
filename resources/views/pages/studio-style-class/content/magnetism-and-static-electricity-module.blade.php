@@ -19,16 +19,14 @@
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
-        <div id="canvas" class="canvas">
-        
-        </div>
+        <div id="canvas" class="canvas"></div>
+        <div class="canvas-drawer"></div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         <h4>Unit SE: Developing a Model for Static Electricity</h4>
-        <div id="canvas2" class="canvas">
-        
-        </div>
+        <div id="canvas2" class="canvas"></div>
+        <div class="canvas-drawer"></div>
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
@@ -83,8 +81,8 @@
     <script>
         // create an array with nodes
         var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Modeling \nand the \nMystery Tube', x: "-850", y: "-1000"},
-            {id: 2, label: 'A2: Exploring \nMagnetic \nEffects', x: "-675", y: "-1000"},
+            {id: 1, label: 'A1: Modeling \nand the \nMystery Tube', x: "-850", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
+            {id: 2, label: 'A2: Exploring \nMagnetic \nEffects', x: "-675", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
             {id: 3, label: 'A3: Developing a \nModel for \nMagnetism', x: "-485", y: "-1000"},
             {id: 4, label: 'A4: Better \nModel for \nMagnetism', x: "-485", y: "-875"},
             {id: 5, label: 'A5: Explaining \nPhenomena Involving \nMagnetism', x: "-650", y: "-875"},
@@ -137,7 +135,7 @@
         ]);
 
         var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Exploring \nStatic Electric \nEffects', x: "-975", y: "-1000"},
+            {id: 1, label: 'A1: Exploring \nStatic Electric \nEffects', x: "-975", y: "-1000", description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae commodi fuga odit? Accusamus accusantium dignissimos dolorum error excepturi laudantium mollitia numquam, officiis praesentium qui, quidem, ratione rem unde voluptates voluptatibus!"},
             {id: 2, label: 'A2: Developing a \nModel for \nStatic Electricity', x: "-785", y: "-1000"},
             {id: 3, label: 'A3: Representing \nUncharged \nObjects', x: "-600", y: "-1000"},
             {id: 4, label: 'A4: Refining Model \nfor Different \nMaterials', x: "-600", y: "-800"},
@@ -286,7 +284,20 @@
         var network2 = new vis.Network(container2, data2, options);
 
         network.on("doubleClick", function (params) {
-            $('#myModal-' + params.nodes[0]).modal();
+            //get canvas element
+            var $canvas = $(params.event.target.parentNode.parentNode);
+
+            var ids          = params.nodes;
+            var clickedNodes = nodes.get(ids);
+            var label = clickedNodes[0].label;
+            var description = clickedNodes[0].description;
+            //drawer effect
+            $('div.canvas-drawer').stop().slideUp(function () {
+                $(this).empty();
+                $(this).html('<h3>' + label + '</h3><p>' + description + '</p>');
+            });
+            
+            $canvas.next('div.canvas-drawer').slideDown();
         });
     
     </script>
