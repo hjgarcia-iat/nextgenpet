@@ -88,10 +88,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -106,10 +102,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -124,10 +116,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -190,10 +178,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -208,10 +192,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -226,10 +206,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -244,10 +220,6 @@
                 color: {
                     border    : '#fcd5b5',
                     background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
                     hover     : {
                         border    : '#fcd5b5',
                         background: '#fcd5b5'
@@ -331,7 +303,7 @@
             edges      : {
                 arrows: {to: true},
                 color : {
-                    highlight: '#fcd5b5',
+                    highlight: '#9bc48a',
                 }
             },
             nodes      : {
@@ -342,8 +314,8 @@
                     border    : '#b9cde5',
                     background: '#b9cde5',
                     highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
+                        border    : '#9bc48a',
+                        background: '#9bc48a'
                     },
                     hover     : {
                         border    : '#b9cde5',
