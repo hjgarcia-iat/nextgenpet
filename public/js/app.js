@@ -15,10 +15,25 @@ $(function () {
         }
     });
 
-    $('#menu').affix({
+    var $carousel = $('.carousel-container');
+    var $affixElement = $('#menu');
+    // Function to handle affix width and classes in affix menu on page loading, scrolling or resizing
+    function affix() {
+        // Fit affix width to its parent's width
+        $affixElement.width($affixElement.parent().width());
+    }
+
+    // Call to function on DOM ready
+    affix();
+    // Call on scroll or resize
+    $(window).on('scroll resize', function () {
+        affix();
+    });
+
+
+    $affixElement.affix({
         offset: {
             top   : function () {
-                var $carousel = $('.carousel-container');
                 return (this.top = $carousel.offset().top + $carousel.height())
             },
             bottom: function () {
@@ -26,6 +41,9 @@ $(function () {
             }
         }
     });
+
+
+
 
 
     $('#menu a[data-file="true"]').on('click', function (e) {
