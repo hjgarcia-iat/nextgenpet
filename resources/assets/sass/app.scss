@@ -3,9 +3,9 @@
 // Imports
 // --------------------------------------------------
 */
-@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "../../../node_modules/bootstrap/scss/bootstrap";
 @import "../../../node_modules/font-awesome/scss/font-awesome";
-@import "../../../node_modules/jasny-bootstrap/scss/jasny-bootstrap";
+@import "libs/offcanvas/sass/bootstrap.offcanvas";
 @import "theme/v1/bootstrap";
 
 /*
@@ -13,17 +13,6 @@
 // Title Bar
 // --------------------------------------------------
 */
-.title-bar {
-    background : #1d1819;
-    h1 {
-        color          : #ffffff;
-        font-size      : 40px;
-        text-transform : uppercase;
-        font-weight    : 300;
-        margin-bottom  : 20px;
-    }
-}
-
 .highlight {
     color : #f68d2d;
 }

@@ -5,20 +5,14 @@
         @include('layouts.partials.styles')
     </head>
     <body>
-        
-        @include('layouts.partials.mobile_nav')
-        
         @include('layouts.partials.header')
-        
         @include('layouts.partials.title')
-        
         @yield('banner')
-        
         
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>@yield('pageTitle')</h2>
+                    <h2 class="page-title">@yield('pageTitle')</h2>
                 </div>
             </div>
             <div class="row">

@@ -58,8 +58,7 @@
 // Menu
 // --------------------------------------------------
 */
-
-@media (min-width : $screen-md-min) {
+@include media-breakpoint-up(md) {
     #menu.affix {
         position          : fixed !important;
         min-width         : 363px;

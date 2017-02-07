@@ -5,10 +5,20 @@ body {
     display        : flex;
     min-height     : 100vh;
     flex-direction : column;
+    color : $general-color-dark-gray;
 }
 
 body > .container {
     flex: 1;
+}
+
+a {
+    color           : #f68d2d;
+    text-decoration : none;
+}
+
+a:hover {
+    color : #f68d2d;
 }
 
 .page-footer {
