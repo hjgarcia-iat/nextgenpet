@@ -26,15 +26,15 @@
         .list-group-item.active {
             cursor      : default;
             font-weight : bold;
+            display: flex;
         }
 
-        .sublink {
-            &:after {
-                font-family : 'FontAwesome';
-                content     : "\f139";
-                float       : right;
-                font-weight : normal;
-            }
+        .list-group-item.active:after {
+            font-family : 'FontAwesome';
+            content     : "\f054";
+            font-weight : normal;
+            flex: 1;
+            text-align: right;
         }
 
         .sublink.collapsed {
