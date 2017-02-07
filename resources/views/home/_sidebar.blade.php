@@ -1,4 +1,4 @@
-<div id="menu">
+<div class="page-side-menu">
     <div class="panel list-group">
         <a href="{{ url('/') }}"
            class="list-group-item{{ (Request::is('/') or Request::is('about/flexibility') or Request::is('about/research-based')) ? ' active' : '' }}">

@@ -2,7 +2,7 @@
     <div class="container">
         <ul class="navbar-nav d-m-flex justify-content-md-around">
             <li class="nav-item {{ Request::is('/') ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('home') }}">Home</a>
+                <a class="nav-link" href="{{ url('/') }}">Home</a>
             </li>
     
             <li class="nav-item {{ Request::is('studio-style-class') ? 'active' : '' }}">

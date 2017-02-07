@@ -11750,6 +11750,172 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   /* Legacy iOS */
 }
 
+/*
+//
+// General
+// --------------------------------------------------
+*/
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  color: #222222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+sub, sup {
+  /* Specified in % so that the sup/sup is the
+       right size relative to the surrounding text */
+  font-size: 75%;
+  /* Zero out the line-height so that it doesn't
+       interfere with the positioning that follows */
+  line-height: 0;
+  /* Where the magic happens: makes all browsers position
+       the sup/sup properly, relative to the surrounding text */
+  position: relative;
+  /* Note that if you're using Eric Meyer's reset.css, this
+       is already set and you can remove this rule */
+  vertical-align: baseline;
+}
+
+sup {
+  /* Move the superscripted text up */
+  top: -0.5em;
+}
+
+sub {
+  /* Move the subscripted text down, but only
+       half as far down as the superscript moved up */
+  bottom: -0.25em;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 767px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/*
+//
+// Buttons and General Links Styles
+// --------------------------------------------------
+*/
+/* unvisited link */
+a:link {
+  color: #fd7600;
+}
+
+/* visited link */
+a:visited {
+  color: #fd7600;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fd7600;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #fd7600;
+}
+
+.btn {
+  color: #ffffff !important;
+  border-radius: 0;
+  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+.btn-primary {
+  background: #fd7600;
+  border-color: #e46a00;
+}
+
+.btn-primary:hover {
+  background: #ca5e00;
+  border-color: #ff9f4b;
+}
+
+/*
+//
+// Images
+// --------------------------------------------------
+*/
+.img-circle {
+  border-radius: 50%;
+}
+
+/*
+//
+// Forms
+// --------------------------------------------------
+*/
+.form-control {
+  color: #292b2c;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+}
+
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #cccccc;
+}
+
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #cccccc;
+}
+
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #cccccc;
+}
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #cccccc;
+}
+
+.form-control:focus {
+  border-color: #fd7600;
+}
+
+/*
+//
+// For Medium Screen and Up Styles
+// --------------------------------------------------
+*/
+@media (min-width: 768px) {
+  body {
+    display: -webkit-box;
+    display: flex;
+    min-height: 100vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+  }
+  body > .container {
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
 .site-header .top-row {
   margin: 20px 0;
 }
@@ -11917,35 +12083,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
-}
-
-body {
-  display: -webkit-box;
-  display: flex;
-  min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  flex-direction: column;
-  color: #222222;
-}
-
-body > .container {
-  -webkit-box-flex: 1;
-  flex: 1;
-}
-
-a {
-  color: #f68d2d;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #f68d2d;
-}
-
 .page-footer {
   width: 100%;
   background: #fafafa;
@@ -11965,6 +12102,59 @@ a:hover {
     -webkit-box-pack: center;
     justify-content: center;
   }
+}
+
+/*
+//
+// Side Menu Styles for all pages
+// --------------------------------------------------
+*/
+.page-side-menu .list-group .list-group-item {
+  width: 100%;
+  color: #898989;
+  background: #fafafa;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #e3e3e3;
+}
+
+.page-side-menu .list-group .list-group-item:hover, .page-side-menu .list-group .list-group-item.active {
+  background: #f68d2d;
+  color: white;
+  border-color: #f68d2d;
+}
+
+.page-side-menu .list-group .list-group-item.active {
+  cursor: default;
+  font-weight: bold;
+}
+
+.page-side-menu .list-group .sublink:after {
+  font-family: 'FontAwesome';
+  content: "\f139";
+  float: right;
+  font-weight: normal;
+}
+
+.page-side-menu .list-group .sublink.collapsed:after {
+  content: "\f13a";
+}
+
+.page-side-menu .list-group .sublinks {
+  margin-left: 25px;
+}
+
+.page-side-menu .list-group .sublinks .list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.page-side-menu .list-group .sublinks .list-group-item:last-child {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom: none;
 }
 
 /*
@@ -12325,6 +12515,23 @@ hr {
   background-color: #dddddd;
   border-color: #dddddd;
   cursor: default;
+}
+
+/*
+//
+// PageTitle
+// --------------------------------------------------
+*/
+.page-title {
+  margin-bottom: 2em;
+  background: #f3f3f3;
+  padding: 1em 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-title h1 {
+  margin: 0;
+  padding: 0;
 }
 
 /*
