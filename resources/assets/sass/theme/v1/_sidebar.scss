@@ -42,9 +42,19 @@
             flex: 1;
         }
 
-        .sublink.collapsed {
+        .sublink.collapsed, .sublink {
             &:after {
                 content : "\f13a";
+                display    : inline-block;
+                text-align : right;
+                flex       : 1;
+            }
+        }
+
+        .sublink {
+            &:after {
+                font-family : 'FontAwesome';
+                content     : "\f139";
             }
         }
 

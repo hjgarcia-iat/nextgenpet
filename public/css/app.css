@@ -12215,8 +12215,17 @@ a:active {
   flex: 1;
 }
 
-.page-side-menu .list-group .sublink.collapsed:after {
+.page-side-menu .list-group .sublink.collapsed:after, .page-side-menu .list-group .sublink:after {
   content: "\f13a";
+  display: inline-block;
+  text-align: right;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+
+.page-side-menu .list-group .sublink:after {
+  font-family: 'FontAwesome';
+  content: "\f139";
 }
 
 .page-side-menu .list-group .sublinks {
@@ -12466,32 +12475,6 @@ a:active {
 .list-group .list-group-item.active {
   cursor: default;
   font-weight: bold;
-}
-
-.list-group .sublink:after {
-  font-family: 'FontAwesome';
-  content: "\f139";
-  float: right;
-  font-weight: normal;
-}
-
-.list-group .sublink.collapsed:after {
-  content: "\f13a";
-}
-
-.list-group .sublinks {
-  margin-left: 25px;
-}
-
-.list-group .sublinks .list-group-item:first-child {
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-}
-
-.list-group .sublinks .list-group-item:last-child {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border-bottom: none;
 }
 
 /*

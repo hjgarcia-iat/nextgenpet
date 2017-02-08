@@ -37,7 +37,7 @@
         </p>
         <p class="text-center">
         <img src="{{ asset('img/content/cq1-1.png') }}"
-             class="img-responsive img-thumbnail center-block"
+             class="img-responsive img-thumbnail d-block mx-auto"
              alt="FIG. 1. First clicker question in Module IF, Unit FM, Lesson 1.">
         <small class="text-muted">FIG. 1. First clicker question in Module IF, Unit FM, Lesson 1.</small>
         </p>
@@ -47,7 +47,7 @@
         </p>
         <p class="text-center">
         <img src="{{ asset('img/content/cq1-2.png') }}"
-             class="img-responsive img-thumbnail center-block"
+             class="img-responsive img-thumbnail d-block mx-auto"
              alt="FIG. 2. Second clicker question in Module IF, Unit FM, Lesson 1.">
         <small class="text-muted">FIG. 2. Second clicker question in Module IF, Unit FM, Lesson 1.</small>
         </p>
@@ -61,7 +61,7 @@
         </p>
         <p class="text-center">
         <img src="{{ asset('img/content/cq1-4.png') }}"
-             class="img-responsive img-thumbnail center-block"
+             class="img-responsive img-thumbnail d-block mx-auto"
              alt="FIG. 3. First Summarizing Question in Module IF, Unit FM, Lesson 1">
         <small class="text-muted">FIG. 3. First Summarizing Question in Module IF, Unit FM, Lesson 1</small>
         </p>
