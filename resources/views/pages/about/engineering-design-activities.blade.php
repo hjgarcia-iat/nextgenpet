@@ -32,7 +32,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="col-md-3">Unit M: Developing a Model for Magnetism</td>
+                        <td>Unit M: Developing a Model for Magnetism</td>
                         <td><strong>Is the US Losing Its Edge?</strong> Students apply a model of magnetism to design a magnetic levitation system.</td>
                     </tr>
                     <tr>

@@ -11857,6 +11857,11 @@ sub {
   bottom: -0.25em;
 }
 
+h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
+  font-size: .45em;
+  top: -1.2em;
+}
+
 @media (min-width: 768px) {
   html {
     font-size: 17px;
@@ -12193,17 +12198,21 @@ a:active {
 .page-side-menu .list-group .list-group-item.active {
   cursor: default;
   font-weight: bold;
-  display: -webkit-box;
-  display: flex;
+}
+
+.page-side-menu .list-group .list-group-item.active span {
+  display: inline-block;
+  width: 80%;
 }
 
 .page-side-menu .list-group .list-group-item.active:after {
   font-family: 'FontAwesome';
   content: "\f054";
   font-weight: normal;
+  display: inline-block;
+  text-align: right;
   -webkit-box-flex: 1;
   flex: 1;
-  text-align: right;
 }
 
 .page-side-menu .list-group .sublink.collapsed:after {

@@ -21,13 +21,13 @@
         <em>Studio-style</em> class (SC) version is best suited for lower enrollment courses that meet ~5 hours/week and take place in a lab or workroom where students can work in groups around tables and perform experiments. In the SC version, students spend the majority of their time with their group of 3-4 peers making predictions, performing experiments, drawing conclusions, answering questions in a workbook, and discussing their ideas both within their group and with the whole class.
         </p>
         <img src="{{ url('img/content/imp-version-1.png') }}" alt="Implementation Versions"
-             class="center-block img-responsive img-thumbnail">
+             class="d-block mx-auto img-responsive img-thumbnail mb-2">
         <p>
         The
         <em>Lecture-style</em> class (LC) version is best suited for courses that meet ~2.5 hours/week in lecture-style classrooms where students have desktops on which they can work. The LC version is suitable for courses with large enrollments, or in courses with smaller enrollments with limited meeting time and facilities. The content and pedagogical approach is similar to the SC version, but in the LC version: (1) students can do experiments requiring simple materials on their desktops, but for more extensive experiments, they watch videos; (2) students respond to questions (using hand-held response devices [e.g., “clickers”] or smart phones) to share ideas with the whole class; and (3) the instructor manages the class time through a set of PowerPoint™ slides that align with the student materials.
         </p>
         <img src="{{ url('img/content/imp-version-2.png') }}" alt="Implementation Versions"
-             class="center-block img-responsive img-thumbnail">
+             class="d-block mx-auto img-responsive img-thumbnail mb-2">
         <p>
         The table below summarizes the differences between structural features of the two versions. To see examples of both versions, click on one of the links below:
         <strong>Developing Model of Magnetism</strong>, <strong>Interactions and Forces</strong>. See also the
@@ -44,7 +44,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="col-md-2">Meeting time</td>
+                    <td>Meeting time</td>
                     <td>~5 hrs/wk; 75 hrs/semester, typically 2.5 hour classe</td>
                     <td>~2.5 hrs/wk; 38 hrs/semester, typically 75 minute classes</td>
                 </tr>
@@ -95,7 +95,7 @@
             </thead>
             <tbody>
                 <tr>
-                    <td class="col-md-3">1. Learning builds on prior knowledge.</td>
+                    <td>1. Learning builds on prior knowledge.</td>
                     <td>Questions within activities are designed to elicit and build on students’ initial ideas.</td>
                     <td>Similar to SC.</td>
                 </tr>
