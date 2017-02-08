@@ -12631,19 +12631,6 @@ hr {
 
 /*
 //
-// Error Pages
-// --------------------------------------------------
-*/
-.well-error {
-  margin-top: 50px;
-}
-
-.well-error h2 {
-  font-size: 100px;
-}
-
-/*
-//
 // Canvas Elements
 // --------------------------------------------------
 */
@@ -12661,6 +12648,26 @@ hr {
   padding: 20px;
   background: #f9f9f9;
   position: relative;
+}
+
+/*
+//
+// Wells
+// --------------------------------------------------
+*/
+.well {
+  background: #f9f9f9;
+  padding: 3em;
+  margin: 2em;
+  border: 1px solid #d3d3d3;
+}
+
+.well-error {
+  margin-top: 50px;
+}
+
+.well-error h2 {
+  font-size: 100px;
 }
 
 /*# sourceMappingURL=app.css.map */
