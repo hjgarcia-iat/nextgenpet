@@ -14,14 +14,14 @@
 // --------------------------------------------------
 */
 .page-title {
-    margin-bottom: 2em;
-    background: #f3f3f3;
-    padding : 1em 0;
-    border-bottom: 1px solid #ececec;
+    margin-bottom : 2em;
+    background    : #f3f3f3;
+    padding       : 1em 0;
+    border-bottom : 1px solid #ececec;
 
     h1 {
-        margin: 0;
-        padding: 0;
+        margin  : 0;
+        padding : 0;
     }
 }
 
@@ -63,8 +63,6 @@
     }
 }
 
-
-
 /*
 //
 // Canvas Elements
@@ -73,13 +71,17 @@
 .canvas { width : 100%; height : 500px; border : 1px solid lightgray; }
 
 .canvas-drawer {
-    height           : 200px;
     border           : 1px solid lightgray;
     border-top-width : 3px;
     margin-bottom    : 40px;
     padding          : 20px;
     background       : #f9f9f9;
     position         : relative;
+    font-size        : 15px;
+
+    h4 {
+        font-size: 18px;
+    }
 }
 
 /*
@@ -88,10 +90,10 @@
 // --------------------------------------------------
 */
 .well {
-    background: #f9f9f9;
-    padding: 3em;
-    margin: 2em;
-    border: 1px solid #d3d3d3;
+    background : #f9f9f9;
+    padding    : 3em;
+    margin     : 2em;
+    border     : 1px solid #d3d3d3;
 }
 
 .well-error {
