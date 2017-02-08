@@ -11824,6 +11824,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #222222;
+  line-height: 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -12520,15 +12521,23 @@ hr {
 // Tables
 // --------------------------------------------------
 */
+.table {
+  font-size: 15px;
+}
+
 .table thead th {
   background: #f68d2d;
   color: white;
   text-align: center;
+  vertical-align: middle;
 }
 
 .table tr.highlight td {
   background: #c7642c;
   color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
 }
 
 /*

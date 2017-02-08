@@ -6,7 +6,8 @@
 
 body {
     font-family : $font-family-sans-serif-text;
-    color : $general-color-dark-gray;
+    color       : $general-color-dark-gray;
+    line-height : 1.6;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -41,8 +42,8 @@ sub {
 }
 
 h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
-    font-size: .45em;
-    top : -1.2em;
+    font-size : .45em;
+    top       : -1.2em;
 }
 
 //Font sizing fixes
@@ -57,6 +58,8 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 @include media-breakpoint-down(sm) {
     html { font-size : 18px; }
 }
+
+
 
 /*
 //

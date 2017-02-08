@@ -144,15 +144,21 @@ hr {
 // --------------------------------------------------
 */
 .table {
+    font-size : 15px;
+
     thead th {
         background : $general-color-orange;
         color      : white;
         text-align : center;
+        vertical-align : middle;
     }
 
     tr.highlight td {
         background : #c7642c;
         color      : white;
+        text-align     : center;
+        vertical-align : middle;
+        font-weight    : bold;
     }
 }
 
