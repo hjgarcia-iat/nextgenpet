@@ -6,6 +6,7 @@ Homestead.json
 Homestead.yaml
 .env
 _ide_helper.php
+.phpstorm.meta.php
 /public/img/content
 /public/docs
 /public/build
