@@ -10,7 +10,7 @@
                       action="{{ url('/register') }}">
                     {{ csrf_field() }}
                     <div class="form-group {{ $errors->has('first_name') ? 'has-danger' : '' }}">
-                        <label for="first_name">First Name</label>
+                        <label for="first_name" class="form-control-label">First Name</label>
                         <input type="text"
                                class="form-control {{ $errors->has('first_name') ? 'form-control-danger' : '' }}"
                                id="first_name"
@@ -20,7 +20,8 @@
                     </div>
                     
                     <div class="form-group {{ $errors->has('last_name') ? 'has-danger' : '' }}">
-                        <label for="last_name">Last Name</label>
+                        <label for="last_name"
+                               class="form-control-label">Last Name</label>
                         <input type="text"
                                class="form-control {{ $errors->has('last_name') ? 'form-control-danger' : '' }}"
                                id="last_name"
@@ -30,7 +31,8 @@
                     </div>
                     
                     <div class="form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
-                        <label for="email">Email Address</label>
+                        <label for="email"
+                               class="form-control-label">Email Address</label>
                         <input type="text"
                                class="form-control {{ $errors->has('email') ? 'form-control-danger' : '' }}"
                                id="email"
@@ -40,7 +42,8 @@
                     </div>
                     
                     <div class="form-group {{ $errors->has('institution') ? 'has-danger' : '' }}">
-                        <label for="institution">Institution Name</label>
+                        <label for="institution"
+                               class="form-control-label">Institution Name</label>
                         <input type="text"
                                class="form-control {{ $errors->has('institution') ? 'form-control-danger' : '' }}"
                                id="institution"
@@ -50,7 +53,8 @@
                     </div>
                     
                     <div class="form-group {{ $errors->has('zip') ? 'has-danger' : '' }}">
-                        <label for="zip">Zipcode</label>
+                        <label for="zip"
+                               class="form-control-label">Zipcode</label>
                         <input type="text"
                                class="form-control {{ $errors->has('zip') ? 'form-control-danger' : '' }}"
                                id="zip"
@@ -60,7 +64,8 @@
                     </div>
                     
                     <div class="form-group {{ $errors->has('password') ? 'has-danger' : '' }}">
-                        <label for="password">Password</label>
+                        <label for="password"
+                               class="form-control-label">Password</label>
                         <input type="password"
                                class="form-control {{ $errors->has('password') ? 'form-control-danger' : '' }}"
                                id="password"
@@ -69,7 +74,8 @@
                     </div>
     
                     <div class="form-group {{ $errors->has('password_confirmation') ? 'has-danger' : '' }}">
-                        <label for="password_confirmation">Password Confirmation</label>
+                        <label for="password_confirmation"
+                               class="form-control-label">Password Confirmation</label>
                         <input type="password"
                                class="form-control {{ $errors->has('password_confirmation') ? 'form-control-danger' : '' }}"
                                id="password_confirmation"
