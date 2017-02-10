@@ -12527,6 +12527,11 @@ hr {
   border-color: #fba128;
 }
 
+a.btn-default {
+  background: #d3d3d3;
+  color: #222222 !important;
+}
+
 /*
 //
 // Tables
