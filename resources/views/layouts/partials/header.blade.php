@@ -5,7 +5,7 @@
                 <div class="col-md-4">
                     <section class="logo text-sm-center text-xs-center">
                         <a href="/"
-                           class="full"></a>
+                           class="full mx-auto"></a>
                     </section>
                 </div>
                 <div class="col-md-8">

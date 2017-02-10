@@ -11681,6 +11681,25 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /*
 //
+// General Site Helpers
+// --------------------------------------------------
+*/
+@media (max-width: 575px) {
+  .d-xs-flex {
+    display: -webkit-box !important;
+    display: flex !important;
+  }
+  .justify-content-xs-between {
+    -webkit-box-pack: justify !important;
+    justify-content: space-between !important;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+/*
+//
 // Variables and Classes to Mix In
 // --------------------------------------------------
 */
