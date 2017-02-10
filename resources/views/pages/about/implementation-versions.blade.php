@@ -34,7 +34,7 @@
         <strong>Design Principles</strong> section of this website for a table summarizing the differences in how each version implements the design features of the curriculum.
         </p>
         
-        <table class="table table-bordered">
+        <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
                     <th>Feature</th>
@@ -85,7 +85,7 @@
         The following table shows how the design principles are put into in the studio-style class and lecture-style class versions of
         <em>Next Gen PET</em>.
         </p>
-        <table class="table table-bordered">
+        <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
                     <th>Design Principle</th>
