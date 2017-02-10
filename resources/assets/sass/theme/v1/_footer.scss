@@ -4,15 +4,4 @@
     border-top : 1px solid #e3e3e3;
     padding    : 20px 0 50px;
     margin-top : 40px;
-
-    @media (min-width : 992px) {
-        .page-footer-logos .row-eq-height {
-            display         : -ms-flexbox;
-            display         : flex;
-            -ms-flex        : 1 0 auto;
-            flex            : 1 0 auto;
-            align-items     : center;
-            justify-content : center;
-        }
-    }
 }
