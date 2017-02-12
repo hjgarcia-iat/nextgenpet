@@ -24,10 +24,10 @@
         <a href="#"
            class="list-group-item sublink collapsed"
            data-toggle="collapse"
-           data-target="#sm"
+           data-target="#mainLectureContentModules"
            data-parent="#menu">Content Modules
         </a>
-        <div id="sm"
+        <div id="mainLectureContentModules"
              class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
             <a class="list-group-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">

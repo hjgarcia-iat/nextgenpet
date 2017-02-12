@@ -25,12 +25,12 @@
         <a href="#"
            class="list-group-item sublink collapsed"
            data-toggle="collapse"
-           data-target="#sm"
+           data-target="#mainStudioContentModules"
            data-parent="#menu">
             <span>Content Modules
             </span>
         </a>
-        <div id="sm"
+        <div id="mainStudioContentModules"
              class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' show' : '') }}">
             <a class="list-group-item {{ (Request::is('studio-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
                href="{{ url('studio-style-class/content/magnetism-and-static-electricity-module') }}">
