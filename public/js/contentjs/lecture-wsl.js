@@ -138,7 +138,7 @@ var nodes2 = new vis.DataSet([
         id   : 9,
         label: 'Ext B: Further \nInvestigations of \nMirror Reflections \nand \nImages',
         x    : "-700",
-        y    : "-1075",
+        y    : "-1082",
         description: "In this extension, students first learn that the location of an image of a point source in a mirror is the same distance behind the mirror surface as the source is in front.  They apply this rule to locate the position of various point source images in a plane mirror.  Then they consider what happens when light strikes multiple mirrors. Finally, they consider the accuracy of light ray diagrams that show how light behaves in situations where light is striking both shiny and non-shiny surfaces.",
         color: {
             border    : '#fcd5b5',

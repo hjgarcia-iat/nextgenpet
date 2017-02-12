@@ -206,7 +206,7 @@ var nodes2 = new vis.DataSet([
         id   : 9,
         label: 'Ext B: Magnetic\nPoles and Electric \nCharges (optional)',
         x    : "-700",
-        y    : "-1075",
+        y    : "-1085",
         description: "[<em>Students should work through this extension only if they had also worked through Lesson 2 during class</em>.] In this extension students first watch a movie from a PhET simulator, where a compass is moved around the area of a bar magnet, and from that infer which end of the compass needle is a North Pole.  Then they watch a series of movies involving interactions between two charged pieces of sticky tape, and between an acrylic sheet and a Styrofoam plate that are rubbed together.  Finally, they are introduced to a simple model representation of charges in the acrylic and Styrofoam.",
         color: {
             border    : '#fcd5b5',
@@ -236,7 +236,7 @@ var nodes2 = new vis.DataSet([
         id   : 12,
         label: 'Ext D: Exploring \nGravitational Potential \nEnergy',
         x    : "-725",
-        y    : "-785",
+        y    : "-775",
         description: "In this extension students work with the PhET ‘Energy Skate Park’ simulation to explore what happens to the kinetic energy of a skateboarder and the gravitational potential energy of the system when the skateboarder moves along different arrangements of tracks.  As the skateboarder moves up and down along the track, the simulation shows the corresponding changes in the kinetic energy and gravitational potential energy.  As long as there is no loss of energy to the surroundings because of heat interactions (an ideal track), any increases (decreases) in the kinetic energy correspond to equal decreases (increases) in gravitational potential energy. ",
         color: {
             border    : '#fcd5b5',
@@ -251,7 +251,7 @@ var nodes2 = new vis.DataSet([
         id   : 14,
         label: 'Ext E: More on \nElectromagnetic \nInteractions',
         x    : "-925",
-        y    : "-785",
+        y    : "-775",
         description: "In this extension students use the PhET ‘Generator’ simulation to explore several different situations.  First, they explore what happens to the strength of the magnetic field if the strength of a bar magnet is changed.  Second, they work with a simulated electromagnet to determine how the magnetic field strength depends both on the number of loops and the voltage of the battery.  Third, they explore how the brightness of a bulb connected to some wire loops (a pickup coil) depends on how quickly a nearby magnet is moved and how close the magnet is to the loops.  Finally they work with a simulated generator that consists of a rotating magnet connected to a wheel whose rotational speed is determined by the flow of water striking it from a faucet.  They explore how the value of the voltage induced in a nearby pickup coil depends on both the rotational speed of the magnet (connected to the wheel) and the number of loops in the pickup coil.",
         color: {
             border    : '#fcd5b5',

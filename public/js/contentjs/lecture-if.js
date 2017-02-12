@@ -177,7 +177,7 @@ var nodes2 = new vis.DataSet([
     {
         id   : 10,
         label: 'Ext C: Balanced \nand Unbalanced \nForces',
-        x    : "-500",
+        x    : "-465",
         y    : "-935",
         description: "In this extension students review how objects behave when subjected to balanced and unbalanced forces, and then focus on situations involving friction.",
         color: {
@@ -192,7 +192,7 @@ var nodes2 = new vis.DataSet([
     {
         id   : 11,
         label: 'Ext D: More on \nVertical Motion \n(Air Drag)',
-        x    : "-500",
+        x    : "-465",
         y    : "-865",
         description: "In this extension students apply Newton’s Second Law to situations involving vertical motion.  They first analyze tossing a ball upwards, then an object sitting on a table, and finally a moving elevator.  Then they consider air drag and how it affects the motion of a falling object, including a discussion of terminal velocity. ",
         color: {
