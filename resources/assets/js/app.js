@@ -13,4 +13,8 @@ $(function () {
         $('#pdf-content').html('<h3>' + $(this).text() + '</h3><iframe class="iframe" src="' + $(this).attr('href') + '"></iframe>');
 
     });
+
+    $('li.dropdown').on('show.bs.dropdown', function () {
+        $(this).siblings('li').find('.dropdown-menu.shown').removeClass('shown show').slideUp();
+    })
 });
