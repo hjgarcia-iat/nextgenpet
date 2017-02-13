@@ -1,6 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle','Implementation Versions')|
+@section('pageTitle','Implementation Versions')
 
 @section('sidebar')
     @include('home._sidebar')
