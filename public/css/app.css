@@ -12699,4 +12699,14 @@ hr {
   font-size: 100px;
 }
 
+@media (min-width: 768px) {
+  .sps--blw {
+    position: fixed;
+    top: 20px;
+  }
+  .sps--abv {
+    position: inherit;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

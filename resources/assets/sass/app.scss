@@ -106,3 +106,16 @@ $offcanvas-width : 400px !default;
         font-size : 100px;
     }
 }
+
+@include media-breakpoint-up(md) {
+    .sps--blw {
+        position : fixed;
+        top      : 20px;
+
+    }
+
+    .sps--abv {
+        position : inherit;
+    }
+}
+
