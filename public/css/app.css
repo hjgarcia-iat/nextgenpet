@@ -12163,7 +12163,7 @@ a:active {
 }
 
 .title-bar {
-  background: #1d1819;
+  background: #292929;
 }
 
 .title-bar h1 {
@@ -12178,6 +12178,31 @@ a:active {
   border-top: 1px solid #e3e3e3;
   padding: 20px 0 50px;
   margin-top: 40px;
+}
+
+.page-footer .footer-links ul, .page-footer .footer-links li {
+  list-style: none;
+}
+
+.page-footer .footer-links li {
+  margin: 0;
+  padding: 0;
+}
+
+.page-footer .footer-links li a {
+  display: block;
+  border-right: 1px solid #ffffff;
+  padding: 0 10px;
+  line-height: 15px;
+  text-transform: uppercase;
+}
+
+.page-footer .footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.page-footer .footer-links li:last-child a {
+  border: none;
 }
 
 /*
@@ -12695,13 +12720,15 @@ hr {
 }
 
 @media (min-width: 1200px) {
-  .sps--blw {
-    position: fixed;
-    top: 20px;
-    width: 350px;
+  .sps {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
   }
-  .sps--abv {
-    position: inherit;
+  .sps:before,
+  .sps:after {
+    content: '';
+    display: table;
   }
 }
 
