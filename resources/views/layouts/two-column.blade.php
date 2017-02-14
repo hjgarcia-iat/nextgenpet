@@ -32,6 +32,8 @@
             </div>
         </div>
         
+        
+        @include('layouts.partials.partners')
         @include('layouts.partials.footer')
         @include('layouts.partials.scripts')
     </body>
