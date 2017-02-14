@@ -12185,6 +12185,15 @@ a:active {
 // Side Menu Styles for all pages
 // --------------------------------------------------
 */
+.page-side-menu .card {
+  border: none;
+  border-radius: 0;
+}
+
+.page-side-menu .card .card a {
+  border-bottom: 1px solid #e3e3e3;
+}
+
 .page-side-menu .list-group .list-group-item {
   width: 100%;
   color: #898989;
@@ -12247,7 +12256,6 @@ a:active {
 .page-side-menu .list-group .sublinks .list-group-item:last-child {
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
-  border-bottom: none;
 }
 
 /*

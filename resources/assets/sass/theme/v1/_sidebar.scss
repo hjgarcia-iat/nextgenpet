@@ -4,6 +4,16 @@
 // --------------------------------------------------
 */
 .page-side-menu {
+
+    .card {
+        border: none;
+        border-radius: 0;
+
+        .card a {
+            border-bottom : 1px solid #e3e3e3;
+        }
+    }
+
     .list-group {
 
         .list-group-item {
@@ -69,7 +79,6 @@
             .list-group-item:last-child {
                 border-bottom-left-radius  : 0;
                 border-bottom-right-radius : 0;
-                border-bottom              : none;
             }
         }
     }
