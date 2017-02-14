@@ -36,10 +36,10 @@
                 <tr>
                     <th></th>
                     <th>Title</th>
-                    <th>NGP Content
+                    <th>NGP Modules
                         <sup>&alpha;</sup>
                     </th>
-                    <th>NGSS Pratices
+                    <th>NGSS Practices
                         <sup>*</sup>
                     </th>
                     <th>NGSS CC
@@ -308,10 +308,10 @@
                 <tr>
                     <th></th>
                     <th>Topic/Description</th>
-                    <th>NGP Content
+                    <th>NGP Modules
                         <sup>&alpha;</sup>
                     </th>
-                    <th>NGSS Pratices
+                    <th>NGSS Practices
                         <sup>*</sup>
                     </th>
                     <th>NGSS CC
@@ -724,7 +724,7 @@
             <li><strong>WSL</strong> Waves, Sound and Light; and</li>
             <li><strong>WSL</strong> Matter and Interactions.</li>
         </ul>
-        <h3><sup>*</sup>Science and Engineering Practices</h3>
+        <h3><sup>*</sup>NGSS Science and Engineering Practices</h3>
         <ol>
             <li>Asking questions (for science) and defining problems (for engineering).</li>
             <li>Developing and using models.</li>

@@ -12683,6 +12683,7 @@ hr {
   width: 100%;
   height: 500px;
   border: 1px solid lightgray;
+  cursor: pointer;
 }
 
 .canvas-drawer {
