@@ -96,36 +96,6 @@
         cursor      : default;
         font-weight : bold;
     }
-
-    .sublink {
-        &:after {
-            font-family : 'FontAwesome';
-            content     : "\f139";
-            float       : right;
-            font-weight : normal;
-        }
-    }
-
-    .sublink.collapsed {
-        &:after {
-            content : "\f13a";
-        }
-    }
-
-    .sublinks {
-        margin-left : 25px;
-
-        .list-group-item:first-child {
-            border-top-left-radius  : 0;
-            border-top-right-radius : 0;
-        }
-
-        .list-group-item:last-child {
-            border-bottom-left-radius  : 0;
-            border-bottom-right-radius : 0;
-            border-bottom              : none;
-        }
-    }
 }
 
 /*
@@ -174,15 +144,21 @@ hr {
 // --------------------------------------------------
 */
 .table {
+    font-size : 15px;
+
     thead th {
         background : $general-color-orange;
         color      : white;
         text-align : center;
+        vertical-align : middle;
     }
 
     tr.highlight td {
         background : #c7642c;
         color      : white;
+        text-align     : center;
+        vertical-align : middle;
+        font-weight    : bold;
     }
 }
 

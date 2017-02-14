@@ -1,7 +1,7 @@
 @extends('layouts.two-column')
 
 @section('pageTitle','Research-Based')
-e
+
 @section('sidebar')
     @include('home._sidebar')
 @stop

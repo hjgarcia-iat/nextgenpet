@@ -1,0 +1,20 @@
+/*
+//
+// General Site Helpers
+// --------------------------------------------------
+*/
+//responsive bootstrap fixes
+@include media-breakpoint-down(xs) {
+    .d-xs-flex {
+        display : -webkit-box !important;
+        display : flex !important;
+    }
+    .justify-content-xs-between {
+        -webkit-box-pack : justify !important;
+        justify-content  : space-between !important;
+    }
+
+    .text-xs-center {
+        text-align : center;
+    }
+}
