@@ -12180,31 +12180,6 @@ a:active {
   margin-top: 40px;
 }
 
-.page-footer .footer-links ul, .page-footer .footer-links li {
-  list-style: none;
-}
-
-.page-footer .footer-links li {
-  margin: 0;
-  padding: 0;
-}
-
-.page-footer .footer-links li a {
-  display: block;
-  border-right: 1px solid #ffffff;
-  padding: 0 10px;
-  line-height: 15px;
-  text-transform: uppercase;
-}
-
-.page-footer .footer-links li a:hover {
-  text-decoration: underline;
-}
-
-.page-footer .footer-links li:last-child a {
-  border: none;
-}
-
 /*
 //
 // Side Menu Styles for all pages
