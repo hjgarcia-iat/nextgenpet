@@ -27,8 +27,8 @@
                     Additional Instructor Resources
                 </a>
                 <div class="dropdown-menu" aria-labelledby="loginlinks">
-                    <a class="dropdown-item" href="https://ebook.iat.com" target="_blank">Studio Style</a>
-                    <a class="dropdown-item" href="https://review.iat.com" target="_blank">Lecture Style</a>
+                    <a class="dropdown-item" href="https://petcyberpd.iat.com/unit/studio-style/" target="_blank">Studio Style</a>
+                    <a class="dropdown-item" href="https://petcyberpd.iat.com/unit/lecture-style/" target="_blank">Lecture Style</a>
                 </div>
             </li>
         </ul>

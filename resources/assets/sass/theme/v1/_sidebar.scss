@@ -137,11 +137,10 @@
 */
 @include media-breakpoint-up(md) {
     #menu.affix {
-        position          : fixed !important;
-        min-width         : 363px;
-        z-index           : 100;
+        position : fixed;
+        min-width: 300px;
         top               : 70px;
-        -webkit-transform : translate3d(0, 0, 0);
-        transform         : translate3d(0, 0, 0);
+        //-webkit-transform : translate3d(0, 0, 0);
+        //transform         : translate3d(0, 0, 0);
     }
 }
