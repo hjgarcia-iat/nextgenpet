@@ -12696,10 +12696,11 @@ hr {
   font-size: 100px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1200px) {
   .sps--blw {
     position: fixed;
     top: 20px;
+    width: 350px;
   }
   .sps--abv {
     position: inherit;

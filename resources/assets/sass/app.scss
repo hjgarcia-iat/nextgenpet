@@ -83,7 +83,7 @@ $offcanvas-width : 400px !default;
     font-size        : 15px;
 
     h4 {
-        font-size: 18px;
+        font-size : 18px;
     }
 }
 
@@ -107,15 +107,14 @@ $offcanvas-width : 400px !default;
     }
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width : 1200px) {
     .sps--blw {
         position : fixed;
         top      : 20px;
-
+        width    : 350px;
     }
 
     .sps--abv {
         position : inherit;
     }
 }
-
