@@ -1,4 +1,4 @@
-<div class="page-side-menu hidden-sm-down">
+<div class="page-side-menu sps hidden-sm-down">
     <div class="panel list-group">
         <a href="{{ url('studio-style-class') }}"
            class="list-group-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">

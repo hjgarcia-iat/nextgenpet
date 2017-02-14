@@ -18932,58 +18932,7 @@ var ScrollPosStyler = (function(document, window) {
 })(document, window);
 
 $(function () {
-<<<<<<< HEAD
-    // $(window).on('load', function () {
-    //     var htmlHeight = $('.html-content').height();
-    //
-    //     if (htmlHeight > 800) {
-    //         $('html, body').animate({
-    //             scrollTop: $("#menu").offset().top - 200
-    //         }, 1500);
-    //     }
-    // });
-
-    $('#page-navbar').affix({
-        offset: {
-            top: $('.top-row').height()
-        }
-    });
-
-    var $carousel = $('.carousel-container');
-    var $affixElement = $('#menu');
-    // Function to handle affix width and classes in affix menu on page loading, scrolling or resizing
-    function affix() {
-        // Fit affix width to its parent's width
-        $affixElement.width($affixElement.parent().width());
-    }
-
-    // Call to function on DOM ready
-    affix();
-    // Call on scroll or resize
-    $(window).on('scroll resize', function () {
-        affix();
-    });
-
-
-    $affixElement.affix({
-        offset: {
-            top   : function () {
-                return (this.top = $carousel.offset().top + $carousel.height())
-            },
-            bottom: function () {
-                return (this.bottom = $('.page-footer-wrapper').height());
-            }
-        }
-    });
-
-
-
-
-
-    $('#menu a[data-file="true"]').on('click', function (e) {
-=======
     $('.page-side-menu a[data-file="true"]').on('click', function (e) {
->>>>>>> development
         e.preventDefault();
 
         var index = $(this).index();
