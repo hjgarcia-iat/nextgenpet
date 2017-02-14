@@ -71,7 +71,12 @@ $offcanvas-width : 400px !default;
 // Canvas Elements
 // --------------------------------------------------
 */
-.canvas { width : 100%; height : 500px; border : 1px solid lightgray; }
+.canvas {
+    width : 100%;
+    height : 500px;
+    border : 1px solid lightgray;
+    cursor: pointer;
+}
 
 .canvas-drawer {
     border           : 1px solid lightgray;
