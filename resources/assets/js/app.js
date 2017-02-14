@@ -18,4 +18,5 @@ $(function () {
         $(this).siblings('li').find('.dropdown-menu.shown').removeClass('shown show').slideUp();
     });
 
+    $('.sps').Stickyfill();
 });

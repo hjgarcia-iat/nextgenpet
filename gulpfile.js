@@ -19,11 +19,10 @@ elixir(function (mix) {
         'libs/jquery.js',
         'libs/tether.js',
         'libs/bootstrap.js',
-        'libs/slick.js',
+        'libs/stickyfill.js',
         'libs/bootstrap.offcanvas.js',
         'libs/jquery.validate.min.js',
         'libs/additional-methods.min.js',
-        'libs/scrollPosStyler.js',
         'app.js'
     ],'public/js/all.js');
 

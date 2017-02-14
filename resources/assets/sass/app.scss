@@ -113,13 +113,15 @@ $offcanvas-width : 400px !default;
 }
 
 @media (min-width : 1200px) {
-    .sps--blw {
-        position : fixed;
-        top      : 20px;
-        width    : 350px;
+    .sps {
+        position : -webkit-sticky;
+        position : sticky;
+        top      : 1em;
     }
 
-    .sps--abv {
-        position : inherit;
+    .sps:before,
+    .sps:after {
+        content : '';
+        display : table;
     }
 }
