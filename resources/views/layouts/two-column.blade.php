@@ -5,22 +5,21 @@
         @include('layouts.partials.styles')
     </head>
     <body>
-        
-        @include('layouts.partials.mobile_nav')
-        
         @include('layouts.partials.header')
-        
         @include('layouts.partials.title')
-        
         @yield('banner')
         
-        
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <h2>@yield('pageTitle')</h2>
+        <section class="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2>@yield('pageTitle')</h2>
+                    </div>
                 </div>
             </div>
+        </section>
+        
+        <div class="container">
             <div class="row">
                 <div class="col-md-4 visible-md visible-lg">
                     @yield('sidebar')
