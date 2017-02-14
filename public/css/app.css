@@ -12675,6 +12675,12 @@ hr {
   font-size: 18px;
 }
 
+.canvas-header {
+  border: 1px solid lightgray;
+  padding: 20px;
+  background: #f9f9f9;
+}
+
 /*
 //
 // Wells
