@@ -90,7 +90,7 @@
                         </button>
                         <a href="{{ url('login') }}"
                            class="btn btn-default">
-                            Login
+                            Back to Login
                         </a>
                     </div>
                 </form>
