@@ -22,12 +22,7 @@
             This unit introduces students to a wave model. In its five lessons, they learn about the properties of (mechanical) waves in one dimension (pulses and waves along a string), two dimensions (water waves), and three dimensions (sound waves and earthquake waves). Rather than perform experiments, students collect their evidence from movies of PhET simulations. They learn about transverse and longitudinal waves; that the frequency of the wave is the same as that of the source; that the wave speed depends on the properties of the medium; and that for a constant wave speed, the frequency and wavelength are inversely related. In the homework extensions for this unit, they learn about people waves, reflection and refraction of water waves, and earthquake waves.
 
         </p>
-        <div id="canvas" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas'])
 
         <h4>Unit L: Light and Color</h4>
         <p>
@@ -39,12 +34,7 @@
         <p>
             Finally, in Activity 4 students study light and color. They are told to approximate the color spectrum by assuming it consists of three bands: red for the longest wavelengths, green for the middle range, and the blue for the shortest. After a description of the three-color receptors in the eye, students learn about color addition of lights. Then they explore how color gels work, rules for color subtraction, and how color objects are perceived as specific colors. Activity 5 uses what students learned about reflection of light in an engineering design challenge to build a retroreflector that turns around a beam of light so that it travels back in the direction it came. Such a device could be used to measure the distance between Earth and the Moon.
         </p>
-        <div id="canvas2" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
     </section>
 @stop
 

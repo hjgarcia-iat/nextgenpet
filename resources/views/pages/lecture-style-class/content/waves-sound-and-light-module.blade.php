@@ -23,22 +23,11 @@
         <h4>Unit WS: Mechanical Waves and Sound</h4>
         <p>This unit introduces students to a wave model. In its three lessons, they learn about the properties of (mechanical) waves in one dimension (waves along a string), two dimensions (water waves), and three dimensions (sound waves). Rather than perform experiments, students collect their evidence from movies of PhET simulations. They learn about transverse and longitudinal waves; that the frequency of the wave is the same as that of the source; that the wave speed depends only on the properties of the medium; and that for a constant wave speed, the frequency and wavelength are inversely related. In the homework extensions for this unit, they learn about people waves, reflection and refraction of water waves, and earthquake waves.
         </p>
-        <div id="canvas"
-             class="canvas">
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <h4>Unit L: Light and Color</h4>
         <p>At the start of the first lesson, students are told that light is a special type of wave motion known as an electromagnetic wave, and that visible lights waves are electromagnetic waves in a specific range of frequencies/wavelengths. Then students are told to assume that light travels in straight lines and that its behavior can be represented by drawing light ray diagrams. Students then investigate pinhole images and simple shadows and consider how their presence provides evidence for the straight-line behavior of light. In the second lesson, students study reflection of light from both shiny surfaces (Law of Reflection) and from non-shiny white surfaces, like a piece of white paper. Extension B provides additional contexts for students to study how light behaves when reflecting, including how mirror images are formed. In the third lesson, students use a simple approximation to Snell’s Law of Refraction to describe how light changes direction when traveling between air and a transparent solid or liquid material. Finally, in Lesson 4 students study light and color. They are told to approximate the color spectrum by assuming it consists of three bands corresponding to different ranges of wavelengths: red band for the longest wavelengths, green for the middle range, and blue band for the shortest. After a description of the three-color receptors in the eye responsible for the first stage in the perception of color, students learn about color addition of lights. Finally they explore how color gels work, rules for color subtraction, and how color objects are perceived as specific colors. In the engineering design lesson, students design a system of mirrors (retro reflector) that can reflect light that is parallel to the incoming light. In this unit students can perform some simple hands-on experiments and then watch movies of other experiments (more challenging to do), or they can watch movies of all the experiments.
         </p>
-        <div id="canvas2"
-             class="canvas">
-        
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
     </section>
 @stop
 

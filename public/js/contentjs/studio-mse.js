@@ -337,5 +337,6 @@ function setUpDrawer(canvas, label, description) {
 }
 
 function scrollWindow(canvas) {
-    window.scrollTo(0, canvas.prev('div.canvas-header').offset().top - 20);
+    var distance = canvas.prev('div.canvas-header').offset().top - 20 + 'px';
+    $('html, body').animate({scrollTop: distance});
 }
