@@ -114,6 +114,9 @@ hr {
 // Buttons
 // --------------------------------------------------
 */
+.btn, a.btn button.btn, input.btn {
+    cursor: pointer;
+}
 
 .btn-primary {
     color            : #ffffff;

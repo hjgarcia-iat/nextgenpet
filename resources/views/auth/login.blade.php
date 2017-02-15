@@ -39,9 +39,14 @@
                                 class="btn btn-primary">
                             Login
                         </button>
+                        
                         <a href="{{ url('register') }}"
                            class="btn btn-default">
                             Need an account? Register Here
+                        </a>
+                        <br>
+                        <a href="" class="mt-2 d-block">
+                            Recover Password?
                         </a>
                     </div>
                 </form>
