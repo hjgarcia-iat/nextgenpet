@@ -2,5 +2,5 @@
 <div id="{{ $canvasId }}"
      class="canvas"></div>
 <div class="canvas-drawer">
-    The overview of the activity or extension you click on above will appear here
+    The overview of the activity or extension you click on above will appear here.
 </div>
