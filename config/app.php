@@ -179,7 +179,8 @@ return [
         App\Providers\RouteServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
-
+        Spatie\Permission\PermissionServiceProvider::class,
+        Sofa\Eloquence\ServiceProvider::class,
     ],
 
     /*

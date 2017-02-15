@@ -3,7 +3,9 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
+use Spatie\Permission\Models\Role;
 use Validator;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -54,7 +56,7 @@ class RegisterController extends Controller
 			'first_name'  => 'required|max:255',
 			'last_name'   => 'required|max:255',
 			'institution' => 'required|max:255',
-			'zip'         => 'required|integer|max:10',
+			'zip'         => 'required|integer|min:5',
 			'email'       => 'required|email|max:255|unique:users',
 			'password'    => 'required|min:6|confirmed',
 		]);
@@ -71,7 +73,9 @@ class RegisterController extends Controller
 	{
 		$this->validator($request->all())->validate();
 
-		return redirect()->to('/')->with('success','You have been registered. We will be in contact soon!');
+		$this->create($request->all());
+
+		return redirect()->to('/')->with('success', 'You have been registered. We will be in contact soon!');
 	}
 
 	/**
@@ -83,10 +87,6 @@ class RegisterController extends Controller
 	 */
 	protected function create(array $data)
 	{
-		return User::create([
-			'name'     => $data['name'],
-			'email'    => $data['email'],
-			'password' => bcrypt($data['password']),
-		]);
+		return User::create($data);
 	}
 }
