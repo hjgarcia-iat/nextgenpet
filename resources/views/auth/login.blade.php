@@ -3,6 +3,7 @@
 @section('content')
     
     <div class="container">
+        @include('layouts.partials.message')
         <div class="row justify-content-center align-items-center">
             <div class="col-md-6 align-self-center">
                 <form class="form-horizontal"

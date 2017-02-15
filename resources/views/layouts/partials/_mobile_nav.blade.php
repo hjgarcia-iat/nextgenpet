@@ -327,12 +327,27 @@
                 </a>
             </li>
     
-            <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
-                <a class="nav-link"
-                   href="{{ url('login') }}">Login
-                </a>
-            </li>
-
+            @if(auth()->check())
+                <li class="nav-item">
+                    <a href="{{ url('/logout') }}"
+                       class="nav-link"
+                       onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                        Logout
+                    </a>
+                    <form id="logout-form"
+                          action="{{ url('/logout') }}"
+                          method="POST"
+                          style="display: none;">
+                        {{ csrf_field() }}
+                    </form>
+                </li>
+            @else
+                <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
+                    <a class="nav-link"
+                       href="{{ url('login') }}">Login
+                    </a>
+                </li>
+            @endif
         </ul>
     </div>
 </nav>
