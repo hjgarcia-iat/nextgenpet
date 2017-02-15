@@ -256,11 +256,11 @@
                            href="{{ url('lecture-style-class/content/waves-sound-and-light-module') }}">
                             Waves, Sounds and Light Module
                         </a>
-                        {{--<a class="dropdown-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"--}}
-                        {{--href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">--}}
-                        {{--<span>Matter and Interactions Module--}}
-                        {{--</span>--}}
-                        {{--</a>--}}
+                        <a class="dropdown-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
+                        href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">
+                        <span>Matter and Interactions Module
+                        </span>
+                        </a>
                     </div>
     
                     <a href="#"

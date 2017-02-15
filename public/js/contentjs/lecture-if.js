@@ -310,20 +310,33 @@ network.on("click", function (params) {
     var $canvas      = $(params.event.target.parentNode.parentNode);
     var ids          = params.nodes;
     var clickedNodes = nodes.get(ids);
-    var label        = clickedNodes[0].label;
-    var description  = clickedNodes[0].description;
-    setUpDrawer($canvas, label, description);
+
+    if (clickedNodes.length > 0) {
+        var label       = clickedNodes[0].label;
+        var description = clickedNodes[0].description;
+        setUpDrawer($canvas, label, description);
+        scrollWindow($canvas);
+    }
+
 });
 
 network2.on("click", function (params) {
     var $canvas      = $(params.event.target.parentNode.parentNode);
     var ids          = params.nodes;
     var clickedNodes = nodes2.get(ids);
-    var label        = clickedNodes[0].label;
-    var description  = clickedNodes[0].description;
-    setUpDrawer($canvas, label, description);
+    if (clickedNodes.length > 0) {
+        var label       = clickedNodes[0].label;
+        var description = clickedNodes[0].description;
+        setUpDrawer($canvas, label, description);
+        scrollWindow($canvas);
+    }
 });
 
 function setUpDrawer(canvas, label, description) {
     canvas.next('div.canvas-drawer').html('<h4>' + label + '</h4><p>' + description + '</p>');
+}
+
+function scrollWindow(canvas) {
+    var distance = canvas.prev('div.canvas-header').offset().top - 20 + 'px';
+    $('html, body').animate({scrollTop: distance});
 }

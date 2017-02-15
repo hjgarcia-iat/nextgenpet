@@ -27,12 +27,7 @@
             Next, students investigate how changing the force strength and mass of the object affects the rate at which the speed of an object changes. They use these qualitative results to identify an appropriate algebraic expression that relates force strength and mass to the rate of change of speed. Finally, they use their ideas to explain how it is that objects of different mass all fall together (with the same rate of increasing speed) in terms of the strength of the gravitational force and their masses.
 
         </p>
-        <div id="canvas" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas'])
         
 
         <h4>Unit CF: Combinations of Forces</h4>
@@ -40,12 +35,7 @@
             In this unit students consider how to analyze situations where more than two forces are simultaneously exerted on an object. In the first activity they learn how to treat a combination of forces as a single force, called the net force. The net force has the same effect on the motion of an object as the original combination of forces. This allows students to generalize Newton’s Second Law that they had learned in the previous unit by replacing the word ‘force’ with ‘net force.’ The focus in the first activity is on unbalanced forces. In the second activity students focus on the effects that balanced forces have on the motion of an object. In the third lesson students learn about the relative strengths and directions of forces that two interacting objects exert on each other (Newton’s Third Law). In the extension that follows, they consider the difference between balanced forces and Newton’s Third Law. In the fourth activity they consider how to explain phenomena using force ideas. Finally, in the engineering design activity students figure out how to design a Whirligig that falls more slowly than the original model presented to them, and they need to explain why their solution works in terms of the ideas learned during the two units of this module.
 
         </p>
-        <div id="canvas2" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas', ['canvasId' => 'canvas2'])
         
     </section>
 @stop

@@ -24,19 +24,9 @@
         <p>
             Unit M focuses on helping students develop a model that can successfully explain many different observations involving magnets. This unit provides a nice example of how models are proposed, tested and modified based on evidence. Most students will change their model several times during the unit as they keep obtaining evidence that does not support their current model. By the end of the unit, however, the class will come to consensus on a ‘small-magnet alignment model,’ which can explain a wide range of magnetism phenomena. It has many features in common with the Domain Model. In this unit students can perform some simple hands-on experiments at their desktops if materials are available, or can watch movies of all the experiments.
         </p>
-        <div id="canvas" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <h4>Unit SE: Developing a Model for Static Electricity </h4>
-        <div id="canvas2" class="canvas">
-
-        </div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
         <p>
             Unit SE guides students through the development of a model for electric charges in materials that can explain the interactions between charged and uncharged objects, and between two charged objects; and includes both conductors and non-conductors. In this unit students can perform some simple hands-on experiments and then watch movies of other experiments (more challenging to do), or they can watch movies of all the experiments.
         </p>

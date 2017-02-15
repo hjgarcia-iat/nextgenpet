@@ -24,20 +24,16 @@
         <p>
             Unit M focuses on helping students develop a model that can successfully explain many different observations involving magnets. This unit provides a nice example of how models are proposed, tested and modified based on evidence. Most students will change their model several times during the unit as they keep obtaining evidence that does not support their current model.  By the end of the unit, however, the class will come to consensus on a ‘small-magnet alignment model,’ which can explain a wide range of magnetic phenomena.  It has many features in common with the Domain model. In the last activity students apply their ideas about magnetism to an engineering design project involving a prototype maglev train.
         </p>
-        <div id="canvas" class="canvas"></div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+    
+        @include('pages.partials._canvas',['canvasId' => 'canvas'])
         
         <h4>Unit SE: Developing a Model for Static Electricity</h4>
         <p>
             In Unit SE, students develop a model that can successfully explain many different observations involving static electricity. Unlike Unit M, where their magnetic models usually undergo a paradigm shift, in this unit students often start with a model involving + and – charged entities that has several appropriate features about it. However, they must make refinements to account for the evidence they gather, particularly on the different behaviors of different types of material (conductors and insulators). They then use their model to consider the problem of static discharge during the refueling of a car or plane and design safety procedures to avoid this.
 
         </p>
-        <div id="canvas2" class="canvas"></div>
-        <div class="canvas-drawer">
-            Select an activity or extension to get more information.
-        </div>
+    
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
     </section>
 @stop
 
