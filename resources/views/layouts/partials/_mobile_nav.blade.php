@@ -1,10 +1,10 @@
 <nav class="navbar navbar-light hidden-md-up">
-    <div class="container">
-        <button type="button" class="navbar-toggler offcanvas-toggle" data-toggle="offcanvas"
-                data-target="#js-bootstrap-offcanvas">
-            <span class="fa fa-navicon"></span>
-        </button>
-    </div>
+    <button type="button"
+            class="navbar-toggler offcanvas-toggle"
+            data-toggle="offcanvas"
+            data-target="#js-bootstrap-offcanvas">
+        <span class="fa fa-navicon"></span>
+    </button>
 </nav>
 <nav class="navbar navbar-light navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch"
      id="js-bootstrap-offcanvas">
