@@ -1,3 +1,4 @@
+@include('layouts.partials._userbar')
 <header class="site-header">
     <section class="top-row">
         <div class="container">

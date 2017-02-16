@@ -12172,6 +12172,42 @@ a:active {
   color: #ffffff;
 }
 
+/*
+//
+// Admin Navbar
+// --------------------------------------------------
+*/
+.user-bar {
+  background-color: #292929;
+  border-color: #292929;
+  padding: 0;
+}
+
+.user-bar a.nav-link {
+  color: #cccccc;
+  font-size: 15px;
+  line-height: 18px;
+  display: block;
+  padding: .5rem 1.5rem !important;
+  border-right: 1px solid #444;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+
+.user-bar a.nav-link:hover {
+  background: #337ab7;
+  color: #ffffff;
+}
+
+.user-bar .navbar-nav {
+  width: inherit;
+}
+
+.user-bar.sps {
+  top: 0;
+  z-index: 99999;
+}
+
 .page-footer {
   width: 100%;
   background: #fafafa;
