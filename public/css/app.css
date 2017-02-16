@@ -12185,7 +12185,7 @@ a:active {
 }
 
 .user-bar a.nav-link {
-  color: #fff;
+  color: #ffffff;
   font-size: 15px;
   line-height: 18px;
   display: block;
@@ -12198,6 +12198,11 @@ a:active {
 .user-bar a.nav-link:hover {
   background: #c4622b;
   color: #ffffff;
+}
+
+.user-bar .nav-item.active a {
+  background: #c4622b;
+  cursor: default;
 }
 
 .user-bar .navbar-nav {

@@ -1,5 +1,4 @@
 
-
 .site-header {
 
     .top-row {
@@ -165,12 +164,11 @@
 .title-bar {
     background : #292929;
     h1 {
-        margin-top: .5em;
-        margin-bottom: .5em;
-        color : #ffffff;
+        margin-top    : .5em;
+        margin-bottom : .5em;
+        color         : #ffffff;
     }
 }
-
 
 /*
 //
@@ -181,10 +179,10 @@
     background-color : #f68d2d;
     border-color     : #c4622b;
     padding          : 0;
-    margin-bottom: 1em;
+    margin-bottom    : 1em;
 
     a.nav-link {
-        color          : #fff;
+        color          : #ffffff;
         font-size      : 15px;
         line-height    : 18px;
         display        : block;
@@ -199,12 +197,17 @@
         }
     }
 
+    .nav-item.active a {
+        background : #c4622b;
+        cursor     : default;
+    }
+
     .navbar-nav {
         width : inherit;
     }
 }
 
 .user-bar.sps {
-    top: 0;
-    z-index: 99999;
+    top     : 0;
+    z-index : 99999;
 }
