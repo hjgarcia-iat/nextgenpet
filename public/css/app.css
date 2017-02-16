@@ -12191,8 +12191,8 @@ hr {
 
 .site-header .navbar {
   background-color: #fdfdfd;
-  border-top: 1px solid #f3f3f3;
-  border-bottom: 1px solid #f3f3f3;
+  border-top: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .site-header .navbar .navbar-nav {
@@ -12203,6 +12203,20 @@ hr {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+
+.site-header .desktop-nav {
+  padding: 0;
+}
+
+.site-header .desktop-nav .nav-item {
+  width: 100%;
+  text-align: center;
+  border-left: 1px solid #e7e7e7;
+}
+
+.site-header .desktop-nav .navbar-nav .nav-item:last-child {
+  border-right: 1px solid #e7e7e7;
 }
 
 .site-header .dropdown-menu {
@@ -12362,7 +12376,7 @@ hr {
 */
 .page-title {
   margin-bottom: 2em;
-  background: #f3f3f3;
+  background: #e7e7e7;
   padding: 1em 0;
   border-bottom: 1px solid #ececec;
 }

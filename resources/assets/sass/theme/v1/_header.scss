@@ -45,8 +45,8 @@
 
     .navbar {
         background-color : #fdfdfd;
-        border-top       : 1px solid #f3f3f3;
-        border-bottom    : 1px solid #f3f3f3;
+        border-top       : 1px solid #e7e7e7;
+        border-bottom    : 1px solid #e7e7e7;
 
         .navbar-nav {
             width : 100%;
@@ -56,6 +56,23 @@
             font-size      : 14px;
             text-transform : uppercase;
             font-family    : $font-family-sans-serif-heading;
+        }
+    }
+
+    .desktop-nav {
+
+        padding: 0;
+
+        .nav-item {
+            width      : 100%;
+            text-align : center;
+            border-left: 1px solid #e7e7e7;
+        }
+
+        .navbar-nav {
+            .nav-item:last-child {
+                border-right: 1px solid #e7e7e7;
+            }
         }
     }
 
@@ -220,7 +237,7 @@
 */
 .page-title {
     margin-bottom : 2em;
-    background    : #f3f3f3;
+    background    : #e7e7e7;
     padding       : 1em 0;
     border-bottom : 1px solid #ececec;
 
