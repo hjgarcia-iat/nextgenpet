@@ -1,4 +1,5 @@
-<div class="page-side-menu sps hidden-sm-down" id="main-sidebar-menu">
+<div class="page-side-menu sps hidden-sm-down"
+     id="main-sidebar-menu">
     <div class="panel list-group">
         <div>
             <a href="{{ url('studio-style-class') }}"
@@ -118,6 +119,24 @@
                 </a>
             </div>
         </div>
+        
+        @if(auth()->check())
+            <div>
+                <a href="#"
+                   class="list-group-item"
+                   style="background: lightblue">
+                    <span>New Password Protected Link</span>
+                </a>
+            </div>
+            
+            <div>
+                <a href="#"
+                   class="list-group-item"
+                   style="background: lightblue">
+                    <span>New Password Protected Link</span>
+                </a>
+            </div>
+        @endif
         
         <div>
             <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
