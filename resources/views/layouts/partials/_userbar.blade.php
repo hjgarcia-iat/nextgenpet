@@ -4,9 +4,9 @@
         
         </ul>
         <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">
                 <a class="nav-link"
-                   href="">
+                   href="{{ route('my-account') }}">
                     <i class="fa fa-cogs"></i>
                     My Account
                 </a>
