@@ -80,6 +80,12 @@
     cursor : pointer;
 }
 
+@include media-breakpoint-down(sm) {
+    .canvas {
+        height: 300px;
+    }
+}
+
 .canvas-drawer {
     border           : 1px solid lightgray;
     border-top-width : 3px;

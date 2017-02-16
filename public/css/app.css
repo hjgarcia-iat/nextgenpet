@@ -12367,7 +12367,7 @@ hr {
   border-bottom: 1px solid #ececec;
 }
 
-.page-title h1 {
+.page-title h2 {
   margin: 0;
   padding: 0;
 }
@@ -12624,6 +12624,12 @@ hr {
   height: 500px;
   border: 1px solid lightgray;
   cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .canvas {
+    height: 300px;
+  }
 }
 
 .canvas-drawer {
