@@ -35,17 +35,17 @@
                         {!! $errors->first('password','<div class="form-control-feedback">:message</div>') !!}
                     </div>
     
-                    <div class="form-group">
+                    <div class="form-group text-center">
                         <button type="submit"
-                                class="btn btn-primary">
+                                class="btn btn-primary btn-block mx-auto mb-sm-2 mb-md-0 w-50">
                             Login
                         </button>
                         
                         <a href="{{ url('register') }}"
-                           class="btn btn-default">
-                            Need an account? Register Here
+                           class="btn btn-default btn-block w-50 mx-auto">
+                            Register
                         </a>
-                        <br>
+                        
                         <a href="" class="mt-2 d-block">
                             Recover Password?
                         </a>

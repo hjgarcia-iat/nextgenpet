@@ -94,13 +94,13 @@ a:active {
 .btn {
     font-family    : $font-family-sans-serif-heading;
     text-transform : uppercase;
+    border-radius : 0;
 }
 
 .btn-primary {
     color : #ffffff !important;
     background   : $general-color-orange;
     border-color : darken(#fd7600, 5%);
-    border-radius : 0;
     font-family   : $font-family-sans-serif-text;
     &:hover {
         background   : darken($general-color-orange, 10%);

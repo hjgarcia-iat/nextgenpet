@@ -328,6 +328,14 @@
             </li>
     
             @if(auth()->check())
+        
+                <li class="nav-item">
+                    <a href="{{ route('my-account') }}"
+                       class="nav-link">
+                        My Account
+                    </a>
+                </li>
+                
                 <li class="nav-item">
                     <a href="{{ url('/logout') }}"
                        class="nav-link"

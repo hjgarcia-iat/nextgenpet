@@ -11970,13 +11970,13 @@ a:active {
 .btn {
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
+  border-radius: 0;
 }
 
 .btn-primary {
   color: #ffffff !important;
   background: #f68d2d;
   border-color: #e46a00;
-  border-radius: 0;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
