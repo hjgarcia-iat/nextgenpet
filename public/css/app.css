@@ -1,7 +1,12 @@
 @charset "UTF-8";
 /*
 //
-// Imports
+// Main Application File for entire site
+// --------------------------------------------------
+*/
+/*
+//
+// Variables and Classes to Mix In
 // --------------------------------------------------
 */
 /*!
@@ -2108,7 +2113,7 @@ pre code {
 .form-control:focus {
   color: #464a4c;
   background-color: #fff;
-  border-color: #5cb3fd;
+  border-color: #f68d2d;
   outline: none;
 }
 
@@ -11681,6 +11686,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /*
 //
+// Files to Import
+// --------------------------------------------------
+*/
+/*
+//
 // General Site Helpers
 // --------------------------------------------------
 */
@@ -11698,11 +11708,38 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/*
-//
-// Variables and Classes to Mix In
-// --------------------------------------------------
-*/
+.highlight {
+  color: #f68d2d;
+}
+
+.well {
+  background: #f9f9f9;
+  padding: 3em;
+  margin: 2em;
+  border: 1px solid #d3d3d3;
+}
+
+.well-error {
+  margin-top: 50px;
+}
+
+.well-error h2 {
+  font-size: 100px;
+}
+
+@media (min-width: 1200px) {
+  .sps {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
+  }
+  .sps:before,
+  .sps:after {
+    content: '';
+    display: table;
+  }
+}
+
 /* roboto-condensed-300 - latin */
 @font-face {
   font-family: 'Roboto Condensed';
@@ -11907,17 +11944,17 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 */
 /* unvisited link */
 a:link {
-  color: #fd7600;
+  color: #f68d2d;
 }
 
 /* visited link */
 a:visited {
-  color: #fd7600;
+  color: #f68d2d;
 }
 
 /* mouse over link */
 a:hover {
-  color: #fd7600;
+  color: #f68d2d;
   text-decoration: underline;
 }
 
@@ -11926,21 +11963,97 @@ a:active {
   color: #fd7600;
 }
 
+.btn, a.btn button.btn, input.btn {
+  cursor: pointer;
+}
+
 .btn {
-  color: #ffffff !important;
-  border-radius: 0;
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
 }
 
 .btn-primary {
-  background: #fd7600;
+  color: #ffffff !important;
+  background: #f68d2d;
   border-color: #e46a00;
+  border-radius: 0;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .btn-primary:hover {
-  background: #ca5e00;
-  border-color: #ff9f4b;
+  background: #e6730a;
+  border-color: #f9b576;
+}
+
+.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+  background: #e6730a;
+  border-color: #f9b576;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+  background: #e6730a;
+  border-color: #f9b576;
+}
+
+.btn-default {
+  background: #d3d3d3;
+  color: #222222 !important;
+}
+
+/*
+//
+// Tables
+// --------------------------------------------------
+*/
+.table {
+  font-size: 15px;
+}
+
+.table thead th {
+  background: #f68d2d;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tr.highlight td {
+  background: #ce6709;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+}
+
+/*
+//
+// Pagination
+// --------------------------------------------------
+*/
+.pagination > li > a, .pagination > li > span {
+  color: #222222;
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #ffffff;
+  background: #f68d2d;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #222222;
+  background-color: #dddddd;
+  border-color: #dddddd;
+  cursor: default;
+}
+
+/*
+//
+// Horizontal Rules
+// --------------------------------------------------
+*/
+hr {
+  margin: 40px 0 40px;
+  border-top: 1px dashed #cccccc;
 }
 
 /*
@@ -11984,7 +12097,35 @@ a:active {
 }
 
 .form-control:focus {
-  border-color: #fd7600;
+  border-color: #f68d2d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
+}
+
+/*
+//
+// List Groups
+// --------------------------------------------------
+*/
+.list-group .list-group-item {
+  width: 100%;
+  color: #898989;
+  background: #fafafa;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #e3e3e3;
+}
+
+.list-group .list-group-item:hover, .list-group .list-group-item.active {
+  background: #f68d2d;
+  color: white;
+  border-color: #f68d2d;
+}
+
+.list-group .list-group-item.active {
+  cursor: default;
+  font-weight: bold;
 }
 
 /*
@@ -12174,7 +12315,7 @@ a:active {
 
 /*
 //
-// Admin Navbar
+// User Navbar
 // --------------------------------------------------
 */
 .user-bar {
@@ -12214,12 +12355,29 @@ a:active {
   z-index: 99999;
 }
 
+/*
+//
+// Page Title Area
+// --------------------------------------------------
+*/
+.page-title {
+  margin-bottom: 2em;
+  background: #f3f3f3;
+  padding: 1em 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-title h1 {
+  margin: 0;
+  padding: 0;
+}
+
 .page-footer {
   width: 100%;
   background: #fafafa;
   border-top: 1px solid #e3e3e3;
-  padding: 20px 0 50px;
-  margin-top: 40px;
+  padding: 2em 0 4em;
+  margin-top: 4em;
 }
 
 /*
@@ -12300,74 +12458,6 @@ a:active {
   border-bottom-right-radius: 0;
 }
 
-/*
-//
-// Sidebar Styles
-// --------------------------------------------------
-*/
-.navmenu-inverse {
-  background: #2a2a2a;
-}
-
-.navmenu-inverse li {
-  background: #212121;
-  margin: 5px 20px;
-}
-
-.navmenu-inverse li a {
-  text-transform: uppercase;
-  font-size: 14px;
-}
-
-.navmenu-inverse li.dropdown {
-  margin-bottom: 0;
-}
-
-.navmenu-inverse li.dropdown li:first-child {
-  margin-top: 0;
-}
-
-.navmenu-inverse li.dropdown li {
-  background: none;
-}
-
-.navmenu-inverse li.dropdown li a {
-  font-size: 13px;
-  white-space: normal;
-}
-
-.nav .social-icons {
-  background: #2a2a2a;
-}
-
-.nav .social-icons a {
-  float: left;
-  display: inline-block;
-  padding: 5px 10px;
-  margin: 5px;
-  background: #111111 !important;
-  color: white !important;
-  border-radius: 50%;
-}
-
-.nav .social-icons a:hover {
-  color: white !important;
-  background: #111111 !important;
-}
-
-/*
-//
-// Menu
-// --------------------------------------------------
-*/
-@media (min-width: 768px) {
-  #menu.affix {
-    position: fixed;
-    min-width: 300px;
-    top: 70px;
-  }
-}
-
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
   from {
@@ -12415,25 +12505,9 @@ a:active {
   animation-delay: 1.6s;
 }
 
-/*---make a basic box ---*/
-.box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 10px;
-  float: left;
-  border: 1px solid #333333;
-  background: #999999;
-}
-
 /*
 //
-// Bootstrap Overrides
-// --------------------------------------------------
-*/
-/*
-//
-// Carousel
+// Carousel (Banner Image)
 // --------------------------------------------------
 */
 .carousel .item .active {
@@ -12476,202 +12550,6 @@ a:active {
 .container.carousel-container {
   padding-left: 0 !important;
   padding-right: 0 !important;
-}
-
-/*
-//
-// Media objects
-// --------------------------------------------------
-*/
-.media-block {
-  margin: 40px 20px;
-}
-
-/* keep full widget on smaller screens */
-@media (max-width: 767px) {
-  body {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-.media-list .media {
-  padding: 20px 0 40px;
-  border-bottom: 1px dashed #dddddd;
-}
-
-.media-list .media:last-child {
-  border-bottom: none;
-}
-
-/*
-//
-// List Groups
-// --------------------------------------------------
-*/
-.list-group .list-group-item {
-  width: 100%;
-  color: #898989;
-  background: #fafafa;
-  margin-top: 3px;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 0;
-  border: 1px solid #e3e3e3;
-}
-
-.list-group .list-group-item:hover, .list-group .list-group-item.active {
-  background: #f68d2d;
-  color: white;
-  border-color: #f68d2d;
-}
-
-.list-group .list-group-item.active {
-  cursor: default;
-  font-weight: bold;
-}
-
-/*
-//
-// Horizontal Rules
-// --------------------------------------------------
-*/
-hr {
-  margin: 40px 0 40px;
-  border-top: 1px dashed #cccccc;
-}
-
-/*
-//
-// Buttons
-// --------------------------------------------------
-*/
-.btn, a.btn button.btn, input.btn {
-  cursor: pointer;
-}
-
-.btn-primary {
-  color: #ffffff;
-  background-color: #f68d2d;
-  border-color: #fba128;
-  border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.btn-primary:hover {
-  background-color: #e27a2c;
-  border-color: #ed852c;
-}
-
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-a.btn-default {
-  background: #d3d3d3;
-  color: #222222 !important;
-}
-
-/*
-//
-// Tables
-// --------------------------------------------------
-*/
-.table {
-  font-size: 15px;
-}
-
-.table thead th {
-  background: #f68d2d;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.table tr.highlight td {
-  background: #c7642c;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-  font-weight: bold;
-}
-
-/*
-//
-// Panels
-// --------------------------------------------------
-*/
-.panel.panel-primary {
-  border-color: #dddddd;
-}
-
-.panel.panel-primary .panel-heading {
-  background: #f68d2d;
-  border-color: #dddddd;
-}
-
-/*
-//
-// Forms
-// --------------------------------------------------
-*/
-.form-control:focus {
-  border-color: #f68d2d;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
-}
-
-/*
-//
-// Paginations
-// --------------------------------------------------
-*/
-.pagination > li > a, .pagination > li > span {
-  color: #222222;
-}
-
-.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
-  color: #ffffff;
-  background: #f68d2d;
-}
-
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-  z-index: 3;
-  color: #222222;
-  background-color: #dddddd;
-  border-color: #dddddd;
-  cursor: default;
-}
-
-/*
-//
-// PageTitle
-// --------------------------------------------------
-*/
-.page-title {
-  margin-bottom: 2em;
-  background: #f3f3f3;
-  padding: 1em 0;
-  border-bottom: 1px solid #ececec;
-}
-
-.page-title h1 {
-  margin: 0;
-  padding: 0;
-}
-
-/*
-//
-// Title Bar
-// --------------------------------------------------
-*/
-.highlight {
-  color: #f68d2d;
 }
 
 /*
@@ -12730,39 +12608,6 @@ a.btn-default {
   border: 1px solid lightgray;
   padding: 20px;
   background: #f9f9f9;
-}
-
-/*
-//
-// Wells
-// --------------------------------------------------
-*/
-.well {
-  background: #f9f9f9;
-  padding: 3em;
-  margin: 2em;
-  border: 1px solid #d3d3d3;
-}
-
-.well-error {
-  margin-top: 50px;
-}
-
-.well-error h2 {
-  font-size: 100px;
-}
-
-@media (min-width: 1200px) {
-  .sps {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 1em;
-  }
-  .sps:before,
-  .sps:after {
-    content: '';
-    display: table;
-  }
 }
 
 /*# sourceMappingURL=app.css.map */

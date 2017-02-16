@@ -172,7 +172,7 @@
 
 /*
 //
-// Admin Navbar
+// User Navbar
 // --------------------------------------------------
 */
 .user-bar {
@@ -210,4 +210,22 @@
 .user-bar.sps {
     top     : 0;
     z-index : 99999;
+}
+
+
+/*
+//
+// Page Title Area
+// --------------------------------------------------
+*/
+.page-title {
+    margin-bottom : 2em;
+    background    : #f3f3f3;
+    padding       : 1em 0;
+    border-bottom : 1px solid #ececec;
+
+    h1 {
+        margin  : 0;
+        padding : 0;
+    }
 }

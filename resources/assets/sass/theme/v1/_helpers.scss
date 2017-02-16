@@ -3,6 +3,7 @@
 // General Site Helpers
 // --------------------------------------------------
 */
+
 //responsive bootstrap fixes
 @include media-breakpoint-down(xs) {
     .d-xs-flex {
@@ -16,5 +17,43 @@
 
     .text-xs-center {
         text-align : center;
+    }
+}
+
+//General Classes
+.highlight {
+    color : #f68d2d;
+}
+
+.well {
+    background : #f9f9f9;
+    padding    : 3em;
+    margin     : 2em;
+    border     : 1px solid #d3d3d3;
+}
+
+.well-error {
+    margin-top : 50px;
+
+    h2 {
+        font-size : 100px;
+    }
+}
+
+
+//Sticky
+//...based on position:sticky but currently has a pollyfill
+//...to get it to work
+@media (min-width : 1200px) {
+    .sps {
+        position : -webkit-sticky;
+        position : sticky;
+        top      : 1em;
+    }
+
+    .sps:before,
+    .sps:after {
+        content : '';
+        display : table;
     }
 }
