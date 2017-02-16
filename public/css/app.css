@@ -12458,6 +12458,42 @@ hr {
   border-bottom-right-radius: 0;
 }
 
+/*
+//
+// Off-Canvas Navigation
+// --------------------------------------------------
+*/
+.navbar-offcanvas .navbar-toggler {
+  width: 100%;
+  border-radius: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  cursor: pointer;
+}
+
+.navbar-offcanvas > .navbar-nav li:last-child {
+  margin-bottom: 3em !important;
+}
+
+.site-header .navbar-offcanvas .dropdown > a.dropdown-item {
+  padding: 1em 1.2em 1em 1.5em !important;
+}
+
+.site-header .navbar-offcanvas .dropdown-item {
+  white-space: normal;
+}
+
+.navbar-offcanvas .dropdown-menu.shown {
+  padding: 0;
+  margin-bottom: 0 !important;
+}
+
+.site-header .dropdown-menu > a {
+  color: #ffffff;
+  padding: 8px 8px 8px 15px;
+}
+
 /* make keyframes that tell the start state and the end state of our object */
 @-webkit-keyframes fadeIn {
   from {
