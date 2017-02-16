@@ -56,6 +56,15 @@
             font-size      : 14px;
             text-transform : uppercase;
             font-family    : $font-family-sans-serif-heading;
+
+
+            &:hover {
+                color: black;
+            }
+        }
+
+        li.active a {
+            cursor: default;
         }
     }
 
@@ -237,9 +246,9 @@
 */
 .page-title {
     margin-bottom : 2em;
-    background    : #e7e7e7;
+    background    : #fafafa;
     padding       : 1em 0;
-    border-bottom : 1px solid #ececec;
+    border-bottom : 1px solid #e7e7e7;
 
     h2 {
         margin  : 0;

@@ -12205,6 +12205,14 @@ hr {
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
 }
 
+.site-header .navbar a:hover {
+  color: black;
+}
+
+.site-header .navbar li.active a {
+  cursor: default;
+}
+
 .site-header .desktop-nav {
   padding: 0;
 }
@@ -12376,9 +12384,9 @@ hr {
 */
 .page-title {
   margin-bottom: 2em;
-  background: #e7e7e7;
+  background: #fafafa;
   padding: 1em 0;
-  border-bottom: 1px solid #ececec;
+  border-bottom: 1px solid #e7e7e7;
 }
 
 .page-title h2 {
