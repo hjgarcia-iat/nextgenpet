@@ -4,7 +4,7 @@
     
 
 
-    <form class="form-horizontal"
+    <form class="form-horizontal "
           role="form"
           method="POST"
           action="{{ url('/register') }}">
@@ -90,15 +90,19 @@
                    name="password_confirmation">
             {!! $errors->first('password_confirmation','<div class="form-control-feedback">:message</div>') !!}
         </div>
-    
-        <div class="form-group">
+        
+        <div class="form-group text-center">
             <button type="submit"
-                    class="btn btn-primary">
+                    class="btn btn-primary btn-block mx-auto mb-sm-2 mb-md-0 w-50">
                 Register
             </button>
             <a href="{{ url('login') }}"
-               class="btn btn-default">
-                Back to Login
+               class="btn btn-default btn-block w-50 mx-auto">
+                Back to login
+            </a>
+            <a href=""
+               class="mt-2 d-block">
+                Recover Password?
             </a>
         </div>
     </form>
