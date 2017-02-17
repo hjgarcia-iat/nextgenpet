@@ -26,13 +26,13 @@
         </p>
         @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <h4>Unit SE: Developing a Model for Static Electricity </h4>
-        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
         <p>
             Unit SE guides students through the development of a model for electric charges in materials that can explain the interactions between charged and uncharged objects, and between two charged objects; and includes both conductors and non-conductors. In this unit students can perform some simple hands-on experiments and then watch movies of other experiments (more challenging to do), or they can watch movies of all the experiments.
         </p>
         <p>
             The unit begins by having students explore various static electric effects and compare the static electric interaction with the magnetic interaction. Students then work through two extensions where they learn about the triboelectric series and develop an understanding of the law of electric charges. In the second lesson students propose their initial model (with + and – charges) to explain the charging of two non-conductors by rubbing, and explore the interaction of a soda can electroscope with charged and uncharged objects. In the third lesson they consider how to describe and represent uncharged objects in their model, and extend this in an extension. In the next extension they learn about a simple atomic model and which type of charge (plus or minus) is actually transferred by rubbing two uncharged non-conductors together. In the fourth lesson and two associated extensions they extend their model for both conducting and non-conducting materials and learn about discharging. By this time the class has developed a plausible model for electric charges in materials. In the fifth lesson students apply their model to explain some interesting phenomena.
         </p>
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
     </section>
 @stop
 
