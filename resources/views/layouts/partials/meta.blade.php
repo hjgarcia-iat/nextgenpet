@@ -5,6 +5,8 @@
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 <link rel="canonical"
       href="http://{{ URL::current() }}">
+<meta name="csrf-token"
+      content="{{ csrf_token() }}">
 <meta name="description"
       content="IAT provides the resources and technology to support the implementation of successful Science, Technology, Engineering, and Mathematics (STEM) curricula.">
 
