@@ -4,9 +4,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <section class="logo text-sm-center text-xs-center">
+                    <section class="logo">
                         <a href="/"
-                           class="full mx-auto"></a>
+                           class="full mx-sm-auto mr-md-0 ml-md-0"></a>
                     </section>
                 </div>
                 <div class="col-md-8">
