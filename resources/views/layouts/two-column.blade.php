@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      class="h-100">
     <head>
         @include('layouts.partials.meta')
         @include('layouts.partials.styles')
     </head>
-    <body>
-        <div class="page-wrapper">
+    <body class="h-100">
+        <div class="page-wrapper h-100 d-flex flex-column">
             <div class="site-header-wrapper">
                 @include('layouts.partials.header')
                 @include('layouts.partials.title')
@@ -35,7 +36,7 @@
             </div>
             
             
-            <div class="page-footer-wrapper">
+            <div class="page-footer-wrapper mt-auto">
                 @include('layouts.partials.footer')
             </div>
             

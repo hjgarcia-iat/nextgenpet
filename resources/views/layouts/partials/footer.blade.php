@@ -1,6 +1,6 @@
 
 
-<section class="page-footer">
+<section class="page-footer mt-4">
     <div class="container">
         <div class="page-footer-content">
             <div class="row">
