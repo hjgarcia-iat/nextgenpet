@@ -1,7 +1,6 @@
 @extends('layouts.auth')
 @section('pageTitle','Login')
 @section('content')
-    
     <form class="form-horizontal"
           role="form"
           method="POST"
