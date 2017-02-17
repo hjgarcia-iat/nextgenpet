@@ -2361,8 +2361,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-inline {
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-align: center;
   align-items: center;
@@ -2387,8 +2385,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     display: flex;
     -webkit-box-flex: 0;
     flex: 0 0 auto;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     flex-flow: row wrap;
     -webkit-box-align: center;
     align-items: center;
@@ -4286,8 +4282,6 @@ tbody.collapse.show {
   .card-deck {
     display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     flex-flow: row wrap;
   }
   .card-deck .card {
@@ -4311,8 +4305,6 @@ tbody.collapse.show {
   .card-group {
     display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
     flex-flow: row wrap;
   }
   .card-group .card {
@@ -4765,8 +4757,6 @@ a.badge:focus, a.badge:hover {
   position: relative;
   display: -webkit-box;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-align: center;
   align-items: center;
@@ -12143,19 +12133,39 @@ hr {
 // For Medium Screen and Up Styles
 // --------------------------------------------------
 */
-@media (min-width: 768px) {
-  body {
-    display: -webkit-box;
-    display: flex;
-    min-height: 100vh;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    flex-direction: column;
-  }
-  body > .container {
-    -webkit-box-flex: 1;
-    flex: 1;
-  }
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.page-wrapper {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  /* align items in Main Axis */
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  /* align items in Cross Axis */
+  align-content: stretch;
+  /* Extra space in Cross Axis */
+}
+
+.page-content-wrapper {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-flex: 1;
+  flex: 1 1 auto;
 }
 
 .site-header .top-row {
