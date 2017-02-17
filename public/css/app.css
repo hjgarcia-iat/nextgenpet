@@ -12162,10 +12162,19 @@ body {
 }
 
 .page-content-wrapper {
-  display: -webkit-box;
-  display: flex;
   -webkit-box-flex: 1;
   flex: 1 1 auto;
+  -webkit-box-pack: start;
+  justify-content: flex-start;
+  /* align items in Main Axis */
+  -webkit-box-align: stretch;
+  align-items: stretch;
+  /* align items in Cross Axis */
+  align-content: stretch;
+  /* Extra space in Cross Axis */
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  flex-direction: row;
 }
 
 .site-header .top-row {

@@ -10,7 +10,7 @@
                 @include('layouts.partials._logo_area')
             </div>
     
-            <div class="page-content-wrapper justify-content-center align-items-center">
+            <div class="page-content-wrapper d-flex justify-content-center align-items-center">
     
                 <section class="error">
                     <div class="well well-error">
@@ -25,7 +25,8 @@
                 @include('layouts.partials.footer')
             </div>
             
-            @include('layouts.partials.scripts')
+           
         </div>
+        @include('layouts.partials.scripts')
     </body>
 </html>
