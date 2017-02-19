@@ -37,7 +37,7 @@ class HelpController extends Controller
     {
         \Mail::to('contact@iat.com')->send(new Help($request));
 
-        \Session::flash('success', 'Message sent!');
+        \Alert::success('Your message has been sent! We will be in contact soon.');
 
         return redirect()->to('help');
     }
