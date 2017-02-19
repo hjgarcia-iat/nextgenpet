@@ -25,5 +25,6 @@
             </div>
         </div>
         @include('layouts.partials.scripts')
+        @include('sweet::alert')
     </body>
 </html>

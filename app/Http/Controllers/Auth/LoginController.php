@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use Alert;
 use App\Http\Controllers\Controller;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
@@ -52,7 +53,7 @@ class LoginController extends Controller
 		$this->validateLogin($request);
 
 		if ($this->attemptLogin($request)){
-			\Session::flash('success', 'You have been logged in!');
+			Alert::success('You have been logged in!');
 			return $this->sendLoginResponse($request);
 		}
 
@@ -105,7 +106,7 @@ class LoginController extends Controller
 
 		$request->session()->regenerate();
 
-		\Session::flash('success','You have been logged out!');
+		Alert::success('You have been logged out!');
 
 		return redirect('/login');
 	}

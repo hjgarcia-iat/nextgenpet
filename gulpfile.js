@@ -19,6 +19,7 @@ elixir(function (mix) {
         'libs/jquery.js',
         'libs/tether.js',
         'libs/bootstrap.js',
+        'libs/sweetalert.min.js',
         'libs/stickyfill.js',
         'libs/bootstrap.offcanvas.js',
         'libs/jquery.validate.min.js',
