@@ -68,29 +68,6 @@
                    value="{{ old('zip') }}">
             {!! $errors->first('zip','<div class="form-control-feedback">:message</div>') !!}
         </div>
-    
-        <div class="form-group {{ $errors->has('password') ? 'has-danger' : '' }}">
-            <label for="password"
-                   class="form-control-label">Password
-            </label>
-            <input type="password"
-                   class="form-control {{ $errors->has('password') ? 'form-control-danger' : '' }}"
-                   id="password"
-                   name="password">
-            {!! $errors->first('password','<div class="form-control-feedback">:message</div>') !!}
-        </div>
-    
-        <div class="form-group {{ $errors->has('password_confirmation') ? 'has-danger' : '' }}">
-            <label for="password_confirmation"
-                   class="form-control-label">Password Confirmation
-            </label>
-            <input type="password"
-                   class="form-control {{ $errors->has('password_confirmation') ? 'form-control-danger' : '' }}"
-                   id="password_confirmation"
-                   name="password_confirmation">
-            {!! $errors->first('password_confirmation','<div class="form-control-feedback">:message</div>') !!}
-        </div>
-        
         <div class="form-group text-center">
             <button type="submit"
                     class="btn btn-primary btn-block mx-auto mb-sm-2 mb-md-0 w-50">

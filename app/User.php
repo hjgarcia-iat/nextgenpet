@@ -44,6 +44,7 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static \Illuminate\Database\Query\Builder|\App\User whereRememberToken($value)
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Permission\Models\Permission[] $permissions
  * @method static \Illuminate\Database\Query\Builder|\App\User role($roles)
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[] $colleges
  */
 class User extends Authenticatable
 {
@@ -98,16 +99,16 @@ class User extends Authenticatable
 		$user->username           = $attributes['email'];
 		$user->user_group_id      = 1;
 		$user->account_expiration = Carbon::now();
+		$user->account_status     = 'Pending';
 		$user->order_number       = 'NextGenPET User';
-		$user->password           = $attributes['password'];
 		$user->save();
 
 		$user->account()->create([
 			'first_name' => $attributes['first_name'],
-			'last_name' => $attributes['last_name'],
+			'last_name'  => $attributes['last_name'],
 		]);
 
-		$user->assignRole('nextget_pet_user');
+		$user->assignRole('nextgen_pet_user');
 
 		return $user;
 	}
@@ -120,7 +121,8 @@ class User extends Authenticatable
 	 *
 	 * @return bool|int
 	 */
-	public function update(array $attributes = [], array $options = [])
+	public
+	function update(array $attributes = [], array $options = [])
 	{
 		if ( ! $this->exists){
 			return false;
@@ -144,6 +146,16 @@ class User extends Authenticatable
 	public function account()
 	{
 		return $this->hasOne(Account::class);
+	}
+
+	/**
+	 * Return College Class
+	 *
+	 * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+	 */
+	public function colleges()
+	{
+		return $this->belongsToMany(College::class, 'college_user')->withTimestamps();
 	}
 
 	/**

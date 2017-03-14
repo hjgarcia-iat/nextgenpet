@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers\Auth;
 
+use App\Repositories\CollegeRepository;
 use App\User;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -58,35 +59,41 @@ class RegisterController extends Controller
 			'institution' => 'required|max:255',
 			'zip'         => 'required|integer|min:5',
 			'email'       => 'required|email|max:255|unique:users',
-			'password'    => 'required|min:6|confirmed',
 		]);
 	}
 
 	/**
 	 * Handle a registration request for the application.
 	 *
+	 * @param CollegeRepository         $college
 	 * @param  \Illuminate\Http\Request $request
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
-	public function register(Request $request)
+	public function register(CollegeRepository $college, Request $request)
 	{
 		$this->validator($request->all())->validate();
 
-		$this->create($request->all());
+		$this->create($college, $request->all());
 
-		return redirect()->to('/')->with('success', 'You have been registered. We will be in contact soon!');
+		return redirect()->to('/')->with('success', 'You have been registered. We will be sending you a confirmation with your information soon.');
 	}
 
 	/**
 	 * Create a new user instance after a valid registration.
 	 *
-	 * @param  array $data
+	 * @param CollegeRepository $college
+	 * @param  array            $data
 	 *
 	 * @return User
 	 */
-	protected function create(array $data)
+	protected function create(CollegeRepository $college, array $data)
 	{
-		return User::create($data);
+		$college = $college->create($data);
+		$user    = User::create($data);
+
+		$user->colleges()->attach($college->id);
+
+		return $user;
 	}
 }

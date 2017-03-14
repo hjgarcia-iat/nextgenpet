@@ -18,7 +18,8 @@
         "barryvdh/laravel-ide-helper": "2.2.*",
         "laravelcollective/html"     : "5.3.*",
         "spatie/laravel-permission": "^1.8",
-        "sofa/eloquence"           : "~5.3"
+        "sofa/eloquence"           : "~5.3",
+        "doctrine/dbal": "^2.5"
     },
     "autoload": {
         "classmap": [
