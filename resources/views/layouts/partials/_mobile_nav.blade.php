@@ -1,6 +1,8 @@
 <nav class="navbar navbar-light hidden-md-up">
     <div class="container">
-        <button type="button" class="navbar-toggler offcanvas-toggle" data-toggle="offcanvas"
+        <button type="button"
+                class="navbar-toggler offcanvas-toggle"
+                data-toggle="offcanvas"
                 data-target="#js-bootstrap-offcanvas">
             <span class="fa fa-navicon"></span>
         </button>
@@ -23,16 +25,18 @@
                      aria-labelledby="aboutLinks">
                     
                     <a class="dropdown-item{{ (Request::is('/') or Request::is('about/flexibility') or Request::is('about/research-based')) ? ' active' : '' }}"
-                       href="{{ url('/') }}">About</a>
+                       href="{{ url('/') }}">About
+                    </a>
                     
                     <a class="dropdown-item{{ (Request::is('about/module-and-units')) ? ' active' : '' }}"
-                       href="{{ url('about/module-and-units') }}">Modules &amp; Units</a>
-    
+                       href="{{ url('about/module-and-units') }}">Modules &amp; Units
+                    </a>
+                    
                     <a href="{{ url('about/overview-of-extensions') }}"
                        class="dropdown-item{{ (Request::is('about/overview-of-extensions')) ? ' active' : '' }}">
                         Overview of Extensions (Homework)
                     </a>
-    
+                    
                     <a href="{{ url('about/overview-of-teaching-and-learning-activities') }}"
                        class="dropdown-item{{ (Request::is('about/overview-of-teaching-and-learning-activities')) ? ' active' : '' }}">
                         <span>Overview of Teaching &amp; Learning Activities
@@ -73,7 +77,6 @@
             </li>
             
             
-            
             {{--Studio Area Dropdown--}}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
@@ -86,7 +89,7 @@
                 </a>
                 <div class="dropdown-menu{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' show shown' : '' }}"
                      aria-labelledby="studioLinks">
-    
+                    
                     <a href="{{ url('studio-style-class') }}"
                        class="dropdown-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
                         Introduction
@@ -95,7 +98,7 @@
                        class="dropdown-item{{ (Request::is('studio-style-class/pedagogy')) ? ' active' : '' }}">
                         Pedagogy
                     </a>
-    
+                    
                     <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
                        target="_blank"
                        class="dropdown-item">
@@ -105,7 +108,7 @@
                        class="dropdown-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">
                         Table of Contents with Time Estimates
                     </a>
-    
+                    
                     <a href="#"
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
@@ -137,7 +140,7 @@
                         {{--</span>--}}
                         {{--</a>--}}
                     </div>
-    
+                    
                     <a href="#"
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
@@ -176,12 +179,29 @@
                             Matter and Interactions Module
                         </a>
                     </div>
-                    <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
-                       target="_blank"
-                       data-file="true"
-                       class="dropdown-item">
-                        Teaching and Learning Materials
+    
+                    <a href="#"
+                       class="dropdown-item sublink collapsed"
+                       data-toggle="collapse"
+                       data-target="#studio-teaching-learning-materials"
+                       data-parent="#menu">Teaching and Learning Materials (for distribution)
                     </a>
+    
+                    <div id="studio-teaching-learning-materials"
+                         class="sublinks collapse">
+                        <a class="dropdown-item"
+                           target="_blank"
+                           data-file="true"
+                           href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}">
+                            <span>View PDF</span>
+                        </a>
+                        <a class="dropdown-item"
+                           target="_blank"
+                           href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}">
+                            <span>View Docs</span>
+                        </a>
+                    </div>
+                    
                     <a href="{{ url('studio-style-class/extension-index') }}"
                        class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
                         Extensions Index
@@ -196,8 +216,8 @@
                     </a>
                 </div>
             </li>
-    
-    
+            
+            
             {{--Lecture Area Dropdown--}}
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
@@ -218,19 +238,19 @@
                        class="dropdown-item{{ (Request::is('lecture-style-class/pedagogy')) ? ' active' : '' }}">
                         <span>Pedagogy</span>
                     </a>
-    
+                    
                     <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
                        data-file="true"
                        target="_blank"
                        class="dropdown-item">Equipment and Materials
                     </a>
-    
+                    
                     <a href="{{ url('lecture-style-class/table-of-contents') }}"
                        class="dropdown-item{{ (Request::is('lecture-style-class/table-of-contents')) ? ' active' : '' }}">
                         <span>Table of Contents with Time Estimates
                         </span>
                     </a>
-    
+                    
                     <a href="#"
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
@@ -256,17 +276,19 @@
                             Waves, Sounds and Light Module
                         </a>
                         <a class="dropdown-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
-                        href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">
-                        <span>Matter and Interactions Module
-                        </span>
+                           href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">
+                            <span>Matter and Interactions Module
+                            </span>
                         </a>
                     </div>
-    
+                    
                     <a href="#"
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
                        data-target="#lecture-student-materials"
-                       data-parent="#menu">Content Module Student Materials (for viewing only)</a>
+                       data-parent="#menu">Content Module Student Materials (for viewing only)
+                    </a>
+                    
                     <div id="lecture-student-materials"
                          class="sublinks collapse">
                         <a class="dropdown-item"
@@ -298,12 +320,28 @@
                         </a>
                     </div>
                     
-                    <a href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}"
-                       target="_blank"
-                       class="dropdown-item">
-                        <span>Teaching and Learning Materials
-                        </span>
+                    <a href="#"
+                       class="dropdown-item sublink collapsed"
+                       data-toggle="collapse"
+                       data-target="#lecture-teaching-learning-materials"
+                       data-parent="#menu">Teaching and Learning Materials (for distribution)
                     </a>
+                    
+                    <div id="lecture-teaching-learning-materials"
+                         class="sublinks collapse">
+                        <a class="dropdown-item"
+                           target="_blank"
+                           data-file="true"
+                           href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
+                            <span>View PDF</span>
+                        </a>
+                        <a class="dropdown-item"
+                           target="_blank"
+                           href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
+                            <span>View Docs</span>
+                        </a>
+                    </div>
+                    
                     <a href="{{ url('lecture-style-class/extension-index') }}"
                        class="dropdown-item{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">
                         Extensions Index
@@ -318,13 +356,13 @@
                     </a>
                 </div>
             </li>
-    
+            
             <li class="nav-item {{ (Request::is('help')) ? 'active' : '' }}">
                 <a class="nav-link"
                    href="{{ url('help') }}">Help
                 </a>
             </li>
-    
+            
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
                    href="#"
@@ -346,7 +384,7 @@
                     </a>
                 </div>
             </li>
-
+        
         </ul>
     </div>
 </nav>
