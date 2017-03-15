@@ -4,10 +4,10 @@
     Studio Style Class
 @stop
 @section('sidebar')
-    @include('pages.Studio-style-class._sidebar')
+    @include('pages.studio-style-class._sidebar')
 @stop
 @section('banner')
-    @include('pages.Studio-style-class._banner')
+    @include('pages.studio-style-class._banner')
 @stop
 @section('content')
     
