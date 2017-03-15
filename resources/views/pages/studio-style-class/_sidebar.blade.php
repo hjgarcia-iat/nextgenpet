@@ -36,7 +36,7 @@
                data-toggle="collapse"
                data-target="#mainStudioContentModules"
                data-parent="#main-sidebar-menu">
-                <span>Content Modules
+                <span>Content Modules Description
                 </span>
             </a>
             <div id="mainStudioContentModules"
@@ -76,8 +76,7 @@
                data-toggle="collapse"
                data-target="#sm-student-materials"
                data-parent="#main-sidebar-menu">
-                <span>Student Materials (for viewing only)
-                </span>
+                <span>Content Module Student Materials (for viewing only)</span>
             </a>
             <div id="sm-student-materials"
                  class="sublinks collapse">

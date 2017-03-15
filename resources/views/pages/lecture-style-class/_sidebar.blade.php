@@ -36,8 +36,7 @@
                class="list-group-item sublink collapsed"
                data-toggle="collapse"
                data-target="#mainLectureContentModules"
-               data-parent="#main-sidebar-menu">Content Modules
-            </a>
+               data-parent="#main-sidebar-menu"><span>Content Module Descriptions</span></a>
             <div id="mainLectureContentModules"
                  class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
                 <a class="list-group-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
@@ -73,8 +72,7 @@
                class="list-group-item sublink collapsed"
                data-toggle="collapse"
                data-target="#sm-student-materials"
-               data-parent="#main-sidebar-menu">Student Materials (for viewing only)
-            </a>
+               data-parent="#main-sidebar-menu"><span>Content Module Student Materials (for viewing only)</span></a>
             <div id="sm-student-materials"
                  class="sublinks collapse">
                 <a class="list-group-item"

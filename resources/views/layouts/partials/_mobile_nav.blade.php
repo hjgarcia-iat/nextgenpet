@@ -111,7 +111,7 @@
                        data-toggle="collapse"
                        data-target="#sm"
                        data-parent="#menu">
-                        Content Modules
+                        Content Modules Description
                     </a>
                     <div id="sm"
                          class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' show' : '') }}">
@@ -143,8 +143,7 @@
                        data-toggle="collapse"
                        data-target="#studio-student-materials"
                        data-parent="#menu">
-                        <span>Student Materials (for viewing only)
-                        </span>
+                        <span>Content Module Student Materials (for viewing only)</span>
                     </a>
                     <div id="studio-student-materials"
                          class="sublinks collapse">
@@ -236,7 +235,7 @@
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
                        data-target="#lectureAreaLinks"
-                       data-parent="#menu">Content Modules
+                       data-parent="#menu">Content Modules Description
                     </a>
                     <div id="lectureAreaLinks"
                          class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
@@ -267,8 +266,7 @@
                        class="dropdown-item sublink collapsed"
                        data-toggle="collapse"
                        data-target="#lecture-student-materials"
-                       data-parent="#menu">Student Materials (for viewing only)
-                    </a>
+                       data-parent="#menu">Content Module Student Materials (for viewing only)</a>
                     <div id="lecture-student-materials"
                          class="sublinks collapse">
                         <a class="dropdown-item"
