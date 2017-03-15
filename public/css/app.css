@@ -12213,6 +12213,8 @@ a:active {
   font-size: 12px;
   border-radius: 0;
   border: 1px solid #e3e3e3;
+  display: -webkit-box;
+  display: flex;
 }
 
 .page-side-menu .list-group .list-group-item:hover, .page-side-menu .list-group .list-group-item.active {
@@ -12226,8 +12228,7 @@ a:active {
   font-weight: bold;
 }
 
-.page-side-menu .list-group .list-group-item.active span {
-  display: inline-block;
+.page-side-menu .list-group .list-group-item span {
   width: 80%;
 }
 
@@ -12235,18 +12236,13 @@ a:active {
   font-family: 'FontAwesome';
   content: "\f054";
   font-weight: normal;
-  display: inline-block;
-  text-align: right;
-  -webkit-box-flex: 1;
-  flex: 1;
+  margin-left: auto;
 }
 
 .page-side-menu .list-group .sublink.collapsed:after, .page-side-menu .list-group .sublink:after {
   content: "\f13a";
   display: inline-block;
-  text-align: right;
-  -webkit-box-flex: 1;
-  flex: 1;
+  margin-left: auto;
 }
 
 .page-side-menu .list-group .sublink:after {

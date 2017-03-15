@@ -6,8 +6,8 @@
 .page-side-menu {
 
     .card {
-        border: none;
-        border-radius: 0;
+        border        : none;
+        border-radius : 0;
 
         .card a {
             border-bottom : 1px solid #e3e3e3;
@@ -25,6 +25,7 @@
             font-size      : 12px;
             border-radius  : 0;
             border         : 1px solid #e3e3e3;
+            display        : flex;
         }
 
         .list-group-item:hover, .list-group-item.active {
@@ -38,8 +39,7 @@
             font-weight : bold;
         }
 
-        .list-group-item.active span {
-            display: inline-block;
+        .list-group-item span {
             width: 80%;
         }
 
@@ -47,17 +47,14 @@
             font-family : 'FontAwesome';
             content     : "\f054";
             font-weight : normal;
-            display : inline-block;
-            text-align: right;
-            flex: 1;
+            margin-left : auto;
         }
 
         .sublink.collapsed, .sublink {
             &:after {
-                content : "\f13a";
+                content    : "\f13a";
                 display    : inline-block;
-                text-align : right;
-                flex       : 1;
+                margin-left: auto;
             }
         }
 
@@ -146,9 +143,9 @@
 */
 @include media-breakpoint-up(md) {
     #menu.affix {
-        position : fixed;
-        min-width: 300px;
-        top               : 70px;
+        position  : fixed;
+        min-width : 300px;
+        top       : 70px;
         //-webkit-transform : translate3d(0, 0, 0);
         //transform         : translate3d(0, 0, 0);
     }
