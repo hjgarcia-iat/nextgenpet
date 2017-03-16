@@ -11,7 +11,13 @@
 <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
      id="js-bootstrap-offcanvas">
     <div class="container">
+        
         <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="" class="nav-link" id="mobileCloseBtn">
+                    Close Navigation
+                </a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle"
                    href="#"
@@ -179,14 +185,14 @@
                             Matter and Interactions Module
                         </a>
                     </div>
-    
+                    
                     <a href="#"
                        class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#studio-teaching-learning-materials"
                        data-parent="#menu">Teaching and Learning Materials (for distribution)
                     </a>
-    
+                    
                     <div id="studio-teaching-learning-materials"
                          class="sublinks collapse">
                         <a class="dropdown-item"
@@ -219,7 +225,8 @@
             
             
             {{--Lecture Area Dropdown--}}
-            <li class="nav-item dropdown" id="lecture-style-class">
+            <li class="nav-item dropdown"
+                id="lecture-style-class">
                 <a class="nav-link dropdown-toggle"
                    href="#"
                    id="lectureLinks"
