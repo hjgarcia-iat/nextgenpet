@@ -1,8 +1,10 @@
 <header class="site-header">
     <div class="container d-md-flex mt-4 mb-4">
-        <section class="logo text-sm-center text-xs-center mr-auto">
-            <a href="/"
-               class="full mx-auto"></a>
+        <section class="text-sm-center text-xs-center mr-auto">
+            <a href="{{ url('/') }}" class="mx-auto">
+                <img src="{{ asset('img/logo.png') }}"
+                     alt="It's About Time">
+            </a>
         </section>
         <nav class="social-bar">
             <ul class="list-unstyled d-xs-flex d-sm-flex justify-content-xs-between justify-content-sm-between">

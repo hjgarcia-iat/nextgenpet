@@ -1,63 +1,17 @@
+.desktop-nav {
+    background-color : #fdfdfd;
+    border-top       : 1px solid #f3f3f3;
+    border-bottom    : 1px solid #f3f3f3;
+    padding          : .25em;
 
-.site-header {
-
-    .top-row {
-        margin : 20px 0;
+    .navbar-nav {
+        width : 100%;
     }
 
-    .logo .full {
-        width      : 222px;
-        height     : 89px;
-        background : transparent url('../img/logo.png') no-repeat 0 0;
-        display    : block;
-    }
-
-    .social-bar {
-        margin-top : 20px;
-        a {
-            display               : block;
-            float                 : left;
-            width                 : 40px;
-            height                : 40px;
-            -webkit-border-radius : 50%;
-            -moz-border-radius    : 50%;
-            border-radius         : 50%;
-            background            : #dedede no-repeat center center;
-            -webkit-transition    : background-color .2s;
-            transition            : background-color .2s;
-            margin                : 0 3px;
-            text-align            : center;
-            position              : relative;
-
-            .fa {
-                position  : absolute;
-                color     : #888888;
-                top       : 25%;
-                left      : 30%;
-                font-size : 20px;
-            }
-
-            &:hover .fa {
-                color : #333333;
-            }
-        }
-    }
-
-    .navbar {
-        background-color : #fdfdfd;
-        border-top       : 1px solid #f3f3f3;
-        border-bottom    : 1px solid #f3f3f3;
-        padding          : .25em ;
-
-        .navbar-nav {
-            width : 100%;
-        }
-
-        a {
-            font-size      : 14px;
-            text-transform : uppercase;
-            font-family    : $font-family-sans-serif-heading;
-        }
+    a {
+        font-size      : 14px;
+        text-transform : uppercase;
+        font-family    : $font-family-sans-serif-heading;
     }
 
     .dropdown-menu {
@@ -155,20 +109,10 @@
     .nav-item.active {
         font-weight : bold;
     }
-
 }
 
 @include media-breakpoint-up(md) {
-    .site-header .navbar a {
+    .desktop-nav a {
         font-size : 16px;
-    }
-}
-
-.title-bar {
-    background : #292929;
-    h1 {
-        margin-top    : .5em;
-        margin-bottom : .5em;
-        color         : #ffffff;
     }
 }
