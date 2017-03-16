@@ -18,14 +18,10 @@
         color            : white !important;
     }
 
-    .nav-item {
-        margin-bottom : 2px;
-    }
-
     .nav-item > a {
-        background   : #111111;
-        border       : 1px solid #333333;
-        padding-left : 10px;
+        background    : #111111;
+        border-bottom : 1px solid #333333;
+        padding-left  : 10px;
     }
 
     .container {
@@ -50,8 +46,8 @@
     }
 
     .sublinks {
-        margin-left : 15px;
-        background  : #333333;
+        margin     : 0 15px;
+        background : #333333;
 
         a.dropdown-item {
             border : none;
