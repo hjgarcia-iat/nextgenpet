@@ -12137,6 +12137,7 @@ a:active {
 
 .navbar-mobile a {
   color: #cccccc !important;
+  font-size: 16px;
 }
 
 .navbar-mobile a.active, .navbar-mobile a:active, .navbar-mobile a:focus, .navbar-mobile a:visited {
@@ -12144,13 +12145,9 @@ a:active {
   color: white !important;
 }
 
-.navbar-mobile .nav-item {
-  margin-bottom: 2px;
-}
-
 .navbar-mobile .nav-item > a {
   background: #111111;
-  border: 1px solid #333333;
+  border-bottom: 1px solid #333333;
   padding-left: 10px;
 }
 
@@ -12176,7 +12173,7 @@ a:active {
 }
 
 .navbar-mobile .sublinks {
-  margin-left: 15px;
+  margin: 0 15px;
   background: #333333;
 }
 
