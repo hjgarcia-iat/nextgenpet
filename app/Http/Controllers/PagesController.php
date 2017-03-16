@@ -27,7 +27,6 @@ class PagesController extends Controller
             return view('pages.index');
         }
 
-
         //load subdir home page if necessary
         if(\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
             return view('pages.' . $request->path() . '.index');

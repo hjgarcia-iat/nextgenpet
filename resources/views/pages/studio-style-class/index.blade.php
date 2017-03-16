@@ -10,15 +10,15 @@
     @include('pages.studio-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Introduction</h3>
-    
+
         <p>The <em>Studio-style class (SC)</em> version is appropriate if:</p>
         <ul>
             <li>Students can work in groups at tables and perform experiments</li>
-        
+
             <li>Enrollment is less than approximately 35 students</li>
             <li>The class meets approximately 75 hours/semester, typically in 2.5-hour sessions</li>
             <li>Suitable equipment is available</li>
