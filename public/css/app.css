@@ -12137,6 +12137,17 @@ a:active {
   text-align: center;
 }
 
+.social-bar {
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
+.social-bar ul {
+  margin-top: 1em;
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
 .social-bar a {
   display: block;
   float: left;
@@ -12161,6 +12172,12 @@ a:active {
 
 .social-bar a:hover .fa {
   color: #333333;
+}
+
+@media (min-width: 768px) {
+  .social-bar ul {
+    margin-top: 0;
+  }
 }
 
 .page-footer {

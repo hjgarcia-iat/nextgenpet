@@ -1,4 +1,11 @@
 .social-bar {
+    align-self    : center;
+
+    ul {
+        margin-top: 1em;
+        margin-bottom  : 0 !important;
+        padding-bottom : 0 !important;
+    }
 
     a {
         display               : block;
@@ -26,5 +33,11 @@
         &:hover .fa {
             color : #333333;
         }
+    }
+}
+
+@media (min-width : 768px) {
+    .social-bar ul {
+        margin-top: 0;
     }
 }
