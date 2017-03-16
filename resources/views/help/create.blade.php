@@ -1,6 +1,6 @@
 @extends('layouts.one-column')
 
-@section('pageTitle','Questions? Comments')
+@section('pageTitle','Questions? Comments?')
 
 @section('banner')
     <div class="container carousel-container fill visible-md visible-lg">
@@ -32,8 +32,7 @@
             {{ Form::open(['class' => 'form']) }}
             
             <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">
-                <label class="form-control-label"
-                       for="name">Name
+                <label for="name">Name
                 </label>
                 <input type="text"
                        class="form-control{{ ($errors->first('name') ? ' form-control-danger' : '') }}"
@@ -44,20 +43,18 @@
             </div>
             
             <div class="form-group{{ ($errors->first('email') ? ' has-danger' : '') }}">
-                <label class="form-control-label"
-                       for="email">Email Address
+                <label for="email">Email Address
                 </label>
                 <input type="email"
                        class="form-control{{ ($errors->first('email') ? ' form-control-danger' : '') }}"
                        id="email"
                        name="email"
                        value="{{ old('email') }}">
-                {!! $errors->first('name','<div class="form-control-feedback">:message</div>') !!}
+                {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
             </div>
             
             <div class="form-group{{ ($errors->first('subject') ? ' has-danger' : '') }}">
-                <label class="form-control-label"
-                       for="subject">Subject
+                <label for="subject">Subject
                 </label>
                 <input type="text"
                        class="form-control{{ ($errors->first('subject') ? ' form-control-danger' : '') }}"
@@ -68,8 +65,7 @@
             </div>
             
             <div class="form-group{{ ($errors->first('comment') ? ' has-danger' : '') }}">
-                <label class="form-control-label"
-                       for="comment">Message
+                <label for="comment">Message
                 </label>
                 <textarea name="comment"
                           id="comment"

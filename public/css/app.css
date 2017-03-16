@@ -11931,6 +11931,7 @@ a:active {
   border-radius: 0;
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .btn-primary {
