@@ -30,6 +30,8 @@ class HelpRequest extends FormRequest
 			'email'   => 'required|email',
 			'subject' => 'required',
 			'comment' => 'required',
+			'my_name' => 'honeypot',
+			'my_time' => 'required|honeytime:5'
 		];
 	}
 

@@ -30,7 +30,7 @@
             </h4>
             
             {{ Form::open(['class' => 'form']) }}
-            
+            {!! Honeypot::generate('my_name', 'my_time') !!}
             <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">
                 <label for="name">Name
                 </label>

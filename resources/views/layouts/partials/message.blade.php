@@ -8,7 +8,6 @@
                 aria-label="Close">
             <i class="fa fa-times"></i>
         </button>
-        <strong>Success!</strong>
         Your message was sent! We will get back to your shortly.
     </div>
 
