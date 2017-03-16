@@ -12067,10 +12067,10 @@ a:active {
 
 .site-header .dropdown-menu {
   background-color: #000000;
-  border: 1px solid #cccccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0;
   top: 120%;
+  width: 100%;
 }
 
 .site-header .dropdown-menu > a {
