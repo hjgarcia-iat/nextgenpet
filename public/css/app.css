@@ -12125,6 +12125,12 @@ a:active {
   }
 }
 
+.navbar-mobile-toggle .container {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+}
+
 .title-bar {
   background: #292929;
 }
