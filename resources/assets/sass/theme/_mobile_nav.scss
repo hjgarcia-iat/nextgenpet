@@ -5,3 +5,56 @@
         padding-left : 0;
     }
 }
+
+.navbar-mobile {
+    padding : 10px 0;
+
+    a {
+        color : #cccccc !important;
+    }
+
+    a.active, a:active, a:focus, a:visited {
+        background-color : #0275d8;
+        color            : white !important;
+    }
+
+    .nav-item {
+        margin-bottom : 2px;
+    }
+
+    .nav-item > a {
+        background   : #111111;
+        border       : 1px solid #333333;
+        padding-left : 10px;
+    }
+
+    .container {
+        margin-left  : 0;
+        margin-right : 0;
+    }
+
+    .dropdown-menu {
+        background     : #111111;
+        border-radius  : 0;
+        padding-top    : 0;
+        padding-bottom : 0;
+
+        .dropdown-item {
+            white-space   : normal;
+            border-bottom : 1px solid #333333;
+
+            &:last-child {
+                border-bottom : none;
+            }
+        }
+    }
+
+    .sublinks {
+        margin-left : 15px;
+        background  : #333333;
+
+        a.dropdown-item {
+            border : none;
+        }
+    }
+}

@@ -8,7 +8,7 @@
         </button>
     </div>
 </nav>
-<nav class="navbar navbar-light navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch"
+<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
      id="js-bootstrap-offcanvas">
     <div class="container">
         <ul class="navbar-nav">
@@ -110,7 +110,7 @@
                     </a>
                     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#sm"
                        data-parent="#menu">
@@ -142,7 +142,7 @@
                     </div>
                     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#studio-student-materials"
                        data-parent="#menu">
@@ -181,7 +181,7 @@
                     </div>
     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#studio-teaching-learning-materials"
                        data-parent="#menu">Teaching and Learning Materials (for distribution)
@@ -219,7 +219,7 @@
             
             
             {{--Lecture Area Dropdown--}}
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown" id="lecture-style-class">
                 <a class="nav-link dropdown-toggle"
                    href="#"
                    id="lectureLinks"
@@ -252,10 +252,10 @@
                     </a>
                     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#lectureAreaLinks"
-                       data-parent="#menu">Content Modules Description
+                       data-parent="#lecture-style-class">Content Modules Description
                     </a>
                     <div id="lectureAreaLinks"
                          class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
@@ -283,10 +283,10 @@
                     </div>
                     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#lecture-student-materials"
-                       data-parent="#menu">Content Module Student Materials (for viewing only)
+                       data-parent="#lecture-style-class">Content Module Student Materials (for viewing only)
                     </a>
                     
                     <div id="lecture-student-materials"
@@ -321,10 +321,10 @@
                     </div>
                     
                     <a href="#"
-                       class="dropdown-item sublink collapsed"
+                       class="dropdown-item sublink collapsed dropdown-toggle"
                        data-toggle="collapse"
                        data-target="#lecture-teaching-learning-materials"
-                       data-parent="#menu">Teaching and Learning Materials (for distribution)
+                       data-parent="#lecture-style-class">Teaching and Learning Materials (for distribution)
                     </a>
                     
                     <div id="lecture-teaching-learning-materials"

@@ -12131,6 +12131,59 @@ a:active {
   padding-left: 0;
 }
 
+.navbar-mobile {
+  padding: 10px 0;
+}
+
+.navbar-mobile a {
+  color: #cccccc !important;
+}
+
+.navbar-mobile a.active, .navbar-mobile a:active, .navbar-mobile a:focus, .navbar-mobile a:visited {
+  background-color: #0275d8;
+  color: white !important;
+}
+
+.navbar-mobile .nav-item {
+  margin-bottom: 2px;
+}
+
+.navbar-mobile .nav-item > a {
+  background: #111111;
+  border: 1px solid #333333;
+  padding-left: 10px;
+}
+
+.navbar-mobile .container {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.navbar-mobile .dropdown-menu {
+  background: #111111;
+  border-radius: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-mobile .dropdown-menu .dropdown-item {
+  white-space: normal;
+  border-bottom: 1px solid #333333;
+}
+
+.navbar-mobile .dropdown-menu .dropdown-item:last-child {
+  border-bottom: none;
+}
+
+.navbar-mobile .sublinks {
+  margin-left: 15px;
+  background: #333333;
+}
+
+.navbar-mobile .sublinks a.dropdown-item {
+  border: none;
+}
+
 .title-bar {
   background: #292929;
 }
