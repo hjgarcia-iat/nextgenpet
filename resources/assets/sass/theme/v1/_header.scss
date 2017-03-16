@@ -47,6 +47,7 @@
         background-color : #fdfdfd;
         border-top       : 1px solid #f3f3f3;
         border-bottom    : 1px solid #f3f3f3;
+        padding          : .25em ;
 
         .navbar-nav {
             width : 100%;
@@ -63,8 +64,10 @@
         background-color : #000000;
         border           : 1px solid rgba(0, 0, 0, 0.15);
         border-radius    : 0;
-        top              : 120%;
+        top              : 107%;
         width            : 100%;
+        padding-top      : 0;
+        padding-bottom   : 0;
     }
 
     .dropdown-menu > a {

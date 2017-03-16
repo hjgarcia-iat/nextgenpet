@@ -12053,6 +12053,7 @@ a:active {
   background-color: #fdfdfd;
   border-top: 1px solid #f3f3f3;
   border-bottom: 1px solid #f3f3f3;
+  padding: .25em;
 }
 
 .site-header .navbar .navbar-nav {
@@ -12069,8 +12070,10 @@ a:active {
   background-color: #000000;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0;
-  top: 120%;
+  top: 107%;
   width: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .site-header .dropdown-menu > a {
