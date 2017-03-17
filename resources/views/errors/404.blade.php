@@ -3,7 +3,7 @@
 @section('pageTitle','404')
 
 @section('content')
-    <div class="well well-error w-25 h-25 align-self-md-center">
+    <div class="well well-error">
         <h2 class="text-center">Oops!</h2>
         <p class="lead text-center">We can't seem to find the page you're looking for...
             <br>
