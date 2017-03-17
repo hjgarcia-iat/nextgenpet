@@ -14,27 +14,27 @@
         </a>
         <a class="list-group-item {{ (Request::is('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') }}">
-            <span>Magnetism and Static Electricity Module
+            <span>Module MSE Cluster
             </span>
         </a>
         <a class="list-group-item{{ (Request::is('studio-style-class/teaching-and-learning/interactions-and-energy-module') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/interactions-and-energy-module') }}">
-            <span>Interactions and Energy Module
+            <span>Module IE Cluster
             </span>
         </a>
         <a class="list-group-item{{ (Request::is('studio-style-class/teaching-and-learning/interactions-and-forces-module') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/interactions-and-forces-module') }}">
-            <span>Interactions and Forces Module
+            <span>Module IF Cluster
             </span>
         </a>
         <a class="list-group-item{{ (Request::is('studio-style-class/teaching-and-learning/waves-sound-and-light-module') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/waves-sound-and-light-module') }}">
-            <span>Waves, Sounds and Light Module
+            <span>Module WSL Cluster
             </span>
         </a>
         <a class="list-group-item{{ (Request::is('studio-style-class/teaching-and-learning/matter-and-interactions-module') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/matter-and-interactions-module') }}">
-            <span>Matter and Interactions Module
+            <span>Module MI Cluster
             </span>
         </a>
     </div>

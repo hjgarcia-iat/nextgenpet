@@ -8,14 +8,11 @@
         @include('layouts.partials.header')
         @include('layouts.partials.title')
         @yield('banner')
-
         <section class="page-title">
             <div class="container">
                 <h2>@yield('pageTitle')</h2>
             </div>
         </section>
-    
-    
         <section class="page-content-wrapper">
             <div class="container">
                 <div class="row">
@@ -28,8 +25,6 @@
                 </div>
             </div>
         </section>
-        
-
         @include('layouts.partials.footer')
         @include('layouts.partials.scripts')
     </body>
