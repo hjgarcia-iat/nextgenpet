@@ -11908,6 +11908,11 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 /* unvisited link */
 a:link {
   color: #fd7600;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
 }
 
 /* visited link */
@@ -12140,7 +12145,12 @@ a:active {
   font-size: 16px;
 }
 
-.navbar-mobile a.active, .navbar-mobile a:active, .navbar-mobile a:focus, .navbar-mobile a:visited {
+.navbar-mobile a:hover, .navbar-mobile a.active, .navbar-mobile a.active:hover, .navbar-mobile a:active, .navbar-mobile a:focus, .navbar-mobile a:visited {
+  background-color: #0275d8;
+  color: white !important;
+}
+
+.navbar-mobile .nav-item a:hover, .navbar-mobile .dropdown a:hover {
   background-color: #0275d8;
   color: white !important;
 }
