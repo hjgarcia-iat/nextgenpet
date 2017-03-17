@@ -22,7 +22,7 @@
         <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
            data-file="true"
            target="_blank"
-           class="dropdown-item">Equipment and Materials
+           class="dropdown-item">Equipment &amp; Materials
         </a>
         
         <a href="{{ url('lecture-style-class/table-of-contents') }}"
@@ -41,23 +41,23 @@
              class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
             <a class="dropdown-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">
-                Magnetism and Static Electricity Module
+                Magnetism &amp; Static Electricity Module
             </a>
             <a class="dropdown-item{{ (Request::is('lecture-style-class/content/interactions-and-energy-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/interactions-and-energy-module') }}">
-                Interactions and Energy Module
+                Interactions &amp; Energy Module
             </a>
             <a class="dropdown-item{{ (Request::is('lecture-style-class/content/interactions-and-forces-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/interactions-and-forces-module') }}">
-                Interactions and Forces Module
+                Interactions &amp; Forces Module
             </a>
             <a class="dropdown-item{{ (Request::is('lecture-style-class/content/waves-sound-and-light-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/waves-sound-and-light-module') }}">
-                Waves, Sounds and Light Module
+                Waves, Sounds &amp; Light Module
             </a>
             <a class="dropdown-item{{ (Request::is('lecture-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
                href="{{ url('lecture-style-class/content/matter-and-interactions-module') }}">
-                <span>Matter and Interactions Module
+                <span>Matter &amp; Interactions Module
                 </span>
             </a>
         </div>
@@ -66,7 +66,7 @@
            class="dropdown-item sublink collapsed dropdown-toggle"
            data-toggle="collapse"
            data-target="#lecture-student-materials"
-           data-parent="#lecture-style-class">Content Module Student Materials (for viewing only)
+           data-parent="#lecture-style-class">Content Module Student Materials (viewing)
         </a>
         
         <div id="lecture-student-materials"
@@ -75,28 +75,28 @@
                target="_blank"
                data-file="true"
                href="{{ asset('docs/lecture/Module_MSE_Lecture-Style.pdf') }}">
-                <span>Magnetism and Static Electricity Module
+                <span>Magnetism &amp; Static Electricity Module
                 </span>
             </a>
             <a class="dropdown-item"
                target="_blank"
                href="{{ asset('docs/lecture/Module_IE_Lecture-Style.pdf') }}">
-                Interactions and Energy Module
+                Interactions &amp; Energy Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                href="{{ asset('docs/lecture/Module_IF_Lecture-Style.pdf') }}">
-                Interactions and Forces Module
+                Interactions &amp; Forces Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                href="{{ asset('docs/lecture/Module_WSL_Lecture-Style.pdf') }}">
-                Waves, Sounds and Light Module
+                Waves, Sounds &amp; Light Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                href="{{ asset('docs/lecture/Module_MI_Lecture-Style.pdf') }}">
-                Matter and Interactions Module
+                Matter &amp; Interactions Module
             </a>
         </div>
     
@@ -107,14 +107,14 @@
                data-toggle="collapse"
                data-target="#lecture-teacher-learning-materials-mobile-dropdown"
                data-parent="#lecture-teacher-learning-materials-mobile">
-                <span>Teaching and Learning Materials Descriptions</span>
+                <span>Teaching &amp; Learning Materials Descriptions</span>
             </a>
             <div id="lecture-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('lecture-style-class/teaching-and-learning/*') ? ' show' : '') }}">
         
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
                    href="{{ url('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
-                    <span>General Lessons and Extensions</span>
+                    <span>General Lessons &amp; Extensions</span>
                 </a>
         
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/magnetism-and-static-electricity-module') ? ' active' : '') }}"
@@ -150,7 +150,7 @@
            target="_blank"
            data-file="true"
            href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
-            <span>Teaching and Learning Materials (for distribution)
+            <span>Teaching &amp; Learning Materials (distribution)
             </span>
         </a>
         
