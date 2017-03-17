@@ -14,17 +14,21 @@
                 <h2>@yield('pageTitle')</h2>
             </div>
         </section>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4 visible-md visible-lg">
-                    @yield('sidebar')
-                </div>
-                <div class="col-md-8">
-                    @yield('content')
+    
+    
+        <section class="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 visible-md visible-lg">
+                        @yield('sidebar')
+                    </div>
+                    <div class="col-md-8">
+                        @yield('content')
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
 
         @include('layouts.partials.footer')
         @include('layouts.partials.scripts')

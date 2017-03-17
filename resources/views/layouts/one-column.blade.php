@@ -15,13 +15,18 @@
             </div>
         </section>
         
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    @yield('content')
+        
+        <section class="page-content-wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        @yield('content')
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
+        
+        
         
         @include('layouts.partials.footer')
         @include('layouts.partials.scripts')
