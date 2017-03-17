@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\HelpRequest;
-use App\Http\Requests\OnlineLearningRequest;
 use App\Mail\Help;
-use App\Mail\OnlineLearning;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
