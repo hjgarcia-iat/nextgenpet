@@ -13,9 +13,10 @@
         </p>
         
         <p class="text-center">
-            <a class="btn btn-primary btn-lg"
+            <a class="btn btn-primary"
                href="/">Back to Home Page
             </a>
         </p>
+        
     </div>
 @stop

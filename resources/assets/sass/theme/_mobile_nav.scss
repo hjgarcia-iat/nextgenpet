@@ -1,4 +1,8 @@
 .navbar-mobile-toggle {
+    background-color : #fdfdfd;
+    border-top       : 1px solid #f3f3f3;
+    border-bottom    : 1px solid #f3f3f3;
+
     .container {
         margin-left  : 0;
         margin-right : 0;
@@ -14,7 +18,7 @@
         font-size: 16px;
     }
 
-    a:hover, a.active, a.active:hover, a:active, a:focus, a:visited {
+    a:hover, a.active, a.active:hover, a:active, a:focus, a:visited, .nav-item.active > a {
         background-color : #0275d8;
         color            : white !important;
     }

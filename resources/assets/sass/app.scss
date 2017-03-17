@@ -108,15 +108,19 @@ $offcanvas-width : 400px !default;
     padding    : 3em;
     margin     : 2em;
     border     : 1px solid #d3d3d3;
-}
 
-.well-error {
-    margin-top : 50px;
-
-    h2 {
-        font-size : 100px;
+    .btn {
+        white-space: normal;
     }
 }
+
+@include media-breakpoint-up(md) {
+    .well-error {
+        h2 {
+            font-size : 100px;
+        }
+    }}
+
 
 @media (min-width : 1200px) {
     .sps {

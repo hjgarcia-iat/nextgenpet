@@ -99,28 +99,56 @@
                 Matter and Interactions Module
             </a>
         </div>
+    
+        <div id="studio-teacher-learning-materials-mobile">
+            <a href="#"
+               class="dropdown-item sublink collapsed dropdown-toggle"
+               data-toggle="collapse"
+               data-target="#studio-teacher-learning-materials-mobile-dropdown"
+               data-parent="#studio-teacher-learning-materials-mobile">
+                <span>Teaching and Learning Materials Descriptions</span>
+            </a>
+            <div id="studio-teacher-learning-materials-mobile-dropdown"
+                 class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
+                <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
+                    <span>General Lessons and Extensions</span>
+                </a>
+                <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') }}">
+                    <span>Module MSE Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/teaching-and-learning/interactions-and-energy-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/interactions-and-energy-module') }}">
+                    <span>Module IE Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/teaching-and-learning/interactions-and-forces-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/interactions-and-forces-module') }}">
+                    <span>Module IF Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/teaching-and-learning/waves-sound-and-light-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/waves-sound-and-light-module') }}">
+                    <span>Module WSL Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/teaching-and-learning/matter-and-interactions-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/matter-and-interactions-module') }}">
+                    <span>Module MI Cluster
+                    </span>
+                </a>
+            </div>
+        </div>
         
-        <a href="#"
-           class="dropdown-item sublink collapsed dropdown-toggle"
-           data-toggle="collapse"
-           data-target="#studio-teaching-learning-materials"
-           data-parent="#menu">Teaching and Learning Materials (for distribution)
+        
+        <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
+           target="_blank"
+           class="dropdown-item">
+            <span>Teaching and Learning Materials (for distribution)</span>
         </a>
         
-        <div id="studio-teaching-learning-materials"
-             class="sublinks collapse">
-            <a class="dropdown-item"
-               target="_blank"
-               data-file="true"
-               href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}">
-                <span>View PDF</span>
-            </a>
-            <a class="dropdown-item"
-               target="_blank"
-               href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}">
-                <span>View Docs</span>
-            </a>
-        </div>
         
         <a href="{{ url('studio-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">

@@ -8,7 +8,7 @@
         @include('layouts.partials.header')
         
         <section class="page-content-wrapper d-md-flex justify-content-md-center">
-            <div class="well-wrapper w-25 align-self-md-center">
+            <div class="well-wrapper w-md-25 align-self-md-center">
                 @yield('content')
             </div>
         </section>

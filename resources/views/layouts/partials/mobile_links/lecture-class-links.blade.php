@@ -99,28 +99,61 @@
                 Matter and Interactions Module
             </a>
         </div>
+    
+    
+        <div id="lecture-teacher-learning-materials-mobile">
+            <a href="#"
+               class="dropdown-item sublink collapsed dropdown-toggle"
+               data-toggle="collapse"
+               data-target="#lecture-teacher-learning-materials-mobile-dropdown"
+               data-parent="#lecture-teacher-learning-materials-mobile">
+                <span>Teaching and Learning Materials Descriptions</span>
+            </a>
+            <div id="lecture-teacher-learning-materials-mobile-dropdown"
+                 class="sublinks collapse{{ (Request::is('lecture-style-class/teaching-and-learning/*') ? ' show' : '') }}">
         
-        <a href="#"
-           class="dropdown-item sublink collapsed dropdown-toggle"
-           data-toggle="collapse"
-           data-target="#lecture-teaching-learning-materials"
-           data-parent="#lecture-style-class">Teaching and Learning Materials (for distribution)
+                <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
+                    <span>General Lessons and Extensions</span>
+                </a>
+        
+                <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/magnetism-and-static-electricity-module') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/magnetism-and-static-electricity-module') }}">
+                    <span>Module MSE Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('lecture-style-class/teaching-and-learning/interactions-and-energy-module') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/interactions-and-energy-module') }}">
+                    <span>Module IE Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('lecture-style-class/teaching-and-learning/interactions-and-forces-module') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/interactions-and-forces-module') }}">
+                    <span>Module IF Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('lecture-style-class/teaching-and-learning/waves-sound-and-light-module') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/waves-sound-and-light-module') }}">
+                    <span>Module WSL Cluster
+                    </span>
+                </a>
+                <a class="dropdown-item{{ (Request::is('lecture-style-class/teaching-and-learning/matter-and-interactions-module') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/matter-and-interactions-module') }}">
+                    <span>Module MI Cluster
+                    </span>
+                </a>
+            </div>
+        </div>
+        
+        
+        <a class="dropdown-item"
+           target="_blank"
+           data-file="true"
+           href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
+            <span>Teaching and Learning Materials (for distribution)
+            </span>
         </a>
         
-        <div id="lecture-teaching-learning-materials"
-             class="sublinks collapse">
-            <a class="dropdown-item"
-               target="_blank"
-               data-file="true"
-               href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
-                <span>View PDF</span>
-            </a>
-            <a class="dropdown-item"
-               target="_blank"
-               href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
-                <span>View Docs</span>
-            </a>
-        </div>
         
         <a href="{{ url('lecture-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">
