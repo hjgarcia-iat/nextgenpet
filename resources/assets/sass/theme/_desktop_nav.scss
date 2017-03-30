@@ -15,7 +15,7 @@
     }
 
     .dropdown-menu {
-        background-color : #222;
+        background-color : #222222;
         border           : 1px solid rgba(0, 0, 0, 0.15);
         border-radius    : 0;
         top              : 107%;
@@ -106,7 +106,8 @@
         border-radius         : 6px 0 6px 6px;
     }
 
-    .nav-item.active {
+    .nav-item.active a {
+        color       : $general-color-orange !important;
         font-weight : bold;
     }
 }
