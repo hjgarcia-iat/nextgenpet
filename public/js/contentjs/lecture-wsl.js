@@ -38,7 +38,7 @@ var nodes = new vis.DataSet([
     },
     {
         id   : 8,
-        label: 'Ext B: An Analogy \nfor Refraction',
+        label: 'Ext B: Wave \nRefraction ',
         x    : "-450",
         y    : "-975",
         description: "(Optional) Students might work through this only if they are going to learn about the refraction of light (Unit L L3).  They first watch movies of waves from a simulation of water waves to determine how waves change direction when they enter a region where the wave speed changes.  Then they consider an analogy with toy cars moving down a ramp through a region with a different amount of friction to provide a reason for why waves change direction when there is a change in speed (assuming the waves strike the boundary at an angle).",
@@ -86,7 +86,7 @@ var nodes = new vis.DataSet([
 var nodes2 = new vis.DataSet([
     {
         id   : 1,
-        label: 'L1: Pinholes \nand Shadows\n75 min',
+        label: 'L1: Light \nWaves, \nPinholes, and \nImages\n75 min',
         x    : "-950",
         y    : "-1000",
         description: "In this lesson students are told that light is a special type of wave known as an electromagnetic wave, which does not require a medium to travel through.  Visible light occupies a tiny fraction of the entire range of electromagnetic waves.  Students are told to assume that light travels in straight lines, behavior they can model by drawing light ray diagrams.  Assuming materials are available, students then investigate the formation of pinhole images using a MiniMagliteTM point source of light, a card with a tiny hole in its center, and a screen.  Students can observe a tiny dot of illumination on the screen (the pinhole image).  They move the source in different directions, observe what happens to the pinhole image, add another point light source, and draw light ray diagrams to describe the behavior of light that accounts for the pinhole image(s). Finally students use a MiniMagliteTM, a small black blocker, and a screen to investigate how a shadow is formed and how its size and position change when the source is moved.  Students draw light ray diagrams to describe and explain what happens. Throughout this lesson, if materials are not available, students can watch movies of all the phenomena.",
@@ -107,7 +107,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 4,
-        label: 'L4: Color\n70 min',
+        label: 'L4: Light \nand Color\n70 min',
         x    : "-600",
         y    : "-900",
         description: "This lesson introduces color phenomena.  Students are told to approximate the color spectrum by assuming it consists of three bands corresponding to different ranges of wavelengths: red for the longest, green for the middle range, and blue for the shortest.  After a description of the three-color receptors in the eye responsible for the first stage in the perception of color, students learn about color addition of lights. When two or more bands (red, green, blue) of color light enter their eye at the same time, the eye-brain system perceives a certain color light.  The rules are:  red + green = yellow; red + blue = magenta; blue + green = cyan; red + green + blue = white.  The last part of the lesson explores how color gels work.  When light passes through a gel, the gel absorbs (subtracts out) one or more of the color bands, and the eye perceives what remains. Students can then figure out what would be seen when white light shines through two different color gels. Finally students use a simple analogy to understand why color objects appear the way they do. Throughout this lesson, if materials are not available, students can watch movies of all the phenomena.",
@@ -136,7 +136,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 9,
-        label: 'Ext B: Further \nInvestigations of \nMirror Reflections \nand \nImages',
+        label: 'Ext B: More \non Mirror \nReflections and \nImages ',
         x    : "-700",
         y    : "-1082",
         description: "In this extension, students first learn that the location of an image of a point source in a mirror is the same distance behind the mirror surface as the source is in front.  They apply this rule to locate the position of various point source images in a plane mirror.  Then they consider what happens when light strikes multiple mirrors. Finally, they consider the accuracy of light ray diagrams that show how light behaves in situations where light is striking both shiny and non-shiny surfaces.",

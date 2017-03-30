@@ -152,7 +152,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 11,
-        label: 'Ext D: What do \nCharged Entities \nRepresent?',
+        label: 'Ext D: Nature \nof Charged \nEntities ',
         x    : "-425",
         y    : "-865",
         description: "Students consider which type of charge (+, - or both) is actually transferred when two different materials (e.g., acrylic and Styrofoam) are rubbed together.  Initially they consider all possibilities (+ is transferred, - is transferred, both are transferred), but learn about the atomic model and in the end conclude that only – charged particles (electrons) are transferred. ",
@@ -167,7 +167,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 12,
-        label: 'Ext E: What Happens \nWhen a Charged \nObject Is \nDischarged? ',
+        label: 'Ext E: Discharging \nCharged \nObjects',
         x    : "-610",
         y    : "-715",
         description: "Students use their current model for charged materials to explore and explain what happens when charged objects are discharged in terms of the movement of – charges.  They use the PhET simulation, ‘John Travoltage,’ to get feedback on their ideas, and also develop an explanation for ‘static’ shock. ",
@@ -182,7 +182,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 14,
-        label: 'Ext F: Interactions \nBetween Charged and \nUncharged Objects',
+        label: 'Ext F: Charged \nand Uncharged \nObjects ',
         x    : "-780",
         y    : "-722",
         description: "Students learn how an uncharged object (either a metal or non-metal) interacts with another charge (either + or -).  Using the PhET ‘Electric Field Hockey’ simulation, students learn that the entire uncharged metal object becomes polarized, whereas each atom in the uncharged non-metal object becomes polarized. In either case, because the negative charges in the uncharged object are now at different distances from the external charge than are the positive charges, there is a net attraction between the external charge and the uncharged object.",
