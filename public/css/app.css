@@ -12221,31 +12221,39 @@ a:active {
 }
 
 .social-bar ul {
+  display: -webkit-box;
+  display: flex;
   margin-top: 1em;
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 
 .social-bar a {
-  display: block;
-  float: left;
+  margin: 0 .25em;
   width: 40px;
   height: 40px;
   border-radius: 50%;
   background: #dedede no-repeat center center;
   -webkit-transition: background-color .2s;
   transition: background-color .2s;
-  margin: 0 3px;
-  text-align: center;
   position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
 }
 
 .social-bar a .fa {
-  position: absolute;
   color: #888888;
-  top: 25%;
-  left: 30%;
-  font-size: 20px;
+  font-size: 16px;
+}
+
+.social-bar a:hover {
+  text-decoration: none;
 }
 
 .social-bar a:hover .fa {
