@@ -48,6 +48,6 @@
         </nav>
     </div>
     
-    @include('layouts.partials._mobile_nav')
-    @include('layouts.partials._desktop_nav')
+    @include('layouts.partials.mobile_nav')
+    @include('layouts.partials.desktop_nav')
 </header>
