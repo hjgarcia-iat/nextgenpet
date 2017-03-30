@@ -70,7 +70,7 @@
                 </tr>
                 <tr>
                     <td>A5</td>
-                    <td>Explaining Phenomena involving Magnetism</td>
+                    <td>Exploring Magnetic Phenomena</td>
                     <td>90</td>
                 </tr>
                 <tr>
@@ -110,7 +110,7 @@
                 </tr>
                 <tr>
                     <td>A2</td>
-                    <td>Developing a Model for Static Electricity</td>
+                    <td>Your Initial Model for Static Electricity</td>
                     <td>120</td>
                 </tr>
                 <tr>
@@ -289,7 +289,7 @@
                 </tr>
                 <tr>
                     <td>A4</td>
-                    <td>Gravitational Interactions and Energy</td>
+                    <td>Gravitational Interactions</td>
                     <td>80</td>
                 </tr>
                 <tr>
@@ -338,7 +338,7 @@
                 </tr>
                 <tr>
                     <td>A1</td>
-                    <td>Interactions, Force and Motion</td>
+                    <td>Interactions and Force</td>
                     <td>120</td>
                 </tr>
                 <tr>
@@ -418,7 +418,7 @@
             
                 <tr>
                     <td>A2</td>
-                    <td>Balanced Forces</td>
+                    <td>Motion with Balanced Forces</td>
                     <td>90</td>
                 </tr>
                 <tr>
@@ -549,7 +549,7 @@
                 </tr>
                 <tr>
                     <td>Ext B</td>
-                    <td>Further Investigations of Mirror Reflections and Images</td>
+                    <td>More on Mirror Reflections and Images</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -664,7 +664,7 @@
                 </tr>
                 <tr>
                     <td>Ext F</td>
-                    <td>Using Characteristic Physical Properties of Matter</td>
+                    <td>Characteristic Physical Properties</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -757,7 +757,7 @@
                 </tr>
                 <tr>
                     <td>A10</td>
-                    <td>Using the Class Consensus to Explain Observations</td>
+                    <td>Using the Class Consensus Ideas to Explain Observations</td>
                     <td>90</td>
                 </tr>
             </tbody>
