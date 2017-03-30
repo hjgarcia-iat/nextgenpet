@@ -15,6 +15,12 @@
             <div class="row">
                 <div class="col-sm hidden-sm-down"></div>
                 <div class="col-sm text-center align-self-center">
+                    <img src="{{ asset('img/nextgenpetlogo.png') }}"
+                         class="center-block img-responsive"
+                         alt="NextGEN PET"
+                         width="95">
+                </div>
+                <div class="col-sm text-center align-self-center">
                     <img src="{{ asset('img/nsf.png') }}"
                          class="center-block img-responsive"
                          alt="National Science Foundation"
