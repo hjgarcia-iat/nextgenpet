@@ -12017,9 +12017,9 @@ a:active {
 }
 
 .desktop-nav {
-  background-color: #fdfdfd;
-  border-top: 1px solid #f3f3f3;
-  border-bottom: 1px solid #f3f3f3;
+  background-color: #f3f3f3;
+  border-top: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
   padding: .25em;
 }
 
