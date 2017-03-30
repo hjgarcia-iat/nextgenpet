@@ -12147,6 +12147,7 @@ a:active {
 
 .navbar-mobile {
   padding: 10px 0;
+  background: #3d3d3d !important;
 }
 
 .navbar-mobile a {
@@ -12165,8 +12166,7 @@ a:active {
 }
 
 .navbar-mobile .nav-item > a {
-  background: #111111;
-  border-bottom: 1px solid #333333;
+  background: #222222;
   padding-left: 10px;
 }
 
@@ -12176,15 +12176,15 @@ a:active {
 }
 
 .navbar-mobile .dropdown-menu {
-  background: #111111;
+  background: #222222;
   border-radius: 0;
   padding-top: 0;
   padding-bottom: 0;
+  margin-top: 0;
 }
 
 .navbar-mobile .dropdown-menu .dropdown-item {
   white-space: normal;
-  border-bottom: 1px solid #333333;
 }
 
 .navbar-mobile .dropdown-menu .dropdown-item:last-child {
@@ -12198,6 +12198,10 @@ a:active {
 
 .navbar-mobile .sublinks a.dropdown-item {
   border: none;
+}
+
+.navbar-offcanvas.navbar-mobile .dropdown-menu.shown {
+  margin-bottom: 0;
 }
 
 .title-bar {
