@@ -1,6 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle','Overview of Teaching &amp; Learning Activities')
+@section('pageTitle','Overview of Teaching &amp; Learning Materials')
 @section('sidebar')
     @include('home._sidebar')
 @stop
