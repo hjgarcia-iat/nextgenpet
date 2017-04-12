@@ -9,8 +9,8 @@
 @stop
 
 @section('content')
-    
-    
+
+
     <p>Teaching and Learning activities help
         <em>Next Gen PET</em>
        students make explicit connections between their own learning; the learning and teaching of children in elementary school; and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS. Each content module has a cluster of Teaching and Learning activities (both in-class and out-of-class extensions) aligned with the module’s content, that students can do after they have completed a small suite of general, introductory Teaching and Learning activities. (An additional cohort of general activities examines crosscutting concepts; these may be assigned at any time.)
@@ -28,18 +28,17 @@
         <a href="/studio-style-class">Studio-style Class</a>
         or
         <a href="/lecture-style-class">Lecture-style Class</a>
-        pages, under "Teaching and Learning Materials Descriptions" on the left-side menu. For more information on using Teaching and Learning activities, click on "More" below.
+        pages, under "Teaching and Learning Materials Descriptions" on the left-side menu. For more information on using Teaching and Learning activities, click on "Learn More" below.
     </p>
-    
+
     <p>
         <a href=""
            class="btn btn-primary btn-reveal">
             Learn More&hellip;
         </a>
     </p>
-    
-    <div class="reveal"
-         style="display: none;">
+
+    <div class="reveal">
         <p>
             <em>Next Gen PET</em> Teaching and Learning in-class activities and shorter extensions challenge students to identify how children are engaging in scientific practices through watching videos of children during science and engineering lessons. The longer extensions provide opportunities for students to practice identifying children's’ productive science ideas through interviews, and engaging children in the science and engineering practices. These longer extensions are further scaffolded so that undergraduates’ experiences become more complex over time. For example, in the Magnetism and Static Electricity Module, the long extension is a guided interview about magnetism. Students are guided to elicit children’s ideas about magnetism through provided questions. Later in the curriculum, during the Interactions and Forces Module, an extended out-of-class activity guides undergraduates through the teaching of a small investigation related to forces, giving them experience with facilitating instruction through the practices of the NGSS.
         </p>

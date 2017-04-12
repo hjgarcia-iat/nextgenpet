@@ -12637,7 +12637,6 @@ hr {
   color: white;
   text-align: center;
   vertical-align: middle;
-  font-weight: bold;
 }
 
 /*
@@ -12712,6 +12711,7 @@ hr {
   background: #f3f3f3;
   border: 1px solid #ececec;
   padding: 2em;
+  display: none;
 }
 
 /*
