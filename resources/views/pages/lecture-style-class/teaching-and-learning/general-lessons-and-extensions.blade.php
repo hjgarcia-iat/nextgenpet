@@ -18,13 +18,7 @@
         <h3>
             Introductory Cluster
         </h3>
-        <p>
-            To begin the
-            <em>
-                Next Gen PET
-            </em>
-            Teaching and Learning curriculum, you should assign Extensions A and B as readings to be completed before TL Activity 1 is conducted in class. This first activity should be done about halfway through the first content unit you do. Extension C, another reading, should be assigned after the first activity and before any child interview activity.
-        </p>
+        <p>To begin the <em>Next Gen PET</em> Teaching and Learning curriculum, you should assign Extensions A and B as readings to be completed before TL Lesson 1 is conducted in class. This first lesson should be done about halfway through the first content unit you do. Extension C, another reading, should be assigned after the first lesson and before any child interview activity.</p>
 
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
@@ -57,7 +51,7 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>Assign</strong>: Early in first unit of content, before TL A1.  Before or concurrently with TL Ext B.
+                        <strong>Assign</strong>: Early in first unit of content, before TL L1.  Before or concurrently with TL Ext B.
                     </td>
                 </tr>
                 <tr class="highlight">
@@ -76,11 +70,11 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>Assign</strong>: Early in first unit of content, before TL A1. After or concurrently with TL Ext A.
+                        <strong>Assign</strong>: Early in first unit of content, before TL L1. After or concurrently with TL Ext A.
                     </td>
                 </tr>
                 <tr class="highlight">
-                    <td>A1</td>
+                    <td>L1/A1</td>
                     <td>Teaching and Learning Science</td>
                     <td>MSE/All</td>
                     <td>Intro All</td>
@@ -90,14 +84,12 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Introduction to the Next Generation Science Standards (NGSS) and how the three components (Disciplinary Core Ideas, Science and Engineering Practices, and Crosscutting Concepts) are interwoven in instruction. Though an example is provided from Magnetism, this lesson can be used to introduce the NGSS regardless of what module or unit you start your instruction with.
-                    </td>
+                    <td colspan="6">Introduction to the Next Generation Science Standards (NGSS) and how the three components (Disciplinary Core Ideas, Science and Engineering Practices, and Crosscutting Concepts) are interwoven in instruction. Though an example is provided from Magnetism, this lesson can be used to introduce the NGSS regardless of what module or unit you start your instruction with.</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>In class</strong>: After TL Ext A/B, about midway through the first unit you do. If you start with Unit M, do after UM A4.
+                        <strong>In class</strong>: After TL Ext A/B, about midway through the first unit you do. If you start with Unit M, do after UM L4.
                     </td>
                 </tr>
                 <tr class="highlight">
@@ -107,18 +99,16 @@
                     <td>-</td>
                     <td>-</td>
                     <td>Reading</td>
-                    <td>A1</td>
+                    <td>L1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="6">Brief reading that describes why and how to conduct “student thinking interviews.” Student thinking interviews are an important part of the group projects done as part of some T&L extension activities throughout Next Gen PET. </td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        Brief reading that describes why and how to conduct “student thinking interviews.” Student thinking interviews are an important part of the group projects done as part of some T&L extension activities throughout Next Gen PET.
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td colspan="6">
-                        <strong>Assign</strong>: After TL A1, before any interview extension (Ext D, G, I, L, O).
+                        <strong>Assign</strong>: After TL L1, before any interview extension (Ext D, G, I, L, O).
                     </td>
                 </tr>
             </tbody>
@@ -127,9 +117,7 @@
         <h3>
             Post-Introductory Cluster
         </h3>
-        <p>
-            Extensions P, Q, R, and S all deal with crosscutting concepts. Although some of their content connects them with specific content modules, they can be assigned during any module, at any time. Activity 12, the only in-class activity in this cluster, is a "sequel" of sorts to Activity 1, and just as Activity 1 (after a couple reading extensions) is intended to begin the Teaching and Learning curriculum, Activity 12 is intended to close it. It is, in essence, a reflection activity on the Teaching and Learning material covered during the academic term, regardless of how much of the available material you were able to include in your course.
-        </p>
+        <p>Extensions P, Q, R, and S all deal with crosscutting concepts. Although some of their content connects them with specific content modules, they can be assigned during any module, at any time. Lesson 12, the only in-class lesson in this cluster, is a “sequel” of sorts to Lesson 1, and just as Lesson 1 (after a couple reading extensions) is intended to begin the Teaching and Learning curriculum, Lesson 12 is intended to close it. It is, in essence, a reflection activity on the Teaching and Learning material covered during the academic term, regardless of how much of the available material you were able to include in your course. </p>
 
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
@@ -151,7 +139,7 @@
                     <td></td>
                     <td>2</td>
                     <td>Online</td>
-                    <td>A1</td>
+                    <td>L1</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -162,7 +150,7 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>Assign</strong>: Anytime after TL A1 and before TL A12.
+                        <strong>Assign</strong>: Anytime after TL L1 and before TL L12.
                     </td>
                 </tr>
                 <tr class="highlight">
@@ -172,18 +160,16 @@
                     <td></td>
                     <td>4,5</td>
                     <td>Online</td>
-                    <td>A1</td>
+                    <td>L1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="6">Introduces the crosscutting concepts of systems and system models (CC 4) and matter and energy (CC 5). Includes everyday examples and examples from energy (IE), chemistry (MI) and life science.</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        Introduces the crosscutting concepts of systems and system models (CC 4) and matter and energy (CC 5). Includes everyday examples and examples from energy (IE), chemistry (MI) and life science.
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td colspan="6">
-                        <strong>Assign</strong>: Anytime after TL A1 and before TL A12.
+                        <strong>Assign</strong>: Anytime after TL L1 and before TL L12.
                     </td>
                 </tr>
                 <tr class="highlight">
@@ -193,18 +179,16 @@
                     <td></td>
                     <td>7,3</td>
                     <td>Online</td>
-                    <td>A1</td>
+                    <td>L1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="6">Introduces the crosscutting concepts stability (CC 7) and change and scale, proportion, and quantity (CC3). Includes everyday examples and examples from forces (IF), chemistry (MI) and earth science.</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        Introduces the crosscutting concepts stability (CC 7) and change and scale, proportion, and quantity (CC3). Includes everyday examples and examples from forces (IF), chemistry (MI) and earth science.
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td colspan="6">
-                        <strong>Assing</strong>: Anytime after TL A1 and before TL A12.
+                        <strong>Assing</strong>: Anytime after TL L1 and before TL L12.
                     </td>
                 </tr>
                 <tr class="highlight">
@@ -214,13 +198,11 @@
                     <td></td>
                     <td>1</td>
                     <td>Online</td>
-                    <td>A1</td>
+                    <td>L1</td>
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Introduces the crosscutting concept patterns (CC 1). Includes everyday examples and examples from waves (WSL), and earth science.
-                    </td>
+                    <td colspan="6">Introduces the crosscutting concept patterns (CC 1). Includes everyday examples and examples from waves (WSL), and earth science.</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -229,7 +211,7 @@
                     </td>
                 </tr>
                 <tr class="highlight">
-                    <td>A12</td>
+                    <td>L12</td>
                     <td>Teaching and Learning Science II</td>
                     <td>All</td>
                     <td></td>
@@ -239,14 +221,12 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Next Gen PET students reflect on what they think constitutes good science instruction. They also review the crosscutting concepts of the NGSS and reflect on how they relate to the current content module and a previous one.
-                    </td>
+                    <td colspan="6">Next Gen PET students reflect on what they think constitutes good science instruction. They also review the crosscutting concepts of the NGSS and reflect on how they relate to the current content module and a previous one.</td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>In class</strong>: Near end of the semester.  It would be best if students have already completed at least some of the TL activities and extensions, especially Extensions P, Q, R and S (which focus on crosscutting concepts).
+                        <strong>In class</strong>: Near end of the semester.  It would be best if students have already completed at least some of the TL lessons/activities and extensions, especially Extensions P, Q, R and S (which focus on crosscutting concepts).
                     </td>
                 </tr>
             </tbody>

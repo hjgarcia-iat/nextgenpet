@@ -13,11 +13,7 @@
             Introductory Cluster
         </h3>
         <p>
-            To begin the
-            <em>
-                Next Gen PET
-            </em>
-            Teaching and Learning curriculum, you should assign Extensions A and B as readings to be completed before TL Activity 1 is conducted in class. This first activity should be done about halfway through the first content unit you do. Extension C, another reading, should be assigned after the first activity and before any child interview activity.
+            To begin the <em>Next Gen PET</em> Teaching and Learning curriculum, you should assign Extensions A and B as readings to be completed before TL Activity 1 is conducted in class. This first activity should be done about halfway through the first content unit you do. Extension C, another reading, should be assigned after the first activity and before any child interview activity.
         </p>
 
         <table class="table table-bordered table-hover table-sm table-responsive">
@@ -44,9 +40,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Brief reading that introduces the Next Generation Science Standards (NGSS) and the relationship between performance expectations and the three dimensions that contribute to the performance expectations: disciplinary core ideas, science and engineering practices, and crosscutting concepts.
-                    </td>
+                    <td colspan="6">Brief reading that introduces the Next Generation Science Standards (NGSS) and the relationship between performance expectations and the three dimensions that contribute to the performance expectations: disciplinary core ideas, science and engineering practices, and crosscutting concepts. </td>
                 </tr>
                 <tr>
                     <td></td>
@@ -65,7 +59,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">Brief reading that describes the three stages that the NGSS uses to describe engineering design: 1) Define and delimit problem, 2) Develop possible solutions, and 3) Optimizing the design solution. The second part of the reading describes how the 8 science and engineering practices differ between science and engineering.   </td>
+                    <td colspan="6">Brief reading that describes the three stages that the NGSS uses to describe engineering design: 1) Define and delimit problem, 2) Develop possible solutions, and 3) Optimizing the design solution. The second part of the reading describes how the 8 science and engineering practices differ between science and engineering.</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -84,9 +78,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Introduction to the Next Generation Science Standards (NGSS) and how the three components (Disciplinary Core Ideas, Science and Engineering Practices, and Crosscutting Concepts) are interwoven in instruction. Though an example is provided from Magnetism, this lesson can be used to introduce the NGSS regardless of what module or unit you start your instruction with.
-                    </td>
+                    <td colspan="6">Introduction to the Next Generation Science Standards (NGSS) and how the three components (Disciplinary Core Ideas, Science and Engineering Practices, and Crosscutting Concepts) are interwoven in instruction. Though an example is provided from Magnetism, this lesson can be used to introduce the NGSS regardless of what module or unit you start your instruction with.</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -105,9 +97,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        Brief reading that describes why and how to conduct “student thinking interviews.” Student thinking interviews are an important part of the group projects done as part of some T&L extension activities throughout Next Gen PET.
-                    </td>
+                    <td colspan="6">Brief reading that describes why and how to conduct “student thinking interviews.” Student thinking interviews are an important part of the group projects done as part of some T&L extension activities throughout Next Gen PET. </td>
                 </tr>
                 <tr>
                     <td></td>
@@ -121,9 +111,7 @@
         <h3>
             Post-Introductory Cluster
         </h3>
-        <p>
-            Extensions P, Q, R, and S all deal with crosscutting concepts. Although some of their content connects them with specific content modules, they can be assigned during any module, at any time. Activity 12, the only in-class activity in this cluster, is a "sequel" of sorts to Activity 1, and just as Activity 1 (after a couple reading extensions) is intended to begin the Teaching and Learning curriculum, Activity 12 is intended to close it. It is, in essence, a reflection activity on the Teaching and Learning material covered during the academic term, regardless of how much of the available material you were able to include in your course.
-        </p>
+        <p>Extensions P, Q, R, and S all deal with crosscutting concepts. Although some of their content connects them with specific content modules, they can be assigned during any module, at any time. Activity 12, the only in-class activity in this cluster, is a “sequel” of sorts to Activity 1, and just as Activity 1 (after a couple reading extensions) is intended to begin the Teaching and Learning curriculum, Activity 12 is intended to close it. It is, in essence, a reflection activity on the Teaching and Learning material covered during the academic term, regardless of how much of the available material you were able to include in your course. </p>
 
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>

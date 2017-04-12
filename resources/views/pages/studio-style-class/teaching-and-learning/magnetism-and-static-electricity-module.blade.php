@@ -14,12 +14,8 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Magnetism and Static Electricity Module - Teaching &amp; Learning</h3>
-        <p>
-            Each Teaching and Learning lesson and extension in the Module MSE (Developing Models for Magnetism and Static Electricity) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for lessons) and the format (for extensions), and the pre-requisite TL activities (if any).  Below each description is a suggestion for when you should conduct the in-class lesson or assign the extension.  There is a list of the NGSS science and engineering practices and the crosscutting concepts following the table.
-        </p>
-        <p>
-            Note that Extension D is a group project involving the interviewing of children. This project typically takes 2-3 weeks from initial assignment to the time the final individual and group reports are turned in. Although the physical science content (magnetism) is associated with Unit M, by the time students are done with the project, the class will (probably) be on a different unit. Thus, the follow-up Lesson 2, where students reflect on their interactions with the children they interviewed, will not be connected to your current unit.
-        </p>
+        <p>Each Teaching and Learning activity and extension in the Module MSE (Developing Models for Magnetism and Static Electricity) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for activities) and the format (for extensions), and the pre-requisite TL lessons (if any).  Below each description is a suggestion for when you should conduct the in-class activity or assign the extension.  There is a list of the NGSS science and engineering practices and the crosscutting concepts following the table.</p>
+        <p>Note that Extension D is a group project involving the interviewing of children. This project typically takes 2-3 weeks from initial assignment to the time the final individual and group reports are turned in. Although the physical science content (magnetism) is associated with Unit M, by the time students are done with the project, the class will (probably) be on a different unit. Thus, the follow-up Activity 2, where students reflect on their interactions with the children they interviewed, will not be connected to your current unit. </p>
 
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
@@ -62,22 +58,20 @@
                     <td>All</td>
                     <td></td>
                     <td>Online</td>
-                    <td>L1</td>
+                    <td>A1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td colspan="6">An online extension that introduces students to engineering design as described by the NGSS and to engineering design used in the Engineering is Elementary (EiE) materials. Students will be watching EiE classroom videos as part of many of the TL extensions throughout Next Gen PET curriculum. In this activity they watch two videos of children designing Mag Lev train systems. </td>
                 </tr>
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        An online extension that introduces students to engineering design as described by the NGSS and to engineering design used in the Engineering is Elementary (EiE) materials. Students will be watching EiE classroom videos as part of many of the TL extensions throughout Next Gen PET curriculum. In this activity they watch two videos of children designing Mag Lev train systems.
-                    </td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td colspan="6">
-                        <strong>Assign</strong>: After TL L1 and before first engineering design lesson or activity.  In Unit M, before L6. If first ED activity is not in Units M or PEF, instructor may want to talk briefly about the law of magnetic poles and maglev trains before assigning Ext E.
+                        <strong>Assign</strong>: After TL A1 and before first engineering design lesson or activity.  In Unit M, before A6. If first ED activity is not in Units M or PEF, instructor may want to talk briefly about the law of magnetic poles and maglev trains before assigning Ext E.
                     </td>
                 </tr>
                 <tr class="highlight">
-                    <td>L2</td>
+                    <td>A2</td>
                     <td>Models, Magnets and Children’s Ideas (NGSS Practice 2)</td>
                     <td>MSE</td>
                     <td>2</td>
@@ -87,9 +81,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">
-                        In class discussion and reflection on the interviews with children that the Next Gen PET students conducted as part of Ext D. Next Gen PET students also look at drawings of children’s models as a way to think about assumptions and approximation used in models. Comparing children’s ideas across multiple ages provides Next Gen PET students an opportunity to think about how ideas develop over time.  The focus is on NGSS Practice 2 (developing and using models).
-                    </td>
+                    <td colspan="6">In class discussion and reflection on the interviews with children that the Next Gen PET students conducted as part of Ext D. Next Gen PET students also look at drawings of children’s models as a way to think about assumptions and approximation used in models. Comparing children’s ideas across multiple ages provides Next Gen PET students an opportunity to think about how ideas develop over time.  The focus is on NGSS Practice 2 (developing and using models). </td>
                 </tr>
                 <tr>
                     <td></td>
