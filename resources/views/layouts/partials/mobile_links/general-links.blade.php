@@ -1,6 +1,6 @@
-<li class="nav-item {{ (Request::is('help')) ? 'active' : '' }}">
+<li class="nav-item">
     <a class="nav-link"
-       href="#help">Help
+       href="#contact">Contact
     </a>
 </li>
 <li class="nav-item dropdown">
