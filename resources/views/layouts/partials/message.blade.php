@@ -8,15 +8,14 @@
                 aria-label="Close">
             <i class="fa fa-times"></i>
         </button>
-        <strong>Success!</strong>
-        {{ Session::get('success') }}
+        Your message was sent! We will get back to your shortly.
     </div>
 
 @endif
 
 @if(Session::has('error'))
     
-    <div class="alert alert-success alert-dismissible"
+    <div class="alert alert-danger alert-dismissible"
          role="alert">
         <button type="button"
                 class="close"
@@ -24,8 +23,9 @@
                 aria-label="Close">
             <i class="fa fa-times"></i>
         </button>
-        {{ Session::get('error') }}
+        Please see errors below
     </div>
 
 @endif
+
 

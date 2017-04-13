@@ -124,7 +124,7 @@
                 </tr>
                 <tr>
                     <td>Ext D</td>
-                    <td>What do the Charged Entities Represent?</td>
+                    <td>Nature of Charged Entities</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -134,12 +134,12 @@
                 </tr>
                 <tr>
                     <td>Ext E</td>
-                    <td>What Happens When a Charged Object is Discharged?</td>
+                    <td>Discharging Charged Objects</td>
                     <td>online</td>
                 </tr>
                 <tr>
                     <td>Ext F</td>
-                    <td>Interactions Between Charged and Uncharged Objects</td>
+                    <td>Charged and Uncharged Objects</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -277,7 +277,7 @@
                 </tr>
                 <tr>
                     <td>Ext B</td>
-                    <td>More on Magnetic and Static Electric Interactions (optional)</td>
+                    <td>Representing Magnetic Poles and Electric Charges (optional)</td>
                     <td>online</td>
                 </tr>
             
@@ -493,7 +493,7 @@
                 </tr>
                 <tr>
                     <td>Ext B</td>
-                    <td>An Analogy for Refraction.</td>
+                    <td>Wave Refraction</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -523,7 +523,7 @@
                 </tr>
                 <tr>
                     <td>L1</td>
-                    <td>Pinholes and Shadows</td>
+                    <td>Light Waves, Pinholes, and Images</td>
                     <td>75</td>
                 </tr>
                 <tr>
@@ -539,7 +539,7 @@
                 </tr>
                 <tr>
                     <td>Ext B</td>
-                    <td>Further Investigations of Mirror Reflections and Images</td>
+                    <td>More on Mirror Reflections and Images</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -549,7 +549,7 @@
                 </tr>
                 <tr>
                     <td>L4</td>
-                    <td>Color</td>
+                    <td>Light and Color</td>
                     <td>70</td>
                 </tr>
                 <tr>
@@ -594,17 +594,17 @@
             
                 <tr>
                     <td>L2</td>
-                    <td>The Small Particle Theory of Gases</td>
+                    <td>Small Particle Theory of Gases</td>
                     <td>60</td>
                 </tr>
                 <tr>
                     <td>Ext H</td>
-                    <td>Properties of Gases and SPT</td>
+                    <td>Pressure, Temperature, Mixture of Gases, and Average KE</td>
                     <td>online</td>
                 </tr>
                 <tr>
                     <td>L3</td>
-                    <td>Pressure and SPT</td>
+                    <td>Pressure and the SPT</td>
                     <td>40</td>
                 </tr>
                 <tr>
@@ -640,17 +640,17 @@
                 </tr>
                 <tr>
                     <td>Ext L</td>
-                    <td>Explanations involving Heating and Cooling</td>
+                    <td>Explanations Involving Physical Changes in Liquids and Solids</td>
                     <td>online</td>
                 </tr>
                 <tr>
                     <td>L7</td>
-                    <td>Changes of State and SPT</td>
+                    <td>Changes of State and Small Particle Theory</td>
                     <td>50</td>
                 </tr>
                 <tr>
                     <td>Ext M</td>
-                    <td>Heating Curves and SPT</td>
+                    <td>Heating Curves, Melting and Boiling Points</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -713,7 +713,7 @@
                 </tr>
                 <tr>
                     <td>Ext G</td>
-                    <td>Characteristic Properties</td>
+                    <td>Characteristic Physical Properties</td>
                     <td>online</td>
                 </tr>
                 <tr>

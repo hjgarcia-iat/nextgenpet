@@ -1,0 +1,174 @@
+/*
+//
+// General
+// --------------------------------------------------
+*/
+
+body {
+    font-family : $font-family-sans-serif-text;
+    color       : $general-color-dark-gray;
+    line-height : 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family    : $font-family-sans-serif-heading;
+    text-transform : uppercase;
+}
+
+sub, sup {
+    /* Specified in % so that the sup/sup is the
+       right size relative to the surrounding text */
+    font-size      : 75%;
+    /* Zero out the line-height so that it doesn't
+       interfere with the positioning that follows */
+    line-height    : 0;
+    /* Where the magic happens: makes all browsers position
+       the sup/sup properly, relative to the surrounding text */
+    position       : relative;
+    /* Note that if you're using Eric Meyer's reset.css, this
+       is already set and you can remove this rule */
+    vertical-align : baseline;
+}
+
+sup {
+    /* Move the superscripted text up */
+    top : -0.5em;
+}
+
+sub {
+    /* Move the subscripted text down, but only
+       half as far down as the superscript moved up */
+    bottom : -0.25em;
+}
+
+h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
+    font-size : .45em;
+    top       : -1.2em;
+}
+
+//Font sizing fixes
+@include media-breakpoint-up(md) {
+    html { font-size : 17px; }
+}
+
+@include media-breakpoint-up(xl) {
+    html { font-size : 17px; }
+}
+
+@include media-breakpoint-down(sm) {
+    html { font-size : 18px; }
+}
+
+/*
+//
+// Buttons and General Links Styles
+// --------------------------------------------------
+*/
+/* unvisited link */
+a:link {
+    color  : #fd7600;
+    cursor : pointer;
+}
+
+button {
+    cursor : pointer;
+}
+
+/* visited link */
+a:visited {
+    color : #fd7600;
+}
+
+/* mouse over link */
+a:hover {
+    color           : #fd7600;
+    text-decoration : underline;
+}
+
+/* selected link */
+a:active {
+    color : #fd7600;
+}
+
+.btn {
+    color          : #ffffff !important;
+    border-radius  : 0;
+    font-family    : $font-family-sans-serif-heading;
+    text-transform : uppercase;
+    cursor         : pointer;
+}
+
+.btn-primary {
+    background   : #fd7600;
+    border-color : darken(#fd7600, 5%);
+
+    &:hover {
+        background   : darken(#fd7600, 10%);
+        border-color : lighten(#fd7600, 15%);
+    }
+}
+
+/*
+//
+// Images
+// --------------------------------------------------
+*/
+.img-circle {
+    border-radius : 50%;
+}
+
+/*
+//
+// Forms
+// --------------------------------------------------
+*/
+.form-control {
+    color         : #292b2c;
+    border        : 1px solid rgba(0, 0, 0, 0.15);
+    border-radius : 0;
+}
+
+.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color : #cccccc;
+}
+
+.form-control::-moz-placeholder { /* Firefox 19+ */
+    color : #cccccc;
+}
+
+.form-control:-ms-input-placeholder { /* IE 10+ */
+    color : #cccccc;
+}
+
+.form-control:-moz-placeholder { /* Firefox 18- */
+    color : #cccccc;
+}
+
+.form-control:focus {
+    border-color : #fd7600;
+}
+
+/*
+//
+// For Medium Screen and Up Styles
+// --------------------------------------------------
+*/
+@include media-breakpoint-up(md) {
+
+
+    //the code below achieves a footer
+
+    html {
+        height: 100%;
+    }
+
+    body {
+        display        : flex;
+        min-height: 100%;
+        flex-direction : column;
+    }
+
+    .page-content-wrapper {
+        flex: 1 0 auto;
+    }
+}

@@ -7,4 +7,3 @@
 @endif
 
 @yield('styles')
-

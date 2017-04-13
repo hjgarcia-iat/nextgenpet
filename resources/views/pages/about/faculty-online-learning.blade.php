@@ -1,8 +1,6 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    Faculty Online Learning Community for NGP
-@stop
+@section('pageTitle','Faculty Online Learning Community for NGP')
 
 @section('sidebar')
     @include('home._sidebar')

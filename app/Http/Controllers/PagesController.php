@@ -4,8 +4,6 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-use App\Http\Requests;
-
 /**
  * Class PagesController
  *
@@ -23,18 +21,17 @@ class PagesController extends Controller
     public function show(Request $request)
     {
         //load the page if the request path is the home page
-        if($request->path() == '/') {
+        if ($request->path() == '/') {
             return view('pages.index');
         }
 
-
         //load subdir home page if necessary
-        if(\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
+        if (\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
             return view('pages.' . $request->path() . '.index');
         }
 
         //load subdir view (not the home page)
-        if(\File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php')) {
+        if (\File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php')) {
             return view('pages.' . $request->path());
         }
 
