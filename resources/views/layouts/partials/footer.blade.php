@@ -101,7 +101,7 @@
                                           class="form-control{{ ($errors->first('comment') ? ' form-control-danger' : '') }}"
                                           cols="30"
                                           placeholder="Enter Message"
-                                          rows="10">{{ old('comment') }}</textarea>
+                                          rows="5">{{ old('comment') }}</textarea>
                                 
                                 {!! $errors->first('comment','<div class="form-control-feedback">:message</div>') !!}
                             </div>
