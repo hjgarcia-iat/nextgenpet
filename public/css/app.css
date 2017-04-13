@@ -12288,7 +12288,7 @@ a:active {
   background: #e75200;
   color: #ffffff;
   border-color: #dd4e00;
-  padding: 1em;
+  padding: .7em;
 }
 
 .page-footer .form input.form-control::-webkit-input-placeholder, .page-footer .form textarea.form-control::-webkit-input-placeholder {

@@ -37,40 +37,47 @@
         <div class="page-footer-content">
             <div class="row">
                 <div class="col-md-12">
-                    <h4 class="text-center">
+                    <h3 class="text-center">
                         We'd love to hear from you
-                    </h4>
-                    {!! Form::open(['url' => route('help.post'), 'class' => 'form', 'id' => 'help']) !!}
+                    </h3>
+                    {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'help']) !!}
                     {!! Honeypot::generate('my_name', 'my_time') !!}
-                    
                     <div class="row">
                         <div class="col-sm-12 col-md-8 offset-sm-0 offset-md-2">
-                            <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">
-                                <label for="name"
-                                       class="sr-only">Name
-                                </label>
-                                <input type="text"
-                                       class="form-control{{ ($errors->first('name') ? ' form-control-danger' : '') }}"
-                                       id="name"
-                                       name="name"
-                                       required="required"
-                                       placeholder="Enter name..."
-                                       value="{{ old('name') }}">
-                                {!! $errors->first('name','<div class="form-control-feedback">:message</div>') !!}
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">
+                                        <label for="name"
+                                               class="sr-only">Name
+                                        </label>
+                                        <input type="text"
+                                               class="form-control{{ ($errors->first('name') ? ' form-control-danger' : '') }}"
+                                               id="name"
+                                               name="name"
+                                               required="required"
+                                               placeholder="Enter Full Name"
+                                               value="{{ old('name') }}">
+                                        {!! $errors->first('name','<div class="form-control-feedback">:message</div>') !!}
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group{{ ($errors->first('email') ? ' has-danger' : '') }}">
+                                        <label for="email"
+                                               class="sr-only">Email Address
+                                        </label>
+                                        <input type="email"
+                                               class="form-control{{ ($errors->first('email') ? ' form-control-danger' : '') }}"
+                                               id="email"
+                                               name="email"
+                                               required="required"
+                                               placeholder="Enter Email Address"
+                                               value="{{ old('email') }}">
+                                        {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
+                                    </div>
+                                </div>
                             </div>
-                            <div class="form-group{{ ($errors->first('email') ? ' has-danger' : '') }}">
-                                <label for="email"
-                                       class="sr-only">Email Address
-                                </label>
-                                <input type="email"
-                                       class="form-control{{ ($errors->first('email') ? ' form-control-danger' : '') }}"
-                                       id="email"
-                                       name="email"
-                                       required="required"
-                                       placeholder="Enter email address..."
-                                       value="{{ old('email') }}">
-                                {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
-                            </div>
+                            
+                            
                             <div class="form-group{{ ($errors->first('subject') ? ' has-danger' : '') }}">
                                 <label for="subject"
                                        class="sr-only">Subject
@@ -80,7 +87,7 @@
                                        id="subject"
                                        name="subject"
                                        required="required"
-                                       placeholder="Enter subject..."
+                                       placeholder="Enter Subject"
                                        value="{{ old('subject') }}">
                                 {!! $errors->first('subject','<div class="form-control-feedback">:message</div>') !!}
                             </div>
@@ -93,7 +100,7 @@
                                           required="required"
                                           class="form-control{{ ($errors->first('comment') ? ' form-control-danger' : '') }}"
                                           cols="30"
-                                          placeholder="Enter message..."
+                                          placeholder="Enter Message"
                                           rows="10">{{ old('comment') }}</textarea>
                                 
                                 {!! $errors->first('comment','<div class="form-control-feedback">:message</div>') !!}
