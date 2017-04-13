@@ -12,7 +12,7 @@
              class="pdf-content"></section>
     <section id="html-content"
              class="html-content">
-        <h3>Teaching and Learning — General Lessons and Extensions</h3>
+        <h3>Teaching &amp; Learning — General Lessons &amp; Extensions</h3>
         <h5>
             Introductory Cluster
         </h5>
