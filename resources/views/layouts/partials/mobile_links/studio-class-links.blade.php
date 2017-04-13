@@ -112,7 +112,7 @@
                  class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
                 <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
                    href="{{ url('studio-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
-                    <span>General Lessons &amp; Extensions</span>
+                    <span>General Activities &amp; Extensions</span>
                 </a>
                 <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') ? ' active' : '') }}"
                    href="{{ url('studio-style-class/teaching-and-learning/magnetism-and-static-electricity-module') }}">
