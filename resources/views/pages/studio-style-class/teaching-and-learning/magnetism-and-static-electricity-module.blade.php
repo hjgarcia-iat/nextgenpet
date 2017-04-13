@@ -15,7 +15,7 @@
              class="pdf-content"></section>
     <section id="html-content"
              class="html-content">
-        <h3>Teaching &amp; Learning - Module MSE Cluster</h3>
+        <h3>Teaching &amp; Learning &mdash; Module MSE Cluster</h3>
         <p>Each Teaching and Learning activity and extension in the Module MSE (Developing Models for Magnetism and
            Static Electricity) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class
            time needed (for activities) and the format (for extensions), and the pre-requisite TL lessons (if any).

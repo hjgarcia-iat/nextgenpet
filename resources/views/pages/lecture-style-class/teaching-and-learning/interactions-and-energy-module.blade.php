@@ -14,7 +14,7 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
 
-        <h3>Teaching &amp; Learning - Module IE Cluster</h3>
+        <h3>Teaching &amp; Learning &mdash; Module IE Cluster</h3>
         <p>
             Each Teaching and Learning lesson and extension in the Module IE (Interactions and Energy) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for lessons) and the format (for extensions), and the pre-requisite TL activities (if any).  Below each description is a suggestion for when you should conduct the in-class lesson or assign the extension.  There is a list of the NGSS science and engineering practices and the crosscutting concepts following the table.
         </p>

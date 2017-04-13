@@ -12,7 +12,7 @@
     <section class="html-content"
              id="html-content">
         <h3>
-            Teaching &amp; Learning — General Activities &amp; Extensions
+            Teaching &amp; Learning &mdash; General Activities &amp; Extensions
         </h3>
         <h5>
             Introductory Cluster
