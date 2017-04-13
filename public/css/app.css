@@ -12267,10 +12267,44 @@ a:active {
   }
 }
 
+.page-footer-logos {
+  margin: 2em 0;
+}
+
 .page-footer {
-  background: #f3f3f3;
-  border-top: 1px solid #ececec;
-  padding: 20px 0 50px;
+  padding: 3em 0;
+  background: #f68d2d;
+  color: #ffffff;
+  border-top: 1px solid #e6730a;
+}
+
+.page-footer .form .btn.btn-primary {
+  color: #f68d2d !important;
+  font-weight: bold;
+  background: #ffffff;
+}
+
+.page-footer .form input.form-control, .page-footer .form textarea.form-control {
+  background: #e75200;
+  color: #ffffff;
+  border-color: #dd4e00;
+  padding: 1em;
+}
+
+.page-footer .form input.form-control::-webkit-input-placeholder, .page-footer .form textarea.form-control::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.page-footer .form input.form-control::-moz-placeholder, .page-footer .form textarea.form-control::-moz-placeholder {
+  color: #ffffff;
+}
+
+.page-footer .form input.form-control:-ms-input-placeholder, .page-footer .form textarea.form-control:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.page-footer .form input.form-control::placeholder, .page-footer .form textarea.form-control::placeholder {
+  color: #ffffff;
 }
 
 /*

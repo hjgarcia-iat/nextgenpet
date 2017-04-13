@@ -17,8 +17,8 @@
                 </a>
             </li>
          
-            <li class="nav-item {{ (Request::is('help')) ? 'active' : '' }}">
-                <a class="nav-link" href="{{ url('help') }}">Help</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#help">Help</a>
             </li>
         
             <li class="nav-item dropdown">
