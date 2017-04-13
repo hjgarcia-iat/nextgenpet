@@ -72,7 +72,7 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>In class</strong>: In class: After students complete Unit CF Ext D (which is assigned after UCF L3) and TL Ext H.
+                        <strong>In class</strong>: After students complete Unit CF Ext D (which is assigned after UCF L3) and TL Ext H.
                     </td>
                 </tr>
                 <tr class="highlight">

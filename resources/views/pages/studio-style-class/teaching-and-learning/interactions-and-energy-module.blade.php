@@ -37,7 +37,7 @@
                     <td>1,4</td>
                     <td></td>
                     <td>Paper</td>
-                    <td>A-1 C</td>
+                    <td>A1</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -56,7 +56,7 @@
                     <td>1,4</td>
                     <td></td>
                     <td>50min</td>
-                    <td>A1</td>
+                    <td>Ext F</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -70,7 +70,7 @@
                 </tr>
                 <tr class="highlight">
                     <td>Ext G</td>
-                    <td>Models, Magnets and Children’s Ideas (NGSS Practice 2)</td>
+                    <td>Energy and Evidence: Interviewing Children about Energy</td>
                     <td>IE</td>
                     <td>4,7</td>
                     <td></td>
@@ -79,7 +79,7 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td colspan="6">In class discussion and reflection on the interviews with children that the Next Gen PET students conducted as part of Ext D. Next Gen PET students also look at drawings of children’s models as a way to think about assumptions and approximation used in models. Comparing children’s ideas across multiple ages provides Next Gen PET students an opportunity to think about how ideas develop over time.  The focus is on NGSS Practice 2 (developing and using models). </td>
+                    <td colspan="6">Next Gen PET students interview children about their ideas about energy. They also provide the children with some age-appropriate representations of data relating to changing temperatures of a liquid and ask students to draw some conclusions.  The NGP students collaborate with their group to produce a report synthesizing the results of their interviews.</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -93,7 +93,7 @@
                     <td>IE</td>
                     <td>4</td>
                     <td></td>
-                    <td>15min</td>
+                    <td>15 min</td>
                     <td>Ext G</td>
                 </tr>
                 <tr>

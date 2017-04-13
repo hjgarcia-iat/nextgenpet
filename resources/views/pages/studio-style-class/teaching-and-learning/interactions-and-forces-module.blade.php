@@ -141,7 +141,7 @@
                 <td>
                     Ext J
                 </td>
-                <td>Forces, Friction, and Facilitating Investigations</td>
+                <td>Common Ideas about Force and Motion</td>
                 <td>IF</td>
                 <td></td>
                 <td></td>

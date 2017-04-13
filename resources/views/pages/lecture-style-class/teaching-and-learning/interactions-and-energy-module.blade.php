@@ -95,7 +95,7 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>Assing</strong>: After TL Ext C, TL L3 and Unit EM L5.
+                        <strong>Assign</strong>: After TL Ext C, TL L3 and Unit EM L5.
                     </td>
                 </tr>
                 <tr class="highlight">

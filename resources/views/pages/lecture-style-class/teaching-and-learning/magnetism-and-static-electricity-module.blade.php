@@ -95,7 +95,7 @@
                 <tr>
                     <td></td>
                     <td colspan="6">
-                        <strong>Assing</strong>: After students complete all reports associated with Ext D children’s interview task.
+                        <strong>In class</strong>: After students complete all reports associated with Ext D children’s interview task.
                     </td>
                 </tr>
             </tbody>
