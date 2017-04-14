@@ -40,7 +40,7 @@
                     <h3 class="text-center">
                         We'd love to hear from you
                     </h3>
-                    {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'help']) !!}
+                    {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'contact']) !!}
                     {!! Honeypot::generate('my_name', 'my_time') !!}
                     <div class="row">
                         <div class="col-sm-12 col-md-8 offset-sm-0 offset-md-2">
