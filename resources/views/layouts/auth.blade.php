@@ -8,11 +8,10 @@
         <div class="page-wrapper h-100 d-flex flex-column">
             <div class="site-header-wrapper">
                 @include('layouts.partials.header')
-                @include('layouts.partials._page_title')
             </div>
         
             <div class="page-content-wrapper">
-                <div class="container h-100">
+                <div class="container">
                     @include('layouts.partials.message')
                     <div class="row align-items-center h-100">
                         <div class="col-md-6 push-md-3 well">@yield('content')</div>
@@ -21,10 +20,9 @@
             </div>
             
             <div class="page-footer-wrapper mt-auto">
-                @include('layouts.partials.footer')
+                @include('layouts.partials._footer_form')
             </div>
         </div>
         @include('layouts.partials.scripts')
-        @include('sweet::alert')
     </body>
 </html>

@@ -108,6 +108,14 @@ a:active {
     }
 }
 
+.btn-default {
+    background : #cccccc !important;
+    color      : $general-color-dark-gray !important;
+    &:hover {
+        background   : darken(#cccccc, 10%) !important;
+        border-color : lighten($general-color-dark-gray, 15%) !important;
+    }
+}
 /*
 //
 // Images
