@@ -2356,6 +2356,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .form-inline {
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-align: center;
   align-items: center;
@@ -2380,6 +2382,8 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
     display: flex;
     -webkit-box-flex: 0;
     flex: 0 0 auto;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-flow: row wrap;
     -webkit-box-align: center;
     align-items: center;
@@ -4277,6 +4281,8 @@ tbody.collapse.show {
   .card-deck {
     display: -webkit-box;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-flow: row wrap;
   }
   .card-deck .card {
@@ -4300,6 +4306,8 @@ tbody.collapse.show {
   .card-group {
     display: -webkit-box;
     display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
     flex-flow: row wrap;
   }
   .card-group .card {
@@ -4752,6 +4760,8 @@ a.badge:focus, a.badge:hover {
   position: relative;
   display: -webkit-box;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
   flex-flow: row wrap;
   -webkit-box-align: center;
   align-items: center;
@@ -11698,6 +11708,38 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+.highlight {
+  color: #f68d2d;
+}
+
+.well {
+  background: #f9f9f9;
+  padding: 3em;
+  margin: 2em;
+  border: 1px solid #d3d3d3;
+}
+
+.well-error {
+  margin-top: 50px;
+}
+
+.well-error h2 {
+  font-size: 100px;
+}
+
+@media (min-width: 1200px) {
+  .sps {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
+  }
+  .sps:before,
+  .sps:after {
+    content: '';
+    display: table;
+  }
+}
+
 /*
 //
 // Variables and Classes to Mix In
@@ -12494,17 +12536,6 @@ a:active {
 .fade-in.three {
   -webkit-animation-delay: 1.6s;
   animation-delay: 1.6s;
-}
-
-/*---make a basic box ---*/
-.box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 10px;
-  float: left;
-  border: 1px solid #333333;
-  background: #999999;
 }
 
 /*

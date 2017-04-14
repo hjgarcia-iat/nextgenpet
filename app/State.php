@@ -22,8 +22,8 @@ class State extends Model
 {
 	protected $table = 'us_states';
 
-    public function districts()
-    {
-    	return $this->hasMany(District::class);
-    }
+	public function college()
+	{
+		return $this->hasOne(College::class);
+	}
 }

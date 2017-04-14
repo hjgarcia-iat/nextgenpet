@@ -3,7 +3,6 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-use Sofa\Eloquence\Eloquence;
 
 /**
  * Class College
@@ -35,7 +34,6 @@ use Sofa\Eloquence\Eloquence;
  */
 class College extends Model
 {
-	use Eloquence;
 	/**
 	 * Table Name
 	 *
