@@ -29,10 +29,10 @@
                 <li class="nav-item">
                     <a class="nav-link"
                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
-                       href="/logout">Logout
+                       href="{{ route('login.destroy') }}">Logout
                     </a>
                     <form id="logout-form"
-                          action="{{ url('/logout') }}"
+                          action="{{ route('login.destroy') }}"
                           method="POST"
                           style="display: none;">
                         {{ csrf_field() }}
@@ -41,7 +41,7 @@
             @else
                 <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
                     <a class="nav-link"
-                       href="/login">Login
+                       href="{{ route('login.create') }}">Login
                     </a>
                 </li>
             @endif

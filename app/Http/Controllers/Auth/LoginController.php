@@ -2,10 +2,8 @@
 
 namespace App\Http\Controllers\Auth;
 
-use Alert;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
-use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Lang;
@@ -42,13 +40,23 @@ class LoginController extends Controller
 	}
 
 	/**
+	 * Show login form
+	 *
+	 * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+	 */
+	public function create()
+	{
+		return view('auth.login');
+	}
+
+	/**
 	 * Handle a login request to the application.
 	 *
 	 * @param LoginRequest $request
 	 *
 	 * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
 	 */
-	public function login(LoginRequest $request)
+	public function store(LoginRequest $request)
 	{
 		if (\Auth::attempt($request->only(['email', 'password']))){
 			return redirect()->to('/')->with('success', 'You have been logged in!');
@@ -69,7 +77,7 @@ class LoginController extends Controller
 	 *
 	 * @return \Illuminate\Http\Response
 	 */
-	public function logout(Request $request)
+	public function destroy(Request $request)
 	{
 		$this->guard()->logout();
 
