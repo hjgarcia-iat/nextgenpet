@@ -13,13 +13,7 @@
                name="email"
                value="{{ old('email') }}"
                required>
-        
-        @if ($errors->has('email'))
-            <span class="help-block">
-                <strong>{{ $errors->first('email') }}</strong>
-            </span>
-        @endif
-    
+        {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
     </div>
     <div class="form-group text-center">
         <button type="submit"

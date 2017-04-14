@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Http\Requests\RecoverPasswordRequest;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 class ForgotPasswordController extends Controller
@@ -36,5 +37,10 @@ class ForgotPasswordController extends Controller
     public function create()
     {
 	    return view('auth.passwords.email');
+    }
+
+    public function store(RecoverPasswordRequest $request)
+    {
+    	dd($request->all());
     }
 }
