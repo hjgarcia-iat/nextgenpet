@@ -8,10 +8,11 @@
     "license"     : "MIT",
     "type"        : "project",
     "require"     : {
-        "php"              : ">=5.6.4",
-        "laravel/framework": "5.3.*",
+        "php"                      : ">=5.6.4",
+        "laravel/framework"        : "5.3.*",
         "spatie/laravel-permission": "1.11.*",
-        "msurguy/honeypot" : "dev-master"
+        "msurguy/honeypot"         : "dev-master",
+        "laravelcollective/html"   : "5.3.*"
     },
     "require-dev" : {
         "fzaninotto/faker"           : "~1.4",
@@ -20,7 +21,7 @@
         "symfony/css-selector"       : "3.1.*",
         "symfony/dom-crawler"        : "3.1.*",
         "barryvdh/laravel-ide-helper": "2.3.*",
-        "laravelcollective/html"     : "5.3.*"
+        "doctrine/dbal"              : "~2.3"
     },
     "autoload"    : {
         "classmap": [

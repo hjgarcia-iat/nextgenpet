@@ -29,8 +29,6 @@ use Sofa\Eloquence\Eloquence;
 class Zip extends Model
 {
 
-	use Eloquence;
-
 	/**
 	 * Table Name
 	 *

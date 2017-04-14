@@ -17,6 +17,7 @@ use Illuminate\Database\Eloquent\Model;
  * @method static \Illuminate\Database\Query\Builder|\App\State whereName($value)
  * @method static \Illuminate\Database\Query\Builder|\App\State whereSalesPersonId($value)
  * @mixin \Eloquent
+ * @property-read \App\College $college
  */
 class State extends Model
 {

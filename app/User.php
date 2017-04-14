@@ -4,7 +4,6 @@ namespace App;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Sofa\Eloquence\Eloquence;
 use Spatie\Permission\Traits\HasRoles;
 
 /**
@@ -33,23 +32,19 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static \Illuminate\Database\Query\Builder|\App\User whereUserGroupId($value)
  * @method static \Illuminate\Database\Query\Builder|\App\User whereUsername($value)
  * @mixin \Eloquent
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Subscription[]                    $subscriptions
  * @property-read \App\Account                                                                    $account
- * @property-read \App\Student                                                                    $student
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\Role[]                            $roles
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Book[]                            $books
  * @property string                                                                               $remember_token
  * @property-read string                                                                          $name
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Group[]                           $groups
  * @method static \Illuminate\Database\Query\Builder|\App\User whereRememberToken($value)
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Permission\Models\Permission[] $permissions
  * @method static \Illuminate\Database\Query\Builder|\App\User role($roles)
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[] $colleges
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[]                         $colleges
  */
 class User extends Authenticatable
 {
 
-	use HasRoles, Eloquence;
+	use HasRoles;
 
 	/**
 	 * Columns that area Searchable by Eloquence

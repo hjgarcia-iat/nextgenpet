@@ -4,8 +4,11 @@ namespace App\Http\Controllers\Auth;
 
 use Alert;
 use App\Http\Controllers\Controller;
+use App\Http\Requests\LoginRequest;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
+use Lang;
 
 class LoginController extends Controller
 {
@@ -31,64 +34,31 @@ class LoginController extends Controller
 	protected $redirectTo = '/login';
 
 	/**
-	 * Create a new controller instance.
-	 *
-	 * @return void
+	 * LoginController constructor.
 	 */
 	public function __construct()
 	{
 		$this->middleware('guest', ['except' => 'logout']);
 	}
 
-
 	/**
 	 * Handle a login request to the application.
 	 *
-	 * @param  \Illuminate\Http\Request $request
+	 * @param LoginRequest $request
 	 *
 	 * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
 	 */
-	public function login(Request $request)
+	public function login(LoginRequest $request)
 	{
-		$this->validateLogin($request);
-
-		if ($this->attemptLogin($request)){
-			Alert::success('You have been logged in!');
-			return $this->sendLoginResponse($request);
+		if (\Auth::attempt($request->only(['email','password']))){
+			return redirect()->to('/')->with('success', 'You have been logged in!');
 		}
 
-		return $this->sendFailedLoginResponse($request);
-	}
-
-	/**
-	 * Attempt to log the user into the application.
-	 *
-	 * @param  \Illuminate\Http\Request $request
-	 *
-	 * @return bool
-	 */
-	protected function attemptLogin(Request $request)
-	{
-		return $this->guard()->attempt(
-			$this->credentials($request), $request->has('remember')
-		);
-	}
-
-	/**
-	 * Send the response after the user was authenticated.
-	 *
-	 * @param  \Illuminate\Http\Request $request
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	protected function sendLoginResponse(Request $request)
-	{
-		$request->session()->regenerate();
-
-		$this->clearLoginAttempts($request);
-
-		return $this->authenticated($request, $this->guard()->user())
-			? : redirect()->intended('/');
+		return redirect()->back()
+		                 ->withInput($request->only('email', 'remember'))
+		                 ->withErrors([
+			                 $this->username() => Lang::get('auth.failed'),
+		                 ]);
 	}
 
 	/**
@@ -106,8 +76,6 @@ class LoginController extends Controller
 
 		$request->session()->regenerate();
 
-		Alert::success('You have been logged out!');
-
-		return redirect('/login');
+		return redirect('/login')->with('success', 'You have been logged out!');
 	}
 }
