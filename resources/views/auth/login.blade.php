@@ -36,7 +36,7 @@
            class="btn btn-default btn-block w-50 mx-auto">
             Register
         </a>
-        <a href=""
+        <a href="{{ route('password.create') }}"
            class="mt-2 d-block">
             Recover Password?
         </a>

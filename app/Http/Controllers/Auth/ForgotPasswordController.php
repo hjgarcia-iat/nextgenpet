@@ -20,13 +20,21 @@ class ForgotPasswordController extends Controller
 
     use SendsPasswordResetEmails;
 
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
+	/**
+	 * ForgotPasswordController constructor.
+	 */
     public function __construct()
     {
         $this->middleware('guest');
+    }
+
+	/**
+	 * Show Password Recover Email Form
+	 *
+	 * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+	 */
+    public function create()
+    {
+	    return view('auth.passwords.email');
     }
 }
