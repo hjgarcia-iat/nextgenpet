@@ -50,11 +50,12 @@ class LoginController extends Controller
 	 */
 	public function login(LoginRequest $request)
 	{
-		if (\Auth::attempt($request->only(['email','password']))){
+		if (\Auth::attempt($request->only(['email', 'password']))){
 			return redirect()->to('/')->with('success', 'You have been logged in!');
 		}
 
 		return redirect()->back()
+		                 ->with('error', 'Please see errors below!')
 		                 ->withInput($request->only('email', 'remember'))
 		                 ->withErrors([
 			                 $this->username() => Lang::get('auth.failed'),
