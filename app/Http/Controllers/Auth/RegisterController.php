@@ -9,6 +9,11 @@ use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
 
+/**
+ * Class RegisterController
+ *
+ * @package App\Http\Controllers\Auth
+ */
 class RegisterController extends Controller
 {
 
@@ -34,8 +39,6 @@ class RegisterController extends Controller
 
 	/**
 	 * Create a new controller instance.
-	 *
-	 * @return void
 	 */
 	public function __construct()
 	{
@@ -45,7 +48,7 @@ class RegisterController extends Controller
 	/**
 	 * Show Create Form
 	 *
-	 * @return Illuminate\View\View
+	 * @return \Illuminate\View\View
 	 */
 	public function create()
 	{
