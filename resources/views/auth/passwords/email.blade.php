@@ -3,17 +3,18 @@
 @section('content')
     <h3>Recover your password</h3>
     {!! Form::open(['url' => route('password.store'),'class' => 'form-horizontal']) !!}
-    <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-        <label for="email"
+    <div class="form-group{{ $errors->has('reset_email') ? ' has-danger' : '' }}">
+        <label for="reset_email"
+               id="reset_email"
                class="form-control-label">E-Mail Address
         </label>
-        <input id="email"
+        <input id="reset_email"
                type="email"
                class="form-control"
-               name="email"
-               value="{{ old('email') }}"
+               name="reset_email"
+               value="{{ old('reset_email') }}"
                required>
-        {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
+        {!! $errors->first('reset_email','<div class="form-control-feedback">:message</div>') !!}
     </div>
     <div class="form-group text-center">
         <button type="submit"
