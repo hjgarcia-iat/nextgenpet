@@ -10,16 +10,14 @@
             <div class="site-header-wrapper">
                 @include('layouts.partials.header')
             </div>
-        
             <div class="page-content-wrapper">
                 <div class="container">
-                    
                     <div class="row align-items-center h-100">
                         <div class="col-md-6 push-md-3 well">@yield('content')</div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="page-footer-wrapper mt-auto">
                 @include('layouts.partials._footer_form')
             </div>

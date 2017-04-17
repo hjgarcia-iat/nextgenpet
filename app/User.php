@@ -83,33 +83,6 @@ class User extends Authenticatable
 	];
 
 	/**
-	 * Save a new model and return the instance.
-	 *
-	 * @param  array $attributes
-	 *
-	 * @return static
-	 */
-	public static function create(array $attributes = [])
-	{
-		$user                     = new static($attributes);
-		$user->username           = $attributes['email'];
-		$user->user_group_id      = 1;
-		$user->account_expiration = Carbon::now();
-		$user->account_status     = 'Pending';
-		$user->order_number       = 'NextGenPET User';
-		$user->save();
-
-		$user->account()->create([
-			'first_name' => $attributes['first_name'],
-			'last_name'  => $attributes['last_name'],
-		]);
-
-		$user->assignRole('nextgen_pet_user');
-
-		return $user;
-	}
-
-	/**
 	 * Update the model in the database.
 	 *
 	 * @param  array $attributes

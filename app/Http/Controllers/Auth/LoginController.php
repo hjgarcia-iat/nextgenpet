@@ -11,80 +11,80 @@ use Lang;
 class LoginController extends Controller
 {
 
-	/*
-	|--------------------------------------------------------------------------
-	| Login Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller handles authenticating users for the application and
-	| redirecting them to your home screen. The controller uses a trait
-	| to conveniently provide its functionality to your applications.
-	|
-	*/
+    /*
+    |--------------------------------------------------------------------------
+    | Login Controller
+    |--------------------------------------------------------------------------
+    |
+    | This controller handles authenticating users for the application and
+    | redirecting them to your home screen. The controller uses a trait
+    | to conveniently provide its functionality to your applications.
+    |
+     */
 
-	use AuthenticatesUsers;
+    use AuthenticatesUsers;
 
-	/**
-	 * Where to redirect users after login.
-	 *
-	 * @var string
-	 */
-	protected $redirectTo = '/login';
+    /**
+     * Where to redirect users after login.
+     *
+     * @var string
+     */
+    protected $redirectTo = '/login';
 
-	/**
-	 * LoginController constructor.
-	 */
-	public function __construct()
-	{
-		$this->middleware('guest', ['except' => 'logout']);
-	}
+    /**
+     * LoginController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('guest', ['except' => 'logout']);
+    }
 
-	/**
-	 * Show login form
-	 *
-	 * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
-	 */
-	public function create()
-	{
-		return view('auth.login');
-	}
+    /**
+     * Show login form
+     *
+     * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function create()
+    {
+        return view('auth.login');
+    }
 
-	/**
-	 * Handle a login request to the application.
-	 *
-	 * @param LoginRequest $request
-	 *
-	 * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
-	 */
-	public function store(LoginRequest $request)
-	{
-		if (\Auth::attempt($request->only(['email', 'password']))){
-			return redirect()->to('/')->with('success', 'You have been logged in!');
-		}
+    /**
+     * Handle a login request to the application.
+     *
+     * @param LoginRequest $request
+     *
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Http\Response
+     */
+    public function store(LoginRequest $request)
+    {
+        if (\Auth::attempt($request->only(['email', 'password']))) {
+            return redirect()->to('/')->with('success', 'You have been logged in!');
+        }
 
-		return redirect()->back()
-		                 ->with('error', 'Please see errors below!')
-		                 ->withInput($request->only('email', 'remember'))
-		                 ->withErrors([
-			                 $this->username() => Lang::get('auth.failed'),
-		                 ]);
-	}
+        return redirect()->back()
+            ->with('error', 'Please see errors below!')
+            ->withInput($request->only('email', 'remember'))
+            ->withErrors([
+                $this->username() => Lang::get('auth.failed'),
+            ]);
+    }
 
-	/**
-	 * Log the user out of the application.
-	 *
-	 * @param \Illuminate\Http\Request $request
-	 *
-	 * @return \Illuminate\Http\Response
-	 */
-	public function destroy(Request $request)
-	{
-		$this->guard()->logout();
+    /**
+     * Log the user out of the application.
+     *
+     * @param \Illuminate\Http\Request $request
+     *
+     * @return \Illuminate\Http\Response
+     */
+    public function destroy(Request $request)
+    {
+        $this->guard()->logout();
 
-		$request->session()->flush();
+        $request->session()->flush();
 
-		$request->session()->regenerate();
+        $request->session()->regenerate();
 
-		return redirect('/login')->with('success', 'You have been logged out!');
-	}
+        return redirect('/login')->with('success', 'You have been logged out!');
+    }
 }
