@@ -32,14 +32,6 @@ class LoginController extends Controller
     protected $redirectTo = '/login';
 
     /**
-     * LoginController constructor.
-     */
-    public function __construct()
-    {
-        $this->middleware('guest', ['except' => 'logout']);
-    }
-
-    /**
      * Show login form
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -59,6 +51,13 @@ class LoginController extends Controller
     public function store(LoginRequest $request)
     {
         if (\Auth::attempt($request->only(['email', 'password']))) {
+
+        	if(\Auth::user()->account_status == 'pending') {
+        		auth()->logout();
+
+        		return redirect()->route('login.create')->with('error','We are in the process of activating your account we will be contacting you shortly.');
+	        }
+
             return redirect()->to('/')->with('success', 'You have been logged in!');
         }
 
@@ -79,7 +78,7 @@ class LoginController extends Controller
      */
     public function destroy(Request $request)
     {
-        $this->guard()->logout();
+        auth()->logout();
 
         $request->session()->flush();
 
