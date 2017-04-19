@@ -97,7 +97,7 @@
             Back to login
         </a>
         <a class="mt-2 d-block"
-           href="">
+           href="{{ route('password.create') }}">
             Recover Password?
         </a>
     </div>
