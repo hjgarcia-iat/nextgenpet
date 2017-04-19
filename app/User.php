@@ -99,11 +99,6 @@ class User extends Authenticatable
 
 		$this->account->fill($attributes)->save($options);
 
-		if ($attributes['password'] != ''){
-			$this->password = $attributes['password'];
-			$this->save($options);
-		}
-
 		return $this->fill($attributes)->save($options);
 	}
 

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\AccountRequest;
 use Illuminate\Http\Request;
 use Illuminate\View\View;
 
@@ -27,16 +28,19 @@ class AccountController extends Controller
 	/**
 	 * Post Help Form
 	 *
-	 * @param Request $request
+	 * @param AccountRequest $request
 	 *
 	 * @return \Illuminate\Http\RedirectResponse
 	 */
-	public function update(Request $request)
+	public function update(AccountRequest $request)
 	{
 		auth()->user()->update($request->all());
 
-		\Session::flash('success', 'Account has been updated!');
+		if($request->has('password')) {
+			auth()->user()->password = $request->get('password');
+			auth()->user()->save();
+		}
 
-		return redirect()->back();
+		return redirect()->route('my-account')->with('success', 'Account has been updated!');
 	}
 }
