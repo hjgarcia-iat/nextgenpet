@@ -26,6 +26,14 @@
             </li>
             
             @if(auth()->check())
+        
+                <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">
+                    <a class="nav-link"
+                       href="{{ route('my-account') }}">
+                        My Account
+                    </a>
+                </li>
+                
                 <li class="nav-item">
                     <a class="nav-link"
                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
