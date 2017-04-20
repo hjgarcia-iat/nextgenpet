@@ -54,7 +54,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A7</td>
-                    <td>Shedding Light on Explanations and Solutions (NGSS Practice 6)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_WS+_Cluster/TL_Activity_7.pdf" target="_blank">Shedding Light on Explanations and Solutions (NGSS Practice 6)</a></td>
                     <td>WSL</td>
                     <td>6</td>
                     <td></td>
@@ -111,7 +112,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A8</td>
-                    <td>Arguments and Evidence (NGSS Practice 7)</td>
+                    <td class="cell-link">
+                        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_WS+_Cluster/TL_Activity_8.pdf">Arguments and Evidence (NGSS Practice 7)</a></td>
                     <td>WSL</td>
                     <td>7</td>
                     <td></td>
@@ -130,7 +132,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A9</td>
-                    <td>Explanations and Solutions (Reflection on Sound/Light Interview)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_WS+_Cluster/TL_Activity_9.pdf" target="_blank">Explanations and Solutions (Reflection on Sound/Light Interview)</a></td>
                     <td>WSL</td>
                     <td>6</td>
                     <td></td>

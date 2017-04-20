@@ -93,7 +93,11 @@
                 </tr>
                 <tr class="highlight">
                     <td>A1</td>
-                    <td>Teaching and Learning Science</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/General_Activities+_+Extensions/TL_Activity_1.pdf"
+                           target="_blank">Teaching and Learning Science
+                        </a>
+                    </td>
                     <td>MSE/All</td>
                     <td>Intro All</td>
                     <td>Intro All</td>
@@ -269,7 +273,11 @@
                 </tr>
                 <tr class="highlight">
                     <td>A12</td>
-                    <td>Teaching and Learning Science II</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/General_Activities+_+Extensions/TL_Activity_12.pdf"
+                           target="_blank">Teaching and Learning Science II
+                        </a>
+                    </td>
                     <td>All</td>
                     <td></td>
                     <td>All</td>

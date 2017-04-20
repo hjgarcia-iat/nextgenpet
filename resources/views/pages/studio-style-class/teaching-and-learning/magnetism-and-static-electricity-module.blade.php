@@ -100,7 +100,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A2</td>
-                    <td>Models, Magnets and Children’s Ideas (NGSS Practice 2)</td>
+                    <td class="cell-link">
+                        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_MSE_Cluster/TL_Activity_2.pdf">Models, Magnets and Children’s Ideas (NGSS Practice 2)</a></td>
                     <td>MSE</td>
                     <td>2</td>
                     <td></td>
