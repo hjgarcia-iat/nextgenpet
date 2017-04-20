@@ -106,7 +106,7 @@
                data-toggle="collapse"
                data-target="#studio-teacher-learning-materials-mobile-dropdown"
                data-parent="#studio-teacher-learning-materials-mobile">
-                <span>Teaching &amp; Learning Materials Descriptions</span>
+                <span>Teaching &amp; Learning Materials</span>
             </a>
             <div id="studio-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
@@ -141,13 +141,6 @@
                 </a>
             </div>
         </div>
-        
-        
-        <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
-           target="_blank"
-           class="dropdown-item">
-            <span>Teaching &amp; Learning Materials (distribution)</span>
-        </a>
         
         
         <a href="{{ url('studio-style-class/extension-index') }}"
