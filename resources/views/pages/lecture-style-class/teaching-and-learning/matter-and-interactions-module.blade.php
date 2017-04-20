@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Lecture Style Class
-@stop
+@section('pageTitle','Lecture Style Class')
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')
 @stop
@@ -57,7 +54,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L10</td>
-                    <td>Obtaining, Evaluating, and Communicating Information (NGSS Practice 8)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_MI_Cluster/TL_Lesson_10.pdf" target="_blank">Obtaining, Evaluating, and Communicating Information (NGSS Practice 8)</a></td>
                     <td>MI</td>
                     <td>8</td>
                     <td></td>
@@ -97,7 +95,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L11</td>
-                    <td>Creating & Communicating a Process (Reflection on Oobleck Interview)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_MI_Cluster/TL_Lesson_11.pdf" target="_blank">Creating & Communicating a Process (Reflection on Oobleck Interview)</a></td>
                     <td>MI</td>
                     <td>8</td>
                     <td></td>

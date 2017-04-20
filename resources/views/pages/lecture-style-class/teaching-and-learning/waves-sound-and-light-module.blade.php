@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Lecture Style Class
-@stop
+@section('pageTitle','Lecture Style Class')
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')
 @stop
@@ -58,7 +55,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L7</td>
-                    <td>Shedding Light on Explanations and Solutions (NGSS Practice 6)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_WS_Cluster/TL_Lesson_7.pdf" target="_blank">Shedding Light on Explanations and Solutions (NGSS Practice 6)</a></td>
                     <td>WSL</td>
                     <td>6</td>
                     <td></td>
@@ -121,7 +119,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L8</td>
-                    <td>Arguments and Evidence (NGSS Practice 7)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_WS_Cluster/TL_Lesson_8.pdf" target="_blank">Arguments and Evidence (NGSS Practice 7)</a></td>
                     <td>WSL</td>
                     <td>7</td>
                     <td></td>
@@ -142,7 +141,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L9</td>
-                    <td>Explanations and Solutions (Reflection on Sound/Light Interview)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_WS_Cluster/TL_Lesson_9.pdf" target="_blank">Explanations and Solutions (Reflection on Sound/Light Interview)</a></td>
                     <td>WSL</td>
                     <td>6</td>
                     <td></td>

@@ -107,7 +107,7 @@
                data-toggle="collapse"
                data-target="#lecture-teacher-learning-materials-mobile-dropdown"
                data-parent="#lecture-teacher-learning-materials-mobile">
-                <span>Teaching &amp; Learning Materials Descriptions</span>
+                <span>Teaching &amp; Learning Materials</span>
             </a>
             <div id="lecture-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('lecture-style-class/teaching-and-learning/*') ? ' show' : '') }}">
@@ -144,15 +144,6 @@
                 </a>
             </div>
         </div>
-        
-        
-        <a class="dropdown-item"
-           target="_blank"
-           data-file="true"
-           href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
-            <span>Teaching &amp; Learning Materials (distribution)
-            </span>
-        </a>
         
         
         <a href="{{ url('lecture-style-class/extension-index') }}"

@@ -56,7 +56,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L5</td>
-                    <td>Planning and Carrying Out Investigations (NGSS Practice 3) </td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_IF_Cluster/TL_Lesson_5.pdf" target="_blank">Planning and Carrying Out Investigations (NGSS Practice 3)</a></td>
                     <td>IF</td>
                     <td>3</td>
                     <td></td>
@@ -119,7 +120,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L6</td>
-                    <td>Facilitating Investigations (NGSS Practice 3)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_IF_Cluster/TL_Lesson_6.pdf" target="_blank">Facilitating Investigations (NGSS Practice 3)</a></td>
                     <td>IF</td>
                     <td>1,3,4</td>
                     <td></td>
