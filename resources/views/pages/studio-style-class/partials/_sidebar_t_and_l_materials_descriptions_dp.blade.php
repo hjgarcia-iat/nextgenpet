@@ -4,7 +4,7 @@
        data-toggle="collapse"
        data-target="#teacherAndLearningDescriptions"
        data-parent="#main-sidebar-menu">
-        <span>Teaching and Learning Materials Descriptions</span>
+        <span>Teaching and Learning Materials</span>
     </a>
     <div id="teacherAndLearningDescriptions"
          class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">

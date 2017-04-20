@@ -58,7 +58,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L3</td>
-                    <td>Questions, Problems, and Evidence (NGSS Practices 1 and 4)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_IE_Cluster/TL_Lesson_3.pdf" target="_blank">Questions, Problems, and Evidence (NGSS Practices 1 and 4)</a></td>
                     <td>IE/All</td>
                     <td>1,4</td>
                     <td></td>
@@ -100,7 +101,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L4</td>
-                    <td>Reflecting on Interview about Energy</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_IE_Cluster/TL_Lesson_4.pdf" target="_blank">Reflecting on Interview about Energy</a></td>
                     <td>IE</td>
                     <td>4</td>
                     <td></td>

@@ -79,7 +79,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>L2</td>
-                    <td>Models, Magnets and Children’s Ideas (NGSS Practice 2)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/lecture/Module_MSE_Cluster/TL_Lesson_2.pdf" target="_blank">Models, Magnets and Children’s Ideas (NGSS Practice 2)</a></td>
                     <td>MSE</td>
                     <td>2</td>
                     <td></td>

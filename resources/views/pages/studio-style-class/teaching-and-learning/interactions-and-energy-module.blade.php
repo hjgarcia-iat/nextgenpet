@@ -51,7 +51,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A3</td>
-                    <td>Questions, Problems, and Evidence (NGSS Practices 1 and 4)</td>
+                    <td class="cell-link">
+                        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_IE_Cluster/TL_Activity_3.pdf">Questions, Problems, and Evidence (NGSS Practices 1 and 4)</a></td>
                     <td>IE/All</td>
                     <td>1,4</td>
                     <td></td>
@@ -89,7 +90,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A4</td>
-                    <td>Reflecting on Interview about Energy</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_IE_Cluster/TL_Activity_4.pdf" target="_blank">Reflecting on Interview about Energy</a></td>
                     <td>IE</td>
                     <td>4</td>
                     <td></td>

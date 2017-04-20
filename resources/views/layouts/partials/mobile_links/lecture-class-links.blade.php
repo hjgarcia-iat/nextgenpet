@@ -74,28 +74,28 @@
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/lecture/Module_MSE_Lecture-Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf">
                 <span>Magnetism &amp; Static Electricity Module
                 </span>
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/lecture/Module_IE_Lecture-Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IE_Lecture-Style_watermark.pdf">
                 Interactions &amp; Energy Module
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/lecture/Module_IF_Lecture-Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IF_Lecture-Style_watermark.pdf">
                 Interactions &amp; Forces Module
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/lecture/Module_WSL_Lecture-Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_WSL_Lecture-Style_watermark.pdf">
                 Waves, Sounds &amp; Light Module
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/lecture/Module_MI_Lecture-Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MI_Lecture-Style_watermark.pdf">
                 Matter &amp; Interactions Module
             </a>
         </div>
@@ -107,7 +107,7 @@
                data-toggle="collapse"
                data-target="#lecture-teacher-learning-materials-mobile-dropdown"
                data-parent="#lecture-teacher-learning-materials-mobile">
-                <span>Teaching &amp; Learning Materials Descriptions</span>
+                <span>Teaching &amp; Learning Materials</span>
             </a>
             <div id="lecture-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('lecture-style-class/teaching-and-learning/*') ? ' show' : '') }}">
@@ -144,15 +144,6 @@
                 </a>
             </div>
         </div>
-        
-        
-        <a class="dropdown-item"
-           target="_blank"
-           data-file="true"
-           href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}">
-            <span>Teaching &amp; Learning Materials (distribution)
-            </span>
-        </a>
         
         
         <a href="{{ url('lecture-style-class/extension-index') }}"

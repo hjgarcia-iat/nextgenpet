@@ -51,7 +51,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A10</td>
-                    <td>Obtaining, Evaluating, and Communicating Information (NGSS Practice 8)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_MI_Cluster/TL_Activity_10.pdf" target="_blank">Obtaining, Evaluating, and Communicating Information (NGSS Practice 8)</a></td>
                     <td>MI</td>
                     <td>8</td>
                     <td></td>
@@ -89,7 +90,8 @@
                 </tr>
                 <tr class="highlight">
                     <td>A11</td>
-                    <td>Creating & Communicating a Process (Reflection on Oobleck Interview)</td>
+                    <td class="cell-link">
+                        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/teaching-and-learning/studio/Module_MI_Cluster/TL_Activity_11.pdf" target="_blank">Creating & Communicating a Process (Reflection on Oobleck Interview)</a></td>
                     <td>MI</td>
                     <td>8</td>
                     <td></td>

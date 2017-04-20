@@ -72,30 +72,30 @@
              class="sublinks collapse">
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/studio/Module_MSE_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf">
                 Magnetism &amp; Static Electricity Module
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/studio/Module_IE_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf">
                 Interactions &amp; Energy Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_IF_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf">
                 Interactions &amp; Forces Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_WSL_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf">
                 Waves, Sounds &amp; Light Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_MI_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf">
                 Matter &amp; Interactions Module
             </a>
         </div>
@@ -106,7 +106,7 @@
                data-toggle="collapse"
                data-target="#studio-teacher-learning-materials-mobile-dropdown"
                data-parent="#studio-teacher-learning-materials-mobile">
-                <span>Teaching &amp; Learning Materials Descriptions</span>
+                <span>Teaching &amp; Learning Materials</span>
             </a>
             <div id="studio-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
@@ -141,13 +141,6 @@
                 </a>
             </div>
         </div>
-        
-        
-        <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
-           target="_blank"
-           class="dropdown-item">
-            <span>Teaching &amp; Learning Materials (distribution)</span>
-        </a>
         
         
         <a href="{{ url('studio-style-class/extension-index') }}"
