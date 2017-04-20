@@ -3,6 +3,7 @@
 namespace App\Http;
 
 use App\Http\Middleware\Authenticate;
+use App\Http\Middleware\PageAuthChecker;
 use App\Http\Middleware\RedirectIfAuthenticated;
 use Illuminate\Auth\Middleware\AuthenticateWithBasicAuth;
 use Illuminate\Auth\Middleware\Authorize;
@@ -51,11 +52,12 @@ class Kernel extends HttpKernel
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth'       => Authenticate::class,
-		'auth.basic' => AuthenticateWithBasicAuth::class,
-		'bindings'   => SubstituteBindings::class,
-		'can'        => Authorize::class,
-		'guest'      => RedirectIfAuthenticated::class,
-		'throttle'   => ThrottleRequests::class,
+		'auth'            => Authenticate::class,
+		'auth.basic'      => AuthenticateWithBasicAuth::class,
+		'bindings'        => SubstituteBindings::class,
+		'can'             => Authorize::class,
+		'guest'           => RedirectIfAuthenticated::class,
+		'throttle'        => ThrottleRequests::class,
+		'pageAuthChecker' => PageAuthChecker::class,
 	];
 }

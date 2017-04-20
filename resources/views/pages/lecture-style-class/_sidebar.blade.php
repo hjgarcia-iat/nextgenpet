@@ -6,5 +6,6 @@
         @include('pages.lecture-style-class.partials._sidebar_student_materials_dp')
         @include('pages.lecture-style-class.partials._sidebar_t_and_l_materials_descriptions_dp')
         @include('pages.lecture-style-class.partials._sidebar_bottom_links')
+        @include('pages.lecture-style-class.partials._instructor_links')
     </div>
 </div>

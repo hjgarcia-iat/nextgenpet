@@ -17,5 +17,5 @@ Route::post('/my-account','AccountController@update')->name('my-account-update')
 
 Route::get('{page}', [
     'uses' => 'PagesController@show',
-])->where(['page' => '.*']);
+])->where(['page' => '.*'])->middleware('pageAuthChecker');
 

@@ -58,7 +58,7 @@ class LoginController extends Controller
         		return redirect()->route('login.create')->with('error','We are in the process of activating your account we will be contacting you shortly.');
 	        }
 
-            return redirect()->to('/')->with('success', 'You have been logged in!');
+            return redirect()->intended('/')->with('success', 'You have been logged in!');
         }
 
         return redirect()->back()
