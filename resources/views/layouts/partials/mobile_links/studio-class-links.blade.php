@@ -19,7 +19,7 @@
             Pedagogy
         </a>
         
-        <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
+        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/equipment/Equipment-Materials_Studio-style_Class.pdf"
            target="_blank"
            class="dropdown-item">
             Equipment &amp; Materials
