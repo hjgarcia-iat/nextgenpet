@@ -72,30 +72,30 @@
              class="sublinks collapse">
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/studio/Module_MSE_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf">
                 Magnetism &amp; Static Electricity Module
             </a>
             <a class="dropdown-item"
                target="_blank"
-               href="{{ asset('docs/studio/Module_IE_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf">
                 Interactions &amp; Energy Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_IF_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf">
                 Interactions &amp; Forces Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_WSL_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf">
                 Waves, Sounds &amp; Light Module
             </a>
             <a class="dropdown-item"
                target="_blank"
                data-file="true"
-               href="{{ asset('docs/studio/Module_MI_Studio_Style.pdf') }}">
+               href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf">
                 Matter &amp; Interactions Module
             </a>
         </div>
