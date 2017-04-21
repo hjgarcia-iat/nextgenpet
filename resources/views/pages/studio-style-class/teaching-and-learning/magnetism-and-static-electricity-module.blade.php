@@ -10,12 +10,15 @@
     @include('pages.studio-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content"
              class="pdf-content"></section>
     <section id="html-content"
              class="html-content">
         <h3>Teaching &amp; Learning &mdash; Module MSE Cluster</h3>
+        <p>
+            Click on the activity titles below to view or download the activities in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching & Learning Extensions page</a>
+        </p>
         <p>Each Teaching and Learning activity and extension in the Module MSE (Developing Models for Magnetism and
            Static Electricity) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class
            time needed (for activities) and the format (for extensions), and the pre-requisite TL lessons (if any).
@@ -29,7 +32,7 @@
            project, the class will (probably) be on a different unit. Thus, the follow-up Activity 2, where students
            reflect on their interactions with the children they interviewed, will not be connected to your current unit.
         </p>
-        
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -127,7 +130,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h5>
             <sup>
                 *

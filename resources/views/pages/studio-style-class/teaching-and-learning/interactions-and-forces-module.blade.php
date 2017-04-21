@@ -18,6 +18,9 @@
         <h3>
             Teaching &amp; Learning &mdash; Module IF Cluster
         </h3>
+        <p>
+            Click on the activity titles below to view or download the activities in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching & Learning Extensions page</a>
+        </p>
         <p>Each Teaching and Learning activity and extension in the Module IF (Interactions and Forces) cluster is
            listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for activities)
            and the format (for extensions), and the pre-requisite TL lessons (if any). Below each description is a

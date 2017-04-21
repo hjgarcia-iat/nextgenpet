@@ -14,6 +14,9 @@
         <h3>
             Teaching &amp; Learning &mdash; General Activities &amp; Extensions
         </h3>
+        <p>
+            Click on the activity titles below to view or download the activities in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching &amp; Learning Extensions page</a>
+        </p>
         <h5>
             Introductory Cluster
         </h5>
@@ -25,7 +28,7 @@
             unit you do. Extension C, another reading, should be assigned after the first activity and before any child
             interview activity.
         </p>
-        
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -146,7 +149,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h5>
             Post-Introductory Cluster
         </h5>
@@ -159,7 +162,7 @@
             during the academic term, regardless of how much of the available material you were able to include in your
             course.
         </p>
-        
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -303,7 +306,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h5>
             <sup>
                 α

@@ -14,6 +14,9 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Teaching &amp; Learning &mdash; Module MI Cluster </h3>
+        <p>
+            Click on the activity titles below to view or download the activities in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching & Learning Extensions page</a>
+        </p>
         <p>Each Teaching and Learning activity and extension in the Module MI (Matter and Interactions) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for activities) and the format (for extensions), and the pre-requisite TL lessons (if any).  Below each description is a suggestion for when you should conduct the in-class activity or assign the extension.  There is a list of the NGSS science and engineering practices and the crosscutting concepts following the table.</p>
         <p>Note that Extension O is a group project involving working with children. This project typically takes 2-3 weeks from initial assignment to the time the final individual and group reports are turned in. Although the physical science content (physical changes of matter) is associated with Unit PC, by the time students are done with the project, the class will (probably) be on a different unit. Thus, the follow-up Activity 11, where students reflect on their interactions with the children they interviewed, will not be connected to your current unit.</p>
 

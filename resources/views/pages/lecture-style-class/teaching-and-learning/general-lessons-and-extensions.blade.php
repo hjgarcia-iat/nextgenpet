@@ -7,12 +7,15 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content"
              class="pdf-content"></section>
     <section id="html-content"
              class="html-content">
         <h3>Teaching &amp; Learning &mdash; General Lessons &amp; Extensions</h3>
+        <p>
+            Click on the lesson titles below to view or download the lessons in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching &amp; Learning Extensions page</a>
+        </p>
         <h5>
             Introductory Cluster
         </h5>
@@ -23,7 +26,7 @@
            you do. Extension C, another reading, should be assigned after the first lesson and before any child
            interview activity.
         </p>
-        
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -143,7 +146,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h5>
             Post-Introductory Cluster
         </h5>
@@ -154,7 +157,7 @@
            it. It is, in essence, a reflection activity on the Teaching and Learning material covered during the
            academic term, regardless of how much of the available material you were able to include in your course.
         </p>
-        
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -295,7 +298,7 @@
                 </tr>
             </tbody>
         </table>
-        
+
         <h5>
             <sup>
                 α

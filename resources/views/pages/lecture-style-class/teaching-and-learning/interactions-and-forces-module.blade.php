@@ -15,6 +15,9 @@
     <section id="html-content" class="html-content">
 
         <h3>Teaching &amp; Learning &mdash; Module IF Cluster</h3>
+        <p>
+            Click on the lesson titles below to view or download the lessons in PDF format. The extensions below can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching &amp; Learning Extensions page</a>
+        </p>
         <p>Each Teaching and Learning lesson and extension in the Module IF (Interactions and Forces) cluster is listed below, along with a brief summary, the NGSS alignment, estimated class time needed (for lessons) and the format (for extensions), and the pre-requisite TL activities (if any).  Below each description is a suggestion for when you should conduct the in-class lesson or assign the extension.  There is a list of the NGSS science and engineering practices and the crosscutting concepts following the table.</p>
         <p>
             Note that Extension I is a group project involving working with children. This project typically takes 2-3 weeks from initial assignment to the time the final individual and group reports are turned in. Although the physical science content (forces on a parachute) is associated with Unit CF, by the time students are done with the project, the class will (probably) be on a different unit. Thus, the follow-up Lesson 6, where students reflect on their interactions with the children they interviewed, will not be connected to your current unit.
