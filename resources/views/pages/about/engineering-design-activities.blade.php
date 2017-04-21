@@ -32,7 +32,7 @@
         modules. The label 'SC' indicates that the activity is used in the studio-style class version of the curriculum
         only, not the lecture-style class version. </p>
 
-    <table class="table table-bordered table-responsive">
+    <table class="table table-sm table-bordered table-responsive">
         <thead>
         <tr>
             <th>Units within Modules</th>

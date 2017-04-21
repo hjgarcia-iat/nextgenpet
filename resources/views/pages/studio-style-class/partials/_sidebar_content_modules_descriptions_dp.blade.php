@@ -4,7 +4,7 @@
        data-toggle="collapse"
        data-target="#mainStudioContentModules"
        data-parent="#main-sidebar-menu">
-        <span>Content Modules Description and Activities
+        <span>Content Module Descriptions and Activities
         </span>
     </a>
     <div id="mainStudioContentModules"

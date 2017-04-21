@@ -9,7 +9,7 @@
     </a>
     <div class="dropdown-menu{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' show shown' : '' }}"
          aria-labelledby="studioLinks">
-        
+
         <a href="{{ url('studio-style-class') }}"
            class="dropdown-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
             Introduction
@@ -18,7 +18,7 @@
            class="dropdown-item{{ (Request::is('studio-style-class/pedagogy')) ? ' active' : '' }}">
             Pedagogy
         </a>
-        
+
         <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
            target="_blank"
            class="dropdown-item">
@@ -28,13 +28,13 @@
            class="dropdown-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">
             Table of Contents with Time Estimates
         </a>
-        
+
         <a href="#"
            class="dropdown-item sublink collapsed dropdown-toggle"
            data-toggle="collapse"
            data-target="#sm"
            data-parent="#menu">
-            Content Modules Description and Activities
+            Content Module Descriptions and Activities
         </a>
         <div id="sm"
              class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' show' : '') }}">
@@ -60,7 +60,7 @@
             {{--</span>--}}
             {{--</a>--}}
         </div>
-        
+
         {{--<a href="#"--}}
            {{--class="dropdown-item sublink collapsed dropdown-toggle"--}}
            {{--data-toggle="collapse"--}}
@@ -99,7 +99,7 @@
                 {{--Matter &amp; Interactions Module--}}
             {{--</a>--}}
         {{--</div>--}}
-    
+
         <div id="studio-teacher-learning-materials-mobile">
             <a href="#"
                class="dropdown-item sublink collapsed dropdown-toggle"
@@ -141,8 +141,8 @@
                 </a>
             </div>
         </div>
-        
-        
+
+
         <a href="{{ url('studio-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
             Extensions Index
