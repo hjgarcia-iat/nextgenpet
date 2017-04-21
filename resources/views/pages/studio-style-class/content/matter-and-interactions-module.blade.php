@@ -12,31 +12,22 @@
     <section id="html-content" class="html-content">
         <h3>Matter and Interactions Module</h3>
         <p>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
         <p>
             For a viewable-only version of all the student activities for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf"
-               target="_blank">
-                click here
-            </a>
-            . These copies cannot be distributed to students, but are for your use only. To order these content module
-            materials for your students, contact the publisher,
-            <a href="https://www.iat.com"
-               target="_blank">It’s About Time
-            </a>
-            .
-        </p>
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf" target="_blank">
+                click here </a>. These copies cannot be distributed to students, but are for your use only. </p>
         <h4>Unit PC: Physical Changes</h4>
         @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <p>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
 
         <h4>Unit CR: Chemical Reactions</h4>
         @include('pages.partials._canvas',['canvasId' => 'canvas2'])
         <p>
-        <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
     </section>
 @stop
@@ -265,20 +256,20 @@
             {from: 7, to: 8},
             {from: 8, to: 9},
             {from: 9, to: 10}
-         ]);
+        ]);
 
-        var container  = document.getElementById('canvas');
+        var container = document.getElementById('canvas');
         var container2 = document.getElementById('canvas2');
         // provide the data in the vis format
-        var data       = {
+        var data = {
             nodes: nodes,
             edges: edges
         };
-        var data2      = {
+        var data2 = {
             nodes: nodes2,
             edges: edges2
         };
-        var options    = {
+        var options = {
             "physics": {
                 enabled: false
             },
@@ -324,7 +315,7 @@
             }
         };
 
-        var network  = new vis.Network(container, data, options);
+        var network = new vis.Network(container, data, options);
         var network2 = new vis.Network(container2, data2, options);
 
         network.on("doubleClick", function (params) {
@@ -337,6 +328,11 @@
 @section('styles')
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css">
     <style>
-        #canvas { width : 100%; height : 500px; border : 1px solid lightgray; margin-bottom : 40px; }
+        #canvas {
+            width         : 100%;
+            height        : 500px;
+            border        : 1px solid lightgray;
+            margin-bottom : 40px;
+        }
     </style>
 @stop
