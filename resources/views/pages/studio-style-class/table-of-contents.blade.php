@@ -67,7 +67,7 @@
                 </tr>
                 <tr>
                     <td>A5</td>
-                    <td>Exploring Magnetic Phenomena</td>
+                    <td>Explaining Magnetic Phenomena</td>
                     <td>90</td>
                 </tr>
                 <tr>

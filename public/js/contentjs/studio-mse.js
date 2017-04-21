@@ -30,7 +30,7 @@ var nodes = new vis.DataSet([
     },
     {
         id         : 5,
-        label      : 'A5: Exploring \nMagnetic \nPhenomena \n90 min',
+        label      : 'A5: Explaining \nMagnetic \nPhenomena \n90 min',
         x          : "-650",
         y          : "-875",
         description: "In this lesson students apply the ‘alignment of tiny magnets’ model to make predictions and explain a variety of magnetic phenomena.  Back in A2, they had magnetized nails, but did not have a model to explain how they become magnetized, nor how to determine in advance which end of the nail would be the North or South Pole. Now they use their model to predict two ways they could rub a nail to make its tip end a North Pole, and then they test their thinking. Next, they predict what would happen if the tip of an unmagnetized nail is held close to, but not touching, each pole of a magnet. They then test their predictions and consider how this phenomenon of induced magnetization can be explained using their model. They use their model to explain why both poles of a magnet attract a (steel) paper clip.  Finally, they predict how the relative magnetic strengths of the ends and middle of a bar magnet would compare, design an experiment to test their predictions, and then use the model to explain their results. Throughout the activity they also practice constructing and evaluating more formal model-based explanations (diagram + narrative)."
