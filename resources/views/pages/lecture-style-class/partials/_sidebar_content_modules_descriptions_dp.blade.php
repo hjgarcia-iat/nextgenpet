@@ -4,7 +4,7 @@
        data-toggle="collapse"
        data-target="#mainLectureContentModules"
        data-parent="#main-sidebar-menu">
-        <span>Content Module Descriptions</span>
+        <span>Content Module Descriptions and Activities</span>
     </a>
     <div id="mainLectureContentModules"
          class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">

@@ -21,8 +21,7 @@
         </a>
         <a href="{{ url('about/engineering-design-activities') }}"
            class="list-group-item{{ (Request::is('about/engineering-design-activities')) ? ' active' : '' }}">
-            <span>Engineering Design Activities
-            </span>
+            <span>Overview of Engineering Design Activities</span>
         </a>
         <a href="{{ url('about/ngss-and-next-gen-pet') }}"
            class="list-group-item{{ (Request::is('about/ngss-and-next-gen-pet')) ? ' active' : '' }}">
