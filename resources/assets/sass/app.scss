@@ -147,3 +147,33 @@ $offcanvas-width : 400px !default;
         display : table;
     }
 }
+
+/*
+//
+// Font Lists
+// --------------------------------------------------
+*/
+.fa-ul {
+    li {
+        margin-bottom: .5em;
+
+        a {
+            color: #222222;
+            font-family : $font-family-sans-serif-text;
+        }
+    }
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+    border-radius: 0;
+
+    .card-header a, .card-header a:hover {
+        color: #222222;
+        text-decoration: none;
+    }
+}

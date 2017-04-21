@@ -12903,4 +12903,32 @@ hr {
   }
 }
 
+/*
+//
+// Font Lists
+// --------------------------------------------------
+*/
+.fa-ul li {
+  margin-bottom: .5em;
+}
+
+.fa-ul li a {
+  color: #222222;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+  border-radius: 0;
+}
+
+.card .card-header a, .card .card-header a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=app.css.map */
