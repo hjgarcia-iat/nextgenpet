@@ -17,7 +17,7 @@
         <p>
             For a viewable-only version of all the student activities for this module,
             <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf" target="_blank">
-                click here </a>. These copies cannot be distributed to students, but are for your use only. </p>
+                click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
         <h4>Unit PC: Physical Changes</h4>
         @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <p>

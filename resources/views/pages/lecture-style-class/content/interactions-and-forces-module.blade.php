@@ -39,9 +39,7 @@
         <p>
             For a viewable-only version of all the student lessons for this module,
             <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IF_Lecture-Style_watermark.pdf" target="_blank">
-                click here </a> . These copies cannot be distributed to students, but are for your use only. To order
-            these content module materials for your students, contact the publisher,
-            <a href="https://www.iat.com" target="_blank">It’s About Time </a> . </p>
+                click here</a>. These copies cannot be distributed to students, but are for your use only.</p>
         <h4>Unit FM: Force-based Model for Interactions</h4>
         <p>
             Unit FM focuses on introducing students to the force model for describing interactions. The unit considers

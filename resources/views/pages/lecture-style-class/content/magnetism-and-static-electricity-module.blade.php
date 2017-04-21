@@ -27,9 +27,7 @@
         <p>
             For a viewable-only version of all the student lessons for this module,
             <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf" target="_blank">
-                click here </a>. These copies cannot be distributed to students, but are for your use only. To order
-            these content module materials for your students, contact the publisher,
-            <a href="https://www.iat.com" target="_blank">It’s About Time </a>. </p>
+                click here</a>. These copies cannot be distributed to students, but are for your use only.</p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <p>
             Unit M focuses on helping students develop a model that can successfully explain many different observations

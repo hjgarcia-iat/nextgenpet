@@ -36,7 +36,7 @@
         <p>
             For a viewable-only version of all the student activities for this module,
             <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf" target="_blank">
-                click here </a> . These copies cannot be distributed to students, but are for your use only. </p>
+                click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
         <h4>Unit FM: Force-based Model for Interactions</h4>
         <p>In this unit students first develop their understanding of what is meant by force and how it is related to a
             contact push/pull interaction. They consider how the force-based and energy-based models are related and
