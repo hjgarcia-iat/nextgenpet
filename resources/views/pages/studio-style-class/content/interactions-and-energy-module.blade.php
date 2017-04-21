@@ -15,6 +15,19 @@
         <h3>Interactions and Energy Module</h3>
         <p>This module focuses on developing students’ understanding of the energy model for describing interactions, including the law of the conservation of energy (COE).  It introduces a diagrammatic representation of the energy transfers between interacting objects and the energy changes within objects. In Unit EM students learn about various types of interactions (contact push/pull, light, heat, electric circuit) and different forms of energy associated with them. As students learn about more interactions, the corresponding G/R ([energy] giver/[energy] receiver) energy diagrams become more complex, describing the flow of energy through a system of interacting objects; they are eventually quantified using the idea of efficiency.  In Unit PEF, which introduces the idea of potential energy, students first examine interactions involving elastic objects. They then extend this idea to describe magnetic, electrostatic, and gravitational interactions using the energy model and become familiar with the concept of fields. Finally, they also examine electromagnetic interactions.
         </p>
+        <p>
+            For a viewable-only version of all the student activities for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit EM: Energy-based Model for Interactions</h4>
         <p>Unit EM focuses on introducing students to the energy model for describing interactions. Students are first shown a simple giver/receiver energy diagram to represent the contact push/pull interaction between two colliding carts. From there, through successive activities students learn about additional types of interactions (light, heat, electric circuit) and additional forms of energy (thermal, chemical potential energy). The corresponding G/R energy diagrams become more complex, describing the flow of energy through a system of interacting objects. Initially, all energy diagrams are qualitative, simply describing the flow of energy through a system of interacting objects. When students learn about energy efficiency, they are able to quantify the G/R energy diagrams by calculating the energy amounts corresponding to each part of the diagram. By the end of the unit the students are expected to describe a chain of interactions between several objects (mainly in an electric circuit) by drawing the appropriate G/R energy diagram, quantifying it (assuming they know how much energy was available at the start), calculating the overall efficiency of the system, and validating the conservation of energy quantitatively. The unit ends with an engineering design activity in which students consider a solar shower installation and how it can be made more efficient.
         </p>

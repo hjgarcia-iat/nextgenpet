@@ -20,6 +20,19 @@
             In Unit FM, students consider the affect that a single force has on the motion of an object. They learn that the speed of an object only changes when a force is acting on it, and that the rate of change of speed depends on force strength and the object’s mass. This leads to a statement of Newton’s Second Law. The second unit, Unit CF, focuses on two main ideas. For the first two activities, students learn how to deal with situations where two or more forces simultaneously act on an object by combining them into a single ‘net’ force. Situations where the forces are balanced and the net force is zero leads to a statement of Newton’s First Law. In the third activity students consider the mutual forces between two objects that are interacting, and this leads to a statement of Newton’s Third Law.
 
         </p>
+        <p>
+            For a viewable-only version of all the student activities for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit FM: Force-based Model for Interactions</h4>
         <p>In this unit students first develop their understanding of what is meant by force and how it is related to a contact push/pull interaction. They consider how the force-based and energy-based models are related and should come to understand that in such interactions energy is transferred to or from an object only when a force is acting on it. They develop the ideas that the speed of an object increases or decreases depending on whether the force is acting in the same direction as, or the opposite direction to, the object’s motion. From this they infer that if no forces act on an object, its speed will remain constant. This also allows them to infer that friction is a force that acts on a moving object in the opposite direction to its motion. They use an analogy to understand how such a force can be produced by two surfaces rubbing together.
         </p>

@@ -14,6 +14,19 @@
         <p>
         <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
         </p>
+        <p>
+            For a viewable-only version of all the student activities for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit PC: Physical Changes</h4>
         @include('pages.partials._canvas',['canvasId' => 'canvas'])
         <p>

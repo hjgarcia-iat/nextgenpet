@@ -20,6 +20,19 @@
             The main purpose of this module is to introduce students to a wave model by studying different types of waves and phenomena that can be explained in terms of waves. In the unit on waves and sound (Unit WS), students are introduced to properties of mechanical waves in one dimension (waves along a string or spring), two dimensions (water waves) and three dimensions (sound waves and earthquake waves). Wave properties include amplitude, frequency, wavelength, and wave speed. They also learn about both transverse and longitudinal waves. The unit on light (Unit L) begins with a very brief introduction to electromagnetic waves, describing visible light as an example. In the remainder of the first lesson students use the light ray model to explore pinhole and shadow phenomena. They continue using the light ray model to learn about reflection and refraction of light. In the fourth lesson they learn about how the eye/brain system perceives color and explore both color addition of lights and color subtraction with color filters. Students can perform some simple experiments in the first and fourth lessons of Unit L, but if the materials are not available, the instructor can show movies of all the experiments.
 
         </p>
+        <p>
+            For a viewable-only version of all the student lessons for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_WSL_Lecture-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit WS: Mechanical Waves and Sound</h4>
         <p>This unit introduces students to a wave model. In its three lessons, they learn about the properties of (mechanical) waves in one dimension (waves along a string), two dimensions (water waves), and three dimensions (sound waves). Rather than perform experiments, students collect their evidence from movies of PhET simulations. They learn about transverse and longitudinal waves; that the frequency of the wave is the same as that of the source; that the wave speed depends only on the properties of the medium; and that for a constant wave speed, the frequency and wavelength are inversely related. In the homework extensions for this unit, they learn about people waves, reflection and refraction of water waves, and earthquake waves.
         </p>

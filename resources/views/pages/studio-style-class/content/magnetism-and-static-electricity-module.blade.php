@@ -17,6 +17,19 @@
         <p>
             The first unit in the module focuses on developing a model of magnetism. Once students have experience with the model development process they then work through the second unit, where developing a model for static electricity is more challenging.  Whereas there is only one type of magnetic material, there are basically two types of materials involved in static electric effects: insulators and conductors. 
         </p>
+        <p>
+            For a viewable-only version of all the student activities for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <p>
             Unit M focuses on helping students develop a model that can successfully explain many different observations involving magnets. This unit provides a nice example of how models are proposed, tested and modified based on evidence. Most students will change their model several times during the unit as they keep obtaining evidence that does not support their current model.  By the end of the unit, however, the class will come to consensus on a ‘small-magnet alignment model,’ which can explain a wide range of magnetic phenomena.  It has many features in common with the Domain model. In the last activity students apply their ideas about magnetism to an engineering design project involving a prototype maglev train.

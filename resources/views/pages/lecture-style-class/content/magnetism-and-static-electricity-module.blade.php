@@ -11,11 +11,25 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Magnetism and Static Electricity Module</h3>
+        
         <p>
             The main purpose of this module is to engage students in several science and engineering practices, particularly developing and using models, constructing explanations and engaging in argument from evidence.  The explanatory models students develop are mechanistic, so students get extensive experience with the crosscutting concept of cause and effect: mechanism and explanation.   As students are engaged in the practices, what emerges is an understanding of magnetic and electrostatic interactions, which are part of the core physical science idea PS2B, types of interactions.
         </p>
         <p>
             The first unit in the module focuses on developing a model of magnetism. Once students have experience with the model development process, they then work through the second unit, where developing a model for static electricity is more challenging.  Whereas there is only one type of magnetic material, there are basically two types of materials involved in static electric effects: insulators and conductors. 
+        </p>
+        <p>
+            For a viewable-only version of all the student lessons for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
         </p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <p>

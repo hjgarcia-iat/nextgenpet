@@ -14,9 +14,23 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Interactions and Energy Module</h3>
+        
         <p>The main purpose of this module is to introduce students both to various types of interactions between objects and to the energy model for describing those interactions. In the first unit (energy model) students are introduced to contact push/pull interactions, heat interactions (due to temperature differences), electric circuit interactions, light interactions and sound interactions. In the second unit (potential energy and fields) students are introduced to elastic interactions; magnetic, static electric and electromagnetic interactions; and gravitational interactions.
         </p>
         <p>The energy model is represented by a giver/receiver energy diagram, in which during the interaction ‘energy’ is transferred from the ‘giver’ to the ‘receiver,’ the giver decreases in some type of energy and the receiver increases in some type (same or different) of energy. We use only the generic term ‘energy’ to label the actual transfer in the diagram because the transfer is not related to an observable quantity. However, since changes in the energy giver and receiver are directly related to observable or measurable changes in some quantity, those energy changes are given specific names. Thus, the energy associated with changes in speed is called kinetic energy; the energy change associated with changes in temperature is called thermal energy; the energy changes associated with changes in the distance between an object and the earth is called gravitational potential energy; and so forth. Inherent in the giver/receiver energy diagram is a visual representation of the Law of the Conservation of Energy.
+        </p>
+        <p>
+            For a viewable-only version of all the student lessons for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IE_Lecture-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
         </p>
         <h4>Unit EM: Energy-based Model for Interactions</h4>
         <p>

@@ -14,11 +14,25 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Interactions and Forces Module</h3>
+        
         <p>
             The main purpose of this module is to introduce students to the force model description of interactions. In the Interactions and Energy Module students learned how to describe interactions in terms of energy. They drew giver/receiver energy diagrams to describe the energy that is transferred between interacting objects and the resulting energy changes that occur within the objects. The big idea from the energy module was the law of conservation of energy. In this module, students learn how to describe interactions in terms of forces (defined as the push or pull of one object on another). They draw force diagrams to describe the strength and direction of the force(s) acting on an object and the speed arrow showing the speed and direction of motion of the object at a particular moment in time. The big idea from this module in Newton’s Second Law of Motion, rate of change of speed = net force on object/mass of object. Students also learn about Newton’s First and Third Laws.
         </p>
         <p>
             In Unit FM, students consider the affect that a single force has on the motion of an object. They learn that the speed of an object only changes when a force is acting on it, and that the rate of change of speed depends on force strength and the object’s mass. This leads to a statement of Newton’s Second Law valid for single forces. The second unit, Unit CF, focuses on three main ideas (Newton’s three Laws of Motion). For the first three lessons, students learn how to deal with situations where two or more forces simultaneously act on an object by combining them into a single ‘net’ force. This leads to a general statement of Newton’s Second Law. Situations where the forces are balanced and the net force is zero leads to a statement of Newton’s First Law. In the fourth lesson students consider the mutual forces between two objects that are interacting, and this leads to a statement of Newton’s Third Law.
+        </p>
+        <p>
+            For a viewable-only version of all the student lessons for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IF_Lecture-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
         </p>
         <h4>Unit FM: Force-based Model for Interactions</h4>
         <p>

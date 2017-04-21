@@ -16,6 +16,19 @@
         <h3>Matter and Interactions Module</h3>
         <p>The main purpose of this module is to introduce students to theories and models that can help explain some of the properties of materials, changes in those properties, and interactions between materials. The ‘small particle theory’ is used in the Physical Changes Unit to account for the properties of gases, liquids, and solids, and changes in state. In each of these physical changes the identities of the materials as well as their mass remains the same. In the Chemical Reactions Unit, students consider situations where the identities of the materials change. They learn how to classify materials according to macroscopic properties, and learn that mass is conserved even during chemical reactions. Students then learn about the small particle theory for chemical reactions, and how elements and compounds are composed of small particles—atoms, molecules, and formula units. They can then ‘explain’ why mass is conserved in chemical reactions (or physical changes) in terms of these small particles. Students then explore how materials are classified and organized according to their physical and chemical properties (Periodic Table), and how the organization can be explained in terms of atoms and ions and the behavior of valence electrons. Finally, they use a simple model to describe ionic and covalent bonds and explain (in simple cases) the chemical composition of molecules and formula units.
         </p>
+        <p>
+            For a viewable-only version of all the student lessons for this module,
+            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MI_Lecture-Style_watermark.pdf"
+               target="_blank">
+                click here
+            </a>
+            . These copies cannot be distributed to students, but are for your use only. To order these content module
+            materials for your students, contact the publisher,
+            <a href="https://www.iat.com"
+               target="_blank">It’s About Time
+            </a>
+            .
+        </p>
         <h4>Unit PC: Physical Changes</h4>
         <p>The purpose of this unit is to introduce students to the small particle theory of gases, liquids, and solids. They observe movies of macroscopic phenomena and computer simulations of those phenomena, and then try to explain the phenomena in terms of the small particle theory. The focus is on physical changes only, not chemical reactions. Therefore, the internal structure of ‘particles’ (atoms and molecules) is not relevant. Students first consider gases and investigate changes in the macroscopic quantities of pressure, volume, temperature, and mass. This leads them to a statement of the ‘Gas Properties Relationship’ (a form of the Ideal Gas Law). They are then introduced to the small particle theory of gases, and how to ‘explain’ macroscopic changes in gases in terms of small particles. They learn that temperature is related to the average kinetic energy of particles and that the ‘Gas Properties Relationship’ has a small particle accounting, the ‘SPT Gas Properties Relationship.’ Then they consider liquids, solids, and changes of state, first exploring macroscopic relationships and then explaining them in terms of small particle theory.
         </p>
