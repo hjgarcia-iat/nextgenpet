@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Studio Style Class
-@stop
+@section('pageTitle','Studio Style Class')
 @section('sidebar')
     @include('pages.studio-style-class._sidebar')
 @stop
@@ -10,12 +7,12 @@
     @include('pages.studio-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Table of Contents with Time Estimates</h3>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -83,7 +80,7 @@
                     <td>Engineering Design: The Maglev System</td>
                     <td>80</td>
                 </tr>
-            
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -120,7 +117,7 @@
                 </tr>
                 <tr>
                     <td>Ext D</td>
-                    <td>What do the Charged Entities Represent?</td>
+                    <td>Nature of Charged Entities</td>
                     <td>online</td>
                 </tr>
                 <tr>
@@ -130,10 +127,10 @@
                 </tr>
                 <tr>
                     <td>Ext E</td>
-                    <td>What Happens When a Charged Object is Discharged?</td>
+                    <td>Discharging Charged Objects</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A5</td>
                     <td>Interactions Between Charged and Uncharged Objects</td>
@@ -151,8 +148,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -238,14 +235,14 @@
                     <td>More on Efficiency and Conservation of Energy</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A8</td>
                     <td>Engineering Design: The Solar Shower</td>
                     <td>60</td>
                 </tr>
-            
-            
+
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -272,16 +269,16 @@
                 </tr>
                 <tr>
                     <td>Ext B</td>
-                    <td>More on Magnetic and Static Electric Interactions (optional)</td>
+                    <td>Representing Magnetic Poles and Electric Charges </td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A3</td>
                     <td>Magnetic and Static Electricity Interactions and Energy</td>
                     <td>110</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext C</td>
                     <td>Exploring Magnetic and Electric Fields</td>
@@ -314,8 +311,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -415,7 +412,7 @@
                     <td>Newton’s Second Law</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A2</td>
                     <td>Motion with Balanced Forces</td>
@@ -441,7 +438,7 @@
                     <td>Newton’s Third Law and Balanced Forces</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A4</td>
                     <td>Explaining Phenomena Using Force Ideas</td>
@@ -459,8 +456,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -491,7 +488,7 @@
                     <td>Continuous Waves</td>
                     <td>50</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext A</td>
                     <td>How Do Waves Move?</td>
@@ -541,7 +538,7 @@
                     <td>Drawing Light Ray Diagrams for Pinholes and Shadows</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A2</td>
                     <td>Reflection of Light</td>
@@ -569,8 +566,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -601,7 +598,7 @@
                     <td>Introduction to Spreadsheets and Graphing</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A2</td>
                     <td>Pressure and the Amount of Gas</td>
@@ -672,7 +669,7 @@
                     <td>Explanations Involving Physical Changes</td>
                     <td>90</td>
                 </tr>
-            
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -697,7 +694,7 @@
                     <td>Separating Mixtures Using Physical Properties</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>A3</td>
                     <td>Evidence of Chemical Reaction</td>
@@ -713,7 +710,7 @@
                     <td>Conservation of Mass and SPT</td>
                     <td>90</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext C</td>
                     <td>Collision Theory and Chemical Reactions</td>
@@ -734,7 +731,7 @@
                     <td>Elements and the Periodic Table</td>
                     <td>90</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext E</td>
                     <td>Models of the Atom</td>

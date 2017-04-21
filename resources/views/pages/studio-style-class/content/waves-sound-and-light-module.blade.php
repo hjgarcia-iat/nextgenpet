@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Studio Style Class
-@stop
+@section('pageTitle','Studio Style Class')
 @section('sidebar')
     @include('pages.studio-style-class._sidebar')
 @stop

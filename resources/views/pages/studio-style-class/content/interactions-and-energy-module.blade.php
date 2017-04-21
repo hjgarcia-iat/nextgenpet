@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Studio Style Class
-@stop
+@section('pageTitle','Studio Style Class')
 @section('sidebar')
     @include('pages.studio-style-class._sidebar')
 @stop
@@ -10,7 +7,7 @@
     @include('pages.studio-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content"
              class="pdf-content"></section>
     <section id="html-content"

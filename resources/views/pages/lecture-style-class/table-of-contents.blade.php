@@ -1,8 +1,5 @@
 @extends('layouts.two-column')
-
-@section('pageTitle')
-    Lecture Style Class
-@stop
+@section('pageTitle','Lecture Style Class')
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')
 @stop
@@ -10,12 +7,12 @@
     @include('pages.lecture-style-class._banner')
 @stop
 @section('content')
-    
+
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Table of Contents with Time Estimates</h3>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -149,10 +146,10 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <sup>1</sup>Extensions (Ext’s) are online, interactive homework activities.
-    
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -233,7 +230,7 @@
                     <td>Keeping Track of Energy in Electric Circuit Interactions</td>
                     <td>75</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext H</td>
                     <td>More on Keeping Track of Energy</td>
@@ -249,8 +246,8 @@
                     <td>Engineering Design: No More Cold Showers</td>
                     <td>75</td>
                 </tr>
-            
-            
+
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -280,13 +277,13 @@
                     <td>Representing Magnetic Poles and Electric Charges (optional)</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L3</td>
                     <td>Magnetic and Static Electricity Interactions and Energy</td>
                     <td>65</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext C</td>
                     <td>Exploring Magnetic and Electric Fields</td>
@@ -314,8 +311,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -410,7 +407,7 @@
                     <td>Newton’s Second Law</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L2</td>
                     <td>Balanced Forces</td>
@@ -453,8 +450,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -485,7 +482,7 @@
                     <td>How Do Waves Move?</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L2</td>
                     <td>Two-Dimensional Waves</td>
@@ -511,7 +508,7 @@
                     <td>Seismic Waves</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -523,7 +520,7 @@
                 </tr>
                 <tr>
                     <td>L1</td>
-                    <td>Light Waves, Pinholes, and Images</td>
+                    <td>Light Waves, Pinholes, and Shadows</td>
                     <td>75</td>
                 </tr>
                 <tr>
@@ -531,7 +528,7 @@
                     <td>Drawing Light Ray Diagrams for Pinholes and Shadows</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L2</td>
                     <td>Reflection of Light</td>
@@ -559,8 +556,8 @@
                 </tr>
             </tbody>
         </table>
-    
-    
+
+
         <table class="table table-bordered table-hover table-sm table-responsive">
             <thead>
                 <tr>
@@ -591,7 +588,7 @@
                     <td>Effects due to air pressure</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L2</td>
                     <td>Small Particle Theory of Gases</td>
@@ -617,7 +614,7 @@
                     <td>Liquids and SPT</td>
                     <td>45</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext J</td>
                     <td>Sinking and Floating</td>
@@ -654,11 +651,11 @@
                     <td>online</td>
                 </tr>
                 <tr>
-                    <td>L8 Ed</td>
+                    <td>L8 ED</td>
                     <td>Engineering Design: Evaluate Ballonet Designs</td>
                     <td>~60</td>
                 </tr>
-            
+
                 <tr>
                     <td colspan="3"></td>
                 </tr>
@@ -673,13 +670,13 @@
                     <td>Physical Changes vs. Chemical Reactions</td>
                     <td>45</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext A</td>
                     <td>Separating Mixtures Using Physical Properties</td>
                     <td>online</td>
                 </tr>
-            
+
                 <tr>
                     <td>L2</td>
                     <td>Chemical Reactions and Conservation of Mass</td>
@@ -695,7 +692,7 @@
                     <td>Chemical Reactions, Conservation of Mass, and SPT</td>
                     <td>45</td>
                 </tr>
-            
+
                 <tr>
                     <td>Ext F</td>
                     <td>Balancing chemical equations</td>
