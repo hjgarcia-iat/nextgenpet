@@ -54,7 +54,8 @@
             <div class="card">
                 <div class="card-header" role="tab" id="headingOne">
                     <h5 class="mb-0">
-                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lesson 1: Modeling &amp; the Mystery Tube</a>
+                        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">Lesson
+                            1: Modeling &amp; the Mystery Tube</a>
                     </h5>
                 </div>
                 <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
@@ -73,7 +74,8 @@
             <div class="card">
                 <div class="card-header" role="tab" id="headingTwo">
                     <h5 class="mb-0">
-                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lesson 2: Exploring Magnetic Effects</a>
+                        <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">Lesson
+                            2: Exploring Magnetic Effects</a>
                     </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
