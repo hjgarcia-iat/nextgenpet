@@ -9,7 +9,7 @@
             <span>Modules &amp; Units
             </span>
         </a>
-        
+
         <a href="{{ url('about/overview-of-extensions') }}"
            class="list-group-item{{ (Request::is('about/overview-of-extensions')) ? ' active' : '' }}">
             <span>Overview of Extensions (Homework)
@@ -33,11 +33,11 @@
             <span>Implementation Versions
             </span>
         </a>
-        <a href="{{ url('workshops') }}"
-           class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">
-            <span>Workshops for Faculties &amp; PD Providers
-            </span>
-        </a>
+        {{--<a href="{{ url('workshops') }}"--}}
+           {{--class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">--}}
+            {{--<span>Workshops for Faculties &amp; PD Providers--}}
+            {{--</span>--}}
+        {{--</a>--}}
         <a href="{{ url('about/development-staff') }}"
            class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">
             <span>About the Development Staff
