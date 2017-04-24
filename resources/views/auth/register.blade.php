@@ -2,6 +2,7 @@
 @section('pageTitle','Register')
 @section('content')
     {!! Form::open(['url' => route('register.create'),'class' => 'form-horizontal']) !!}
+    {!! Honeypot::generate('my_name', 'my_time') !!}
     <div class="form-group {{ $errors->has('first_name') ? 'has-danger' : '' }}">
         <label class="form-control-label"
                for="first_name">
