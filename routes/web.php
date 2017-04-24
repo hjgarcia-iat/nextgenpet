@@ -15,6 +15,8 @@ Route::post('/register','Auth\RegisterController@store')->name('register.store')
 Route::get('/my-account','AccountController@edit')->name('my-account')->middleware('auth');
 Route::post('/my-account','AccountController@update')->name('my-account-update')->middleware('auth');
 
+Route::get('file/{file}','FileController@show')->name('file.show');
+
 Route::get('{page}', [
     'uses' => 'PagesController@show',
 ])->where(['page' => '.*'])->middleware('pageAuthChecker');

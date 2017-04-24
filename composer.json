@@ -12,7 +12,8 @@
         "laravel/framework"        : "5.3.*",
         "spatie/laravel-permission": "1.11.*",
         "msurguy/honeypot"         : "dev-master",
-        "laravelcollective/html"   : "5.3.*"
+        "laravelcollective/html"   : "5.3.*",
+        "league/flysystem-aws-s3-v3": "~1.0"
     },
     "require-dev" : {
         "fzaninotto/faker"           : "~1.4",
