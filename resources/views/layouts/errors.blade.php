@@ -12,8 +12,7 @@
                 @yield('content')
             </div>
         </section>
-        
-        @include('layouts.partials.footer')
-        @include('layouts.partials.scripts')
+    
+        @include('layouts.partials._footer_form')
     </body>
 </html>

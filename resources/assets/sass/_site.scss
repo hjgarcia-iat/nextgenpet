@@ -1,0 +1,109 @@
+/*
+//
+// Carousel (Banner Image)
+// --------------------------------------------------
+*/
+
+.carousel .item .active { height : 300px; }
+
+.carousel-inner { height : 300px; }
+
+.fill { width : 100%; height : 300px; background-position : center; background-size : cover; }
+
+.banner-image {
+    .fill {
+        height : 300px;
+    }
+
+    position : relative;
+
+    .banner-box {
+        background    : rgba(0, 0, 0, .75);
+        padding       : 20px;
+        color         : #ffffff;
+        border-radius : 5px;
+        margin-top    : 30px;
+    }
+}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition : 0.3s ease-in-out left;
+    -moz-transition    : 0.3s ease-in-out left;
+    -o-transition      : 0.3s ease-in-out left;
+    transition         : 0.3s ease-in-out left;
+}
+
+.container.carousel-container {
+    padding-left  : 0 !important;
+    padding-right : 0 !important;
+}
+
+/*
+//
+// Content Styles
+// --------------------------------------------------
+*/
+.pdf-content {
+    height        : 800px;
+    display       : none;
+    overflow      : hidden;
+    border-bottom : 1px solid #dddddd;
+
+    h3 {
+        margin-top : 0;
+    }
+
+    .iframe {
+        height : 800px;
+        width  : 100%;
+        border : 1px solid #dddddd;
+    }
+
+}
+
+.html-content {
+    h3 {
+        margin-top : 0;
+    }
+}
+
+/*
+//
+// Canvas Elements
+// --------------------------------------------------
+*/
+.canvas {
+    width  : 100%;
+    height : 500px;
+    border : 1px solid lightgray;
+    cursor : pointer;
+}
+
+@include media-breakpoint-down(sm) {
+    .canvas {
+        height: 300px;
+    }
+}
+
+.canvas-drawer {
+    border           : 1px solid lightgray;
+    border-top-width : 3px;
+    margin-bottom    : 40px;
+    padding          : 20px;
+    background       : #f9f9f9;
+    position         : relative;
+    font-size        : 15px;
+
+    h4 {
+        font-size : 18px;
+    }
+}
+
+.canvas-header {
+    border     : 1px solid lightgray;
+    padding    : 20px;
+    background : #f9f9f9;
+}
+
+

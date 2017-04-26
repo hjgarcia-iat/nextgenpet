@@ -11698,6 +11698,38 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
+.highlight {
+  color: #f68d2d;
+}
+
+.well {
+  background: #f9f9f9;
+  padding: 3em;
+  margin: 2em;
+  border: 1px solid #d3d3d3;
+}
+
+.well-error {
+  margin-top: 50px;
+}
+
+.well-error h2 {
+  font-size: 100px;
+}
+
+@media (min-width: 1200px) {
+  .sps {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
+  }
+  .sps:before,
+  .sps:after {
+    content: '';
+    display: table;
+  }
+}
+
 /*
 //
 // Variables and Classes to Mix In
@@ -11947,6 +11979,26 @@ a:active {
 .btn-primary:hover {
   background: #ca5e00;
   border-color: #ff9f4b;
+}
+
+.btn-default {
+  background: #cccccc !important;
+  color: #222222 !important;
+}
+
+.btn-default:hover {
+  background: #b3b3b3 !important;
+  border-color: #484848 !important;
+}
+
+/*
+//
+// Alerts
+// --------------------------------------------------
+*/
+.alert {
+  border-radius: 0;
+  border-top: none;
 }
 
 /*
@@ -12496,17 +12548,6 @@ a:active {
   animation-delay: 1.6s;
 }
 
-/*---make a basic box ---*/
-.box {
-  width: 200px;
-  height: 200px;
-  position: relative;
-  margin: 10px;
-  float: left;
-  border: 1px solid #333333;
-  background: #999999;
-}
-
 /*
 //
 // Bootstrap Overrides
@@ -12860,6 +12901,34 @@ hr {
     content: '';
     display: table;
   }
+}
+
+/*
+//
+// Font Lists
+// --------------------------------------------------
+*/
+.fa-ul li {
+  margin-bottom: .5em;
+}
+
+.fa-ul li a {
+  color: #222222;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+  border-radius: 0;
+}
+
+.card .card-header a, .card .card-header a:hover {
+  color: #222222;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=app.css.map */

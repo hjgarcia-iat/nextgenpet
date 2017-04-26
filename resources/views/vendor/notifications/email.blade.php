@@ -137,12 +137,6 @@ $style = [
                                                 {{ $line }}
                                             </p>
                                         @endforeach
-
-                                        <!-- Salutation -->
-                                        <p style="{{ $style['paragraph'] }}">
-                                            Regards,<br>{{ config('app.name') }}
-                                        </p>
-
                                         <!-- Sub Copy -->
                                         @if (isset($actionText))
                                             <table style="{{ $style['body_sub'] }}">
