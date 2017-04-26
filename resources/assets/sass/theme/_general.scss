@@ -59,8 +59,6 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
     html { font-size : 18px; }
 }
 
-
-
 /*
 //
 // Buttons and General Links Styles
@@ -68,7 +66,12 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 */
 /* unvisited link */
 a:link {
-    color : #fd7600;
+    color  : #fd7600;
+    cursor : pointer;
+}
+
+button {
+    cursor : pointer;
 }
 
 /* visited link */
@@ -92,6 +95,7 @@ a:active {
     border-radius  : 0;
     font-family    : $font-family-sans-serif-heading;
     text-transform : uppercase;
+    cursor         : pointer;
 }
 
 .btn-primary {
@@ -150,13 +154,21 @@ a:active {
 // --------------------------------------------------
 */
 @include media-breakpoint-up(md) {
+
+
+    //the code below achieves a footer
+
+    html {
+        height: 100%;
+    }
+
     body {
         display        : flex;
-        min-height     : 100vh;
+        min-height: 100%;
         flex-direction : column;
     }
 
-    body > .container {
-        flex : 1;
+    .page-content-wrapper {
+        flex: 1 0 auto;
     }
 }

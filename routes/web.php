@@ -1,7 +1,6 @@
 <?php
 
-Route::get('/help', 'HelpController@create');
-Route::post('/help', 'HelpController@store');
+Route::post('/help', 'HelpController@store')->name('help.post');
 
 Route::get('{page}', [
     'uses' => 'PagesController@show',

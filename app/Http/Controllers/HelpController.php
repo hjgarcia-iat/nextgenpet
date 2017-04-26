@@ -3,10 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\HelpRequest;
-use App\Http\Requests\OnlineLearningRequest;
 use App\Mail\Help;
-use App\Mail\OnlineLearning;
-use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
@@ -17,28 +14,17 @@ use Illuminate\View\View;
 class HelpController extends Controller
 {
 
-    /**
-     * Show Help Form
-     *
-     * @return View;
-     */
-    public function create()
-    {
-        return view('help.create')->with('pageTitle', 'Help');
-    }
+	/**
+	 * Post Help Form
+	 *
+	 * @param HelpRequest $request
+	 *
+	 * @return \Illuminate\Http\RedirectResponse
+	 */
+	public function store(HelpRequest $request)
+	{
+		\Mail::to('contact@iat.com')->send(new Help($request));
 
-    /**
-     * Post Help Form
-     *
-     * @param HelpRequest $request
-     * @return \Illuminate\Http\RedirectResponse
-     */
-    public function store(HelpRequest $request)
-    {
-        \Mail::to('contact@iat.com')->send(new Help($request));
-
-        \Session::flash('success', 'Message sent!');
-
-        return redirect()->to('help');
-    }
+		return redirect()->back()->with('success', 'Message send!');
+	}
 }

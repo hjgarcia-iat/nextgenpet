@@ -1,183 +1,27 @@
-<div class="navmenu navmenu-inverse navmenu-fixed-left offcanvas-lg">
-    <a class="navmenu-brand" href="#">
-        <img src="{{ asset('img/mobile-logo.png') }}" alt="It's About Time">
-    </a>
-    <ul class="nav navmenu-nav">
-        
-        <li class="social-icons clearfix">
-    
-            <a href="http://blog.iat.com" target="_blank">
-                <i class="fa fa-comment"></i>
-            </a>
-            <a href="https://www.facebook.com/IATlearning" target="_blank">
-                <i class="fa fa-facebook"></i>
-            </a>
-            <a href="https://twitter.com/ItsAboutTimeEdu" target="_blank">
-                <i class="fa fa-twitter"></i>
-            </a>
-            <a href="http://www.linkedin.com/company/it's-about-time-learning" target="_blank">
-                <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="http://www.youtube.com/user/itsaboutimeedu" target="_blank">
-                <i class="fa fa-youtube"></i>
-            </a>
-            <a href="http://instagram.com/itsabouttimeedu" target="_blank">
-                <i class="fa fa-instagram"></i>
-            </a>
-
-        </li>
-        
-        <li class="dropdown{{ (Request::is('/') or Request::is('about/*') or Request::is('workshops')) ? ' active open' : '' }}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home <b class="caret"></b></a>
-            <ul class="dropdown-menu navmenu-nav">
-                
-                
-                <li class="{{ (Request::is('/')) ? 'active' : '' }}">
-                    <a href="{{ url('/') }}">About</a>
-                </li>
-                <li class="{{ (Request::is('about/module-and-units')) ? 'active' : '' }}">
-                    <a href="{{ asset('about/module-and-units') }}">Modules &amp; Units
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/overview-of-extensions')) ? 'active' : '' }}">
-                    <a href="{{ url('about/overview-of-extensions') }}">Overview of Extensions (Homework)
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/overview-of-teaching-and-learning-activities')) ? 'active' : '' }}">
-                    <a href="{{ url('about/overview-of-teaching-and-learning-activities') }}">Overview of Teaching &amp; Learning Activities
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/engineering-design-activities')) ? 'active' : '' }}">
-                    <a href="{{ url('about/engineering-design-activities') }}">Engineering Design Activities
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/ngss-and-next-gen-pet')) ? 'active' : '' }}">
-                    <a href="{{ url('about/ngss-and-next-gen-pet') }}">NGSS &amp; Next Gen PET
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/implementation-versions')) ? 'active' : '' }}">
-                    <a href="{{ url('about/implementation-versions') }}">Implementation Versions
-                    </a>
-                </li>
-                <li class="{{ (Request::is('workshops')) ? 'active' : '' }}">
-                    <a href="{{ url('workshops') }}">Workshops for Faculties &amp; PD Providers
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/development-staff')) ? 'active' : '' }}">
-                    <a href="{{ url('about/development-staff') }}">About the Development Staff
-                    </a>
-                </li>
-                <li class="{{ (Request::is('about/faculty-online-learning')) ? 'active' : '' }}">
-                    <a href="{{ url('about/faculty-online-learning') }}">Faculty Online Learning Community for NGP
-                    </a>
-                </li>
-
-            </ul>
-        </li>
-    
-        
-    
-        <li class="dropdown{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' active open' : '' }}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Studio Style Class <b class="caret"></b></a>
-            <ul class="dropdown-menu navmenu-nav">
-                <li class="{{ (Request::is('studio-style-class')) ? 'active' : '' }}">
-                    <a href="{{ url('studio-style-class') }}">Introdcutiuon</a>
-                </li>
-                <li class="{{ (Request::is('studio-style-class/pedagogy')) ? 'active' : '' }}">
-                    <a href="{{ url('studio-style-class/pedagogy') }}">Pedagogy</a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
-                       target="_blank">Equipment and Materials
-                    </a>
-                </li>
-                <li class="{{ (Request::is('studio-style-class/table-of-contents')) ? 'active' : '' }}">
-                    <a href="{{ url('studio-style-class/table-of-contents') }}">
-                        Table of Contents with Time Estimates
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Next_Gen_PET_Studio-style_Class.pdf') }}"
-                       target="_blank">Student Materials (for viewing only)
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Teaching_&_Learning_Studio_Style.pdf') }}"
-                       target="_blank"> Teaching and Learning Materials
-                    </a>
-                </li>
-    
-                <li>
-                    <a href="{{ url('studio-style-class/extension-index') }}"
-                       class="{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">Extensions Index
-                    </a>
-    
-                </li>
-                <li>
-                    <a href="{{ url('studio-style-class/demonstration-movies-and-simulations') }}"
-                       class="{{ (Request::is('studio-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">Demonstration Movies &amp; Simulations
-                    </a>
-                </li>
-                <li class="{{ (Request::is('studio-style-class/classroom-videos')) ? 'active' : '' }}">
-                    <a
-                            href="{{ url('studio-style-class/classroom-videos') }}">Classroom Videos
-                    </a>
-                </li>
-            </ul>
-        </li>
-    
-        <li class="dropdown{{ (Request::is('lecture-style-class') or Request::is('lecture-style-class/*')) ? ' active open' : '' }}">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Lecture Style Class <b class="caret"></b></a>
-            <ul class="dropdown-menu navmenu-nav">
-                <li class="{{ (Request::is('lecture-style-class')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class') }}">Introdcutiuon</a>
-                </li>
-    
-                <li class="{{ (Request::is('lecture-style-class/pedagogy')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class/pedagogy') }}">Pedagogy</a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Equipment-Materials_Lecture-style_Class.pdf') }}"
-                       target="_blank">Equipment and Materials
-                    </a>
-                </li>
-                <li class="{{ (Request::is('lecture-style-class/table-of-contents')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class/table-of-contents') }}">Table of Contents with Time Estimates
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Next_Gen_PET_Lecture-Style.pdf') }}"
-                       target="_blank">Student Materials (for viewing only)
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ asset('docs/Teaching_&_Learning_Lecture_Style.pdf') }}"
-                       target="_blank">Teaching and Learning Materials
-                    </a>
-                </li>
-                <li>
-                    <a href="{{ url('lecture-style-class/extension-index') }}"
-                       class="{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">Extensions Index
-                    </a>
-                    
-                </li>
-                <li>
-                    <a href="{{ url('lecture-style-class/demonstration-movies-and-simulations') }}"
-                       class="{{ (Request::is('lecture-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">Demonstration Movies &amp; Simulations
-                    </a>
-                </li>
-                <li class="{{ (Request::is('lecture-style-class/classroom-videos')) ? 'active' : '' }}">
-                    <a href="{{ url('lecture-style-class/classroom-videos') }}">Classroom Videos
-                    </a>
-                </li>
-            </ul>
-        </li>
-        
-        <li class="{{ Request::is('help') ? 'active' : '' }}">
-            <a href="{{ url('help') }}">Help</a>
-        </li>
-        <li class="{{ Request::is('login') ? 'active' : '' }}">
-            <a href="https://petcyberpd.iat.com/login/">Login</a>
-        </li>
-    </ul>
-</div>
+<nav class="navbar navbar-light hidden-md-up navbar-mobile-toggle">
+    <div class="container">
+        <button type="button"
+                class="navbar-toggler offcanvas-toggle"
+                data-toggle="offcanvas"
+                data-target="#js-bootstrap-offcanvas">
+            <span class="fa fa-navicon"></span>
+        </button>
+    </div>
+</nav>
+<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
+     id="js-bootstrap-offcanvas">
+    <div class="container">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a href="" class="nav-link" id="mobileCloseBtn">
+                    Close Navigation
+                    <i class="fa fa-times-circle"></i>
+                </a>
+            </li>
+            @include('layouts.partials.mobile_links.home-links')
+            @include('layouts.partials.mobile_links.studio-class-links')
+            @include('layouts.partials.mobile_links.lecture-class-links')
+            @include('layouts.partials.mobile_links.general-links')
+        </ul>
+    </div>
+</nav>

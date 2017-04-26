@@ -204,7 +204,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id   : 9,
-        label: 'Ext B: Magnetic\nPoles and Electric \nCharges (optional)',
+        label: 'Ext B: Representing \nMagnetic Poles \nand Electric \nCharges (optional)',
         x    : "-700",
         y    : "-1085",
         description: "[<em>Students should work through this extension only if they had also worked through Lesson 2 during class</em>.] In this extension students first watch a movie from a PhET simulator, where a compass is moved around the area of a bar magnet, and from that infer which end of the compass needle is a North Pole.  Then they watch a series of movies involving interactions between two charged pieces of sticky tape, and between an acrylic sheet and a Styrofoam plate that are rubbed together.  Finally, they are introduced to a simple model representation of charges in the acrylic and Styrofoam.",

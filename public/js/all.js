@@ -16398,5 +16398,10 @@ $(function () {
     });
 
     $('.sps').Stickyfill();
+
+    $('#mobileCloseBtn').bind('click', function (e) {
+        e.preventDefault();
+        $("#js-bootstrap-offcanvas").trigger("offcanvas.toggle");
+    })
 });
 //# sourceMappingURL=all.js.map

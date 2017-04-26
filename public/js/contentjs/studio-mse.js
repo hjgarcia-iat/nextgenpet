@@ -30,7 +30,7 @@ var nodes = new vis.DataSet([
     },
     {
         id         : 5,
-        label      : 'A5: Explaining \nPhenomena Involving \nMagnetism \n90 min',
+        label      : 'A5: Explaining \nMagnetic \nPhenomena \n90 min',
         x          : "-650",
         y          : "-875",
         description: "In this lesson students apply the ‘alignment of tiny magnets’ model to make predictions and explain a variety of magnetic phenomena.  Back in A2, they had magnetized nails, but did not have a model to explain how they become magnetized, nor how to determine in advance which end of the nail would be the North or South Pole. Now they use their model to predict two ways they could rub a nail to make its tip end a North Pole, and then they test their thinking. Next, they predict what would happen if the tip of an unmagnetized nail is held close to, but not touching, each pole of a magnet. They then test their predictions and consider how this phenomenon of induced magnetization can be explained using their model. They use their model to explain why both poles of a magnet attract a (steel) paper clip.  Finally, they predict how the relative magnetic strengths of the ends and middle of a bar magnet would compare, design an experiment to test their predictions, and then use the model to explain their results. Throughout the activity they also practice constructing and evaluating more formal model-based explanations (diagram + narrative)."
@@ -99,7 +99,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id         : 2,
-        label      : 'A2: Developing a \nModel for \nStatic Electricity \n120 min',
+        label      : 'A2: Your \nInitial Model \nfor Static \nElectricity \n120 min',
         x          : "-785",
         y          : "-1000",
         description: "Building on their observations in A1 students start developing their model for static electricity.  They first construct an initial model for what happens when two non-conducting materials are rubbed together, acrylic (sheet) and Styrofoam (plate). The class discusses their initial models and groups decide which they want to adopt.  In Exploration #1 they observe what happens when a +charged acrylic touches strands of uncharged tinsel hanging from the end of a soda can electroscope, and is then removed.  [The tinsel spreads out.]  They draw a model diagram showing what they think happens, and from that predict how the spread-out tinsel will behave when charged acrylic and Styrofoam are brought near. They observe what actually happens and get model-based feedback from a simulation.  In Exploration #2, students see what happens when a plastic stirrer is rubbed all over with wool, and then is touched all over by the demonstrator.  They also observe what happens when the wool-charged stirrer is dropped in water.  In each case, the stirrer is brought near uncharged tinsel on an electroscope to determine if the stirrer is charged, and students explain their observations in terms of the charges on the plastic stirrer.  In Summarizing Questions they discuss the implications of their observations and, if necessary, revise their models."
@@ -145,7 +145,7 @@ var nodes2 = new vis.DataSet([
         id         : 12,
         label      : 'Ext A: Which \nis Charge \nis Which?',
         x          : "-900",
-        y          : "-1075",
+        y          : "-1085",
         description: "Students work with movies from a simulation to learn about the triboelectric series, from which they can determine how materials rubbed together will be charged (+ or -).  From this extension, students learn that acrylic becomes positively charged and Styrofoam becomes negatively charged when they are rubbed together. Students use that knowledge in L2.",
         color      : {
             border    : '#fcd5b5',
@@ -160,7 +160,7 @@ var nodes2 = new vis.DataSet([
         id         : 13,
         label      : 'Ext B: The Law \nof Electric \nCharges',
         x          : "-700",
-        y          : "-1075",
+        y          : "-1085",
         description: "Students work with the PhET simulation, ‘Electric Field Hockey,’ to explore how + and - electric charges affect each other.  They conclude that like charges repel each other and unlike charges attract (law of electric charges), and that the strength of the interaction depends on the distance between the charges and the amount of charge.",
         color      : {
             border    : '#fcd5b5',
@@ -173,7 +173,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id         : 15,
-        label      : 'Ext D: What do \nCharged Entities \nRepresent?',
+        label      : 'Ext D: Nature \nof Charged \nEntities',
         x          : "-450",
         y          : "-900",
         description: "Students consider which type of charge (+, - or both) is actually transferred when two different materials (e.g. acrylic and Styrofoam) are rubbed together.  Initially they consider all possibilities (+ is transferred, - is transferred, both are transferred), but learn about the atomic model and in the end conclude that only – charged (electrons) are transferred.",
@@ -188,7 +188,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id         : 16,
-        label      : 'Ext E: What Happens \nwhen Charged Object \nis Discharged?',
+        label      : 'Ext E: Discharging \nCharged \nObjects ',
         x          : "-700",
         y          : "-725",
         description: "Students use their current model for charged materials to explore and explain what happens when charged objects are discharged in terms of the movement of – charges.  They use the PhET simulation, ‘John Travoltage,’ to get feedback on their ideas, and also develop an explanation for ‘static’ shock.",

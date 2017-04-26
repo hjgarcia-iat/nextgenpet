@@ -83,7 +83,7 @@
         text-transform : uppercase;
         font-size      : 12px;
         border-radius  : 0;
-        border: 1px solid #e3e3e3;
+        border         : 1px solid #e3e3e3;
     }
 
     .list-group-item:hover, .list-group-item.active {
@@ -147,18 +147,29 @@ hr {
     font-size : 15px;
 
     thead th {
-        background : $general-color-orange;
-        color      : white;
-        text-align : center;
+        background     : $general-color-orange;
+        color          : white;
+        text-align     : center;
         vertical-align : middle;
     }
 
+    tr td a {
+        color           : white !important;
+        display         : block;
+        width           : 100%;
+        height          : 100%;
+        text-decoration : underline;
+    }
+
+    tr td.cell-link:hover {
+        background: $general-color-orange;
+    }
+
     tr.highlight td {
-        background : #c7642c;
-        color      : white;
+        background     : #c7642c;
+        color          : white;
         text-align     : center;
         vertical-align : middle;
-        font-weight    : bold;
     }
 }
 
