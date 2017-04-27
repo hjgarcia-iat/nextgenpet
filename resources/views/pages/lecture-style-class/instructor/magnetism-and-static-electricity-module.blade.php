@@ -9,8 +9,7 @@
 @section('content')
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h2>Magnetism and Electricty Module</h2>
-        <h4>Magnetism &amp; Static Electricity Module</h4>
+        <h2>Magnetism &amp; Static Electricity Module</h2>
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
