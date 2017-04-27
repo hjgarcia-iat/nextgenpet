@@ -181,6 +181,7 @@ return [
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Msurguy\Honeypot\HoneypotServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+        HieuLe\Active\ActiveServiceProvider::class,
     ],
 
     /*
@@ -229,7 +230,8 @@ return [
         'View' => Illuminate\Support\Facades\View::class,
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class,
-        'Honeypot' => Msurguy\Honeypot\HoneypotFacade::class
+        'Honeypot' => Msurguy\Honeypot\HoneypotFacade::class,
+        'Active' => HieuLe\Active\Facades\Active::class,
     ],
 
 ];

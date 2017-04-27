@@ -12910,6 +12910,7 @@ hr {
 */
 .fa-ul li {
   margin-bottom: .5em;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .fa-ul li a {
