@@ -38,8 +38,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/2-ext-a-representing-motion-on-speed-time-graphs/uem-exta-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/2-ext-a-representing-motion-on-speed-time-graphs/uem-exta-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -85,8 +84,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/4-ext-c-describing-interactions-in-terms-of-energy/uem-extc-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/4-ext-c-describing-interactions-in-terms-of-energy/uem-extc-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -132,8 +130,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/6-ext-d-scientific-explanations/uem-extd-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/6-ext-d-scientific-explanations/uem-extd-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -151,8 +148,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/7-ext-e-simultaneous-interactions/uem-exte-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/7-ext-e-simultaneous-interactions/uem-exte-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -198,8 +194,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/9-ext-f-effects-of-friction/uem-extf-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/9-ext-f-effects-of-friction/uem-extf-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -245,8 +240,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/11-ext-g-mechanisms-for-heat-interactions/uem-extg-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/11-ext-g-mechanisms-for-heat-interactions/uem-extg-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
@@ -292,8 +286,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/13-ext-h-more-on-keeping-track-of-energy/uem-exth-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/13-ext-h-more-on-keeping-track-of-energy/uem-exth-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
             </ul>
         </div>
