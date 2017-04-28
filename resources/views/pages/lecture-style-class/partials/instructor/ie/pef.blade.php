@@ -1,252 +1,301 @@
 <div class="card">
-    <div class="card-header" role="tab" id="headingTen">
+    <div class="card-header" id="headingTen" role="tab">
         <h5 class="mb-0">
-            <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTen" aria-expanded="true" aria-controls="collapseTen">Lesson
-                1: Exploring Static Electric Effects</a>
+            <a aria-controls="collapseTen" aria-expanded="true" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTen">
+                Lesson
+                1: Elastic Objects and Energy
+            </a>
         </h5>
     </div>
-    <div id="collapseTen" class="collapse" role="tabpanel" aria-labelledby="headingTen">
+    <div aria-labelledby="headingTen" class="collapse" id="collapseTen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/1-l1-exploring-static-electric-effects/use-l1-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/1-l1-elastic-objects-and-energy/upef-l1-instructors-slides.pptx']) }}" target="_blank">
+                        Instructor
+                        Slides
+                    </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/1-l1-exploring-static-electric-effects/use-l1-student-materials.docx']) }}">Student
-                        Materials</a>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/1-l1-elastic-objects-and-energy/upef-l1-student-materials.docx']) }}" target="_blank">
+                        Student
+                        Materials
+                    </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/1-l1-exploring-static-electric-effects/use-l1-key.docx']) }}">Key</a>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/1-l1-elastic-objects-and-energy/upef-l1-key.docx']) }}" target="_blank">
+                        Key
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingEleven">
+    <div class="card-header" id="headingEleven" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">Ext
-                A: Which Charge is Which?</a>
+            <a aria-controls="collapseEleven" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseEleven">
+                Ext
+                A: More on Elastic Energy
+            </a>
         </h5>
     </div>
-    <div id="collapseEleven" class="collapse" role="tabpanel" aria-labelledby="headingEleven">
+    <div aria-labelledby="headingEleven" class="collapse" id="collapseEleven" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/2-ext-a-which-charge-is-which/use-exta-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/2-ext-a-more-on-elastic-energy/upef-exta-extension-mock-up.pptx']) }}" target="_blank">
+                        Extra
+                        Extension Mockup Slides
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingTwelve">
+    <div class="card-header" id="headingTwelve" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">Ext
-                B: The Law of Electric Charges</a>
+            <a aria-controls="collapseTwelve" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwelve">
+                Lesson 2: Comparing Magnetic and Static Electric Interactions (optional)
+            </a>
         </h5>
     </div>
-    <div id="collapseTwelve" class="collapse" role="tabpanel" aria-labelledby="headingTwelve">
+    <div aria-labelledby="headingTwelve" class="collapse" id="collapseTwelve" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/3-ext-b-the-law-of-electric-charges/use-extb-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/3-l2-comparing-magnetic-static-electric-interactions/upef-l2-instructors-slides.pptx']) }}" target="_blank">
+                        Instructor
+                        Slides
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/3-l2-comparing-magnetic-static-electric-interactions/upef-l2-student-materials.docx']) }}" target="_blank">
+                        Student
+                        Materials
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/3-l2-comparing-magnetic-static-electric-interactions/upef-l2-key.docx']) }}" target="_blank">
+                        Key
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingThirteen">
+    <div class="card-header" id="headingThirteen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseThirteen" aria-expanded="false" aria-controls="collapseThirteen">Lesson
-                2: Developing a Model for Static Electricity</a>
+            <a aria-controls="collapseThirteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseThirteen">
+                Ext B: Representing Magnetic Poles and Electric Charges (optional)
+            </a>
         </h5>
     </div>
-    <div id="collapseThirteen" class="collapse" role="tabpanel" aria-labelledby="headingThirteen">
+    <div aria-labelledby="headingThirteen" class="collapse" id="collapseThirteen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/4-l2-developing-a-model-for-static-electricity/use-l2-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/4-l2-developing-a-model-for-static-electricity/use-l2-student-materials.docx']) }}">Student
-                        Materials</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/4-l2-developing-a-model-for-static-electricity/use-l2-key.docx']) }}">Key</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/4-ext-b-magnetic-poles-electric-charges/upef-extb-extension-mock-up.pptx']) }}" target="_blank">
+                        Extra
+                        Extension Mockup Slides
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingFourteen">
+    <div class="card-header" id="headingFourteen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFourteen" aria-expanded="false" aria-controls="collapseFourteen">Lesson
-                3: Representing Uncharged Objects in Your Model</a>
+            <a aria-controls="collapseFourteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseFourteen">
+                Lesson
+                3: Magnetic and Static Electricity Interactions and Energy
+            </a>
         </h5>
     </div>
-    <div id="collapseFourteen" class="collapse" role="tabpanel" aria-labelledby="headingFourteen">
+    <div aria-labelledby="headingFourteen" class="collapse" id="collapseFourteen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/5-l3-represening-uncharged-objects-in-your-model/use-l3-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/5-l3-magnetic-static-electrci-interactions-and-energy/upef-l3-instructors-slides.pptx']) }}" target="_blank">
+                        Instructor
+                        Slides
+                    </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/5-l3-represening-uncharged-objects-in-your-model/use-l3-student-materials.docx']) }}">Student
-                        Materials</a>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/5-l3-magnetic-static-electrci-interactions-and-energy/upef-l3-student-materials.docx']) }}" target="_blank">
+                        Student
+                        Materials
+                    </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/5-l3-represening-uncharged-objects-in-your-model/use-l3-key.docx']) }}">Key</a>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/5-l3-magnetic-static-electrci-interactions-and-energy/upef-l3-key.docx']) }}" target="_blank">
+                        Key
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingSixteen">
+    <div class="card-header" id="headingSixteen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">Ext
-                C: Electroscope and Negatively (–) Charged Object</a>
+            <a aria-controls="collapseSixteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseSixteen">
+                Ext
+                C: Exploring Magnetic and Electric Fields
+            </a>
         </h5>
     </div>
-    <div id="collapseSixteen" class="collapse" role="tabpanel" aria-labelledby="headingSixteen">
+    <div aria-labelledby="headingSixteen" class="collapse" id="collapseSixteen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/6-ext-c-electroscope-and-negatively-charged-objects/use-extc-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/6-ext-c-exploring-magnetic-electric-fields/upef-extc-extension-mock-up.pptx']) }}" target="_blank">
+                        Extra
+                        Extension Mockup Slides
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingSeventeen">
+    <div class="card-header" id="headingSeventeen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">Ext
-                D: Nature of Charged Entities</a>
+            <a aria-controls="collapseSeventeen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseSeventeen">
+                Lesson 4: Gravitational Interactions and Energy
+            </a>
         </h5>
     </div>
-    <div id="collapseSeventeen" class="collapse" role="tabpanel" aria-labelledby="headingSeventeen">
+    <div aria-labelledby="headingSeventeen" class="collapse" id="collapseSeventeen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/7-ext-d-nature-of-charged-entities/use-extd-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/7-l4-gravitational-interactions-and-energy/upef-l4-instructors-slides.pptx']) }}" target="_blank">
+                        Instructor Slides
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/7-l4-gravitational-interactions-and-energy/upef-l4-student-materials.docx']) }}" target="_blank">
+                        Student Materials
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/7-l4-gravitational-interactions-and-energy/upef-l4-key.docx']) }}" target="_blank">
+                        Key
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingEighteen">
+    <div class="card-header" id="headingEighteen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEighteen" aria-expanded="false" aria-controls="collapseEighteen">Lesson
-                4: Refining Your Model for Different Materials</a>
+            <a aria-controls="collapseEighteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseEighteen">
+                Ext D: Exploring Gravitational Potential Energy
+            </a>
         </h5>
     </div>
-    <div id="collapseEighteen" class="collapse" role="tabpanel" aria-labelledby="headingEighteen">
+    <div aria-labelledby="headingEighteen" class="collapse" id="collapseEighteen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/8-l4-refining-your-model-for-different-materials/use-l4-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/8-l4-refining-your-model-for-different-materials/use-l4-student-materials.docx']) }}">Student
-                        Materials</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/8-l4-refining-your-model-for-different-materials/use-l4-key.docx']) }}">Key</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/8-ext-d-exploring-gravitational-potential-energy/upef-extd-extension-mock-up.pptx']) }}" target="_blank">
+                        Extra Extension Mockup Slides
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingNineteen">
+    <div class="card-header" id="headingNineteen" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">Ext
-                E: Discharging Charged Objects</a>
+            <a aria-controls="collapseNineteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseNineteen">
+                Lesson 5: Electromagnetic Interactions
+            </a>
         </h5>
     </div>
-    <div id="collapseNineteen" class="collapse" role="tabpanel" aria-labelledby="headingNineteen">
+    <div aria-labelledby="headingNineteen" class="collapse" id="collapseNineteen" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/9-ext-e-discharging-charged-objects/use-exte-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/9-l5-electromagnetic-interactions/upef-l5-instructors-slides.pptx']) }}" target="_blank">
+                        Instructor Slides
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/9-l5-electromagnetic-interactions/upef-l5-student-materials.docx']) }}" target="_blank">
+                        Student Materials
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/9-l5-electromagnetic-interactions/upef-l5-key.docx']) }}" target="_blank">
+                        Key
+                    </a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingTwenty">
+    <div class="card-header" id="headingTwenty" role="tab">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">Ext
-                F: Charged and Uncharged Objects</a>
+            <a aria-controls="collapseTwenty" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwenty">
+                Ext E: More on Electromagnetic Interactions
+            </a>
         </h5>
     </div>
-    <div id="collapseTwenty" class="collapse" role="tabpanel" aria-labelledby="headingTwenty">
+    <div aria-labelledby="headingTwenty" class="collapse" id="collapseTwenty" role="tabpanel">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/10-ext-f-charged-and-uncharged-objects/use-extf-extension-mock-up.pptx']) }}">Extra
-                        Extension Mockup Slides</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="card">
-    <div class="card-header" role="tab" id="headingTwentyone">
-        <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwentyone" aria-expanded="false" aria-controls="collapseTwentyone">Lesson
-                5: Explaining Phenomena Involving Static Electricity</a>
-        </h5>
-    </div>
-    <div id="collapseTwentyone" class="collapse" role="tabpanel" aria-labelledby="headingTwentyone">
-        <div class="card-block">
-            <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/11-l5-explaining-phenomena-involving-static-electrcity/use-l5-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/11-l5-explaining-phenomena-involving-static-electrcity/use-l5-student-materials.docx']) }}">Student
-                        Materials</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/11-l5-explaining-phenomena-involving-static-electrcity/use-l5-key.docx']) }}">Key</a>
+                    <i class="fa-li fa fa-file-powerpoint-o">
+                    </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/10-ext-e-more-on-electromagnetic-interactions/upef-exte-extension-mock-up.pptx']) }}" target="_blank">
+                        Extra Extension Mockup Slides
+                    </a>
                 </li>
             </ul>
         </div>
