@@ -19,4 +19,76 @@ class LectureInstructorAreaTest extends TestCase
         $this->visit('lecture-style-class/instructor/magnetism-and-static-electricity-module')
             ->seePageIs(route('login.create'));
     }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_mse_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->see('MAGNETISM & STATIC ELECTRICITY MODULE');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_ie_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/interactions-and-energy-module')
+            ->see('INTERACTIONS & ENERGY MODULE');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_if_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/interactions-and-forces-module')
+            ->see('INTERACTIONS AND FORCES MODULE');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_wsl_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/waves-sound-and-light-module')
+            ->see('WAVES, SOUND & LIGHT MODULE');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_mi_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/matter-and-interactions-module')
+            ->see('MATTER AND INTERACTIONS MODULE');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_instructor_tl_page()
+    {
+        $user = $this->createNextGenPetUser();
+
+        $this->actingAs($user)
+            ->visit('/lecture-style-class/instructor/teaching-and-learning')
+            ->assertResponseStatus(200);
+    }
 }
