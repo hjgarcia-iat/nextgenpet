@@ -26,15 +26,26 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
     /**
      * Create a NextGenPET User
      *
+     * @param array $values
      * @return \App\User
      */
-    protected function createNextGenPetUser()
+    protected function createNextGenPetUser($values = [])
     {
-        $account = factory(App\Account::class)->create();
-        $role = factory(App\Role::class)->create(['name' => 'nextgen_pet_user']);
-        $role->users()->save($account->user);
+        //create the user, college, and account
+        $user = factory(App\User::class)->create($values);
+        $college = factory(App\College::class)->create();
+        $user->account()->create([
+            'first_name' => 'Jane',
+            'last_name'  => 'Doe',
+        ]);
 
-        return $account->user;
+        $user->colleges()->attach($college);
+        //assign the role
+        $role = factory(App\Role::class)->create(['name' => 'nextgen_pet_user']);
+        $role->users()->save($user);
+
+        //return user
+        return $user;
     }
 
     /**
@@ -47,8 +58,8 @@ abstract class TestCase extends Illuminate\Foundation\Testing\TestCase
     {
         $user = factory(App\User::class)->create($values);
         $user->account()->create([
-            'first_name' => 'first',
-            'last_name' => 'last',
+            'first_name' => 'Jane',
+            'last_name' => 'Doe',
         ]);
 
         $role = factory(App\Role::class)->create(['name' => 'teacher']);

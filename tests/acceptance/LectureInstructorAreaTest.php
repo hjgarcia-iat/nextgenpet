@@ -19,17 +19,4 @@ class LectureInstructorAreaTest extends TestCase
         $this->visit('lecture-style-class/instructor/magnetism-and-static-electricity-module')
             ->seePageIs(route('login.create'));
     }
-
-    /**
-     * @test
-     */
-    public function we_cannot_login_if_dont_have_the_correct_role()
-    {
-        $user = $this->createGenericUser(['password' => 'password']);
-
-        $this->visit(route('login.create'))
-            ->submitForm('Login', ['email' => $user->email, 'password' => 'password'])
-            ->seePageIs(route('login.create'))
-            ->see('You don\'t have access to this area.');
-    }
 }
