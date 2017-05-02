@@ -51,12 +51,19 @@ class LoginController extends Controller
     public function store(LoginRequest $request)
     {
         if (\Auth::attempt($request->only(['email', 'password']))) {
-
+            //check account status
         	if(\Auth::user()->account_status == 'pending') {
         		auth()->logout();
 
         		return redirect()->route('login.create')->with('error','We are in the process of activating your account we will be contacting you shortly.');
 	        }
+
+	        //check role
+	        if(!\Auth::user()->hasRole('nextgen_pet_user')) {
+        	    auth()->logout();
+
+                return redirect()->route('login.create')->with('error', 'You don\'t have access to this area.');
+            }
 
             return redirect()->intended('/')->with('success', 'You have been logged in!');
         }
