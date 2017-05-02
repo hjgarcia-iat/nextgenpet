@@ -54,6 +54,11 @@
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/Unit_EM_Summary_Ideas_LC.docx']) }}">Summary
+                            of Ideas</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.lecture-style-class.partials.instructor.ie.em')
@@ -86,6 +91,11 @@
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/unit-pef-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/Unit_PEF_Summary_Ideas_LC.docx']) }}">Summary
+                            of Ideas</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

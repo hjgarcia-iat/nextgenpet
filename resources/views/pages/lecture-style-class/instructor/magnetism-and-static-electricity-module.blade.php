@@ -61,6 +61,10 @@
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/Unit_M_Summary_Ideas_LC.docx']) }}">Summary of Ideas</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.lecture-style-class.partials.instructor.mse.mm')
@@ -93,6 +97,11 @@
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/Unit_SE_Summary_Ideas_LC.docx']) }}">Summary
+                            of Ideas</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">
