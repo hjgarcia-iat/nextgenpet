@@ -36,6 +36,11 @@ class Zip extends Model
 	 */
 	protected $table = 'zip_code_US';
 
+    /**
+     * Searchable fields
+     *
+     * @var array
+     */
 	protected $searchable = [
 		'zip_code'
 	];

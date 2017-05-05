@@ -45,100 +45,99 @@ use Spatie\Permission\Traits\HasRoles;
 class User extends Authenticatable
 {
 
-	use HasRoles, Notifiable;
+    use HasRoles, Notifiable;
 
-	/**
-	 * Columns that area Searchable by Eloquence
-	 *
-	 * @var array
-	 */
-	protected $searchableColumns = [
-		'username',
-		'email',
-		'account.first_name',
-		'account.last_name',
-	];
+    /**
+     * Columns that area Searchable by Eloquence
+     *
+     * @var array
+     */
+    protected $searchableColumns = [
+        'username',
+        'email',
+        'account.first_name',
+        'account.last_name',
+    ];
 
-	/**
-	 * The attributes that are mass assignable.
-	 *
-	 * @var array
-	 */
-	protected $fillable = [
-		'username',
-		'email',
-		'user_group_id',
-		'account_expiration',
-		'order_number',
-	];
+    /**
+     * The attributes that are mass assignable.
+     *
+     * @var array
+     */
+    protected $fillable = [
+        'username',
+        'email',
+        'user_group_id',
+        'account_expiration',
+        'order_number',
+    ];
 
-	/**
-	 * The attributes that should be hidden for arrays.
-	 *
-	 * @var array
-	 */
-	protected $hidden = [
-		'password',
-		'remember_token',
-	];
+    /**
+     * The attributes that should be hidden for arrays.
+     *
+     * @var array
+     */
+    protected $hidden = [
+        'password',
+        'remember_token',
+    ];
 
-	/**
-	 * Update the model in the database.
-	 *
-	 * @param  array $attributes
-	 * @param  array $options
-	 *
-	 * @return bool|int
-	 */
-	public
-	function update(array $attributes = [], array $options = [])
-	{
-		if ( ! $this->exists){
-			return false;
-		}
+    /**
+     * Update the model in the database.
+     *
+     * @param  array $attributes
+     * @param  array $options
+     *
+     * @return bool|int
+     */
+    public function update(array $attributes = [], array $options = [])
+    {
+        if (!$this->exists) {
+            return false;
+        }
 
-		$this->account->fill($attributes)->save($options);
+        $this->account->fill($attributes)->save($options);
 
-		return $this->fill($attributes)->save($options);
-	}
+        return $this->fill($attributes)->save($options);
+    }
 
-	/**
-	 * Account Relationship
-	 *
-	 * @return \Illuminate\Database\Eloquent\Relations\HasOne
-	 */
-	public function account()
-	{
-		return $this->hasOne(Account::class);
-	}
+    /**
+     * Account Relationship
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function account()
+    {
+        return $this->hasOne(Account::class);
+    }
 
-	/**
-	 * Return College Class
-	 *
-	 * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
-	 */
-	public function colleges()
-	{
-		return $this->belongsToMany(College::class, 'college_user')->withTimestamps();
-	}
+    /**
+     * Return College Class
+     *
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
+     */
+    public function colleges()
+    {
+        return $this->belongsToMany(College::class, 'college_user')->withTimestamps();
+    }
 
-	/**
-	 * Get the full name of the user
-	 *
-	 * @return string
-	 */
-	public function getNameAttribute()
-	{
-		return $this->account->first_name . ' ' . $this->account->last_name;
-	}
+    /**
+     * Get the full name of the user
+     *
+     * @return string
+     */
+    public function getNameAttribute()
+    {
+        return $this->account->first_name . ' ' . $this->account->last_name;
+    }
 
-	/**
-	 * Has Password
-	 *
-	 * @param $value
-	 */
-	public function setPasswordAttribute($value)
-	{
-		$this->attributes['password'] = \Hash::make($value);
-	}
+    /**
+     * Has Password
+     *
+     * @param $value
+     */
+    public function setPasswordAttribute($value)
+    {
+        $this->attributes['password'] = \Hash::make($value);
+    }
 }
