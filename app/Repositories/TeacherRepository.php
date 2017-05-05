@@ -34,19 +34,20 @@ class TeacherRepository
      */
     public function register(RegisterRequest $request)
     {
-        $user = \DB::transaction(function () use ($request) {
-            $user = $this->createUser($request);
+        $teacher = \DB::transaction(function () use ($request) {
+            //create the teacher
+            $teacher = $this->create($request);
             //create college
-            $college = $this->college->createCollege($request->all());
-            //attach college to user
-            $user->colleges()->attach($college);
+            $college = $this->college->create($request->all());
+            //attach college to teacher
+            $teacher->colleges()->attach($college);
             //attach the role
-            $user->assignRole('nextgen_pet_user');
+            $teacher->assignRole('nextgen_pet_user');
 
-            return $user;
+            return $teacher;
         });
 
-        return $user;
+        return $teacher;
     }
 
     /**
@@ -56,24 +57,24 @@ class TeacherRepository
      *
      * @return User
      */
-    protected function createUser(RegisterRequest $request)
+    protected function create(RegisterRequest $request)
     {
-        //create the user
-        $user = User::create([
+        //create the teacher
+        $teacher = User::create([
             'email'              => $request->get('register_email'),
-            'username'           => $request->get('register_email'),
-            'account_status'     => 'Pending',
-            'user_group_id'      => 1,
-            'account_expiration' => Carbon::now()->addYear(4),
-            'order_number'       => 'NextGenPET',
+            'username'           => $request->get('register_email'),//needed for database
+            'account_status'     => 'pending',
+            'user_group_id'      => 1,//needed for database
+            'account_expiration' => Carbon::now()->addYear(4),//needed for database
+            'order_number'       => 'NextGenPET',//needed for database
         ]);
 
-        //create account for the user
-        $user->account()->create([
+        //create account for the teacher
+        $teacher->account()->create([
             'first_name' => $request->get('first_name'),
             'last_name'  => $request->get('last_name'),
         ]);
 
-        return $user;
+        return $teacher;
     }
 }
