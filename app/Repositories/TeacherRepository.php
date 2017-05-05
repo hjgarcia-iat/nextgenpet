@@ -38,7 +38,7 @@ class TeacherRepository
             //create the teacher
             $teacher = $this->create($request);
             //create college
-            $college = $this->college->create($request->all());
+            $college = $this->college->create($request->get('zip'), $request->get('institution'));
             //attach college to teacher
             $teacher->colleges()->attach($college);
             //attach the role

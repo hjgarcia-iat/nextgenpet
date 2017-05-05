@@ -13,15 +13,16 @@ class CollegeRepository
     /**
      * Create College
      *
-     * @param array $data
+     * @param $zip
+     * @param $name
      * @return College
      */
-    public function create($data = [])
+    public function create($zip, $name)
     {
-        $zip     = Zip::whereZipCode($data['zip'])->firstOrFail();
+        $zip     = Zip::whereZipCode($zip)->firstOrFail();
         $state   = State::whereAbbr($zip->state_prefix)->firstOrFail();
         $college = College::create([
-            'name'     => $data['institution'],
+            'name'     => $name,
             'state_id' => $state->id,
             'address'  => '-',
             'city'     => $zip->city,
