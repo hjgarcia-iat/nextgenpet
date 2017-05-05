@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegisterRequest;
-use App\Repositories\CollegeUserRepository;
+use App\Repositories\TeacherRepository;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
@@ -59,13 +59,13 @@ class RegisterController extends Controller
 	 * Store User
 	 *
 	 * @param  RegisterRequest       $request
-	 * @param  CollegeUserRepository $collegeUser
+	 * @param  TeacherRepository $teacher
 	 *
 	 * @return \Illuminate\Http\RedirectResponse
 	 */
-	public function store(RegisterRequest $request, CollegeUserRepository $collegeUser)
+	public function store(RegisterRequest $request, TeacherRepository $teacher)
 	{
-		$user = $collegeUser->create($request);
+		$teacher->register($request);
 
 		return redirect()
 			->to('/')
