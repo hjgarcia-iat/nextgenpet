@@ -8,14 +8,14 @@ use Sofa\Eloquence\Eloquence;
 /**
  * App\Zip
  *
- * @property int $id
+ * @property int    $id
  * @property string $zip_code
  * @property string $city
  * @property string $state_name
  * @property string $state_prefix
  * @property string $county
- * @property float $lat
- * @property float $lon
+ * @property float  $lat
+ * @property float  $lon
  * @method static \Illuminate\Database\Query\Builder|\App\Zip whereCity($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Zip whereCounty($value)
  * @method static \Illuminate\Database\Query\Builder|\App\Zip whereId($value)
@@ -29,19 +29,26 @@ use Sofa\Eloquence\Eloquence;
 class Zip extends Model
 {
 
-	/**
-	 * Table Name
-	 *
-	 * @var string
-	 */
-	protected $table = 'zip_code_US';
+    /**
+     * Table Name
+     *
+     * @var string
+     */
+    protected $table = 'zip_code_US';
+
+    /**
+     * Turn the timestamps off
+     *
+     * @var bool
+     */
+    public $timestamps = false;
 
     /**
      * Searchable fields
      *
      * @var array
      */
-	protected $searchable = [
-		'zip_code'
-	];
+    protected $searchable = [
+        'zip_code',
+    ];
 }

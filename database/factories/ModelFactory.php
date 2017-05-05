@@ -68,34 +68,6 @@ $factory->define(App\Permission::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(App\Subscription::class, function (Faker\Generator $faker) {
-    return [
-        'school_id'        => function () {
-            return factory(App\School::class)->create()->id;
-        },
-        'subcriber_number' => $faker->numberBetween(0, 500),
-    ];
-});
-
-$factory->define(App\School::class, function (Faker\Generator $faker) {
-    return [
-        'district_id'        => function () {
-            return factory(App\District::class)->create()->id;
-        },
-        'name'               => $faker->word,
-        'account_expiration' => $faker->date(),
-    ];
-});
-
-$factory->define(App\District::class, function (Faker\Generator $faker) {
-    return [
-        'state_id' => function () {
-            return factory(App\State::class)->create()->id;
-        },
-        'name'     => $faker->word,
-    ];
-});
-
 $factory->define(App\College::class, function (Faker\Generator $faker) {
     return [
         'state_id' => function () {
@@ -121,8 +93,8 @@ $factory->define(App\Zip::class, function (Faker\Generator $faker) {
     return [
         'zip_code'     => $faker->postcode,
         'city'         => $faker->word,
-        'state_name'   => $faker->word,
-        'state_prefix' => $faker->unique()->word,
+        'state_name'   => $faker->state,
+        'state_prefix' => $faker->stateAbbr,
         'county'       => $faker->word,
         'lat'          => $faker->randomDigit,
         'lon'          => $faker->randomDigit,
