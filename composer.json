@@ -14,7 +14,8 @@
         "msurguy/honeypot"         : "dev-master",
         "laravelcollective/html"   : "5.3.*",
         "league/flysystem-aws-s3-v3": "~1.0",
-        "hieu-le/active": "^3.4"
+        "hieu-le/active": "^3.4",
+        "spinen/laravel-mail-assertions": "^0.2.0"
     },
     "require-dev" : {
         "fzaninotto/faker"           : "~1.4",
