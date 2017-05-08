@@ -49,7 +49,7 @@ class ForgotPasswordController extends Controller
 	 */
 	public function store(RecoverPasswordRequest $request)
 	{
-		$response = $this->broker()->sendResetLink(
+		$response = \Password::broker()->sendResetLink(
 			['email' => $request->get('reset_email')]
 		);
 
