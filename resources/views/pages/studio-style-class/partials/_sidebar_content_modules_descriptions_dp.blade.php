@@ -29,10 +29,10 @@
             <span>Waves, Sounds and Light Module
             </span>
         </a>
-        {{--<a class="list-group-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"--}}
-        {{--href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">--}}
-        {{--<span>Matter and Interactions Module--}}
-        {{--</span>--}}
-        {{--</a>--}}
+        <a class="list-group-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
+           href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">
+        <span>Matter and Interactions Module
+        </span>
+        </a>
     </div>
 </div>

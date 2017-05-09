@@ -9,7 +9,7 @@
                   method="POST"
                   action="{{ route('my-account-update') }}">
                 {{ csrf_field() }}
-        
+                
                 <div class="form-group {{ $errors->has('first_name') ? 'has-danger' : '' }}">
                     <label for="first_name"
                            class="form-control-label">First Name
@@ -33,7 +33,7 @@
                            value="{{ old('last_name', $user->account->last_name) }}">
                     {!! $errors->first('last_name','<div class="form-control-feedback">:message</div>') !!}
                 </div>
-        
+                
                 <div class="form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
                     <label for="email"
                            class="form-control-label">Email Address
@@ -45,7 +45,7 @@
                            value="{{ old('email', $user->email) }}">
                     {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
                 </div>
-        
+                
                 <div class="form-group {{ $errors->has('password') ? 'has-danger' : '' }}">
                     <label for="password"
                            class="form-control-label">New Password
@@ -56,7 +56,7 @@
                            name="password">
                     {!! $errors->first('password','<div class="form-control-feedback">:message</div>') !!}
                 </div>
-        
+                
                 <div class="form-group {{ $errors->has('password_confirmation') ? 'has-danger' : '' }}">
                     <label for="password_confirmation"
                            class="form-control-label">New Password Confirmation
@@ -67,7 +67,7 @@
                            name="password_confirmation">
                     {!! $errors->first('password_confirmation','<div class="form-control-feedback">:message</div>') !!}
                 </div>
-        
+                
                 <div class="form-group text-center">
                     <button type="submit"
                             class="btn btn-primary btn-block mx-auto mb-sm-2 mb-md-0 w-50">
@@ -77,6 +77,6 @@
             </form>
         </div>
     </div>
-    
-    
+
+
 @endsection

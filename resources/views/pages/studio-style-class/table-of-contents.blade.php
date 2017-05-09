@@ -723,7 +723,7 @@
             </tr>
             <tr>
                 <td>A7</td>
-                <td>Atoms, Ions, and the Periodic Table</td>
+                <td>Atoms and the Periodic Table</td>
                 <td>90</td>
             </tr>
             <tr>
