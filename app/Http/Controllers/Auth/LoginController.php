@@ -32,6 +32,15 @@ class LoginController extends Controller
     protected $redirectTo = '/login';
 
     /**
+     * LoginController constructor.
+     */
+    public function __construct()
+    {
+        $this->middleware('guest')->only(['create', 'store']);
+        $this->middleware('auth')->only(['destroy']);
+    }
+
+    /**
      * Show login form
      *
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
@@ -52,15 +61,15 @@ class LoginController extends Controller
     {
         if (\Auth::attempt($request->only(['email', 'password']))) {
             //check account status
-        	if(\Auth::user()->account_status == 'pending') {
-        		auth()->logout();
+            if (\Auth::user()->account_status == 'pending') {
+                auth()->logout();
 
-        		return redirect()->route('login.create')->with('error','We are in the process of activating your account we will be contacting you shortly.');
-	        }
+                return redirect()->route('login.create')->with('error', 'We are in the process of activating your account we will be contacting you shortly.');
+            }
 
-	        //check role
-	        if(!\Auth::user()->hasRole('nextgen_pet_user')) {
-        	    auth()->logout();
+            //check role
+            if (!\Auth::user()->hasRole('nextgen_pet_user')) {
+                auth()->logout();
 
                 return redirect()->route('login.create')->with('error', 'You don\'t have access to this area.');
             }
