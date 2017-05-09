@@ -13,8 +13,12 @@ use Illuminate\View\View;
  */
 class AccountController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
 
-	/**
+    /**
 	 * Show Help Form
 	 *
 	 * @return View;

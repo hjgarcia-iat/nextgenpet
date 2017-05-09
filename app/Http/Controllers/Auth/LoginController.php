@@ -8,6 +8,10 @@ use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Lang;
 
+/**
+ * Class LoginController
+ * @package App\Http\Controllers\Auth
+ */
 class LoginController extends Controller
 {
 

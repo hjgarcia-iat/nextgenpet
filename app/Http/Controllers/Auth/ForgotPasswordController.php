@@ -6,6 +6,10 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\RecoverPasswordRequest;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
+/**
+ * Class ForgotPasswordController
+ * @package App\Http\Controllers\Auth
+ */
 class ForgotPasswordController extends Controller
 {
 
@@ -49,7 +53,7 @@ class ForgotPasswordController extends Controller
 	 */
 	public function store(RecoverPasswordRequest $request)
 	{
-		$response = \Password::broker()->sendResetLink(
+		\Password::broker()->sendResetLink(
 			['email' => $request->get('reset_email')]
 		);
 

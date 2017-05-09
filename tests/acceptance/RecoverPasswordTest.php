@@ -52,6 +52,20 @@ class RecoverPasswordTest extends TestCase
     /**
      * @test
      */
+    public function we_cant_get_to_the_form_with_empty_token_or_incorrect_token()
+    {
+        $token = '';
+        $this->get(route('recover.password.edit', $token))
+            ->assertResponseStatus(404);
+
+        $token = 'token';
+        $this->get(route('recover.password.edit', $token))
+            ->assertRedirectedTo(route('login.create'));
+    }
+
+    /**
+     * @test
+     */
     public function we_reset_a_password()
     {
         Notification::fake();

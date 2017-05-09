@@ -15,12 +15,12 @@ Route::post('/password/update','Auth\ResetPasswordController@update')->name('rec
 Route::get('/register','Auth\RegisterController@create')->name('register.create');
 Route::post('/register','Auth\RegisterController@store')->name('register.store');
 
-Route::get('/my-account','AccountController@edit')->name('my-account')->middleware('auth');
-Route::post('/my-account','AccountController@update')->name('my-account-update')->middleware('auth');
+Route::get('/my-account','AccountController@edit')->name('my-account');
+Route::post('/my-account','AccountController@update')->name('my-account-update');
 
 Route::get('file','FileController@show')->name('file.show');
 
 Route::get('{page}', [
     'uses' => 'PagesController@show',
-])->where(['page' => '.*'])->middleware('pageAuthChecker');
+])->where(['page' => '.*']);
 

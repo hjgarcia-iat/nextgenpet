@@ -28,6 +28,15 @@ class MyAccountAreaTest extends TestCase
     /**
      * @test
      */
+    public function we_cannot_see_account_page_if_we_are_not_logged_in()
+    {
+        $this->get(route('my-account'))
+            ->assertRedirectedTo(route('login.create'));
+    }
+
+    /**
+     * @test
+     */
     public function we_update_user_details()
     {
         $user = $this->createNextGenPetUser();

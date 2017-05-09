@@ -11,6 +11,10 @@ use Illuminate\Http\Request;
  */
 class PagesController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('pageAuthChecker');
+    }
 
     /**
      * Show a Single Page based on path

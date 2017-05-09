@@ -41,10 +41,8 @@ class ResetPasswordController extends Controller
      */
      public function edit($token)
      {
-         $user = \DB::table('password_resets')->where('token',$token)->first();
-
-         if(!$user) {
-             return redirect()->route('login.create',[],403)->with('error','Page accessed in error!');
+         if(!$user = \DB::table('password_resets')->where('token', $token)->first()) {
+             return redirect()->route('login.create')->with('error','Page accessed in error!');
          }
 
         return view('auth.passwords.reset')
@@ -87,7 +85,7 @@ class ResetPasswordController extends Controller
     protected function sendResetResponse()
     {
         return redirect('/')
-            ->with('success', 'Your password has been reset!');
+            ->with('success', 'Your password has been reset and you have been logged in!');
     }
 
     /**
