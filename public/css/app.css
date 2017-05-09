@@ -12359,6 +12359,10 @@ a:active {
   color: #ffffff;
 }
 
+.page-footer .footer-links a {
+  color: white;
+}
+
 /*
 //
 // Side Menu Styles for all pages

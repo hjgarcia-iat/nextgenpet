@@ -129,4 +129,24 @@ class HomeAreaTest extends TestCase
         $this->get('some-page')
             ->assertResponseStatus(404);
     }
+
+    /**
+     * @test
+     */
+    public function we_can_see_terms_and_conditions_page()
+    {
+        $this->get('terms-and-conditions')
+            ->assertResponseStatus(200)
+            ->see('Terms and Conditions');
+    }
+
+    /**
+     * @test
+     */
+    public function we_can_see_the_privacy_policy_page()
+    {
+        $this->get('privacy-policy')
+            ->assertResponseStatus(200)
+            ->see('Privacy Policy');
+    }
 }
