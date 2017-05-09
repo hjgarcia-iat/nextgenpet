@@ -26,13 +26,13 @@ class RecoverPasswordTest extends TestCase
     /**
      * @test
      */
-    public function we_reset_a_password()
+    public function we_can_view_the_recover_password_form()
     {
         Notification::fake();
         $user = $this->createNextGenPetUser();
 
         $response = $this->post(route('password.store'), ['reset_email' => $user->email]);
-            $response->assertRedirectedTo(route('login.create'));
+        $response->assertRedirectedTo(route('login.create'));
 
         $token = '';
         Notification::assertSentTo(
@@ -40,18 +40,44 @@ class RecoverPasswordTest extends TestCase
             ResetPassword::class,
             function ($notification, $channels) use (&$token) {
                 $token = $notification->token;
+
                 return true;
             });
 
-        dd($token);
-//
-//        $this->post('api/user/resetting', [
-//            'email'                 => $user->email,
-//            'token'                 => $token,
-//            'password'              => '87538753',
-//            'password_confirmation' => '87538753'
-//        ])
-//            ->assertResponseOk();
+        $this->visit(route('recover.password.edit', $token))
+            ->assertResponseStatus(200)
+            ->see('Recover Password');
+    }
+
+    /**
+     * @test
+     */
+    public function we_reset_a_password()
+    {
+        Notification::fake();
+        $user = $this->createNextGenPetUser();
+
+        $response = $this->post(route('password.store'), ['reset_email' => $user->email]);
+        $response->assertRedirectedTo(route('login.create'));
+
+        $token = '';
+        Notification::assertSentTo(
+            $user,
+            ResetPassword::class,
+            function ($notification, $channels) use (&$token) {
+                $token = $notification->token;
+
+                return true;
+            });
+
+
+        $this->post(route('recover.password.update'), [
+            'email'                 => $user->email,
+            'token'                 => $token,
+            'password'              => '87538753',
+            'password_confirmation' => '87538753',
+        ])
+            ->assertRedirectedTo('/');
     }
 
 }
