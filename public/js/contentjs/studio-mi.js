@@ -72,7 +72,7 @@ var nodes = new vis.DataSet([
     },
     {
         id         : 11,
-        label      : 'A11 ED: Engineering \nDesign: \nEvaluating \nBallonet Designs \n55min',
+        label      : 'A11 ED: Evaluating \nBallonet Designs \n55min',
         x          : "-500",
         y          : "-725",
         description: 'In the first part of this activity students consider how the average density of a blimp compares to that of the surrounding air when the blimp hovers at constant altitude, and then what happens when the blimp is warmed.  Next, students are introduced to the ballonet, and need to decide how pumping air into or out from the ballonet causes the blimp to rise or fall.  In the last (and major) part of the activity, students consider how to arrange ballonets within a blimp to satisfy certain criteria for how the blimp should behave in different circumstances.  For each design choice, students need to explain their decision in terms of how changes in average density of the blimp changes its sinking and floating behavior.',
@@ -203,7 +203,7 @@ var nodes2 = new vis.DataSet([
     },
     {
         id         : 11,
-        label      : 'A11 ED: Engineering \nDesign: \nWhich Hand \nWarmer Is Best?\n60min',
+        label      : 'A11 ED: Which\nHand \nWarmer Is Best?\n60min',
         x          : "-475",
         y          : "-725",
         description: 'In this engineering design activity, students use a Decision Matrix to help them decide what type of commercially-available hand warmer would best suit a class of fifth graders going on a weekend camping trip in the mountains in cool weather, with especially cold nights. Students have to balance factors like reusability and the duration of warmth of the hand warmer in coming to their decisions. In the last section, students reflect on their decision-making process.'

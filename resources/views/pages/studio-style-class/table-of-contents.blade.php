@@ -654,7 +654,11 @@
                 <td>Explanations Involving Physical Changes</td>
                 <td>90</td>
             </tr>
-
+            <tr>
+                <td>A11 ED</td>
+                <td>Evaluating Ballonet Designs</td>
+                <td>90</td>
+            </tr>
             <tr>
                 <td colspan="3"></td>
             </tr>
@@ -739,6 +743,11 @@
             <tr>
                 <td>A10</td>
                 <td>Using the Class Consensus Ideas to Explain Observations</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>A11 ED</td>
+                <td>Which Hand Warmer Is Best?</td>
                 <td>90</td>
             </tr>
             </tbody>
