@@ -43,37 +43,37 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-trajectory.pdf']) }}">Unit
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-lesson-and-extension-summaries.pdf']) }}">Activity
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-student-materials.pdf']) }}">Student
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-extension-quiz-keys.pptx']) }}">Extension
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-ws-summary-ideas.docx']) }}">Summary
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
                 </ul>
