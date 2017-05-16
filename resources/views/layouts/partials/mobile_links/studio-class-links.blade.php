@@ -142,8 +142,11 @@
                 </a>
             </div>
         </div>
-        
-        
+    
+        <a href="{{ url('studio-style-class/planning-your-course') }}"
+           class="dropdown-item{{ (Request::is('studio-style-class/planning-your-course') ? ' active' : '') }}">
+            Planning Your Course
+        </a>
         <a href="{{ url('studio-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
             Extensions Index

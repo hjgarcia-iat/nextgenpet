@@ -1,4 +1,9 @@
 <div>
+    <a href="{{ url('studio-style-class/planning-your-course') }}"
+       class="list-group-item{{ (Request::is('studio-style-class/planning-your-course') ? ' active' : '') }}">
+        <span>Planning Your Course</span> </a>
+</div>
+<div>
     <a href="{{ url('studio-style-class/extension-index') }}" class="list-group-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
         <span>Extensions Index
         </span> </a>

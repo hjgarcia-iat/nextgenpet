@@ -185,4 +185,15 @@ class StudioStyleAreaTest extends TestCase
             ->see('CLASSROOM VIDEOS')
             ->assertResponseStatus(200);
     }
+
+    /**
+     * @test
+     */
+    public function we_can_see_the_planning_your_course_page()
+    {
+        $this->visit('studio-style-class/planning-your-course')
+            ->see('STUDIO STYLE CLASS')
+            ->see('PLANNING YOUR COURSE')
+            ->assertResponseStatus(200);
+    }
 }

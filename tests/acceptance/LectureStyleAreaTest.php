@@ -189,4 +189,15 @@ class LectureStyleAreaTest extends TestCase
             ->see('TEACHING & LEARNING — MODULE MI CLUSTER')
             ->assertResponseStatus(200);
     }
+
+    /**
+     * @test
+     */
+    public function we_can_see_the_planning_your_course_page()
+    {
+        $this->visit('lecture-style-class/planning-your-course')
+            ->see('LECTURE STYLE CLASS')
+            ->see('PLANNING YOUR COURSE')
+            ->assertResponseStatus(200);
+    }
 }
