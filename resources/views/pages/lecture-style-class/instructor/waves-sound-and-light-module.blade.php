@@ -9,7 +9,7 @@
 @section('content')
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h2>Waves, Sound &amp; Light</h2>
+        <h2>Waves, Sound &amp; Light Module</h2>
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
