@@ -43,6 +43,7 @@
                 EM, PEF, FM, CF <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/lecture-style/fred-schedule3.pdf" target="_blank">(Schedule)</a></li>
             <li>M, SE, EM, FM (part), CF (part), WS (part), L <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/lecture-style/fred-schedule1.pdf" target="_blank">(Schedule)</a></li>
             <li>M, EM, FM, CF, WS, L <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/lecture-style/fred-schedule2.pdf" target="_blank">(Schedule)</a></li>
+            <li>M, EM, FM, CF, L <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/lecture-style/jacki-schedule.pdf" target="_blank">(Schedule)</a></li>
             <li>EM, PEF, FM, CF <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/lecture-style/ben-schedule.pdf" target="_blank">(Schedule)</a></li>
         </ul>
         <p>Semester-length implementation for a physical science course:</p>
