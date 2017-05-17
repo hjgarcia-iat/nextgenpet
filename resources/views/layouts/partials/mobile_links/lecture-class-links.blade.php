@@ -119,8 +119,8 @@
                     <span>Waves, Sounds &amp; Light Module</span> </a>
                 <a class="dropdown-item{{ (Request::is('lecture-style-class/instructor/matter-and-interactions-module') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/matter-and-interactions-module') }}">
                     <span>Matter &amp; Interactions Module</span> </a>
-                <a class="dropdown-item{{ (Request::is('lecture-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/teaching-and-learning') }}">
-                    <span>Teaching &amp; Learning</span> </a>
+                {{--<a class="dropdown-item{{ (Request::is('lecture-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/teaching-and-learning') }}">--}}
+                    {{--<span>Teaching &amp; Learning</span> </a>--}}
             </div>
         </div>
     </div>
