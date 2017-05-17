@@ -13,14 +13,14 @@
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/module-mse-test-bank.docx']) }}" target="_blank">Module
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/module-mse-test-bank.docx']) }}" target="_blank">Module
                     MSE Test Bank</a>
             </li>
             <li>
                 Module Equipment List:
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/module-equipment-list.docx']) }}" target="_blank"><i class="fa fa-file-word-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/module-mse-equipment-list.docx']) }}" target="_blank"><i class="fa fa-file-word-o"></i>
                     Word</a> |
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/module-equipment-list.pdf']) }}" target="_blank"><i class="fa fa-file-pdf-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/module-mse-equipment-list.pdf']) }}" target="_blank"><i class="fa fa-file-pdf-o"></i>
                     PDF</a>
             </li>
         </ul>
@@ -38,32 +38,32 @@
                 <ul class="fa fa-ul">
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-trajectory.pdf']) }}">Unit
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-lesson-and-extension-summaries.pdf']) }}">Activity
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-lesson-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-student-materials.pdf']) }}">Student
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-extension-quiz-keys.pptx']) }}">Extension
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/Unit_M_Summary_Ideas_LC.docx']) }}">Summary
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
                 </ul>
@@ -76,32 +76,32 @@
                 <ul class="fa fa-ul">
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-trajectory.pdf']) }}">Unit
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-lesson-and-extension-summaries.pdf']) }}">Activity
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-lesson-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-student-materials.pdf']) }}">Student
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-extension-quiz-keys.pptx']) }}">Extension
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/Unit_SE_Summary_Ideas_LC.docx']) }}">Summary
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
                 </ul>
