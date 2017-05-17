@@ -159,5 +159,31 @@
            class="dropdown-item{{ (Request::is('studio-style-class/classroom-videos')) ? ' active' : '' }}">
             Classroom Videos
         </a>
+    
+        <div id="studio-instructor-links">
+            <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse"
+               data-target="#lecture-instructor-dropdown" data-parent="#studio-instructor-links">
+                <span><i class="fa fa-lock mr-2"></i>Instructor</span> </a>
+            <div id="lecture-instructor-dropdown"
+                 class="sublinks collapse{{ (Request::is('studio-style-class/instructor/*') ? ' show' : '') }}">
+                <a class="dropdown-item {{ (Request::is('studio-style-class/instructor/magnetism-and-static-electricity-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/magnetism-and-static-electricity-module') }}">
+                    <span>Magnetism &amp; Electricity Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/interactions-and-energy-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/interactions-and-energy-module') }}">
+                    <span>Interactions &amp; Energy Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/interactions-and-forces-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/interactions-and-forces-module') }}">
+                    <span>Interactions &amp; Force Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/waves-sound-and-light-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/waves-sound-and-light-module') }}">
+                    <span>Waves, Sounds &amp; Light Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/matter-and-interactions-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/matter-and-interactions-module') }}">
+                    <span>Matter &amp; Interactions Module</span> </a>
+                {{--<a class="dropdown-item{{ (Request::is('studio-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('studio-style-class/instructor/teaching-and-learning') }}">--}}
+                {{--<span>Teaching &amp; Learning</span> </a>--}}
+            </div>
+        </div>
     </div>
 </li>
