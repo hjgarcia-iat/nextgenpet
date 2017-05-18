@@ -2,7 +2,7 @@
     <div class="card-header" role="tab" id="headingOneA">
         <h5 class="mb-0">
             <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseOneA" aria-expanded="true"
-               aria-controls="collapseOneA">Lesson
+               aria-controls="collapseOneA">Activity
                 1: Combinations of Forces</a>
         </h5>
     </div>
@@ -12,19 +12,18 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/1-l1-combinations-of-forces/ucf-l1-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/1-a1-combinations-of-forces/ucf-a1-optional-clicker-questions.ppt']) }}">Optional Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/1-l1-combinations-of-forces/ucf-l1-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/1-a1-combinations-of-forces/ucf-a1-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/1-l1-combinations-of-forces/ucf-l1-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/1-a1-combinations-of-forces/ucf-a1-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +43,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/2-ext-a-newtons-second-law/ucf-exta-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/2-ext-a-newtons-second-law/ucf-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -55,8 +54,8 @@
     <div class="card-header" role="tab" id="headingThreeC">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseThreeC"
-               aria-expanded="false" aria-controls="collapseThreeC">Lesson
-                2: Balanced Forces</a>
+               aria-expanded="false" aria-controls="collapseThreeC">Activity
+                2: Motion with Balanced Forces</a>
         </h5>
     </div>
     <div id="collapseThreeC" class="collapse" role="tabpanel" aria-labelledby="headingThreeC">
@@ -65,19 +64,19 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/3-l2-balanced-forces/ucf-l2-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/3-a2-motion-with-balanced-forces/ucf-a2-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/3-l2-balanced-forces/ucf-l2-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/3-a2-motion-with-balanced-forces/ucf-a2-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/3-l2-balanced-forces/ucf-l2-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/3-a2-motion-with-balanced-forces/ucf-a2-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -97,7 +96,28 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/4-ext-b-more-on-balanced-forces/ucf-extb-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/4-ext-b-more-on-balanced-forces/ucf-extb-extension-mock-up.pptx']) }}">Extension
+                        Mockup Slides</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingFourE">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFourE"
+               aria-expanded="false" aria-controls="collapseFourE">Ext
+                C: Balanced and Unbalanced Forces</a>
+        </h5>
+    </div>
+    <div id="collapseFourE" class="collapse" role="tabpanel" aria-labelledby="headingFourE">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/5-ext-c-balanced-and-unbalanced-forces/ucf-extc-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -108,8 +128,8 @@
     <div class="card-header" role="tab" id="headingFiveE">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFiveE"
-               aria-expanded="false" aria-controls="collapseFiveE">Lesson
-                3: Situations Involving Friction</a>
+               aria-expanded="false" aria-controls="collapseFiveE">Activity
+                3: Comparing Forces During Interactions</a>
         </h5>
     </div>
     <div id="collapseFiveE" class="collapse" role="tabpanel" aria-labelledby="headingFiveE">
@@ -118,40 +138,19 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/5-l3-situations-involving-friction/ucf-l3-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/6-a3-comparing-forces-during-interactions/ucf-a3-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/5-l3-situations-involving-friction/ucf-l3-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/6-a3-comparing-forces-during-interactions/ucf-a3-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/5-l3-situations-involving-friction/ucf-l3-key.docx']) }}">Key</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<div class="card">
-    <div class="card-header" role="tab" id="headingSixF">
-        <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSixF"
-               aria-expanded="false" aria-controls="collapseSixF">Ext
-                C: Balanced and Unbalanced Forces</a>
-        </h5>
-    </div>
-    <div id="collapseSixF" class="collapse" role="tabpanel" aria-labelledby="headingSixF">
-        <div class="card-block">
-            <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/6-ext-c-balanced-and-unbalanced-forces/ucf-extc-extension-mock-up.pptx']) }}">Extension
-                        Mockup Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/6-a3-comparing-forces-during-interactions/ucf-a3-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -162,7 +161,7 @@
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSevenG"
                aria-expanded="false" aria-controls="collapseSevenG">Ext
-                D: More on Vertical Motion (includes air drag)</a>
+                E: Newton’s Third Law and Balanced Forces</a>
         </h5>
     </div>
     <div id="collapseSevenG" class="collapse" role="tabpanel" aria-labelledby="headingSevenG">
@@ -171,7 +170,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/7-ext-d-more-on-vertical-motion/ucf-extd-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/7-ext-e-newtons-third-law-and-batanced-forces/ucf-exte-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -182,8 +181,8 @@
     <div class="card-header" role="tab" id="headingEightH">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEightH"
-               aria-expanded="false" aria-controls="collapseEightH">Lesson
-                4: Comparing Forces During Interactions</a>
+               aria-expanded="false" aria-controls="collapseEightH">Activity
+                4: Explaining Phenomena Using Force Ideas</a>
         </h5>
     </div>
     <div id="collapseEightH" class="collapse" role="tabpanel" aria-labelledby="headingEightH">
@@ -192,39 +191,40 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/8-l4-comparing-forces-during-interactions/ucf-l4-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/8-a4-explaining-phenomena-using-force-ideas/ucf-a4-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/8-l4-comparing-forces-during-interactions/ucf-l4-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/8-a4-explaining-phenomena-using-force-ideas/ucf-a4-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/8-l4-comparing-forces-during-interactions/ucf-l4-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/8-a4-explaining-phenomena-using-force-ideas/ucf-a4-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
+
 <div class="card">
-    <div class="card-header" role="tab" id="headingNineI">
+    <div class="card-header" role="tab" id="headingNineJ">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineI"
-               aria-expanded="false" aria-controls="collapseNineI">Ext
-                E: Newton’s Third Law and Balanced Forces</a>
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineJ"
+               aria-expanded="false" aria-controls="collapseNineJ">Ext
+                D: More on Vertical Motion</a>
         </h5>
     </div>
-    <div id="collapseNineI" class="collapse" role="tabpanel" aria-labelledby="headingNineI">
+    <div id="collapseNineJ" class="collapse" role="tabpanel" aria-labelledby="headingNineJ">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/9-ext-e-newtons-third-law-and-balanced-forces/ucf-exte-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/9-ext-d-more-on-vertical-motion/ucf-extd-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -232,32 +232,21 @@
     </div>
 </div>
 <div class="card">
-    <div class="card-header" role="tab" id="headingTwentytwoJ">
+    <div class="card-header" role="tab" id="headingTwentytwoK">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwentytwoJ"
-               aria-expanded="false" aria-controls="collapseTwentytwoJ">Lesson
-                5 ED: Inspiration from Nature</a>
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwentytwoK"
+               aria-expanded="false" aria-controls="collapseTwentytwoK">Activity
+                5 ED: Inspiration from Nature </a>
         </h5>
     </div>
-    <div id="collapseTwentytwoJ" class="collapse" role="tabpanel" aria-labelledby="headingTwentytwoJ">
+    <div id="collapseTwentytwoK" class="collapse" role="tabpanel" aria-labelledby="headingTwentytwoK">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-ed-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-ed-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/10-a5-ed-inspiration-from-nature/ucf-a5-ed-student-materials.docx']) }}">Student
                         Materials</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-ed-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>

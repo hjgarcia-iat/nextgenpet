@@ -13,9 +13,19 @@
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/module-if-test-bank.docx']) }}"
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/module-if-test-bank.docx']) }}"
                    target="_blank">Module
                     IE Test Bank</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-word-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/module-if-equipment-list.docx']) }}"
+                   target="_blank">Module Equipment List (Word)</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-pdf-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/module-if-equipment-list.pdf']) }}"
+                   target="_blank">Module Equipment List (PDF)</a>
             </li>
         </ul>
         
@@ -33,37 +43,37 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-trajectory.pdf']) }}">Unit
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-lesson-and-extension-summaries.pdf']) }}">Activity
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-student-materials.pdf']) }}">Student
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-extension-quiz-keys.pptx']) }}">Extension
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.docx']) }}">Summary
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.pdf']) }}">Summary
                             Ideas</a>
                     </li>
                 </ul>
@@ -77,37 +87,37 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-trajectory.pdf']) }}">Unit
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-lesson-and-extension-summaries.pdf']) }}">Activity
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-student-materials.pdf']) }}">Student
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-extension-quiz-keys.pptx']) }}">Extension
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-summary-ideas.docx']) }}">Summary
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-summary-ideas.doc']) }}">Summary
                             Ideas</a>
                     </li>
                 </ul>
