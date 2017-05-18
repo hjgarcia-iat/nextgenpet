@@ -16,7 +16,7 @@
        data-file="true"
        target="_blank"
        class="list-group-item">
-        <span>Equipment and Materials
+        <span>Equipment &amp; Materials
         </span>
     </a>
 </div>
