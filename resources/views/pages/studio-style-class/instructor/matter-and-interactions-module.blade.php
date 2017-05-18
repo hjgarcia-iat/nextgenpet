@@ -17,12 +17,12 @@
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-equipment-list.docx']) }}"
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-equipment-list.docx']) }}"
                    target="_blank">Module Equipment List (word)</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-pdf-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-equipment-list.pdf']) }}"
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-equipment-list.pdf']) }}"
                    target="_blank">Module Equipment List (pdf)</a>
             </li>
         </ul>
@@ -53,8 +53,13 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-lesson-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-activity-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-extension-quiz-keys.pptx']) }}">Extension Quiz Keys</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -63,10 +68,15 @@
                             Materials for Whole Unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-extension-quiz-keys.pptx']) }}">Extension
-                            quizzes for whole unit </a>
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-summary-ideas-interactions-and-gases.docx']) }}">Summary Ideas Interactions and Gases</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-summary-ideas-physical-changes.docx']) }}">Summary
+                            Ideas Physical Changes</a>
                     </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -91,20 +101,47 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-lesson-keys.pdf']) }}">Lesson
-                            Keys for Whole Unit </a>
-                    </li>
-                    <li>
-                        <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-activity-keys.pdf']) }}">Activity
+                            Keys for Whole Unit </a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-extension-quiz-keys.pptx']) }}">Extension
-                            quizzes for whole unit </a>
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-extension-quiz-keys.pptx']) }}">Extension Quiz Keys</a>
+                    </li>
+                    
+                    <li>
+                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/periodic-table.pptx']) }}">Periodic Table (Powerpoint)</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/periodic-table.pdf']) }}">Periodic
+                            Table (PDF)</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/appendix-characteristic-properties-table.docx']) }}">Appendix Characteristics Properties Table (Word)</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/appendix-characteristic-properties-table.pdf']) }}">Appendix
+                            Characteristics Properties Table (PDF)</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i>
+                        <a target="_blank"
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-summary-ideas.docx']) }}">Summary Ideas</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">
