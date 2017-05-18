@@ -2,29 +2,23 @@
     <div class="card-header" role="tab" id="headingOne">
         <h5 class="mb-0">
             <a data-toggle="collapse" data-parent="#accordionTwo" href="#collapseOne" aria-expanded="true"
-               aria-controls="collapseOne">Lesson
-                1: Light Waves, Pinholes, and Shadows</a>
+               aria-controls="collapseOne">Activity
+                1: Pinholes and Shadows</a>
         </h5>
     </div>
     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/1-l1-light-waves-pinholes-and-shadows/ul-l1-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/1-l1-light-waves-pinholes-and-shadows/ul-l1-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/1-a1-pinholes-and-shadows/ul-a1-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/1-l1-light-waves-pinholes-and-shadows/ul-l1-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/1-a1-pinholes-and-shadows/ul-a1-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +38,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/2-exta-drawing-light-ray-diagrams-for-pinholes-shadows/ul-exta-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/2-ext-a-drawing-light-ray-diagrams-for-pinholes-and-shadows/ul-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -55,7 +49,7 @@
     <div class="card-header" role="tab" id="headingThree">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseThree"
-               aria-expanded="false" aria-controls="collapseThree">Lesson
+               aria-expanded="false" aria-controls="collapseThree">Activity
                 2: Reflection of Light</a>
         </h5>
     </div>
@@ -63,21 +57,15 @@
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/3-a2-reflection-of-light/ul-a2-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/3-a2-reflection-of-light/ul-a2-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -97,7 +85,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/4-extb-more-on-mirror-reflections-and-images/ul-extb-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/4-ext-b-more-on-mirror-reflections-and-images/ul-extb-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -108,7 +96,7 @@
     <div class="card-header" role="tab" id="headingFive">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFive"
-               aria-expanded="false" aria-controls="collapseFive">Lesson
+               aria-expanded="false" aria-controls="collapseFive">Activity
                 3: Refraction of Light</a>
         </h5>
     </div>
@@ -116,21 +104,15 @@
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/5-a3-refraction-of-light/ul-a3-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/5-a3-refraction-of-light/ul-a3-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -140,28 +122,22 @@
     <div class="card-header" role="tab" id="headingSix">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSix"
-               aria-expanded="false" aria-controls="collapseSix">Lesson 4: Light and Color</a>
+               aria-expanded="false" aria-controls="collapseSix">Activity 4: Color</a>
         </h5>
     </div>
     <div id="collapseSix" class="collapse" role="tabpanel" aria-labelledby="headingSix">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/6-l4-light-and-color/ul-l4-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/6-l4-light-and-color/ul-l4-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/6-a4-color/ul-a4-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/6-l4-light-and-color/ul-l4-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/6-a4-color/ul-a4-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -171,28 +147,17 @@
     <div class="card-header" role="tab" id="headingSeven">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSeven"
-               aria-expanded="false" aria-controls="collapseSeven">Lesson 5 ED: Measuring the Moon’s Distance</a>
+               aria-expanded="false" aria-controls="collapseSeven">Activity 5 ED: Measuring the Moon’s Distance</a>
         </h5>
     </div>
     <div id="collapseSeven" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
         <div class="card-block">
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/7-l5-ed-measuring-the-moons-distance/ul-l5-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/7-l5-ed-measuring-the-moons-distance/ul-l5-ed-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/7-a5-ed-measuring-the-moons-distance/ul-a5-ed-student-materials.docx']) }}">Student
                         Materials</a>
-                </li>
-                <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/7-l5-ed-measuring-the-moons-distance/ul-l5-ed-key.docx.pdf']) }}">Key</a>
                 </li>
             </ul>
         </div>

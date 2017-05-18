@@ -2,8 +2,8 @@
     <div class="card-header" role="tab" id="headingOneA">
         <h5 class="mb-0">
             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOneA" aria-expanded="true"
-               aria-controls="collapseOneA">Lesson
-                1: Properties of Waves</a>
+               aria-controls="collapseOneA">Activity
+                1: Wave Pulses</a>
         </h5>
     </div>
     <div id="collapseOneA" class="collapse" role="tabpanel" aria-labelledby="headingOneA">
@@ -12,19 +12,50 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-l1-properties-of-waves/uws-l1-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-a1-wave-pulses/uws-a1-optional-clicker-questions.ppt']) }}">Optional Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-l1-properties-of-waves/uws-l1-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-a1-wave-pulses/uws-a1-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-l1-properties-of-waves/uws-l1-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-a1-wave-pulses/uws-a1-key.docx']) }}">Key</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingOneB">
+        <h5 class="mb-0">
+            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOneB" aria-expanded="true"
+               aria-controls="collapseOneB">Activity
+                2: Continuous Waves</a>
+        </h5>
+    </div>
+    <div id="collapseOneB" class="collapse" role="tabpanel" aria-labelledby="headingOneB">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/2-a2-continuous-waves/uws-a2-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/2-a2-continuous-waves/uws-a2-student-materials.docx']) }}">Student
+                        Materials</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/2-a2-continuous-waves/uws-a2-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -44,7 +75,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/2-exta-how-do-waves-move/uws-exta-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/3-ext-a-how-do-waves-move/uws-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -55,8 +86,8 @@
     <div class="card-header" role="tab" id="headingThreeC">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThreeC"
-               aria-expanded="false" aria-controls="collapseThreeC">Lesson
-                2: Two-Dimensional Waves</a>
+               aria-expanded="false" aria-controls="collapseThreeC">Activity
+                3: Two-Dimensional Waves</a>
         </h5>
     </div>
     <div id="collapseThreeC" class="collapse" role="tabpanel" aria-labelledby="headingThreeC">
@@ -65,45 +96,25 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/3-l2-two-dimensional-waves/uws-l2-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/4-a3-two-dimensional-waves/uws-a3-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/3-l2-two-dimensional-waves/uws-l2-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/4-a3-two-dimensional-waves/uws-a3-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/3-l2-two-dimensional-waves/uws-l2-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/4-a3-two-dimensional-waves/uws-a3-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
     </div>
 </div>
-<div class="card">
-    <div class="card-header" role="tab" id="headingFourD">
-        <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFourD"
-               aria-expanded="false" aria-controls="collapseFourD">Ext
-                B: Wave Refraction</a>
-        </h5>
-    </div>
-    <div id="collapseFourD" class="collapse" role="tabpanel" aria-labelledby="headingFourD">
-        <div class="card-block">
-            <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/4-extb-wave-refraction/uws-extb-extension-mock-up.pptx']) }}">Extension
-                        Mockup Slides</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
+
 <div class="card">
     <div class="card-header" role="tab" id="headingFiveE">
         <h5 class="mb-0">
@@ -117,7 +128,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/5-extc-reflection-of-2d-waves/uws-extc-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/5-ext-c-reflection-of-2d-waves/uws-extc-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
             </ul>
@@ -128,7 +139,7 @@
     <div class="card-header" role="tab" id="headingSixF">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSixF"
-               aria-expanded="false" aria-controls="collapseSixF">Lesson 3: Sound Waves</a>
+               aria-expanded="false" aria-controls="collapseSixF">Activity 4: Sound Waves</a>
         </h5>
     </div>
     <div id="collapseSixF" class="collapse" role="tabpanel" aria-labelledby="headingSixF">
@@ -137,19 +148,19 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-l3-sound-waves/uws-l3-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-a4-sound-waves/uws-a4-optional-clicker-questions.ppt']) }}">Optional
+                        Clicker Questions</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-l3-sound-waves/uws-l3-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-a4-sound-waves/uws-a4-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-l3-sound-waves/uws-l3-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-a4-sound-waves/uws-a4-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
@@ -169,8 +180,28 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/7-extd-seismic-waves/uws-extd-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/7-ext-d-seismic-waves/uws-extd-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingSixG">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSixG"
+               aria-expanded="false" aria-controls="collapseSixG">Activity 5 ED: Locating an Earthquake</a>
+        </h5>
+    </div>
+    <div id="collapseSixG" class="collapse" role="tabpanel" aria-labelledby="headingSixF">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/8-a5-ed-locatiing-an-earthquake/uws-a5-ed-student-materials.docx']) }}">Student
+                        Materials</a>
                 </li>
             </ul>
         </div>

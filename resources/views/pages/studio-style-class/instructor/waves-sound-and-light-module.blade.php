@@ -19,12 +19,12 @@
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/module-equipment-list.docx']) }}"
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/module-wsl-equipment-list.docx']) }}"
                    target="_blank">Module Equipment List (word)</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-pdf-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/module-equipment-list.pdf']) }}"
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/module-wsl-equipment-list.pdf']) }}"
                    target="_blank">Module Equipment List (pdf)</a>
             </li>
         </ul>
@@ -55,7 +55,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-activity-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -99,7 +99,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-activity-keys.pdf']) }}">Lesson
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -115,7 +115,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-summary-ideas.docx']) }}">Summary
                             Ideas</a>
