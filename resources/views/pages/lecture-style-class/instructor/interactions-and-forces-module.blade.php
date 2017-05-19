@@ -61,7 +61,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.docx']) }}">Summary
                             Ideas</a>
@@ -105,7 +105,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-summary-ideas.docx']) }}">Summary
                             Ideas</a>
