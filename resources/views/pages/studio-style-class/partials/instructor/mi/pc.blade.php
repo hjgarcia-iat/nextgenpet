@@ -28,7 +28,7 @@
     <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">Ext
+               aria-expanded="false" aria-controls="collapseTwo">Extension
                 A: Introduction to Spreadsheets and Graphing</a>
         </h5>
     </div>
@@ -75,7 +75,7 @@
     <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-               aria-expanded="false" aria-controls="collapseFour">Ext
+               aria-expanded="false" aria-controls="collapseFour">Extension
                 B: Pressure-Volume Relationship</a>
         </h5>
     </div>
@@ -122,7 +122,7 @@
     <div class="card-header" role="tab" id="headingSix">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
-               aria-expanded="false" aria-controls="collapseSix">Ext
+               aria-expanded="false" aria-controls="collapseSix">Extension
                 C: Gas Law Graphing</a>
         </h5>
     </div>
@@ -245,7 +245,7 @@
     <div class="card-header" role="tab" id="headingEight">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight"
-               aria-expanded="false" aria-controls="collapseEight">Ext D: Energy Involved in Heating Substances and
+               aria-expanded="false" aria-controls="collapseEight">Extension D: Energy Involved in Heating Substances and
                 Phase Changes</a>
         </h5>
     </div>
@@ -292,7 +292,7 @@
     <div class="card-header" role="tab" id="headingTwentytwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwo"
-               aria-expanded="false" aria-controls="collapseTwentytwo">Ext E: SPT and Density of Gases, Liquids and
+               aria-expanded="false" aria-controls="collapseTwentytwo">Extension E: SPT and Density of Gases, Liquids and
                 Solids</a>
         </h5>
     </div>
@@ -338,7 +338,7 @@
     <div class="card-header" role="tab" id="headingTwentytwoA">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwoA"
-               aria-expanded="false" aria-controls="collapseTwentytwoA">Ext F: Characteristic Physical Properties</a>
+               aria-expanded="false" aria-controls="collapseTwentytwoA">Extension F: Characteristic Physical Properties</a>
         </h5>
     </div>
     <div id="collapseTwentytwoA" class="collapse" role="tabpanel" aria-labelledby="headingTwentytwoA">

@@ -33,7 +33,7 @@
     <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">Ext
+               aria-expanded="false" aria-controls="collapseTwo">Extension
                 A: Representing Motion on Speed-Time Graphs</a>
         </h5>
     </div>
@@ -80,7 +80,7 @@
     <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-               aria-expanded="false" aria-controls="collapseFour">Ext
+               aria-expanded="false" aria-controls="collapseFour">Extension
                 B: Explanations using Energy Ideas</a>
         </h5>
     </div>
@@ -133,7 +133,7 @@
     <div class="card-header" role="tab" id="headingSix">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
-               aria-expanded="false" aria-controls="collapseSix">Ext
+               aria-expanded="false" aria-controls="collapseSix">Extension
                 D: Scientific Explanations</a>
         </h5>
     </div>
@@ -154,7 +154,7 @@
     <div class="card-header" role="tab" id="headingSeven">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven"
-               aria-expanded="false" aria-controls="collapseSeven">Ext
+               aria-expanded="false" aria-controls="collapseSeven">Extension
                 E: Simultaneous Interactions</a>
         </h5>
     </div>
@@ -207,7 +207,7 @@
     <div class="card-header" role="tab" id="headingNine">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseNine"
-               aria-expanded="false" aria-controls="collapseNine">Ext
+               aria-expanded="false" aria-controls="collapseNine">Extension
                 G: Mechanisms for Heat Interactions</a>
         </h5>
     </div>
@@ -326,7 +326,7 @@
     <div class="card-header" role="tab" id="headingTwentyfour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentyfour"
-               aria-expanded="false" aria-controls="collapseTwentyfour">Ext
+               aria-expanded="false" aria-controls="collapseTwentyfour">Extension
                 I: More on Efficiency and Conservation of Energy</a>
         </h5>
     </div>

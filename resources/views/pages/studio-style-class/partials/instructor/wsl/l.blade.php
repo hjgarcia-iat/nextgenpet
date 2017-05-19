@@ -28,7 +28,7 @@
     <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">Ext
+               aria-expanded="false" aria-controls="collapseTwo">Extension
                 A: Drawing Light Ray Diagrams for Pinholes and Shadows</a>
         </h5>
     </div>
@@ -75,7 +75,7 @@
     <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFour"
-               aria-expanded="false" aria-controls="collapseFour">Ext
+               aria-expanded="false" aria-controls="collapseFour">Extension
                 B: More on Mirror Reflections and Images</a>
         </h5>
     </div>

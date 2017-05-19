@@ -33,7 +33,7 @@
     <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">Ext
+               aria-expanded="false" aria-controls="collapseTwo">Extension
                 A: Force Diagrams</a>
         </h5>
     </div>
@@ -86,7 +86,7 @@
     <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-               aria-expanded="false" aria-controls="collapseFour">Ext
+               aria-expanded="false" aria-controls="collapseFour">Extension
                 B: Pushing a Skateboarder</a>
         </h5>
     </div>
@@ -139,7 +139,7 @@
     <div class="card-header" role="tab" id="headingSix">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
-               aria-expanded="false" aria-controls="collapseSix">Ext
+               aria-expanded="false" aria-controls="collapseSix">Extension
                 C: Connecting Force and Energy Models</a>
         </h5>
     </div>
@@ -191,7 +191,7 @@
     <div class="card-header" role="tab" id="headingEight">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight"
-               aria-expanded="false" aria-controls="collapseEight">Ext D: How Does Friction Work?</a>
+               aria-expanded="false" aria-controls="collapseEight">Extension D: How Does Friction Work?</a>
         </h5>
     </div>
     <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
@@ -242,7 +242,7 @@
     <div class="card-header" role="tab" id="headingTwentytwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwo"
-               aria-expanded="false" aria-controls="collapseTwentytwo">Ext E: Changing Direction</a>
+               aria-expanded="false" aria-controls="collapseTwentytwo">Extension E: Changing Direction</a>
         </h5>
     </div>
     <div id="collapseTwentytwo" class="collapse" role="tabpanel" aria-labelledby="headingTwentytwo">

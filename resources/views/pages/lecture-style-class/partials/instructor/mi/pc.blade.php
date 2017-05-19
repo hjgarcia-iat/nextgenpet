@@ -34,7 +34,7 @@
     <div class="card-header" role="tab" id="headingTwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo"
-               aria-expanded="false" aria-controls="collapseTwo">Ext
+               aria-expanded="false" aria-controls="collapseTwo">Extension
                 G: Effects due to air pressure</a>
         </h5>
     </div>
@@ -87,7 +87,7 @@
     <div class="card-header" role="tab" id="headingFour">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFour"
-               aria-expanded="false" aria-controls="collapseFour">Ext
+               aria-expanded="false" aria-controls="collapseFour">Extension
                 H: Pressure, Temperature, Mixture of Gases, and Average KE</a>
         </h5>
     </div>
@@ -140,7 +140,7 @@
     <div class="card-header" role="tab" id="headingSix">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSix"
-               aria-expanded="false" aria-controls="collapseSix">Ext
+               aria-expanded="false" aria-controls="collapseSix">Extension
                 I: Mass, Volume and Density</a>
         </h5>
     </div>
@@ -192,7 +192,7 @@
     <div class="card-header" role="tab" id="headingEight">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseEight"
-               aria-expanded="false" aria-controls="collapseEight">Ext J: Sinking and Floating</a>
+               aria-expanded="false" aria-controls="collapseEight">Extension J: Sinking and Floating</a>
         </h5>
     </div>
     <div id="collapseEight" class="collapse" role="tabpanel" aria-labelledby="headingEight">
@@ -244,7 +244,7 @@
     <div class="card-header" role="tab" id="headingTwentytwo">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwo"
-               aria-expanded="false" aria-controls="collapseTwentytwo">Ext K: Rates of Warming of Different Materials</a>
+               aria-expanded="false" aria-controls="collapseTwentytwo">Extension K: Rates of Warming of Different Materials</a>
         </h5>
     </div>
     <div id="collapseTwentytwo" class="collapse" role="tabpanel" aria-labelledby="headingTwentytwo">
@@ -295,7 +295,7 @@
     <div class="card-header" role="tab" id="headingTwentytwoA">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwoA"
-               aria-expanded="false" aria-controls="collapseTwentytwoA">Ext L: Explanations Involving Physical Changes
+               aria-expanded="false" aria-controls="collapseTwentytwoA">Extension L: Explanations Involving Physical Changes
                 in Liquids and Solids</a>
         </h5>
     </div>
@@ -348,7 +348,7 @@
     <div class="card-header" role="tab" id="headingTwentytwoD">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwentytwoD"
-               aria-expanded="false" aria-controls="collapseTwentytwoD">Ext M: Heating Curves, Melting and Boiling
+               aria-expanded="false" aria-controls="collapseTwentytwoD">Extension M: Heating Curves, Melting and Boiling
                 Points</a>
         </h5>
     </div>

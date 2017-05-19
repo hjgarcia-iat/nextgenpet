@@ -65,7 +65,7 @@
     <div class="card-header" role="tab" id="headingTwoB">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwoB"
-               aria-expanded="false" aria-controls="collapseTwoB">Ext
+               aria-expanded="false" aria-controls="collapseTwoB">Extension
                 A: How Do Waves Move?</a>
         </h5>
     </div>
@@ -119,7 +119,7 @@
     <div class="card-header" role="tab" id="headingFiveE">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFiveE"
-               aria-expanded="false" aria-controls="collapseFiveE">Ext C: Reflection of 2D Waves</a>
+               aria-expanded="false" aria-controls="collapseFiveE">Extension C: Reflection of 2D Waves</a>
         </h5>
     </div>
     <div id="collapseFiveE" class="collapse" role="tabpanel" aria-labelledby="headingFiveE">
@@ -170,7 +170,7 @@
     <div class="card-header" role="tab" id="headingSevenG">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseSevenG"
-               aria-expanded="false" aria-controls="collapseSevenG">Ext
+               aria-expanded="false" aria-controls="collapseSevenG">Extension
                 D: Seismic Waves</a>
         </h5>
     </div>

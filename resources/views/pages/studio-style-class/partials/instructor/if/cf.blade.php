@@ -33,7 +33,7 @@
     <div class="card-header" role="tab" id="headingTwoB">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwoB"
-               aria-expanded="false" aria-controls="collapseTwoB">Ext
+               aria-expanded="false" aria-controls="collapseTwoB">Extension
                 A: Newton’s Second Law</a>
         </h5>
     </div>
@@ -86,7 +86,7 @@
     <div class="card-header" role="tab" id="headingFourD">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFourD"
-               aria-expanded="false" aria-controls="collapseFourD">Ext
+               aria-expanded="false" aria-controls="collapseFourD">Extension
                 B: More on Balanced Forces</a>
         </h5>
     </div>
@@ -107,7 +107,7 @@
     <div class="card-header" role="tab" id="headingFourE">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFourE"
-               aria-expanded="false" aria-controls="collapseFourE">Ext
+               aria-expanded="false" aria-controls="collapseFourE">Extension
                 C: Balanced and Unbalanced Forces</a>
         </h5>
     </div>
@@ -160,7 +160,7 @@
     <div class="card-header" role="tab" id="headingSevenG">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSevenG"
-               aria-expanded="false" aria-controls="collapseSevenG">Ext
+               aria-expanded="false" aria-controls="collapseSevenG">Extension
                 E: Newton’s Third Law and Balanced Forces</a>
         </h5>
     </div>
@@ -214,7 +214,7 @@
     <div class="card-header" role="tab" id="headingNineJ">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineJ"
-               aria-expanded="false" aria-controls="collapseNineJ">Ext
+               aria-expanded="false" aria-controls="collapseNineJ">Extension
                 D: More on Vertical Motion</a>
         </h5>
     </div>

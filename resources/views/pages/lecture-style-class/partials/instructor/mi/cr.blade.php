@@ -34,7 +34,7 @@
     <div class="card-header" role="tab" id="headingTwoB">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwoB"
-               aria-expanded="false" aria-controls="collapseTwoB">Ext
+               aria-expanded="false" aria-controls="collapseTwoB">Extension
                 A: Separating Mixtures Using Physical Properties</a>
         </h5>
     </div>
@@ -87,7 +87,7 @@
     <div class="card-header" role="tab" id="headingFourD">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFourD"
-               aria-expanded="false" aria-controls="collapseFourD">Ext
+               aria-expanded="false" aria-controls="collapseFourD">Extension
                 B: Reaction Rates and Temperature</a>
         </h5>
     </div>
@@ -140,7 +140,7 @@
     <div class="card-header" role="tab" id="headingSixF">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSixF"
-               aria-expanded="false" aria-controls="collapseSixF">Ext
+               aria-expanded="false" aria-controls="collapseSixF">Extension
                 F: Balancing chemical equations</a>
         </h5>
     </div>
@@ -225,7 +225,7 @@
     <div class="card-header" role="tab" id="headingNineI">
         <h5 class="mb-0">
             <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineI"
-               aria-expanded="false" aria-controls="collapseNineI">Ext
+               aria-expanded="false" aria-controls="collapseNineI">Extension
                 G: Characteristic Physical Properties</a>
         </h5>
     </div>

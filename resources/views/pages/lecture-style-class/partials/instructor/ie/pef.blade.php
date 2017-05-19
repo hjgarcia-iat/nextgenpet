@@ -31,7 +31,7 @@
     <div class="card-header" id="headingEleven" role="tab">
         <h5 class="mb-0">
             <a aria-controls="collapseEleven" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseEleven">
-                Ext A: More on Elastic Energy </a>
+                Extension A: More on Elastic Energy </a>
         </h5>
     </div>
     <div aria-labelledby="headingEleven" class="collapse" id="collapseEleven" role="tabpanel">
@@ -79,7 +79,7 @@
     <div class="card-header" id="headingThirteen" role="tab">
         <h5 class="mb-0">
             <a aria-controls="collapseThirteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseThirteen">
-                Ext B: Representing Magnetic Poles and Electric Charges (optional) </a>
+                Extension B: Representing Magnetic Poles and Electric Charges (optional) </a>
         </h5>
     </div>
     <div aria-labelledby="headingThirteen" class="collapse" id="collapseThirteen" role="tabpanel">
@@ -127,7 +127,7 @@
     <div class="card-header" id="headingSixteen" role="tab">
         <h5 class="mb-0">
             <a aria-controls="collapseSixteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseSixteen">
-                Ext C: Exploring Magnetic and Electric Fields </a>
+                Extension C: Exploring Magnetic and Electric Fields </a>
         </h5>
     </div>
     <div aria-labelledby="headingSixteen" class="collapse" id="collapseSixteen" role="tabpanel">
@@ -175,7 +175,7 @@
     <div class="card-header" id="headingEighteen" role="tab">
         <h5 class="mb-0">
             <a aria-controls="collapseEighteen" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseEighteen">
-                Ext D: Exploring Gravitational Potential Energy </a>
+                Extension D: Exploring Gravitational Potential Energy </a>
         </h5>
     </div>
     <div aria-labelledby="headingEighteen" class="collapse" id="collapseEighteen" role="tabpanel">
@@ -223,7 +223,7 @@
     <div class="card-header" id="headingTwenty" role="tab">
         <h5 class="mb-0">
             <a aria-controls="collapseTwenty" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwenty">
-                Ext E: More on Electromagnetic Interactions </a>
+                Extension E: More on Electromagnetic Interactions </a>
         </h5>
     </div>
     <div aria-labelledby="headingTwenty" class="collapse" id="collapseTwenty" role="tabpanel">

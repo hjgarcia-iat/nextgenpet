@@ -29,7 +29,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingEleven">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">Extension
                 A: Which Charge is Which?</a>
         </h5>
     </div>
@@ -47,7 +47,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingTwelve">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwelve" aria-expanded="false" aria-controls="collapseTwelve">Extension
                 B: The Law of Electric Charges</a>
         </h5>
     </div>
@@ -121,7 +121,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingSixteen">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSixteen" aria-expanded="false" aria-controls="collapseSixteen">Extension
                 C: Electroscope and Negatively (–) Charged Object</a>
         </h5>
     </div>
@@ -139,7 +139,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingSeventeen">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseSeventeen" aria-expanded="false" aria-controls="collapseSeventeen">Extension
                 D: Nature of Charged Entities</a>
         </h5>
     </div>
@@ -185,7 +185,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingNineteen">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseNineteen" aria-expanded="false" aria-controls="collapseNineteen">Extension
                 E: Discharging Charged Objects</a>
         </h5>
     </div>
@@ -203,7 +203,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingTwenty">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseTwenty" aria-expanded="false" aria-controls="collapseTwenty">Extension
                 F: Charged and Uncharged Objects</a>
         </h5>
     </div>

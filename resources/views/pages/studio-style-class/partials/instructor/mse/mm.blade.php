@@ -114,7 +114,7 @@
 <div class="card">
     <div class="card-header" role="tab" id="headingFive">
         <h5 class="mb-0">
-            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Ext
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">Extension
                 B: Evaluating Magnetism Model</a>
         </h5>
     </div>
