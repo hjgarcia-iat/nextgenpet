@@ -1,7 +1,7 @@
 // create an array with nodes
 var nodes = new vis.DataSet([{
     id: 1,
-    label: 'A1: Interactions \nnd Force\n120 min',
+    label: 'A1: Interactions \nand Force\n120 min',
     x: "-850",
     y: "-1000",
     description: "In this activity, students begin to develop their understanding of a force as a push or pull that is applied to an object during an interaction with a second object. In Initial Ideas, they think about the motion of a soccer ball that is given a kick and rolls across the grass, gradually slowing to a stop. They also identify what forces are acting on the ball both during and after the kick. During the class discussion, many different ideas are likely to emerge. In Exploration #1 students consider a cart that is given three quick pushes to increase its speed and where, on its speed-time graph, a force is pushing it forward. They gather evidence to test their thinking either by using a force sensor themselves (optional) or by watching one being used in a movie of the experiment. The evidence shows that the force of the push disappears as soon as contact is lost, but some students may be reluctant to accept this. The Summarizing Questions probe their current thinking about force and motion and whether force is a quantity that can be transferred (like energy) or not."
@@ -114,7 +114,7 @@ var nodes = new vis.DataSet([{
 }]);
 var nodes2 = new vis.DataSet([{
     id: 1,
-    label: 'A1: Combination \nof Forces\n60 min',
+    label: 'A1: Combinations \nof Forces\n60 min',
     x: "-975",
     y: "-1000",
     description: "In Unit FM students only considered the effect of a single force acting on an object. In this activity, they are introduced to unbalanced combinations of forces and how they affect the motion of objects. In Initial Ideas, they consider the motion of a low-friction cart with two opposing fan units of different strength mounted on it. In Exploration #1, they consider a cart that starts at rest, with two forces acting on it in various combinations. They predict what its motion would be like, and what single force would be needed to make an identical cart behave in exactly the same manner. They check their thinking by watching movies of simulations of the two carts moving side-by-side. In Exploration #2, they consider similar situations for a cart that is already in motion. After this they are introduced to the idea of a net force. In theSummarizing Questions, they consider why the idea of a net force makes sense and practice using the ideas they have developed.  ",
@@ -145,7 +145,7 @@ var nodes2 = new vis.DataSet([{
 }, {
     id: 8,
     label: 'Ext A: Newton\'s \nSecond \nLaw',
-    x: "-875",
+    x: "-885",
     y: "-1075",
     description: "In this extension students apply the more general case of Newton’s Second Law (using net force) to various situations.",
     color: {
@@ -159,7 +159,7 @@ var nodes2 = new vis.DataSet([{
 }, {
     id: 9,
     label: 'Ext B: More \non Balanced \n Forces',
-    x: "-700",
+    x: "-745",
     y: "-1075",
     description: "In this extension, students practice analyzing several situations involving balanced forces.  The last part of the extension discusses Newton’s First Law.",
     color: {
@@ -173,8 +173,8 @@ var nodes2 = new vis.DataSet([{
 }, {
     id: 10,
     label: 'Ext C: Balanced \nand Unbalanced \nForces',
-    x: "-465",
-    y: "-945",
+    x: "-620",
+    y: "-1075",
     description: "In this extension students review how objects behave when subjected to balanced and unbalanced forces, and then focus on situations involving friction.",
     color: {
         border: '#fcd5b5',
@@ -188,7 +188,7 @@ var nodes2 = new vis.DataSet([{
     id: 11,
     label: 'Ext F: Newton\'s \nThird Law and \nBalanced \nForces',
     x: "-465",
-    y: "-865",
+    y: "-900",
     description: "In this extension students first consider several situations where they need to apply Newton’s Third Law: colliding carts, walking, and rocket propulsion.  Then they consider the difference between action-reaction pair forces (acting on two different object) and balanced forces (acting on a single object), which is often confusing to students.",
     color: {
         border: '#fcd5b5',
@@ -200,7 +200,7 @@ var nodes2 = new vis.DataSet([{
     }
 }, {
     id: 12,
-    label: 'Ext DS: More \non Vertical \nMotion',
+    label: 'Ext D: More \non Vertical \nMotion',
     x: "-750",
     y: "-735",
     description: "In this extension students apply Newton’s Second Law to situations involving vertical motion.  They first analyze tossing a ball upwards, then an object sitting on a table, and finally a moving elevator.  Then they consider air drag and how it affects the motion of a falling object, including a discussion of terminal velocity.",

@@ -25,6 +25,6 @@ class HelpController extends Controller
 	{
 		\Mail::to('contact@iat.com')->send(new Help($request));
 
-		return redirect()->back()->with('success', 'Message send!');
+		return redirect()->back()->with('success', 'Your message was sent!');
 	}
 }

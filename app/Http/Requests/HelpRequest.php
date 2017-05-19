@@ -25,14 +25,19 @@ class HelpRequest extends FormRequest
 	 */
 	public function rules()
 	{
-		return [
-			'name'    => 'required',
-			'email'   => 'required|email',
-			'subject' => 'required',
-			'comment' => 'required',
-			'my_name' => 'honeypot',
-			'my_time' => 'required|honeytime:5'
-		];
+	    $rules = [
+            'name'    => 'required',
+            'email'   => 'required|email',
+            'subject' => 'required',
+            'comment' => 'required',
+        ];
+
+	    if(env('APP_ENV') != 'testing') {
+	        $rules['my_name'] = 'honeypot';
+	        $rules['my_time'] = 'required|honeytime:5';
+        }
+
+        return $rules;
 	}
 
 	/**

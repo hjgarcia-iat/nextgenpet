@@ -7,9 +7,10 @@
        aria-expanded="false">
         Studio Style Class
     </a>
-    <div class="dropdown-menu{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' show shown' : '' }}"
-         aria-labelledby="studioLinks">
-
+    <div
+        class="dropdown-menu{{ (Request::is('studio-style-class') or Request::is('studio-style-class/*')) ? ' show shown' : '' }}"
+        aria-labelledby="studioLinks">
+        
         <a href="{{ url('studio-style-class') }}"
            class="dropdown-item{{ (Request::is('studio-style-class')) ? ' active' : '' }}">
             Introduction
@@ -18,8 +19,8 @@
            class="dropdown-item{{ (Request::is('studio-style-class/pedagogy')) ? ' active' : '' }}">
             Pedagogy
         </a>
-
-        <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
+        
+        <a href="https://s3.amazonaws.com/nextgenpet/web-docs/equipment/Equipment-Materials_Studio-style_Class.pdf"
            target="_blank"
            class="dropdown-item">
             Equipment &amp; Materials
@@ -28,7 +29,7 @@
            class="dropdown-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">
             Table of Contents with Time Estimates
         </a>
-
+        
         <a href="#"
            class="dropdown-item sublink collapsed dropdown-toggle"
            data-toggle="collapse"
@@ -54,52 +55,52 @@
                href="{{ url('studio-style-class/content/waves-sound-and-light-module') }}">
                 Waves, Sounds &amp; Light Module
             </a>
-            {{--<a class="dropdown-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"--}}
-            {{--href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">--}}
-            {{--<span>Matter &amp; Interactions Module--}}
-            {{--</span>--}}
-            {{--</a>--}}
+            <a class="dropdown-item{{ (Request::is('studio-style-class/content/matter-and-interactions-module') ? ' active' : '') }}"
+               href="{{ url('studio-style-class/content/matter-and-interactions-module') }}">
+            <span>Matter &amp; Interactions Module
+            </span>
+            </a>
         </div>
-
+        
         {{--<a href="#"--}}
-           {{--class="dropdown-item sublink collapsed dropdown-toggle"--}}
-           {{--data-toggle="collapse"--}}
-           {{--data-target="#studio-student-materials"--}}
-           {{--data-parent="#menu">--}}
-            {{--<span>Content Module Student Materials (viewing)</span>--}}
+        {{--class="dropdown-item sublink collapsed dropdown-toggle"--}}
+        {{--data-toggle="collapse"--}}
+        {{--data-target="#studio-student-materials"--}}
+        {{--data-parent="#menu">--}}
+        {{--<span>Content Module Student Materials (viewing)</span>--}}
         {{--</a>--}}
         {{--<div id="studio-student-materials"--}}
-             {{--class="sublinks collapse">--}}
-            {{--<a class="dropdown-item"--}}
-               {{--target="_blank"--}}
-               {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf">--}}
-                {{--Magnetism &amp; Static Electricity Module--}}
-            {{--</a>--}}
-            {{--<a class="dropdown-item"--}}
-               {{--target="_blank"--}}
-               {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf">--}}
-                {{--Interactions &amp; Energy Module--}}
-            {{--</a>--}}
-            {{--<a class="dropdown-item"--}}
-               {{--target="_blank"--}}
-               {{--data-file="true"--}}
-               {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf">--}}
-                {{--Interactions &amp; Forces Module--}}
-            {{--</a>--}}
-            {{--<a class="dropdown-item"--}}
-               {{--target="_blank"--}}
-               {{--data-file="true"--}}
-               {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf">--}}
-                {{--Waves, Sounds &amp; Light Module--}}
-            {{--</a>--}}
-            {{--<a class="dropdown-item"--}}
-               {{--target="_blank"--}}
-               {{--data-file="true"--}}
-               {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf">--}}
-                {{--Matter &amp; Interactions Module--}}
-            {{--</a>--}}
+        {{--class="sublinks collapse">--}}
+        {{--<a class="dropdown-item"--}}
+        {{--target="_blank"--}}
+        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf">--}}
+        {{--Magnetism &amp; Static Electricity Module--}}
+        {{--</a>--}}
+        {{--<a class="dropdown-item"--}}
+        {{--target="_blank"--}}
+        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf">--}}
+        {{--Interactions &amp; Energy Module--}}
+        {{--</a>--}}
+        {{--<a class="dropdown-item"--}}
+        {{--target="_blank"--}}
+        {{--data-file="true"--}}
+        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf">--}}
+        {{--Interactions &amp; Forces Module--}}
+        {{--</a>--}}
+        {{--<a class="dropdown-item"--}}
+        {{--target="_blank"--}}
+        {{--data-file="true"--}}
+        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf">--}}
+        {{--Waves, Sounds &amp; Light Module--}}
+        {{--</a>--}}
+        {{--<a class="dropdown-item"--}}
+        {{--target="_blank"--}}
+        {{--data-file="true"--}}
+        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf">--}}
+        {{--Matter &amp; Interactions Module--}}
+        {{--</a>--}}
         {{--</div>--}}
-
+        
         <div id="studio-teacher-learning-materials-mobile">
             <a href="#"
                class="dropdown-item sublink collapsed dropdown-toggle"
@@ -141,8 +142,11 @@
                 </a>
             </div>
         </div>
-
-
+    
+        <a href="{{ url('studio-style-class/planning-your-course') }}"
+           class="dropdown-item{{ (Request::is('studio-style-class/planning-your-course') ? ' active' : '') }}">
+            Planning Your Course
+        </a>
         <a href="{{ url('studio-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
             Extensions Index
@@ -155,5 +159,31 @@
            class="dropdown-item{{ (Request::is('studio-style-class/classroom-videos')) ? ' active' : '' }}">
             Classroom Videos
         </a>
+    
+        <div id="studio-instructor-links">
+            <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse"
+               data-target="#lecture-instructor-dropdown" data-parent="#studio-instructor-links">
+                <span><i class="fa fa-lock mr-2"></i>Instructor</span> </a>
+            <div id="lecture-instructor-dropdown"
+                 class="sublinks collapse{{ (Request::is('studio-style-class/instructor/*') ? ' show' : '') }}">
+                <a class="dropdown-item {{ (Request::is('studio-style-class/instructor/magnetism-and-static-electricity-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/magnetism-and-static-electricity-module') }}">
+                    <span>Magnetism &amp; Electricity Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/interactions-and-energy-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/interactions-and-energy-module') }}">
+                    <span>Interactions &amp; Energy Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/interactions-and-forces-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/interactions-and-forces-module') }}">
+                    <span>Interactions &amp; Force Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/waves-sound-and-light-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/waves-sound-and-light-module') }}">
+                    <span>Waves, Sounds &amp; Light Module</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/matter-and-interactions-module') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/matter-and-interactions-module') }}">
+                    <span>Matter &amp; Interactions Module</span> </a>
+                {{--<a class="dropdown-item{{ (Request::is('studio-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('studio-style-class/instructor/teaching-and-learning') }}">--}}
+                {{--<span>Teaching &amp; Learning</span> </a>--}}
+            </div>
+        </div>
     </div>
 </li>

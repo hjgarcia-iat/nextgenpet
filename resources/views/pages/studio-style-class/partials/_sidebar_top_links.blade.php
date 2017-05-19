@@ -12,11 +12,11 @@
 </div>
 
 <div>
-    <a href="{{ asset('docs/Equipment-Materials_Studio-style_Class.pdf') }}"
+    <a href="https://s3.amazonaws.com/nextgenpet/web-docs/equipment/Equipment-Materials_Studio-style_Class.pdf"
        data-file="true"
        target="_blank"
        class="list-group-item">
-        <span>Equipment and Materials
+        <span>Equipment &amp; Materials
         </span>
     </a>
 </div>

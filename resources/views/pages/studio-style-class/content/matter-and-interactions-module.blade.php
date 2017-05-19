@@ -12,327 +12,78 @@
     <section id="html-content" class="html-content">
         <h3>Matter and Interactions Module</h3>
         <p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
+            The main purpose of this module is to introduce students to theories and models that can help explain some
+            of the properties of materials, changes in those properties, and interactions between materials. The ‘small
+            particle theory’ is used in the Physical Changes Unit to account for the properties of gases, liquids, and
+            solids, and changes in state. In each of these physical changes, the identities of the materials, as well as
+            their masses, remain the same. In the Chemical Reactions Unit, students consider situations where the
+            identities of the materials change. They learn how to classify materials according to macroscopic
+            properties, and learn that mass is conserved even during chemical reactions. Students then learn about the
+            small particle theory for chemical reactions, and how elements and compounds are composed of small
+            particles—atoms, molecules, and formula units. They can then ‘explain’ why mass is conserved in chemical
+            reactions (or physical changes) in terms of the same number of atoms of the reactants and products in the
+            chemical reaction. Students then explore how materials are classified and organized according to their
+            physical and chemical properties (Periodic Table), and how the organization can be explained in terms of
+            atoms and ions and the behavior of valence electrons. Finally, they use a simple model to describe ionic and
+            covalent bonds and explain (in simple cases) the chemical composition of molecules and formula units.
         </p>
         <p>
             For a viewable-only version of all the student activities for this module,
             <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf" target="_blank">
                 click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
         <h4>Unit PC: Physical Changes</h4>
+       
+        <p>The purpose of this unit is to introduce students to the small particle theory of gases, liquids, and solids.
+            Through experiments, demonstrations, and movies, they observe macroscopic phenomena and then, with the aid
+            of computer simulations, try to explain the phenomena in terms of small particle theory (SPT). The focus is
+            on physical changes only, not chemical reactions. Therefore, the internal structure of ‘particles’ (atoms
+            and molecules) is not relevant. Students first consider gases and investigate changes in the macroscopic
+            quantities of pressure, volume, temperature, and mass. This leads them to a mathematical statement of the
+            relationship between these quantities (the Ideal Gas Law). They are also introduced to the small particle
+            theory of gases, and how to ‘explain’ macroscopic changes in gases in terms of small particles. They learn
+            that the macroscopic relationship they found has a small particle accounting. Then they consider liquids,
+            and the change of state from gas to liquid; and they examine the differences between the SPT for liquids and
+            gases. They are introduced to the concept of characteristic physical properties, which are unique for
+            different forms of matter and can be used to distinguish substances from one another. They focus
+            particularly on the characteristic property of density. Students also examine solids in terms of the SPT,
+            and the differences between solids and liquids. They examine the role of energy in physical changes, and
+            come up with energy models for the heating and cooling of substances, and for changes of state between
+            solids, liquids, and gases. Finally, students use the class summary ideas to develop explanations of
+            everyday physical changes.
+        </p>
         @include('pages.partials._canvas',['canvasId' => 'canvas'])
-        <p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
-        </p>
-
         <h4>Unit CR: Chemical Reactions</h4>
-        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
         <p>
-            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem deserunt doloremque impedit inventore maiores officia, porro quasi quisquam repellat veniam vero voluptate, voluptatum! Expedita fuga nam optio, quis saepe vitae!</span><span>Asperiores at atque autem doloremque est et eum id ipsam magni molestias, natus nisi possimus quia quibusdam quidem repudiandae sint velit vitae! Ab amet fugit harum necessitatibus quos sunt, veritatis.</span><span>Accusantium assumenda consectetur corporis maxime nam natus omnis provident repellat sapiente ullam! Accusantium atque beatae consectetur dolores fugiat iusto quidem totam! Aliquam aspernatur beatae blanditiis consequuntur culpa dicta, maiores repellat.</span>
+            In Unit PC, students used the small particle model to explain changes to materials (gases, liquids or
+            solids) that do not involve changes to the physical identities of the materials. In this unit, they explore
+            what happens when materials interact in a way such that their chemical identities change. These interactions
+            are called chemical reactions.
         </p>
+        <p>
+            Students learn about the evidence supporting the claim that a chemical reaction has occurred. Then they
+            learn to classify materials as pure substances (elements and compounds), and mixtures (solutions and
+            heterogeneous mixtures) according to macroscopic criteria. Next they gather evidence to conclude that mass
+            is conserved during chemical reactions as well as during physical changes. Then they learn about the small
+            particle theory of chemical reactions, and that elements and compounds are composed of small
+            particles—atoms, molecules, and formula units. They become familiar with both pictorial and chemical
+            equation representations of reactions, which ‘explain’ conservation of mass during reactions in terms of
+            small particles, and consider energy transfer in both exothermic and endothermic reactions.
+        </p>
+        <p>
+            Students learn about how elements can be classified and organized, and develop a general understanding of
+            the organization of the Periodic Table. Then they learn how the macroscopic organization of the Periodic
+            Table can be simply ‘explained’ in terms of atoms, ions, and the behavior of valence electrons. They use the
+            Lewis Dot Diagram Model to describe both ionic and covalent bonding, which provides students with insight
+            into why molecules or formula units are comprised of very specific numbers of different atoms. Finally, they
+            use what they have learned to explain everyday chemical and physical phenomena.
+        </p>
+        @include('pages.partials._canvas',['canvasId' => 'canvas2'])
     </section>
 @stop
-
-@section('scripts')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.js"></script>
-
-
-    <script>
-        // create an array with nodes
-        var nodes = new vis.DataSet([
-            {id: 1, label: 'A1: Pressure', x: "-1100", y: "-1000"},
-            {id: 2, label: 'A2: Pressure and the \nAmount of Gas', x: "-900", y: "-1000"},
-            {id: 3, label: 'A3: Pressure and \nTemperature Relationship', x: "-685", y: "-1000"},
-            {id: 4, label: 'A4: Explanations \nInvolving Gas', x: "-485", y: "-1000"},
-            {id: 5, label: 'A5: Properties \nof Liquids', x: "-485", y: "-875"},
-            {id: 6, label: 'A6: More on \nLiquids and \nCharacteristic Properties', x: "-800", y: "-875"},
-            {id: 7, label: 'A7: Solids \nand SPT', x: "-1100", y: "-875"},
-            {id: 8, label: 'A8: Density', x: "-1100", y: "-725"},
-            {id: 9, label: 'A9: Mixing \nand Solubilitiy', x: "-900", y: "-725"},
-            {id: 10, label: 'A10: Explanations \nInvolving Physical \nChanges', x: "-685", y: "-725"},
-            {
-                id       : 15, label: 'Ext A: Intro to \nSpreadsheets & Graphing', x: "-1000", y: "-1075",
-                color    : {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                highlight: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                hover    : {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                }
-            },
-            {
-                id   : 16, label: 'Ext B: Pressure-Volume \nRelationship', x: "-780", y: "-1075",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 17, label: 'Ext C: Gas \nLaw Graphing', x: "-575", y: "-1075",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 18, label: 'Ext D: Energy Involved in \nHeating & Phase Changes', x: "-975", y: "-800",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 19, label: 'Ext E: SPT & Density \nof Gases, Liquids \n& Solids', x: "-1000", y: "-650",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 20,
-                label: 'Ext F: Using Characteristic \nPhysical Properties \nof Matter',
-                x    : "-800y",
-                y    : "-650",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            }
-        ]);
-
-        var nodes2 = new vis.DataSet([
-            {id: 1, label: 'A1: Physical \nChanges vs. \nChemical Reactions', x: "-1100", y: "-1000"},
-            {id: 2, label: 'A2: Classification \nof Matter', x: "-900", y: "-1000"},
-            {id: 3, label: 'A3: Evidence of \nChemical Reactions', x: "-685", y: "-1000"},
-            {id: 4, label: 'A4: Conservation of \nMass and SPT', x: "-485", y: "-1000"},
-            {id: 5, label: 'A5: Chemical \nReactions & Energy Transfer', x: "-485", y: "-875"},
-            {id: 6, label: 'A6: Elements & \nthe Periodic Table', x: "-800", y: "-875"},
-            {id: 7, label: 'A7: Atoms & \nthe Periodic Table', x: "-1100", y: "-875"},
-            {id: 8, label: 'A8: Electrons \nand Chemical \nBonding', x: "-1100", y: "-725"},
-            {id: 9, label: 'A9: Molecular \nStructure \n(Supplemental)', x: "-900", y: "-725"},
-            {id: 10, label: 'A10: Using the \nClass Consensus \nto Explain Observations', x: "-650", y: "-725"},
-            {
-                id       : 12, label: 'Ext A: Separating Mixtures \nusing Physical \nProperties', x: "-800", y: "-1075",
-                color    : {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                highlight: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                },
-                hover    : {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5'
-                }
-            },
-            {
-                id   : 13, label: 'Ext B: Reaction Rates \nand Temperature', x: "-600", y: "-1075",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 14, label: 'Ext C: Collision Theory & \nChemical Reactions', x: "-650", y: "-935",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 15, label: 'Ext D: Reaction \nRate & Energy \nDiagrams', x: "-650", y: "-815",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            },
-            {
-                id   : 16, label: 'Ext E: Models of \nthe Atom', x: "-950", y: "-815",
-                color: {
-                    border    : '#fcd5b5',
-                    background: '#fcd5b5',
-                    highlight : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    },
-                    hover     : {
-                        border    : '#fcd5b5',
-                        background: '#fcd5b5'
-                    }
-                }
-            }
-        ]);
-
-        // create an array with edges
-        var edges = new vis.DataSet([
-            {from: 1, to: 2},
-            {from: 2, to: 3},
-            {from: 3, to: 4},
-            {from: 4, to: 5},
-            {from: 5, to: 6},
-            {from: 6, to: 7},
-            {from: 7, to: 8},
-            {from: 8, to: 9},
-            {from: 9, to: 10},
-            {from: 10, to: 11}
-        ]);
-
-        var edges2 = new vis.DataSet([
-            {from: 1, to: 2},
-            {from: 2, to: 3},
-            {from: 3, to: 4},
-            {from: 4, to: 5},
-            {from: 5, to: 6},
-            {from: 6, to: 7},
-            {from: 7, to: 8},
-            {from: 8, to: 9},
-            {from: 9, to: 10}
-        ]);
-
-        var container = document.getElementById('canvas');
-        var container2 = document.getElementById('canvas2');
-        // provide the data in the vis format
-        var data = {
-            nodes: nodes,
-            edges: edges
-        };
-        var data2 = {
-            nodes: nodes2,
-            edges: edges2
-        };
-        var options = {
-            "physics": {
-                enabled: false
-            },
-            layout   : {randomSeed: 4},
-            edges    : {
-                smooth: {
-                    type: 'continuous'
-                },
-                arrows: {to: true},
-                color : {
-                    color    : '#333',
-                    highlight: '#333',
-                    hover    : '#333',
-                    opacity  : 1.0
-                }
-            },
-            nodes    : {
-                shape              : 'box',
-                borderWidthSelected: 10,
-                borderWidth        : 10,
-                color              : {
-                    border    : '#b9cde5',
-                    background: '#b9cde5',
-                    highlight : {
-                        border    : '#b9cde5',
-                        background: '#b9cde5'
-                    },
-                    hover     : {
-                        border    : '#b9cde5',
-                        background: '#b9cde5'
-                    }
-                },
-                shapeProperties    : {
-                    borderRadius: 0
-                },
-                shadow             : {
-                    enabled: true,
-                    color  : 'rgba(0,0,0,0.5)',
-                    size   : 10,
-                    x      : 3,
-                    y      : 3
-                },
-            }
-        };
-
-        var network = new vis.Network(container, data, options);
-        var network2 = new vis.Network(container2, data2, options);
-
-        network.on("doubleClick", function (params) {
-            $('#myModal-' + params.nodes[0]).modal();
-        });
-
-    </script>
-@stop
-
 @section('styles')
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.min.css">
-    <style>
-        #canvas {
-            width         : 100%;
-            height        : 500px;
-            border        : 1px solid lightgray;
-            margin-bottom : 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('css/vis.min.css') }}">
+@stop
+@section('scripts')
+    <script src="{{ asset('js/vis.min.js') }}"></script>
+    <script src="{{ asset('js/contentjs/studio-mi.js') }}"></script>
 @stop

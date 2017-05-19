@@ -5,6 +5,7 @@
         @include('layouts.partials.styles')
     </head>
     <body>
+        @include('layouts.partials.message')
         @include('layouts.partials.header')
         @include('layouts.partials.title')
         @yield('banner')

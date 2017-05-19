@@ -32,10 +32,10 @@
         </li>
     </ul>
     <p>
-        <a href="http://www.ngpfolc.org/" target="_blank"><strong>Learn more</strong></a> about the Next Gen PET FOLC or
+        <a href="http://www.ngpfolc.org/" target="_blank">Learn more</a> about the Next Gen PET FOLC or
         complete an
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSekQdjSrhOoFUwu2hk9uBPnuBTDRiz6-iOcGNuRyQ3xzEmgOA/viewform" target="_blank"><strong>application</strong>
-        </a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSekQdjSrhOoFUwu2hk9uBPnuBTDRiz6-iOcGNuRyQ3xzEmgOA/viewform" target="_blank">application
+        </a>.
     </p>
 
 @stop

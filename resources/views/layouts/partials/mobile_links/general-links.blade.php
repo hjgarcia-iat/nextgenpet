@@ -3,24 +3,29 @@
        href="#contact">Contact
     </a>
 </li>
-<li class="nav-item dropdown">
-    <a class="nav-link dropdown-toggle"
-       href="#"
-       id="loginlinks"
-       data-toggle="dropdown"
-       aria-haspopup="true"
-       aria-expanded="false">
-        Additional Instructor Resources
-    </a>
-    <div class="dropdown-menu"
-         aria-labelledby="loginlinks">
-        <a class="dropdown-item"
-           href="https://petcyberpd.iat.com/unit/studio-style/"
-           target="_blank">Studio Style
+@if(auth()->check())
+    <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">
+        <a class="nav-link"
+           href="{{ route('my-account') }}">
+            My Account
         </a>
-        <a class="dropdown-item"
-           href="https://petcyberpd.iat.com/unit/lecture-style/"
-           target="_blank">Lecture Style
+    </li>
+    <li class="nav-item">
+        <a class="nav-link"
+           onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+           href="{{ route('login.destroy') }}">Logout
         </a>
-    </div>
-</li>
+        <form id="logout-form"
+              action="{{ route('login.destroy') }}"
+              method="POST"
+              style="display: none;">
+            {{ csrf_field() }}
+        </form>
+    </li>
+@else
+    <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
+        <a class="nav-link"
+           href="{{ route('login.create') }}">Login
+        </a>
+    </li>
+@endif
