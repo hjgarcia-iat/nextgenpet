@@ -64,7 +64,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
@@ -102,7 +102,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>

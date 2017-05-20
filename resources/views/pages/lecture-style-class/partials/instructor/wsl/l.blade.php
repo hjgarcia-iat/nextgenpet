@@ -192,7 +192,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/7-l5-ed-measuring-the-moons-distance/ul-l5-ed-key.docx.pdf']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/7-l5-ed-measuring-the-moons-distance/ul-l5-ed-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
