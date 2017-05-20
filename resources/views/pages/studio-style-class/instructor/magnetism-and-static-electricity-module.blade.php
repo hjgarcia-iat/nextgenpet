@@ -62,7 +62,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
@@ -100,7 +100,7 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
-                        <i class="fa-li fa fa-file-powerpoint-o"></i>
+                        <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
