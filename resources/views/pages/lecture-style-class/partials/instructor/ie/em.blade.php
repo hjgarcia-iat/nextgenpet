@@ -342,8 +342,8 @@
                         Materials</a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-pdf-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/15-l8-ed-no-more-cold-showers/uem-l8-ed-key.docx.pdf']) }}">Key</a>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/15-l8-ed-no-more-cold-showers/uem-l8-ed-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
