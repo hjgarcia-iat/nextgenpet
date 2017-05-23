@@ -14,18 +14,19 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h2>Matter &amp; Interactions Module</h2>
-        <ul class="fa fa-ul">
-            <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/module-equipment-list.docx']) }}"
-                   target="_blank">Module Equipment List (word)</a>
-            </li>
-            <li>
-                <i class="fa-li fa fa-file-pdf-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/module-equipment-list.pdf']) }}"
-                   target="_blank">Module Equipment List (pdf)</a>
-            </li>
-        </ul>
+        <br>
+        {{--<ul class="fa fa-ul">--}}
+            {{--<li>--}}
+                {{--<i class="fa-li fa fa-file-word-o"></i>--}}
+                {{--<a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/module-equipment-list.docx']) }}"--}}
+                   {{--target="_blank">Module Equipment List (word)</a>--}}
+            {{--</li>--}}
+            {{--<li>--}}
+                {{--<i class="fa-li fa fa-file-pdf-o"></i>--}}
+                {{--<a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/module-equipment-list.pdf']) }}"--}}
+                   {{--target="_blank">Module Equipment List (pdf)</a>--}}
+            {{--</li>--}}
+        {{--</ul>--}}
     
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
