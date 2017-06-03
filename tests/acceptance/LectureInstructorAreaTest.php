@@ -53,7 +53,7 @@ class LectureInstructorAreaTest extends TestCase
 
         $this->actingAs($user)
             ->visit('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->see('INTERACTIONS AND FORCES MODULE');
+            ->see('INTERACTIONS &amp; FORCES MODULE');
     }
 
     /**
@@ -77,7 +77,7 @@ class LectureInstructorAreaTest extends TestCase
 
         $this->actingAs($user)
             ->visit('/lecture-style-class/instructor/matter-and-interactions-module')
-            ->see('MATTER AND INTERACTIONS MODULE');
+            ->see('MATTER & INTERACTIONS MODULE');
     }
 
     /**
