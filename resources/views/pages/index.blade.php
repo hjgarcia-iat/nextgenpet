@@ -55,9 +55,9 @@
         in their attitudes and beliefs about the nature of science and their learning of science. </p>
 
     <p>
-        To learn more about <em>Next Gen PET</em>'s Flexibility, <a href="{{ url('about/flexibility') }}">click here</a>
+        To learn more about <em>Next Gen PET</em>'s Flexibility, <a href="{{ url('about/flexibility') }}" class="btn-link">click here</a>
     </p>
     <p>
-        Learn how <em>Next Gen PET</em> is Research-Based, <a href="{{ url('about/research-based') }}">click here</a>
+        Learn how <em>Next Gen PET</em> is Research-Based, <a href="{{ url('about/research-based') }}" class="btn-link">click here</a>
     </p>
 @stop
