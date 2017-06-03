@@ -95,7 +95,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color : darken($general-color-orange, 15%);
+    color           : darken($general-color-orange, 15%);
     text-decoration : underline;
 }
 
@@ -130,8 +130,8 @@ a:active {
 }
 
 .btn-link:hover {
-    color : darken($general-color-orange, 15%);
-    text-decoration: none;
+    color           : darken($general-color-orange, 15%);
+    text-decoration : none;
     &:after {
         text-decoration : none;
     }
@@ -207,20 +207,18 @@ a:active {
         margin-bottom : .5em;
         font-family   : $font-family-sans-serif-text;
         a {
+            color : $general-color-dark-gray;
+            cursor : pointer;
             font-family : $font-family-sans-serif-text;
         }
     }
-}
-
-.fa-ul li a {
-    color  : $general-color-orange;
-    cursor : pointer;
 }
 
 .fa-ul li a:hover {
     color           : darken($general-color-orange, 15%);
     text-decoration : underline;
 }
+
 /*
 //
 // For Medium Screen and Up Styles

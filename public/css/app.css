@@ -12079,12 +12079,9 @@ a:active {
 }
 
 .fa-ul li a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.fa-ul li a {
-  color: #f68d2d;
+  color: #222222;
   cursor: pointer;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .fa-ul li a:hover {
