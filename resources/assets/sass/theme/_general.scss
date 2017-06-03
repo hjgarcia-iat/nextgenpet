@@ -71,7 +71,7 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 // --------------------------------------------------
 */
 /* unvisited link */
-a:link, .fa-ul li a {
+a:link {
     color  : $general-color-orange;
     cursor : pointer;
 }
@@ -86,7 +86,7 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover, .fa-ul li a:hover {
+a:hover {
     color : darken($general-color-orange, 15%);
     text-decoration : underline;
 }
@@ -190,6 +190,30 @@ a:active {
 
 /*
 //
+// Styles for lists with icons
+// --------------------------------------------------
+*/
+.fa-ul {
+    li {
+        margin-bottom : .5em;
+        font-family   : $font-family-sans-serif-text;
+        a {
+            font-family : $font-family-sans-serif-text;
+        }
+    }
+}
+
+.fa-ul li a {
+    color  : $general-color-orange;
+    cursor : pointer;
+}
+
+.fa-ul li a:hover {
+    color           : darken($general-color-orange, 15%);
+    text-decoration : underline;
+}
+/*
+//
 // For Medium Screen and Up Styles
 // --------------------------------------------------
 */
@@ -209,5 +233,80 @@ a:active {
 
     .page-content-wrapper {
         flex : 1 0 auto;
+    }
+}
+
+/*
+//
+// PageTitle
+// --------------------------------------------------
+*/
+.page-title {
+    margin-bottom : 2em;
+    background    : #f3f3f3;
+    padding       : 1em 0;
+    border-bottom : 1px solid #ececec;
+
+    h1 {
+        margin  : 0;
+        padding : 0;
+    }
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+    border-radius : 0;
+
+    .card-header a, .card-header a:hover {
+        color           : #222222;
+        text-decoration : none;
+    }
+}
+
+/*
+//
+// Wells
+// --------------------------------------------------
+*/
+.well {
+    background : #f9f9f9;
+    padding    : 3em;
+    margin     : 2em;
+    border     : 1px solid #d3d3d3;
+
+    .btn {
+        white-space : normal;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .well-error {
+        h2 {
+            font-size : 100px;
+        }
+    }
+}
+
+
+/*
+//
+// SPS - AT THIS POINT NOT USED
+// --------------------------------------------------
+*/
+@media (min-width : 1200px) {
+    .sps {
+        position : -webkit-sticky;
+        position : sticky;
+        top      : 1em;
+    }
+
+    .sps:before,
+    .sps:after {
+        content : '';
+        display : table;
     }
 }
