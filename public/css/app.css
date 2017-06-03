@@ -12653,8 +12653,23 @@ hr {
   color: #ffffff;
 }
 
+.page-footer .footer-links {
+  margin-bottom: 2em;
+}
+
 .page-footer .footer-links a {
   color: white;
+}
+
+.page-footer .footer-links li {
+  line-height: 1;
+  border-right: 1px solid white;
+  padding: 0 1em;
+  margin: 0;
+}
+
+.page-footer .footer-links li:last-child {
+  border-right: none;
 }
 
 /*
