@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    @include('layouts.partials.meta')
-    @include('layouts.partials.styles')
+    @include('layouts.partials._page-header-meta')
+    @include('layouts.partials._page-header-styles')
 </head>
 <body>
 @if(!App::isDownForMaintenance())
-    @include('layouts.partials.header')
+    @include('layouts.partials._page-header')
 @endif
 
 
@@ -18,7 +18,7 @@
 
 
 @if(!App::isDownForMaintenance())
-    @include('layouts.partials._footer_form')
+    @include('layouts.partials._page-footer-form')
 @endif
 </body>
 </html>

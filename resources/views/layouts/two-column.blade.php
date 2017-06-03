@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        @include('layouts.partials.meta')
-        @include('layouts.partials.styles')
+        @include('layouts.partials._page-header-meta')
+        @include('layouts.partials._page-header-styles')
     </head>
     <body>
-        @include('layouts.partials.message')
-        @include('layouts.partials.header')
-        @include('layouts.partials.title')
+        @include('layouts.partials._page-message')
+        @include('layouts.partials._page-header')
+        @include('layouts.partials._page-site-title')
         @yield('banner')
         <section class="page-title">
             <div class="container">
@@ -39,7 +39,7 @@
                 </div>
             </div>
         </section>
-        @include('layouts.partials.footer')
-        @include('layouts.partials.scripts')
+        @include('layouts.partials._page-footer')
+        @include('layouts.partials._page-footerscripts')
     </body>
 </html>
