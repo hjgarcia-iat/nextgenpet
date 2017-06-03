@@ -11,13 +11,13 @@
 @section('content')
 
     <p>
-        <strong class="highlight">Next Gen PET’s flexibility</strong> provides many options. In either the <em>Studio-style
+        <strong>Next Gen PET’s flexibility</strong> provides many options. In either the <em>Studio-style
             Class</em> or <em>Lecture-style Class</em> version, instructors can choose which modules to include, whether
         or not to include Engineering Design activities, whether or not to include Teaching and Learning activities, and
         which instructional format to use. This allows instructors to tailor their course to match their content focus,
         meeting time, classroom setting, and students’ interests. </p>
     <p>
-        <strong class="highlight">The Studio-style Class (SC) version</strong> is best suited for lower enrollment
+        <strong>The Studio-style Class (SC) version</strong> is best suited for lower enrollment
         courses that meet ~5 hours/week and take place in a lab or workroom where students can work in groups around
         tables and perform experiments. In the SC version, students spend the majority of their time with their group of
         3-4 peers making predictions, performing experiments, drawing conclusions, answering questions in a workbook,
@@ -30,7 +30,7 @@
         experiences to talk about their roles as teachers and plan (or begin to plan) how they would help their students
         learn the NGSS. </p>
     <p>
-        <strong class="highlight">The Lecture-style Class (LC) version</strong> is best suited for courses that meet ~3
+        <strong>The Lecture-style Class (LC) version</strong> is best suited for courses that meet ~3
         hours/week in lecture-style classrooms where students have desktops on which they can work. The LC version is
         suitable for courses with large enrollments, or in courses with smaller enrollments with limited meeting time
         and facilities. The content and pedagogical approach is similar to the SC version, but in the LC version: (1)
@@ -41,9 +41,9 @@
 
 
     <p>
-        Learn how <em>Next Gen PET</em> is Research-Based, <a href="{{ url('about/research-based') }}">click here</a>
+        Learn how <em>Next Gen PET</em> is Research-Based, <a class="btn-link" href="{{ url('about/research-based') }}">click here</a>
     </p>
     <p>
-        Get back to main page, <a href="{{ url('/') }}">click here</a>
+        Get back to main page, <a class="btn-link" href="{{ url('/') }}">click here</a>
     </p>
 @stop

@@ -15,7 +15,7 @@
         based on research on learning. The following table shows how the design principles are put into action in <em>Next
             Gen PET</em> . </p>
     <div class="table-responsive">
-        <table class="table table-bordered">
+        <table class="table table-bordered table-hover">
             <thead>
             <tr>
                 <th>Design Principles</th>
@@ -77,11 +77,11 @@
     </div>
 
     <p>
-        To learn more about <em>Next Gen PET</em> 's Flexibility, <a href="{{ url('about/flexibility') }}">click
+        To learn more about <em>Next Gen PET</em> 's Flexibility, <a class="btn-link" href="{{ url('about/flexibility') }}">click
             here</a>
     </p>
     <p>
-        Get back to main page, <a href="{{ url('/') }}">click here</a>
+        Get back to main page, <a class="btn-link" href="{{ url('/') }}">click here</a>
     </p>
 
 
