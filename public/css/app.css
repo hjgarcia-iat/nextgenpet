@@ -11878,6 +11878,14 @@ body {
   line-height: 1.6;
 }
 
+/* keep full widget on smaller screens */
+@media (max-width: 767px) {
+  body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
@@ -12057,6 +12065,7 @@ a:active {
 
 .form-control:focus {
   border-color: #f68d2d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
 }
 
 /*
@@ -12161,6 +12170,179 @@ a:active {
 
 /*
 //
+// Tables
+// --------------------------------------------------
+*/
+.table {
+  font-size: 15px;
+}
+
+.table thead th {
+  background: #f68d2d;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tr td a {
+  color: white !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: underline;
+}
+
+.table tr td.cell-link:hover {
+  background: #f68d2d;
+}
+
+.table tr.highlight td {
+  background: #c7642c;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+//
+// Panels
+// --------------------------------------------------
+*/
+.panel.panel-primary {
+  border-color: #dddddd;
+}
+
+.panel.panel-primary .panel-heading {
+  background: #f68d2d;
+  border-color: #dddddd;
+}
+
+/*
+//
+// Horizontal Rules
+// --------------------------------------------------
+*/
+hr {
+  margin: 40px 0 40px;
+  border-top: 1px dashed #cccccc;
+}
+
+/*
+//
+// Paginations
+// --------------------------------------------------
+*/
+.pagination > li > a, .pagination > li > span {
+  color: #222222;
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #ffffff;
+  background: #f68d2d;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #222222;
+  background-color: #dddddd;
+  border-color: #dddddd;
+  cursor: default;
+}
+
+/*
+//
+// List Groups
+// --------------------------------------------------
+*/
+.list-group .list-group-item {
+  width: 100%;
+  color: #898989;
+  background: #fafafa;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #e3e3e3;
+}
+
+.list-group .list-group-item:hover, .list-group .list-group-item.active {
+  background: #f68d2d;
+  color: white;
+  border-color: #f68d2d;
+}
+
+.list-group .list-group-item.active {
+  cursor: default;
+  font-weight: bold;
+}
+
+/*
+//
+// Media objects
+// --------------------------------------------------
+*/
+.media-block {
+  margin: 40px 20px;
+}
+
+.media-list .media {
+  padding: 20px 0 40px;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.media-list .media:last-child {
+  border-bottom: none;
+}
+
+/*
+//
+// Carousel
+// --------------------------------------------------
+*/
+.carousel .item .active {
+  height: 300px;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+
+.fill {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-image .fill {
+  height: 300px;
+}
+
+.banner-image .banner-box {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+  -webkit-transition: 0.3s ease-in-out left;
+  transition: 0.3s ease-in-out left;
+}
+
+.container.carousel-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/*
+//
 // SPS - AT THIS POINT NOT USED
 // --------------------------------------------------
 */
@@ -12192,6 +12374,10 @@ a:active {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+
+.desktop-nav a:hover {
+  color: #ce6709 !important;
 }
 
 .desktop-nav .dropdown-menu {
@@ -12285,8 +12471,7 @@ a:active {
 }
 
 .desktop-nav .nav-item.active a {
-  color: #f68d2d !important;
-  font-weight: bold;
+  color: #ce6709 !important;
 }
 
 @media (min-width: 768px) {
@@ -12659,230 +12844,6 @@ a:active {
 .fade-in.three {
   -webkit-animation-delay: 1.6s;
   animation-delay: 1.6s;
-}
-
-/*
-//
-// Bootstrap Overrides
-// --------------------------------------------------
-*/
-/*
-//
-// Carousel
-// --------------------------------------------------
-*/
-.carousel .item .active {
-  height: 300px;
-}
-
-.carousel-inner {
-  height: 300px;
-}
-
-.fill {
-  width: 100%;
-  height: 300px;
-  background-position: center;
-  background-size: cover;
-}
-
-.banner-image {
-  position: relative;
-}
-
-.banner-image .fill {
-  height: 300px;
-}
-
-.banner-image .banner-box {
-  background: rgba(0, 0, 0, 0.75);
-  padding: 20px;
-  color: #ffffff;
-  border-radius: 5px;
-  margin-top: 30px;
-}
-
-/* faster sliding speed */
-.carousel-inner > .item {
-  -webkit-transition: 0.3s ease-in-out left;
-  transition: 0.3s ease-in-out left;
-}
-
-.container.carousel-container {
-  padding-left: 0 !important;
-  padding-right: 0 !important;
-}
-
-/*
-//
-// Media objects
-// --------------------------------------------------
-*/
-.media-block {
-  margin: 40px 20px;
-}
-
-/* keep full widget on smaller screens */
-@media (max-width: 767px) {
-  body {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-.media-list .media {
-  padding: 20px 0 40px;
-  border-bottom: 1px dashed #dddddd;
-}
-
-.media-list .media:last-child {
-  border-bottom: none;
-}
-
-/*
-//
-// List Groups
-// --------------------------------------------------
-*/
-.list-group .list-group-item {
-  width: 100%;
-  color: #898989;
-  background: #fafafa;
-  margin-top: 3px;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 0;
-  border: 1px solid #e3e3e3;
-}
-
-.list-group .list-group-item:hover, .list-group .list-group-item.active {
-  background: #f68d2d;
-  color: white;
-  border-color: #f68d2d;
-}
-
-.list-group .list-group-item.active {
-  cursor: default;
-  font-weight: bold;
-}
-
-/*
-//
-// Horizontal Rules
-// --------------------------------------------------
-*/
-hr {
-  margin: 40px 0 40px;
-  border-top: 1px dashed #cccccc;
-}
-
-/*
-//
-// Buttons
-// --------------------------------------------------
-*/
-.btn-primary {
-  color: #ffffff;
-  background-color: #f68d2d;
-  border-color: #fba128;
-  border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.btn-primary:hover {
-  background-color: #e27a2c;
-  border-color: #ed852c;
-}
-
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-/*
-//
-// Tables
-// --------------------------------------------------
-*/
-.table {
-  font-size: 15px;
-}
-
-.table thead th {
-  background: #f68d2d;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.table tr td a {
-  color: white !important;
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: underline;
-}
-
-.table tr td.cell-link:hover {
-  background: #f68d2d;
-}
-
-.table tr.highlight td {
-  background: #c7642c;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-/*
-//
-// Panels
-// --------------------------------------------------
-*/
-.panel.panel-primary {
-  border-color: #dddddd;
-}
-
-.panel.panel-primary .panel-heading {
-  background: #f68d2d;
-  border-color: #dddddd;
-}
-
-/*
-//
-// Forms
-// --------------------------------------------------
-*/
-.form-control:focus {
-  border-color: #f68d2d;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
-}
-
-/*
-//
-// Paginations
-// --------------------------------------------------
-*/
-.pagination > li > a, .pagination > li > span {
-  color: #222222;
-}
-
-.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
-  color: #ffffff;
-  background: #f68d2d;
-}
-
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-  z-index: 3;
-  color: #222222;
-  background-color: #dddddd;
-  border-color: #dddddd;
-  cursor: default;
 }
 
 /*
