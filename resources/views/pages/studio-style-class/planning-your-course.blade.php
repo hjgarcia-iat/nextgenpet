@@ -41,11 +41,11 @@
         </ul>
         <p>Semester-length implementation for a physics course:</p>
         <ul class="list-unstyled">
-            <li>M, EM, FM, CF, WS, L <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/tamara-schedule.pdf" target="_blank">(Schedule)</a></li>
+            <li>M, EM, FM, CF, WS, L <a href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/tamara-schedule.pdf" class="btn-link" target="_blank">(Schedule)</a></li>
             <li>M, EM, PEF, FM, CF</li>
             <li>SE, EM, PEF, FM, CF, WS <a
                     href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/steve-r-schedule.pdf"
-                    target="_blank">(Schedule)</a></li>
+                    class="btn-link" target="_blank">(Schedule)</a></li>
             <li>M, SE, EM, FM, CF, L</li>
             <li>M, EM, PEF, FM, CF, L</li>
             <li>EM, PEF, FM, CF, M, SE, WS (part), L (part)</li>
@@ -56,19 +56,19 @@
             <li>M, EM, PEF and FM</li>
             <li>M, SE, EM, PEF, FM, CF <a
                     href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/david-schedule-physics.pdf"
-                    target="_blank">(Schedule)</a></li>
+                    class="btn-link" target="_blank">(Schedule)</a></li>
         </ul>
         <p>Semester-length implementation for a physical science course:</p>
         <ul class="list-unstyled">
             <li>EM, PEF, FM, CF, WS, L, PC, CR (part) <a
                     href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/larry-schedule-psci.pdf"
-                    target="_blank">(Schedule)</a></li>
+                    class="btn-link" target="_blank">(Schedule)</a></li>
         </ul>
         <p>Quarter-length implementation for a physical science course:</p>
         <ul class="list-unstyled">
             <li>WS, L, PC, CR <a
                     href="https://s3.amazonaws.com/nextgenpet/web-docs/planning-your-course/studio-style/david-schedule-psci.pdf"
-                    target="_blank">(Schedule)</a></li>
+                    class="btn-link" target="_blank">(Schedule)</a></li>
         </ul>
         
         <p>

@@ -49,7 +49,7 @@
             @else
                 <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
                     <a class="nav-link"
-                       href="{{ route('login.create') }}">Login
+                       href="{{ route('login.create') }}">Login/Register
                     </a>
                 </li>
             @endif

@@ -187,7 +187,7 @@
             <tr>
                 <td>L3</td>
                 <td>Slowing and Stopping</td>
-                <td>25</td>
+                <td>40</td>
             </tr>
             <tr>
                 <td>Ext D</td>
@@ -367,7 +367,7 @@
             <tr>
                 <td>L5</td>
                 <td>Changing Force Strength and Mass</td>
-                <td>50</td>
+                <td>40</td>
             </tr>
             <tr>
                 <td>Ext E</td>
@@ -566,7 +566,7 @@
             <tr>
                 <td>L1</td>
                 <td>Pressure</td>
-                <td>45</td>
+                <td>60</td>
             </tr>
             <tr>
                 <td>Ext G</td>
@@ -577,7 +577,7 @@
             <tr>
                 <td>L2</td>
                 <td>Small Particle Theory of Gases</td>
-                <td>60</td>
+                <td>65</td>
             </tr>
             <tr>
                 <td>Ext H</td>
@@ -587,7 +587,7 @@
             <tr>
                 <td>L3</td>
                 <td>Pressure and the SPT</td>
-                <td>40</td>
+                <td>70</td>
             </tr>
             <tr>
                 <td>Ext I</td>
@@ -597,7 +597,7 @@
             <tr>
                 <td>L4</td>
                 <td>Liquids and SPT</td>
-                <td>45</td>
+                <td>75</td>
             </tr>
 
             <tr>
@@ -608,7 +608,7 @@
             <tr>
                 <td>L5</td>
                 <td>Solids, SPT and Energy</td>
-                <td>40</td>
+                <td>45</td>
             </tr>
             <tr>
                 <td>Ext K</td>
@@ -618,7 +618,7 @@
             <tr>
                 <td>L6</td>
                 <td>Changes of State</td>
-                <td>50</td>
+                <td>45</td>
             </tr>
             <tr>
                 <td>Ext L</td>
@@ -628,7 +628,7 @@
             <tr>
                 <td>L7</td>
                 <td>Changes of State and Small Particle Theory</td>
-                <td>50</td>
+                <td>55</td>
             </tr>
             <tr>
                 <td>Ext M</td>
@@ -638,7 +638,7 @@
             <tr>
                 <td>L8 ED</td>
                 <td>Engineering Design: Evaluate Ballonet Designs</td>
-                <td>~60</td>
+                <td>45</td>
             </tr>
 
             <tr>
@@ -652,7 +652,7 @@
             <tr>
                 <td>L1</td>
                 <td>Physical Changes vs. Chemical Reactions</td>
-                <td>45</td>
+                <td>65</td>
             </tr>
 
             <tr>
@@ -664,7 +664,7 @@
             <tr>
                 <td>L2</td>
                 <td>Chemical Reactions and Conservation of Mass</td>
-                <td>35</td>
+                <td>30</td>
             </tr>
             <tr>
                 <td>Ext B</td>
@@ -674,7 +674,7 @@
             <tr>
                 <td>L3</td>
                 <td>Chemical Reactions, Conservation of Mass, and SPT</td>
-                <td>45</td>
+                <td>85</td>
             </tr>
 
             <tr>
@@ -685,12 +685,12 @@
             <tr>
                 <td>L4</td>
                 <td>Chemical Reactions and Energy Transfer</td>
-                <td>30</td>
+                <td>35</td>
             </tr>
             <tr>
                 <td>L5</td>
                 <td>Classifying and Organizing Elements</td>
-                <td>45</td>
+                <td>50</td>
             </tr>
             <tr>
                 <td>Ext G</td>
@@ -700,7 +700,7 @@
             <tr>
                 <td>L6</td>
                 <td>Periodic Trends and the Elements</td>
-                <td>40</td>
+                <td>35</td>
             </tr>
             <tr>
                 <td>Ext E</td>
@@ -710,12 +710,12 @@
             <tr>
                 <td>L7</td>
                 <td>Atoms, Ions, and the Periodic Table</td>
-                <td>45</td>
+                <td>35</td>
             </tr>
             <tr>
                 <td>L8</td>
                 <td>Electrons and Chemical Bonding</td>
-                <td>30</td>
+                <td>60</td>
             </tr>
             <tr>
                 <td>Ext H</td>
@@ -729,8 +729,8 @@
             </tr>
             <tr>
                 <td>L9</td>
-                <td>Using the Class Consensus to Explain Observations</td>
-                <td>30</td>
+                <td>Explanations Involving Physical Changes and Chemical Reactions</td>
+                <td>25</td>
             </tr>
             </tbody>
         </table>

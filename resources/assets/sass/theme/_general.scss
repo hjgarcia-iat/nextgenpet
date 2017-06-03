@@ -48,15 +48,21 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 
 //Font sizing fixes
 @include media-breakpoint-up(md) {
-    html { font-size : 17px; }
+    html {
+        font-size : 17px;
+    }
 }
 
 @include media-breakpoint-up(xl) {
-    html { font-size : 17px; }
+    html {
+        font-size : 17px;
+    }
 }
 
 @include media-breakpoint-down(sm) {
-    html { font-size : 18px; }
+    html {
+        font-size : 18px;
+    }
 }
 
 /*
@@ -65,8 +71,8 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 // --------------------------------------------------
 */
 /* unvisited link */
-a:link {
-    color  : #fd7600;
+a:link, .fa-ul li a {
+    color  : $general-color-orange;
     cursor : pointer;
 }
 
@@ -76,18 +82,18 @@ button {
 
 /* visited link */
 a:visited {
-    color : #fd7600;
+    color : $general-color-orange;
 }
 
 /* mouse over link */
-a:hover {
-    color           : #fd7600;
+a:hover, .fa-ul li a:hover {
+    color : darken($general-color-orange, 15%);
     text-decoration : underline;
 }
 
 /* selected link */
 a:active {
-    color : #fd7600;
+    color : $general-color-orange;
 }
 
 .btn {
@@ -99,12 +105,27 @@ a:active {
 }
 
 .btn-primary {
-    background   : #fd7600;
-    border-color : darken(#fd7600, 5%);
+    background   : $general-color-orange;
+    border-color : darken($general-color-orange, 5%);
 
     &:hover {
-        background   : darken(#fd7600, 10%);
-        border-color : lighten(#fd7600, 15%);
+        background   : darken($general-color-orange, 10%);
+        border-color : lighten($general-color-orange, 15%);
+    }
+}
+
+.btn-link {
+    &:after {
+        content     : "\2192";
+        margin-left : 5px;
+    }
+}
+
+.btn-link:hover {
+    color : darken($general-color-orange, 15%);
+    text-decoration: none;
+    &:after {
+        text-decoration : none;
     }
 }
 
@@ -164,7 +185,7 @@ a:active {
 }
 
 .form-control:focus {
-    border-color : #fd7600;
+    border-color : $general-color-orange;
 }
 
 /*

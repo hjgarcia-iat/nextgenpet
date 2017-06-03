@@ -25,6 +25,21 @@
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/module-ie-equipment-list.pdf']) }}"
                    target="_blank">Module Equipment List (PDF)</a>
             </li>
+            <li>
+                <i class="fa-li fa fa-file-word-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/npg-sensor-file-configurations.docx']) }}"
+                   target="_blank">Sensor Configurations (Word)</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-pdf-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/npg-sensor-file-configurations.pdf']) }}"
+                   target="_blank">Sensor Configurations (PDF)</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-zip-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/ngp-loggerpro.zip']) }}"
+                   target="_blank">Logger Pro</a>
+            </li>
         </ul>
 
         <ul class="nav nav-tabs" role="tablist">
