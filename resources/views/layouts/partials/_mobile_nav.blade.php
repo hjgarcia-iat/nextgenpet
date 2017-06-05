@@ -18,10 +18,10 @@
                     <i class="fa fa-times-circle"></i>
                 </a>
             </li>
-            @include('layouts.partials.mobile_links.home-links')
-            @include('layouts.partials.mobile_links.studio-class-links')
-            @include('layouts.partials.mobile_links.lecture-class-links')
-            @include('layouts.partials.mobile_links.general-links')
+            @include('layouts.partials.mobile-links.home-links')
+            @include('layouts.partials.mobile-links.studio-class-links')
+            @include('layouts.partials.mobile-links.lecture-class-links')
+            @include('layouts.partials.mobile-links.general-links')
         </ul>
     </div>
 </nav>

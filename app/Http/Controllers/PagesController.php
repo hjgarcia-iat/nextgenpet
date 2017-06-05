@@ -29,6 +29,11 @@ class PagesController extends Controller
             return view('pages.index');
         }
 
+        //check if the string contains and underscore
+        if(str_contains($request->path(), '_') OR str_contains($request->path(), 'partials')) {
+            abort(404);
+        }
+
         //load subdir home page if necessary
         if (\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
             return view('pages.' . $request->path() . '.index');

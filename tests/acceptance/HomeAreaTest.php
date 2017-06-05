@@ -133,6 +133,15 @@ class HomeAreaTest extends TestCase
     /**
      * @test
      */
+    public function we_cannot_load_partial_page()
+    {
+        $this->get('/partials/_canvas')
+            ->assertResponseStatus(404);
+    }
+
+    /**
+     * @test
+     */
     public function we_can_see_terms_and_conditions_page()
     {
         $this->get('terms-and-conditions')
