@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegisterRequest;
+use App\Mail\TeacherRegistered;
 use App\Repositories\TeacherRepository;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -65,7 +66,9 @@ class RegisterController extends Controller
 	 */
 	public function store(RegisterRequest $request, TeacherRepository $teacher)
 	{
-		$teacher->register($request);
+		$teacher = $teacher->register($request);
+
+        \Mail::to('contact@iat.com')->send(new TeacherRegistered($teacher));
 
 		return redirect()
 			->to('/')
