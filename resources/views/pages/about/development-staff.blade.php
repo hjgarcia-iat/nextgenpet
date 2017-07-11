@@ -13,35 +13,50 @@
 
     <h3>Development Staff</h3>
     <h4>Next Gen PET developers</h4>
-    <p>
-        Fred Goldberg, San Diego State University <br> Steve Robinson, Tennessee Technological University <br> Ed Price,
-        California State University San Marcos <br> Danielle Harlow, University of California, Santa Barbara <br> Julie
-        Andrew, University of Colorado at Boulder <br> Michael McKean, San Diego State University </p>
+    <ul class="list-unstyled">
+        <li>Fred Goldberg, San Diego State University </li>
+        <li>Steve Robinson, Tennessee Technological University </li>
+        <li>Ed Price, California State University San Marcos</li>
+        <li>Danielle Harlow, University of California, Santa Barbara</li>
+        <li>Julie Andrew, University of Colorado at Boulder</li>
+        <li>Michael McKean, San Diego State University</li>
+    </ul>
+    
     <h4>Next Gen PET contributors and/or field tester</h4>
-    <p>
-        Valerie Otero, University of Colorado at Boulder <br> Rebecca Stober, University of Colorado at Boulder <br>
-        Cary Sneider, Portland State University <br> Leslie Atkins, Boise State University <br> Paula Engelhardt,
-        Tennessee Technological University <br> David Mitchell, California Polytechnic State University at San Luis
-        Obispo <br> Anne Marie Bergen, California Polytechnic State University at San Luis Obispo <br> Nancy Stauch,
-        California Polytechnic State University at San Luis Obispo <br> Lola Berber-Jimenez, California Polytechnic
-        State University at San Luis Obispo <br> Tina Duran, California Polytechnic State University at San Luis Obispo
-    </p>
+    
+    <ul class="list-unstyled">
+        <li>Valerie Otero, University of Colorado at Boulder </li>
+        <li>Rebecca Stober, University of Colorado at Boulder </li>
+        <li>Cary Sneider, Portland State University</li>
+        <li>Leslie Atkins, Boise State University</li>
+        <li>Paula Engelhardt, Tennessee Technological University</li>
+        <li>David Mitchell, California Polytechnic State University at San Luis Obispo</li>
+        <li>Anne Marie Bergen, California Polytechnic State University at San Luis Obispo</li>
+        <li>Nancy Stauch, California Polytechnic State University at San Luis Obispo</li>
+        <li>Lola Berber-Jimenez, California Polytechnic State University at San Luis Obispo</li>
+        <li>Tina Duran, California Polytechnic State University at San Luis Obispo</li>
+    </ul>
 
-    <h4>Videographers, Editors and Transcribers</h4>
-    <p>
-        Megan Santos, San Diego State University <br> Katie Badham, San Diego State University <br> James Powell, San
-        Diego State University <br> Shawn Alff, San Diego State University <br> Janeth Cruz, San Diego State University
-        <br> Erika Guzman, San Diego State University <br> Leo Farias, California Polytechnic State University at San
-        Luis Obispo <br> Loren Johnson, California Polytechnic State University at San Luis Obispo <br> Kristin
-        Bridgeford, California Polytechnic State University at San Luis Obispo <br> Sarah Hegg, California Polytechnic
-        State University at San Luis Obispo <br> Ryan Calloway, Tennessee Technological University <br> Carla Moore,
-        Tennessee Technological University <br> Ian Robinson, Tennessee Technological University </p>
-
-    <h4>Technical Assistance</h4>
-    <p>
-        Lauran Gerhart, California State University at San Marcos <br> Nathaniel Reynolds, California State University
-        at San Marcos The California State University at San Marcos Instructional and Information Technology Services
-    </p>
+    <h4>VIDEOGRAPHERS, EDITORS, TRANSCRIBERS AND TECHNICAL ASSISTANCE</h4>
+    <ul class="list-unstyled">
+        <li>Megan Santos, San Diego State University</li>
+        <li>Katie Badham, San Diego State University</li>
+        <li>James Powell, San Diego State University</li>
+        <li>Shawn Alff, San Diego State University</li>
+        <li>Janeth Cruz, San Diego State University</li>
+        <li>Erika Guzman, San Diego State University</li>
+        <li>Ryan Calloway, Tennessee Technological University</li>
+        <li>Carla Moore, Tennessee Technological University</li>
+        <li>Ian Robinson, Tennessee Technological University</li>
+        <li>Leo Farias, California Polytechnic State University at San Luis Obispo</li>
+        <li>Loren Johnson, California Polytechnic State University at San Luis Obispo</li>
+        <li>Kristin Bridgeford, California Polytechnic State University at San Luis Obispo</li>
+        <li>Sarah Hegg, California Polytechnic State University at San Luis Obispo</li>
+        <li>Lauran Gerhart, California State University at San Marcos</li>
+        <li>Nathaniel Reynolds, California State University at San Marcos
+            The California State University at San Marcos Instructional and Information Technology Services</li>
+    </ul>
+    
     <h4>Developers of previous versions</h4>
     <p>
         <em>Next Gen PET</em> was adapted from four previous curricula: <em>Physics and Everyday Thinking (PET)</em>,
