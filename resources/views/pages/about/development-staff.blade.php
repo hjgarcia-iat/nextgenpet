@@ -32,7 +32,7 @@
         Megan Santos, San Diego State University <br> Katie Badham, San Diego State University <br> James Powell, San
         Diego State University <br> Shawn Alff, San Diego State University <br> Janeth Cruz, San Diego State University
         <br> Erika Guzman, San Diego State University <br> Leo Farias, California Polytechnic State University at San
-        Luis Obispo <br> Loren Edwards, California Polytechnic State University at San Luis Obispo <br> Kristin
+        Luis Obispo <br> Loren Johnson, California Polytechnic State University at San Luis Obispo <br> Kristin
         Bridgeford, California Polytechnic State University at San Luis Obispo <br> Sarah Hegg, California Polytechnic
         State University at San Luis Obispo <br> Ryan Calloway, Tennessee Technological University <br> Carla Moore,
         Tennessee Technological University <br> Ian Robinson, Tennessee Technological University </p>
@@ -45,10 +45,11 @@
     <h4>Developers of previous versions</h4>
     <p>
         <em>Next Gen PET</em> was adapted from four previous curricula: <em>Physics and Everyday Thinking (PET)</em>,
-        <em>Physical Science and Everyday Thinking (PSET)</em>, <em>Learning Physical Science (LEPS)</em> and <em>Learning
+        <em>Physical Science and Everyday Thinking (PSET)</em>, <em>Learning Physical Science (LPS)</em>, and <em>Learning
             Physics (LEP)</em>. Several of the activities in <em>Next Gen PET</em> are very similar to the activities
-        included in the previous curricula. The co-authors of PET, PSET, LEPS and/or LEP who are not currently working
-        on Next Gen PET are listed below since their contributions are reflected in the revised materials. </p>
+        included in the previous curricula. The co-authors of PET, PSET, LPS and/or LEP who are not co-authors of <em>Next
+            Gen PET</em> are listed below since their contributions are reflected in the revised materials.
+    </p>
     <p>
         Valerie Otero, University of Colorado, Boulder <br> Rebecca Kruse, National Science Foundation <br> Nephi
         Thompson, Colorado Mountain College </p>
