@@ -11,19 +11,52 @@
             <p><strong>Extension D: Interviewing children about Magnetism</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Forms</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-magnetism-interview.docx']) }}">Magnetism Interview</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-quiz.docx']) }}">Quiz</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-rubric.docx']) }}">Rubric</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-sample-group-magnetism-report.pdf']) }}">Sample Group Magnetism Report</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-sample-student-magnetism-ipf.pdf']) }}">Sample Student Magnetism Report</a>
                 </li>
             </ul>
             <p><strong>Extension E: Teaching and Learning Engineering Design</strong></p>
             <ul class="fa fa-ul">
                 <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/2-exte-teaching-learning-engineering-design/eiemaglevlesson3-transcript.pdf']) }}">EiE Maglev Lesson 3 Transcript</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/2-exte-teaching-learning-engineering-design/eiemaglevlesson3-transcript.pdf']) }}">EiE Maglev Lesson 4 Transcript</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/2-exte-teaching-learning-engineering-design/tl-exte-extension-mock-up.pptx']) }}">Extension Mock up</a>
                 </li>
             </ul>
             <p><strong>Lesson 2: Models, Magnets &amp; Children's Ideas</strong></p>
@@ -31,8 +64,17 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/3-l2-models-magnets-childrens-ideas/tl-l2-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/3-l2-models-magnets-childrens-ideas/tl-l2-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/3-l2-models-magnets-childrens-ideas/tl-l2-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
@@ -50,10 +92,14 @@
             <p><strong>Extension F: Questions, Problems, and Data – Preparation for Lesson 3</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/1-extf-question-problems-data-prep-for-l3/tl-ext-f-quiz.docx']) }}">Quiz</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/1-extf-question-problems-data-prep-for-l3/tl-extf-prep-for-l3.docx']) }}">Preparation for Lesson 3</a>
                 </li>
             </ul>
             <p><strong>Lesson 3: Questions, Problems, and Evidence</strong></p>
@@ -61,17 +107,40 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/2-l3-questions-problems-evidence/tl-l3-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/2-l3-questions-problems-evidence/tl-l3-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/2-l3-questions-problems-evidence/tl-l3-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
             <p><strong>Extension G: Energy and Evidence: Interviewing Children about Energy</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-energy-interview.docx']) }}">Energy and Evidence: Interviewing Children about Energy</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-group-energy-interview-report.pdf']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-student-ipf-.pdf']) }}">Interview Protocol Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-forms.docx']) }}">Energy and Evidence: Group Planning and Forms for the Interview</a>
                 </li>
             </ul>
             <p><strong>Lesson 4: Reflecting on Interview about Energy</strong></p>
@@ -79,8 +148,17 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/4-l4-reflecting-on-interview-about-energy/tl-l4-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/4-l4-reflecting-on-interview-about-energy/tl-l4-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/4-l4-reflecting-on-interview-about-energy/tl-l4-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
@@ -100,7 +178,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -109,7 +187,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -118,7 +196,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -127,7 +205,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -136,7 +214,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -157,7 +235,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -166,7 +244,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -175,7 +253,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -184,7 +262,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -193,7 +271,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -202,7 +280,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -224,7 +302,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -233,7 +311,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -242,7 +320,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
@@ -251,7 +329,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
                         1</a>
                 </li>
             </ul>
