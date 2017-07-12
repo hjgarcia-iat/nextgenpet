@@ -5,7 +5,7 @@
                aria-controls="collapseOne-b">Module MSE Cluster</a>
         </h5>
     </div>
-    <div id="collapseOne-b" class="collapse" role="tabpanel" aria-labelledby="headingOne-b">
+    <div id="collapseOne-b" class="collapse show" role="tabpanel" aria-labelledby="headingOne-b">
         <div class="card-block">
     
             <p><strong>Extension D: Interviewing children about Magnetism</strong></p>
