@@ -176,10 +176,14 @@
             <p><strong>Extension H: Facilitating Investigations</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-l5/tl-exth-quiz.docx']) }}">Quiz</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-l5/tl-exth-prep-for-l5.docx']) }}">Preparation for Lesson 3</a>
                 </li>
             </ul>
             <p><strong>Lesson 5: Planning and Carrying Out Investigations</strong></p>
@@ -187,35 +191,93 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/2-l5-planning-carrying-out-investigations/tl-l5-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/2-l5-planning-carrying-out-investigations/tl-l5-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/2-l5-planning-carrying-out-investigations/tl-l5-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
             <p><strong>Extension I: Forces, Friction, and Facilitating Investigations</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-assessment-of-group-member-contributions.docx']) }}">Assessment of Group Member Contributions</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-assessment-of-individual-protocol-form.docx']) }}">Assessment of Each Group Member’s Individual Protocol Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-group-report-form.docx']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-individual-protocol-form.docx']) }}">Individual Protocol Form (IPF)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-investigations.docx']) }}">Forces, Friction, and Facilitating Investigations</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-quiz.docx']) }}">Quiz</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-group-parachute-report.pdf']) }}">Sample Group Parachute Report</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Individual Instruction Form (IIF)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Individual Instruction Form (IIF) 2</a>
+                </li>
+
+
             </ul>
             <p><strong>Extension J: Common Ideas about Force and Motion</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/4-extj-common-ideas-about-force-motion/tl-extj-quiz.docx']) }}">Quiz</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/4-extj-common-ideas-about-force-motion/tl-extj-force--motion-ideas.docx']) }}">Force Motion Ideas</a>
                 </li>
             </ul>
             <p><strong>Lesson 6: Facilitating Investigations</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/5-l6-facilitating-investigations/tl-l6-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/5-l6-facilitating-investigations/tl-l6-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
