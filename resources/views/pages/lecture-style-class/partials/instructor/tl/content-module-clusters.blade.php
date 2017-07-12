@@ -47,12 +47,40 @@
     </div>
     <div id="collapseTwo-b" class="collapse" role="tabpanel" aria-labelledby="headingTwo-b">
         <div class="card-block">
+            <p><strong>Extension F: Questions, Problems, and Data – Preparation for Lesson 3</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/2-exta-drawing-light-ray-diagrams-for-pinholes-shadows/ul-exta-extension-mock-up.pptx']) }}">Extension
-                        Mockup Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 3: Questions, Problems, and Evidence</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Extension G: Energy and Evidence: Interviewing Children about Energy</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 4: Reflecting on Interview about Energy</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
                 </li>
             </ul>
         </div>
@@ -67,23 +95,49 @@
     </div>
     <div id="collapseThree-b" class="collapse" role="tabpanel" aria-labelledby="headingThree-b">
         <div class="card-block">
+            <p><strong>Extension H: Facilitating Investigations</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
                 </li>
+            </ul>
+            <p><strong>Lesson 5: Planning and Carrying Out Investigations</strong></p>
+            <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-student-materials.docx']) }}">Student
-                        Materials</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
                 </li>
+            </ul>
+            <p><strong>Extension I: Forces, Friction, and Facilitating Investigations</strong></p>
+            <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-word-o"></i>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/3-l2-reflection-of-light/ul-l2-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Extension J: Common Ideas about Force and Motion</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 6: Facilitating Investigations</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
                 </li>
             </ul>
         </div>
@@ -98,12 +152,58 @@
     </div>
     <div id="collapseFour-b" class="collapse" role="tabpanel" aria-labelledby="headingFour-b">
         <div class="card-block">
+            <p><strong>Extension K: Explanations and Solutions</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/4-extb-more-on-mirror-reflections-and-images/ul-extb-extension-mock-up.pptx']) }}">Extension
-                        Mockup Slides</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 7: Shedding Light on Explanations and Solutions</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Extension L: Guiding Explanations and Solutions</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Extension J: Engaging in Argument From Evidence</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 8: Arguments and Evidence</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 9: Explanations and Solutions (Reflection on Sound/Light Interview)</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
                 </li>
             </ul>
         </div>
@@ -118,15 +218,8 @@
     </div>
     <div id="collapseFive-b" class="collapse" role="tabpanel" aria-labelledby="headingFive-b">
         <div class="card-block">
-            <h5>Extension D: Interviewing children about Magnetism</h5>
-            <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link 1</a>
-                </li>
-            </ul>
-            <h5>Extension E: Teaching and Learning Engineering Design</h5>
+
+            <p><strong>Extension N: Obtaining, Evaluating, and Communicating Information</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
@@ -135,7 +228,25 @@
                         1</a>
                 </li>
             </ul>
-            <h5>Lesson 2: Models, Magnets &amp; Children's Ideas</h5>
+            <p><strong>Lesson 10: Obtaining, Evaluating, and Communicating Information</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Extension O: Creating and Communicating a Process</strong></p>
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/5-l3-refraction-of-light/ul-l3-instructors-slides.pptx']) }}">Link
+                        1</a>
+                </li>
+            </ul>
+            <p><strong>Lesson 11: Creating and Communicating a Process (Reflection on Oobleck Interview)</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
