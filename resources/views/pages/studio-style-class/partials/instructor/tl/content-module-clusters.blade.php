@@ -163,21 +163,16 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-a5/tl-exth-quiz.docx']) }}">Quiz</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-l5/tl-exth-quiz.docx']) }}">Quiz</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-a5/tl-exth-prep-for-a5.docx']) }}">Preparation for Activity 3</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/1-exth-facilitating-investigations-prep-for-l5/tl-exth-prep-for-l5.docx']) }}">Preparation for Activity 3</a>
                 </li>
             </ul>
             <p><strong>Activity 5: Planning and Carrying Out Investigations</strong></p>
             <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/2-a5-planning-carrying-out-investigations/tl-a5-instructors-slides.pptx']) }}">Instructor's Slides</a>
-                </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
@@ -249,7 +244,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/4-extj-common-ideas-about-force-motion/tl-extj-force--motion-ideas.docx']) }}">Force Motion Ideas</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/4-module-if-cluster/4-extj-common-ideas-about-force-motion/tl-extj-force-motion-ideas.docx']) }}">Force Motion Ideas</a>
                 </li>
             </ul>
             <p><strong>Activity 6: Facilitating Investigations</strong></p>
