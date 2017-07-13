@@ -45,12 +45,12 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-ab-quiz.docx']) }}">Quiz</a>
                 </li>
             </ul>
-            <p><strong>Lesson 1: Teaching &amp; Learning Science</strong></p>
+            <p><strong>Activity 1: Teaching &amp; Learning Science</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/3-a1-teaching-learning-science/tl-a1-key.docx']) }}">Lesson
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/3-a1-teaching-learning-science/tl-a1-key.docx']) }}">Activity
                         Key</a>
                 </li>
                 <li>
@@ -130,7 +130,7 @@
                         Mock Up</a>
                 </li>
             </ul>
-            <p><strong>Lesson 12: Teaching &amp; Learning Science II</strong></p>
+            <p><strong>Activity 12: Teaching &amp; Learning Science II</strong></p>
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
