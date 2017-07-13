@@ -14,13 +14,13 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/1-exta-ngss-next-gen-pet/tl-ext-a-reading.docx']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/1-exta-ngss-next-gen-pet/tl-ext-a-reading.docx']) }}">Reading
                         (word)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/1-exta-ngss-next-gen-pet/tl-ext-a-reading.pdf']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/1-exta-ngss-next-gen-pet/tl-ext-a-reading.pdf']) }}">Reading
                         (PDF)</a>
                 </li>
             </ul>
@@ -30,39 +30,33 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/2-extb-engineering-the-ngss/tl-ext-b-reading.docx']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-b-reading.docx']) }}">Reading
                         (word)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/2-extb-engineering-the-ngss/tl-ext-b-reading.pdf']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-b-reading.pdf']) }}">Reading
                         (PDF)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/2-extb-engineering-the-ngss/tl-ext-a-b-quiz.docx']) }}">Quiz</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-ab-quiz.docx']) }}">Quiz</a>
                 </li>
             </ul>
             <p><strong>Lesson 1: Teaching &amp; Learning Science</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/3-l1-teaching-learning-science/tl-l1-instructors-slides.pptx']) }}">Instructor
-                        Slides</a>
-                </li>
-                <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/3-l1-teaching-learning-science/tl-l1-key.docx']) }}">Lesson
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/3-a1-teaching-learning-science/tl-a1-key.docx']) }}">Lesson
                         Key</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/3-l1-teaching-learning-science/tl-l1-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/3-a1-teaching-learning-science/tl-a1-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
             </ul>
@@ -71,19 +65,19 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/4-extc-conducting-interview-with-children/tl-extc-reading.docx']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/4-extc-conducting-interview-with-children/tl-extc-reading.docx']) }}">Reading
                         (word)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/4-extc-conducting-interview-with-children/tl-extc-reading.pdf']) }}">Reading
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/4-extc-conducting-interview-with-children/tl-extc-reading.pdf']) }}">Reading
                         (PDF)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/4-extc-conducting-interview-with-children/tl-extc-quiz.docx']) }}">Quiz</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/4-extc-conducting-interview-with-children/tl-extc-quiz.docx']) }}">Quiz</a>
                 </li>
             </ul>
         </div>
@@ -104,7 +98,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/5-extp-cause-effect/tl-extp-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/5-extp-cause-effect/tl-extp-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
             </ul>
@@ -114,7 +108,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/6-extq-systems-system-models-matter-energy/tl-extq-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/6-extq-systems-system-models--matter-energy/tl-extq-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
             </ul>
@@ -123,7 +117,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/7-extr-stability-change-scale-proportion-quantity/tl-extr-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/7-extr-stability-change--scale-proportion-quantity/tl-extr-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
             </ul>
@@ -132,7 +126,7 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/8-exts-patterns/tl-exts-extension-mock-up.pptx']) }}">Extension
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/8-exts-patterns/tl-exts-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
             </ul>
@@ -141,7 +135,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/9-l12-teaching-learning-science-ii/tl-l12-student-materials.docx']) }}">Student Materials</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/9-a12-teaching-learning-science-ii/tl-a12-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
