@@ -277,16 +277,11 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/1-extk-explanations-solutions-prep-for-a7/tl-extk-prep-for-a7.docx']) }}">Explanations and Solutions – Preparation for Activity 7</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/1-extk-explanations-solutions-prep-for-l7/tl-extk-prep-for-l7.docx']) }}">Explanations and Solutions – Preparation for Activity 7</a>
                 </li>
             </ul>
             <p><strong>Activity 7: Shedding Light on Explanations and Solutions</strong></p>
             <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/2-a7-shedding-light-on-explanations-solutions/tl-a7-instructors-slides.pptx']) }}">Instructor's Slides</a>
-                </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
@@ -342,16 +337,11 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/4-extm-engaging-in-argument-from-evidence-prep-for-a8/tl-extm-prep-for-a8.docx']) }}">Engaging in Argument from Evidence: Preparation for Activity 8</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/4-extm-engaging-in-argument-from-evidence-prep-for-l8/tl-extm-prep-for-l8.docx']) }}">Engaging in Argument from Evidence: Preparation for Activity 8</a>
                 </li>
             </ul>
             <p><strong>Activity 8: Arguments and Evidence</strong></p>
             <ul class="fa fa-ul">
-                <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/5-module-wsl-cluster/5-a8-arguments-evidence/tl-a8-instructors-slides.pptx']) }}">Instructor's Slides</a>
-                </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
@@ -389,7 +379,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/6-module-mi-cluster/1-extn-obtaining-evaluating-communicating-information-prep-for-a10/tl-extn-prep-for-a9.docx']) }}">Obtaining, Evaluating, and Communicating Information – Preparation for TL Activity 9</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/6-module-mi-cluster/1-extn-obtaining-evaluating-communicating-information-prep-for-l10/tl-extn-prep-for-l9.docx']) }}">Obtaining, Evaluating, and Communicating Information – Preparation for TL Activity 9</a>
                 </li>
             </ul>
             <p><strong>Activity 10: Obtaining, Evaluating, and Communicating Information</strong></p>
@@ -453,7 +443,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/6-module-mi-cluster/4-a11-creating-communicating-a-process-reflection-on-oobleck-interview/tl-11-student-materials.docx']) }}">Student Materials</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/6-module-mi-cluster/4-a11-creating-communicating-a-process-reflection-on-oobleck-interview/tl-a11-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
