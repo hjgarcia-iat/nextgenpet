@@ -295,10 +295,9 @@
             <p><strong>Extension K: Explanations and Solutions</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/1-extk-explanations-solutions-prep-for-l7/tl-extk-prep-for-l7.docx']) }}">Explanations and Solutions – Preparation for Lesson 7</a>
                 </li>
             </ul>
             <p><strong>Lesson 7: Shedding Light on Explanations and Solutions</strong></p>
@@ -306,26 +305,64 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/2-l7-shedding-light-on-explanations-solutions/tl-l7-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/2-l7-shedding-light-on-explanations-solutions/tl-l7-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/2-l7-shedding-light-on-explanations-solutions/tl-l7-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
             <p><strong>Extension L: Guiding Explanations and Solutions</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-forms.docx']) }}">Guiding Explanations and Solutions:  Conducting an Interview with Children about Sound and/or Light </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report.pdf']) }}">Group Report</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report-2.pdf']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication.pdf']) }}">Interview Protocol Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication-2.pdf']) }}">Interview Protocol Form 2</a>
+                </li>
+
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-shadows.pdf']) }}">Interview Protocol Form Interview Option 1: Constructing Explanations</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-wave-interview.docx']) }}">Guiding Explanations and Solutions: Conducting an Interview with Children about Sound and/or Light</a>
                 </li>
             </ul>
-            <p><strong>Extension J: Engaging in Argument From Evidence</strong></p>
+            <p><strong>Extension M: Engaging in Argument From Evidence</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/4-extm-engaging-in-argument-from-evidence-prep-for-l8/tl-extm-prep-for-l8.docx']) }}">Engaging in Argument from Evidence: Preparation for Activity 8</a>
                 </li>
             </ul>
             <p><strong>Lesson 8: Arguments and Evidence</strong></p>
@@ -333,17 +370,25 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/5-l8-arguments-evidence/tl-l8-instructors-slides.pptx']) }}">Instructor's Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/5-l8-arguments-evidence/tl-l8-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/5-l8-arguments-evidence/tl-l8-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
             <p><strong>Lesson 9: Explanations and Solutions (Reflection on Sound/Light Interview)</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/6-l9-explanations-solutions-reflection-on-sound-light-interview/tl-l9-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
@@ -362,37 +407,73 @@
             <p><strong>Extension N: Obtaining, Evaluating, and Communicating Information</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/1-extn-obtaining-evaluating-communicating-information-prep-for-l10/tl-extn-prep-for-l9.docx']) }}">Obtaining, Evaluating, and Communicating Information – Preparation for TL Lesson 9</a>
                 </li>
             </ul>
             <p><strong>Lesson 10: Obtaining, Evaluating, and Communicating Information</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/2-l10-obtaining-evaluating-commicating-information/tl-l10-key.docx']) }}">Lesson Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/2-l10-obtaining-evaluating-commicating-information/tl-l10-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
             <p><strong>Extension O: Creating and Communicating a Process</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-group-member-assessment-form.docx']) }}">Group Member Assessment Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-group-report-cover-page.docx']) }}">Group Report Cover Page</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-interview-protocol-form.docx']) }}">Interview Protocol Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-making-oobleck.docx']) }}">Making Oobleck</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-sample-group-oobleck-report.pdf']) }}">Sample Group Oobleck Report</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-sample-group-oobleck-report-2.pdf']) }}">Sample Group Oobleck Report 2</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-sample-group-oobleck-report-3.pdf']) }}">Sample Group Oobleck Report 3</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/3-exto-creating-communicating-a-process/tl-exto-sample-group-oobleck-report-4.pdf']) }}">Sample Group Oobleck Report 4</a>
                 </li>
             </ul>
             <p><strong>Lesson 11: Creating and Communicating a Process (Reflection on Oobleck Interview)</strong></p>
             <ul class="fa fa-ul">
                 <li>
-                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/2-module-mse-cluster/1-extd-interviewing-children-about-magnetism/tl-extd-forms.docx']) }}">Link
-                        1</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/4-l11-creating-communicating-a-process-reflection-on-oobleck-interview/tl-11-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
