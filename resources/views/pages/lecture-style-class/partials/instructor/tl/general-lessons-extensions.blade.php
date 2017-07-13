@@ -5,7 +5,7 @@
                aria-controls="collapseOne">Introductory Cluster</a>
         </h5>
     </div>
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
 
             <p><strong>Extension A: NGSS and Next Gen PET</strong></p>
