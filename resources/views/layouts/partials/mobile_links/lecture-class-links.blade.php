@@ -106,9 +106,9 @@
         <a href="{{ url('lecture-style-class/classroom-videos') }}" class="dropdown-item{{ (Request::is('lecture-style-class/classroom-videos')) ? ' active' : '' }}">
             Classroom Videos </a>
         <div id="lecture-instructor-links">
-            <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse" data-target="#lecture-instructor-dropdown" data-parent="#lecture-instructor-links">
+            <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse" data-target="#lecture-instructor-dropdown-links" data-parent="#lecture-instructor-links">
                 <span><i class="fa fa-lock mr-2"></i>Instructor</span> </a>
-            <div id="lecture-instructor-dropdown" class="sublinks collapse{{ (Request::is('lecture-style-class/instructor/*') ? ' show' : '') }}">
+            <div id="lecture-instructor-dropdown-links" class="sublinks collapse{{ (Request::is('lecture-style-class/instructor/*') ? ' show' : '') }}">
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/instructor/magnetism-and-static-electricity-module') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/magnetism-and-static-electricity-module') }}">
                     <span>Magnetism &amp; Electricity Module</span> </a>
                 <a class="dropdown-item{{ (Request::is('lecture-style-class/instructor/interactions-and-energy-module') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/interactions-and-energy-module') }}">
