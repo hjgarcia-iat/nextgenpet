@@ -7,7 +7,12 @@
     </div>
     <div id="collapseOne-b" class="collapse" role="tabpanel" aria-labelledby="headingOne-b">
         <div class="card-block">
-    
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-module-mse-cluster-lecture.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension D: Interviewing children about Magnetism</strong></p>
             <ul class="fa fa-ul">
                 <li>
@@ -89,6 +94,12 @@
     </div>
     <div id="collapseTwo-b" class="collapse" role="tabpanel" aria-labelledby="headingTwo-b">
         <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-module-ie-cluster-lecture.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension F: Questions, Problems, and Data – Preparation for Lesson 3</strong></p>
             <ul class="fa fa-ul">
                 <li>
@@ -173,6 +184,12 @@
     </div>
     <div id="collapseThree-b" class="collapse" role="tabpanel" aria-labelledby="headingThree-b">
         <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-module-if-cluster-lecture.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension H: Facilitating Investigations</strong></p>
             <ul class="fa fa-ul">
                 <li>
@@ -292,6 +309,12 @@
     </div>
     <div id="collapseFour-b" class="collapse" role="tabpanel" aria-labelledby="headingFour-b">
         <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-module-wsl-cluster-lecture.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension K: Explanations and Solutions</strong></p>
             <ul class="fa fa-ul">
                 <li>
@@ -403,7 +426,12 @@
     </div>
     <div id="collapseFive-b" class="collapse" role="tabpanel" aria-labelledby="headingFive-b">
         <div class="card-block">
-
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-module-mi-cluster-lecture.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension N: Obtaining, Evaluating, and Communicating Information</strong></p>
             <ul class="fa fa-ul">
                 <li>

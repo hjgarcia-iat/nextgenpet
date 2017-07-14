@@ -8,6 +8,14 @@
     <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
 
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-introductory-cluster-studio.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
+
+            <p></p>
             <p><strong>Extension A: NGSS and Next Gen PET</strong></p>
 
             <ul class="fa fa-ul">
@@ -92,7 +100,12 @@
     </div>
     <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
         <div class="card-block">
-
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/summaries/tl-post-introductory-cluster-studio.pdf']) }}">Lesson and Extension Summaries</a>
+                </li>
+            </ul>
             <p><strong>Extension P: Cause and Effect</strong></p>
             <ul class="fa fa-ul">
                 <li>
