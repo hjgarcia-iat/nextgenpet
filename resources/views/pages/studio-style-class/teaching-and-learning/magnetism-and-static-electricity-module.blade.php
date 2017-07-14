@@ -103,7 +103,7 @@
                 <td>MSE</td>
                 <td>2</td>
                 <td></td>
-                <td>25 min</td>
+                <td>35 min</td>
                 <td>Ext D</td>
             </tr>
             <tr>

@@ -79,7 +79,7 @@
                 <td>IE/All</td>
                 <td>1,4</td>
                 <td></td>
-                <td>50min</td>
+                <td>45 min</td>
                 <td>Ext F</td>
             </tr>
             <tr>
@@ -132,7 +132,7 @@
                 <td>IE</td>
                 <td>4</td>
                 <td></td>
-                <td>15 min</td>
+                <td>20 min</td>
                 <td>Ext G</td>
             </tr>
             <tr>

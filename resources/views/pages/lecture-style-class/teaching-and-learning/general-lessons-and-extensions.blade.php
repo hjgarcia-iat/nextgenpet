@@ -94,7 +94,7 @@
                 <td>MSE/All</td>
                 <td>Intro All</td>
                 <td>Intro All</td>
-                <td>25 min</td>
+                <td>35 min</td>
                 <td>Ext A,B</td>
             </tr>
             <tr>
@@ -260,7 +260,7 @@
                 <td>All</td>
                 <td></td>
                 <td>All</td>
-                <td>25 min</td>
+                <td>35 min</td>
                 <td>Below</td>
             </tr>
             <tr>

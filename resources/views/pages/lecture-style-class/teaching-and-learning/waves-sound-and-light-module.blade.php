@@ -75,7 +75,7 @@
                 <td>WSL</td>
                 <td>6</td>
                 <td></td>
-                <td>50</td>
+                <td>60 min</td>
                 <td>Ext K</td>
             </tr>
             <tr>
@@ -150,7 +150,7 @@
                 <td>WSL</td>
                 <td>7</td>
                 <td></td>
-                <td>15</td>
+                <td>20 min</td>
                 <td>Ext M</td>
             </tr>
             <tr>
@@ -175,7 +175,7 @@
                 <td>WSL</td>
                 <td>6</td>
                 <td></td>
-                <td>15</td>
+                <td>20 min</td>
                 <td>Ext L</td>
             </tr>
             <tr>
