@@ -26,7 +26,8 @@
             two types of materials involved in static electric effects: insulators and conductors.  </p>
         <p>
             For a viewable-only version of all the student lessons for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf" target="_blank">
+            
+            <a href="{{ route('file.show',['file' => 'web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf']) }}" target="_blank">
                 click here</a>. These copies cannot be distributed to students, but are for your use only.</p>
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <p>
