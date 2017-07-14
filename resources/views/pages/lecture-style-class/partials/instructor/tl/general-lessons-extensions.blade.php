@@ -42,7 +42,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/2-extb-engineering-the-ngss/tl-ext-a-b-quiz.docx']) }}">Quiz</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/1-general-lessons-and-extensions/2-extb-engineering-the-ngss/tl-ext-a-b-quiz.docx']) }}">Extensions A & B Quiz</a>
                 </li>
             </ul>
             <p><strong>Lesson 1: Teaching &amp; Learning Science</strong></p>

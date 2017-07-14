@@ -125,22 +125,22 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-energy-interview.docx']) }}">Energy and Evidence: Interviewing Children about Energy</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-energy-interview.docx']) }}">Energy Interview</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-group-energy-interview-report.pdf']) }}">Group Report Form</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-group-energy-interview-report.pdf']) }}">Example Group Energy Interview Report</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-student-ipf-.pdf']) }}">Interview Protocol Form</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-example-student-ipf-.pdf']) }}">Example Student IPF</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-forms.docx']) }}">Energy and Evidence: Group Planning and Forms for the Interview</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/3-module-ie-cluster/3-extg-energy-evidence-interviewing-children-about-energy/tl-extg-forms.docx']) }}">Forms</a>
                 </li>
             </ul>
             <p><strong>Lesson 4: Reflecting on Interview about Energy</strong></p>
@@ -229,7 +229,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-investigations.docx']) }}">Forces, Friction, and Facilitating Investigations</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-investigations.docx']) }}">Investigations</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
@@ -244,12 +244,12 @@
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Individual Instruction Form (IIF)</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Sample Student IPF</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Individual Instruction Form (IIF) 2</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/4-module-if-cluster/3-exti-forces-friction-facilitating-investigations/tl-exti-sample-student-ipf-2.pdf']) }}">Sample Student IPF 2</a>
                 </li>
 
 
@@ -323,38 +323,38 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-forms.docx']) }}">Guiding Explanations and Solutions:  Conducting an Interview with Children about Sound and/or Light </a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-forms.docx']) }}">Forms</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report.pdf']) }}">Group Report</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report.pdf']) }}">Sample Group Report</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report-2.pdf']) }}">Group Report Form</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-group-report-2.pdf']) }}">Sample Group Report 2</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication.pdf']) }}">Interview Protocol Form</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication.pdf']) }}">Sample Student IPF Communication</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication-2.pdf']) }}">Interview Protocol Form 2</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-communication-2.pdf']) }}">Sample Student IPF Communication 2</a>
                 </li>
 
                 <li>
                     <i class="fa-li fa fa-file-pdf-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-shadows.pdf']) }}">Interview Protocol Form Interview Option 1: Constructing Explanations</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-sample-student-ipf-shadows.pdf']) }}">Sample Student IPF Shadows</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-wave-interview.docx']) }}">Guiding Explanations and Solutions: Conducting an Interview with Children about Sound and/or Light</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/5-module-wsl-cluster/3-extl-guiding-explanations-solutions/tl-extl-wave-interview.docx']) }}">Wave Interview</a>
                 </li>
             </ul>
             <p><strong>Extension M: Engaging in Argument From Evidence</strong></p>
@@ -473,7 +473,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/4-l11-creating-communicating-a-process-reflection-on-oobleck-interview/tl-11-student-materials.docx']) }}">Student Materials</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/lecture-style/6-module-mi-cluster/4-l11-creating-communicating-a-process-reflection-on-oobleck-interview/tl-l11-student-materials.docx']) }}">Student Materials</a>
                 </li>
             </ul>
         </div>
