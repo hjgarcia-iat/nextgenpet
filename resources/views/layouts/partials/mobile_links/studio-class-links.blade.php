@@ -181,8 +181,8 @@
                 <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/matter-and-interactions-module') ? ' active' : '') }}"
                    href="{{ url('studio-style-class/instructor/matter-and-interactions-module') }}">
                     <span>Matter &amp; Interactions Module</span> </a>
-                {{--<a class="dropdown-item{{ (Request::is('studio-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('studio-style-class/instructor/teaching-and-learning') }}">--}}
-                {{--<span>Teaching &amp; Learning</span> </a>--}}
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('studio-style-class/instructor/teaching-and-learning') }}">
+                <span>Teaching &amp; Learning</span> </a>
             </div>
         </div>
     </div>
