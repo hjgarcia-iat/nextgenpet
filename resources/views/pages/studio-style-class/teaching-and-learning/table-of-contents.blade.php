@@ -19,7 +19,7 @@
                 <thead>
                     <tr>
                         <th style="width: 60px;">L#</th>
-                        <th>Activity (L)/Extension (Ext) Title</th>
+                        <th>Activity (A)/Extension (Ext) Title</th>
                         <th style="width: 100px;">Time/
                             <br>
                             Format
@@ -30,14 +30,14 @@
                 <tbody>
                     <tr class="highlight">
                         <td colspan="3"
-                            class="text-center">General Activitys and Extensions
+                            class="text-center">General Activities and Extensions
                         </td>
                     </tr>
                     <tr>
                         <td colspan="3"
                             class="text-center">
                             <strong>
-                                <em>Introductory Cluster (to precede the first implementation of any other TL lessons & extensions)</em></strong>
+                                <em>Introductory Cluster (to precede the first implementation of any other TL Activity & Extensions)</em></strong>
                         </td>
                     </tr>
                     <tr>
@@ -97,7 +97,7 @@
                 <thead>
                     <tr>
                         <th style="width: 60px;">L#</th>
-                        <th>Activity (L)/Extension (Ext) Title</th>
+                        <th>Activity (A)/Extension (Ext) Title</th>
                         <th style="width: 100px;">Time/
                             <br>Format
                             <sup>1</sup></th>
