@@ -30,50 +30,16 @@
                 </span> </a>
         </div>
 
-        {{--<a href="#"--}}
-        {{--class="dropdown-item sublink collapsed dropdown-toggle"--}}
-        {{--data-toggle="collapse"--}}
-        {{--data-target="#lecture-student-materials"--}}
-        {{--data-parent="#lecture-style-class">Content Module Student Materials (viewing)--}}
-        {{--</a>--}}
-
-        {{--<div id="lecture-student-materials"--}}
-        {{--class="sublinks collapse">--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--data-file="true"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MSE__Lecture-Style_watermark.pdf">--}}
-        {{--<span>Magnetism &amp; Static Electricity Module--}}
-        {{--</span>--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IE_Lecture-Style_watermark.pdf">--}}
-        {{--Interactions &amp; Energy Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_IF_Lecture-Style_watermark.pdf">--}}
-        {{--Interactions &amp; Forces Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_WSL_Lecture-Style_watermark.pdf">--}}
-        {{--Waves, Sounds &amp; Light Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_MI_Lecture-Style_watermark.pdf">--}}
-        {{--Matter &amp; Interactions Module--}}
-        {{--</a>--}}
-        {{--</div>--}}
-
-
         <div id="lecture-teacher-learning-materials-mobile">
             <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse" data-target="#lecture-teacher-learning-materials-mobile-dropdown" data-parent="#lecture-teacher-learning-materials-mobile">
                 <span>Teaching &amp; Learning Materials</span> </a>
             <div id="lecture-teacher-learning-materials-mobile-dropdown" class="sublinks collapse{{ (Request::is('lecture-style-class/teaching-and-learning/*') ? ' show' : '') }}">
-
+    
+                <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/table-of-contents') ? ' active' : '') }}"
+                   href="{{ url('lecture-style-class/teaching-and-learning/table-of-contents') }}">
+                    <span>Table of Contents with Time Estimates</span>
+                </a>
+                
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}" href="{{ url('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
                     <span>General Lessons &amp; Extensions</span> </a>
 

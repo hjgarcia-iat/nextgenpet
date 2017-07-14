@@ -62,45 +62,6 @@
             </a>
         </div>
         
-        {{--<a href="#"--}}
-        {{--class="dropdown-item sublink collapsed dropdown-toggle"--}}
-        {{--data-toggle="collapse"--}}
-        {{--data-target="#studio-student-materials"--}}
-        {{--data-parent="#menu">--}}
-        {{--<span>Content Module Student Materials (viewing)</span>--}}
-        {{--</a>--}}
-        {{--<div id="studio-student-materials"--}}
-        {{--class="sublinks collapse">--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf">--}}
-        {{--Magnetism &amp; Static Electricity Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf">--}}
-        {{--Interactions &amp; Energy Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--data-file="true"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IF_Studio-Style_watermark.pdf">--}}
-        {{--Interactions &amp; Forces Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--data-file="true"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf">--}}
-        {{--Waves, Sounds &amp; Light Module--}}
-        {{--</a>--}}
-        {{--<a class="dropdown-item"--}}
-        {{--target="_blank"--}}
-        {{--data-file="true"--}}
-        {{--href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf">--}}
-        {{--Matter &amp; Interactions Module--}}
-        {{--</a>--}}
-        {{--</div>--}}
-        
         <div id="studio-teacher-learning-materials-mobile">
             <a href="#"
                class="dropdown-item sublink collapsed dropdown-toggle"
@@ -111,6 +72,12 @@
             </a>
             <div id="studio-teacher-learning-materials-mobile-dropdown"
                  class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
+    
+                <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/table-of-contents') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/teaching-and-learning/table-of-contents') }}">
+                    <span>Table of Contents with Time Estimates</span>
+                </a>
+                
                 <a class="dropdown-item {{ (Request::is('studio-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
                    href="{{ url('studio-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
                     <span>General Activities &amp; Extensions</span>
