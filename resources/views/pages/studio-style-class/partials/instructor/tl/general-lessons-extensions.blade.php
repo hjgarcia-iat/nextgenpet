@@ -5,7 +5,7 @@
                aria-controls="collapseOne">Introductory Cluster</a>
         </h5>
     </div>
-    <div id="collapseOne" class="collapse show" role="tabpanel" aria-labelledby="headingOne">
+    <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="card-block">
 
             <p><strong>Extension A: NGSS and Next Gen PET</strong></p>
@@ -42,7 +42,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-ab-quiz.docx']) }}">Quiz</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/2-extb-engineering-the-ngss/tl-ext-ab-quiz.docx']) }}">Extensions A & B Quiz</a>
                 </li>
             </ul>
             <p><strong>Activity 1: Teaching &amp; Learning Science</strong></p>
