@@ -18,7 +18,7 @@
             <table class="table table-bordered table-hover table-sm">
                 <thead>
                     <tr>
-                        <th style="width: 60px;">L#</th>
+                        <th style="width: 60px;">A#</th>
                         <th>Activity (A)/Extension (Ext) Title</th>
                         <th style="width: 100px;">Time/
                             <br>
@@ -37,7 +37,7 @@
                         <td colspan="3"
                             class="text-center">
                             <strong>
-                                <em>Introductory Cluster (to precede the first implementation of any other TL Activity & Extensions)</em></strong>
+                                <em>Introductory Cluster (to precede the first implementation of any other TL activities & extensions)</em></strong>
                         </td>
                     </tr>
                     <tr>
@@ -96,7 +96,7 @@
             <table class="table table-bordered table-hover table-sm">
                 <thead>
                     <tr>
-                        <th style="width: 60px;">L#</th>
+                        <th style="width: 60px;">A#</th>
                         <th>Activity (A)/Extension (Ext) Title</th>
                         <th style="width: 100px;">Time/
                             <br>Format
