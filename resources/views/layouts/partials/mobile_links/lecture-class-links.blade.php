@@ -37,7 +37,7 @@
     
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/table-of-contents') ? ' active' : '') }}"
                    href="{{ url('lecture-style-class/teaching-and-learning/table-of-contents') }}">
-                    <span>Table of Contents with Time Estimates</span>
+                    <span>Table of Contents</span>
                 </a>
                 
                 <a class="dropdown-item {{ (Request::is('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}" href="{{ url('lecture-style-class/teaching-and-learning/general-lessons-and-extensions') }}">

@@ -12,7 +12,7 @@
              class="pdf-content"></section>
     <section id="html-content"
              class="html-content">
-        <h3>Table of Contents with Time Estimates</h3>
+        <h3>Table of Contents</h3>
         
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm">
