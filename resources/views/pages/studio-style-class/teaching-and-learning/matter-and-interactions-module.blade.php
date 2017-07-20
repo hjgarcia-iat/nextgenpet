@@ -74,7 +74,7 @@
                 <td>MI</td>
                 <td>8</td>
                 <td></td>
-                <td>15 min</td>
+                <td>20 min</td>
                 <td>Ext N</td>
             </tr>
             <tr>
@@ -122,7 +122,7 @@
                 <td>MI</td>
                 <td>8</td>
                 <td></td>
-                <td>15 min</td>
+                <td>20 min</td>
                 <td>Ext O</td>
             </tr>
             <tr>

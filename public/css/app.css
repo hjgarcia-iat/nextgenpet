@@ -676,7 +676,6 @@ mark,
   background-color: #fff;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   max-width: 100%;
   height: auto;
@@ -2096,7 +2095,6 @@ pre code {
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
-  -webkit-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
 }
 
@@ -2113,11 +2111,6 @@ pre code {
 }
 
 .form-control::-webkit-input-placeholder {
-  color: #636c72;
-  opacity: 1;
-}
-
-.form-control::-moz-placeholder {
   color: #636c72;
   opacity: 1;
 }
@@ -2455,7 +2448,6 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
   padding: 0.5rem 1rem;
   font-size: 1rem;
   border-radius: 0.25rem;
-  -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 
@@ -2891,7 +2883,6 @@ input[type="button"].btn-block {
 
 .fade {
   opacity: 0;
-  -webkit-transition: opacity 0.15s linear;
   transition: opacity 0.15s linear;
 }
 
@@ -2919,7 +2910,6 @@ tbody.collapse.show {
   position: relative;
   height: 0;
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
   transition: height 0.35s ease;
 }
 
@@ -4342,10 +4332,8 @@ tbody.collapse.show {
 @media (min-width: 576px) {
   .card-columns {
     -webkit-column-count: 3;
-    -moz-column-count: 3;
     column-count: 3;
     -webkit-column-gap: 1.25rem;
-    -moz-column-gap: 1.25rem;
     column-gap: 1.25rem;
   }
   .card-columns .card {
@@ -4695,7 +4683,6 @@ a.badge:focus, a.badge:hover {
 }
 
 .progress-bar-striped {
-  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
   background-size: 1rem 1rem;
 }
@@ -5022,7 +5009,6 @@ button.close {
 }
 
 .modal.fade .modal-dialog {
-  -webkit-transition: -webkit-transform 0.3s ease-out;
   transition: -webkit-transform 0.3s ease-out;
   transition: transform 0.3s ease-out;
   transition: transform 0.3s ease-out, -webkit-transform 0.3s ease-out;
@@ -5425,7 +5411,6 @@ button.close {
 
 @media (-webkit-transform-3d) {
   .carousel-item {
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
     transition: -webkit-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
@@ -5438,7 +5423,6 @@ button.close {
 
 @supports ((-webkit-transform: translate3d(0, 0, 0)) or (transform: translate3d(0, 0, 0))) {
   .carousel-item {
-    -webkit-transition: -webkit-transform 0.6s ease-in-out;
     transition: -webkit-transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out;
     transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
@@ -11606,7 +11590,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     z-index: 999;
     overflow: scroll;
     -webkit-overflow-scrolling: touch;
-    -webkit-transition: all 0.15s ease-in;
     transition: all 0.15s ease-in;
   }
   .navbar-offcanvas.in {
@@ -11646,7 +11629,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
     width: 100%;
     border: inherit;
     box-shadow: none;
-    -webkit-transition: height 0.15s ease-in;
     transition: height 0.15s ease-in;
   }
   .navbar-offcanvas .dropdown-menu.shown {
@@ -11661,7 +11643,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 .offcanvas-toggle .icon-bar {
   background: #000;
-  -webkit-transition: all .25s ease-in-out;
   transition: all .25s ease-in-out;
 }
 
@@ -12580,7 +12561,6 @@ hr {
   height: 40px;
   border-radius: 50%;
   background: #dedede no-repeat center center;
-  -webkit-transition: background-color .2s;
   transition: background-color .2s;
   position: relative;
   display: -webkit-box;
@@ -12635,10 +12615,6 @@ hr {
 }
 
 .page-footer .form input.form-control::-webkit-input-placeholder, .page-footer .form textarea.form-control::-webkit-input-placeholder {
-  color: #ffffff;
-}
-
-.page-footer .form input.form-control::-moz-placeholder, .page-footer .form textarea.form-control::-moz-placeholder {
   color: #ffffff;
 }
 
@@ -12896,7 +12872,6 @@ hr {
 
 /* faster sliding speed */
 .carousel-inner > .item {
-  -webkit-transition: 0.3s ease-in-out left;
   transition: 0.3s ease-in-out left;
 }
 

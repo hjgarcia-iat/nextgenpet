@@ -8,6 +8,12 @@
     </a>
     <div id="teacherAndLearningDescriptions"
          class="sublinks collapse{{ (Request::is('studio-style-class/teaching-and-learning/*') ? ' show' : '') }}">
+    
+        <a class="list-group-item {{ (Request::is('studio-style-class/teaching-and-learning/table-of-contents') ? ' active' : '') }}"
+           href="{{ url('studio-style-class/teaching-and-learning/table-of-contents') }}">
+            <span>Table of Contents</span>
+        </a>
+        
         <a class="list-group-item {{ (Request::is('studio-style-class/teaching-and-learning/general-lessons-and-extensions') ? ' active' : '') }}"
            href="{{ url('studio-style-class/teaching-and-learning/general-lessons-and-extensions') }}">
             <span>General Activities and Extensions</span>

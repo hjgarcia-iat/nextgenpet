@@ -94,7 +94,7 @@
                 <td>IF</td>
                 <td>3</td>
                 <td></td>
-                <td>15min</td>
+                <td>20 min</td>
                 <td>Ext H</td>
             </tr>
             <tr>
@@ -173,7 +173,7 @@
                 <td>IF</td>
                 <td>1,3,4</td>
                 <td></td>
-                <td>25</td>
+                <td>45 min</td>
                 <td>Ext I</td>
             </tr>
             <tr>
