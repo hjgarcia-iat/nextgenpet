@@ -264,7 +264,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/ 11-a6-ed-storing-energy-from-braking/upef-a6-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/11-a6-ed-storing-energy-from-braking/upef-a6-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
             </ul>

@@ -178,13 +178,13 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/8-a5-properties-of-liquids/upc-a4-student-materials.docx']) }}">Student
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/8-a5-properties-of-liquids/upc-a5-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/8-a5-properties-of-liquids/upc-a4-key.docx']) }}">Key</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/8-a5-properties-of-liquids/upc-a5-key.docx']) }}">Key</a>
                 </li>
             </ul>
         </div>
