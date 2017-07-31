@@ -6,9 +6,9 @@
                      alt="It's About Time">
             </a>
         </section>
-        @include('layouts.partials.social-bar')
+        @include('layouts.partials._page-header-social-icons')
     </div>
     
-    @include('layouts.partials.mobile_nav')
-    @include('layouts.partials.desktop_nav')
+    @include('layouts.partials._mobile_nav')
+    @include('layouts.partials._page-header-desktop-nav')
 </header>

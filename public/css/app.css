@@ -11672,6 +11672,11 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 
 /*
 //
+// Variables and Classes to Mix In
+// --------------------------------------------------
+*/
+/*
+//
 // General Site Helpers
 // --------------------------------------------------
 */
@@ -11721,11 +11726,6 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/*
-//
-// Variables and Classes to Mix In
-// --------------------------------------------------
-*/
 /* roboto-condensed-300 - latin */
 @font-face {
   font-family: 'Roboto Condensed';
@@ -11869,6 +11869,14 @@ body {
   line-height: 1.6;
 }
 
+/* keep full widget on smaller screens */
+@media (max-width: 767px) {
+  body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
   text-transform: uppercase;
@@ -11929,7 +11937,7 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 // --------------------------------------------------
 */
 /* unvisited link */
-a:link, .fa-ul li a {
+a:link {
   color: #f68d2d;
   cursor: pointer;
 }
@@ -11944,7 +11952,7 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover, .fa-ul li a:hover {
+a:hover {
   color: #ce6709;
   text-decoration: underline;
 }
@@ -12048,6 +12056,28 @@ a:active {
 
 .form-control:focus {
   border-color: #f68d2d;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
+}
+
+/*
+//
+// Styles for lists with icons
+// --------------------------------------------------
+*/
+.fa-ul li {
+  margin-bottom: .5em;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fa-ul li a {
+  color: #222222;
+  cursor: pointer;
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.fa-ul li a:hover {
+  color: #ce6709;
+  text-decoration: underline;
 }
 
 /*
@@ -12073,6 +12103,249 @@ a:active {
   }
 }
 
+/*
+//
+// PageTitle
+// --------------------------------------------------
+*/
+.page-title {
+  margin-bottom: 2em;
+  background: #f3f3f3;
+  padding: 1em 0;
+  border-bottom: 1px solid #ececec;
+}
+
+.page-title h1 {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+  border-radius: 0;
+}
+
+.card .card-header a, .card .card-header a:hover {
+  color: #222222;
+  text-decoration: none;
+}
+
+/*
+//
+// Wells
+// --------------------------------------------------
+*/
+.well {
+  background: #f9f9f9;
+  padding: 3em;
+  margin: 2em;
+  border: 1px solid #d3d3d3;
+}
+
+.well .btn {
+  white-space: normal;
+}
+
+@media (min-width: 768px) {
+  .well-error h2 {
+    font-size: 100px;
+  }
+}
+
+/*
+//
+// Tables
+// --------------------------------------------------
+*/
+.table {
+  font-size: 15px;
+}
+
+.table thead th {
+  background: #f68d2d;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.table tr td a {
+  color: white !important;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: underline;
+}
+
+.table tr td.cell-link:hover {
+  background: #f68d2d;
+}
+
+.table tr.highlight td {
+  background: #c7642c;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+/*
+//
+// Panels
+// --------------------------------------------------
+*/
+.panel.panel-primary {
+  border-color: #dddddd;
+}
+
+.panel.panel-primary .panel-heading {
+  background: #f68d2d;
+  border-color: #dddddd;
+}
+
+/*
+//
+// Horizontal Rules
+// --------------------------------------------------
+*/
+hr {
+  margin: 40px 0 40px;
+  border-top: 1px dashed #cccccc;
+}
+
+/*
+//
+// Paginations
+// --------------------------------------------------
+*/
+.pagination > li > a, .pagination > li > span {
+  color: #222222;
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+  color: #ffffff;
+  background: #f68d2d;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+  z-index: 3;
+  color: #222222;
+  background-color: #dddddd;
+  border-color: #dddddd;
+  cursor: default;
+}
+
+/*
+//
+// List Groups
+// --------------------------------------------------
+*/
+.list-group .list-group-item {
+  width: 100%;
+  color: #898989;
+  background: #fafafa;
+  margin-top: 3px;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 0;
+  border: 1px solid #e3e3e3;
+}
+
+.list-group .list-group-item:hover, .list-group .list-group-item.active {
+  background: #f68d2d;
+  color: white;
+  border-color: #f68d2d;
+}
+
+.list-group .list-group-item.active {
+  cursor: default;
+  font-weight: bold;
+}
+
+/*
+//
+// Media objects
+// --------------------------------------------------
+*/
+.media-block {
+  margin: 40px 20px;
+}
+
+.media-list .media {
+  padding: 20px 0 40px;
+  border-bottom: 1px dashed #dddddd;
+}
+
+.media-list .media:last-child {
+  border-bottom: none;
+}
+
+/*
+//
+// Carousel
+// --------------------------------------------------
+*/
+.carousel .item .active {
+  height: 300px;
+}
+
+.carousel-inner {
+  height: 300px;
+}
+
+.fill {
+  width: 100%;
+  height: 300px;
+  background-position: center;
+  background-size: cover;
+}
+
+.banner-image {
+  position: relative;
+}
+
+.banner-image .fill {
+  height: 300px;
+}
+
+.banner-image .banner-box {
+  background: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  color: #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+  transition: 0.3s ease-in-out left;
+}
+
+.container.carousel-container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+/*
+//
+// SPS - AT THIS POINT NOT USED
+// --------------------------------------------------
+*/
+@media (min-width: 1200px) {
+  .sps {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1em;
+  }
+  .sps:before,
+  .sps:after {
+    content: '';
+    display: table;
+  }
+}
+
 .desktop-nav {
   background-color: #f3f3f3;
   border-top: 1px solid #ececec;
@@ -12088,6 +12361,10 @@ a:active {
   font-size: 14px;
   text-transform: uppercase;
   font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+}
+
+.desktop-nav a:hover {
+  color: #ce6709 !important;
 }
 
 .desktop-nav .dropdown-menu {
@@ -12181,8 +12458,7 @@ a:active {
 }
 
 .desktop-nav .nav-item.active a {
-  color: #f68d2d !important;
-  font-weight: bold;
+  color: #ce6709 !important;
 }
 
 @media (min-width: 768px) {
@@ -12359,8 +12635,23 @@ a:active {
   color: #ffffff;
 }
 
+.page-footer .footer-links {
+  margin-bottom: 2em;
+}
+
 .page-footer .footer-links a {
   color: white;
+}
+
+.page-footer .footer-links li {
+  line-height: 1;
+  border-right: 1px solid white;
+  padding: 0 1em;
+  margin: 0;
+}
+
+.page-footer .footer-links li:last-child {
+  border-right: none;
 }
 
 /*
@@ -12554,12 +12845,7 @@ a:active {
 
 /*
 //
-// Bootstrap Overrides
-// --------------------------------------------------
-*/
-/*
-//
-// Carousel
+// Carousel (Banner Image)
 // --------------------------------------------------
 */
 .carousel .item .active {
@@ -12605,216 +12891,6 @@ a:active {
 
 /*
 //
-// Media objects
-// --------------------------------------------------
-*/
-.media-block {
-  margin: 40px 20px;
-}
-
-/* keep full widget on smaller screens */
-@media (max-width: 767px) {
-  body {
-    padding-left: 0 !important;
-    padding-right: 0 !important;
-  }
-}
-
-.media-list .media {
-  padding: 20px 0 40px;
-  border-bottom: 1px dashed #dddddd;
-}
-
-.media-list .media:last-child {
-  border-bottom: none;
-}
-
-/*
-//
-// List Groups
-// --------------------------------------------------
-*/
-.list-group .list-group-item {
-  width: 100%;
-  color: #898989;
-  background: #fafafa;
-  margin-top: 3px;
-  text-transform: uppercase;
-  font-size: 12px;
-  border-radius: 0;
-  border: 1px solid #e3e3e3;
-}
-
-.list-group .list-group-item:hover, .list-group .list-group-item.active {
-  background: #f68d2d;
-  color: white;
-  border-color: #f68d2d;
-}
-
-.list-group .list-group-item.active {
-  cursor: default;
-  font-weight: bold;
-}
-
-/*
-//
-// Horizontal Rules
-// --------------------------------------------------
-*/
-hr {
-  margin: 40px 0 40px;
-  border-top: 1px dashed #cccccc;
-}
-
-/*
-//
-// Buttons
-// --------------------------------------------------
-*/
-.btn-primary {
-  color: #ffffff;
-  background-color: #f68d2d;
-  border-color: #fba128;
-  border-radius: 0;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.btn-primary:hover {
-  background-color: #e27a2c;
-  border-color: #ed852c;
-}
-
-.btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-.btn-primary:focus, .btn-primary.focus {
-  background-color: #f68d2d;
-  border-color: #fba128;
-}
-
-/*
-//
-// Tables
-// --------------------------------------------------
-*/
-.table {
-  font-size: 15px;
-}
-
-.table thead th {
-  background: #f68d2d;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.table tr td a {
-  color: white !important;
-  display: block;
-  width: 100%;
-  height: 100%;
-  text-decoration: underline;
-}
-
-.table tr td.cell-link:hover {
-  background: #f68d2d;
-}
-
-.table tr.highlight td {
-  background: #c7642c;
-  color: white;
-  text-align: center;
-  vertical-align: middle;
-}
-
-/*
-//
-// Panels
-// --------------------------------------------------
-*/
-.panel.panel-primary {
-  border-color: #dddddd;
-}
-
-.panel.panel-primary .panel-heading {
-  background: #f68d2d;
-  border-color: #dddddd;
-}
-
-/*
-//
-// Forms
-// --------------------------------------------------
-*/
-.form-control:focus {
-  border-color: #f68d2d;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
-}
-
-/*
-//
-// Paginations
-// --------------------------------------------------
-*/
-.pagination > li > a, .pagination > li > span {
-  color: #222222;
-}
-
-.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
-  color: #ffffff;
-  background: #f68d2d;
-}
-
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-  z-index: 3;
-  color: #222222;
-  background-color: #dddddd;
-  border-color: #dddddd;
-  cursor: default;
-}
-
-/*
-//
-// PageTitle
-// --------------------------------------------------
-*/
-.page-title {
-  margin-bottom: 2em;
-  background: #f3f3f3;
-  padding: 1em 0;
-  border-bottom: 1px solid #ececec;
-}
-
-.page-title h1 {
-  margin: 0;
-  padding: 0;
-}
-
-/*
-//
-// Reveal div
-// --------------------------------------------------
-*/
-.reveal {
-  background: #f3f3f3;
-  border: 1px solid #ececec;
-  padding: 2em;
-  display: none;
-}
-
-/*
-//
-// Title Bar
-// --------------------------------------------------
-*/
-.highlight {
-  color: #f68d2d;
-}
-
-/*
-//
 // Content Styles
 // --------------------------------------------------
 */
@@ -12837,6 +12913,13 @@ hr {
 
 .html-content h3 {
   margin-top: 0;
+}
+
+.reveal {
+  background: #f3f3f3;
+  border: 1px solid #ececec;
+  padding: 2em;
+  display: none;
 }
 
 /*
@@ -12869,69 +12952,6 @@ hr {
   border: 1px solid lightgray;
   padding: 20px;
   background: #f9f9f9;
-}
-
-/*
-//
-// Wells
-// --------------------------------------------------
-*/
-.well {
-  background: #f9f9f9;
-  padding: 3em;
-  margin: 2em;
-  border: 1px solid #d3d3d3;
-}
-
-.well .btn {
-  white-space: normal;
-}
-
-@media (min-width: 768px) {
-  .well-error h2 {
-    font-size: 100px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .sps {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 1em;
-  }
-  .sps:before,
-  .sps:after {
-    content: '';
-    display: table;
-  }
-}
-
-/*
-//
-// Font Lists
-// --------------------------------------------------
-*/
-.fa-ul li {
-  margin-bottom: .5em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-.fa-ul li a {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/*
-//
-// Bootstrap cards
-// --------------------------------------------------
-*/
-.card {
-  border-radius: 0;
-}
-
-.card .card-header a, .card .card-header a:hover {
-  color: #222222;
-  text-decoration: none;
 }
 
 /*# sourceMappingURL=app.css.map */

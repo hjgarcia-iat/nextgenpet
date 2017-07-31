@@ -14,6 +14,10 @@
         font-family    : $font-family-sans-serif-heading;
     }
 
+    a:hover {
+        color: darken($general-color-orange, 15%) !important;
+    }
+
     .dropdown-menu {
         background-color : #222222;
         border           : 1px solid rgba(0, 0, 0, 0.15);
@@ -45,7 +49,7 @@
 
     .dropdown-menu > a:hover, .dropdown-menu > a:focus {
         text-decoration  : none;
-        color            : #f68d2d;
+        color            : $general-color-orange;
         background-color : #000000;
     }
 
@@ -58,7 +62,7 @@
         left        : 100%;
         margin-top  : -5px;
         margin-left : 0px;
-        background  : #f68d2d;
+        background  : $general-color-orange;
         color       : #000000;
     }
 
@@ -69,7 +73,7 @@
     .dropdown-submenu > .dropdown-menu > a:hover, .dropdown-submenu > .dropdown-menu > a:focus {
         text-decoration : none;
         color           : #ffffff;
-        background      : #f68d2d;
+        background      : $general-color-orange;
     }
 
     .dropdown-submenu:hover > .dropdown-menu {
@@ -107,8 +111,7 @@
     }
 
     .nav-item.active a {
-        color       : $general-color-orange !important;
-        font-weight : bold;
+        color       : darken($general-color-orange, 15%) !important;
     }
 }
 

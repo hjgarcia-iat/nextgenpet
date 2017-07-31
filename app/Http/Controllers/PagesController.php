@@ -11,6 +11,9 @@ use Illuminate\Http\Request;
  */
 class PagesController extends Controller
 {
+    /**
+     * PagesController constructor.
+     */
     public function __construct()
     {
         $this->middleware('pageAuthChecker');
@@ -24,21 +27,77 @@ class PagesController extends Controller
      */
     public function show(Request $request)
     {
-        //load the page if the request path is the home page
-        if ($request->path() == '/') {
-            return view('pages.index');
-        }
-
-        //load subdir home page if necessary
-        if (\File::isDirectory(resource_path() . '/views/pages/' . $request->path())) {
-            return view('pages.' . $request->path() . '.index');
-        }
-
-        //load subdir view (not the home page)
-        if (\File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php')) {
-            return view('pages.' . $request->path());
+        if ($view = $this->is_valid_page($request)) {
+            return view('pages.' . $view);
         }
 
         abort(404);
+    }
+
+    /**
+     * @param Request $request
+     * @return string
+     */
+    private function is_valid_page(Request $request)
+    {
+        if ($this->is_partial($request->path())) {
+            abort(404);
+        }
+
+        if ($this->is_main_home_page($request->path())) {
+            return 'index';
+        }
+
+        if ($this->is_subdir_index($request)) {
+            return $request->path() . '.index';
+        }
+
+        if($this->is_sudir_view($request)) {
+            return $request->path();
+        }
+    }
+
+    /**
+     * Check if the view is a partial
+     *
+     * @param $path
+     * @return bool
+     */
+    private function is_partial($path)
+    {
+        return str_contains($path, '_') OR str_contains($path, 'partials');
+    }
+
+    /**
+     * Load main home page
+     *
+     * @param $path
+     * @return bool
+     */
+    private function is_main_home_page($path)
+    {
+        return $path == '/';
+    }
+
+    /**
+     * Check if the request is subdirectory home page
+     *
+     * @param Request $request
+     * @return bool
+     */
+    private function is_subdir_index(Request $request)
+    {
+        return \File::isDirectory(resource_path() . '/views/pages/' . $request->path()) and \File::exists(resource_path() . '/views/pages/' . $request->path() . '/index.blade.php');
+    }
+
+    /**
+     * Check if the requested view is subpage and not an index page
+     *
+     * @param Request $request
+     * @return bool
+     */
+    private function is_sudir_view(Request $request)
+    {
+        return \File::exists(resource_path() . '/views/pages/' . $request->path() . '.blade.php');
     }
 }

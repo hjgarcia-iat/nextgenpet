@@ -10,6 +10,14 @@ body {
     line-height : 1.6;
 }
 
+/* keep full widget on smaller screens */
+@media (max-width : 767px) {
+    body {
+        padding-left  : 0 !important;
+        padding-right : 0 !important;
+    }
+}
+
 h1, h2, h3, h4, h5, h6 {
     font-family    : $font-family-sans-serif-heading;
     text-transform : uppercase;
@@ -71,7 +79,7 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 // --------------------------------------------------
 */
 /* unvisited link */
-a:link, .fa-ul li a {
+a:link {
     color  : $general-color-orange;
     cursor : pointer;
 }
@@ -86,8 +94,8 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover, .fa-ul li a:hover {
-    color : darken($general-color-orange, 15%);
+a:hover {
+    color           : darken($general-color-orange, 15%);
     text-decoration : underline;
 }
 
@@ -122,8 +130,8 @@ a:active {
 }
 
 .btn-link:hover {
-    color : darken($general-color-orange, 15%);
-    text-decoration: none;
+    color           : darken($general-color-orange, 15%);
+    text-decoration : none;
     &:after {
         text-decoration : none;
     }
@@ -186,6 +194,29 @@ a:active {
 
 .form-control:focus {
     border-color : $general-color-orange;
+    box-shadow   : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
+}
+
+/*
+//
+// Styles for lists with icons
+// --------------------------------------------------
+*/
+.fa-ul {
+    li {
+        margin-bottom : .5em;
+        font-family   : $font-family-sans-serif-text;
+        a {
+            color : $general-color-dark-gray;
+            cursor : pointer;
+            font-family : $font-family-sans-serif-text;
+        }
+    }
+}
+
+.fa-ul li a:hover {
+    color           : darken($general-color-orange, 15%);
+    text-decoration : underline;
 }
 
 /*
@@ -209,5 +240,263 @@ a:active {
 
     .page-content-wrapper {
         flex : 1 0 auto;
+    }
+}
+
+/*
+//
+// PageTitle
+// --------------------------------------------------
+*/
+.page-title {
+    margin-bottom : 2em;
+    background    : #f3f3f3;
+    padding       : 1em 0;
+    border-bottom : 1px solid #ececec;
+
+    h1 {
+        margin  : 0;
+        padding : 0;
+    }
+}
+
+/*
+//
+// Bootstrap cards
+// --------------------------------------------------
+*/
+.card {
+    border-radius : 0;
+
+    .card-header a, .card-header a:hover {
+        color           : #222222;
+        text-decoration : none;
+    }
+}
+
+/*
+//
+// Wells
+// --------------------------------------------------
+*/
+.well {
+    background : #f9f9f9;
+    padding    : 3em;
+    margin     : 2em;
+    border     : 1px solid #d3d3d3;
+
+    .btn {
+        white-space : normal;
+    }
+}
+
+@include media-breakpoint-up(md) {
+    .well-error {
+        h2 {
+            font-size : 100px;
+        }
+    }
+}
+
+/*
+//
+// Tables
+// --------------------------------------------------
+*/
+.table {
+    font-size : 15px;
+
+    thead th {
+        background     : $general-color-orange;
+        color          : white;
+        text-align     : center;
+        vertical-align : middle;
+    }
+
+    tr td a {
+        color           : white !important;
+        display         : block;
+        width           : 100%;
+        height          : 100%;
+        text-decoration : underline;
+    }
+
+    tr td.cell-link:hover {
+        background : $general-color-orange;
+    }
+
+    tr.highlight td {
+        background     : #c7642c;
+        color          : white;
+        text-align     : center;
+        vertical-align : middle;
+    }
+}
+
+/*
+//
+// Panels
+// --------------------------------------------------
+*/
+.panel.panel-primary {
+    .panel-heading {
+        background   : $general-color-orange;
+        border-color : #dddddd;
+    }
+
+    border-color : #dddddd;
+}
+
+/*
+//
+// Horizontal Rules
+// --------------------------------------------------
+*/
+
+hr {
+    margin     : 40px 0 40px;
+    border-top : 1px dashed #cccccc;
+}
+
+/*
+//
+// Paginations
+// --------------------------------------------------
+*/
+
+.pagination > li > a, .pagination > li > span {
+    color : #222222;
+}
+
+.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
+    color      : #ffffff;
+    background : $general-color-orange;
+}
+
+.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
+    z-index          : 3;
+    color            : #222222;
+    background-color : #dddddd;
+    border-color     : #dddddd;
+    cursor           : default;
+}
+
+/*
+//
+// List Groups
+// --------------------------------------------------
+*/
+.list-group {
+
+    .list-group-item {
+        width          : 100%;
+        color          : #898989;
+        background     : #fafafa;
+        margin-top     : 3px;
+        text-transform : uppercase;
+        font-size      : 12px;
+        border-radius  : 0;
+        border         : 1px solid #e3e3e3;
+    }
+
+    .list-group-item:hover, .list-group-item.active {
+        background   : #f68d2d;
+        color        : white;
+        border-color : #f68d2d;
+    }
+
+    .list-group-item.active {
+        cursor      : default;
+        font-weight : bold;
+    }
+}
+
+/*
+//
+// Media objects
+// --------------------------------------------------
+*/
+
+.media-block {
+    margin : 40px 20px;
+}
+
+.media-list {
+    .media {
+        padding       : 20px 0 40px;
+        border-bottom : 1px dashed #dddddd;
+
+        &:last-child {
+            border-bottom : none;
+        }
+    }
+}
+
+/*
+//
+// Carousel
+// --------------------------------------------------
+*/
+
+.carousel .item .active {
+    height : 300px;
+}
+
+.carousel-inner {
+    height : 300px;
+}
+
+.fill {
+    width               : 100%;
+    height              : 300px;
+    background-position : center;
+    background-size     : cover;
+}
+
+.banner-image {
+    .fill {
+        height : 300px;
+    }
+
+    position : relative;
+
+    .banner-box {
+        background    : rgba(0, 0, 0, .75);
+        padding       : 20px;
+        color         : #ffffff;
+        border-radius : 5px;
+        margin-top    : 30px;
+    }
+}
+
+/* faster sliding speed */
+.carousel-inner > .item {
+    -webkit-transition : 0.3s ease-in-out left;
+    -moz-transition    : 0.3s ease-in-out left;
+    -o-transition      : 0.3s ease-in-out left;
+    transition         : 0.3s ease-in-out left;
+}
+
+.container.carousel-container {
+    padding-left  : 0 !important;
+    padding-right : 0 !important;
+}
+
+/*
+//
+// SPS - AT THIS POINT NOT USED
+// --------------------------------------------------
+*/
+@media (min-width : 1200px) {
+    .sps {
+        position : -webkit-sticky;
+        position : sticky;
+        top      : 1em;
+    }
+
+    .sps:before,
+    .sps:after {
+        content : '';
+        display : table;
     }
 }
