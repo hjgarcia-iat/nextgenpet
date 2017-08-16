@@ -15,7 +15,7 @@
                 <i class="fa-li fa fa-file-word-o"></i>
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/module-if-test-bank.docx']) }}"
                    target="_blank">Module
-                    IE Test Bank</a>
+                    IF Test Bank</a>
             </li>
         </ul>
         
