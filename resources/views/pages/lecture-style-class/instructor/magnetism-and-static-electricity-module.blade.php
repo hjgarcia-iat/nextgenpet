@@ -23,7 +23,7 @@
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/module-equipment-list.pdf']) }}" target="_blank"><i class="fa fa-file-pdf-o"></i>
                     PDF</a>
             </li>
-        </ul>
+        </ul>`
 
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
@@ -65,6 +65,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/Unit_M_Summary_Ideas_LC.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/tiny-magnets-alignment-model-handout.pdf']) }}">Tiny Magnets Alignment Model Handout</a>
                     </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
