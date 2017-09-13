@@ -35,7 +35,7 @@
            data-toggle="collapse"
            data-target="#sm"
            data-parent="#menu">
-            Content Module Descriptions and Activities
+            Content Module Descriptions
         </a>
         <div id="sm"
              class="sublinks collapse{{ (Request::is('studio-style-class/content/*') ? ' show' : '') }}">

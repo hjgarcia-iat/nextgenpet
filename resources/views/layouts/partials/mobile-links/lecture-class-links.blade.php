@@ -15,7 +15,7 @@
             </span> </a>
 
         <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse" data-target="#lectureAreaLinks" data-parent="#lecture-style-class">
-            Content Modules Description and Activities</a>
+            Content Modules Description</a>
         <div id="lectureAreaLinks" class="sublinks collapse{{ (Request::is('lecture-style-class/content/*') ? ' show' : '') }}">
             <a class="dropdown-item {{ (Request::is('lecture-style-class/content/magnetism-and-static-electricity-module') ? ' active' : '') }}" href="{{ url('lecture-style-class/content/magnetism-and-static-electricity-module') }}">
                 Magnetism &amp; Static Electricity Module </a>
