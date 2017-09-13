@@ -31,7 +31,7 @@ elixir(function (mix) {
         .copy('public/img', 'public/build/img');
 
     mix.browserSync({
-        proxy: "http://nextgenpet.dev",
+        proxy: "http://nextgenpet.iat.dev",
         files: [
             'app/*.*',
             'app/**/*.*',

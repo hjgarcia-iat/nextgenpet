@@ -314,11 +314,11 @@ a:active {
     }
 
     tr td a {
-        color           : white !important;
+        color           : $general-color-orange !important;
         display         : block;
         width           : 100%;
         height          : 100%;
-        text-decoration : underline;
+        text-decoration : none;
     }
 
     tr td.cell-link:hover {
