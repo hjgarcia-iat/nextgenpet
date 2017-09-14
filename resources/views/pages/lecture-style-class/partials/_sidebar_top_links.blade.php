@@ -23,7 +23,6 @@
 <div>
     <a href="{{ url('lecture-style-class/table-of-contents') }}"
        class="list-group-item{{ (Request::is('lecture-style-class/table-of-contents')) ? ' active' : '' }}">
-        <span>Table of Contents with Time Estimates
-        </span>
+        <span>Table of Contents with Time Estimates and Sample Lessons</span>
     </a>
 </div>

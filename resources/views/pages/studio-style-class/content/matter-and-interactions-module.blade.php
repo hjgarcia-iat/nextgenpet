@@ -27,10 +27,7 @@
             atoms and ions and the behavior of valence electrons. Finally, they use a simple model to describe ionic and
             covalent bonds and explain (in simple cases) the chemical composition of molecules and formula units.
         </p>
-        <p>
-            For a viewable-only version of all the student activities for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MI_Studio-Style_watermark.pdf" target="_blank">
-                click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
+        
         <h4>Unit PC: Physical Changes</h4>
        
         <p>The purpose of this unit is to introduce students to the small particle theory of gases, liquids, and solids.

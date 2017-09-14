@@ -24,10 +24,7 @@
             color and explore both color addition of lights and color subtraction with color filters. Engineering design
             activities include UWS A5, where students design a method for locating an earthquake, and UL A5, where they
             design a method using light to measure the </p>
-        <p>
-            For a viewable-only version of all the student activities for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_WSL_Studio-Style_watermark.pdf" target="_blank">
-                click here</a>. These copies cannot be distributed to students, but are for your use only.</p>
+        
         <h4>Unit WS: Mechanical Waves and Sound</h4>
         <p>
             This unit introduces students to a wave model. In its five lessons, they learn about the properties of

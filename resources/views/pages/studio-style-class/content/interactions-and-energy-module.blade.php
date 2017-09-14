@@ -22,10 +22,7 @@
             elastic objects. They then extend this idea to describe magnetic, electrostatic, and gravitational
             interactions using the energy model and become familiar with the concept of fields. Finally, they also
             examine electromagnetic interactions. </p>
-        <p>
-            For a viewable-only version of all the student activities for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_IE_Studio-Style_watermark.pdf" target="_blank">
-                click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
+        
         <h4>Unit EM: Energy-based Model for Interactions</h4>
         <p>Unit EM focuses on introducing students to the energy model for describing interactions. Students are first
             shown a simple giver/receiver energy diagram to represent the contact push/pull interaction between two

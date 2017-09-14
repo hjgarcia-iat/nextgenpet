@@ -23,10 +23,7 @@
             the model development process they then work through the second unit, where developing a model for static
             electricity is more challenging.  Whereas there is only one type of magnetic material, there are basically
             two types of materials involved in static electric effects: insulators and conductors.  </p>
-        <p>
-            For a viewable-only version of all the student activities for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/studio/Module_MSE_Studio-Style_watermark.pdf" target="_blank">
-                click here</a>. These copies cannot be distributed to students, but are for your use only. </p>
+        
         <h4>Unit M: Developing a Model for Magnetism</h4>
         <p>
             Unit M focuses on helping students develop a model that can successfully explain many different observations

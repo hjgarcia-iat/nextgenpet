@@ -29,10 +29,7 @@
             available, the instructor can show movies of all the experiments.
 
         </p>
-        <p>
-            For a viewable-only version of all the student lessons for this module,
-            <a href="https://s3.amazonaws.com/nextgenpet/web-docs/content-modules/lecture/Module_WSL_Lecture-Style_watermark.pdf" target="_blank">
-                click here</a>. These copies cannot be distributed to students, but are for your use only.</p>
+        
         <h4>Unit WS: Mechanical Waves and Sound</h4>
         <p>This unit introduces students to a wave model. In its three lessons, they learn about the properties of
             (mechanical) waves in one dimension (waves along a string), two dimensions (water waves), and three

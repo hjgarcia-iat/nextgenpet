@@ -11,7 +11,9 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Table of Contents with Time Estimates</h3>
-
+        <p>
+            Click on selected activities/lessons below to see what the student materials look like.
+        </p>
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm">
                 <thead>
@@ -52,7 +54,9 @@
                     </tr>
                     <tr>
                         <td>A3</td>
-                        <td>Developing a Model for Magnetism</td>
+                        <td>
+                            <a class="btn-link" target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mse/um-a3-student-materials.pdf">Developing a Model for Magnetism</a>
+                            </td>
                         <td>90</td>
                     </tr>
                     <tr>
@@ -92,7 +96,9 @@
                     </tr>
                     <tr>
                         <td>A1</td>
-                        <td>Exploring Static Electric Effects</td>
+                        <td><a class="btn-link" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mse/use-a1-student-materials.pdf" target="_blank">
+                                Exploring Static Electric Effects
+                            </a></td>
                         <td>90</td>
                     </tr>
                     <tr>
@@ -209,7 +215,7 @@
                     </tr>
                     <tr>
                         <td>A4</td>
-                        <td>Warming and Cooling</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-em/uem-a4-student-materials.pdf" class="btn-link" target="_blank">Warming and Cooling</a></td>
                         <td>70</td>
                     </tr>
                     <tr>
@@ -277,7 +283,7 @@
             
                     <tr>
                         <td>A3</td>
-                        <td>Magnetic and Static Electricity Interactions and Energy</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-em/upef-a3-student-materials.pdf" target="_blank" class="btn-link">Magnetic and Static Electric Interactions and Energy</a></td>
                         <td>110</td>
                     </tr>
             
@@ -339,7 +345,7 @@
                     </tr>
                     <tr>
                         <td>A1</td>
-                        <td>Interactions and Force</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ufm-a1-student-materials.pdf" class="btn-link" target="_blank">Interactions and Force</a></td>
                         <td>120</td>
                     </tr>
                     <tr>
@@ -455,7 +461,7 @@
                     </tr>
                     <tr>
                         <td>A5</td>
-                        <td>Engineering Design: Inspiration from Nature</td>
+                        <td><a target="_blank" class="btn-link" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ucf-a5-ed-student-materials.pdf">Engineering Design: Inspiration from Nature</a></td>
                         <td>90</td>
                     </tr>
                 </tbody>
@@ -512,7 +518,7 @@
                     </tr>
                     <tr>
                         <td>A4</td>
-                        <td>Sound Waves</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-wsl/uws-a4-student-materials.pdf" class="btn-link" target="_blank">Sound Waves</a></td>
                         <td>60</td>
                     </tr>
                     <tr>
@@ -547,7 +553,7 @@
             
                     <tr>
                         <td>A2</td>
-                        <td>Reflection of Light</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-wsl/ul-a2-student-materials.pdf" target="_blank" class="btn-link">Reflection of Light</a></td>
                         <td>80</td>
                     </tr>
                     <tr>
@@ -639,7 +645,7 @@
                     </tr>
                     <tr>
                         <td>A6</td>
-                        <td>More on Liquids and Characteristic Properties</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mi/upc-a6-student-materials.pdf" target="_blank" class="btn-link">More on Liquids and Characteristic Properties</a></td>
                         <td>100</td>
                     </tr>
                     <tr>
@@ -693,7 +699,7 @@
                     </tr>
                     <tr>
                         <td>A1</td>
-                        <td>Physical Changes vs. Chemical Reactions</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mi/ucr-a1-student-materials.pdf" class="btn-link" target="_blank">Physical Changes vs. Chemical Reactions</a></td>
                         <td>90</td>
                     </tr>
                     <tr>

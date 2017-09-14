@@ -11,7 +11,9 @@
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
         <h3>Table of Contents with Time Estimates</h3>
-
+        <p>
+            Click on selected activities/lessons below to see what the student materials look like.
+        </p>
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
                 <thead>
@@ -52,7 +54,7 @@
                     </tr>
                     <tr>
                         <td>L3</td>
-                        <td>Developing a Model for Magnetism</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/um-l3-student-materials.pdf" target="_blank" class="btn-link">Developing a Model for Magnetism</a></td>
                         <td>70</td>
                     </tr>
                     <tr>
@@ -91,7 +93,7 @@
                     </tr>
                     <tr>
                         <td>L1</td>
-                        <td>Exploring Static Electric Effects</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/use-l1-student-materials.pdf" target="_blank" class="btn-link">Exploring Static Electric Effects</a></td>
                         <td>60</td>
                     </tr>
                     <tr>
@@ -147,11 +149,11 @@
                 </tbody>
             </table>
         </div>
-        
+
 
 
         <sup>1</sup>Extensions (Ext’s) are online, interactive homework activities.
-        
+
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
                 <thead>
@@ -220,7 +222,7 @@
                     </tr>
                     <tr>
                         <td>L5</td>
-                        <td>Warming and Cooling</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-em/uem-l5-student-materials.pdf" target="_blank" class="btn-link">Warming and Cooling</a></td>
                         <td>80</td>
                     </tr>
                     <tr>
@@ -233,7 +235,7 @@
                         <td>Keeping Track of Energy in Electric Circuit Interactions</td>
                         <td>75</td>
                     </tr>
-            
+
                     <tr>
                         <td>Ext H</td>
                         <td>More on Keeping Track of Energy</td>
@@ -249,8 +251,8 @@
                         <td>Engineering Design: No More Cold Showers</td>
                         <td>75</td>
                     </tr>
-            
-            
+
+
                     <tr>
                         <td colspan="3"></td>
                     </tr>
@@ -280,13 +282,13 @@
                         <td>Representing Magnetic Poles and Electric Charges (optional)</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L3</td>
-                        <td>Magnetic and Static Electricity Interactions and Energy</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-em/upef-l3-student-materials.pdf" target="_blank" class="btn-link">Magnetic and Static Electric Interactions and Energy</a></td>
                         <td>65</td>
                     </tr>
-            
+
                     <tr>
                         <td>Ext C</td>
                         <td>Exploring Magnetic and Electric Fields</td>
@@ -315,7 +317,7 @@
                 </tbody>
             </table>
         </div>
-        
+
 
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
@@ -340,7 +342,7 @@
                     </tr>
                     <tr>
                         <td>L1</td>
-                        <td>Interactions, Force and Motion</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-fm/ufm-l1-student-materials.pdf" target="_blank" class="btn-link">Interactions, Force and Motion</a></td>
                         <td>60</td>
                     </tr>
                     <tr>
@@ -412,7 +414,7 @@
                         <td>Newton’s Second Law</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L2</td>
                         <td>Balanced Forces</td>
@@ -450,13 +452,13 @@
                     </tr>
                     <tr>
                         <td>L5 ED</td>
-                        <td>Engineering Design: Inspiration from Nature</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-fm/ucf-l5-ed-student-materials.pdf" target="_blank" class="btn-link">Engineering Design: Inspiration from Nature</a></td>
                         <td>60</td>
                     </tr>
                 </tbody>
             </table>
         </div>
-        
+
 
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
@@ -489,7 +491,7 @@
                         <td>How Do Waves Move?</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L2</td>
                         <td>Two-Dimensional Waves</td>
@@ -507,7 +509,7 @@
                     </tr>
                     <tr>
                         <td>L3</td>
-                        <td>Sound Waves</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-wsl/uws-l3-student-materials.pdf" target="_blank" class="btn-link">Sound Waves</a></td>
                         <td>65</td>
                     </tr>
                     <tr>
@@ -515,7 +517,7 @@
                         <td>Seismic Waves</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td colspan="3"></td>
                     </tr>
@@ -535,10 +537,10 @@
                         <td>Drawing Light Ray Diagrams for Pinholes and Shadows</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L2</td>
-                        <td>Reflection of Light</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-wsl/ul-l2-student-materials.pdf" target="_blank" class="btn-link">Reflection of Light</a></td>
                         <td>40</td>
                     </tr>
                     <tr>
@@ -564,7 +566,7 @@
                 </tbody>
             </table>
         </div>
-        
+
 
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
@@ -597,7 +599,7 @@
                         <td>Effects due to air pressure</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L2</td>
                         <td>Small Particle Theory of Gases</td>
@@ -620,10 +622,10 @@
                     </tr>
                     <tr>
                         <td>L4</td>
-                        <td>Liquids and SPT</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mi/upc-l4-student-materials.pdf" class="btn-link" target="_blank">Liquids and SPT</a></td>
                         <td>75</td>
                     </tr>
-            
+
                     <tr>
                         <td>Ext J</td>
                         <td>Sinking and Floating</td>
@@ -664,7 +666,7 @@
                         <td>Engineering Design: Evaluate Ballonet Designs</td>
                         <td>45</td>
                     </tr>
-            
+
                     <tr>
                         <td colspan="3"></td>
                     </tr>
@@ -676,16 +678,16 @@
                     </tr>
                     <tr>
                         <td>L1</td>
-                        <td>Physical Changes vs. Chemical Reactions</td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mi/ucr-l1-student-materials.pdf" target="_blank" class="btn-link">Physical Changes vs. Chemical Reactions</a></td>
                         <td>65</td>
                     </tr>
-            
+
                     <tr>
                         <td>Ext A</td>
                         <td>Separating Mixtures Using Physical Properties</td>
                         <td>online</td>
                     </tr>
-            
+
                     <tr>
                         <td>L2</td>
                         <td>Chemical Reactions and Conservation of Mass</td>
@@ -701,7 +703,7 @@
                         <td>Chemical Reactions, Conservation of Mass, and SPT</td>
                         <td>85</td>
                     </tr>
-            
+
                     <tr>
                         <td>Ext F</td>
                         <td>Balancing chemical equations</td>
@@ -760,7 +762,7 @@
                 </tbody>
             </table>
         </div>
-        
+
 
     </section>
 
