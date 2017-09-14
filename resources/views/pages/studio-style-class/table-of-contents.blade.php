@@ -283,7 +283,7 @@
             
                     <tr>
                         <td>A3</td>
-                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-em/upef-a3-student-materials.pdf" target="_blank" class="btn-link">Magnetic and Static Electricity Interactions and Energy</a></td>
+                        <td><a href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-em/upef-a3-student-materials.pdf" target="_blank" class="btn-link">Magnetic and Static Electric Interactions and Energy</a></td>
                         <td>110</td>
                     </tr>
             

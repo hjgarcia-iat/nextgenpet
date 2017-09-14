@@ -11,8 +11,7 @@
             &amp; Materials </a>
 
         <a href="{{ url('lecture-style-class/table-of-contents') }}" class="dropdown-item{{ (Request::is('lecture-style-class/table-of-contents')) ? ' active' : '' }}">
-            <span>Table of Contents with Time Estimates
-            </span> </a>
+            <span>Table of Contents with Time Estimates and Sample Lessons </span> </a>
 
         <a href="#" class="dropdown-item sublink collapsed dropdown-toggle" data-toggle="collapse" data-target="#lectureAreaLinks" data-parent="#lecture-style-class">
             Content Modules Description</a>

@@ -26,9 +26,8 @@
             Equipment &amp; Materials
         </a>
         <a href="{{ url('studio-style-class/table-of-contents') }}"
-           class="dropdown-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">
-            Table of Contents with Time Estimates
-        </a>
+           class="dropdown-item{{ (Request::is('studio-style-class/table-of-contents')) ? ' active' : '' }}">Table of
+            Contents with Time Estimates and Sample Activities</a>
         
         <a href="#"
            class="dropdown-item sublink collapsed dropdown-toggle"
