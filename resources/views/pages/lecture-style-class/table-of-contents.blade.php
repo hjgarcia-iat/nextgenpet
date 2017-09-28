@@ -10,9 +10,9 @@
 
     <section id="pdf-content" class="pdf-content"></section>
     <section id="html-content" class="html-content">
-        <h3>Table of Contents with Time Estimates</h3>
+        <h3>Table of Contents with Time Estimates &amp; Sample Lessons</h3>
         <p>
-            Click on selected activities/lessons below to see what the student materials look like.
+            Click on selected lessons below to see what the student materials look like.
         </p>
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-sm ">
