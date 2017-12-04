@@ -12375,7 +12375,7 @@ hr {
 }
 
 .desktop-nav a {
-  font-size: 14px;
+  font-size: 14px !important;
   text-transform: uppercase;
   font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
