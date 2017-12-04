@@ -3,6 +3,11 @@
        href="#contact">Contact
     </a>
 </li>
+<li class="nav-item">
+    <a class="nav-link"
+       href="http://shop.iat.com" target="_blank">Shop
+    </a>
+</li>
 @if(auth()->check())
     <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">
         <a class="nav-link"
