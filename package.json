@@ -1,25 +1,31 @@
 {
-  "private": true,
-  "scripts": {
-    "prod": "gulp --production",
-    "dev": "gulp watch"
-  },
-  "devDependencies": {
-    "bootstrap": "4.0.0-alpha.6",
-    "bootstrap-multiselect": "0.9.*",
-    "font-awesome": "4.7.*",
-    "gulp": "^3.9.1",
-    "jquery": "^3.1.0",
-    "laravel-elixir": "^6.0.0-9",
-    "laravel-elixir-browsersync-official": "^1.0.0",
-    "laravel-elixir-vue": "^0.1.4",
-    "laravel-elixir-webpack-official": "^1.0.2",
-    "lodash": "^4.14.0",
-    "scrollpos-styler": "^0.6.1",
-    "vue": "^1.0.26",
-    "vue-resource": "^0.9.3"
-  },
-  "dependencies": {
-    "sweetalert": "^1.1.3"
-  }
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "watch-poll": "npm run watch -- --watch-poll",
+        "hot": "cross-env NODE_ENV=development node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline --hot --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "npm run production",
+        "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "devDependencies": {
+        "axios": "^0.17",
+        "bootstrap": "4.0.0-beta.2",
+        "bootstrap-multiselect": "0.9.*",
+        "browser-sync": "^2.18.13",
+        "browser-sync-webpack-plugin": "^1.2.0",
+        "cross-env": "^5.1",
+        "font-awesome": "4.7.*",
+        "jquery": "^3.2",
+        "laravel-mix": "^1.0",
+        "lodash": "^4.17.4",
+        "stickybits": "^2.0.10",
+        "vue": "^2.1.10"
+    },
+    "dependencies": {
+        "popper.js": "^1.12.6",
+        "stickyfilljs": "^2.0.2",
+        "vee-validate": "^2.0.0-beta.17"
+    }
 }
