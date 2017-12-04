@@ -11695,7 +11695,7 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 }
 
 .highlight {
-  color: #f68d2d;
+  color: #e69135;
 }
 
 .well {
@@ -11726,145 +11726,13 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   }
 }
 
-/* roboto-condensed-300 - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/roboto-condensed-v13-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed Light"), local("RobotoCondensed-Light"), url("../fonts/roboto-condensed-v13-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-300.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-300.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-300.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-300.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-condensed-regular - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/roboto-condensed-v13-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed"), local("RobotoCondensed-Regular"), url("../fonts/roboto-condensed-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-regular.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-regular.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-regular.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-regular.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-condensed-300italic - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/roboto-condensed-v13-latin-300italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed Light Italic"), local("RobotoCondensed-LightItalic"), url("../fonts/roboto-condensed-v13-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-300italic.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-300italic.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-300italic.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-300italic.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-condensed-italic - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/roboto-condensed-v13-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed Italic"), local("RobotoCondensed-Italic"), url("../fonts/roboto-condensed-v13-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-italic.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-italic.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-italic.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-italic.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-condensed-700italic - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: italic;
-  font-weight: 700;
-  src: url("../fonts/roboto-condensed-v13-latin-700italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed Bold Italic"), local("RobotoCondensed-BoldItalic"), url("../fonts/roboto-condensed-v13-latin-700italic.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-700italic.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-700italic.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-700italic.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-700italic.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* roboto-condensed-700 - latin */
-@font-face {
-  font-family: 'Roboto Condensed';
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/roboto-condensed-v13-latin-700.eot");
-  /* IE9 Compat Modes */
-  src: local("Roboto Condensed Bold"), local("RobotoCondensed-Bold"), url("../fonts/roboto-condensed-v13-latin-700.eot?#iefix") format("embedded-opentype"), url("../fonts/roboto-condensed-v13-latin-700.woff2") format("woff2"), url("../fonts/roboto-condensed-v13-latin-700.woff") format("woff"), url("../fonts/roboto-condensed-v13-latin-700.ttf") format("truetype"), url("../fonts/roboto-condensed-v13-latin-700.svg#RobotoCondensed") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-300 - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 300;
-  src: url("../fonts/open-sans-v13-latin-300.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans Light"), local("OpenSans-Light"), url("../fonts/open-sans-v13-latin-300.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-300.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-300.woff") format("woff"), url("../fonts/open-sans-v13-latin-300.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-300.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-300italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 300;
-  src: url("../fonts/open-sans-v13-latin-300italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans Light Italic"), local("OpenSansLight-Italic"), url("../fonts/open-sans-v13-latin-300italic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-300italic.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-300italic.woff") format("woff"), url("../fonts/open-sans-v13-latin-300italic.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-300italic.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-regular - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/open-sans-v13-latin-regular.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans"), local("OpenSans"), url("../fonts/open-sans-v13-latin-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-regular.woff") format("woff"), url("../fonts/open-sans-v13-latin-regular.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-regular.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 400;
-  src: url("../fonts/open-sans-v13-latin-italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans Italic"), local("OpenSans-Italic"), url("../fonts/open-sans-v13-latin-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-italic.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-italic.woff") format("woff"), url("../fonts/open-sans-v13-latin-italic.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-italic.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-800 - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/open-sans-v13-latin-800.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans Extrabold"), local("OpenSans-Extrabold"), url("../fonts/open-sans-v13-latin-800.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-800.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-800.woff") format("woff"), url("../fonts/open-sans-v13-latin-800.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-800.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
-/* open-sans-800italic - latin */
-@font-face {
-  font-family: 'Open Sans';
-  font-style: italic;
-  font-weight: 800;
-  src: url("../fonts/open-sans-v13-latin-800italic.eot");
-  /* IE9 Compat Modes */
-  src: local("Open Sans Extrabold Italic"), local("OpenSans-ExtraboldItalic"), url("../fonts/open-sans-v13-latin-800italic.eot?#iefix") format("embedded-opentype"), url("../fonts/open-sans-v13-latin-800italic.woff2") format("woff2"), url("../fonts/open-sans-v13-latin-800italic.woff") format("woff"), url("../fonts/open-sans-v13-latin-800italic.ttf") format("truetype"), url("../fonts/open-sans-v13-latin-800italic.svg#OpenSans") format("svg");
-  /* Legacy iOS */
-}
-
 /*
 //
 // General
 // --------------------------------------------------
 */
 body {
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
   color: #222222;
   line-height: 1.6;
 }
@@ -11878,7 +11746,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
 }
 
@@ -11913,24 +11781,6 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
   top: -1.2em;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 17px;
-  }
-}
-
-@media (min-width: 1200px) {
-  html {
-    font-size: 17px;
-  }
-}
-
-@media (max-width: 767px) {
-  html {
-    font-size: 18px;
-  }
-}
-
 /*
 //
 // Buttons and General Links Styles
@@ -11938,7 +11788,7 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 */
 /* unvisited link */
 a:link {
-  color: #f68d2d;
+  color: #e69135;
   cursor: pointer;
 }
 
@@ -11948,36 +11798,36 @@ button {
 
 /* visited link */
 a:visited {
-  color: #f68d2d;
+  color: #e69135;
 }
 
 /* mouse over link */
 a:hover {
-  color: #ce6709;
+  color: #b86a17;
   text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-  color: #f68d2d;
+  color: #e69135;
 }
 
 .btn {
   color: #ffffff !important;
   border-radius: 0;
-  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   cursor: pointer;
 }
 
 .btn-primary {
-  background: #f68d2d;
-  border-color: #f58015;
+  background: #e69135;
+  border-color: #e3851e;
 }
 
 .btn-primary:hover {
-  background: #e6730a;
-  border-color: #f9b576;
+  background: #ce781a;
+  border-color: #eeb679;
 }
 
 .btn-link:after {
@@ -11986,7 +11836,7 @@ a:active {
 }
 
 .btn-link:hover {
-  color: #ce6709;
+  color: #b86a17;
   text-decoration: none;
 }
 
@@ -12055,7 +11905,7 @@ a:active {
 }
 
 .form-control:focus {
-  border-color: #f68d2d;
+  border-color: #e69135;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
 }
 
@@ -12066,17 +11916,17 @@ a:active {
 */
 .fa-ul li {
   margin-bottom: .5em;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .fa-ul li a {
   color: #222222;
   cursor: pointer;
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
 .fa-ul li a:hover {
-  color: #ce6709;
+  color: #b86a17;
   text-decoration: underline;
 }
 
@@ -12166,14 +12016,14 @@ a:active {
 }
 
 .table thead th {
-  background: #f68d2d;
+  background: #e69135;
   color: white;
   text-align: center;
   vertical-align: middle;
 }
 
 .table tr td a {
-  color: #f68d2d !important;
+  color: #e69135 !important;
   display: block;
   width: 100%;
   height: 100%;
@@ -12181,7 +12031,7 @@ a:active {
 }
 
 .table tr td.cell-link:hover {
-  background: #f68d2d;
+  background: #e69135;
 }
 
 .table tr.highlight td {
@@ -12201,7 +12051,7 @@ a:active {
 }
 
 .panel.panel-primary .panel-heading {
-  background: #f68d2d;
+  background: #e69135;
   border-color: #dddddd;
 }
 
@@ -12226,7 +12076,7 @@ hr {
 
 .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
   color: #ffffff;
-  background: #f68d2d;
+  background: #e69135;
 }
 
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
@@ -12360,11 +12210,11 @@ hr {
 .desktop-nav a {
   font-size: 14px;
   text-transform: uppercase;
-  font-family: "Roboto Condensed", "Helvetica Neue", Arial, sans-serif;
+  font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 .desktop-nav a:hover {
-  color: #ce6709 !important;
+  color: #b86a17 !important;
 }
 
 .desktop-nav .dropdown-menu {
@@ -12398,7 +12248,7 @@ hr {
 
 .desktop-nav .dropdown-menu > a:hover, .desktop-nav .dropdown-menu > a:focus {
   text-decoration: none;
-  color: #f68d2d;
+  color: #e69135;
   background-color: #000000;
 }
 
@@ -12411,7 +12261,7 @@ hr {
   left: 100%;
   margin-top: -5px;
   margin-left: 0px;
-  background: #f68d2d;
+  background: #e69135;
   color: #000000;
 }
 
@@ -12422,7 +12272,7 @@ hr {
 .desktop-nav .dropdown-submenu > .dropdown-menu > a:hover, .desktop-nav .dropdown-submenu > .dropdown-menu > a:focus {
   text-decoration: none;
   color: #ffffff;
-  background: #f68d2d;
+  background: #e69135;
 }
 
 .desktop-nav .dropdown-submenu:hover > .dropdown-menu {
@@ -12458,7 +12308,7 @@ hr {
 }
 
 .desktop-nav .nav-item.active a {
-  color: #ce6709 !important;
+  color: #b86a17 !important;
 }
 
 @media (min-width: 768px) {
@@ -12490,12 +12340,12 @@ hr {
 }
 
 .navbar-mobile a:hover, .navbar-mobile a.active, .navbar-mobile a.active:hover, .navbar-mobile a:active, .navbar-mobile a:focus, .navbar-mobile a:visited, .navbar-mobile .nav-item.active > a {
-  background-color: #f68d2d;
+  background-color: #e69135;
   color: white !important;
 }
 
 .navbar-mobile .nav-item a:hover, .navbar-mobile .dropdown a:hover {
-  background-color: #f68d2d;
+  background-color: #e69135;
   color: white !important;
 }
 
@@ -12605,13 +12455,13 @@ hr {
 
 .page-footer {
   padding: 1em 0 0;
-  background: #f68d2d;
+  background: #e69135;
   color: #ffffff;
-  border-top: 1px solid #e6730a;
+  border-top: 1px solid #ce781a;
 }
 
 .page-footer .form .btn.btn-primary {
-  color: #f68d2d !important;
+  color: #e69135 !important;
   font-weight: bold;
   background: #ffffff;
 }
@@ -12682,9 +12532,9 @@ hr {
 }
 
 .page-side-menu .list-group .list-group-item:hover, .page-side-menu .list-group .list-group-item.active {
-  background: #f68d2d;
+  background: #e69135;
   color: white;
-  border-color: #f68d2d;
+  border-color: #e69135;
 }
 
 .page-side-menu .list-group .list-group-item.active {
@@ -12960,7 +12810,7 @@ hr {
 // --------------------------------------------------
 */
 .table a {
-  color: #f68d2d;
+  color: #e69135;
 }
 
 /*# sourceMappingURL=app.css.map */
