@@ -24,7 +24,6 @@
                      alt="It's About Time">
             </a>
         </section>
-        @include('layouts.partials._page-header-social-icons')
     </div>
     
     @include('layouts.partials._mobile_nav')

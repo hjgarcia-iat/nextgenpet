@@ -88,6 +88,7 @@
                         </div>
                     </div>
                     {!! Form::close() !!}
+                    @include('layouts.partials._page-header-social-icons')
                     <p class="text-center">
                         <sup>
                             &copy;

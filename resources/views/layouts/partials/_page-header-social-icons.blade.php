@@ -1,4 +1,4 @@
-<nav class="social-bar">
+<nav class="social-bar mb-3">
     <ul class="list-unstyled">
         <li>
             <a href="http://blog.iat.com"
