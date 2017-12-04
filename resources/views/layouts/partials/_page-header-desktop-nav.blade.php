@@ -19,12 +19,6 @@
                 </a>
             </li>
             
-            <li class="nav-item">
-                <a class="nav-link"
-                   href="#contact">Contact
-                </a>
-            </li>
-            
             @if(auth()->check())
         
                 <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">

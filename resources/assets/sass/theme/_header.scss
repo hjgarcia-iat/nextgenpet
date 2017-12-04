@@ -1,0 +1,161 @@
+/*
+//
+// Topbar
+// --------------------------------------------------
+*/
+
+.top-bar {
+    background    : darken($general-color-orange, 5);
+    border-bottom : 2px solid darken($general-color-orange, 30);
+    color         : white;
+
+    .top-bar-form {
+        margin-top    : 5px;
+        margin-bottom : 5px;
+
+        .form-control {
+            font-size     : 14px;
+            line-height   : 16px;
+            border        : none;
+            border-radius : 0;
+            color         : white;
+            background    : #bf6122;
+            padding       : .3em .7em;
+        }
+
+        input.form-control::placeholder {
+            color : white;
+        }
+
+        i,
+        .btn {
+            font-size   : 14px;
+            line-height : 16px;
+        }
+
+        .btn.btn-form {
+            border     : none;
+            color      : white;
+            background : black;
+        }
+
+        .btn-remove {
+            margin : 0;
+        }
+    }
+
+    a {
+        color           : white;
+        font-size       : 14px;
+        display         : block;
+        margin          : .5em;
+        cursor          : pointer;
+        text-transform  : uppercase;
+        font-family     : $font-family-sans-serif-heading;
+        text-decoration : none;
+        position        : relative;
+    }
+
+    a:before {
+        content            : "";
+        position           : absolute;
+        width              : 100%;
+        height             : 2px;
+        bottom             : 0;
+        left               : 0;
+        background-color   : white;
+        visibility         : hidden;
+        -webkit-transform  : scaleX(0);
+        transform          : scaleX(0);
+        -webkit-transition : all 0.3s ease-in-out 0s;
+        transition         : all 0.3s ease-in-out 0s;
+    }
+
+    a:hover:before {
+        visibility        : visible;
+        -webkit-transform : scaleX(1);
+        transform         : scaleX(1);
+    }
+
+    .dropdown-menu {
+        border-radius : 0;
+        a {
+            color   : #333333;
+            margin  : .1em;
+            padding : .10rem .75rem;
+            &:hover {
+                background      : none;
+                text-decoration : underline;
+            }
+        }
+    }
+
+    ul,
+    li {
+        margin  : 0;
+        padding : 0;
+    }
+}
+
+/*
+//
+// Main Navigation bar
+// --------------------------------------------------
+*/
+
+.main-navbar {
+
+    .active .nav-link {
+        color       : $general-color-orange;
+        font-weight : bold;
+    }
+
+    a {
+        font-family    : $font-family-sans-serif-heading;
+        text-transform : uppercase;
+        font-size      : 16px;
+        color          : black;
+    }
+
+    .show > .nav-link {
+        background-color : black !important;
+        border-radius    : 0;
+    }
+
+    .dropdown-menu {
+        border-radius : 0;
+        background    : black;
+        margin-top    : 0;
+
+        a {
+            color         : #ffffff;
+            border-bottom : 1px solid #282828;
+            &:hover {
+                color      : $general-color-orange;
+                background : none;
+            }
+        }
+
+        a:first-child {
+            padding-top : 0;
+            margin-top  : 0;
+        }
+
+        a:last-child {
+            border-bottom  : none;
+            padding-bottom : 0;
+            margin-bottom  : 0;
+        }
+    }
+
+    .dropdown-item.active,
+    .dropdown-item:active {
+        color           : $general-color-orange;
+        text-decoration : none;
+        background      : none;
+    }
+
+    .dropdown-item.active {
+        font-weight : bold;
+    }
+}

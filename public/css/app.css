@@ -12196,6 +12196,173 @@ hr {
   }
 }
 
+/*
+//
+// Topbar
+// --------------------------------------------------
+*/
+.top-bar {
+  background: #e3851e;
+  border-bottom: 2px solid #74430e;
+  color: white;
+}
+
+.top-bar .top-bar-form {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.top-bar .top-bar-form .form-control {
+  font-size: 14px;
+  line-height: 16px;
+  border: none;
+  border-radius: 0;
+  color: white;
+  background: #bf6122;
+  padding: .3em .7em;
+}
+
+.top-bar .top-bar-form input.form-control::-webkit-input-placeholder {
+  color: white;
+}
+
+.top-bar .top-bar-form input.form-control:-ms-input-placeholder {
+  color: white;
+}
+
+.top-bar .top-bar-form input.form-control::placeholder {
+  color: white;
+}
+
+.top-bar .top-bar-form i,
+.top-bar .top-bar-form .btn {
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.top-bar .top-bar-form .btn.btn-form {
+  border: none;
+  color: white;
+  background: black;
+}
+
+.top-bar .top-bar-form .btn-remove {
+  margin: 0;
+}
+
+.top-bar a {
+  color: white;
+  font-size: 14px;
+  display: block;
+  margin: .5em;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  position: relative;
+}
+
+.top-bar a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: white;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.top-bar a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.top-bar .dropdown-menu {
+  border-radius: 0;
+}
+
+.top-bar .dropdown-menu a {
+  color: #333333;
+  margin: .1em;
+  padding: .10rem .75rem;
+}
+
+.top-bar .dropdown-menu a:hover {
+  background: none;
+  text-decoration: underline;
+}
+
+.top-bar ul,
+.top-bar li {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+//
+// Main Navigation bar
+// --------------------------------------------------
+*/
+.main-navbar .active .nav-link {
+  color: #e69135;
+  font-weight: bold;
+}
+
+.main-navbar a {
+  font-family: Calibri, "Myriad Pro", Myriad, Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  color: black;
+}
+
+.main-navbar .show > .nav-link {
+  background-color: black !important;
+  border-radius: 0;
+}
+
+.main-navbar .dropdown-menu {
+  border-radius: 0;
+  background: black;
+  margin-top: 0;
+}
+
+.main-navbar .dropdown-menu a {
+  color: #ffffff;
+  border-bottom: 1px solid #282828;
+}
+
+.main-navbar .dropdown-menu a:hover {
+  color: #e69135;
+  background: none;
+}
+
+.main-navbar .dropdown-menu a:first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
+.main-navbar .dropdown-menu a:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.main-navbar .dropdown-item.active,
+.main-navbar .dropdown-item:active {
+  color: #e69135;
+  text-decoration: none;
+  background: none;
+}
+
+.main-navbar .dropdown-item.active {
+  font-weight: bold;
+}
+
 .desktop-nav {
   background-color: #f3f3f3;
   border-top: 1px solid #ececec;
