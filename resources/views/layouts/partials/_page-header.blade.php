@@ -21,7 +21,7 @@
         <section class="text-sm-center text-xs-center mr-auto">
             <a href="{{ url('/') }}" class="mx-auto">
                 <img src="{{ asset('img/logo.png') }}"
-                     alt="It's About Time">
+                     alt="Activate Learning">
             </a>
         </section>
     </div>
