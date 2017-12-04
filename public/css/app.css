@@ -11965,9 +11965,10 @@ a:active {
   border-bottom: 1px solid #ececec;
 }
 
-.page-title h1 {
+.page-title h2 {
   margin: 0;
   padding: 0;
+  font-size: 30px !important;
 }
 
 /*
@@ -12564,6 +12565,7 @@ hr {
   color: #ffffff;
   text-align: center;
   margin-bottom: 0;
+  font-size: 35px;
 }
 
 .social-bar {
