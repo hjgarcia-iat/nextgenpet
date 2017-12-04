@@ -10,138 +10,138 @@
 @stop
 
 @section('content')
-    <h4>
-        ONLINE PRIVACY POLICY AGREEMENT
-    </h4>
-    <p>
-        IAT Interactive, LLC, (IAT), is committed to keeping any and all personal information collected of those
-        individuals that visit our website and make use of our online facilities and services accurate, confidential,
-        secure and private. Our privacy policy has been designed and created to ensure those affiliated with IAT
-        Interactive, LLC of our commitment and realization of our obligation not only to meet but to exceed most
-        existing privacy standards.
+    <h1>PRIVACY POLICY</h1>
+    <p>Revision date: April 8, 2015</p>
+    <p><br>Activate Learning recognizes that its customers, visitors, users, and others who use this website value
+        their privacy.&nbsp;</p>
+    <p>This Privacy Policy applies to the collection and use by Activate Learning ("we" or "us") of personally
+        identifiable information (“PII”) that identifies or permits contact with a specific person, such as full
+        name or email address &nbsp;in connection with your use of this website (“the Site”). It also describes
+        Activate Learning’s practices for handling non-personal information (e.g., site activity) in connection with
+        the Site.<br>By providing personal information to us or using the Site, you agree to the terms and
+        conditions of this Privacy Policy. If you do not agree to this Privacy Policy, please discontinue your use
+        of the Site.</p>
+    <p>FERPA<br>The Family Educational Rights and Privacy Act (FERPA) was enacted by Congress to protect the privacy
+        of students and their parents. The act is designed to ensure that students and parents of students may
+        obtain access to the student’s educational records and challenge the content or release of such records to
+        third parties. Activate Learning is fully compliant with FERPA. To learn more about FERPA please go to&nbsp;<a
+                target="_blank" href="http://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html">http://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html</a>
     </p>
-    <p>
-        THEREFORE, this Privacy Policy Agreement shall apply to IAT Interactive, LLC , and thus it shall
-        govern any and all data collection and usage thereof. Through the use of <a href="http://www.iat.com">www.iat.com</a> you are herein
-        consenting to the following data procedures expressed within this agreement.
+    <p>COPPA<br>The Children’s Online Privacy Protection Act (COPPA) was enacted by Congress to put parents in
+        control of the information websites collect about their children under 13. &nbsp;Activate Learning is fully
+        compliant with COPPA. To learn more about COPPA, please go to:&nbsp;<a target="_blank"
+                                                                               href="http://www.ftc.gov/privacy/privacyinitiatives/childrens.html">http://www.ftc.gov/privacy/privacyinitiatives/childrens.html</a>.
     </p>
-    <p>
-        <strong>Collection of Information</strong>
+    <h3>INFORMATION PROVIDED BY USERS</h3>
+    <p>The Site is directed at teachers and school administrators, is not targeted toward children, and does not
+        knowingly collect personal information from children under 13 years of age.<br>General visitors may provide
+        us with PII such as their name and email address when contacting us to learn more about our products.&nbsp;
     </p>
-    <p>
-        This website collects various types of information, such as:
-    </p>
+    <p>Registered users of our online services, such as schools and school districts, may provide us with roster
+        data, which includes the names of teachers, the relevant classes and the names of students in each of those
+        classes. Activate Learning does not receive other forms of PII. &nbsp;The site does not request or require
+        email addresses from students using our online application.</p>
+    <p>In the course of using our application, registered student users may provide us with answers to
+        investigations and quizzes in the form of written text, drawings, links to images or links to videos
+        (collectively, "Student Data").</p>
+    <p>Access to Student Data is controlled by the school or district. Teachers and administrators are allowed to
+        access student responses. Student responses cannot be shared with other students. Activate Learning helps
+        schools to securely manage and store Student Data on behalf of our school customers. Activate Learning never
+        shares Student Data with third-parties, nor does it market products or services directly to students.</p>
+    <h3>INFORMATION COLLECTED THROUGH TECHNOLOGY</h3>
+    <p>We receive and store certain types of information whenever visitors interact with this Site. For example,
+        like many Web sites, we use "cookies," and we obtain certain types of information when your Web browser
+        accesses this Site. Activate Learning uses cookies to track non-personal information such as type of
+        browser, operating system, domain names and IP addresses. Your browser has settings to control the
+        acceptance of cookies, including preventing your browser from accepting cookies, providing notification when
+        cookies are received, or disabling cookies completely.&nbsp;</p>
+    <p>In addition to the use of cookies, this Site may use other commercially available analytical tools, such as
+        Google Analytics, to obtain aggregated or de-identified data regarding usage of the features of this Site
+        and any content accessed through this Site, including without limitation information regarding web browsers
+        used to access this Site, IP addresses, pages visited and time spent on particular pages. Activate Learning
+        collects this information to assist in administering the Site and analyzing traffic patterns on the Site for
+        internal business purposes. This information is not personally identifiable.</p>
+    <p>Additionally, we send occasional emails in HTML format to current and prospective customers. These emails use
+        technological methods such as "clear GIFs" (a.k.a. Web Beacons) to determine whether a recipient has opened
+        or forwarded our emails and/or clicked on links in those emails. These technological methods may enable us
+        to collect and use information in a form that is personally identifiable, such as an email address. If you
+        do not want such information collected from HTML emails, or do not wish to receive such emails, you can
+        request a change by contacting us directly.</p>
+    <h3>LINKS TO OTHER WEBSITES</h3>
+    <p>The Site may include links to other websites, however by doing so we assume no responsibility for the
+        information practices of those websites. Links to other sites do not imply affiliation or endorsement of any
+        kind. This Policy does not address, and Activate Learning is not responsible for, the privacy, information
+        or other practices of such third parties, including any third party operating any service which links to an
+        Activate Learning product or service.&nbsp;</p>
+    <h3>DISCLOSURE OF INFORMATION</h3>
     <ul>
-        <li>
-            Voluntarily provided information which may include your name, address, email address, billing
-            and/or credit card information etc., which may be used when you purchase products and/or services
-            and to deliver the services you have requested.
+        <li>We may share automatically collected and other aggregate non-personal information to authorized business
+            partners for research purposes or to assist in understanding the usage and demographic patterns in
+            connection with certain programs, content, services and/or functionality of the Site.
         </li>
-        <li>
-            Information automatically collected when visiting our website, which may include cookies, third
-            party tracking technologies and server logs.
+        <li>We may release personally identifiable information and/or non-personally-identifiable information if
+            required to do so by law, or in the good-faith belief that such action is necessary to comply with state
+            and federal laws (such as U.S. Copyright Law) or respond to a court order, subpoena, or search warrant.
+        </li>
+        <li>Activate Learning reserves the right to disclose personally identifiable information and/or
+            non-personally-identifiable information that Activate Learning believes, in good faith, is appropriate
+            or necessary to enforce our Terms of Use, take precautions against liability, to investigate and defend
+            itself against any third-party claims or allegations, to assist government enforcement agencies, to
+            protect the security or integrity of the Site, and to protect the rights, property, or personal safety
+            of Activate Learning, our users or others.
         </li>
     </ul>
-    <p>
-        Please rest assured that this site shall only collect personal information that you knowingly and
-        willingly provide by way of surveys, completed membership forms, and emails. It is the intent of this
-        site to use personal information only for the purpose for which it was requested and any additional uses
-        specifically provided on this site.
-    </p>
-    <p>We may also gather information about the type of browser you are using, IP address or type of
-        operating system to assist us in providing and maintaining superior quality service.</p>
-    <p>It is highly recommended and suggested that you review the privacy policies and statements of any
-        website you choose to use or frequent as a means to better understand the way in which other websites
-        garner, make use of and share information collected.</p>
-    <p>
-        <strong>Use of Information Collected</strong>
-    </p>
-    <p>IAT Interactive, LLC may collect and may make use of personal information to assist in the operation
-        of our website and to ensure delivery of the services you need and request. At times, we may find it
-        necessary to use personally identifiable information as a means to keep you informed of other possible
-        products and/or services that may be available to you from www.iat.com . IAT Interactive, LLC may
-        also be in contact with you with regards to completing surveys and/or research questionnaires related to
-        your opinion of current or potential future services that may be offered.</p>
-    <p>IAT Interactive, LLC does not now, nor will it in the future, sell, rent or lease any of our customer lists
-        and/or names to any third parties.</p>
-    <p>IAT Interactive, LLC may deem it necessary to follow websites and/or pages that our users may
-        frequent in an effort to gleam what types of services and/or products may be the most popular to
-        customers or the general public.</p>
-    <p>IAT Interactive, LLC may disclose your personal information, without prior notice to you, only if
-        required to do so in accordance with applicable laws and/or in a good faith belief that such action is
-        deemed necessary or is required in an effort to:</p>
+    <h3>SECURITY PRACTICES</h3>
+    <p>Activate Learning takes user privacy and data security seriously. We use commercially reasonable, industry
+        standard measures to safeguard personal information in its possession against loss, theft, unauthorized use,
+        or disclosure. Steps taken to secure student data include the following:</p>
     <ul>
-        <li>Remain in conformance with any decrees, laws and/or statutes or in an effort to comply with any
-            process which may be served upon IAT Interactive, LLC and/or our website;</li>
-        <li>Maintain, safeguard and/or preserve all the rights and/or property of IAT Interactive, LLC; and</li>
-        <li>Perform under demanding conditions in an effort to safeguard the personal safety of users of
-            www.iat.com and/or the general public.</li>
+        <li>Any sensitive online information is transmitted over secure, encrypted channels via HTTPS. Sensitive
+            information is not transmitted over email.
+        </li>
+        <li>All student data are stored on secure servers utilizing firewall technology and are only accessible via
+            HTTPS and with proper authentication.
+        </li>
+        <li>If student data needs to be copied to a local machine for providing customer support, the data is always
+            password protected, and is immediately deleted from the local machine upon completion of the support
+            task.&nbsp;
+        </li>
+        <li>Activate Learning does not share student information with any third parties. If a school requests that
+            student data should be sent to a third party, Activate Learning sends the data to the school and never
+            directly to the third party.
+        </li>
     </ul>
-    <p>
-        <strong>Children Under Age of 13</strong>
-    </p>
-    <p>IAT Interactive, LLC does not knowingly collect personal identifiable information from children under
-        the age of thirteen (13) without verifiable parental consent. If it is determined that such information has
-        been inadvertently collected on anyone under the age of thirteen (13), we shall immediately take the
-        necessary steps to ensure that such information is deleted from our system's database. Anyone under the
-        age of thirteen (13) must seek and obtain parent or guardian permission to use this website.</p>
-    <p>
-        <strong>Unsubscribe or Opt-Out</strong>
-    </p>
-    <p>
-        All users and/or visitors to our website have the option to discontinue receiving communication from us
-        and/or reserve the right to discontinue receiving communications by way of email or newsletters. To
-        discontinue or unsubscribe to our website please send an email that you wish to unsubscribe to
-        <a href="mailto:contact@iat.com">contact@iat.com</a>. If you wish to unsubscribe or opt-out from any third party websites, you must go to
-        that specific website to unsubscribe and/or opt-out.
-    </p>
-    <p>
-        <strong>Links to Other Web Sites</strong>
-    </p>
-    <p>Our website does contain links to affiliate and other websites. IAT Interactive, LLC does not claim nor
-        accept responsibility for any privacy policies, practices and/or procedures of other such websites.
-        Therefore, we encourage all users and visitors to be aware when they leave our website and to read the
-        privacy statements of each and every website that collects personally identifiable information. The
-        aforementioned Privacy Policy Agreement applies only and solely to the information collected by our
-        website.</p>
-    <p>
-        <strong>Security</strong>
-    </p>
-    <p>
-        IAT Interactive, LLC shall endeavor and shall take every precaution to maintain adequate physical,
-        procedural and technical security with respect to our offices and information storage facilities so as to
-        prevent any loss, misuse, unauthorized access, disclosure or modification of the user's personal
-        information under our control.
-    </p>
-    <p>
-        The company also uses Secure Socket Layer (SSL) for authentication and private communications in an
-        effort to build users' trust and confidence in the internet and website use by providing simple and secure
-        access and communication of credit card and personal information.
-    </p>
-    <p><strong>Changes to Privacy Policy Agreement</strong></p>
-    <p>
-        IAT Interactive, LLC reserves the right to update and/or change the terms of our privacy policy, and as
-        such we will post those change to our website homepage at www.iat.com, so that our users and/or
-        visitors are always aware of the type of information we collect, how it will be used, and under what
-        circumstances, if any, we may disclose such information. If at any point in time IAT Interactive, LLC
-        decides to make use of any personally identifiable information on file, in a manner vastly different from
-        that which was stated when this information was initially collected, the user or users shall be promptly
-        notified by email. Users at that time shall have the option as to whether or not to permit the use of their
-        information in this separate manner.
-    </p>
-    <p><strong>Acceptance of Terms</strong></p>
-    <p>Through the use of this website, you are hereby accepting the terms and conditions stipulated within the
-        aforementioned Privacy Policy Agreement. If you are not in agreement with our terms and conditions,
-        then you should refrain from further use of our sites. In addition, your continued use of our website
-        following the posting of any updates or changes to our terms and conditions shall mean that you are in
-        agreement and acceptance of such changes.</p>
-    <p><strong>How to Contact Us</strong></p>
-    <p>If you have any questions or concerns regarding the Privacy Policy Agreement related to our website,
-        please feel free to contact us at the following email, telephone number or mailing address.</p>
-    <p><strong>Email:</strong> <a href="mailto:contact@iat.com">contact@iat.com</a></p>
-    <p><strong>Telephone Number:</strong> 914-273-2233</p>
-    <p><strong>Mailing Address:</strong> <br>
-        IAT Interactive, LLC<br>
-        333 N. Bedford Rd. Suite 110<br>
-        Mt. Kisco, New York 10549</p>
+    <h3>DATA BREACH RESPONSE</h3>
+    <p>In the event Activate Learning discovers or is notified of a data breach, we will, as required by applicable
+        federal and state laws, investigate, take steps to mitigate the potential impact, and provide notice of the
+        breach to applicable agencies, and customers. However, despite our efforts, no security measures are perfect
+        and we assume no responsibility for any breaches.&nbsp;</p>
+    <p>Activate Learning maintains a written Information Security Policy which details specific steps the company
+        will take in the event of a data breach to validate the breach, end the breach, and notify affected parties,
+        as appropriate.</p>
+    <h3>SAFE USE OF TECHNOLOGY</h3>
+    <p>School districts play an important role in ensuring a secure learning environment for students. The following
+        is a list of practices a school district can undertake to secure their learning environment.</p>
+    <ul>
+        <li>Closely Manage Access – Activate Learning relies on staff and student directories managed by the
+            district. Districts then determine which staff members can access student rosters. To maintain proper
+            control, districts need to keep this information up-to-date.
+        </li>
+        <li>Maintain Password Security – Like most online systems, Activate Learning is accessed with a password.
+            Students and teachers need to choose secure passwords, and should never share their passwords with
+            others.
+        </li>
+        <li>Properly Secure Devices – Computer devices that lack up-to-date anti-virus software can pose security
+            risks for student PII. Such devices could contain malware that steals user credentials and exposes
+            student PII.
+        </li>
+    </ul>
+    <h3>CHANGES TO THE PRIVACY POLICY</h3>
+    <p>Activate Learning may amend this Privacy Policy at any time and at its own discretion by posting the amended
+        privacy policy on the Site. &nbsp;Your continued use of the Site after any revisions shall constitute your
+        acceptance of such changes.</p>
+    <h3>CONTACT US</h3>
+    <p>If you have questions about this Privacy Policy, or our security practices, please contact us:<br><a
+                href="mailto:info@activatelearning.com">info@activatelearning.com</a>&nbsp;Activate Learning, 44
+        Amogerone Crossway #7862, Greenwich, CT 06836</p>
 @stop

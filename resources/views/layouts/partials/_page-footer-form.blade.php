@@ -93,7 +93,7 @@
                         <sup>
                             &copy;
                         </sup>
-                        It's About Time {{ date('Y') }}. All Rights Reserved.
+                        Activate Learning {{ date('Y') }}. All Rights Reserved.
                     </p>
                     <ul class="list-unstyled d-flex justify-content-center footer-links">
                         <li><a href="{{ url('terms-and-conditions') }}">Terms and Conditions</a></li>
