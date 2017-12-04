@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light hidden-md-up navbar-mobile-toggle">
+<nav class="navbar navbar-light d-sm-block d-md-none navbar-mobile-toggle">
     <div class="container">
         <button type="button"
                 class="navbar-toggler offcanvas-toggle"
@@ -8,7 +8,7 @@
         </button>
     </div>
 </nav>
-<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm hidden-md-up navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
+<nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm d-none navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
      id="js-bootstrap-offcanvas">
     <div class="container">
         <ul class="navbar-nav">
