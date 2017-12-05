@@ -106,7 +106,7 @@
 .main-navbar {
 
     .active .nav-link {
-        color       : $general-color-orange;
+        color : $general-color-orange;
     }
 
     a {
@@ -119,6 +119,7 @@
         font-family     : $font-family-sans-serif-heading;
         text-decoration : none;
         position        : relative;
+        padding         : .2em;
     }
 
     a:before {
