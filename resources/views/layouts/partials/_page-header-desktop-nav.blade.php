@@ -1,4 +1,4 @@
-<nav>
+<nav class="d-none d-md-block">
     <ul class="nav nav-pills main-navbar">
         <li class="nav-item {{ (Request::is('/') or Request::is('about/*') or Request::is('workshops')) ? 'active' : '' }}">
             <a class="nav-link"

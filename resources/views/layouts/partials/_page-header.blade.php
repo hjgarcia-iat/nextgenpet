@@ -23,6 +23,7 @@
                 <section class="page-logo text-center text-md-left">
                     <a href="{{ url('/') }}" class="mx-auto">
                         <img src="{{ asset('img/logo.png') }}"
+                             class="img-fluid"
                              alt="Activate Learning">
                     </a>
                 </section>
