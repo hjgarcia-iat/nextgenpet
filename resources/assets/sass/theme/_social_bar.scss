@@ -13,7 +13,7 @@
         width           : 40px;
         height          : 40px;
         border-radius   : 50%;
-        background      : #dedede no-repeat center center;
+        background      : black no-repeat center center;
         transition      : background-color .2s;
         position        : relative;
         display         : flex;
@@ -21,7 +21,7 @@
         justify-content : center;
 
         .fa {
-            color     : #888888;
+            color     : white;
             font-size : 16px;
         }
 
@@ -30,7 +30,7 @@
         }
 
         &:hover .fa {
-            color : #333333;
+            color : $general-color-orange;
         }
     }
 }

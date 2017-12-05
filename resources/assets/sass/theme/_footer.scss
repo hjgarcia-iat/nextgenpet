@@ -4,43 +4,49 @@
 
 .page-footer {
     @extend .mt-4;
-    padding    : 1em 0 0;
-    background : $general-color-orange;
-    color      : #ffffff;
-    border-top : 1px solid darken($general-color-orange, 10);
+    padding    : 1em  0 .5em;
+    background : #faa634;
 
     .form {
+        background: #e99c49;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        margin-bottom: 1em;
+
         .btn.btn-primary {
-            color       : $general-color-orange !important;
-            font-weight : bold;
-            background  : #ffffff;
+            color        : white !important;
+            font-weight  : bold;
+            background   : black;
+            border-color : darken(#e99c49, 5%);
         }
 
-        input.form-control, textarea.form-control {
-            background   : #e75200;
-            color        : #ffffff;
-            border-color : darken(#e75200, 2);
-            padding      : .7em;
+        input.form-control,
+        textarea.form-control {
+            border-color  : darken(#bf6122, 5);
+            border-radius : 0;
+            padding       : .7em;
+            color         : white;
+            background    : #bf6122;
         }
 
-        input.form-control::placeholder, textarea.form-control::placeholder {
-            color : #ffffff;
+        input.form-control::placeholder,
+        textarea.form-control::placeholder {
+            color          : white;
+            font-size      : 13px;
+            text-transform : uppercase;
         }
     }
 
     .footer-links {
-        margin-bottom: 2em;
-
-        a {
-            color : white;
-
-        }
-
         li {
             line-height: 1;
-            border-right  : 1px solid white;
             padding: 0 1em;
             margin: 0;
+        }
+
+        a {
+            color: black;
+            text-transform: uppercase;
         }
 
         li:last-child {
