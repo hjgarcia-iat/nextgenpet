@@ -1,3 +1,11 @@
+/**
+ * First we will load all of this project's JavaScript dependencies which
+ * includes Vue and other libraries. It is a great starting point when
+ * building robust, powerful web applications using Vue and Laravel.
+ */
+
+require('./bootstrap');
+
 $(function () {
     $('.page-side-menu a[data-file="true"]').on('click', function (e) {
         e.preventDefault();
@@ -17,11 +25,4 @@ $(function () {
     $('li.dropdown').on('show.bs.dropdown', function () {
         $(this).siblings('li').find('.dropdown-menu.shown').removeClass('shown show').slideUp();
     });
-
-    $('.sps').Stickyfill();
-
-    $('#mobileCloseBtn').bind('click', function (e) {
-        e.preventDefault();
-        $("#js-bootstrap-offcanvas").trigger("offcanvas.toggle");
-    })
 });

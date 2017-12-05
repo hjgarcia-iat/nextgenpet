@@ -1,15 +1,13 @@
 <nav class="navbar navbar-light d-sm-block d-md-none">
     <div class="container">
         <button type="button"
-                class="navbar-toggler offcanvas-toggle"
-                data-toggle="offcanvas"
-                data-target="#js-bootstrap-offcanvas">
+                class="navbar-toggler offcanvas-toggle js-offcanvas-trigger" data-offcanvas-trigger="off-canvas" href="#off-canvas">
             <span class="fa fa-navicon"></span>
         </button>
     </div>
 </nav>
 <nav class="navbar navbar-inverse bg-inverse navbar-toggleable-sm d-none navbar-offcanvas navbar-offcanvas-touch navbar-mobile"
-     id="js-bootstrap-offcanvas">
+     id="off-canvas">
     <div class="container">
         <ul class="navbar-nav">
             <li class="nav-item">
