@@ -16,16 +16,22 @@
     </div>
 </section>
 
-<header class="site-header">
-    <div class="container d-md-flex mt-4 mb-4">
-        <section class="text-sm-center text-xs-center mr-auto">
-            <a href="{{ url('/') }}" class="mx-auto">
-                <img src="{{ asset('img/logo.png') }}"
-                     alt="Activate Learning">
-            </a>
-        </section>
+<header class="site-header pt-4 pb-4">
+    <div class="container">
+        <div class="row align-items-center just-content-end">
+            <div class="col-12 col-md-4">
+                <section class="page-logo text-center text-md-left">
+                    <a href="{{ url('/') }}" class="mx-auto">
+                        <img src="{{ asset('img/logo.png') }}"
+                             alt="Activate Learning">
+                    </a>
+                </section>
+            </div>
+            <div class="col-md-8 d-flex justify-content-end">
+                @include('layouts.partials._page-header-desktop-nav')
+            </div>
+        </div>
     </div>
-    
+
     @include('layouts.partials._mobile_nav')
-    @include('layouts.partials._page-header-desktop-nav')
 </header>

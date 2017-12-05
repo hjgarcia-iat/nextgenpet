@@ -6,8 +6,7 @@
 
 $offcanvas-width : 400px !default;
 
-@import "../../../node_modules/bootstrap/scss/bootstrap";
-@import "../../../node_modules/font-awesome/scss/font-awesome";
+@import "libs/bootstrap4/scss/bootstrap";
+@import "libs/font-awesome/scss/font-awesome";
 @import "libs/offcanvas/sass/bootstrap.offcanvas";
 @import "theme/bootstrap";
-@import "_site.scss";
