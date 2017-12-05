@@ -30,7 +30,7 @@
         <section class="page-content-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 hidden-md-down">
+                    <div class="col-md-4 d-sm-none d-md-block">
                         @yield('sidebar')
                     </div>
                     <div class="col-md-8">
