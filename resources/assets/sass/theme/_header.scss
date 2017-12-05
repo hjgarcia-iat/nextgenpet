@@ -4,6 +4,10 @@
 // --------------------------------------------------
 */
 
+.site-header .page-logo {
+    padding : 1em 0;
+}
+
 .top-bar {
     background    : darken($general-color-orange, 5);
     border-bottom : 2px solid darken($general-color-orange, 30);

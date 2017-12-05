@@ -8,7 +8,10 @@
         @include('layouts.partials._page-message')
         @include('layouts.partials._page-header')
         @include('layouts.partials._page-site-title')
-        @yield('banner')
+        <section class="page-banner d-none d-md-block">
+            @yield('banner')
+        </section>
+
         <section class="page-title">
             <div class="container">
                 <div class="row">
@@ -30,7 +33,7 @@
         <section class="page-content-wrapper">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4 d-sm-none d-md-block">
+                    <div class="col-md-4 d-none d-md-block">
                         @yield('sidebar')
                     </div>
                     <div class="col-md-8">

@@ -1,4 +1,4 @@
-<section class="top-bar">
+<section class="top-bar d-none d-md-block">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 d-none d-md-flex justify-content-md-end align-items-md-center">
@@ -16,7 +16,7 @@
     </div>
 </section>
 
-<header class="site-header pt-4 pb-4">
+<header class="site-header">
     <div class="container">
         <div class="row align-items-center just-content-end">
             <div class="col-12 col-md-4">
