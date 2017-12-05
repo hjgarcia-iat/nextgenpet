@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light navbar-toggleable-sm desktop-nav d-none d-md-block">
+<nav class="navbar navbar-expand-md desktop-nav d-none d-md-block">
     <div class="container">
         <ul class="navbar-nav d-m-flex justify-content-md-around">
             <li class="nav-item {{ (Request::is('/') or Request::is('about/*') or Request::is('workshops')) ? 'active' : '' }}">
