@@ -17,7 +17,7 @@
                         We'd love to hear from you
                     </h3>
                     <div class="row">
-                        <div class="col-sm-12 col-md-8 offset-sm-0 offset-md-2">
+                        <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">

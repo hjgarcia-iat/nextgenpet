@@ -4,14 +4,13 @@
 
 .page-footer {
     @extend .mt-4;
-    padding    : 1em  0 .5em;
+    padding    : 1em 0 .5em;
     background : #faa634;
 
     .form {
-        background: #e99c49;
-        padding-top: 2em;
-        padding-bottom: 2em;
-        margin-bottom: 1em;
+        background    : #e99c49;
+        margin-bottom : 1em;
+        padding       : 2em;
 
         .btn.btn-primary {
             color        : white !important;
@@ -39,18 +38,30 @@
 
     .footer-links {
         li {
-            line-height: 1;
-            padding: 0 1em;
-            margin: 0;
+            line-height : 1;
+            padding     : 0 1em;
+            margin      : 0;
         }
 
         a {
-            color: black;
-            text-transform: uppercase;
+            color          : black;
+            text-transform : uppercase;
         }
 
         li:last-child {
             border-right : none;
         }
+    }
+}
+
+/*
+//
+// Media Queries
+// --------------------------------------------------
+*/
+@include media-breakpoint-up(md) {
+    .page-footer .form {
+        margin-left  : 0;
+        margin-right : 0;
     }
 }
