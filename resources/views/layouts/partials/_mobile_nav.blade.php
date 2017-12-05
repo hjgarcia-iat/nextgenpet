@@ -1,4 +1,4 @@
-<nav class="navbar navbar-light d-sm-block d-md-none navbar-mobile-toggle">
+<nav class="navbar navbar-light d-sm-block d-md-none">
     <div class="container">
         <button type="button"
                 class="navbar-toggler offcanvas-toggle"
