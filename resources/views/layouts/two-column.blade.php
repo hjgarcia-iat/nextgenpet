@@ -6,7 +6,7 @@
 </head>
 <body>
 <div class="w-100 h-100">
-    <div class="row h-100">
+    <div class="row row-offcanvas no-gutters h-100">
         <div class="col-3 collapse" id="off-canvas">
             @include('layouts.partials._mobile_nav')
         </div>
@@ -58,11 +58,11 @@
                     </div>
                 </div>
             </section>
+            @include('layouts.partials._page-footer')
         </div>
     </div>
 </div>
 
-@include('layouts.partials._page-footer')
 @include('layouts.partials._page-footerscripts')
 </body>
 </html>

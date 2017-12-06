@@ -1,5 +1,4 @@
-<nav class="navbar navbar-inverse bg-inverse navbar-mobile"
-     id="off-canvas">
+<nav class="navbar navbar-inverse bg-inverse navbar-mobile h-100 align-items-start">
     <div class="container">
         <ul class="navbar-nav">
             <li class="nav-item">
