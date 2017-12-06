@@ -5,7 +5,14 @@
  */
 
 require('./bootstrap');
+
 $(function () {
+
+    $('.site-menu-toggle').on('click', function (e) {
+       e.preventDefault();
+       toggleNav();
+    });
+
     $('.page-side-menu a[data-file="true"]').on('click', function (e) {
         e.preventDefault();
 
@@ -25,3 +32,19 @@ $(function () {
         $(this).siblings('li').find('.dropdown-menu.shown').removeClass('shown show').slideUp();
     });
 });
+
+/*========================================
+=            CUSTOM FUNCTIONS            =
+========================================*/
+function toggleNav() {
+    var $siteWrapper = $('.site-wrapper');
+    if ($siteWrapper.hasClass('show-nav')) {
+        // Do things on Nav Close
+        $siteWrapper.removeClass('show-nav');
+    } else {
+        // Do things on Nav Open
+        $siteWrapper.addClass('show-nav');
+    }
+
+    //$('#site-wrapper').toggleClass('show-nav');
+}

@@ -5,20 +5,20 @@
     @include('layouts.partials._page-header-styles')
 </head>
 <body>
-<div class="w-100 h-100">
-    <div class="row row-offcanvas no-gutters h-100">
-        <div class="col-3 collapse" id="off-canvas">
+<div class="site-wrapper">
+    <div class="site-canvas">
+        <div class="site-menu">
             @include('layouts.partials._mobile_nav')
         </div>
-        <div class="col">
+        <div class="site-content">
             @include('layouts.partials._page-message')
             @include('layouts.partials._page-header')
             @include('layouts.partials._page-site-title')
 
-            <nav class="navbar navbar-light d-sm-block d-md-none">
+            <nav class="navbar navbar-light">
                 <div class="container">
                     <button type="button"
-                            class="navbar-toggler" href="#off-canvas" data-toggle="collapse" data-target="#off-canvas">
+                            class="navbar-toggler site-menu-toggle" href="#off-canvas">
                         <span class="fa fa-navicon"></span>
                     </button>
                 </div>
