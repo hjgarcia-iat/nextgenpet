@@ -7,7 +7,7 @@
 .site-header .top-bar {
     background: darken($color-orange, 5);
     border-bottom: 2px solid darken($color-orange, 30);
-    color: white;
+    color: $color-white;
     .top-bar-form {
         margin-top: 5px;
         margin-bottom: 5px;
@@ -16,12 +16,12 @@
             line-height: 16px;
             border: none;
             border-radius: 0;
-            color: white;
+            color: $color-white;
             background: #bf6122;
             padding: .3em .7em;
         }
         input.form-control::placeholder {
-            color: white;
+            color: $color-white;
         }
         i,
         .btn {
@@ -30,7 +30,7 @@
         }
         .btn.btn-form {
             border: none;
-            color: white;
+            color: $color-white;
             background: black;
         }
         .btn-remove {
@@ -38,13 +38,13 @@
         }
     }
     a {
-        color: white;
+        color: $color-white;
         font-size: 14px;
         display: block;
         margin: .5em;
         cursor: pointer;
         text-transform: uppercase;
-        font-family: $font-family-sans-serif-heading;
+        font-family: $font-family-sans-serif;
         text-decoration: none;
         position: relative;
         font-weight: 600;
@@ -56,7 +56,7 @@
         height: 2px;
         bottom: 0;
         left: 0;
-        background-color: white;
+        background-color: $color-white;
         visibility: hidden;
         -webkit-transform: scaleX(0);
         transform: scaleX(0);
@@ -116,7 +116,7 @@
         color: black;
         cursor: pointer;
         text-transform: uppercase;
-        font-family: $font-family-sans-serif-heading;
+        font-family: $font-family-sans-serif;
         text-decoration: none;
         position: relative;
         padding: .2em;
@@ -142,7 +142,7 @@
         transform: scaleX(1);
     }
     .active .nav-link:before {
-        background-color: white;
+        background-color: $color-white;
     }
 }
 
