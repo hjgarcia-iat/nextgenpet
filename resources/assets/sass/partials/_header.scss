@@ -47,6 +47,7 @@
         font-family: $font-family-sans-serif-heading;
         text-decoration: none;
         position: relative;
+        font-weight: 600;
     }
     a:before {
         content: "";
@@ -111,7 +112,7 @@
     a {
         font-size: 14px;
         display: block;
-        margin: .5em;
+        margin: .3em;
         color: black;
         cursor: pointer;
         text-transform: uppercase;
@@ -119,6 +120,7 @@
         text-decoration: none;
         position: relative;
         padding: .2em;
+        font-weight: 600;
     }
     a:before {
         content: "";
