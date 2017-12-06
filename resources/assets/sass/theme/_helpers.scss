@@ -1,26 +1,8 @@
 /*
 //
-// General Site Helpers
+// GENERAL CLASS HELPERS
 // --------------------------------------------------
 */
-
-//responsive bootstrap fixes
-@include media-breakpoint-down(xs) {
-    .d-xs-flex {
-        display : -webkit-box !important;
-        display : flex !important;
-    }
-    .justify-content-xs-between {
-        -webkit-box-pack : justify !important;
-        justify-content  : space-between !important;
-    }
-
-    .text-xs-center {
-        text-align : center;
-    }
-}
-
-//General Classes
 .highlight {
     color : $general-color-orange;
 }
@@ -37,23 +19,5 @@
 
     h2 {
         font-size : 100px;
-    }
-}
-
-
-//Sticky
-//...based on position:sticky but currently has a pollyfill
-//...to get it to work
-@media (min-width : 1200px) {
-    .sps {
-        position : -webkit-sticky;
-        position : sticky;
-        top      : 1em;
-    }
-
-    .sps:before,
-    .sps:after {
-        content : '';
-        display : table;
     }
 }

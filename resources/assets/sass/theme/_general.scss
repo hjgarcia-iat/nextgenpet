@@ -596,3 +596,157 @@ hr {
 .navbar-offcanvas.navbar-mobile .dropdown-menu.shown {
     margin-bottom : 0;
 }
+
+
+/*
+//
+// Side Menu Styles for all pages
+// --------------------------------------------------
+*/
+.page-side-menu {
+
+    .card {
+        border        : none;
+        border-radius : 0;
+
+        .card a {
+            border-bottom : 1px solid #ececec;
+        }
+    }
+
+    .list-group {
+
+        .list-group-item {
+            width          : 100%;
+            color          : rgb(34, 34, 34);
+            background     : #f3f3f3;
+            margin-top     : 3px;
+            text-transform : uppercase;
+            font-size      : 12px;
+            border-radius  : 0;
+            border         : 1px solid #ececec;
+            display        : flex;
+        }
+
+        .list-group-item:hover, .list-group-item.active {
+            background   : $general-color-orange;
+            color        : white;
+            border-color : $general-color-orange;
+        }
+
+        .list-group-item.active {
+            cursor      : default;
+            font-weight : normal;
+        }
+
+        .list-group-item span {
+            width : 80%;
+        }
+
+        .list-group-item.active:after {
+            font-family : 'FontAwesome';
+            content     : "\f054";
+            font-weight : normal;
+            margin-left : auto;
+        }
+
+        .sublink.collapsed, .sublink {
+            &:after {
+                content     : "\f13a";
+                display     : inline-block;
+                margin-left : auto;
+            }
+        }
+
+        .sublink {
+            &:after {
+                font-family : 'FontAwesome';
+                content     : "\f139";
+            }
+        }
+
+        .sublinks {
+            margin-left : 25px;
+
+            .list-group-item:first-child {
+                border-top-left-radius  : 0;
+                border-top-right-radius : 0;
+            }
+
+            .list-group-item:last-child {
+                border-bottom-left-radius  : 0;
+                border-bottom-right-radius : 0;
+            }
+        }
+    }
+}
+
+/*
+//
+// Sidebar Styles
+// --------------------------------------------------
+*/
+.navmenu-inverse {
+    background : #2a2a2a;
+
+    li {
+        background : #212121;
+        margin     : 5px 20px;
+
+        a {
+            text-transform : uppercase;
+            font-size      : 14px;
+        }
+    }
+
+    li.dropdown {
+        margin-bottom : 0;
+
+        li:first-child {
+            margin-top : 0;
+        }
+
+        li {
+            background : none;
+            a {
+                font-size   : 13px;
+                white-space : normal;
+            }
+        }
+    }
+}
+
+.nav {
+    .social-icons {
+        background : #2a2a2a;
+        a {
+            float         : left;
+            display       : inline-block;
+            padding       : 5px 10px;
+            margin        : 5px;
+            background    : #111111 !important;
+            color         : white !important;
+            border-radius : 50%;
+        }
+
+        a:hover {
+            color      : white !important;
+            background : #111111 !important;
+        }
+    }
+}
+
+/*
+//
+// Menu
+// --------------------------------------------------
+*/
+@include media-breakpoint-up(md) {
+    #menu.affix {
+        position  : fixed;
+        min-width : 300px;
+        top       : 70px;
+        //-webkit-transform : translate3d(0, 0, 0);
+        //transform         : translate3d(0, 0, 0);
+    }
+}

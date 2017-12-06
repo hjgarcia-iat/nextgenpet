@@ -65,3 +65,51 @@
         margin-right : 0;
     }
 }
+
+/*
+//
+// SOCIAL BAR
+// --------------------------------------------------
+*/
+.social-bar {
+    align-self : center;
+    ul {
+        display         : flex;
+        margin-top      : 1em;
+        margin-bottom   : 0 !important;
+        padding-bottom  : 0 !important;
+        justify-content : center;
+    }
+
+    a {
+        margin          : 0 .25em;
+        width           : 40px;
+        height          : 40px;
+        border-radius   : 50%;
+        background      : black no-repeat center center;
+        transition      : background-color .2s;
+        position        : relative;
+        display         : flex;
+        align-items     : center;
+        justify-content : center;
+
+        .fa {
+            color     : white;
+            font-size : 16px;
+        }
+
+        &:hover {
+            text-decoration : none;
+        }
+
+        &:hover .fa {
+            color : $general-color-orange;
+        }
+    }
+}
+
+@media (min-width : 768px) {
+    .social-bar ul {
+        margin-top : 0;
+    }
+}

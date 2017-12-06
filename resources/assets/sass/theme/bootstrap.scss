@@ -2,17 +2,11 @@
 @import "variables";
 //general helpers
 @import "helpers";
+//general animations
+@import "animations";
 //site wide styles
 @import "general";
 //header styles
 @import "header";
-//title bar styles
-@import "title_bar";
-//social bar styles
-@import "social_bar";
 //main footer styles
 @import "footer";
-//sidebar styles
-@import "sidebar";
-//general animations
-@import "animations";
