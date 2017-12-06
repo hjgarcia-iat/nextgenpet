@@ -23,10 +23,8 @@ mix.webpackConfig({
     plugins: [
         new BrowserSyncPlugin({
             files: [
-                'app/**/*',
-                'public/**/*',
-                'resources/views/**/*',
-                'routes/**/*'
+                'public/css/*.css',
+                'public/js/*.js'
             ],
             proxy: 'nextgenpet.al.dev'
         })
