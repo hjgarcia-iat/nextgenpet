@@ -6,7 +6,7 @@
 
 body {
     font-family : $font-family-sans-serif-text;
-    color       : $general-color-dark-gray;
+    color       : $color-dark-gray;
     line-height : 1.6;
 }
 
@@ -61,7 +61,7 @@ h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
 */
 /* unvisited link */
 a:link {
-    color  : $general-color-orange;
+    color  : $color-orange;
     cursor : pointer;
 }
 
@@ -71,18 +71,18 @@ button {
 
 /* visited link */
 a:visited {
-    color : $general-color-orange;
+    color : $color-orange;
 }
 
 /* mouse over link */
 a:hover {
-    color           : darken($general-color-orange, 15%);
+    color           : darken($color-orange, 15%);
     text-decoration : underline;
 }
 
 /* selected link */
 a:active {
-    color : $general-color-orange;
+    color : $color-orange;
 }
 
 .btn {
@@ -94,12 +94,12 @@ a:active {
 }
 
 .btn-primary {
-    background   : $general-color-orange;
-    border-color : darken($general-color-orange, 5%);
+    background   : $color-orange;
+    border-color : darken($color-orange, 5%);
 
     &:hover {
-        background   : darken($general-color-orange, 10%);
-        border-color : lighten($general-color-orange, 15%);
+        background   : darken($color-orange, 10%);
+        border-color : lighten($color-orange, 15%);
     }
 }
 
@@ -111,7 +111,7 @@ a:active {
 }
 
 .btn-link:hover {
-    color           : darken($general-color-orange, 15%);
+    color           : darken($color-orange, 15%);
     text-decoration : none;
     &:after {
         text-decoration : none;
@@ -120,10 +120,10 @@ a:active {
 
 .btn-default {
     background : #cccccc !important;
-    color      : $general-color-dark-gray !important;
+    color      : $color-dark-gray !important;
     &:hover {
         background   : darken(#cccccc, 10%) !important;
-        border-color : lighten($general-color-dark-gray, 15%) !important;
+        border-color : lighten($color-dark-gray, 15%) !important;
     }
 }
 
@@ -174,7 +174,7 @@ a:active {
 }
 
 .form-control:focus {
-    border-color : $general-color-orange;
+    border-color : $color-orange;
     box-shadow   : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
 }
 
@@ -188,7 +188,7 @@ a:active {
         margin-bottom : .5em;
         font-family   : $font-family-sans-serif-text;
         a {
-            color       : $general-color-dark-gray;
+            color       : $color-dark-gray;
             cursor      : pointer;
             font-family : $font-family-sans-serif-text;
         }
@@ -196,7 +196,7 @@ a:active {
 }
 
 .fa-ul li a:hover {
-    color           : darken($general-color-orange, 15%);
+    color           : darken($color-orange, 15%);
     text-decoration : underline;
 }
 
@@ -289,14 +289,14 @@ a:active {
     font-size : 15px;
 
     thead th {
-        background     : $general-color-orange;
+        background     : $color-orange;
         color          : white;
         text-align     : center;
         vertical-align : middle;
     }
 
     tr td a {
-        color           : $general-color-orange !important;
+        color           : $color-orange !important;
         display         : block;
         width           : 100%;
         height          : 100%;
@@ -304,7 +304,7 @@ a:active {
     }
 
     tr td.cell-link:hover {
-        background : $general-color-orange;
+        background : $color-orange;
     }
 
     tr.highlight td {
@@ -322,7 +322,7 @@ a:active {
 */
 .panel.panel-primary {
     .panel-heading {
-        background   : $general-color-orange;
+        background   : $color-orange;
         border-color : #dddddd;
     }
 
@@ -352,7 +352,7 @@ hr {
 
 .pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
     color      : #ffffff;
-    background : $general-color-orange;
+    background : $color-orange;
 }
 
 .pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
@@ -629,9 +629,9 @@ hr {
         }
 
         .list-group-item:hover, .list-group-item.active {
-            background   : $general-color-orange;
+            background   : $color-orange;
             color        : white;
-            border-color : $general-color-orange;
+            border-color : $color-orange;
         }
 
         .list-group-item.active {

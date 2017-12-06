@@ -3,16 +3,12 @@
 // Variables and Classes to Mix In
 // --------------------------------------------------
 */
-
-//Offcanvas width for main page sidebar
-$offcanvas-width : 400px !default;
-
 //general colors
-$general-color-light-gray : #fafafa;
-$general-color-white : #fefefe;
-$general-color-orange : #e69135;
-$general-color-dark-gray : #222222;
-$input-border-focus : $general-color-orange;
+$color-light-gray : #fafafa;
+$color-white : #fefefe;
+$color-orange : #e69135;
+$color-dark-gray : #222222;
+$input-border-focus : $color-orange;
 
 //general text
 $font-family-sans-serif-text : Arial, "Helvetica Neue", Helvetica, sans-serif;

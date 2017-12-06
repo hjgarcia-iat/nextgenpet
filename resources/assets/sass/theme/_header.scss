@@ -13,8 +13,8 @@
 // --------------------------------------------------
 */
 .top-bar {
-    background    : darken($general-color-orange, 5);
-    border-bottom : 2px solid darken($general-color-orange, 30);
+    background    : darken($color-orange, 5);
+    border-bottom : 2px solid darken($color-orange, 30);
     color         : white;
 
     .top-bar-form {
@@ -113,7 +113,7 @@
 .main-navbar {
 
     .active .nav-link {
-        color : $general-color-orange;
+        color : $color-orange;
     }
 
     a {
