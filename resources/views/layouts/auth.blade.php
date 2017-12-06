@@ -5,7 +5,6 @@
         @include('layouts.partials._page-header-styles')
     </head>
     <body class="h-100">
-        @include('layouts.partials._page-message')
         <div class="page-wrapper h-100 d-flex flex-column">
             <div class="site-header-wrapper">
                 @include('layouts.partials._page-header')

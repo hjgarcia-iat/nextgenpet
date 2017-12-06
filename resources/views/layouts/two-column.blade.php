@@ -13,8 +13,6 @@
         <div class="site-content">
             @include('layouts.partials._page-header')
             @include('layouts.partials._page-site-title')
-
-
             <section class="page-banner d-none d-md-block">
                 @yield('banner')
             </section>

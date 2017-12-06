@@ -5,7 +5,6 @@
         @include('layouts.partials._page-header-styles')
     </head>
     <body>
-        @include('layouts.partials._page-message')
         @include('layouts.partials._page-header')
         @include('layouts.partials._page-site-title')
         @yield('banner')

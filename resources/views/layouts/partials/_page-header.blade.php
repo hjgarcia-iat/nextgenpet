@@ -1,5 +1,4 @@
 <header class="site-header">
-
 	<nav class="navbar navbar-dark bg-dark d-block d-md-none">
 		<div class="container">
 			<button type="button" class="navbar-toggler site-menu-toggle" href="#off-canvas">
@@ -7,9 +6,6 @@
 			</button>
 		</div>
 	</nav>
-    
-	@include('layouts.partials._page-message')
-
 	<section class="top-bar d-none d-md-block">
 		<div class="container">
 			<div class="row justify-content-center">
@@ -31,6 +27,8 @@
 			</div>
 		</div>
 	</section>
+	
+	@include('layouts.partials._page-message')
 
 	<div class="container">
 		<div class="row align-items-center just-content-end">
