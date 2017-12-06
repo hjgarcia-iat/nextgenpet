@@ -5,7 +5,6 @@
  */
 
 require('./bootstrap');
-
 $(function () {
     $('.page-side-menu a[data-file="true"]').on('click', function (e) {
         e.preventDefault();

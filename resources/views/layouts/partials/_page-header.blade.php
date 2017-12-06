@@ -34,5 +34,4 @@
         </div>
     </div>
 
-    @include('layouts.partials._mobile_nav')
 </header>
