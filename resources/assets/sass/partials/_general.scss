@@ -213,7 +213,8 @@ h6 sup {
     .list-group {
         .list-group-item {
             width: 100%;
-            color: rgb(34, 34, 34);
+            color: black;
+            font-weight: bold;
             background: #f3f3f3;
             margin-top: 3px;
             text-transform: uppercase;
@@ -230,7 +231,6 @@ h6 sup {
         }
         .list-group-item.active {
             cursor: default;
-            font-weight: normal;
         }
         .list-group-item span {
             width: 80%;
@@ -238,7 +238,6 @@ h6 sup {
         .list-group-item.active:after {
             font-family: 'FontAwesome';
             content: "\f054";
-            font-weight: normal;
             margin-left: auto;
         }
         .sublink.collapsed,
