@@ -11,18 +11,8 @@
             @include('layouts.partials._mobile_nav')
         </div>
         <div class="site-content">
-            <nav class="navbar navbar-dark bg-dark d-block d-md-none">
-                <div class="container">
-                    <button type="button"
-                            class="navbar-toggler site-menu-toggle" href="#off-canvas">
-                        <span class="fa fa-navicon"></span>
-                    </button>
-                </div>
-            </nav>
-            @include('layouts.partials._page-message')
             @include('layouts.partials._page-header')
             @include('layouts.partials._page-site-title')
-
 
 
             <section class="page-banner d-none d-md-block">

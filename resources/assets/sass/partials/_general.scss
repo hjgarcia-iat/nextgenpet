@@ -1,600 +1,198 @@
 /*
 //
-// General
+// GENERAL
 // --------------------------------------------------
 */
 
 body {
-    font-family : $font-family-sans-serif-text;
-    color       : $color-dark-gray;
-    line-height : 1.6;
+    font-family: $font-family-sans-serif-text;
+    color: $color-dark-gray;
+    line-height: 1.6;
 }
 
+
 /* keep full widget on smaller screens */
-@media (max-width : 767px) {
+
+@media (max-width: 767px) {
     body {
-        padding-left  : 0 !important;
-        padding-right : 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family    : $font-family-sans-serif-heading;
-    text-transform : uppercase;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $font-family-sans-serif-heading;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
-sub, sup {
+sub,
+sup {
     /* Specified in % so that the sup/sup is the
        right size relative to the surrounding text */
-    font-size      : 75%;
+    font-size: 75%;
     /* Zero out the line-height so that it doesn't
        interfere with the positioning that follows */
-    line-height    : 0;
+    line-height: 0;
     /* Where the magic happens: makes all browsers position
        the sup/sup properly, relative to the surrounding text */
-    position       : relative;
+    position: relative;
     /* Note that if you're using Eric Meyer's reset.css, this
        is already set and you can remove this rule */
-    vertical-align : baseline;
+    vertical-align: baseline;
 }
 
 sup {
     /* Move the superscripted text up */
-    top : -0.5em;
+    top: -0.5em;
 }
 
 sub {
     /* Move the subscripted text down, but only
        half as far down as the superscript moved up */
-    bottom : -0.25em;
+    bottom: -0.25em;
 }
 
-h1 sup, h2 sup, h3 sup, h4 sup, h5 sup, h6 sup {
-    font-size : .45em;
-    top       : -1.2em;
+h1 sup,
+h2 sup,
+h3 sup,
+h4 sup,
+h5 sup,
+h6 sup {
+    font-size: .45em;
+    top: -1.2em;
 }
+
 
 /*
 //
-// Buttons and General Links Styles
+// PAGE TITLE
 // --------------------------------------------------
 */
-/* unvisited link */
-a:link {
-    color  : $color-orange;
-    cursor : pointer;
-}
 
-button {
-    cursor : pointer;
-}
-
-/* visited link */
-a:visited {
-    color : $color-orange;
-}
-
-/* mouse over link */
-a:hover {
-    color           : darken($color-orange, 15%);
-    text-decoration : underline;
-}
-
-/* selected link */
-a:active {
-    color : $color-orange;
-}
-
-.btn {
-    color          : #ffffff !important;
-    border-radius  : 0;
-    font-family    : $font-family-sans-serif-heading;
-    text-transform : uppercase;
-    cursor         : pointer;
-}
-
-.btn-primary {
-    background   : $color-orange;
-    border-color : darken($color-orange, 5%);
-
-    &:hover {
-        background   : darken($color-orange, 10%);
-        border-color : lighten($color-orange, 15%);
-    }
-}
-
-.btn-link {
-    &:after {
-        content     : "\2192";
-        margin-left : 5px;
-    }
-}
-
-.btn-link:hover {
-    color           : darken($color-orange, 15%);
-    text-decoration : none;
-    &:after {
-        text-decoration : none;
-    }
-}
-
-.btn-default {
-    background : #cccccc !important;
-    color      : $color-dark-gray !important;
-    &:hover {
-        background   : darken(#cccccc, 10%) !important;
-        border-color : lighten($color-dark-gray, 15%) !important;
-    }
-}
-
-/*
-//
-// Alerts
-// --------------------------------------------------
-*/
-.alert {
-    border-radius : 0;
-    border-top    : none;
-}
-
-/*
-//
-// Images
-// --------------------------------------------------
-*/
-.img-circle {
-    border-radius : 50%;
-}
-
-/*
-//
-// Forms
-// --------------------------------------------------
-*/
-.form-control {
-    color         : #292b2c;
-    border        : 1px solid rgba(0, 0, 0, 0.15);
-    border-radius : 0;
-}
-
-.form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-    color : #cccccc;
-}
-
-.form-control::-moz-placeholder { /* Firefox 19+ */
-    color : #cccccc;
-}
-
-.form-control:-ms-input-placeholder { /* IE 10+ */
-    color : #cccccc;
-}
-
-.form-control:-moz-placeholder { /* Firefox 18- */
-    color : #cccccc;
-}
-
-.form-control:focus {
-    border-color : $color-orange;
-    box-shadow   : inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(191, 111, 34, 0.6);
-}
-
-/*
-//
-// Styles for lists with icons
-// --------------------------------------------------
-*/
-.fa-ul {
-    li {
-        margin-bottom : .5em;
-        font-family   : $font-family-sans-serif-text;
-        a {
-            color       : $color-dark-gray;
-            cursor      : pointer;
-            font-family : $font-family-sans-serif-text;
-        }
-    }
-}
-
-.fa-ul li a:hover {
-    color           : darken($color-orange, 15%);
-    text-decoration : underline;
-}
-
-/*
-//
-// For Medium Screen and Up Styles
-// --------------------------------------------------
-*/
-@include media-breakpoint-up(md) {
-
-    //the code below achieves a footer
-
-    html {
-        height : 100%;
-    }
-
-    body {
-        display        : flex;
-        min-height     : 100%;
-        flex-direction : column;
-    }
-
-    .page-content-wrapper {
-        flex : 1 0 auto;
-    }
-}
-
-/*
-//
-// PageTitle
-// --------------------------------------------------
-*/
 .page-title {
-    margin-bottom : 2em;
-    background    : #f3f3f3;
-    padding       : 1em 0;
-    border-bottom : 1px solid #ececec;
-
+    margin-bottom: 2em;
+    background: #f3f3f3;
+    padding: 1em 0;
+    border-bottom: 1px solid #ececec;
     h2 {
-        margin    : 0;
-        padding   : 0;
-        font-size : 30px !important;
+        margin: 0;
+        padding: 0;
+        font-size: 30px !important;
     }
 }
 
-/*
-//
-// Bootstrap cards
-// --------------------------------------------------
-*/
-.card {
-    border-radius : 0;
-
-    .card-header a, .card-header a:hover {
-        color           : #222222;
-        text-decoration : none;
-    }
-}
-
-/*
-//
-// Wells
-// --------------------------------------------------
-*/
-.well {
-    background : #f9f9f9;
-    padding    : 3em;
-    margin     : 2em;
-    border     : 1px solid #d3d3d3;
-
-    .btn {
-        white-space : normal;
-    }
-}
-
-@include media-breakpoint-up(md) {
-    .well-error {
-        h2 {
-            font-size : 100px;
-        }
-    }
-}
-
-/*
-//
-// Tables
-// --------------------------------------------------
-*/
-.table {
-    font-size : 15px;
-
-    thead th {
-        background     : $color-orange;
-        color          : white;
-        text-align     : center;
-        vertical-align : middle;
-    }
-
-    tr td a {
-        color           : $color-orange !important;
-        display         : block;
-        width           : 100%;
-        height          : 100%;
-        text-decoration : none;
-    }
-
-    tr td.cell-link:hover {
-        background : $color-orange;
-    }
-
-    tr.highlight td {
-        background     : #c7642c;
-        color          : white;
-        text-align     : center;
-        vertical-align : middle;
-    }
-}
-
-/*
-//
-// Panels
-// --------------------------------------------------
-*/
-.panel.panel-primary {
-    .panel-heading {
-        background   : $color-orange;
-        border-color : #dddddd;
-    }
-
-    border-color : #dddddd;
-}
-
-/*
-//
-// Horizontal Rules
-// --------------------------------------------------
-*/
-
-hr {
-    margin     : 40px 0 40px;
-    border-top : 1px dashed #cccccc;
-}
-
-/*
-//
-// Paginations
-// --------------------------------------------------
-*/
-
-.pagination > li > a, .pagination > li > span {
-    color : #222222;
-}
-
-.pagination > li > a:hover, .pagination > li > a:focus, .pagination > li > span:hover, .pagination > li > span:focus {
-    color      : #ffffff;
-    background : $color-orange;
-}
-
-.pagination > .active > a, .pagination > .active > a:hover, .pagination > .active > a:focus, .pagination > .active > span, .pagination > .active > span:hover, .pagination > .active > span:focus {
-    z-index          : 3;
-    color            : #222222;
-    background-color : #dddddd;
-    border-color     : #dddddd;
-    cursor           : default;
-}
-
-/*
-//
-// List Groups
-// --------------------------------------------------
-*/
-.list-group {
-
-    .list-group-item {
-        width          : 100%;
-        color          : #898989;
-        background     : #fafafa;
-        margin-top     : 3px;
-        text-transform : uppercase;
-        font-size      : 12px;
-        border-radius  : 0;
-        border         : 1px solid #e3e3e3;
-    }
-
-    .list-group-item:hover, .list-group-item.active {
-        background   : #f68d2d;
-        color        : white;
-        border-color : #f68d2d;
-    }
-
-    .list-group-item.active {
-        cursor      : default;
-        font-weight : bold;
-    }
-}
-
-/*
-//
-// Media objects
-// --------------------------------------------------
-*/
-
-.media-block {
-    margin : 40px 20px;
-}
-
-.media-list {
-    .media {
-        padding       : 20px 0 40px;
-        border-bottom : 1px dashed #dddddd;
-
-        &:last-child {
-            border-bottom : none;
-        }
-    }
-}
-
-/*
-//
-// Carousel
-// --------------------------------------------------
-*/
-
-.carousel .item .active {
-    height : 300px;
-}
-
-.carousel-inner {
-    height : 300px;
-}
-
-.fill {
-    width               : 100%;
-    height              : 300px;
-    background-position : center;
-    background-size     : cover;
-}
-
-.banner-image {
-    .fill {
-        height : 300px;
-    }
-
-    position : relative;
-
-    .banner-box {
-        background    : rgba(0, 0, 0, .75);
-        padding       : 20px;
-        color         : #ffffff;
-        border-radius : 5px;
-        margin-top    : 30px;
-    }
-}
-
-/* faster sliding speed */
-.carousel-inner > .item {
-    -webkit-transition : 0.3s ease-in-out left;
-    -moz-transition    : 0.3s ease-in-out left;
-    -o-transition      : 0.3s ease-in-out left;
-    transition         : 0.3s ease-in-out left;
-}
-
-.container.carousel-container {
-    padding-left  : 0 !important;
-    padding-right : 0 !important;
-}
-
-/*
-//
-// SPS - AT THIS POINT NOT USED
-// --------------------------------------------------
-*/
-@media (min-width : 1200px) {
-    .sps {
-        position : -webkit-sticky;
-        position : sticky;
-        top      : 1em;
-    }
-
-    .sps:before,
-    .sps:after {
-        content : '';
-        display : table;
-    }
-}
 
 /*
 //
 // OFF CANVAS STYLES
 // --------------------------------------------------
 */
+
 .site-wrapper {
-    position : relative;
-    overflow : hidden;
-    width    : 100%;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
 }
 
 .site-canvas {
-    width                       : 100%;
-    height                      : 100%;
-    position                    : relative;
-    -webkit-transform           : translateX(0);
-    transform                   : translateX(0);
-
-    -webkit-transform           : translate3d(0, 0, 0);
-    transform                   : translate3d(0, 0, 0);
-
-    -webkit-transition          : 300ms ease all;
-    transition                  : 300ms ease all;
-
-    -webkit-backface-visibility : hidden;
-    backface-visibility         : hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -webkit-transition: 300ms ease all;
+    transition: 300ms ease all;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
 }
 
 .show-nav .site-canvas {
-    -webkit-transform : translateX(300px);
-    transform         : translateX(300px);
-
-    -webkit-transform : translate3d(300px, 0, 0);
-    transform         : translate3d(300px, 0, 0);
+    -webkit-transform: translateX(300px);
+    transform: translateX(300px);
+    -webkit-transform: translate3d(300px, 0, 0);
+    transform: translate3d(300px, 0, 0);
 }
 
 .site-menu {
-    width      : 300px;
-    height     : 100%;
-    position   : absolute;
-    top        : 0;
-    left       : -300px;
-    background : #343a40 !important;
+    width: 300px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -300px;
+    background: #343a40 !important;
 }
 
 .navbar-mobile-toggle {
-    background-color : #fdfdfd;
-    border-top       : 1px solid #f3f3f3;
-    border-bottom    : 1px solid #f3f3f3;
-
+    background-color: #fdfdfd;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #f3f3f3;
     .container {
-        margin-left  : 0;
-        margin-right : 0;
-        padding-left : 0;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
     }
 }
 
 .navbar-mobile {
-    padding : 0;
-
+    padding: 0;
     .navbar-nav {
-        width : 100%;
+        width: 100%;
     }
-
     a {
-        color     : #81858d !important;
-        font-size : 16px;
+        color: #81858d !important;
+        font-size: 16px;
     }
-
-    a:hover, a:active, a:focus, a:visited {
-        background : none;
-        color      : #81858d !important;
-    }
-
-    .nav-item a:hover, .dropdown a:hover, .nav-item.active > a, a.active, a.active:hover {
+    a:hover,
+    a:active,
+    a:focus,
+    a:visited {
         background: none;
-        color : white !important;
+        color: #81858d !important;
     }
-
-    .nav-item > a {
-        background   : #343a40;
-        padding-left : 10px;
+    .nav-item a:hover,
+    .dropdown a:hover,
+    .nav-item.active>a,
+    a.active,
+    a.active:hover {
+        background: none;
+        color: white !important;
     }
-
+    .nav-item>a {
+        background: #343a40;
+        padding-left: 10px;
+    }
     .dropdown-menu {
-        background     : #171d23;
-        border-radius  : 0;
-        padding-top    : 0;
-        padding-bottom : 0;
-        margin-top     : 0;
-
+        background: #171d23;
+        border-radius: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-top: 0;
         .dropdown-item {
-            white-space : normal;
-
+            white-space: normal;
             &:last-child {
-                border-bottom : none;
+                border-bottom: none;
             }
         }
     }
-
     .sublinks {
-        margin     : 0 15px;
-        background : #0d131a;
-
+        margin: 0 15px;
+        background: #0d131a;
         a.dropdown-item {
-            border : none;
+            border: none;
         }
     }
 }
 
 .navbar-offcanvas.navbar-mobile .dropdown-menu.shown {
-    margin-bottom : 0;
+    margin-bottom: 0;
 }
 
 
@@ -603,114 +201,101 @@ hr {
 // Side Menu Styles for all pages
 // --------------------------------------------------
 */
+
 .page-side-menu {
-
     .card {
-        border        : none;
-        border-radius : 0;
-
+        border: none;
+        border-radius: 0;
         .card a {
-            border-bottom : 1px solid #ececec;
+            border-bottom: 1px solid #ececec;
         }
     }
-
     .list-group {
-
         .list-group-item {
-            width          : 100%;
-            color          : rgb(34, 34, 34);
-            background     : #f3f3f3;
-            margin-top     : 3px;
-            text-transform : uppercase;
-            font-size      : 12px;
-            border-radius  : 0;
-            border         : 1px solid #ececec;
-            display        : flex;
+            width: 100%;
+            color: rgb(34, 34, 34);
+            background: #f3f3f3;
+            margin-top: 3px;
+            text-transform: uppercase;
+            font-size: 12px;
+            border-radius: 0;
+            border: 1px solid #ececec;
+            display: flex;
         }
-
-        .list-group-item:hover, .list-group-item.active {
-            background   : $color-orange;
-            color        : white;
-            border-color : $color-orange;
-        }
-
+        .list-group-item:hover,
         .list-group-item.active {
-            cursor      : default;
-            font-weight : normal;
+            background: $color-orange;
+            color: white;
+            border-color: $color-orange;
         }
-
+        .list-group-item.active {
+            cursor: default;
+            font-weight: normal;
+        }
         .list-group-item span {
-            width : 80%;
+            width: 80%;
         }
-
         .list-group-item.active:after {
-            font-family : 'FontAwesome';
-            content     : "\f054";
-            font-weight : normal;
-            margin-left : auto;
+            font-family: 'FontAwesome';
+            content: "\f054";
+            font-weight: normal;
+            margin-left: auto;
         }
-
-        .sublink.collapsed, .sublink {
-            &:after {
-                content     : "\f13a";
-                display     : inline-block;
-                margin-left : auto;
-            }
-        }
-
+        .sublink.collapsed,
         .sublink {
             &:after {
-                font-family : 'FontAwesome';
-                content     : "\f139";
+                content: "\f13a";
+                display: inline-block;
+                margin-left: auto;
             }
         }
-
-        .sublinks {
-            margin-left : 25px;
-
-            .list-group-item:first-child {
-                border-top-left-radius  : 0;
-                border-top-right-radius : 0;
+        .sublink {
+            &:after {
+                font-family: 'FontAwesome';
+                content: "\f139";
             }
-
+        }
+        .sublinks {
+            margin-left: 25px;
+            .list-group-item:first-child {
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+            }
             .list-group-item:last-child {
-                border-bottom-left-radius  : 0;
-                border-bottom-right-radius : 0;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
             }
         }
     }
 }
+
 
 /*
 //
 // Sidebar Styles
 // --------------------------------------------------
 */
+
 .navmenu-inverse {
-    background : #2a2a2a;
-
+    background: #2a2a2a;
     li {
-        background : #212121;
-        margin     : 5px 20px;
-
+        background: #212121;
+        margin: 5px 20px;
         a {
-            text-transform : uppercase;
-            font-size      : 14px;
+            text-transform: uppercase;
+            font-size: 14px;
         }
     }
-
     li.dropdown {
-        margin-bottom : 0;
-
+        margin-bottom: 0;
         li:first-child {
-            margin-top : 0;
+            margin-top: 0;
         }
-
         li {
-            background : none;
+            background: none;
             a {
-                font-size   : 13px;
-                white-space : normal;
+                font-size: 13px;
+                white-space: normal;
             }
         }
     }
@@ -718,35 +303,35 @@ hr {
 
 .nav {
     .social-icons {
-        background : #2a2a2a;
+        background: #2a2a2a;
         a {
-            float         : left;
-            display       : inline-block;
-            padding       : 5px 10px;
-            margin        : 5px;
-            background    : #111111 !important;
-            color         : white !important;
-            border-radius : 50%;
+            float: left;
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 5px;
+            background: #111111 !important;
+            color: white !important;
+            border-radius: 50%;
         }
-
         a:hover {
-            color      : white !important;
-            background : #111111 !important;
+            color: white !important;
+            background: #111111 !important;
         }
     }
 }
+
 
 /*
 //
 // Menu
 // --------------------------------------------------
 */
+
 @include media-breakpoint-up(md) {
     #menu.affix {
-        position  : fixed;
-        min-width : 300px;
-        top       : 70px;
-        //-webkit-transform : translate3d(0, 0, 0);
+        position: fixed;
+        min-width: 300px;
+        top: 70px; //-webkit-transform : translate3d(0, 0, 0);
         //transform         : translate3d(0, 0, 0);
     }
 }

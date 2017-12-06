@@ -1,37 +1,50 @@
-<section class="top-bar d-none d-md-block">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-12 d-none d-md-flex justify-content-md-end align-items-md-center">
-                <nav class="top-bar-navigation">
-                    <ul class="list-unstyled list-inline d-flex">
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a target="_blank" href="http://shop.iat.com">Shop</a></li>
-                        <li>
-                            <a href="tel:646-502-5231">646-502-5231</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </div>
-</section>
-
 <header class="site-header">
-    <div class="container">
-        <div class="row align-items-center just-content-end">
-            <div class="col-12 col-md-4">
-                <section class="page-logo text-center text-md-left">
-                    <a href="{{ url('/') }}" class="mx-auto">
-                        <img src="{{ asset('img/logo.png') }}"
-                             class="img-fluid"
-                             alt="Activate Learning">
-                    </a>
-                </section>
-            </div>
-            <div class="col-md-8 d-flex justify-content-end">
-                @include('layouts.partials._page-header-desktop-nav')
-            </div>
-        </div>
-    </div>
+
+	<nav class="navbar navbar-dark bg-dark d-block d-md-none">
+		<div class="container">
+			<button type="button" class="navbar-toggler site-menu-toggle" href="#off-canvas">
+				<span class="fa fa-navicon"></span>
+			</button>
+		</div>
+	</nav>
+    
+	@include('layouts.partials._page-message')
+
+	<section class="top-bar d-none d-md-block">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-12 d-none d-md-flex justify-content-md-end align-items-md-center">
+					<nav class="top-bar-navigation">
+						<ul class="list-unstyled list-inline d-flex">
+							<li>
+								<a href="#contact">Contact Us</a>
+							</li>
+							<li>
+								<a target="_blank" href="http://shop.iat.com">Shop</a>
+							</li>
+							<li>
+								<a href="tel:646-502-5231">646-502-5231</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<div class="container">
+		<div class="row align-items-center just-content-end">
+			<div class="col-12 col-md-4">
+				<section class="page-logo text-center text-md-left">
+					<a href="{{ url('/') }}" class="mx-auto">
+						<img src="{{ asset('img/logo.png') }}" class="img-fluid" alt="Activate Learning">
+					</a>
+				</section>
+			</div>
+			<div class="col-md-8 d-flex justify-content-end">
+				@include('layouts.partials._page-header-desktop-nav')
+			</div>
+		</div>
+	</div>
 
 </header>
