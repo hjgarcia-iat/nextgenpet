@@ -12,7 +12,7 @@
 
 @if(env('APP_TRACK') == 1)
     <meta name="robots" content="all"/>
-    @else
+@else
     <meta name="robots" content="noindex"/>
 @endif
 @if(isset($appError))

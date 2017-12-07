@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	@include('layouts.partials._page-header-meta') 
+    @include('layouts.partials._page-header-meta')
     @include('layouts.partials._page-header-styles')
 </head>
-
 <body>
-	<div class="site-menu">
-		<div class="site-canvas">
+	<div class="site-wrapper">
+        <div class="site-canvas">
             <aside class="site-menu">
                 @include('layouts.partials._mobile_nav')
             </aside>
@@ -26,8 +25,8 @@
                     </div>
                 </section>
             </section>
-		</div>
-	</div>
+        </div>
+    </div>
 </body>
 
 </html>
