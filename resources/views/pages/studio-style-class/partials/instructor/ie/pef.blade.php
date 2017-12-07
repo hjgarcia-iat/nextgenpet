@@ -181,7 +181,16 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC/index.html">Extension Online (HTML5)
-                        Magnet & Compass Simulation
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnet-and-compass">Magnet & Compass Simulation
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/charges-and-fields">
                         Charges & Field Simulation
                     </a>
                 </li>
@@ -246,7 +255,11 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtD/index.html">Extension Online (HTML5)
-                        Energy Skate Park Simulation
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/energy-skate-park-basics">Energy Skate Park Simulation
                     </a>
                 </li>
             </ul>
@@ -318,7 +331,11 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)
-                        Generator Simulation
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/generator">Generator Simulation
                     </a>
                 </li>
             </ul>

@@ -73,6 +73,10 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5) Electric Field Hockey Simulation</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/electric-hockey">Electric Field Hockey Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -197,7 +201,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/balloons">Extension Online (HTML5) Electric Field Hockey Simulation</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/balloons">Balloons and Static Electricity Simulation</a>
                 </li>
             </ul>
         </div>
@@ -268,6 +276,10 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtE/index.html">Extension Onlin (HTML5) John Travoltage Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/travoltage">John Travoltage Simulation</a>
                 </li>
             </ul>
         </div>

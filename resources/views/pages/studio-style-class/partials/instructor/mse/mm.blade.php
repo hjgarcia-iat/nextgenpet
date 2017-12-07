@@ -78,7 +78,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnet-and-compass">Extension Online (HTML5) Magnet & Compass Simulation</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/M/ExtA/MSE_M_ExtA/index.html">Extension Online (HTML5) Magnet & Compass Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnet-and-compass">Magnet & Compass Simulation</a>
                 </li>
             </ul>
         </div>

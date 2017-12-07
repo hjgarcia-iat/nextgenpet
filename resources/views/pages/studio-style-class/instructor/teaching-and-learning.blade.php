@@ -44,7 +44,7 @@
             <div class="tab-pane pt-3 pb-3"
                  id="unit-2"
                  role="tabpanel">
-                <div id="accordionTwo"
+                <div id="accordionTwo"</div>
                      role="tablist"
                      aria-multiselectable="true">
                     @include('pages.studio-style-class.partials.instructor.tl.content-module-clusters')
