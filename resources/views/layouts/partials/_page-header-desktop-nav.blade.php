@@ -15,31 +15,5 @@
                href="{{ url('lecture-style-class') }}">Lecture Style Class
             </a>
         </li>
-        @if(auth()->check())
-            <li class="nav-item {{ Request::is('my-account') ? 'active' : '' }}">
-                <a class="nav-link"
-                   href="{{ route('my-account') }}">
-                    My Account
-                </a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link"
-                   onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
-                   href="{{ route('login.destroy') }}">Logout
-                </a>
-                <form id="logout-form"
-                      action="{{ route('login.destroy') }}"
-                      method="POST"
-                      style="display: none;">
-                    {{ csrf_field() }}
-                </form>
-            </li>
-        @else
-            <li class="nav-item {{ (Request::is('login')) ? 'active' : '' }}">
-                <a class="nav-link"
-                   href="{{ route('login.create') }}">Login/Register
-                </a>
-            </li>
-        @endif
     </ul>
 </nav>
