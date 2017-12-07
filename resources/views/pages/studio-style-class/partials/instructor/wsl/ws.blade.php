@@ -25,6 +25,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/1-a1-wave-pulses/uws-a1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -57,6 +61,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/2-a2-continuous-waves/uws-a2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -77,6 +85,11 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/3-ext-a-how-do-waves-move/uws-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/WS/ExtA/index.html">Extension Online (HTML5)
+                    </a>
                 </li>
             </ul>
         </div>
@@ -110,6 +123,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/4-a3-two-dimensional-waves/uws-a3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_a3.html">Demonstration Movies </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/wave-interference">Wave Interference Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -130,6 +151,11 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/5-ext-c-reflection-of-2d-waves/uws-extc-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/WS/ExtC/index.html">Extension Online (HTML5)
+                    </a>
                 </li>
             </ul>
         </div>
@@ -162,6 +188,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/6-a4-sound-waves/uws-a4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_a4.html">Demonstration Movies </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/wave-interference">Wave Interference Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -183,6 +217,17 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/7-ext-d-seismic-waves/uws-extd-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/WS/ExtD/index.html">Extension Online (HTML5)
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="http://www.mapdevelopers.com/draw-circle-tool.php" target="_blank">
+                        Map circles drawing tool
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -202,6 +247,12 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/8-a5-ed-locatiing-an-earthquake/uws-a5-ed-student-materials.docx']) }}">Student
                         Materials</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="http://www.mapdevelopers.com/draw-circle-tool.php" target="_blank">
+                        Map circles drawing tool
+                    </a>
                 </li>
             </ul>
         </div>
