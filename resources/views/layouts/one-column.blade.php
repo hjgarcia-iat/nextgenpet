@@ -24,6 +24,7 @@
                         </div>
                     </div>
                 </section>
+                @include('layouts.partials._page-footer')
             </section>
         </div>
     </div>
