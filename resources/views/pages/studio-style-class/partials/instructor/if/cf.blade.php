@@ -25,6 +25,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/1-a1-combinations-of-forces/ucf-a1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a1.html">Demonstration Movies</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -45,6 +49,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/2-ext-a-newtons-second-law/ucf-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CF/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -78,6 +86,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/3-a2-motion-with-balanced-forces/ucf-a2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a2.html">Demonstration Movies</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -99,6 +111,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/4-ext-b-more-on-balanced-forces/ucf-extb-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CF/ExtB/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -119,6 +135,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/5-ext-c-balanced-and-unbalanced-forces/ucf-extc-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CF/ExtC/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -152,6 +172,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/6-a3-comparing-forces-during-interactions/ucf-a3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a3.html">Demonstration Movies</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -172,6 +196,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/7-ext-e-newtons-third-law-and-batanced-forces/ucf-exte-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CF/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -227,6 +255,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/9-ext-d-more-on-vertical-motion/ucf-extd-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CF/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -247,6 +279,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/10-a5-ed-inspiration-from-nature/ucf-a5-ed-student-materials.docx']) }}">Student
                         Materials</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a5.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>

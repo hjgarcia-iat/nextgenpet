@@ -25,6 +25,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/1-a1-interactions-and-force/ufm-a1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a1.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_if/movies_if_ufm_a1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -45,6 +53,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/2-ext-a-force-diagrams/ufm-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/FM/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -78,6 +90,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/3-a2-motion-with-a-continuous-force/ufm-a2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a2.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_if/movies_if_ufm_a2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -98,6 +118,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/4-ext-b-pushing-a-skateboarder/ufm-extb-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/FM/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -131,6 +155,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/5-a3-pushes-and-slowing-down/ufm-a3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a3.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_if/movies_if_ufm_a3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -151,6 +183,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/6-ext-c-connecting-force-and-energy-models/ufm-extc-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/FM/ExtC/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -203,6 +239,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/8-ext-d-how-does-friction-work/ufm-extd-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/FM/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -234,6 +274,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/9-a5-changing-force-strength-and-mass/ufm-a5-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a5.html">Demonstration Movies</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -253,6 +297,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/10-ext-e-changing-direction/ufm-exte-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/FM/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -278,6 +326,10 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/11-a6-falling-objects/ufm-a6-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a6.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>
