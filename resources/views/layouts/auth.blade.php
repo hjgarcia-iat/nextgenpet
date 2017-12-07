@@ -7,10 +7,10 @@
 <body>
 	<div class="site-wrapper">
 		<div class="site-canvas">
-			<div class="site-menu">
+			<aside class="site-menu">
 				@include('layouts.partials._mobile_nav')
-			</div>
-			<div class="site-content">
+			</aside>
+			<section class="site-content">
 				@include('layouts.partials._page-header')
 				<div class="page-content-wrapper">
 					<div class="container">
@@ -22,7 +22,7 @@
 					</div>
 				</div>
                 @include('layouts.partials._page-footer')
-			</div>
+			</section>
 		</div>
 	</div>
 	@include('layouts.partials._page-footerscripts')
