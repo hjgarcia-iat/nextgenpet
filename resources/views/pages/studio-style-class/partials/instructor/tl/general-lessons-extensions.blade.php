@@ -114,6 +114,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/5-extp-cause-effect/tl-extp-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/TL/ExtP/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
 
             <p><strong>Extension Q: Systems &amp; System Models / Matter &amp; Energy</strong></p>
@@ -124,6 +128,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/6-extq-systems-system-models--matter-energy/tl-extq-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/TL/ExtQ/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
             <p><strong>Extension R: Stability & Change/Scale, Proportion & Quantity</strong></p>
             <ul class="fa fa-ul">
@@ -133,6 +141,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/7-extr-stability-change--scale-proportion-quantity/tl-extr-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/TL/ExtR/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
             <p><strong>Extension S: Patterns</strong></p>
             <ul class="fa fa-ul">
@@ -141,6 +153,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/1-general-activities-and-extensions/8-exts-patterns/tl-exts-extension-mock-up.pptx']) }}">Extension
                         Mock Up</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/TL/ExtS/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
             <p><strong>Activity 12: Teaching &amp; Learning Science II</strong></p>
