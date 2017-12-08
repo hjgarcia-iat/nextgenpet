@@ -83,10 +83,6 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
-                <li>
-                    <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://www.fossweb.com/delegate/ssi-wdf-ucm-webContent/Contribution Folders/FOSS/multimedia/HTML5_Assets/Tutorials/Separating Mixtures/index.html">Separating the Mixtures Simulation</a>
-                </li>
             </ul>
         </div>
     </div>
