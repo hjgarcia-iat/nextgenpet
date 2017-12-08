@@ -26,6 +26,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/1-l1-physical-changes-vs-chemical-reactions/ucr-l1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l1.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -46,6 +54,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/2-exta-separating-mixtures-using-physical-properties/ucr-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -79,6 +91,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/3-l2-chemical-reactions-and-conservation-of-mass/ucr-l2-key.docx']) }}">Key</a>
                 </li>
+                 <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l2.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -99,6 +119,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/4-extb-reaction-rates-and-temperature/ucr-extb-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -132,6 +156,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/5-l3-chemical-reactions-conservation-of-mass-and-spt/ucr-l3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l3.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -152,6 +184,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/6-extf-balancing-chemical-equations/ucr-extf-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtF/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -185,6 +221,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/7-l4-chemical-reactions-and-energy-transfer/ucr-l4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l4.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -217,6 +261,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/8-l5-classifying-and-organizing-elements/ucr-l5-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l5.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l5.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -237,6 +289,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/9-extg-characteristic-physical-properties/ucr-extg-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -270,6 +326,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/10-l6-periodic-trends-and-the-elements/ucr-l6-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l6.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -289,6 +349,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/11-exte-models-of-the-atom/ucr-exte-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -321,6 +385,10 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/12-l7-atoms-ions-and-the-periodic-table/ucr-l7-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l7.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -355,6 +423,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/13-l8-electrons-and-chemical-bonding/ucr-l8-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l8.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -377,6 +449,10 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/14-exth-atomic-structure-the-periodic-table-and-isotopes/ucr-exth-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtH/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -398,6 +474,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/15-exti-bond-types-and-the-chemical-structure-of-materials/ucr-exti-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtI/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -431,6 +511,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/16-l9-explanations-involving-physical-changes-and-chemical-reactions/ucr-l9-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_ucr_l9.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_ucr_l9.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
