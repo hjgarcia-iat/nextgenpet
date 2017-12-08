@@ -71,7 +71,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5) Electric Field Hockey Simulation</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -275,7 +275,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtE/index.html">Extension Onlin (HTML5) John Travoltage Simulation</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
