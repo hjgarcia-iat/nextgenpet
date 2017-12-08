@@ -28,7 +28,6 @@
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l1.html">Demonstration Movies</a>
                 </li>
                 <li>
-
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l1.html">Classroom Video Clips</a>
                 </li>
