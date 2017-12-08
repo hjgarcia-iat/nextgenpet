@@ -52,7 +52,7 @@
                         Extension Mockup Slides </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-video-o"></i>
+                    <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
@@ -113,7 +113,7 @@
                         Extension Mockup Slides </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-video-o"></i>
+                    <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
@@ -173,6 +173,18 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/6-ext-c-exploring-magnetic-electric-fields/upef-extc-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="https://phet.colorado.edu/en/simulation/magnet-and-compass" target="_blank">Magnet & Compass Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="https://phet.colorado.edu/en/simulation/charges-and-fields" target="_blank">Charges & Field Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -202,6 +214,15 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/7-l4-gravitational-interactions-and-energy/upef-l4-key.docx']) }}" target="_blank">
                         Key </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l4.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -220,6 +241,14 @@
                     <i class="fa-li fa fa-file-powerpoint-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/8-ext-d-exploring-gravitational-potential-energy/upef-extd-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="https://phet.colorado.edu/en/simulation/energy-skate-park-basics" target="_blank">Energy Skate Park Simulation</a>
                 </li>
             </ul>
         </div>
@@ -250,6 +279,27 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/9-l5-electromagnetic-interactions/upef-l5-key.docx']) }}" target="_blank">
                         Key </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l5.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnets-and-electromagnets">Magnets & Electromagnets Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/charges-and-fields">Charges & Fields Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/faraday">Faraday's Electromagnetic Lab </a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l5.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -268,6 +318,14 @@
                     <i class="fa-li fa fa-file-powerpoint-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/10-ext-e-more-on-electromagnetic-interactions/upef-exte-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/generator">Generator Simulation </a>
                 </li>
             </ul>
         </div>
