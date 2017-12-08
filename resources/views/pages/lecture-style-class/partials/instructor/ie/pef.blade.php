@@ -23,6 +23,15 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/1-l1-elastic-objects-and-energy/upef-l1-key.docx']) }}" target="_blank">
                         Key </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l1.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -41,6 +50,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/2-ext-a-more-on-elastic-energy/upef-exta-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -71,6 +84,15 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/3-l2-comparing-magnetic-static-electric-interactions/upef-l2-key.docx']) }}" target="_blank">
                         Key </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l2.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -89,6 +111,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/4-ext-b-magnetic-poles-electric-charges/upef-extb-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -118,6 +144,15 @@
                     <i class="fa-li fa fa-file-word-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/5-l3-magnetic-static-electrci-interactions-and-energy/upef-l3-key.docx']) }}" target="_blank">
                         Key </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_l3.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_upef_l3.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>

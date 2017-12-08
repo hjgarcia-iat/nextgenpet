@@ -22,6 +22,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/1-l1-interactions-and-motion/uem-l1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l1.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -39,6 +48,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/2-ext-a-representing-motion-on-speed-time-graphs/uem-exta-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -68,6 +81,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/3-l2-motion-and-energy/uem-l2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l2.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -85,6 +107,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/4-ext-c-describing-interactions-in-terms-of-energy/uem-extc-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtC/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -114,6 +140,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/5-l3-slowing-and-stopping/uem-l3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l3.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -132,6 +167,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/6-ext-d-scientific-explanations/uem-extd-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -149,6 +188,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/7-ext-e-simultaneous-interactions/uem-exte-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -178,6 +221,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/8-l4-friction-as-an-interaction/uem-l4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l4.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -195,6 +247,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/9-ext-f-effects-of-friction/uem-extf-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtF/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -224,6 +280,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/10-l5-warming-and-cooling/uem-l5-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l5.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l5.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -241,6 +306,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/11-ext-g-mechanisms-for-heat-interactions/uem-extg-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtG/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -270,6 +339,15 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/12-l6-keeping-track-of-energy-in-electric-circuit-interactions/uem-l6-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l6.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l6.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -287,6 +365,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/13-ext-h-more-on-keeping-track-of-energy/uem-exth-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/IE/ExtH/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -316,6 +398,11 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/14-l7-more-on-keeping-track-of-energy/uem-l7-key.docx']) }}">Key</a>
                 </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l7.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -344,6 +431,15 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/15-l8-ed-no-more-cold-showers/uem-l8-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l8.html">Demonstration Movies</a>
+                </li>
+                <li>
+
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l8.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
