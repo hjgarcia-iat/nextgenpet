@@ -57,7 +57,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtA/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtA/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -122,7 +122,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtB/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -187,7 +187,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtF/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtF/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -292,7 +292,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtG/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -352,7 +352,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtE/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -451,7 +451,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtH/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtH/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -477,7 +477,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtI/index.html">Extension Online (HTML5)</a>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/CR/ExtI/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
