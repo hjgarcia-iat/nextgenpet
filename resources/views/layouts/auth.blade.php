@@ -1,27 +1,31 @@
 <!DOCTYPE html>
-<html lang="en" class="h-100">
-    <head>
-        @include('layouts.partials._page-header-meta')
-        @include('layouts.partials._page-header-styles')
-    </head>
-    <body class="h-100">
-        @include('layouts.partials._page-message')
-        <div class="page-wrapper h-100 d-flex flex-column">
-            <div class="site-header-wrapper">
-                @include('layouts.partials._page-header')
-            </div>
-            <div class="page-content-wrapper">
-                <div class="container">
-                    <div class="row align-items-center h-100">
-                        <div class="col-md-6 push-md-3 well">@yield('content')</div>
-                    </div>
-                </div>
-            </div>
+<html lang="en">
+<head>
+	@include('layouts.partials._page-header-meta') 
+    @include('layouts.partials._page-header-styles')
+</head>
+<body>
+	<div class="site-wrapper">
+		<div class="site-canvas">
+			<aside class="site-menu">
+				@include('layouts.partials._mobile_nav')
+			</aside>
+			<section class="site-content">
+				@include('layouts.partials._page-header')
+				<div class="page-content-wrapper">
+					<div class="container">
+						<div class="row justify-content-center">
+							<div class="col-md-6 push-md-3 well">
+                                @yield('content')
+                            </div>
+						</div>
+					</div>
+				</div>
+                @include('layouts.partials._page-footer')
+			</section>
+		</div>
+	</div>
+	@include('layouts.partials._page-footerscripts')
+</body>
 
-            <div class="page-footer-wrapper mt-auto">
-                @include('layouts.partials._page-footer-form')
-            </div>
-        </div>
-        @include('layouts.partials._page-footerscripts')
-    </body>
 </html>

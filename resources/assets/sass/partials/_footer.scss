@@ -1,0 +1,133 @@
+/*
+//
+// FOOTER LOGOS
+// --------------------------------------------------
+*/
+.page-footer-logos {
+    margin : 2em 0;
+}
+
+/*
+//
+// GENERAL PAGE FOOTER AREA
+// --------------------------------------------------
+*/
+.page-footer {
+    margin-top: 2em;
+    padding    : 1em 0 .5em;
+    background : #faa634;
+}
+
+/*
+//
+// PAGE FOOTER FORM
+// --------------------------------------------------
+*/
+.page-footer .form {
+    background    : $color-orange;
+    margin-bottom : 1em;
+    padding       : 2em;
+
+    .btn.btn-primary {
+        color        : $color-white !important;
+        font-weight  : bold;
+        background   : black;
+        border-color : darken($color-orange, 5);
+    }
+
+    input.form-control,
+    textarea.form-control {
+        border-color  : darken(#bf6122, 5);
+        border-radius : 0;
+        padding       : .7em;
+        color         : $color-white;
+        background    : #bf6122;
+    }
+
+    input.form-control::placeholder,
+    textarea.form-control::placeholder {
+        color          : $color-white;
+        font-size      : 13px;
+        text-transform : uppercase;
+    }
+}
+
+/*
+//
+// FOOTER LINKS
+// --------------------------------------------------
+*/
+.page-footer .footer-links {
+    li {
+        line-height : 1;
+        padding     : 0 1em;
+        margin      : 0;
+    }
+
+    a {
+        color          : black;
+        text-transform : uppercase;
+    }
+
+    li:last-child {
+        border-right : none;
+    }
+}
+
+/*
+//
+// SOCIAL BAR
+// --------------------------------------------------
+*/
+.page-footer .social-bar {
+    align-self : center;
+    ul {
+        display         : flex;
+        margin-top      : 1em;
+        margin-bottom   : 0 !important;
+        padding-bottom  : 0 !important;
+        justify-content : center;
+    }
+
+    a {
+        margin          : 0 .25em;
+        width           : 40px;
+        height          : 40px;
+        border-radius   : 50%;
+        background      : black no-repeat center center;
+        transition      : background-color .2s;
+        position        : relative;
+        display         : flex;
+        align-items     : center;
+        justify-content : center;
+
+        .fa {
+            color     : $color-white;
+            font-size : 16px;
+        }
+
+        &:hover {
+            text-decoration : none;
+        }
+
+        &:hover .fa {
+            color : $color-orange;
+        }
+    }
+}
+
+/*
+//
+// MEDIA QUERIES
+// --------------------------------------------------
+*/
+@include media-breakpoint-up(md) {
+    .page-footer .form {
+        margin-left  : 0;
+        margin-right : 0;
+    }
+
+    .page-footer .social-bar ul {
+        margin-top : 0;
+    }
+}

@@ -22,6 +22,10 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/1-l1-modeling-and-the-mystery-tube/um-l1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l1.html">Demonstration Movies</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -50,6 +54,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/2-l2-exploring-magnetic-effects/um-l2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l2.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -67,6 +79,14 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/3-ext-a-exploring-the-region-around-a-magnet/um-exta-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/M/ExtA/MSE_M_ExtA/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnet-and-compass">Magnet & Compass Simulation</a>
                 </li>
             </ul>
         </div>
@@ -96,6 +116,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/4-l3-developing-a-model-for-magnetisum/um-l3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l3.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -113,6 +141,10 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/5-ext-b-evaluating-magentism-models/um-extb-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/M/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -142,6 +174,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/6-l4-a-better-model-for-magetism/um-l4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l4.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -169,6 +209,14 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/7-l5-explaining-phenomena-involving-magnetism/um-l5-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l5.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l5.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -198,6 +246,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/8-l6-ed-designing-a-magleve-train/um-l6-ed-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l6.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l6.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -225,6 +281,14 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/9-l7-exploring-static-electric-effects/um-l7-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l7.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_um_l7.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>

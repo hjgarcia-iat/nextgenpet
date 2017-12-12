@@ -26,6 +26,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/1-l1-pressure/upc-l1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l1.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -46,6 +54,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/2-extg-effects-due-to-air-pressure/upc-extg-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtG/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -79,6 +91,18 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/3-l2-small-particle-theory-of-gases/upc-l2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l2.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -99,6 +123,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/4-exth-pressure-temperature-mixture-of-gases-average-ke/upc-exth-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtH/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation</a>
                 </li>
             </ul>
         </div>
@@ -132,6 +164,18 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/5-l3-pressure-and-the-spt/upc-l3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l3.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -152,6 +196,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/6-exti-mass-volume-and-density/upc-exti-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtI/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -184,6 +232,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/7-l4-liquids-and-the-spt/upc-l4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l4.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -203,6 +259,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/8-extj-sinking-and-floating/upc-extj-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtJ/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -235,8 +295,15 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/9-l5-solids-the-spt-and-energy/upc-l5-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l5.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l5.html">Classroom Video Clips</a>
+                </li>
             </ul>
-        
         </div>
     </div>
 </div>
@@ -255,6 +322,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/10-extk-rates-of-warming-of-different-materials/upc-extk-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtK/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -287,6 +358,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/11-l6-changes-of-state/upc-l6-key.docx']) }}">Key</a>
                 </li>
+                 <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l6.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l6.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -307,6 +386,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/12-extl-explanations-involving-physical-changes-in-liquids-and-solids/upc-extl-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtL/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -340,6 +423,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/13-l7-changes-of-state-and-small-particle-theory/upc-l7-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mi/movies_mi_upc_l7.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l7.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -360,6 +451,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/14-extm-heating-curves-melting-boiling-points/upc-extm-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtM/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
@@ -392,6 +487,10 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/15-l8-ed-evaluate-ballonet-designs/upc-l8-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l8.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>

@@ -8,16 +8,16 @@
 <meta name="csrf-token"
       content="{{ csrf_token() }}">
 <meta name="description"
-      content="IAT provides the resources and technology to support the implementation of successful Science, Technology, Engineering, and Mathematics (STEM) curricula.">
+      content="Activate Learning provides the resources and technology to support the implementation of successful Science, Technology, Engineering, and Mathematics (STEM) curricula.">
 
 @if(env('APP_TRACK') == 1)
     <meta name="robots" content="all"/>
-    @else
+@else
     <meta name="robots" content="noindex"/>
 @endif
 @if(isset($appError))
-    <title>Next Gen PET | {{ $statusCode }}</title>
+    <title>Activate Learning - Next Gen PET | {{ $statusCode }}</title>
 @else
-    <title>Next Gen PET | @yield('pageTitle')</title>
+    <title>Activate Learning - Next Gen PET | @yield('pageTitle')</title>
 @endif
 

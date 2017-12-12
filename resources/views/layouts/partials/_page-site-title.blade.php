@@ -1,3 +1,6 @@
+
 <section class="title-bar">
-    <h1 class="text-center">Next GEN Physical Science and Everyday Thinking</h1>
+    <div class="container">
+        <h1 class="text-left text-md-center">Next GEN Physical Science and Everyday Thinking</h1>
+    </div>
 </section>

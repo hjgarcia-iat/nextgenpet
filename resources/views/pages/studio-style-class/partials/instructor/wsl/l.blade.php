@@ -41,6 +41,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/2-ext-a-drawing-light-ray-diagrams-for-pinholes-and-shadows/ul-exta-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/L/ExtA/index.html">Extension Online (HTML5)
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -67,6 +72,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/3-a2-reflection-of-light/ul-a2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_ul_a2.html">Demonstration Movies </a>
+                </li>
             </ul>
         </div>
     </div>
@@ -87,6 +96,11 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/4-ext-b-more-on-mirror-reflections-and-images/ul-extb-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/L/ExtB/index.html">Extension Online (HTML5)
+                    </a>
                 </li>
             </ul>
         </div>
@@ -114,6 +128,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/5-a3-refraction-of-light/ul-a3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/bending-light">Bending Light Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -139,6 +157,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/6-a4-color/ul-a4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://phet.colorado.edu/sims/html/color-vision/latest/color-vision_en.html">Color Vision Simulation</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -158,6 +180,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/7-a5-ed-measuring-the-moons-distance/ul-a5-ed-student-materials.docx']) }}">Student
                         Materials</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_ul_a5.html">Demonstration Movie</a>
                 </li>
             </ul>
         </div>

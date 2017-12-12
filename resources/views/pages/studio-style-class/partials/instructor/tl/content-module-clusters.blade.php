@@ -63,6 +63,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/teaching-and-learning/studio-style/2-module-mse-cluster/2-exte-teaching-learning-engineering-design/tl-exte-extension-mock-up.pptx']) }}">Extension Mock up</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="http://public.csusm.edu/NextGenPET/Extensions/TL/ExtE/index.html" target="_blank">Extension Online (HTML5)</a>
+                </li>
             </ul>
             <p><strong>Activity 2: Models, Magnets &amp; Children's Ideas</strong></p>
             <ul class="fa fa-ul">

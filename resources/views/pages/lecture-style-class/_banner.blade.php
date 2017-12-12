@@ -1,11 +1,3 @@
-<div class="container carousel-container fill visible-md visible-lg">
-    <div id="myCarousel" class="carousel slide">
-        <div class="carousel-inner">
-            <div class="active item">
-                <div class="fill" style="background-image:url('/img/lecture-style-class.jpg');">
-                    <div class="container"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+<div class="container-fluid pr-0 pl-0 fill">
+    <div class="fill" style="background-image:url('/img/lecture-style-class.jpg');"></div>
 </div>

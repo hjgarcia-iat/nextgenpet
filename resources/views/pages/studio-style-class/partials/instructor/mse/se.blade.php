@@ -21,6 +21,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/1-a1-exploring-static-electric-effects/use-a1-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a1.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a1.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -39,6 +47,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/2-ext-a-which-charge-is-which/use-exta-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtA/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -56,6 +68,14 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/3-ext-b-the-law-of-electric-charges/use-extb-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/electric-hockey">Electric Field Hockey Simulation</a>
                 </li>
             </ul>
         </div>
@@ -104,6 +124,14 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/4-a2-your-initial-model-for-static-electricity/use-a2-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a2.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a2.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -144,6 +172,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/5-a3-representing-uncharged-objects-in-your-model/use-a3-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a3.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a3.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -162,6 +198,14 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/7-ext-d-nature-of-charged-entities/use-extd-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtD/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/balloons">Balloons and Static Electricity Simulation</a>
                 </li>
             </ul>
         </div>
@@ -203,6 +247,14 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/8-a4-refining-your-model-for-different-materials/use-a4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a4.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -220,6 +272,14 @@
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/9-ext-e-discharging-charged-objects/use-exte-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtE/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/travoltage">John Travoltage Simulation</a>
                 </li>
             </ul>
         </div>
@@ -253,6 +313,18 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/10-a5-interactions-between-charged-and-uncharged-objects/use-a5-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/electric-hockey">Sim 1: Electric Field Hockey</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/balloons-and-static-electricity">Sim 2: Balloons & Static Electricity </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a5.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -285,6 +357,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/11-a6-explaining-phenomena-involving-static-electricity/use-a6-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_a6.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -306,6 +382,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/12-a7-ed-refueling-safety/use-a7-ed-student-materials.docx']) }}">Student
                         Materials</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a7.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>

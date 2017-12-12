@@ -1,15 +1,23 @@
 <footer class="page-footer">
     <div class="container">
         <div class="page-footer-content">
+            <p class="text-center">
+                <sup>&copy;</sup> {{ date('Y') }} Activate Learning, 44 Amogerone Crossway #7862, Greenwich, CT 06836 Phone: 646-502-5231
+            </p>
+            <ul class="list-unstyled d-flex justify-content-center footer-links">
+                <li><a href="{{ url('terms-and-conditions') }}">Terms and Conditions</a></li>
+                <li><a href="{{ url('privacy-policy') }}">Privacy Policy</a></li>
+            </ul>
+            @include('layouts.partials._page-header-social-icons')
             <div class="row">
                 <div class="col-md-12">
+                    {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'contact']) !!}
+                    {!! Honeypot::generate('my_name', 'my_time') !!}
                     <h3 class="text-center">
                         We'd love to hear from you
                     </h3>
-                    {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'contact']) !!}
-                    {!! Honeypot::generate('my_name', 'my_time') !!}
                     <div class="row">
-                        <div class="col-sm-12 col-md-8 offset-sm-0 offset-md-2">
+                        <div class="col-md-12">
                             <div class="row">
                                 <div class="col-md-6">
                                     <div class="form-group{{ ($errors->first('name') ? ' has-danger' : '') }}">
@@ -88,16 +96,6 @@
                         </div>
                     </div>
                     {!! Form::close() !!}
-                    <p class="text-center">
-                        <sup>
-                            &copy;
-                        </sup>
-                        It's About Time {{ date('Y') }}. All Rights Reserved.
-                    </p>
-                    <ul class="list-unstyled d-flex justify-content-center footer-links">
-                        <li><a href="{{ url('terms-and-conditions') }}">Terms and Conditions</a></li>
-                        <li><a href="{{ url('privacy-policy') }}">Privacy Policy</a></li>
-                    </ul>
                 </div>
             </div>
         </div>
