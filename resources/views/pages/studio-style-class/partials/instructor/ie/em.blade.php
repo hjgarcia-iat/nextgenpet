@@ -407,7 +407,13 @@
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/15-a8-ed-the-solar-shower/uem-a8-ed-student-materials.docx']) }}">Student Materials</a>
-                </li> 
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/15-a8-ed-the-solar-shower/uem-a8-ed-key.docx']) }}">Key</a>
+                </li>
+
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_a8.html">Demonstration Movies</a>
