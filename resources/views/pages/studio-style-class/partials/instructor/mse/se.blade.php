@@ -384,6 +384,11 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/12-a7-ed-refueling-safety/use-a7-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_a7.html">Demonstration Movies</a>
                 </li>

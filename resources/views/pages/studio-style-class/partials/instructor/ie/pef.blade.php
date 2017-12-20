@@ -362,6 +362,12 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/11-a6-ed-storing-energy-from-braking/upef-a6-ed-key.docx']) }}">Key</a>
+                </li>
+
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a6.html">Demonstration
                         Movies</a>

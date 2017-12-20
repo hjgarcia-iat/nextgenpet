@@ -240,6 +240,11 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/9-a6-ed-the-maglev-system/uma6-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_a6.html">Demonstration Movies</a>
                 </li>

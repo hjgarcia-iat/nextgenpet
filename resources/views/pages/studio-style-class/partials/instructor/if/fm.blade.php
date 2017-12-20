@@ -219,6 +219,10 @@
                     <a target="_blank"
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/7-a4-friction-and-slowing/ufm-a4-key.docx']) }}">Key</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_if/movies_if_ufm_a4.html">Classroom Video Clips</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -277,6 +281,10 @@
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_a5.html">Demonstration Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_if/movies_if_ufm_a5.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
