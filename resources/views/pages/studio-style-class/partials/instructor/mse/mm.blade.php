@@ -19,6 +19,10 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/1-a1-modeling-and-the-mystery-tube/um-a1-how-to-make-a-mystery-tube.docx']) }}">How to Make a Mystery Tube</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/1-a1-modeling-and-the-mystery-tube/um-a1-key.docx']) }}">Key</a>
                 </li>
                 <li>
