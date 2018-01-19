@@ -249,6 +249,11 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/8-a5-ed-locatiing-an-earthquake/uws-a5-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a href="http://www.mapdevelopers.com/draw-circle-tool.php" target="_blank">
                         Map circles drawing tool
