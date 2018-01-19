@@ -64,7 +64,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-lesson-and-extension-summaries.pdf']) }}">Activity
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
@@ -108,7 +108,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-lesson-and-extension-summaries.pdf']) }}">Activity
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
