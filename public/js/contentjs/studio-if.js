@@ -40,7 +40,7 @@ var nodes = new vis.DataSet([{
     label: 'A7: Engineering \nDesign: A Better \nCar Bumper\n80 min',
     x: "-1000",
     y: "-875",
-    description: "In this engineering design activity, students are presented with a challenge to design a car bumper that will better protect pedestrians in low-speed collisions. The goal of a successful design is to (greatly) reduce the maximum strength exerted on a pedestrian at a given (low) speed. Students use the low-friction carts used earlier in this unit and Unit EM to test their designs. They are constrained to design front bumpers for these carts that are no more than 1.5 inches thick. Students begin by deciding upon at least three different materials to try, and predict which one will work best. Then they experiment using the carts, tracks, and a force probe to measure the force exerted during the collision. They begin with no bumper as a baseline, and then test each of their materials. They decide which material worked the best, and then try to optimize their solution (by changing the thickness or orientation of their bumper; combining different materials, etc.). The final challenge is for each group to test their designs against each other in a competition; then the class discusses why the winning challenge was the most effective."
+    description: "This activity has students consider a situation in which a pedestrian is injured when struck by a car moving at a low speed. They try to design a bumper for the car that would reduce the maximum force exerted by the car on the pedestrian, thus reducing the severity of any injury inflicted. The impact force is measured by letting a low friction cart roll down an inclined track from a fixed position and strike a force probe at the bottom. Students brainstorm by attaching different materials to the front of the cart and try to explain why some materials are more effective than others at reducing the impact force. They then optimize their design, within given constraints, by varying material thickness, orientation, or combining materials. Finally, the instructor may arrange for a competition to see which design is the most effective."
 }, {
     id: 10,
     label: 'Ext A: Force \nDiagrams',
@@ -141,7 +141,7 @@ var nodes2 = new vis.DataSet([{
     label: 'A5: Engineering \nDesign: Inspiration \nfrom Nature\n90 min',
     x: "-900",
     y: "-800",
-    description: "In this engineering design activity, students are presented with a model Whirligig that they can cut out and allow to fall.  Their challenge is to design a better Whirligig, one that falls more slowly to the ground (while remaining stable).  They need to construct two possible solutions, test them experimentally, and then explain in terms of Newton’s Second Law why their best model falls more slowly than the original model.",
+    description: "This engineering design activity is posed in the context of a mechanism to safely land a space probe on Titan (a moon of Saturn with a dense atmosphere). After setting the context, students are presented with a model whirligig that they can cut out and allow to fall. Their challenge is to improve the design so that it falls more slowly to the ground. To do this, they first consider the design factors that contribute to the forces acting on the whirligig, then propose improvements based on these, and finally test them experimentally. The instructor may choose to have a competition to find the most effective design in the class.",
 }, {
     id: 8,
     label: 'Ext A: Newton\'s \nSecond \nLaw',
