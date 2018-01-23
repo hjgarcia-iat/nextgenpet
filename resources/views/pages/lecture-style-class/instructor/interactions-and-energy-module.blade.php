@@ -61,6 +61,10 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/unit-em-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/Unit_EM_Summary_Ideas_LC.docx']) }}">Summary
@@ -103,6 +107,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/unit-pef-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/unit-pef-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-word-o"></i>

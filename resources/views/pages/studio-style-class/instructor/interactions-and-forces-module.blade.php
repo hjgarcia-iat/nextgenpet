@@ -86,6 +86,10 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/unit-fm-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.pdf']) }}">Summary
@@ -128,6 +132,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/unit-cf-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-word-o"></i>

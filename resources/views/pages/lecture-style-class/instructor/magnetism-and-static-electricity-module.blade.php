@@ -62,6 +62,10 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/Unit_M_Summary_Ideas_LC.docx']) }}">Summary
                             Ideas</a>
@@ -102,6 +106,10 @@
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-word-o"></i>

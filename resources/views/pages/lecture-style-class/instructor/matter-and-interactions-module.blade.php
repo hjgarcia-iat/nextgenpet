@@ -64,6 +64,10 @@
                             Materials for Whole Unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/unit-pc-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-summary-ideas.docx']) }}">Summary Ideas</a>
@@ -105,6 +109,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-student-materials.pdf']) }}">Student
                             Materials for Whole Unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/unit-cr-extension-quizzes-blacboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
