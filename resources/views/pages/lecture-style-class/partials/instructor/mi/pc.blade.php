@@ -489,6 +489,21 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/15-l8-ed-evaluate-ballonet-designs/upc-l8-ed-key.docx']) }}">Key</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/15-l8-ed-evaluate-ballonet-designs/upc-l8-sample-group-reports.pdf']) }}">Sample Group Reports</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/15-l8-ed-evaluate-ballonet-designs/upc-l8-group-report-form.docx']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/15-l8-ed-evaluate-ballonet-designs/upc-l8-group-report-rubric-key.docx']) }}">Group Report Rubric-Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mi/movies_mi_upc_l8.html">Classroom Video Clips</a>
                 </li>

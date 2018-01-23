@@ -247,6 +247,18 @@
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/8-l6-ed-designing-a-magleve-train/um-l6-ed-key.docx']) }}">Key</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/8-l6-ed-designing-a-magleve-train/um-l6-sample-group-reports.pdf']) }}">Sample Group Reports</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/8-l6-ed-designing-a-magleve-train/um-l6-group-report-form.docx']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/8-l6-ed-designing-a-magleve-train/um-l6-group-report-rubric-key.docx']) }}">Group Report Rubric-Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_um_l6.html">Demonstration Movies</a>
                 </li>

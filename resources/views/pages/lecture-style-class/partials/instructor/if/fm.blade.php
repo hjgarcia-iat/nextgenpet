@@ -352,6 +352,27 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/11-l6-falling-objects/ufm-l6-key.docx']) }}">Key</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/whirligig-template.docx']) }}">Whirligig Template</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-pdf-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-sample-group-reports.pdf']) }}">Sample Group Reports</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-group-report-form.docx']) }}">Group Report Form</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/10-l5-ed-inspiration-from-nature/ucf-l5-group-report-rubric-key.docx']) }}">Group Report Rubric-Key</a>
+                </li>
+
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ufm_l6.html">Demonstration Movies</a>
                 </li>
