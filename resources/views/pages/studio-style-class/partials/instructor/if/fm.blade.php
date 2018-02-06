@@ -360,6 +360,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/12-a7-ed-building-a-better-bumper/ufm-a7-ed-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/12-a7-ed-building-a-better-bumper/ufm-a7-ed-key.docx']) }}">Key</a>
+                </li>
             </ul>
         </div>
     </div>

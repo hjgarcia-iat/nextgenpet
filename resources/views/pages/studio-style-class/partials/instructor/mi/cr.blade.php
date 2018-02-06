@@ -495,6 +495,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/16-a11-ed-which-hand-warmer-is-best/ucr-a11-ed-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/16-a11-ed-which-hand-warmer-is-best/ucr-a11-ed-key.docx']) }}">Key</a>
+                </li>
             </ul>
         </div>
     </div>

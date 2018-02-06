@@ -281,6 +281,11 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/10-a5-ed-inspiration-from-nature/ucf-a5-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a5.html">Demonstration Movies</a>
                 </li>

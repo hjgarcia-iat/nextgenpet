@@ -62,13 +62,17 @@
                             quizzes for whole unit </a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/unit-m-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/unit-m-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricty-module/tiny-magnets-alignment-model-handout.pdf']) }}">Tiny Magnets Alignment Model Handout</a>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/tiny-magnets-alignment-model-handout.pdf']) }}">Tiny Magnets Alignment Model Handout</a>
                     </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -102,6 +106,10 @@
                         <i class="fa-li fa fa-file-powerpoint-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/2-unit-se-developing-a-model-for-static-electricity/unit-se-extension-quiz-keys.pptx']) }}">Extension
                             quizzes for whole unit </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-zip-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/unit-se-extension-quizzes-blackboard.zip']) }}">Extension quizzes for whole unit (Blackboard versions)</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-word-o"></i>

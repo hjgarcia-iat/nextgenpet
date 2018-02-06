@@ -19,6 +19,10 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/1-a1-modeling-and-the-mystery-tube/um-a1-how-to-make-a-mystery-tube.docx']) }}">How to Make a Mystery Tube</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/1-a1-modeling-and-the-mystery-tube/um-a1-key.docx']) }}">Key</a>
                 </li>
                 <li>
@@ -117,7 +121,7 @@
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
                     <a target="_blank"
-                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/4-a3-developing-a-model-for-magnetism/um-a3-model-worksheet-1.docx']) }}">Model Worksheet 2</a>
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/4-a3-developing-a-model-for-magnetism/um-a3-model-worksheet-2.docx']) }}">Model Worksheet 2</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-word-o"></i>
@@ -224,6 +228,29 @@
         </div>
     </div>
 </div>
+
+<div class="card">
+    <div class="card-header" role="tab" id="headingForty">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseForty" aria-expanded="false" aria-controls="collapseForty">Extension C: Explaining Another Magnetic Phenomenon</a>
+        </h5>
+    </div>
+    <div id="collapseForty" class="collapse" role="tabpanel" aria-labelledby="headingSeven">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/magnetism-static-electricity-module/1-unit-m-developing-a-model-for-magnetism/8-ext-c-explaining-another-magnetic-phenomenon/um-extc-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/M/ExtC/index.html">Extension Online (HTML5)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
 <div class="card">
     <div class="card-header" role="tab" id="headingEight">
         <h5 class="mb-0">

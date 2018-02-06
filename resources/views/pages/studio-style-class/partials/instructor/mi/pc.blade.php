@@ -502,6 +502,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/17-a11-ed-evaluate-ballonet-designs/upc-a11-ed-student-materials.docx']) }}">Student
                         Materials</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/17-a11-ed-evaluate-ballonet-designs/upc-a11-ed-key.docx']) }}">Key</a>
+                </li>
             </ul>
         </div>
     </div>

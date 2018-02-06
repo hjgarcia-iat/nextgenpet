@@ -182,6 +182,11 @@
                         Materials</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-word-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/7-a5-ed-measuring-the-moons-distance/ul-a5-ed-key.docx']) }}">Key</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_ul_a5.html">Demonstration Movie</a>
                 </li>
