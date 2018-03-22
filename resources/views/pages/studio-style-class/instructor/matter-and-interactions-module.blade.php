@@ -17,6 +17,11 @@
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-test-bank-studio.docx']) }}"
+                   target="_blank">Module MI Test Bank (word)</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-word-o"></i>
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-equipment-list.docx']) }}"
                    target="_blank">Module Equipment List (word)</a>
             </li>
