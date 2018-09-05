@@ -26,6 +26,7 @@
     
     <ul class="list-unstyled">
         <li>Valerie Otero, University of Colorado at Boulder </li>
+        <li>Paul Miller, West Virginia University</li>
         <li>Rebecca Stober, University of Colorado at Boulder </li>
         <li>Cary Sneider, Portland State University</li>
         <li>Leslie Atkins, Boise State University</li>
