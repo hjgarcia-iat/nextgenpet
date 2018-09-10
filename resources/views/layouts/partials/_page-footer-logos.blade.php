@@ -34,7 +34,7 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-8 offset-md-2">
-                <p class="text-center"><small>This project is funded by the National Science Foundation IUSE program, DUE-1626496 Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</small></p>
+                <p class="text-center"><small>This project is funded by the National Science Foundation IUSE program, DUE-1626496. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</small></p>
             </div>
         </div>
     </div>
