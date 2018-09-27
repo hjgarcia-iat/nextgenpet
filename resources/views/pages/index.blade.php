@@ -12,13 +12,7 @@
 
 @section('content')
     <p>
-        <strong>Science courses or science methods courses</strong> <em>Next Gen PET</em> is intended
-        primarily for university courses in physics or physical science for prospective elementary teachers. There is
-        sufficient material for a one-semester (quarter) course or a two-semester (two-quarter) sequence. <em>Next Gen
-            PET</em> is also appropriate for general education courses on conceptual physics or physical science,
-        science methods courses, or workshops for in-service teachers. <em>Next Gen PET</em> materials are flexible and
-        modular, and instructors can use them in a variety of ways, depending on audience, time, and learning
-        objectives. </p>
+        <strong>Science courses or science methods courses</strong> <em>Next Gen PET</em> is intended primarily for university courses in physics or physical science for prospective elementary teachers. There is sufficient material for a one-semester (quarter) course or a two-semester (two-quarter) sequence. <em>Next Gen PET</em> is also appropriate for general education courses on conceptual physics or physical science, science methods courses, or workshops for in-service teachers. <em>Next Gen PET</em> materials are flexible; instructors can choose from ten units, and use them in a variety of ways, depending on audience, time, and learning objectives.</p>
     <p>
         <strong>NGSS alignment</strong> The <em>Next Gen PET</em> materials are aligned with the
         physical science disciplinary core ideas, crosscutting concepts, and science and engineering practices in the
@@ -35,14 +29,11 @@
         argumentation. </p>
 
     <p>
-        <strong>Explicit focus on teaching and learning</strong> Included <em>Teaching and Learning
-            activities</em> help students make explicit connections between their own learning, the learning and
-        teaching of children in elementary school, and the core ideas, science and engineering practices, and
-        crosscutting concepts of the NGSS. These can be used optionally, as desired. </p>
+        <strong>Explicit focus on teaching and learning</strong> Included <em>Teaching and Learning</em> activities help students make explicit connections between their own learning, the learning and teaching of children in elementary school, and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS. These can be used optionally, as desired.</p>
     <p>
-        <strong>Integrated Engineering Design Activities</strong> Each of the five content modules
-        includes two <em>Engineering Design Activities</em> requiring application of the module’s physical science
-        content. </p>
+        <strong>Focus on planning and conducting investigations</strong> Optional Planning and Conducting Investigations activities help students enhance their skills at designing and carrying out investigations.
+    </p>
+    <p><strong>Integrated Engineering Design Activities</strong> Each of the five content modules includes two <em>Engineering Design Activities</em> requiring application of the module’s physical science content.</p>
     <p>
         <strong>Research based and proven</strong> <em>Next Gen PET</em> has been developed over the
         past ten years by a team of scientists and science educators using design principles based on research on
