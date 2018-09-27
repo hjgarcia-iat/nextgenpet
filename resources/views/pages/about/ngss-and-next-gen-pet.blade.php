@@ -80,7 +80,7 @@
         </tr>
         <tr>
             <td>Planning and carrying out investigations</td>
-            <td>Students carry out investigations in all modules</td>
+            <td>Students carry out investigations in all modules. They practice the skill of planning investigations in the optional set of Planning and Conducting Investigations materials.</td>
         </tr>
         <tr>
             <td>Analyzing and interpreting data</td>
@@ -92,7 +92,7 @@
         </tr>
         <tr>
             <td>Constructing explanations / Designing solutions</td>
-            <td>All modules (especially in the studiostyle class version)</td>
+            <td>All modules (especially in the Studio Style  class version)</td>
         </tr>
         <tr>
             <td>Engaging in argument from evidence</td>

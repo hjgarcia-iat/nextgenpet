@@ -14,8 +14,7 @@
 
         <p>The Lecture-style class (LC) version is appropriate if:</p>
         <ul>
-            <li>Students sit in desks and do not have large tables where they can perform experiments (individual,
-                movable desks are preferred to auditorium-style seating)
+            <li>Students sit in desks and do not have large tables where they can perform experiments (individual, movable desks are preferred to auditorium-style seating, but either will work. There are some optional chair-top experiments that students can perform if the materials are available.)
             </li>
             <li>
                 Enrollment is greater than 35 students (but lower enrollments are also suitable, for instance if the
@@ -46,19 +45,10 @@
             <strong> Table of Contents with Time Estimates </strong> lists all the lessons in the curriculum (organized
             by module and unit), along with an estimate of how much time each lesson might be expected to take. </p>
         <p>
-            <strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the
-            curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of lessons and
-            homework extensions for each unit in the module. Clicking on any of the lessons or extensions in these
-            graphics opens a pop-up window that provides a brief description and links to relevant information and
-            instructor materials. </p>
+            <strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of lessons and homework extensions for each unit in the module. When you click on any of the activities or extensions in these graphics, a panel below opens that provides a brief description of the activity or extension.</p>
+
         <p>
-            <strong>Student Materials</strong> is a viewable-only version of the entire set of student curriculum
-            materials for the ten content units. To order materials for your class, you need to click on the link at the
-            top of the page. (Because of its size [47 MB], this PDF file will take some time to load.) </p>
-        <p>
-            <strong>Teaching and Learning</strong> takes you to a page where you can download any of the teaching and
-            learning lessons and homework extensions to copy for your students. [Unlike the content modules, the
-            teaching and learning materials are free to use as you like.] </p>
+            <strong>Teaching and Learning</strong> has a drop-down menu with links to a Table of Contents and the various clusters of Teaching and Learning activities that are associated with the content modules.  Each of these links takes you to a page where you can see summaries of the activities and extensions for that cluster.  You can download any of these activities or extensions for use with your students.  They are free to use as you like.</p>
         <p>
             <strong>Extension Index</strong> takes you to a page where you can link to the homework extensions for each
             module and unit in the curriculum. Students work through each extension online and then (usually) go to

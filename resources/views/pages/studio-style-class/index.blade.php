@@ -16,7 +16,7 @@
         <ul>
             <li>Students can work in groups at tables and perform experiments</li>
 
-            <li>Enrollment is less than approximately 35 students</li>
+            <li>Enrollment is less than approximately 36 students (or larger, if you have an appropriate studio-style classroom and sufficient help to help monitor the class activity)</li>
             <li>The class meets approximately 75 hours/semester, typically in 2.5-hour sessions</li>
             <li>Suitable equipment is available</li>
         </ul>
@@ -38,20 +38,13 @@
         <p>
             <strong>Table of Contents with Time Estimates</strong> lists all the activities in the curriculum (organized
             by module and unit), along with an estimate of how much time each activity might be expected to take. </p>
+        <p><strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of activities and homework extensions for each unit in the module. When you click on any of the activities or extensions in these graphics, a panel below opens that provides a brief description of the activity or extension. </p>
+
         <p>
-            <strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the
-            curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of activities and
-            homework extensions for each unit in the module. Clicking on any of the activities or extensions in these
-            graphics opens a pop-up window that provides a brief description and links to relevant information and
-            instructor materials. </p>
+            <strong>Teaching and Learning</strong> has a drop-down menu with links to a Table of Contents and the various clusters of Teaching and Learning activities that are associated with the content modules.  Each of these links takes you to a page where you can see summaries of the activities and extensions for that cluster.  You can download any of these activities or extensions for use with your students.  They are free to use as you like.</p>
         <p>
-            <strong>Student Materials</strong> is a viewable-only version of the entire set of student curriculum
-            materials for the ten content units. To order materials for your class, you need to click on the link at the
-            top of the page. (Because of its size [47 MB], this PDF file will take some time to load. </p>
-        <p>
-            <strong>Teaching and Learning</strong> takes you to a page where you can download any of the teaching and
-            learning activities and homework extensions to copy for your students. [Unlike the content modules, the
-            teaching and learning materials are free to use as you like.] </p>
+            <strong>Planning and Conducting Investigations</strong> takes you to a page where you can see summaries of the activities and extensions that are aimed at helping students develop skills for this science practice. You can download any of these activities or extensions for use with your students.  They are free to use as you like.</p>
+
         <p>
             <strong> Extension Index </strong>takes you to a page where you can link to the homework extensions for each
             module and unit in the curriculum. Students work through each extension online and then (usually) go to
