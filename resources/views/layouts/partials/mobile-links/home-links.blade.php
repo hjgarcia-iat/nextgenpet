@@ -28,6 +28,12 @@
             <span>Overview of Teaching &amp; Learning Activities
             </span>
         </a>
+
+        <a href="{{ url('about/overview-of-pcim') }}"
+           class="dropdown-item{{ (Request::is('about/overview-of-pcim')) ? ' active' : '' }}">
+            <span>Overview of Plannig & Conducting Investigations Materials</span>
+        </a>
+
         <a href="{{ url('about/engineering-design-activities') }}"
            class="dropdown-item{{ (Request::is('about/engineering-design-activities')) ? ' active' : '' }}">
             <span>Engineering Design Activities

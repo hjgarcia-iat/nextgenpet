@@ -19,6 +19,12 @@
            class="list-group-item{{ (Request::is('about/overview-of-teaching-and-learning-activities')) ? ' active' : '' }}">
             <span>Overview of Teaching and Learning Materials</span>
         </a>
+
+        <a href="{{ url('about/overview-of-pcim') }}"
+           class="list-group-item{{ (Request::is('about/overview-of-pcim')) ? ' active' : '' }}">
+            <span>Overview of Plannig & Conducting Investigations Materials</span>
+        </a>
+
         <a href="{{ url('about/engineering-design-activities') }}"
            class="list-group-item{{ (Request::is('about/engineering-design-activities')) ? ' active' : '' }}">
             <span>Overview of Engineering Design Activities</span>
