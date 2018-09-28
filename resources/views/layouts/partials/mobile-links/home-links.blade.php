@@ -31,7 +31,7 @@
 
         <a href="{{ url('about/overview-of-pcim') }}"
            class="dropdown-item{{ (Request::is('about/overview-of-pcim')) ? ' active' : '' }}">
-            <span>Overview of Plannig & Conducting Investigations Materials</span>
+            <span>Overview of Planning & Conducting Investigations Materials</span>
         </a>
 
         <a href="{{ url('about/engineering-design-activities') }}"
