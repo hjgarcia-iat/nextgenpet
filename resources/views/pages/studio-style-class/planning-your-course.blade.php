@@ -12,34 +12,29 @@
         <h3>Planning Your Studio-Style Course</h3>
         <p>The full set of Next Gen PET materials consists of ten units, organized into five modules, along with a set of optional teaching and learning materials and optional planning and conducting investigations materials. The materials are published as separate units by Activate Learning, depending on the duration of your course and how you want to organize it.</p>
 
-        <p>For a one-semester (15 week) course, with approximately 75 hours of instructional time, you can plan to cover five or six units. For a one-quarter (10 weeks) course, with about 60 hours of instructional time, you can plan to cover four to six units. Although you need to order the materials at the module level, you can decide to teach an entire module or just one of the two units within the module. Also, the Matter and Interactions module is much longer than the other modules, so if you are teaching a physical science course including both physics and chemistry, you will probably only be able to cover fewer units than if you were teaching a course just with physics content. In choosing which units to use from the five modules, keep the following information in mind:
+        <p>For a one-semester (15 week) course, with approximately 75 hours of instructional time, you can plan to cover five or six units. For a one-quarter (10 weeks) course, with about 60 hours of instructional time, you can plan to cover four to six units. In choosing which units to use from the five modules, keep the following information in mind:
         </p>
 
         <ul>
             <li>
                 For the
-                <em>Developing Models for Magnetism and Static Electricity Module</em>
-                , either Unit M or Unit SE can be implemented by itself, independent of the other unit.
+                <em>Developing Models for Magnetism and Static Electricity Module</em>, either Unit M or Unit SE can be implemented by itself, independent of the other unit.
             </li>
             <li>
                 For the
-                <em>Interactions and Energy Module</em>
-                , Unit EM can be implemented by itself, but it is a pre-requisite for Unit PEF.
+                <em>Interactions and Energy Module</em>, Unit EM can be implemented by itself, but it is a pre-requisite for Unit PEF.
             </li>
             <li>
                 For the
-                <em>Interactions and Forces Module</em>
-                , Unit FM is a pre-requisite for Unit CF. Both units are usually implemented together.
+                <em>Interactions and Forces Module</em>, Unit FM is a pre-requisite for Unit CF. Both units are usually implemented together.
             </li>
             <li>
                 For the
-                <em>Waves, Sound and Light Module</em>
-                , either Unit WS or Unit L can be implemented by itself, independent of the other unit.
+                <em>Waves, Sound and Light Module</em>, either Unit WS or Unit L can be implemented by itself, independent of the other unit.
             </li>
             <li>
                 For the
-                <em>Matter and Interactions Module</em>
-                , Unit PC can be implemented by itself, but it is a pre-requisite for Unit CR. Also, these two units are longer than the other units in the curriculum, so if you are teaching a physical science course you can include two or maybe three other units in addition to these two.
+                <em>Matter and Interactions Module</em>, Unit PC can be implemented by itself, but it is a pre-requisite for Unit CR. Also, these two units are longer than the other units in the curriculum, so if you are teaching a physical science course you can include two or maybe three other units in addition to these two.
             </li>
         </ul>
 
