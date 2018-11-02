@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\HelpRequest;
-use App\Mail\Help;
+use App\Mail\HelpEmail;
 use Illuminate\View\View;
 
 /**
@@ -15,7 +15,7 @@ class HelpController extends Controller
 {
 
 	/**
-	 * Post Help Form
+	 * Post HelpEmail Form
 	 *
 	 * @param HelpRequest $request
 	 *
@@ -23,8 +23,8 @@ class HelpController extends Controller
 	 */
 	public function store(HelpRequest $request)
 	{
-		\Mail::to('contact@iat.com')->send(new Help($request));
+		\Mail::to('csr@activatelearning.com')->send(new HelpEmail($request));
 
-		return redirect()->back()->with('success', 'Your message was sent!');
+		return redirect()->back()->with('success', 'Your message was sent. We will be in contact soon!');
 	}
 }

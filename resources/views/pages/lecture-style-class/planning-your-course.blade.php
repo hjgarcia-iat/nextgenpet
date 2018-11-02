@@ -13,9 +13,7 @@
         <h3>Planning Your Lecture-Style Course</h3>
         <p>The full set of Next Gen PET materials consists of ten units, organized into five modules, along with a set of optional teaching and learning materials and optional planning and conducting investigations materials. The materials are published as separate units by Activate Learning, and you can order any number and sequence of units you wish, depending on the duration of your course and how you want to organize it. </p>
 
-        <p>For a one-semester (15 week) or quarter (10 week), with 36-40 hours of instructional time, you can plan to fully cover four
-            or five units, or part of more. Although you need to order the materials at the module level, you can decide
-            to teach an entire module or just one of the two units within the module.
+        <p>For a one-semester (15 week) or quarter (10 week), with 36-40 hours of instructional time, you can plan to fully cover four or five units. In choosing which units to use from the five modules, keep the following information in mind:
         </p>
 
         <ul>

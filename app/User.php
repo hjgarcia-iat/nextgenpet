@@ -41,6 +41,7 @@ use Spatie\Permission\Traits\HasRoles;
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Permission\Models\Permission[] $permissions
  * @method static \Illuminate\Database\Query\Builder|\App\User role($roles)
  * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[]                         $colleges
+ * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  */
 class User extends Authenticatable
 {

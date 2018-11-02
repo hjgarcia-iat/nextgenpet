@@ -8,10 +8,17 @@ use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Contracts\Queue\ShouldQueue;
 
-class Help extends Mailable
+/**
+ * Class HelpEmail
+ * @package App\Mail
+ */
+class HelpEmail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    /**
+     * @var Request
+     */
     public $request;
 
     /**

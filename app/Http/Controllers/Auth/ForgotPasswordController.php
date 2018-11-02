@@ -58,6 +58,6 @@ class ForgotPasswordController extends Controller
 		);
 
 		return redirect()->route('login.create')
-		                 ->with('success', 'The recover password email was sent to the provided email address');
+		                 ->with('success', 'The recover password email was sent to the provided email address.');
 	}
 }

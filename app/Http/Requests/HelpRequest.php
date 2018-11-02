@@ -5,6 +5,10 @@ namespace App\Http\Requests;
 use Illuminate\Foundation\Http\FormRequest;
 use Illuminate\Http\JsonResponse;
 
+/***
+ * Class HelpRequest
+ * @package App\Http\Requests
+ */
 class HelpRequest extends FormRequest
 {
 

@@ -24,8 +24,6 @@
         <em>Studio-style</em>
         class (SC) version is best suited for lower enrollment courses that meet ~5 hours/week and take place in a lab or workroom where students can work in groups around tables and perform experiments. In the SC version, students spend the majority of their time with their group of 3-4 peers making predictions, performing experiments, drawing conclusions, answering questions in a workbook, and discussing their ideas both within their group and with the whole class.
     </p>
-    <img src="{{ url('img/content/imp-version-1.png') }}" alt="Implementation Versions"
-         class="d-block mx-auto img-responsive img-thumbnail mb-2">
     <p>
         The
         <em>Lecture-style</em>
@@ -34,13 +32,9 @@
     <p>
         If your class format involves both lecture sessions and weekly laboratory meetings in a separate room, then you can consider implementing a hybrid version of the curriculum: using lecture-style materials for the lectures and studio-style materials for the lab periods.  See the ‘Planning Your Course’ link on either the STUDIO STYLE CLASS page or the LECTURE STYLE CLASS page to see an example of a hybrid-style implementation.
     </p>
-    <img src="{{ url('img/content/imp-version-2.png') }}" alt="Implementation Versions"
-         class="d-block mx-auto img-responsive img-thumbnail mb-2">
     <p>
-        The table below summarizes the differences between structural features of the two versions. To see examples of both versions, click on one of the following links: <strong>Developing Model of Magnetism</strong> (
-        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mse/um-a3-student-materials.pdf">Studio Style</a>,
-        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/um-l3-student-materials.pdf">Lecture Style</a>), Interactions and Forces (
-        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ufm-a1-student-materials.pdf">Studio Style</a>,
+        The table below summarizes the differences between structural features of the two versions. To see examples of both versions, click on one of the following links: <strong>Developing Model of Magnetism</strong> (<a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-mse/um-a3-student-materials.pdf">Studio Style</a>,
+        <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/um-l3-student-materials.pdf">Lecture Style</a>), <strong>Interactions and Forces</strong> (<a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ufm-a1-student-materials.pdf">Studio Style</a>,
         <a target="_blank" href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-fm/ufm-l1-student-materials.pdf">Lecture Style</a>). See also the <strong>Design Principles</strong> table below that summarizes the differences in how each version implements the design features of the curriculum.
     </p>
 
@@ -92,8 +86,7 @@
     </table>
     <p>
         The following table shows how the design principles are put into in the studio-style class and lecture-style class versions of
-        <em>Next Gen PET</em>
-        .
+        <em>Next Gen PET</em>.
     </p>
     <table class="table table-bordered table-hover table-responsive">
         <thead>

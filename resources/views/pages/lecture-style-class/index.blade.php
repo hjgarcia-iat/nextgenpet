@@ -25,7 +25,7 @@
             </li>
         </ul>
         <p>
-            During each period the instructor uses PowerPoint slides to guide and pace the classroom activity. Students
+            During each period the instructor uses PowerPoint slides to guide and pace the classroom lesson. Students
             work with nearest neighbors as they watch movies of experiments or simulations, perhaps perform simple
             desktop experiments, respond to clicker questions, and use worksheets to record their answers to questions
             involving predictions, observations, making sense of data, and drawing conclusions. </p>
@@ -45,10 +45,10 @@
             <strong> Table of Contents with Time Estimates </strong> lists all the lessons in the curriculum (organized
             by module and unit), along with an estimate of how much time each lesson might be expected to take. </p>
         <p>
-            <strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of lessons and homework extensions for each unit in the module. When you click on any of the activities or extensions in these graphics, a panel below opens that provides a brief description of the activity or extension.</p>
+            <strong>Content Modules</strong> has a drop-down menu with links to each of the five content modules in the curriculum. Choosing a module takes you to a page showing graphic displays of the sequence of lessons and homework extensions for each unit in the module. When you click on any of the lessons or extensions in these graphics, a panel below opens that provides a brief description of the lesson or extension.</p>
 
         <p>
-            <strong>Teaching and Learning</strong> has a drop-down menu with links to a Table of Contents and the various clusters of Teaching and Learning activities that are associated with the content modules.  Each of these links takes you to a page where you can see summaries of the activities and extensions for that cluster.  You can download any of these activities or extensions for use with your students.  They are free to use as you like.</p>
+            <strong>Teaching and Learning</strong> has a drop-down menu with links to a Table of Contents and the various clusters of Teaching and Learning lessons that are associated with the content modules.  Each of these links takes you to a page where you can see summaries of the lessons and extensions for that cluster.  You can download any of these lessons or extensions for use with your students.  They are free to use as you like.</p>
         <p>
             <strong>Extension Index</strong> takes you to a page where you can link to the homework extensions for each
             module and unit in the curriculum. Students work through each extension online and then (usually) go to

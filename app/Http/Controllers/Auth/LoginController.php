@@ -75,7 +75,7 @@ class LoginController extends Controller
             if (!\Auth::user()->hasRole('nextgen_pet_user')) {
                 auth()->logout();
 
-                return redirect()->route('login.create')->with('error', 'You don\'t have access to this area.');
+                return redirect()->route('login.create')->with('error', 'Please contact support for access to NextGen PET!');
             }
 
             return redirect()->intended('/')->with('success', 'You have been logged in!');

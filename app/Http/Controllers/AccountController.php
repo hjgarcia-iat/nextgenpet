@@ -7,8 +7,7 @@ use Illuminate\Http\Request;
 use Illuminate\View\View;
 
 /**
- * Class HelpController
- *
+ * Class AccountController
  * @package App\Http\Controllers
  */
 class AccountController extends Controller
@@ -19,7 +18,7 @@ class AccountController extends Controller
     }
 
     /**
-	 * Show Help Form
+	 * Show Account Edit View
 	 *
 	 * @return View;
 	 */
@@ -29,13 +28,12 @@ class AccountController extends Controller
 			->with('user', auth()->user());
 	}
 
-	/**
-	 * Post Help Form
-	 *
-	 * @param AccountRequest $request
-	 *
-	 * @return \Illuminate\Http\RedirectResponse
-	 */
+    /**
+     * Post Account Edit Form
+     *
+     * @param AccountRequest $request
+     * @return \Illuminate\Http\RedirectResponse
+     */
 	public function update(AccountRequest $request)
 	{
 		auth()->user()->update($request->all());

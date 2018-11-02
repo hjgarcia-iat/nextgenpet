@@ -31,9 +31,9 @@
     <p>
         <strong>Explicit focus on teaching and learning</strong> Included <em>Teaching and Learning</em> activities help students make explicit connections between their own learning, the learning and teaching of children in elementary school, and the core ideas, science and engineering practices, and crosscutting concepts of the NGSS. These can be used optionally, as desired.</p>
     <p>
-        <strong>Focus on planning and conducting investigations</strong> Optional Planning and Conducting Investigations activities help students enhance their skills at designing and carrying out investigations.
+        <strong>Focus on planning and conducting investigations</strong> Optional <em>Planning and Conducting Investigations</em> activities help students enhance their skills at designing and carrying out investigations.
     </p>
-    <p><strong>Integrated Engineering Design Activities</strong> Each of the five content modules includes two <em>Engineering Design Activities</em> requiring application of the module’s physical science content.</p>
+    <p><strong>Integrated Engineering Design Activities</strong> Each of the five content modules includes two <em>Engineering Design</em> activities requiring application of the module’s physical science content.</p>
     <p>
         <strong>Research based and proven</strong> <em>Next Gen PET</em> has been developed over the
         past ten years by a team of scientists and science educators using design principles based on research on
