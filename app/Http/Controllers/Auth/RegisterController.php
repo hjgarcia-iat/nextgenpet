@@ -9,6 +9,7 @@ use App\Repositories\TeacherRepository;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Http\Request;
+use Mail;
 
 /**
  * Class RegisterController
@@ -17,17 +18,6 @@ use Illuminate\Http\Request;
  */
 class RegisterController extends Controller
 {
-
-	/*
-	|--------------------------------------------------------------------------
-	| Register Controller
-	|--------------------------------------------------------------------------
-	|
-	| This controller handles the registration of new users as well as their
-	| validation and creation. By default this controller uses a trait to
-	| provide this functionality without requiring any additional code.
-	|
-	 */
 
 	use RegistersUsers;
 
@@ -68,10 +58,10 @@ class RegisterController extends Controller
 	{
 		$teacher = $teacher->register($request);
 
-        \Mail::to('contact@iat.com')->send(new TeacherRegistered($teacher));
+        Mail::to('hgarcia@activatelearning.com')->send(new TeacherRegistered($teacher));
 
 		return redirect()
 			->to('/')
-			->with('success', 'You have been registered. We will be sending you a confirmation email soon.');
+			->with('success', 'You have been registered. We will be sending you a confirmation email with your password soon.');
 	}
 }
