@@ -60,9 +60,19 @@ class HomeAreaFeatureTest extends TestCase
         $this->visit('about/faculty-online-learning')->assertResponseStatus(200);
     }
 
+    public function test_we_can_see_the_flexibility_page()
+    {
+        $this->visit('about/faculty-online-learning')->assertResponseStatus(200);
+    }
+
+    public function test_we_can_see_the_research_based_page()
+    {
+        $this->visit('about/research-based')->assertResponseStatus(200);
+    }
+
     public function test_we_can_see_the_terms_and_conditions_page()
     {
-        $this->visit('terms-and-conditions')->assertResponseStatus(200);
+        $this->visit('about/flexibility')->assertResponseStatus(200);
     }
 
     public function test_we_can_see_the_privacy_policy_page()
