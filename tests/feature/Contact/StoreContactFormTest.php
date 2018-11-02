@@ -26,6 +26,51 @@ class StoreContactFormTest extends TestCase
         $this->seeEmailContains($this->valid_data()['comment']);
     }
 
+    public function test_name_field_is_required()
+    {
+        $response = $this->post(route('help.post'), $this->valid_data(['name' => '']));
+
+        $response->assertResponseStatus(302);
+        $this->seeEmailWasNotSent();
+        $response->assertSessionHasErrors('name');
+    }
+
+    public function test_email_field_is_required()
+    {
+        $response = $this->post(route('help.post'), $this->valid_data(['email' => '']));
+
+        $response->assertResponseStatus(302);
+        $this->seeEmailWasNotSent();
+        $response->assertSessionHasErrors('email');
+    }
+
+    public function test_email_field_is_valid()
+    {
+        $response = $this->post(route('help.post'), $this->valid_data(['email' => 'invalid-email']));
+
+        $response->assertResponseStatus(302);
+        $this->seeEmailWasNotSent();
+        $response->assertSessionHasErrors('email');
+    }
+
+    public function test_subject_field_is_required()
+    {
+        $response = $this->post(route('help.post'), $this->valid_data(['subject' => '']));
+
+        $response->assertResponseStatus(302);
+        $this->seeEmailWasNotSent();
+        $response->assertSessionHasErrors('subject');
+    }
+
+    public function test_comment_field_is_required()
+    {
+        $response = $this->post(route('help.post'), $this->valid_data(['comment' => '']));
+
+        $response->assertResponseStatus(302);
+        $this->seeEmailWasNotSent();
+        $response->assertSessionHasErrors('comment');
+    }
+
     /**
      * Valid form data
      *
