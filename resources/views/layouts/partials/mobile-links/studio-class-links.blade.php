@@ -149,6 +149,10 @@
                     <span>Matter &amp; Interactions Module</span> </a>
                 <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('studio-style-class/instructor/teaching-and-learning') }}">
                 <span>Teaching &amp; Learning</span> </a>
+                <a class="dropdown-item{{ (Request::is('studio-style-class/instructor/planning-and-conducting-investigations') ? ' active' : '') }}"
+                   href="{{ url('studio-style-class/instructor/planning-and-conducting-investigations') }}">
+                    <span>Planning &amp; Conducting Investigations</span>
+                </a>
             </div>
         </div>
     </div>

@@ -27,7 +27,7 @@ mix.webpackConfig({
                 'public/js/*.js',
                 'resources/views/**/*.blade.php'
             ],
-            proxy: 'nextgenpet.al.internal'
+            proxy: 'nextgenpet.activatelearning.test'
         })
     ]
 });
