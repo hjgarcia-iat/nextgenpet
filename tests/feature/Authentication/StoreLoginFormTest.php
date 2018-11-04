@@ -69,7 +69,7 @@ class StoreLoginFormTest extends TestCase
         $this->assertFalse(auth()->check());
     }
 
-    public function test_email_field_is_required()
+    public function test_the_email_field_is_required()
     {
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data(['email' => '']));
 
@@ -79,7 +79,7 @@ class StoreLoginFormTest extends TestCase
         $this->assertFalse(auth()->check());
     }
 
-    public function test_password_field_is_required()
+    public function test_the_password_field_is_required()
     {
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data(['password' => '']));
 

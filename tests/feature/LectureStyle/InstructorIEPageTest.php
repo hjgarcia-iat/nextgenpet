@@ -14,7 +14,7 @@ class InstructorIEPageTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations;
 
-    public function test_we_can_see_instructor_mse_page_as_a_next_gen_pet_user()
+    public function test_we_can_see_the_instructor_mse_page_as_a_next_gen_pet_user()
     {
         $user = \UserFactory::createNextGenPetUser();
 
@@ -23,7 +23,7 @@ class InstructorIEPageTest extends TestCase
             ->assertResponseStatus(200);
     }
 
-    public function test_we_can_see_instructor_mse_page_as_an_admin_user()
+    public function test_we_can_see_the_instructor_mse_page_as_an_admin_user()
     {
         $user = \UserFactory::createAdminUser();
 
@@ -32,7 +32,7 @@ class InstructorIEPageTest extends TestCase
             ->assertResponseStatus(200);
     }
 
-    public function test_we_can_see_instructor_mse_page_as_a_super_admin_user()
+    public function test_we_can_see_the_instructor_mse_page_as_a_super_admin_user()
     {
         $user = \UserFactory::createSuperAdminUser();
 
@@ -41,7 +41,7 @@ class InstructorIEPageTest extends TestCase
             ->assertResponseStatus(200);
     }
 
-    public function test_we_cannot_see_instructor_mse_page_as_a_general_user()
+    public function test_we_cannot_see_the_instructor_mse_page_as_a_general_user()
     {
         $user = \UserFactory::createGeneralUser();
 
@@ -50,7 +50,7 @@ class InstructorIEPageTest extends TestCase
             ->seePageIs(route('login.create'));
     }
 
-    public function test_we_cannot_see_instructor_mse_page_if_we_are_not_logged_in()
+    public function test_we_cannot_see_the_instructor_mse_page_if_we_are_not_logged_in()
     {
         $this->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
             ->seePageIs(route('login.create'));

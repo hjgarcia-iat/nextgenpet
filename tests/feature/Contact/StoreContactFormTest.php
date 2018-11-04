@@ -13,7 +13,7 @@ class StoreContactFormTest extends TestCase
 {
     use MailTracking;
 
-    public function test_we_can_send_contact_form()
+    public function test_we_can_send_the_contact_form()
     {
         $response = $this->post(route('help.post'), $this->valid_data());
 
@@ -26,7 +26,7 @@ class StoreContactFormTest extends TestCase
         $this->seeEmailContains($this->valid_data()['comment']);
     }
 
-    public function test_name_field_is_required()
+    public function test_the_name_field_is_required()
     {
         $response = $this->post(route('help.post'), $this->valid_data(['name' => '']));
 
@@ -35,7 +35,7 @@ class StoreContactFormTest extends TestCase
         $response->assertSessionHasErrors('name');
     }
 
-    public function test_email_field_is_required()
+    public function test_the_email_field_is_required()
     {
         $response = $this->post(route('help.post'), $this->valid_data(['email' => '']));
 
@@ -44,7 +44,7 @@ class StoreContactFormTest extends TestCase
         $response->assertSessionHasErrors('email');
     }
 
-    public function test_email_field_is_valid()
+    public function test_the_email_field_is_valid()
     {
         $response = $this->post(route('help.post'), $this->valid_data(['email' => 'invalid-email']));
 
@@ -53,7 +53,7 @@ class StoreContactFormTest extends TestCase
         $response->assertSessionHasErrors('email');
     }
 
-    public function test_subject_field_is_required()
+    public function test_the_subject_field_is_required()
     {
         $response = $this->post(route('help.post'), $this->valid_data(['subject' => '']));
 
@@ -62,7 +62,7 @@ class StoreContactFormTest extends TestCase
         $response->assertSessionHasErrors('subject');
     }
 
-    public function test_comment_field_is_required()
+    public function test_the_comment_field_is_required()
     {
         $response = $this->post(route('help.post'), $this->valid_data(['comment' => '']));
 
