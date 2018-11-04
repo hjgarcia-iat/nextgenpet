@@ -2,7 +2,6 @@
 
 namespace Tests\Feature\Register;
 
-use App\College;
 use App\Zip;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
@@ -20,7 +19,7 @@ class StoreRegistrationTest extends TestCase
     /**
      * Zip
      *
-     * @var Zip;
+     * @var \App\Zip;
      */
     protected $zip;
 
