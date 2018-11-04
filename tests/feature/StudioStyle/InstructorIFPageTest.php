@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\LectureStyle;
+namespace Tests\StudioStyle;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 
 /**
- * Class InstructorMSEPageTest
- * @package Tests\LectureStyle
+ * Class InstructorIFPageTest
+ * @package Tests\StudioStyle
  */
-class InstructorMSEPageTest extends TestCase
+class InstructorIFPageTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations;
 
@@ -19,7 +19,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createNextGenPetUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -28,7 +28,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createAdminUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -37,7 +37,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createSuperAdminUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -46,13 +46,13 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createGeneralUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
             ->seePageIs(route('login.create'));
     }
 
     public function test_we_cannot_see_instructor_mse_page_if_we_are_not_logged_in()
     {
-        $this->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+        $this->visit('/studio-style-class/instructor/interactions-and-forces-module')
             ->seePageIs(route('login.create'));
     }
 }

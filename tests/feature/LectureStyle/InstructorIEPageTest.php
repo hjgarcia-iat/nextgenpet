@@ -7,10 +7,10 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 
 /**
- * Class InstructorMSEPageTest
+ * Class InstructorIEPageTest
  * @package Tests\LectureStyle
  */
-class InstructorMSEPageTest extends TestCase
+class InstructorIEPageTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations;
 

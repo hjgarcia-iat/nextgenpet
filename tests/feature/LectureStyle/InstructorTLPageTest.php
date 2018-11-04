@@ -7,10 +7,10 @@ use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;
 
 /**
- * Class InstructorMSEPageTest
+ * Class InstructorTLPageTest
  * @package Tests\LectureStyle
  */
-class InstructorMSEPageTest extends TestCase
+class InstructorTLPageTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations;
 
@@ -19,7 +19,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createNextGenPetUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/lecture-style-class/instructor/teaching-and-learning')
             ->assertResponseStatus(200);
     }
 
@@ -28,7 +28,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createAdminUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/lecture-style-class/instructor/teaching-and-learning')
             ->assertResponseStatus(200);
     }
 
@@ -37,7 +37,7 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createSuperAdminUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/lecture-style-class/instructor/teaching-and-learning')
             ->assertResponseStatus(200);
     }
 
@@ -46,13 +46,13 @@ class InstructorMSEPageTest extends TestCase
         $user = \UserFactory::createGeneralUser();
 
         $this->actingAs($user)
-            ->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+            ->visit('/lecture-style-class/instructor/teaching-and-learning')
             ->seePageIs(route('login.create'));
     }
 
     public function test_we_cannot_see_instructor_mse_page_if_we_are_not_logged_in()
     {
-        $this->visit('/lecture-style-class/instructor/magnetism-and-static-electricity-module')
+        $this->visit('/lecture-style-class/instructor/teaching-and-learning')
             ->seePageIs(route('login.create'));
     }
 }
