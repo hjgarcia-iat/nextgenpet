@@ -19,9 +19,17 @@ class PageAuthChecker
 	 */
     public function handle($request, Closure $next)
     {
-    	if(str_contains($request->getRequestUri(), 'instructor') and !auth()->check()) {
+
+        if(str_contains($request->getRequestUri(), 'instructor') and !auth()->check()) {
 		    throw new AuthenticationException('Please login to continue!');
 	    }
+
+        if(!auth()->user()->hasRole(['nextgen_pet_user', 'admin', 'super_admin'])) {
+
+            auth()->logout();
+
+            throw new AuthenticationException('Please login to continue!');
+        }
 
         return $next($request);
     }
