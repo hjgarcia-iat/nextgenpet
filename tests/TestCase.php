@@ -12,7 +12,7 @@ abstract class TestCase extends BaseTestCase
      *
      * @var string
      */
-    protected $baseUrl = 'http://localhost';
+    protected $baseUrl = 'http://nexgenpet.activatelearning.test';
 
     /**
      * Creates the application.

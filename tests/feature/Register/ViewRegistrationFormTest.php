@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature\Authentication;
+namespace Tests\Feature\Register;
 
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
@@ -8,25 +8,25 @@ use Tests\TestCase;
 use Tests\Traits\TestHelperTrait;
 
 /**
- * Class ViewLoginFormTest
- * @package Tests\Feature\Authentication
+ * Class ViewRegistrationFormTest
+ * @package Tests\Feature\Register
  */
-class ViewLoginFormTest extends TestCase
+class ViewRegistrationFormTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations, TestHelperTrait;
 
-    public function test_we_can_view_the_login_form_page()
+    public function test_we_can_view_registration_form()
     {
-        $this->visit(route('login.create'))->assertResponseStatus(200);
+        $this->visit(route('register.create'))->assertResponseStatus(200);
     }
 
-    public function test_we_cannot_view_the_login_form_page_if_we_are_logged_in()
+    public function test_we_cannot_view_registration_form_if_we_are_logged_in()
     {
         $user = \UserFactory::createNextGenPetUser();
 
         $this->from('/')
             ->actingAs($user)
-            ->visit(route('login.create'))
+            ->visit(route('register.create'))
             ->seePageIs('/');
     }
 }
