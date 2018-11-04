@@ -15,12 +15,12 @@ class ViewRegistrationFormTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations, TestHelperTrait;
 
-    public function test_we_can_view_registration_form()
+    public function test_we_can_view_the_registration_form()
     {
         $this->visit(route('register.create'))->assertResponseStatus(200);
     }
 
-    public function test_we_cannot_view_registration_form_if_we_are_logged_in()
+    public function test_we_cannot_view_the_registration_form_if_we_are_logged_in()
     {
         $user = \UserFactory::createNextGenPetUser();
 
