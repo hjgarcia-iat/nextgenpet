@@ -65,14 +65,14 @@ class LoginController extends Controller
     {
         if (\Auth::attempt($request->only(['email', 'password']))) {
             //check account status
-            if (\Auth::user()->account_status == 'pending') {
+            if (\Auth::user()->account_status == 'Pending') {
                 auth()->logout();
 
                 return redirect()->route('login.create')->with('error', 'We are in the process of activating your account we will be contacting you shortly.');
             }
 
             //check role
-            if (!\Auth::user()->hasRole('nextgen_pet_user')) {
+            if (!\Auth::user()->hasRole(['nextgen_pet_user','admin','super_admin'])) {
                 auth()->logout();
 
                 return redirect()->route('login.create')->with('error', 'Please contact support for access to NextGen PET!');
