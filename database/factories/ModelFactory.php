@@ -78,6 +78,26 @@ $factory->define(App\College::class, function (Faker\Generator $faker) {
     ];
 });
 
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(\App\State::class, function (Faker\Generator $faker) {
+    return [
+        'abbr' => $faker->citySuffix,
+        'name' => $faker->company,
+    ];
+});
+
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(\App\Zip::class, function (Faker\Generator $faker) {
+    return [
+        'zip_code'     => $faker->postcode,
+        'city'         => $faker->city,
+        'state_name'   => $faker->company,
+        'state_prefix' => $faker->citySuffix,
+        'county'       => $faker->company,
+        'lat'          => $faker->latitude,
+        'lon'          => $faker->longitude,
+    ];
+});
 
 
 
