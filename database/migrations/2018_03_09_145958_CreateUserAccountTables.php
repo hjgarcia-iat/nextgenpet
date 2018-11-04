@@ -28,7 +28,7 @@ class CreateUserAccountTables extends Migration
         Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('username')->index();
-            $table->string('password')->index();
+            $table->string('password')->index()->nullable();
             $table->string('remember_token')->nullable();
             $table->string('hash')->nullable();
             $table->string('email')->index();

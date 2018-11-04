@@ -31,5 +31,6 @@
         <env name="MAIL_DRIVER" value="log"/>
         <env name="FILESYSTEM_DRIVER" value="local"/>
         <env name="SUPPORT_EMAIL" value="support@email.com"/>
+        <env name="REGISTRATION_SUPPORT_EMAIL" value="registration_support@email.com"/>
     </php>
 </phpunit>

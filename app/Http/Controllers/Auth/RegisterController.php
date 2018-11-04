@@ -22,13 +22,6 @@ class RegisterController extends Controller
 	use RegistersUsers;
 
 	/**
-	 * Where to redirect users after login / registration.
-	 *
-	 * @var string
-	 */
-	protected $redirectTo = '/';
-
-	/**
 	 * Create a new controller instance.
 	 */
 	public function __construct()
@@ -46,19 +39,19 @@ class RegisterController extends Controller
 		return view('auth.register');
 	}
 
-	/**
-	 * Store User
-	 *
-	 * @param  RegisterRequest       $request
-	 * @param  TeacherRepository $teacher
-	 *
-	 * @return \Illuminate\Http\RedirectResponse
-	 */
+    /**
+     * Store Next GEN PET User
+     *
+     * @param RegisterRequest $request
+     * @param TeacherRepository $teacher
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Throwable
+     */
 	public function store(RegisterRequest $request, TeacherRepository $teacher)
 	{
 		$teacher = $teacher->register($request);
 
-        Mail::to('hgarcia@activatelearning.com')->send(new TeacherRegistered($teacher));
+        Mail::to(env('REGISTRATION_SUPPORT_EMAIL'))->send(new TeacherRegistered($teacher));
 
 		return redirect()
 			->to('/')

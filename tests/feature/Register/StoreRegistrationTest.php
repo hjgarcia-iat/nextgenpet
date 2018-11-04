@@ -2,9 +2,13 @@
 
 namespace Tests\Feature\Register;
 
+use App\Role;
+use App\State;
+use App\User;
 use App\Zip;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Spinen\MailAssertions\MailTracking;
 use Tests\TestCase;
 use Tests\Traits\TestHelperTrait;
 
@@ -14,20 +18,41 @@ use Tests\Traits\TestHelperTrait;
  */
 class StoreRegistrationTest extends TestCase
 {
-    use DatabaseTransactions, DatabaseMigrations, TestHelperTrait;
-
-    /**
-     * Zip
-     *
-     * @var \App\Zip;
-     */
-    protected $zip;
+    use DatabaseTransactions, DatabaseMigrations, TestHelperTrait, MailTracking;
 
     public function setUp()
     {
         parent::setUp();
 
-        $this->zip = factory(Zip::class)->create(['zip_code' => 00000]);
+        $zip   = factory(Zip::class)->create(['zip_code' => '11111', 'state_prefix' => 'ST']);
+        $state = factory(State::class)->create(['abbr' => $zip->state_prefix]);
+        $role  = factory(Role::class)->create(['name' => 'nextgen_pet_user']);
+    }
+
+    public function test_we_can_register()
+    {
+        $response = $this->from(route('register.create'))
+            ->post(route('register.store'), $this->valid_data());
+
+        $response->assertRedirectedTo('/');
+        $response->assertResponseStatus(302);
+        $response->seeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
+        $response->seeInDatabase('users', [
+            'email'          => $this->valid_data()['register_email'],
+            'account_status' => 'Pending',
+        ]);
+        $response->seeInDatabase('accounts', [
+            'first_name' => $this->valid_data()['first_name'],
+            'last_name'  => $this->valid_data()['last_name'],
+        ]);
+
+        tap(User::whereEmail($this->valid_data()['register_email'])->first(), function ($user) {
+            $this->assertEquals($user->colleges()->first()->name, $this->valid_data()['institution']);
+            $this->assertTrue($user->hasRole('nextgen_pet_user'));
+        });
+
+        $this->seeEmailWasSent();
+        $this->seeEmailTo(env('REGISTRATION_SUPPORT_EMAIL'));
     }
 
     public function test_the_first_name_field_is_required()
@@ -182,7 +207,7 @@ class StoreRegistrationTest extends TestCase
             'last_name'      => 'Doe',
             'register_email' => 'jdoe@email.com',
             'institution'    => 'College',
-            'zip'            => '00000',
+            'zip'            => '11111',
         ], $data);
     }
 }

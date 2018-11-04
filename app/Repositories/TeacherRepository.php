@@ -26,11 +26,11 @@ class TeacherRepository
     }
 
     /**
-     * Create a College User
+     * Crete a next gen pet user
      *
-     * @param  RegisterRequest $request
-     *
-     * @return \App\User
+     * @param RegisterRequest $request
+     * @return mixed
+     * @throws \Throwable
      */
     public function register(RegisterRequest $request)
     {
@@ -64,7 +64,7 @@ class TeacherRepository
         $teacher = User::create([
             'email'              => $email,
             'username'           => $email,//needed for database
-            'account_status'     => 'pending',
+            'account_status'     => 'Pending',
             'user_group_id'      => 1,//needed for database
             'account_expiration' => Carbon::now()->addYear(4),//needed for database
             'order_number'       => 'NextGenPET',//needed for database

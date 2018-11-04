@@ -23,6 +23,14 @@ class CreateCollegeTable extends Migration
             $table->string('zip');
             $table->timestamps();
         });
+
+        // create college user table
+        Schema::create('college_user', function (Blueprint $table) {
+            $table->increments('id');
+            $table->string('college_id')->index();
+            $table->integer('user_id')->index();
+            $table->timestamps();
+        });
     }
 
     /**
@@ -33,5 +41,6 @@ class CreateCollegeTable extends Migration
     public function down()
     {
         Schema::dropIfExists('colleges');
+        Schema::dropIfExists('college_user');
     }
 }
