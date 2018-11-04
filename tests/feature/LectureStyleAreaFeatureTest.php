@@ -2,7 +2,7 @@
 
 namespace Tests\Feature;
 
-use TestCase;
+use Tests\TestCase;
 
 /**
  * Class LectureStyleAreaFeatureTest

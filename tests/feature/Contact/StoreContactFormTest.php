@@ -1,13 +1,13 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Contact;
 
 use Spinen\MailAssertions\MailTracking;
-use TestCase;
+use Tests\TestCase;
 
 /**
  * Class StoreContactFormTest
- * @package Tests\Feature
+ * @package Tests\Feature\Contact
  */
 class StoreContactFormTest extends TestCase
 {
