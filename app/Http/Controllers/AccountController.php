@@ -38,6 +38,8 @@ class AccountController extends Controller
      */
 	public function update(AccountRequest $request)
 	{
+        if(!auth()->user()->hasRole('nextgen_pet_user')) abort(404);
+
 		auth()->user()->update($request->all());
 
 		if($request->has('password')) {
