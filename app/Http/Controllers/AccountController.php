@@ -24,6 +24,8 @@ class AccountController extends Controller
 	 */
 	public function edit()
 	{
+	    if(!auth()->user()->hasRole('nextgen_pet_user')) abort(404);
+
 		return view('account.edit')
 			->with('user', auth()->user());
 	}
