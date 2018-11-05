@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\StudioStyle;
 
 use Tests\TestCase;
 
 /**
  * Class StudioStyleAreaFeatureTest
- * @package Tests\Feature
+ * @package Tests\Feature\StudioStyle
  */
 class StudioStyleAreaFeatureTest extends TestCase
 {

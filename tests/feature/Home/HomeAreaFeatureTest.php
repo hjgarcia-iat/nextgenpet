@@ -1,12 +1,12 @@
 <?php
 
-namespace Tests\Feature;
+namespace Tests\Feature\Home;
 
 use Tests\TestCase;
 
 /**
  * Class HomeAreaFeatureTest
- * @package Tests\Feature
+ * @package Tests\Feature\Home
  */
 class HomeAreaFeatureTest extends TestCase
 {
