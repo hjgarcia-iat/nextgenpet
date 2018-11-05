@@ -65,6 +65,10 @@ class ResetPasswordController extends Controller
     {
         $this->validate($request, $this->rules(), $this->validationErrorMessages());
 
+        if (!User::whereEmail($request->get('email'))->first()->hasRole('nextgen_pet_user')) {
+            abort(404);
+        }
+
         // Here we will attempt to reset the user's password. If it is successful we
         // will update the password on an actual user model and persist it to the
         // database. Otherwise we will parse the error and return the response.
