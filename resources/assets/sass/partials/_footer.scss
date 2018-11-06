@@ -81,6 +81,7 @@
 */
 .page-footer .social-bar {
     align-self : center;
+    margin-bottom : 1em;
     ul {
         display         : flex;
         margin-top      : 1em;
@@ -94,7 +95,7 @@
         width           : 40px;
         height          : 40px;
         border-radius   : 50%;
-        background      : black no-repeat center center;
+        background      : #484b4d no-repeat center center;
         transition      : background-color .2s;
         position        : relative;
         display         : flex;
@@ -102,16 +103,13 @@
         justify-content : center;
 
         .fa {
-            color     : $color-white;
-            font-size : 16px;
+            color     : white;
+            font-size : 18px;
         }
 
         &:hover {
             text-decoration : none;
-        }
-
-        &:hover .fa {
-            color : $color-orange;
+            background      : black;
         }
     }
 }
