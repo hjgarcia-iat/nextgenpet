@@ -8,6 +8,11 @@
             @include('layouts.partials._page-footer-by-line')
             @include('layouts.partials._page-footer-nav-bar')
             @include('layouts.partials._page-header-social-icons')
+
+        </div>
+    </div>
+    <div class="footer-form-container">
+        <div class="container">
             @include('layouts.partials._page-footer-form')
         </div>
     </div>

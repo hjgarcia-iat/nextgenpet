@@ -2,9 +2,7 @@
     <div class="col-md-12">
         {!! Form::open(['url' => route('help.post'), 'class' => 'form mt-4', 'id' => 'contact']) !!}
         {!! Honeypot::generate('my_name', 'my_time') !!}
-        <h3 class="text-center">
-            We'd love to hear from you
-        </h3>
+        <h3 class="text-center display-5">Get in Touch With Us.</h3>
         <div class="row">
             <div class="col-md-12">
                 <div class="row">

@@ -14,7 +14,7 @@
 */
 .page-footer {
     margin-top: 2em;
-    padding    : 1em 0 .5em;
+    padding    : 1em 0 0;
     background : #faa634;
 }
 
@@ -23,10 +23,12 @@
 // PAGE FOOTER FORM
 // --------------------------------------------------
 */
+.page-footer .footer-form-container {
+    background: $color-orange;
+}
+
 .page-footer .form {
-    background    : $color-orange;
-    margin-bottom : 1em;
-    padding       : 2em;
+    padding       : 1em;
 
     .btn.btn-primary {
         color        : $color-white !important;
