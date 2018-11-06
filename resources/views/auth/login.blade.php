@@ -1,9 +1,6 @@
 @extends('layouts.auth')
 @section('pageTitle','Login')
 @section('content')
-    <h3>
-        Login
-    </h3>
     {!! Form::open(['url' => '/login','class' => 'form-horizontal']) !!}
     <div class="form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
         <label class="form-control-label" for="email">

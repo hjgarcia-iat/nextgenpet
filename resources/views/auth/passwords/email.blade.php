@@ -1,7 +1,6 @@
 @extends('layouts.auth')
 @section('pageTitle','Recover Password')
 @section('content')
-    <h3>Recover your password</h3>
     {!! Form::open(['url' => route('password.store'),'class' => 'form-horizontal']) !!}
     <div class="form-group{{ $errors->has('reset_email') ? ' has-danger' : '' }}">
         <label for="reset_email"

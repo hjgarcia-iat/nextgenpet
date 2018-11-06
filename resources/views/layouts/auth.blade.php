@@ -12,6 +12,7 @@
 			</aside>
 			<section class="site-content">
 				@include('layouts.partials._page-header')
+				@include('layouts.partials._page-title')
 				<div class="page-content-wrapper">
 					<div class="container">
 						<div class="row justify-content-center">

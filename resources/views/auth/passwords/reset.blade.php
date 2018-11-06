@@ -1,7 +1,6 @@
 @extends('layouts.auth')
 @section('pageTitle','Recover Password')
 @section('content')
-    <h3>Recover your password</h3>
     <form class="form-horizontal" role="form" method="POST" action="{{ route('recover.password.update') }}">
         {{ csrf_field() }}
         <input type="hidden" name="token" value="{{ $token }}">

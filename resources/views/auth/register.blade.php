@@ -1,7 +1,6 @@
 @extends('layouts.auth')
 @section('pageTitle','Register')
 @section('content')
-    <h3>Register</h3>
     {!! Form::open(['url' => route('register.create'),'class' => 'form-horizontal']) !!}
     {!! Honeypot::generate('my_name', 'my_time') !!}
     <div class="form-group {{ $errors->has('first_name') ? 'has-danger' : '' }}">
