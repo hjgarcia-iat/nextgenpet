@@ -18,15 +18,15 @@ class Page
             abort(404);
         }
 
-        if (self::isMainHomePage(request()->path())) {
+        if (self::getHomePage(request()->path())) {
             return 'index';
         }
 
-        if (self::isSubDirectoryIndexView()) {
+        if (self::getSubDirectoryIndexView()) {
             return request()->path() . '.index';
         }
 
-        if(self::isSubDirectoryView()) {
+        if(self::getSubDirectoryView()) {
             return request()->path();
         }
     }
@@ -48,7 +48,7 @@ class Page
      * @param $path
      * @return bool
      */
-    private static function isMainHomePage($path)
+    private static function getHomePage($path)
     {
         return $path == '/';
     }
@@ -58,7 +58,7 @@ class Page
      *
      * @return bool
      */
-    private static function isSubDirectoryIndexView()
+    private static function getSubDirectoryIndexView()
     {
         return \File::isDirectory(resource_path() . '/views/pages/' . request()->path()) and \File::exists(resource_path() . '/views/pages/' . request()->path() . '/index.blade.php');
     }
@@ -68,7 +68,7 @@ class Page
      *
      * @return bool
      */
-    private static function isSubDirectoryView()
+    private static function getSubDirectoryView()
     {
         return \File::exists(resource_path() . '/views/pages/' . request()->path() . '.blade.php');
     }
