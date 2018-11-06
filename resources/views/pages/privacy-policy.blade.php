@@ -1,18 +1,9 @@
-@extends('layouts.two-column')
+@extends('layouts.one-column')
 @section('pageTitle','Privacy Policy')
 
-@section('sidebar')
-    @include('home._sidebar')
-@stop
-
-@section('banner')
-    @include('home._slider')
-@stop
-
 @section('content')
-    <h1>PRIVACY POLICY</h1>
     <p>Revision date: April 8, 2015</p>
-    <p><br>Activate Learning recognizes that its customers, visitors, users, and others who use this website value
+    <p>Activate Learning recognizes that its customers, visitors, users, and others who use this website value
         their privacy.&nbsp;</p>
     <p>This Privacy Policy applies to the collection and use by Activate Learning ("we" or "us") of personally
         identifiable information (“PII”) that identifies or permits contact with a specific person, such as full
