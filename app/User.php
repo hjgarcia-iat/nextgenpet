@@ -100,6 +100,10 @@ class User extends Authenticatable
 
         $this->account->fill($attributes)->save($options);
 
+        if(request()->has('password')) {
+            $this->password = request()->get('password');
+        }
+
         return $this->fill($attributes)->save($options);
     }
 

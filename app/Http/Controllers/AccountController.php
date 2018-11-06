@@ -38,11 +38,6 @@ class AccountController extends Controller
 	{
 		auth()->user()->update($request->all());
 
-		if($request->has('password')) {
-			auth()->user()->password = $request->get('password');
-			auth()->user()->save();
-		}
-
 		return redirect()->route('my-account')->with('success', 'Account has been updated!');
 	}
 }
