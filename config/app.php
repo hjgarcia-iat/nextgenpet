@@ -12,7 +12,8 @@ return [
     | any other location as required by the application or its packages.
     */
 
-    'name' => 'It\'s About Time - Next Gen PET',
+    'name'    => env('APP_NAME', 'Laravel'),
+    'address' => '44 Amogerone Crossway #7862, Greenwich, CT 06836 Phone: 646-502-5231',
 
     /*
     |--------------------------------------------------------------------------

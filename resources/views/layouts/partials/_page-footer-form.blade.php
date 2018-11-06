@@ -1,9 +1,8 @@
 <footer class="page-footer">
     <div class="container">
         <div class="page-footer-content">
-            <p class="text-center">
-                <sup>&copy;</sup> {{ date('Y') }} Activate Learning, 44 Amogerone Crossway #7862, Greenwich, CT 06836 Phone: 646-502-5231
-            </p>
+            <p class="text-center">&copy; {{ date('Y') }} {{ config('app.name') }}, {{ config('app.address') }}</p>
+
             <ul class="list-unstyled d-flex justify-content-center footer-links">
                 <li><a href="{{ url('terms-and-conditions') }}">Terms and Conditions</a></li>
                 <li><a href="{{ url('privacy-policy') }}">Privacy Policy</a></li>
