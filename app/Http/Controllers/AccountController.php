@@ -14,7 +14,7 @@ class AccountController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware(['auth','role']);
     }
 
     /**
@@ -24,9 +24,7 @@ class AccountController extends Controller
 	 */
 	public function edit()
 	{
-	    if(!auth()->user()->hasRole('nextgen_pet_user')) abort(404);
-
-		return view('account.edit')
+        return view('account.edit')
 			->with('user', auth()->user());
 	}
 
@@ -38,8 +36,6 @@ class AccountController extends Controller
      */
 	public function update(AccountRequest $request)
 	{
-        if(!auth()->user()->hasRole('nextgen_pet_user')) abort(404);
-
 		auth()->user()->update($request->all());
 
 		if($request->has('password')) {
