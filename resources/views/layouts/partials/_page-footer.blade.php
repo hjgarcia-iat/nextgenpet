@@ -2,4 +2,15 @@
     @include('layouts.partials._page-footer-logos')
 @endif
 
-@include('layouts.partials._page-footer-form')
+<footer class="page-footer">
+    <div class="container">
+        <div class="page-footer-content">
+            @include('layouts.partials._page-footer-by-line')
+            @include('layouts.partials._page-footer-nav-bar')
+            @include('layouts.partials._page-header-social-icons')
+            @include('layouts.partials._page-footer-form')
+        </div>
+    </div>
+</footer>
+
+
