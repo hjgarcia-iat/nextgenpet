@@ -12,7 +12,7 @@ class Page
      * Check if the page is valid
      * @return string
      */
-    public static function isValidPage()
+    public static function getValidPage()
     {
         if (self::isPartial(request()->path())) {
             abort(404);

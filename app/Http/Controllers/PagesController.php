@@ -26,7 +26,7 @@ class PagesController extends Controller
      */
     public function show()
     {
-        if ($view = Page::isValidPage()) {
+        if ($view = Page::getValidPage()) {
             return view('pages.' . $view);
         }
 
