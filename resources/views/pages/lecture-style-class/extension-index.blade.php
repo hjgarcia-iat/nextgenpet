@@ -1,8 +1,7 @@
 @extends('layouts.two-column')
 
-@section('pageTitle')
-    Extension Index
-@stop
+@section('pageTitle','Lecture Style Class')
+
 @section('sidebar')
     @include('pages.lecture-style-class._sidebar')
 @stop
