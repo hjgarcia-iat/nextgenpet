@@ -1,13 +1,22 @@
-//variables
+/*
+//
+// Imports
+// --------------------------------------------------
+*/
 @import "partials/variables";
-//general helpers
+
 @import "partials/helpers";
-//bootstrap overrides
-//general animations
+
 @import "partials/animations";
-//site wide styles
-@import "partials/general";
-//header styles
+
 @import "partials/header";
-//main footer styles
+
 @import "partials/footer";
+
+@import "partials/off-canvas";
+
+@import "partials/sidebar";
+
+@import "partials/general";
+
+@import "partials/pages";

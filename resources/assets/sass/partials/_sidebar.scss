@@ -1,0 +1,156 @@
+
+/*
+//
+// Side Menu Styles for all pages
+// --------------------------------------------------
+*/
+
+.page-side-menu {
+    .card {
+        border        : none;
+        border-radius : 0;
+
+        .card a {
+            border-bottom : 1px solid #ECECEC;
+        }
+    }
+
+    .list-group {
+        .list-group-item {
+            width         : 100%;
+            color         : black;
+            font-weight   : 600;
+            background    : #F3F3F3;
+            margin-top    : 3px;
+            font-size     : 13px;
+            border-radius : 0;
+            border        : 1px solid #ECECEC;
+            display       : flex;
+        }
+
+        .list-group-item:hover,
+        .list-group-item.active {
+            background   : $color-orange;
+            color        : white;
+            border-color : $color-orange;
+        }
+
+        .list-group-item.active {
+            cursor : default;
+        }
+
+        .list-group-item span {
+            width : 80%;
+        }
+
+        .list-group-item.active:after {
+            font-family : 'FontAwesome';
+            content     : "\f054";
+            margin-left : auto;
+        }
+
+        .sublink.collapsed,
+        .sublink {
+            &:after {
+                content     : "\f13a";
+                display     : inline-block;
+                margin-left : auto;
+            }
+        }
+
+        .sublink {
+            &:after {
+                font-family : 'FontAwesome';
+                content     : "\f139";
+            }
+        }
+
+        .sublinks {
+            margin-left : 25px;
+
+            .list-group-item:first-child {
+                border-top-left-radius  : 0;
+                border-top-right-radius : 0;
+            }
+
+            .list-group-item:last-child {
+                border-bottom-left-radius  : 0;
+                border-bottom-right-radius : 0;
+            }
+        }
+    }
+}
+
+
+/*
+//
+// Sidebar Styles
+// --------------------------------------------------
+*/
+
+.navmenu-inverse {
+    background : #2A2A2A;
+
+    li {
+        background : #212121;
+        margin     : 5px 20px;
+
+        a {
+            text-transform : uppercase;
+            font-size      : 14px;
+        }
+    }
+
+    li.dropdown {
+        margin-bottom : 0;
+
+        li:first-child {
+            margin-top : 0;
+        }
+
+        li {
+            background : none;
+
+            a {
+                font-size   : 13px;
+                white-space : normal;
+            }
+        }
+    }
+}
+
+.nav {
+    .social-icons {
+        background : #2A2A2A;
+
+        a {
+            float         : left;
+            display       : inline-block;
+            padding       : 5px 10px;
+            margin        : 5px;
+            background    : #111111 !important;
+            color         : white !important;
+            border-radius : 50%;
+        }
+
+        a:hover {
+            color      : white !important;
+            background : #111111 !important;
+        }
+    }
+}
+
+
+/*
+//
+// Menu
+// --------------------------------------------------
+*/
+
+@include media-breakpoint-up(md) {
+    #menu.affix {
+        position  : fixed;
+        min-width : 300px;
+        top       : 70px;
+    }
+}
