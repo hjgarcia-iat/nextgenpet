@@ -1,4 +1,4 @@
-<div class="page-footer-logos">
+<div class="page-footer-logos mt-3">
     <div class="container">
 
 
