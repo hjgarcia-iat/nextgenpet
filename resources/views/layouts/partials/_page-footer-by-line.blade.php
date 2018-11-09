@@ -1,0 +1,1 @@
+<p class="text-center">&copy; {{ date('Y') }} {{ config('app.name') }}, {{ config('app.address') }}</p>

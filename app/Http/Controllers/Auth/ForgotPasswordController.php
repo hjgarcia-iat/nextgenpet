@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RecoverPasswordRequest;
+use App\User;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 /**
@@ -53,6 +54,14 @@ class ForgotPasswordController extends Controller
 	 */
 	public function store(RecoverPasswordRequest $request)
 	{
+	    $user = User::whereEmail($request->get('reset_email'))->first();
+
+	    if(!$user->hasRole('nextgen_pet_user')) {
+            return redirect()->route('password.create')
+                ->with('error', 'Your email address was not found!');
+
+        }
+
 		\Password::broker()->sendResetLink(
 			['email' => $request->get('reset_email')]
 		);

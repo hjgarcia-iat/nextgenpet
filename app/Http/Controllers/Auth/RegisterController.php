@@ -3,12 +3,10 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
-use App\Http\Requests\RegisterRequest;
+use App\Http\Requests\RegistrationRequest;
 use App\Mail\TeacherRegistered;
-use App\Repositories\TeacherRepository;
-use App\User;
+use App\Services\RegistrationService;
 use Illuminate\Foundation\Auth\RegistersUsers;
-use Illuminate\Http\Request;
 use Mail;
 
 /**
@@ -20,13 +18,6 @@ class RegisterController extends Controller
 {
 
 	use RegistersUsers;
-
-	/**
-	 * Where to redirect users after login / registration.
-	 *
-	 * @var string
-	 */
-	protected $redirectTo = '/';
 
 	/**
 	 * Create a new controller instance.
@@ -46,19 +37,19 @@ class RegisterController extends Controller
 		return view('auth.register');
 	}
 
-	/**
-	 * Store User
-	 *
-	 * @param  RegisterRequest       $request
-	 * @param  TeacherRepository $teacher
-	 *
-	 * @return \Illuminate\Http\RedirectResponse
-	 */
-	public function store(RegisterRequest $request, TeacherRepository $teacher)
-	{
-		$teacher = $teacher->register($request);
+    /**
+     * Store user
+     *
+     * @param RegistrationRequest $request
+     * @param RegistrationService $registrationService
+     * @return \Illuminate\Http\RedirectResponse
+     * @throws \Throwable
+     */
+	public function store(RegistrationRequest $request, RegistrationService $registrationService)
+    {
+        $user = $registrationService->register();
 
-        Mail::to('hgarcia@activatelearning.com')->send(new TeacherRegistered($teacher));
+        Mail::to(env('REGISTRATION_SUPPORT_EMAIL'))->send(new TeacherRegistered($user));
 
 		return redirect()
 			->to('/')

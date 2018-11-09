@@ -1,16 +1,7 @@
-@extends('layouts.two-column')
-@section('pageTitle','Terms and Conditions')
-
-@section('sidebar')
-    @include('home._sidebar')
-@stop
-
-@section('banner')
-    @include('home._slider')
-@stop
+@extends('layouts.one-column')
+@section('pageTitle','Terms of Use')
 
 @section('content')
-    <h1>TERMS OF USE</h1>
     <p>Revision date: April 7, 2015</p>
     <p>Activate Learning (“the Company” or “We”) operates this website and related sites, portals, and online services
         (collectively, “the Site”) to provide services that include instructional content, services, support

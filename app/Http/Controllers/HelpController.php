@@ -23,7 +23,7 @@ class HelpController extends Controller
 	 */
 	public function store(HelpRequest $request)
 	{
-		\Mail::to('csr@activatelearning.com')->send(new HelpEmail($request));
+		\Mail::to(env('SUPPORT_EMAIL'))->send(new HelpEmail($request));
 
 		return redirect()->back()->with('success', 'Your message was sent. We will be in contact soon!');
 	}

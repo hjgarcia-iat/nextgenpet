@@ -1,7 +1,5 @@
-<div class="page-footer-logos">
+<div class="page-footer-logos mt-5">
     <div class="container">
-
-
         <div class="row">
             <div class="col-sm hidden-sm-down">
             </div>

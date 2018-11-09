@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\User;
 use Illuminate\Foundation\Auth\ResetsPasswords;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Password;
@@ -39,16 +40,20 @@ class ResetPasswordController extends Controller
      * @param $token
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-     public function edit($token)
-     {
-         if(!$user = \DB::table('password_resets')->where('token', $token)->first()) {
-             return redirect()->route('login.create')->with('error','Page accessed in error!');
-         }
+    public function edit($token)
+    {
+        if (!$user = \DB::table('password_resets')->where('token', $token)->first()) {
+            return redirect()->route('login.create')->with('error', 'Page accessed in error!');
+        }
+
+        if (!User::whereEmail($user->email)->first()->hasRole('nextgen_pet_user')) {
+            abort(404);
+        }
 
         return view('auth.passwords.reset')
             ->with('token', $token)
             ->with('email', $user->email);
-     }
+    }
 
     /**
      *
@@ -56,26 +61,30 @@ class ResetPasswordController extends Controller
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
      */
-     public function update(Request $request)
-     {
-         $this->validate($request, $this->rules(), $this->validationErrorMessages());
+    public function update(Request $request)
+    {
+        $this->validate($request, $this->rules(), $this->validationErrorMessages());
 
-         // Here we will attempt to reset the user's password. If it is successful we
-         // will update the password on an actual user model and persist it to the
-         // database. Otherwise we will parse the error and return the response.
-         $response = $this->broker()->reset(
-             $this->credentials($request), function ($user, $password) {
-             $this->resetPassword($user, $password);
-         }
-         );
+        if (!User::whereEmail($request->get('email'))->first()->hasRole('nextgen_pet_user')) {
+            abort(404);
+        }
 
-         // If the password was successfully reset, we will redirect the user back to
-         // the application's home authenticated view. If there is an error we can
-         // redirect them back to where they came from with their error message.
-         return $response == Password::PASSWORD_RESET
-             ? $this->sendResetResponse()
-             : $this->sendResetFailedResponse($request, $response);
-     }
+        // Here we will attempt to reset the user's password. If it is successful we
+        // will update the password on an actual user model and persist it to the
+        // database. Otherwise we will parse the error and return the response.
+        $response = $this->broker()->reset(
+            $this->credentials($request), function ($user, $password) {
+            $this->resetPassword($user, $password);
+        }
+        );
+
+        // If the password was successfully reset, we will redirect the user back to
+        // the application's home authenticated view. If there is an error we can
+        // redirect them back to where they came from with their error message.
+        return $response == Password::PASSWORD_RESET
+            ? $this->sendResetResponse()
+            : $this->sendResetFailedResponse($request, $response);
+    }
 
     /**
      * Get the response for a successful password reset.

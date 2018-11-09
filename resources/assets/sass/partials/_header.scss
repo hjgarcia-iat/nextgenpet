@@ -44,7 +44,6 @@
         margin: .5em;
         cursor: pointer;
         text-transform: uppercase;
-        font-family: $font-family-sans-serif;
         text-decoration: none;
         position: relative;
         font-weight: 600;
@@ -116,7 +115,6 @@
         color: black;
         cursor: pointer;
         text-transform: uppercase;
-        font-family: $font-family-sans-serif;
         text-decoration: none;
         position: relative;
         padding: .2em;
@@ -161,5 +159,25 @@
         text-align: center;
         margin-bottom: 0;
         font-size: 35px;
+    }
+}
+
+/*
+//
+// PAGE TITLE
+// --------------------------------------------------
+*/
+
+.page-title {
+    margin-bottom : 2em;
+    background    : #F3F3F3;
+    padding       : 1em 0;
+    border-top    : 1px solid #ECECEC;
+    border-bottom : 1px solid #ECECEC;
+
+    h2 {
+        margin    : 0;
+        padding   : 0;
+        font-size : 30px !important;
     }
 }

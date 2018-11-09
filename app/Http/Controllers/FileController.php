@@ -25,10 +25,7 @@ class FileController extends Controller
      */
     public function show(Request $request)
     {
-        if(!$request->has('file') or !Storage::exists($request->get('file'))) {
-            abort('404');
-        }
-
+        $this->doesExist($request);
 
         return response()->stream(function () use ($request) {
             $stream = Storage::readStream($request->get('file'));
@@ -41,6 +38,17 @@ class FileController extends Controller
             "Content-Length"      => Storage::size($request->get('file')),
             "Content-disposition" => "inline; filename=\"" . basename($request->get('file')) . "\"",
         ]);
+    }
+
+    /**
+     * Check if file exists
+     * @param Request $request
+     */
+    protected function doesExist(Request $request)
+    {
+        if (!$request->has('file') or !Storage::exists($request->get('file'))) {
+            abort('404');
+        }
     }
 }
 

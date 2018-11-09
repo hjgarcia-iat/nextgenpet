@@ -1,54 +1,49 @@
 /*
 //
-// FOOTER LOGOS
-// --------------------------------------------------
-*/
-.page-footer-logos {
-    margin : 2em 0;
-}
-
-/*
-//
-// GENERAL PAGE FOOTER AREA
+// Footer Styles
 // --------------------------------------------------
 */
 .page-footer {
     margin-top: 2em;
-    padding    : 1em 0 .5em;
+    padding    : 2em 0 0;
     background : #faa634;
 }
 
 /*
 //
-// PAGE FOOTER FORM
+// Footer Form Styles
 // --------------------------------------------------
 */
-.page-footer .form {
-    background    : $color-orange;
-    margin-bottom : 1em;
-    padding       : 2em;
-
-    .btn.btn-primary {
-        color        : $color-white !important;
-        font-weight  : bold;
-        background   : black;
-        border-color : darken($color-orange, 5);
+.page-footer  {
+    .footer-form-container {
+        background: $color-orange;
     }
 
-    input.form-control,
-    textarea.form-control {
-        border-color  : darken(#bf6122, 5);
-        border-radius : 0;
-        padding       : .7em;
-        color         : $color-white;
-        background    : #bf6122;
-    }
+    .form {
+        padding       : 0 0 2em;
 
-    input.form-control::placeholder,
-    textarea.form-control::placeholder {
-        color          : $color-white;
-        font-size      : 13px;
-        text-transform : uppercase;
+        .btn.btn-primary {
+            color        : $color-white !important;
+            font-weight  : bold;
+            background   : black;
+            border-color : darken($color-orange, 5);
+        }
+
+        input.form-control,
+        textarea.form-control {
+            border-color  : darken(#bf6122, 5);
+            border-radius : 0;
+            padding       : .7em;
+            color         : $color-white;
+            background    : #bf6122;
+        }
+
+        input.form-control::placeholder,
+        textarea.form-control::placeholder {
+            color          : $color-white;
+            font-size      : 13px;
+            text-transform : uppercase;
+        }
     }
 }
 
@@ -81,6 +76,8 @@
 */
 .page-footer .social-bar {
     align-self : center;
+    margin-bottom : 2rem;
+
     ul {
         display         : flex;
         margin-top      : 1em;
@@ -94,7 +91,7 @@
         width           : 40px;
         height          : 40px;
         border-radius   : 50%;
-        background      : black no-repeat center center;
+        background      : #484b4d no-repeat center center;
         transition      : background-color .2s;
         position        : relative;
         display         : flex;
@@ -102,16 +99,13 @@
         justify-content : center;
 
         .fa {
-            color     : $color-white;
-            font-size : 16px;
+            color     : white;
+            font-size : 18px;
         }
 
         &:hover {
             text-decoration : none;
-        }
-
-        &:hover .fa {
-            color : $color-orange;
+            background      : black;
         }
     }
 }

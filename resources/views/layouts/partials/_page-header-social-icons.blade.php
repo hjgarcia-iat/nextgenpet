@@ -1,4 +1,4 @@
-<nav class="social-bar mb-3">
+<nav class="social-bar">
     <ul class="list-unstyled">
         <li>
             <a href="https://www.facebook.com/ActivateLearning"

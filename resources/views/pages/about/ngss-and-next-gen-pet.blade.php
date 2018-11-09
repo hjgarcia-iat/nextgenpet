@@ -13,23 +13,24 @@
 
 
     <p>
-        The <em>Next Gen PET</em> materials are aligned with the physical science disciplinary core ideas, crosscutting
-        concepts, and science and engineering practices in the National Research Council (NRC) K-12 Science Education
-        Framework and Next Generation Science Standards (NGSS). The tables below provide more information on this
-        alignment. <em>Next Gen PET</em> students will be prepared for teaching elementary-level science in alignment
-        with the NGSS. However, <em>Next Gen PET</em> can be used to prepare teachers for teaching with any state
-        standards that include a focus on both science content and practices. </p>
+        The
+        <em>Next Gen PET</em>
+        materials are aligned with the physical science disciplinary core ideas, crosscutting concepts, and science and engineering practices in the National Research Council (NRC) K-12 Science Education Framework and Next Generation Science Standards (NGSS). The tables below provide more information on this alignment.
+        <em>Next Gen PET</em>
+        students will be prepared for teaching elementary-level science in alignment with the NGSS. However,
+        <em>Next Gen PET</em>
+        can be used to prepare teachers for teaching with any state standards that include a focus on both science content and practices.
+    </p>
     <p>
-        <em>Next Gen PET</em> consists of five modules: (1) Module MSE: Developing Models for Magnetism and Static
-        Electricity; (2) Module IE: Interactions and Energy; (3) Module IF: Interactions and Forces; (4) Module WSL:
-        Waves, Sound and Light; and (5) Module MI: Matter and Interactions. Each module includes two engineering design
-        activities requiring application of the module’s physical science content. </p>
+        <em>Next Gen PET</em>
+        consists of five modules: (1) Module MSE: Developing Models for Magnetism and Static Electricity; (2) Module IE: Interactions and Energy; (3) Module IF: Interactions and Forces; (4) Module WSL: Waves, Sound and Light; and (5) Module MI: Matter and Interactions. Each module includes two engineering design activities requiring application of the module’s physical science content.
+    </p>
     <p>
-        The Teaching & Learning Activities (see Overview link) explicitly address the Science and Engineering Practices
-        and the Crosscutting Concepts. </p>
+        The Teaching & Learning Activities (see Overview link) explicitly address the Science and Engineering Practices and the Crosscutting Concepts.
+    </p>
 
 
-    <table class="table table-bordered table-hover table-responsive">
+    <table class="table table-bordered table-hover">
         <thead>
         <tr>
             <th>NGSS DCI</th>
@@ -62,7 +63,7 @@
     </table>
 
     <h3>Science and Engineering Practices</h3>
-    <table class="table table-bordered table-hover table-responsive">
+    <table class="table table-bordered table-hover">
         <thead>
         <tr>
             <th>NGSS SEP</th>
@@ -92,7 +93,7 @@
         </tr>
         <tr>
             <td>Constructing explanations / Designing solutions</td>
-            <td>All modules (especially in the Studio Style  class version)</td>
+            <td>All modules (especially in the Studio Style class version)</td>
         </tr>
         <tr>
             <td>Engaging in argument from evidence</td>
@@ -106,7 +107,7 @@
     </table>
     <h3>Crosscutting concepts</h3>
 
-    <table class="table table-bordered table-hover table-responsive">
+    <table class="table table-bordered table-hover">
         <thead>
         <tr>
             <th>NGSS CC</th>

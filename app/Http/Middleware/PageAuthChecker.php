@@ -8,20 +8,28 @@ use Illuminate\Auth\AuthenticationException;
 class PageAuthChecker
 {
 
-	/**
-	 * Handle an incoming request.
-	 *
-	 * @param  \Illuminate\Http\Request $request
-	 * @param  \Closure                 $next
-	 *
-	 * @return mixed
-	 * @throws AuthenticationException
-	 */
+    /**
+     * Handle an incoming request.
+     *
+     * @param  \Illuminate\Http\Request $request
+     * @param  \Closure $next
+     *
+     * @return mixed
+     * @throws AuthenticationException
+     */
     public function handle($request, Closure $next)
     {
-    	if(str_contains($request->getRequestUri(), 'instructor') and !auth()->check()) {
-		    throw new AuthenticationException('Please login to continue!');
-	    }
+        if (str_contains($request->getRequestUri(), 'instructor')) {
+            if (!auth()->check()) {
+                auth()->logout();
+                throw new AuthenticationException('Please login to continue!');
+            }
+
+            if(auth()->check() and !auth()->user()->hasRole(['nextgen_pet_user', 'admin', 'super_admin'])) {
+                auth()->logout();
+                throw new AuthenticationException('Please login to continue!');
+            }
+        }
 
         return $next($request);
     }

@@ -15,16 +15,14 @@ use Carbon\Carbon;
 
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     return [
-        'username'       => $faker->userName,
-        'email'          => $faker->email,
-        'password'       => Hash::make(str_random(10)),
-        'account_status' => 'active',
+        'username'           => $faker->userName,
+        'email'              => $faker->email,
+        'password'           => Hash::make(str_random(10)),
+        'account_status'     => 'active',
         'account_expiration' => Carbon::now()->addYear(6),
-        'user_group_id'  => function () {
-            return factory(App\Group::class)->create()->id;
-        },
-        'order_number'   => 'IAT',
-        'remember_token' => str_random(10),
+        'user_group_id'      => 1,
+        'order_number'       => 'IAT',
+        'remember_token'     => str_random(10),
     ];
 });
 
@@ -80,48 +78,27 @@ $factory->define(App\College::class, function (Faker\Generator $faker) {
     ];
 });
 
-
-$factory->define(App\State::class, function (Faker\Generator $faker) {
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(\App\State::class, function (Faker\Generator $faker) {
     return [
-        'abbr'            => $faker->stateAbbr,
-        'name'            => $faker->state,
-        'sales_person_id' => $faker->numberBetween(0, 1000),
+        'abbr' => $faker->citySuffix,
+        'name' => $faker->company,
     ];
 });
 
-$factory->define(App\Zip::class, function (Faker\Generator $faker) {
+/** @var \Illuminate\Database\Eloquent\Factory $factory */
+$factory->define(\App\Zip::class, function (Faker\Generator $faker) {
     return [
         'zip_code'     => $faker->postcode,
-        'city'         => $faker->word,
-        'state_name'   => $faker->state,
-        'state_prefix' => $faker->stateAbbr,
-        'county'       => $faker->word,
-        'lat'          => $faker->randomDigit,
-        'lon'          => $faker->randomDigit,
+        'city'         => $faker->city,
+        'state_name'   => $faker->company,
+        'state_prefix' => $faker->citySuffix,
+        'county'       => $faker->company,
+        'lat'          => $faker->latitude,
+        'lon'          => $faker->longitude,
     ];
 });
 
-$factory->define(App\Book::class, function (Faker\Generator $faker) {
-    return [
-        'series_id'          => $faker->numberBetween(0, 500),
-        'discipline'         => $faker->unique()->word,
-        'name'               => $faker->word,
-        'path'               => $faker->unique()->word,
-        'cover'              => $faker->unique()->word,
-        'image'              => $faker->unique()->word,
-        'description'        => $faker->text(),
-        'book_type'          => $faker->word,
-        'controller'         => $faker->unique()->word,
-        'status'             => 'Active',
-        'review'             => $faker->boolean(),
-        'pdf_book'           => $faker->boolean(),
-        'html_book'          => $faker->boolean(),
-        'slug'               => $faker->slug(),
-        'sample'             => $faker->boolean(),
-        'student_accessible' => $faker->boolean(),
-        'active'             => $faker->boolean(),
-    ];
-});
 
 
 

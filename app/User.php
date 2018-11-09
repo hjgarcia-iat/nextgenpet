@@ -10,17 +10,17 @@ use Spatie\Permission\Traits\HasRoles;
 /**
  * App\User
  *
- * @property int                                                                                  $id
- * @property string                                                                               $username
- * @property string                                                                               $password
- * @property string                                                                               $hash
- * @property string                                                                               $email
- * @property string                                                                               $account_status
- * @property int                                                                                  $user_group_id
- * @property \Carbon\Carbon                                                                       $created_at
- * @property \Carbon\Carbon                                                                       $updated_at
- * @property string                                                                               $account_expiration
- * @property string                                                                               $order_number
+ * @property int $id
+ * @property string $username
+ * @property string $password
+ * @property string $hash
+ * @property string $email
+ * @property string $account_status
+ * @property int $user_group_id
+ * @property \Carbon\Carbon $created_at
+ * @property \Carbon\Carbon $updated_at
+ * @property string $account_expiration
+ * @property string $order_number
  * @method static \Illuminate\Database\Query\Builder|\App\User whereAccountExpiration($value)
  * @method static \Illuminate\Database\Query\Builder|\App\User whereAccountStatus($value)
  * @method static \Illuminate\Database\Query\Builder|\App\User whereCreatedAt($value)
@@ -33,14 +33,14 @@ use Spatie\Permission\Traits\HasRoles;
  * @method static \Illuminate\Database\Query\Builder|\App\User whereUserGroupId($value)
  * @method static \Illuminate\Database\Query\Builder|\App\User whereUsername($value)
  * @mixin \Eloquent
- * @property-read \App\Account                                                                    $account
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\Role[]                            $roles
- * @property string                                                                               $remember_token
- * @property-read string                                                                          $name
+ * @property-read \App\Account $account
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\Role[] $roles
+ * @property string $remember_token
+ * @property-read string $name
  * @method static \Illuminate\Database\Query\Builder|\App\User whereRememberToken($value)
  * @property-read \Illuminate\Database\Eloquent\Collection|\Spatie\Permission\Models\Permission[] $permissions
  * @method static \Illuminate\Database\Query\Builder|\App\User role($roles)
- * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[]                         $colleges
+ * @property-read \Illuminate\Database\Eloquent\Collection|\App\College[] $colleges
  * @property-read \Illuminate\Notifications\DatabaseNotificationCollection|\Illuminate\Notifications\DatabaseNotification[] $notifications
  */
 class User extends Authenticatable
@@ -66,8 +66,9 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'username',
         'email',
+        'username',
+        'account_status',
         'user_group_id',
         'account_expiration',
         'order_number',
@@ -98,6 +99,10 @@ class User extends Authenticatable
         }
 
         $this->account->fill($attributes)->save($options);
+
+        if(request()->has('password')) {
+            $this->password = request()->get('password');
+        }
 
         return $this->fill($attributes)->save($options);
     }

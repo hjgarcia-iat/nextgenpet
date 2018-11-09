@@ -14,7 +14,7 @@ class AccountController extends Controller
 {
     public function __construct()
     {
-        $this->middleware('auth');
+        $this->middleware(['auth','role']);
     }
 
     /**
@@ -24,7 +24,7 @@ class AccountController extends Controller
 	 */
 	public function edit()
 	{
-		return view('account.edit')
+        return view('account.edit')
 			->with('user', auth()->user());
 	}
 
@@ -37,11 +37,6 @@ class AccountController extends Controller
 	public function update(AccountRequest $request)
 	{
 		auth()->user()->update($request->all());
-
-		if($request->has('password')) {
-			auth()->user()->password = $request->get('password');
-			auth()->user()->save();
-		}
 
 		return redirect()->route('my-account')->with('success', 'Account has been updated!');
 	}

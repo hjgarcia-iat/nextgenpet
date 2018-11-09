@@ -1,0 +1,44 @@
+
+/*
+//
+// INSTRUCTOR PAGES STYLES
+// --------------------------------------------------
+*/
+
+.html-content .card-block {
+    margin-top : 1em;
+}
+
+.pdf-content {
+    height        : 850px;
+    display       : none;
+    margin-bottom : 1em;
+
+    iframe {
+        width  : 100%;
+        height : 800px;
+    }
+}
+
+.canvas-header {
+    border     : 1px solid lightgray;
+    padding    : 20px;
+    background : #F9F9F9;
+}
+
+.canvas {
+    width  : 100%;
+    height : 500px;
+    border : 1px solid lightgray;
+    cursor : pointer;
+}
+
+.canvas-drawer {
+    border           : 1px solid lightgray;
+    border-top-width : 3px;
+    margin-bottom    : 40px;
+    padding          : 20px;
+    background       : #F9F9F9;
+    position         : relative;
+    font-size        : 15px;
+}
