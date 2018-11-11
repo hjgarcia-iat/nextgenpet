@@ -17,7 +17,7 @@ class ViewRegistrationFormTest extends TestCase
 
     public function test_we_can_view_the_registration_form()
     {
-        $this->visit(route('register.create'))->assertResponseStatus(200);
+        $this->get(route('register.create'))->assertResponseStatus(200);
     }
 
     public function test_we_cannot_view_the_registration_form_if_we_are_logged_in()
@@ -26,7 +26,8 @@ class ViewRegistrationFormTest extends TestCase
 
         $this->from('/')
             ->actingAs($user)
-            ->visit(route('register.create'))
-            ->seePageIs('/');
+            ->get(route('register.create'))
+            ->assertResponseStatus(302)
+            ->assertRedirectedTo('/');
     }
 }
