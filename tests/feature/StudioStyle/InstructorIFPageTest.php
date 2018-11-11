@@ -19,7 +19,7 @@ class InstructorIFPageTest extends TestCase
         $user = \UserFactory::createNextGenPetUser();
 
         $this->actingAs($user)
-            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
+            ->get('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -28,7 +28,7 @@ class InstructorIFPageTest extends TestCase
         $user = \UserFactory::createAdminUser();
 
         $this->actingAs($user)
-            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
+            ->get('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -37,7 +37,7 @@ class InstructorIFPageTest extends TestCase
         $user = \UserFactory::createSuperAdminUser();
 
         $this->actingAs($user)
-            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
+            ->get('/studio-style-class/instructor/interactions-and-forces-module')
             ->assertResponseStatus(200);
     }
 
@@ -46,13 +46,15 @@ class InstructorIFPageTest extends TestCase
         $user = \UserFactory::createGeneralUser();
 
         $this->actingAs($user)
-            ->visit('/studio-style-class/instructor/interactions-and-forces-module')
-            ->seePageIs(route('login.create'));
+            ->get('/studio-style-class/instructor/interactions-and-forces-module')
+            ->assertResponseStatus(302)
+            ->assertRedirectedTo(route('login.create'));
     }
 
     public function test_we_cannot_see_the_instructor_mse_page_if_we_are_not_logged_in()
     {
-        $this->visit('/studio-style-class/instructor/interactions-and-forces-module')
-            ->seePageIs(route('login.create'));
+        $this->get('/studio-style-class/instructor/interactions-and-forces-module')
+            ->assertResponseStatus(302)
+            ->assertRedirectedTo(route('login.create'));
     }
 }
