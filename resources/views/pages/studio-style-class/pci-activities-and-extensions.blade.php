@@ -34,9 +34,11 @@
                 <th></th>
                 <th>Title</th>
                 <th>NPG Modules</th>
-                <th>NGSS Practices <sup>*</sup>
+                <th>NGSS Practices
+                    <sup>*</sup>
                 </th>
-                <th>NGSS CC <sup>#</sup>
+                <th>NGSS CC
+                    <sup>#</sup>
                 </th>
                 <th>Time or Format</th>
                 <th>Pre-req</th>
@@ -45,7 +47,11 @@
             <tbody>
             <tr class="highlight">
                 <td>A1</td>
-                <td>Variables and Controls</td>
+                <td class="cell-link">
+                    <a href="https://s3.amazonaws.com/nextgenpet/web-docs/pci/pci-activity-1.pdf"
+                       target="_blank">Variables and Controls
+                    </a>
+                </td>
                 <td>All</td>
                 <td>1,3</td>
                 <td></td>
@@ -58,7 +64,8 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Assign</strong>: This is designed to be flexible. You may wish to motivate the NGSS base by assigning Teaching & Learning Extensions A (and maybe B).
+                    <strong>Assign</strong>
+                    : This is designed to be flexible. You may wish to motivate the NGSS base by assigning Teaching & Learning Extensions A (and maybe B).
                 </td>
             </tr>
             <tr class="highlight">
@@ -76,7 +83,8 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Online</strong>: After students complete Activity 1. Includes PCI Extension A Quiz.
+                    <strong>Online</strong>
+                    : After students complete Activity 1. Includes PCI Extension A Quiz.
                 </td>
             </tr>
             <tr class="highlight">
@@ -94,12 +102,16 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Online</strong>: After students complete Activity 1 and Extension A. Includes PCI Extension B Quiz.
+                    <strong>Online</strong>
+                    : After students complete Activity 1 and Extension A. Includes PCI Extension B Quiz.
                 </td>
             </tr>
             <tr class="highlight">
                 <td>A2</td>
-                <td>Conducting Fair Tests</td>
+                <td class="cell-link">
+                    <a href="https://s3.amazonaws.com/nextgenpet/web-docs/pci/pci-activity-2.pdf"
+                       target="_blank">Conducting Fair Tests</a>
+                </td>
                 <td>All</td>
                 <td>3</td>
                 <td></td>
@@ -112,7 +124,8 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Assign</strong>: After completion of Extensions A and B. This shorter activity may serve to fill a small opening in your course.
+                    <strong>Assign</strong>
+                    : After completion of Extensions A and B. This shorter activity may serve to fill a small opening in your course.
                 </td>
             </tr>
             <tr class="highlight">
@@ -130,12 +143,16 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Online</strong>: After students complete Activity 1 and Extension A. Includes PCI Extension C Quiz.
+                    <strong>Online</strong>
+                    : After students complete Activity 1 and Extension A. Includes PCI Extension C Quiz.
                 </td>
             </tr>
             <tr class="highlight">
                 <td>A3</td>
-                <td>Practice Investigations</td>
+                <td class="cell-link">
+                    <a href="https://s3.amazonaws.com/nextgenpet/web-docs/pci/pci-activity-2.pdf"
+                       target="_blank">Practice Investigations</a>
+                </td>
                 <td>All</td>
                 <td>1,3</td>
                 <td></td>
@@ -148,7 +165,8 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Assign</strong>: After students complete Activity 2. Note that the second half is the planning that leads to A4.
+                    <strong>Assign</strong>
+                    : After students complete Activity 2. Note that the second half is the planning that leads to A4.
                 </td>
             </tr>
             </tbody>
@@ -167,7 +185,8 @@
             </tr>
             <tr>
                 <td colspan="6">
-                    <strong>Assign</strong>: After students complete Activity 3. Students will request experimental materials in Activity 3 that will have to be ready to go when Activity 4 is done.
+                    <strong>Assign</strong>
+                    : After students complete Activity 3. Students will request experimental materials in Activity 3 that will have to be ready to go when Activity 4 is done.
                 </td>
             </tr>
             </tbody>

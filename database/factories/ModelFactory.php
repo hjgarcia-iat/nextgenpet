@@ -26,16 +26,6 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
     ];
 });
 
-$factory->define(App\Student::class, function (Faker\Generator $faker) {
-    return [
-        'user_id'        => function () {
-            return factory(App\User::class)->create()->id;
-        },
-        'susername'      => $faker->userName,
-        'spassword'      => Hash::make(str_random(10)),
-        'student_number' => $faker->numberBetween(0, 500),
-    ];
-});
 
 $factory->define(App\Account::class, function (Faker\Generator $faker) {
     return [

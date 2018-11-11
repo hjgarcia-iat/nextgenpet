@@ -24,8 +24,6 @@ class Group extends Model
      */
     protected $table = 'user_groups';
 
-    public $timestamps = false;
-
     /**
      * User Relationship
      *

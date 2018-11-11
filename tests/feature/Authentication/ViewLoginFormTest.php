@@ -17,7 +17,7 @@ class ViewLoginFormTest extends TestCase
 
     public function test_we_can_view_the_login_form_page()
     {
-        $this->visit(route('login.create'))->assertResponseStatus(200);
+        $this->get(route('login.create'))->assertResponseStatus(200);
     }
 
     public function test_we_cannot_view_the_login_form_page_if_we_are_logged_in()
@@ -26,7 +26,8 @@ class ViewLoginFormTest extends TestCase
 
         $this->from('/')
             ->actingAs($user)
-            ->visit(route('login.create'))
-            ->seePageIs('/');
+            ->get(route('login.create'))
+            ->assertResponseStatus(302)
+            ->assertRedirectedTo('/');
     }
 }

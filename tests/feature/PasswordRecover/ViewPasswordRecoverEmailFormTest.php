@@ -16,7 +16,7 @@ class ViewPasswordRecoverEmailFormTest extends TestCase
 
     public function test_we_can_see_the_recover_password_email_form()
     {
-        $this->visit(route('password.create'))->assertResponseStatus(200);
+        $this->get(route('password.create'))->assertResponseStatus(200);
     }
 
     public function test_we_cannot_see_the_recover_password_email_form_if_we_are_logged_in()
@@ -24,7 +24,8 @@ class ViewPasswordRecoverEmailFormTest extends TestCase
         $user = \UserFactory::createNextGenPetUser();
 
         $this->actingAs($user)
-            ->visit(route('password.create'))
-            ->seePageIs('/');
+            ->get(route('password.create'))
+            ->assertResponseStatus(302)
+            ->assertRedirectedTo('/');
     }
 }
