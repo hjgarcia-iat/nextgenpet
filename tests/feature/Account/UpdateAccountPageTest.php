@@ -23,8 +23,8 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('my-account'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('my-account'));
         tap($user->fresh(), function ($user) {
             $this->assertEquals($this->valid_data()['first_name'], $user->account->first_name);
             $this->assertEquals($this->valid_data()['last_name'], $user->account->last_name);
@@ -41,7 +41,7 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_update_the_account_as_a_super_admin_user()
@@ -52,7 +52,7 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_update_the_account_as_a_general_user()
@@ -63,7 +63,7 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_update_the_account_if_we_are_not_logged_in()
@@ -73,8 +73,8 @@ class UpdateAccountPageTest extends TestCase
         $response = $this->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('login.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('login.create'));
     }
 
     public function test_first_name_field_is_required()
@@ -85,9 +85,9 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data(['first_name' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('first_name');
-        $response->assertRedirectedTo(route('my-account'));
+        $response->assertRedirect(route('my-account'));
         tap($user->fresh(), function ($user) {
             $this->assertNotEquals($this->valid_data()['first_name'], $user->account->first_name);
             $this->assertNotEquals($this->valid_data()['last_name'], $user->account->last_name);
@@ -104,9 +104,9 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data(['last_name' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('last_name');
-        $response->assertRedirectedTo(route('my-account'));
+        $response->assertRedirect(route('my-account'));
         tap($user->fresh(), function ($user) {
             $this->assertNotEquals($this->valid_data()['first_name'], $user->account->first_name);
             $this->assertNotEquals($this->valid_data()['last_name'], $user->account->last_name);
@@ -123,9 +123,9 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data(['email' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('email');
-        $response->assertRedirectedTo(route('my-account'));
+        $response->assertRedirect(route('my-account'));
         tap($user->fresh(), function ($user) {
             $this->assertNotEquals($this->valid_data()['first_name'], $user->account->first_name);
             $this->assertNotEquals($this->valid_data()['last_name'], $user->account->last_name);
@@ -142,9 +142,9 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data(['email' => 'invalid-email']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('email');
-        $response->assertRedirectedTo(route('my-account'));
+        $response->assertRedirect(route('my-account'));
         tap($user->fresh(), function ($user) {
             $this->assertNotEquals($this->valid_data()['first_name'], $user->account->first_name);
             $this->assertNotEquals($this->valid_data()['last_name'], $user->account->last_name);

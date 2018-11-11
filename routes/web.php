@@ -8,8 +8,7 @@ Route::post('/logout','Auth\LoginController@destroy')->name('login.destroy');
 
 Route::get('/recover/password','Auth\ForgotPasswordController@create')->name('password.create');
 Route::post('/recover/password','Auth\ForgotPasswordController@store')->name('password.store');
-
-Route::get('/password/reset/{token}','Auth\ResetPasswordController@edit')->name('recover.password.edit');
+Route::get('/password/reset/{email}/{token}','Auth\ResetPasswordController@edit')->name('recover.password.edit');
 Route::post('/password/update','Auth\ResetPasswordController@update')->name('recover.password.update');
 
 Route::get('/register','Auth\RegisterController@create')->name('register.create');

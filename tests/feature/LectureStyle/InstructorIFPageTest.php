@@ -20,7 +20,7 @@ class InstructorIFPageTest extends TestCase
 
         $this->actingAs($user)
             ->get('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->assertResponseStatus(200);
+            ->assertStatus(200);
     }
 
     public function we_can_see_the_instructor_mse_page_as_an_admin_user()
@@ -29,7 +29,7 @@ class InstructorIFPageTest extends TestCase
 
         $this->actingAs($user)
             ->get('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->assertResponseStatus(200);
+            ->assertStatus(200);
     }
 
     public function we_can_see_the_instructor_mse_page_as_a_super_admin_user()
@@ -38,7 +38,7 @@ class InstructorIFPageTest extends TestCase
 
         $this->actingAs($user)
             ->get('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->assertResponseStatus(200);
+            ->assertStatus(200);
     }
 
     public function test_we_cannot_see_the_instructor_mse_page_as_a_general_user()
@@ -47,14 +47,14 @@ class InstructorIFPageTest extends TestCase
 
         $this->actingAs($user)
             ->get('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->assertResponseStatus(302)
-            ->assertRedirectedTo(route('login.create'));
+            ->assertStatus(302)
+            ->assertRedirect(route('login.create'));
     }
 
     public function test_we_cannot_see_the_instructor_mse_page_if_we_are_not_logged_in()
     {
         $this->get('/lecture-style-class/instructor/interactions-and-forces-module')
-            ->assertResponseStatus(302)
-            ->assertRedirectedTo(route('login.create'));
+            ->assertStatus(302)
+            ->assertRedirect(route('login.create'));
     }
 }

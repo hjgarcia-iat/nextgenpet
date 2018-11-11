@@ -23,8 +23,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => $this->valid_data()['reset_email']]));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('login.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('login.create'));
         $this->seeEmailWasSent();
     }
 
@@ -33,8 +33,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => '']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $response->assertSessionHasErrors('reset_email');
         $this->seeEmailWasNotSent();
     }
@@ -44,8 +44,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'invalid-email']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $response->assertSessionHasErrors('reset_email');
         $this->seeEmailWasNotSent();
     }
@@ -55,8 +55,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'non-existent-email@email.com']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $response->assertSessionHasErrors('reset_email');
         $this->seeEmailWasNotSent();
     }
@@ -68,8 +68,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'admin@email.com']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $this->seeEmailWasNotSent();
     }
 
@@ -80,8 +80,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'super-admin@email.com']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $this->seeEmailWasNotSent();
     }
 
@@ -92,8 +92,8 @@ class StorePasswordRecoverEmailFormTest extends TestCase
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'general-user@email.com']));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('password.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('password.create'));
         $this->seeEmailWasNotSent();
     }
 

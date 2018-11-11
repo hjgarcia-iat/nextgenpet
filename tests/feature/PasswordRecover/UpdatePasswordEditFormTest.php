@@ -36,10 +36,10 @@ class UpdatePasswordEditFormTest extends TestCase
 
     public function test_the_password_can_be_updated_by_a_next_gen_pet_user()
     {
-        $response = $this->from(route('recover.password.edit', $this->token))->post(route('recover.password.update'), $this->valid_data());
+        $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/');
+        $response->assertStatus(302);
+        $response->assertRedirect('/');
         $this->assertTrue(auth()->check());
         tap($this->user->fresh(), function ($user) {
             $this->assertTrue(\Hash::check($this->valid_data()['password'], $user->password));
@@ -51,9 +51,9 @@ class UpdatePasswordEditFormTest extends TestCase
         $user  = \UserFactory::createAdminUser(['password' => 'admin_password']);
         $token = Password::broker()->createToken($user);
 
-        $response = $this->from(route('recover.password.edit', $token))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
+        $response = $this->from(route('recover.password.edit', [$user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
         $this->assertFalse(auth()->check());
         $this->assertTrue(\Hash::check('admin_password', $user->fresh()->password));
     }
@@ -63,9 +63,9 @@ class UpdatePasswordEditFormTest extends TestCase
         $user  = \UserFactory::createSuperAdminUser(['password' => 'admin_password']);
         $token = Password::broker()->createToken($user);
 
-        $response = $this->from(route('recover.password.edit', $token))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
+        $response = $this->from(route('recover.password.edit', [$user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
         $this->assertFalse(auth()->check());
         $this->assertTrue(\Hash::check('admin_password', $user->fresh()->password));
     }
@@ -73,11 +73,11 @@ class UpdatePasswordEditFormTest extends TestCase
 
     public function test_the_email_field_is_required()
     {
-        $response = $this->from(route('recover.password.edit', $this->token))->post(route('recover.password.update'), $this->valid_data(['email' => '']));
+        $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('email');
-        $response->assertRedirectedTo(route('recover.password.edit', $this->token));
+        $response->assertRedirect(route('recover.password.edit', [$this->user->email, $this->token]));
         tap($this->user->fresh(), function ($user) {
             $this->assertTrue(\Hash::check('old_password', $user->password));
         });
@@ -85,11 +85,11 @@ class UpdatePasswordEditFormTest extends TestCase
 
     public function test_the_email_field_is_valid()
     {
-        $response = $this->from(route('recover.password.edit', $this->token))->post(route('recover.password.update'), $this->valid_data(['email' => 'invalid-email']));
+        $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => 'invalid-email']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('email');
-        $response->assertRedirectedTo(route('recover.password.edit', $this->token));
+        $response->assertRedirect(route('recover.password.edit', [$this->user->email, $this->token]));
         tap($this->user->fresh(), function ($user) {
             $this->assertTrue(\Hash::check('old_password', $user->password));
         });
@@ -97,11 +97,11 @@ class UpdatePasswordEditFormTest extends TestCase
 
     public function test_the_password_field_is_required()
     {
-        $response = $this->from(route('recover.password.edit', $this->token))->post(route('recover.password.update'), $this->valid_data(['password' => '']));
+        $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['password' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('password');
-        $response->assertRedirectedTo(route('recover.password.edit', $this->token));
+        $response->assertRedirect(route('recover.password.edit', [$this->user->email, $this->token]));
         tap($this->user->fresh(), function ($user) {
             $this->assertTrue(\Hash::check('old_password', $user->password));
         });
@@ -109,11 +109,11 @@ class UpdatePasswordEditFormTest extends TestCase
 
     public function test_the_password_confirmation_field_is_required()
     {
-        $response = $this->from(route('recover.password.edit', $this->token))->post(route('recover.password.update'), $this->valid_data(['password_confirmation' => '']));
+        $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['password_confirmation' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('password');
-        $response->assertRedirectedTo(route('recover.password.edit', $this->token));
+        $response->assertRedirect(route('recover.password.edit', [$this->user->email, $this->token]));
         tap($this->user->fresh(), function ($user) {
             $this->assertTrue(\Hash::check('old_password', $user->password));
         });

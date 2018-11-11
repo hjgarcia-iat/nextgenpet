@@ -19,7 +19,7 @@ class ViewAccountEditPage extends TestCase
         $response = $this->actingAs(\UserFactory::createNextGenPetUser())
             ->get(route('my-account'));
 
-        $response->assertResponseStatus(200);
+        $response->assertStatus(200);
     }
 
     public function test_we_cannot_see_the_account_page_as_an_admin_user()
@@ -27,7 +27,7 @@ class ViewAccountEditPage extends TestCase
         $response = $this->actingAs(\UserFactory::createAdminUser())
             ->get(route('my-account'));
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_see_the_account_page_as_a_super_admin_user()
@@ -35,7 +35,7 @@ class ViewAccountEditPage extends TestCase
         $response = $this->actingAs(\UserFactory::createSuperAdminUser())
             ->get(route('my-account'));
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_see_the_account_page_as_a_general_user()
@@ -43,14 +43,14 @@ class ViewAccountEditPage extends TestCase
         $response = $this->actingAs(\UserFactory::createGeneralUser())
             ->get(route('my-account'));
 
-        $response->assertResponseStatus(404);
+        $response->assertStatus(404);
     }
 
     public function test_we_cannot_see_the_account_page_if_we_are_not_logged_in()
     {
         $response = $this->get(route('my-account'));
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo(route('login.create'));
+        $response->assertStatus(302);
+        $response->assertRedirect(route('login.create'));
     }
 }

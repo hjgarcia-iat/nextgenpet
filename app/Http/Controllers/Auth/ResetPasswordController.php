@@ -37,22 +37,23 @@ class ResetPasswordController extends Controller
     /**
      * Show recover password form
      *
+     * @param $email
      * @param $token
      * @return \Illuminate\Contracts\View\Factory|\Illuminate\View\View
      */
-    public function edit($token)
+    public function edit($email, $token)
     {
-        if (!$user = \DB::table('password_resets')->where('token', $token)->first()) {
+        if (!$user = \DB::table('password_resets')->where('email', $email)->first()) {
             return redirect()->route('login.create')->with('error', 'Page accessed in error!');
         }
 
-        if (!User::whereEmail($user->email)->first()->hasRole('nextgen_pet_user')) {
+        if (!User::whereEmail($email)->first()->hasRole('nextgen_pet_user')) {
             abort(404);
         }
 
         return view('auth.passwords.reset')
             ->with('token', $token)
-            ->with('email', $user->email);
+            ->with('email', $email);
     }
 
     /**
@@ -75,8 +76,7 @@ class ResetPasswordController extends Controller
         $response = $this->broker()->reset(
             $this->credentials($request), function ($user, $password) {
             $this->resetPassword($user, $password);
-        }
-        );
+        });
 
         // If the password was successfully reset, we will redirect the user back to
         // the application's home authenticated view. If there is an error we can

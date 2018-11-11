@@ -34,14 +34,14 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data());
 
-        $response->assertRedirectedTo('/');
-        $response->assertResponseStatus(302);
-        $response->seeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->seeInDatabase('users', [
+        $response->assertRedirect('/');
+        $response->assertStatus(302);
+        $this->assertDatabaseHas('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseHas('users', [
             'email'          => $this->valid_data()['register_email'],
             'account_status' => 'Pending',
         ]);
-        $response->seeInDatabase('accounts', [
+        $this->assertDatabaseHas('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -60,12 +60,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['first_name' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('first_name');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -76,12 +76,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['last_name' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('last_name');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -92,12 +92,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['register_email' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -108,12 +108,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['register_email' => 'invalid-email']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -125,12 +125,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['register_email' => 'taken-email@email.com']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -141,12 +141,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['institution' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('institution');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -157,12 +157,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['zip' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('zip');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -173,12 +173,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['zip' => '0000']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('zip');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
@@ -189,12 +189,12 @@ class StoreRegistrationTest extends TestCase
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['zip' => 'non-existent-zip']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('zip');
-        $response->assertRedirectedTo(route('register.create'));
-        $response->dontSeeInDatabase('users', ['email' => $this->valid_data()['register_email']]);
-        $response->dontSeeInDatabase('colleges', ['name' => $this->valid_data()['institution']]);
-        $response->dontSeeInDatabase('accounts', [
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('accounts', [
             'first_name' => $this->valid_data()['first_name'],
             'last_name'  => $this->valid_data()['last_name'],
         ]);
