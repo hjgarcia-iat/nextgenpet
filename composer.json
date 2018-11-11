@@ -8,19 +8,20 @@
     "license"     : "MIT",
     "type"        : "project",
     "require"     : {
-        "php"                      : ">=5.6.4",
-        "laravel/framework"        : "5.3.*",
-        "spatie/laravel-permission": "1.11.*",
-        "msurguy/honeypot"         : "dev-master",
-        "laravelcollective/html"   : "5.3.*",
-        "league/flysystem-aws-s3-v3": "~1.0",
-        "hieu-le/active": "^3.4",
-        "spinen/laravel-mail-assertions": "^0.2.0"
+        "php"                           : ">=5.6.4",
+        "laravel/framework"             : "5.4.*",
+        "laravel/tinker"                : "~1.0",
+        "spatie/laravel-permission"     : "1.16.*",
+        "msurguy/honeypot"              : "dev-master",
+        "laravelcollective/html"        : "5.4.*",
+        "league/flysystem-aws-s3-v3"    : "~1.0",
+        "hieu-le/active"                : "^3.4",
+        "spinen/laravel-mail-assertions": "0.3.*"
     },
     "require-dev" : {
         "fzaninotto/faker"           : "~1.4",
         "mockery/mockery"            : "0.9.*",
-        "phpunit/phpunit"            : "~5.0",
+        "phpunit/phpunit"            : "~5.7",
         "symfony/css-selector"       : "3.1.*",
         "symfony/dom-crawler"        : "3.1.*",
         "barryvdh/laravel-ide-helper": "2.4.*",
@@ -58,7 +59,9 @@
         ]
     },
     "config"      : {
-        "preferred-install": "dist"
+        "preferred-install"  : "dist",
+        "sort-packages"      : true,
+        "optimize-autoloader": true
     },
     "repositories": {
         "packagist": {

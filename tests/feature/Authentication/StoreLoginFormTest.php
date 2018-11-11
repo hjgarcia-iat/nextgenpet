@@ -20,8 +20,8 @@ class StoreLoginFormTest extends TestCase
         $user     = \UserFactory::createNextGenPetUser($this->valid_data());
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/');
+        $response->assertStatus(302);
+        $response->assertRedirect('/');
         $this->assertTrue(auth()->check());
         $this->assertEquals(auth()->user()->id, $user->id);
     }
@@ -31,8 +31,8 @@ class StoreLoginFormTest extends TestCase
         $user     = \UserFactory::createAdminUser($this->valid_data());
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/');
+        $response->assertStatus(302);
+        $response->assertRedirect('/');
         $this->assertTrue(auth()->check());
         $this->assertEquals(auth()->user()->id, $user->id);
     }
@@ -42,8 +42,8 @@ class StoreLoginFormTest extends TestCase
         $user     = \UserFactory::createSuperAdminUser($this->valid_data());
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/');
+        $response->assertStatus(302);
+        $response->assertRedirect('/');
         $this->assertTrue(auth()->check());
         $this->assertEquals(auth()->user()->id, $user->id);
     }
@@ -53,8 +53,8 @@ class StoreLoginFormTest extends TestCase
         \UserFactory::createGeneralUser($this->valid_data());
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/login');
+        $response->assertStatus(302);
+        $response->assertRedirect('/login');
         $this->assertFalse(auth()->check());
     }
 
@@ -64,8 +64,8 @@ class StoreLoginFormTest extends TestCase
 
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
-        $response->assertRedirectedTo('/login');
+        $response->assertStatus(302);
+        $response->assertRedirect('/login');
         $this->assertFalse(auth()->check());
     }
 
@@ -73,9 +73,9 @@ class StoreLoginFormTest extends TestCase
     {
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data(['email' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('email');
-        $response->assertRedirectedToRoute('login.create');
+        $response->assertRedirect(route('login.create'));
         $this->assertFalse(auth()->check());
     }
 
@@ -83,9 +83,9 @@ class StoreLoginFormTest extends TestCase
     {
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data(['password' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $response->assertSessionHasErrors('password');
-        $response->assertRedirectedToRoute('login.create');
+        $response->assertRedirect(route('login.create'));
         $this->assertFalse(auth()->check());
     }
 

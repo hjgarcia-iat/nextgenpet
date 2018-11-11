@@ -17,7 +17,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data());
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasSent();
         $this->seeEmailTo(env('SUPPORT_EMAIL'));
         $this->seeEmailContains($this->valid_data()['name']);
@@ -30,7 +30,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data(['name' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasNotSent();
         $response->assertSessionHasErrors('name');
     }
@@ -39,7 +39,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data(['email' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasNotSent();
         $response->assertSessionHasErrors('email');
     }
@@ -48,7 +48,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data(['email' => 'invalid-email']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasNotSent();
         $response->assertSessionHasErrors('email');
     }
@@ -57,7 +57,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data(['subject' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasNotSent();
         $response->assertSessionHasErrors('subject');
     }
@@ -66,7 +66,7 @@ class StoreContactFormTest extends TestCase
     {
         $response = $this->post(route('help.post'), $this->valid_data(['comment' => '']));
 
-        $response->assertResponseStatus(302);
+        $response->assertStatus(302);
         $this->seeEmailWasNotSent();
         $response->assertSessionHasErrors('comment');
     }
