@@ -90,9 +90,7 @@
             <tr>
                 <td></td>
                 <td colspan="6">
-                    <strong>Assign</strong> : After TL A1 and before first engineering design lesson or activity. In
-                    Unit M, before A6. If first ED activity is not in Units M or PEF, instructor may want to talk
-                    briefly about the law of magnetic poles and maglev trains before assigning Ext E.
+                    <strong>Assign</strong>: After TL A1. If you are not doing Unit M, assign Extension E before the first engineering design lesson or activity. If you are doing Unit M, assign Extension E <strong>after</strong> Unit M A6. If the first ED activity is not in Units M or PEF, instructor may want to talk briefly about the law of magnetic poles and maglev trains before assigning Ext E.
                 </td>
             </tr>
             <tr class="highlight">
