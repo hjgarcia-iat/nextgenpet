@@ -1,4 +1,4 @@
-const {mix} = require('laravel-mix');
+const mix = require('laravel-mix');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 /*
