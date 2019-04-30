@@ -1,6 +1,9 @@
 <?php
 
+use App\User;
+use App\College;
 use Illuminate\Database\Seeder;
+use App\Role;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,6 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        // $this->call(UsersTableSeeder::class);
+        $role = factory(Role)->create(['name' => 'nextgen_pet_user']);
+        $college = factory(College::class)->create();
+        $user = factory(User::class)->create(['email' => 'hjgarcia1@gmail.com','password' => '1234']);
     }
 }
