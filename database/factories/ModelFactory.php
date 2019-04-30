@@ -32,8 +32,8 @@ $factory->define(App\Account::class, function (Faker\Generator $faker) {
         'user_id'    => function () {
             return factory(App\User::class)->create()->id;
         },
-        'first_name' => $faker->name,
-        'last_name'  => $faker->name,
+        'first_name' => $faker->firstName,
+        'last_name'  => $faker->lastName,
     ];
 });
 
