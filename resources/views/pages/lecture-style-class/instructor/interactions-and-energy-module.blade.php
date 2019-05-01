@@ -38,6 +38,10 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitem-lecture.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
@@ -83,6 +87,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-energy-module/2-unit-pef-potential-energy-fields/unit-pef-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas_unitpef-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>

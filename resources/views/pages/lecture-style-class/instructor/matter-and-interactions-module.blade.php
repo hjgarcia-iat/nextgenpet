@@ -34,6 +34,10 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitpc-lecture.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-lesson-and-extension-summaries.pdf']) }}">Activity and Extension Summaries
                         </a>
@@ -87,6 +91,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-trajectory.pdf']) }}">Unit Trajectory
                         </a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitcr-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>

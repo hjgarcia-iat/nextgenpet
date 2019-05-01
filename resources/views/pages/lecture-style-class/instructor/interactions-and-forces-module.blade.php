@@ -12,6 +12,10 @@
         <h2>Interactions &amp; Forces Module</h2>
         <ul class="fa fa-ul">
             <li>
+                <i class="fa-li fa fa-file-pdf-o"></i>
+                <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-modif-lecture.pdf']) }}">Target Ideas</a>
+            </li>
+            <li>
                 <i class="fa-li fa fa-file-word-o"></i>
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/module-if-test-bank.docx']) }}"
                    target="_blank">Module
@@ -36,6 +40,7 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
+
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
