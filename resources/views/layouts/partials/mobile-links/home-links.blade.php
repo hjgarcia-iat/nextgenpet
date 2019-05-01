@@ -8,7 +8,7 @@
         Home
     </a>
     <div class="dropdown-menu{{ (Request::is('/') or Request::is('about/*') or Request::is('workshops')) ? ' show shown' : '' }}"
-         aria-labelledby="aboutLinks">
+         aria-labelledby="aboutLinks" id="mobile-about-links">
 
         <a class="dropdown-item{{ (Request::is('/') or Request::is('about/flexibility') or Request::is('about/research-based')) ? ' active' : '' }}"
            href="{{ url('/') }}">About
@@ -39,21 +39,41 @@
             <span>Engineering Design Activities
             </span>
         </a>
-        <a href="{{ url('about/ngss-and-next-gen-pet') }}"
-           class="dropdown-item{{ (Request::is('about/ngss-and-next-gen-pet')) ? ' active' : '' }}">
-            <span>NGSS &amp; Next Gen PET
-            </span>
+
+        <a href="#"
+           class="dropdown-item sublink collapsed dropdown-toggle"
+           data-toggle="collapse"
+           data-target="#next-gen-pet-mobile-links"
+           data-parent="#mobile-about-links">
+            NGSS &amp; Next Gen PET
         </a>
+        <div id="next-gen-pet-mobile-links"
+             class="sublinks collapse{{ (Request::is('about/nextgen-pet/*') ? ' show' : '') }}">
+            <a class="dropdown-item {{ (Request::is('about/nextgen-pet/overview') ? ' active' : '') }}"
+               href="{{ url('about/nextgen-pet/overview') }}">
+                Overview
+            </a>
+            <a class="dropdown-item{{ (Request::is('about/nextgen-pet/science-and-engineering-practices') ? ' active' : '') }}"
+               href="{{ url('about/nextgen-pet/science-and-engineering-practices') }}">
+                Science & Engineering Practices
+            </a>
+            <a class="dropdown-item{{ (Request::is('about/nextgen-pet/crosscutting-concepts') ? ' active' : '') }}"
+               href="{{ url('about/nextgen-pet/crosscutting-concepts') }}">
+                Crosscutting Concepts
+            </a>
+            <a class="dropdown-item{{ (Request::is('about/nextgen-pet/disciplinary-core-ideas') ? ' active' : '') }}"
+               href="{{ url('about/nextgen-pet/disciplinary-core-ideas') }}">
+                Disciplinary Core Ideas
+            </a>
+        </div>
+
+
         <a href="{{ url('about/implementation-versions') }}"
            class="dropdown-item{{ (Request::is('about/implementation-versions')) ? ' active' : '' }}">
             <span>Implementation Versions
             </span>
         </a>
-        {{--<a href="{{ url('workshops') }}"--}}
-           {{--class="dropdown-item{{ (Request::is('workshops')) ? ' active' : '' }}">--}}
-            {{--<span>Workshops for Faculties &amp; PD Providers--}}
-            {{--</span>--}}
-        {{--</a>--}}
+
         <a href="{{ url('about/development-staff') }}"
            class="dropdown-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">
             <span>About the Development Staff
