@@ -88,12 +88,12 @@
                 <ul class="fa fa-ul">
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitse-lecture.pdf']) }}">Unit
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/Target+Ideas-UnitSE+Lecture.pdf']) }}">Target Ideas</a>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitse-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
