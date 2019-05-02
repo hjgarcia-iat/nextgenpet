@@ -457,3 +457,20 @@
         </div>
     </div>
 </div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingThirty">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">Extension J: Reviewing Energy and Interactions</a>
+        </h5>
+    </div>
+    <div id="collapseThirty" class="collapse" role="tabpanel" aria-labelledby="headingThirty">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/uem-ext-j-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

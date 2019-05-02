@@ -330,3 +330,39 @@
         </div>
     </div>
 </div>
+<div class="card">
+    <div class="card-header" id="headingTwentyTwo" role="tab">
+        <h5 class="mb-0">
+            <a aria-controls="collapseTwentyTwo" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwentyTwo">Extension F: Reviewing Potential Energy and Fields </a>
+        </h5>
+    </div>
+    <div aria-labelledby="headingTwentyTwo" class="collapse" id="collapseTwentyTwo" role="tabpanel">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"> </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-f-extension-mock-up.pptx']) }}" target="_blank">
+                        Extension Mockup Slides </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingTwentyThree" role="tab">
+        <h5 class="mb-0">
+            <a aria-controls="collapseTwentyThree" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwentyThree">Extension G: Reviewing Potential Energy and Fields (no electromagnetic interaction)</a>
+        </h5>
+    </div>
+    <div aria-labelledby="headingTwentyThree" class="collapse" id="collapseTwentyThree" role="tabpanel">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"> </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-g-extension-mock-up.pptx']) }}" target="_blank">
+                        Extension Mockup Slides </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
