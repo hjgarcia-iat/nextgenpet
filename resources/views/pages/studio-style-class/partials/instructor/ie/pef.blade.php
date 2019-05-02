@@ -390,6 +390,10 @@
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-f-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"> </i>
+                    <a href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtF/index.html " target="_blank">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -407,6 +411,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"> </i>
                     <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-g-extension-mock-up.pptx']) }}" target="_blank">
                         Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"> </i>
+                    <a href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html" target="_blank">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>

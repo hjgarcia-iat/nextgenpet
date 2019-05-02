@@ -435,6 +435,10 @@
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
                     <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/uem-ext-j-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/IE/ExtJ/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>

@@ -309,7 +309,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/ucf-ext-f-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
-
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank"
+                       href="https://public.csusm.edu/NextGenPET/Extensions/CF/ExtF/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
@@ -330,7 +334,11 @@
                        href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/ucf-ext-g-extension-mock-up.pptx']) }}">Extension
                         Mockup Slides</a>
                 </li>
-
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank"
+                       href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html">Extension Online (HTML5)</a>
+                </li>
             </ul>
         </div>
     </div>
