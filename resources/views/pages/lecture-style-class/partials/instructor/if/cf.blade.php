@@ -394,7 +394,7 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank"
-                       href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html">Extension Online (HTML5)</a>
+                       href="https://public.csusm.edu/NextGenPET/Extensions/CF/ExtG/index.html ">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>
