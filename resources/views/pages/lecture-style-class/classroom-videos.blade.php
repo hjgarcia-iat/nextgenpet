@@ -33,32 +33,32 @@
         <ul class="fa-ul">
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_mse.html" target="_blank">Magnetism and Static
+                <a href="http://nextgenpetstudent.activatelearning.com//videos/index_lc_mse.html" target="_blank">Magnetism and Static
                     Electricity Module </a>
             </li>
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_ie.html" target="_blank">Interactions and Energy
+                <a href="http://nextgenpetstudent.activatelearning.com//videos/index_lc_ie.html" target="_blank">Interactions and Energy
                     Module </a>
             </li>
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_if.html" target="_blank">Interactions and Force
+                <a href="http://nextgenpetstudent.activatelearning.com//videos/index_lc_if.html" target="_blank">Interactions and Force
                     Module </a>
             </li>
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_wsl.html" target="_blank">Waves, Sound, and Light
+                <a href="http://nextgenpetstudent.activatelearning.com//videos/index_lc_wsl.html" target="_blank">Waves, Sound, and Light
                     Module </a>
             </li>
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a href="http://nextgenpet.sdsu.edu/videos/index_lc_mi.html" target="_blank"> Matter and Interactions
+                <a href="http://nextgenpetstudent.activatelearning.com//videos/index_lc_mi.html" target="_blank"> Matter and Interactions
                     Module </a>
             </li>
             <li>
                 <i class="fa-li fa fa-video-camera"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/index_tl.html ">Teaching and Learning </a>
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/index_tl.html ">Teaching and Learning </a>
             </li>
         </ul>
     </section>

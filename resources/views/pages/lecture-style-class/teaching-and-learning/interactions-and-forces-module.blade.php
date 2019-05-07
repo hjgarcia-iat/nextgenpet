@@ -17,7 +17,7 @@
         <h3>Teaching &amp; Learning &mdash; Module IF Cluster</h3>
         <p>
             Click on the lesson titles below to view or download the lessons in PDF format. The extensions below can be
-            found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching &amp;
+            found on the <a href="http://nextgenpetstudent.activatelearning.com//extensions/index_tl.html" target="_blank">Teaching &amp;
                 Learning Extensions page</a>
         </p>
         <p>Each Teaching and Learning lesson and extension in the Module IF (Interactions and Forces) cluster is listed

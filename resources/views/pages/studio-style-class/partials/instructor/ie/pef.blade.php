@@ -28,7 +28,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a1.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a1.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -91,7 +91,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a2.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a2.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -154,7 +154,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a3.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a3.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -228,7 +228,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a4.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a4.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -296,7 +296,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a5.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a5.html">Demonstration
                         Movies</a>
                 </li>
                 <li>
@@ -369,7 +369,7 @@
 
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a6.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a6.html">Demonstration
                         Movies</a>
                 </li>
             </ul>

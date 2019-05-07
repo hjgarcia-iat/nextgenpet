@@ -32,28 +32,28 @@
             below. </p>
         <ul class="fa-ul">
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/extensions_index_lecture_mse.html">Magnetism
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_lecture_mse.html">Magnetism
                     and Static Electricity Module</a></li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/extensions_index_lecture_ie.html">Interactions
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_lecture_ie.html">Interactions
                     and Energy Module</a></li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/extensions_index_lecture_if.html">Interactions
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_lecture_if.html">Interactions
                     and Forces Module</a></li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/extensions_index_lecture_wsl.html">Waves,
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_lecture_wsl.html">Waves,
                     Sound and Light Module</a></li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/extensions_index_lecture_mi.html">Matter
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_lecture_mi.html">Matter
                     and Interactions Module</a>
             </li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/extensions/index_tl.html">Teaching and Learning
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//extensions/index_tl.html">Teaching and Learning
                     Extensions</a>
             </li>
         </ul>
         <p>
-            <a href="http://nextgenpet.sdsu.edu/lc/index.html" class="btn btn-primary" target="_blank">Student
+            <a href="http://nextgenpetstudent.activatelearning.com//lc/index.html" class="btn btn-primary" target="_blank">Student
                 Portal</a>
         </p>
         <p>
