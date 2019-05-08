@@ -15,7 +15,7 @@
         <h3>Planning & Conducting Activities & Extensions</h3>
         <p>
             Click on the activity titles below to view or download the activities in PDF format. The extensions below can be found on
-            <a href="https://nextgenpet.activatelearning.com/studio-style-class/teaching-and-learning/general-lessons-and-extensions">Planning & Conducting Investigations Extensions page</a>
+            <a href="http://nextgenpetstudent.activatelearning.com/extensions/extensions_index_studio_pci.html">Planning & Conducting Investigations Extensions page</a>
             .
         </p>
 
