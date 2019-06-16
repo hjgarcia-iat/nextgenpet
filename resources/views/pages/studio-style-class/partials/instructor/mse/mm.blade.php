@@ -86,6 +86,10 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/M/ExtA-M/index.html">Unit M Extension A-M</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="https://phet.colorado.edu/en/simulation/magnet-and-compass">Magnet & Compass Simulation</a>
                 </li>
             </ul>

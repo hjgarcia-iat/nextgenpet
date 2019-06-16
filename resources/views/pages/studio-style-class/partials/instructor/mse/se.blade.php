@@ -75,6 +75,10 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html">Unit SE Extension B-M</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="https://phet.colorado.edu/en/simulation/electric-hockey">Electric Field Hockey Simulation</a>
                 </li>
             </ul>
