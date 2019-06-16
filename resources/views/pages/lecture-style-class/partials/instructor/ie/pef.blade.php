@@ -177,6 +177,10 @@
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC-M/index.html">Unit PEF Extension C-M</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a href="https://phet.colorado.edu/en/simulation/magnet-and-compass" target="_blank">Magnet & Compass Simulation</a>
                 </li>
@@ -321,6 +325,10 @@
                 <li>
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-video-o"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE-M/index.html">Unit PEF Extension E-M</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
