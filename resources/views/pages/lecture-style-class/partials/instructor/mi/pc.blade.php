@@ -128,9 +128,14 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PC/ExtH/index.html">Extension Online (HTML5)</a>
                 </li>
+
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/UPC+Extension+H-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PC/ExtH-M/index.html">Unit PC Extension H-M</a>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PC/ExtH-M/index.html">Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>

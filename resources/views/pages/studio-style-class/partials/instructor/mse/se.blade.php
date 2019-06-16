@@ -74,8 +74,12 @@
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/USE+Extension+B-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html">Unit SE Extension B-M</a>
+                    <a target="_blank" href=https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html>Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>

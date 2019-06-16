@@ -184,8 +184,12 @@
                     </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC-M/index.html">Unit PEF Extension C-M</a>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/UPEF+Extension+C-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC-M/index.html">Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -338,8 +342,12 @@
                     </a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE-M/index.html">Unit PEF Extension E-M</a>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/UPEF+Extension+E-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE-M/index.html">Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>

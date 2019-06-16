@@ -75,8 +75,12 @@
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/USE+Extension+B-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html">Unit SE Extension B-M</a>
+                    <a target="_blank" href=https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html>Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
@@ -280,7 +284,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/10-ext-f-charged-and-uncharged-objects/use-extf-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/extensions/USE-Extension-F-Mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
