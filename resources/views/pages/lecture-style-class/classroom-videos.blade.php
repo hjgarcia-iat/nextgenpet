@@ -61,6 +61,9 @@
                 <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/index_tl.html ">Teaching and Learning </a>
             </li>
         </ul>
+        <p>
+            <a href="http://nextgenpetstudent.activatelearning.com/videos/index.html" class="btn btn-primary" target="_blank">Classroom Videos Portal</a>
+        </p>
     </section>
 @stop
 
