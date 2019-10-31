@@ -60,6 +60,11 @@
             <span>Implementation Versions
             </span>
         </a>
+        <a href="{{ url('ordering') }}"
+           class="list-group-item{{ (Request::is('ordering')) ? ' active' : '' }}">
+            <span>Ordering Next Gen PET Materials
+            </span>
+        </a>
         <a href="{{ url('about/development-staff') }}"
            class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">
             <span>About the Development Staff

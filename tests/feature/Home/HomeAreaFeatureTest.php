@@ -79,4 +79,9 @@ class HomeAreaFeatureTest extends TestCase
     {
         $this->get('privacy-policy')->assertStatus(200);
     }
+
+    public function test_we_can_see_the_ordering_page()
+    {
+        $this->get('ordering')->assertStatus(200);
+    }
 }

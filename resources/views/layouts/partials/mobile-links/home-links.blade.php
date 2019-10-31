@@ -74,6 +74,12 @@
             </span>
         </a>
 
+        <a href="{{ url('ordering') }}"
+           class="dropdown-item{{ (Request::is('ordering')) ? ' active' : '' }}">
+            <span>Ordering Next Gen PET Materials
+            </span>
+        </a>
+
         <a href="{{ url('about/development-staff') }}"
            class="dropdown-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">
             <span>About the Development Staff
