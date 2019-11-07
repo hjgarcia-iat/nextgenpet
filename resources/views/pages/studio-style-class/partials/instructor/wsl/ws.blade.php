@@ -259,6 +259,12 @@
                         Map circles drawing tool
                     </a>
                 </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/8-a5-ed-locatiing-an-earthquake/uws-act5-data-sheets.docx']) }}" target="_blank">
+                        Activity 5 Data Sheets
+                    </a>
+                </li>
             </ul>
         </div>
     </div>
