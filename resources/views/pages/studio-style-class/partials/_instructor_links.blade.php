@@ -43,7 +43,7 @@
             <span>Planning &amp; Conducting Investigations</span>
         </a>
 
-        <a target="_blank" class="list-group-item" href="http://ngpfolc.wpengine.com/?p=248">
+        <a class="list-group-item" href="{{ url('studio-style-class/instructor/next-gen-pet-virtual-conference') }}">
             <span>Next Gen PET Virtual Conference</span></a>
     </div>
 </div>

@@ -20,7 +20,7 @@
         <a class="list-group-item{{ (Request::is('lecture-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/teaching-and-learning') }}">
             <span>Teaching &amp; Learning</span></a>
 
-        <a target="_blank" class="list-group-item" href="http://ngpfolc.wpengine.com/?p=248">
+        <a class="list-group-item" href="{{ url('lecture-style-class/instructor/next-gen-pet-virtual-conference') }}">
             <span>Next Gen PET Virtual Conference</span></a>
     </div>
 </div>
