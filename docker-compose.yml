@@ -1,0 +1,27 @@
+version: '3'
+volumes:
+  nextgenpet-db:
+services:
+  nextgenpet:
+    image: thecodingmachine/php:7.4-v3-apache-node12
+    container_name: nextgenpet
+    ports:
+      - "8081:80"
+      - "3003:3000"
+      - "3004:3001"
+    volumes:
+      - .:/var/www/html
+    environment:
+      APACHE_DOCUMENT_ROOT: public/
+  nextgenpet-db:
+    image: mysql
+    ports:
+      - "3308:3306"
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: root
+      MYSQL_PASSWORD: secret
+      MYSQL_ROOT_PASSWORD: secret
+    volumes:
+      - nextgenpet-db:/var/www/html
