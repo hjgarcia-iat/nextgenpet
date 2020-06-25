@@ -18,7 +18,7 @@ class DatabaseSeeder extends Seeder
         $role    = factory(Role::class)->create(['name' => 'nextgen_pet_user']);
         $college = factory(College::class)->create();
 
-        $user    = factory(User::class)->create(['email' => 'hjgarcia1@gmail.com', 'password' => '1234']);
+        $user    = factory(User::class)->create(['email' => 'test@test.com', 'password' => '1234']);
         $account = factory(Account::class)->create(['user_id' => $user->id]);
 
         $user->colleges()->attach($college->id);
