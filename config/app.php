@@ -181,8 +181,6 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
         Msurguy\Honeypot\HoneypotServiceProvider::class,
-        Spatie\Permission\PermissionServiceProvider::class,
-        HieuLe\Active\ActiveServiceProvider::class,
     ],
 
     /*
