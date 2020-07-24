@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\LoginRequest;
+use App\User;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Lang;
@@ -72,11 +73,11 @@ class LoginController extends Controller
             }
 
             //check role
-            if (!\Auth::user()->hasRole(['nextgen_pet_user','admin','super_admin'])) {
-                auth()->logout();
-
-                return redirect()->route('login.create')->with('error', 'Please contact support for access to NextGen PET!');
-            }
+//            if (!\Auth::user()->hasRole(['nextgen_pet_user','admin','super_admin'])) {
+//                auth()->logout();
+//
+//                return redirect()->route('login.create')->with('error', 'Please contact support for access to NextGen PET!');
+//            }
 
             return redirect()->intended('/')->with('success', 'You have been logged in!');
         }
