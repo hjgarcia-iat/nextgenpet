@@ -16,7 +16,7 @@ class PagesController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('pageAuthChecker');
+//        $this->middleware('pageAuthChecker');
     }
 
     /**
