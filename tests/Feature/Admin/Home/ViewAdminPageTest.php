@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\Feature\Admin;
+namespace Tests\Feature\Admin\Home;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\Factories\UserFactory;

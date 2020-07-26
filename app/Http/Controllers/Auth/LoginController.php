@@ -73,13 +73,11 @@ class LoginController extends Controller
             }
 
             //check role
-//            if (!\Auth::user()->hasRole(['nextgen_pet_user','admin','super_admin'])) {
-//                auth()->logout();
-//
-//                return redirect()->route('login.create')->with('error', 'Please contact support for access to NextGen PET!');
-//            }
+           if (\Auth::user()->hasRole(['admin','super_admin'])) {
+               return redirect()->route('admin.index')->with('success', 'You are logged in!');
+           }
 
-            return redirect()->intended('/')->with('success', 'You have been logged in!');
+            return redirect()->intended('/')->with('success', 'You are logged in!');
         }
 
         return redirect()->back()
