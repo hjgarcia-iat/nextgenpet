@@ -15,9 +15,9 @@ class StorePasswordRecoverEmailFormTest extends TestCase
 {
     use RefreshDatabase, MailTracking;
 
-    public function test_a_next_gen_pet_user_can_request_a_password_reset_link()
+    public function test_a_user_can_request_a_password_reset_link()
     {
-        UserFactory::createNextGenPetUser(['email' => $this->valid_data()['reset_email']]);
+        UserFactory::createUser(['email' => $this->valid_data()['reset_email']]);
 
         $response = $this->from(route('password.create'))
             ->post(route('password.store'), $this->valid_data(['reset_email' => $this->valid_data()['reset_email']]));
@@ -68,31 +68,7 @@ class StorePasswordRecoverEmailFormTest extends TestCase
             ->post(route('password.store'), $this->valid_data(['reset_email' => 'admin@email.com']));
 
         $response->assertStatus(302);
-        $response->assertRedirect(route('password.create'));
-        $this->seeEmailWasNotSent();
-    }
-
-    public function test_a_super_admin_user_cannot_request_a_reset_password_email()
-    {
-        UserFactory::createSuperAdminUser(['email' => 'super-admin@email.com']);
-
-        $response = $this->from(route('password.create'))
-            ->post(route('password.store'), $this->valid_data(['reset_email' => 'super-admin@email.com']));
-
-        $response->assertStatus(302);
-        $response->assertRedirect(route('password.create'));
-        $this->seeEmailWasNotSent();
-    }
-
-    public function test_a_general_user_cannot_request_a_reset_password_email()
-    {
-        UserFactory::createGeneralUser(['email' => 'general-user@email.com']);
-
-        $response = $this->from(route('password.create'))
-            ->post(route('password.store'), $this->valid_data(['reset_email' => 'general-user@email.com']));
-
-        $response->assertStatus(302);
-        $response->assertRedirect(route('password.create'));
+        $response->assertRedirect(route('login.create'));
         $this->seeEmailWasNotSent();
     }
 

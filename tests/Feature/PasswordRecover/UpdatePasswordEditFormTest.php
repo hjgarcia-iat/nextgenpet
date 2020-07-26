@@ -29,13 +29,14 @@ class UpdatePasswordEditFormTest extends TestCase
     {
         parent::setUp();
 
-        $this->user  = UserFactory::createNextGenPetUser(['password' => 'old_password']);
+        $this->user  = UserFactory::createUser(['password' => 'old_password']);
         $this->token = Password::broker()->createToken($this->user);
     }
 
-    public function test_the_password_can_be_updated_by_a_next_gen_pet_user()
+    public function test_the_password_can_be_updated_user()
     {
         $response = $this->from(route('recover.password.edit', [$this->user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data());
+
 
         $response->assertStatus(302);
         $response->assertRedirect('/');
@@ -52,19 +53,7 @@ class UpdatePasswordEditFormTest extends TestCase
 
         $response = $this->from(route('recover.password.edit', [$user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
 
-        $response->assertStatus(404);
-        $this->assertFalse(auth()->check());
-        $this->assertTrue(\Hash::check('admin_password', $user->fresh()->password));
-    }
-
-    public function test_the_password_cannot_be_updated_by_a_super_admin_user()
-    {
-        $user  = UserFactory::createSuperAdminUser(['password' => 'admin_password']);
-        $token = Password::broker()->createToken($user);
-
-        $response = $this->from(route('recover.password.edit', [$user->email, $this->token]))->post(route('recover.password.update'), $this->valid_data(['email' => $user->email, 'token' => $token]));
-
-        $response->assertStatus(404);
+        $response->assertStatus(302);
         $this->assertFalse(auth()->check());
         $this->assertTrue(\Hash::check('admin_password', $user->fresh()->password));
     }

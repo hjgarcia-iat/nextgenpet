@@ -16,50 +16,18 @@ class StoreLoginFormTest extends TestCase
 
     public function test_we_can_login_as_a_next_gen_pet_user()
     {
-        $user     = UserFactory::createNextGenPetUser($this->valid_data());
+        $user     = UserFactory::createUser($this->valid_data());
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 
         $response->assertStatus(302);
         $response->assertRedirect('/');
         $this->assertTrue(auth()->check());
         $this->assertEquals(auth()->user()->id, $user->id);
-    }
-
-    public function test_we_can_login_as_an_admin()
-    {
-        $user     = UserFactory::createAdminUser($this->valid_data());
-        $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
-
-        $response->assertStatus(302);
-        $response->assertRedirect('/');
-        $this->assertTrue(auth()->check());
-        $this->assertEquals(auth()->user()->id, $user->id);
-    }
-
-    public function test_we_can_login_as_an_super_admin()
-    {
-        $user     = UserFactory::createSuperAdminUser($this->valid_data());
-        $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
-
-        $response->assertStatus(302);
-        $response->assertRedirect('/');
-        $this->assertTrue(auth()->check());
-        $this->assertEquals(auth()->user()->id, $user->id);
-    }
-
-    public function test_we_cannot_login_as_a_general_user()
-    {
-        UserFactory::createGeneralUser($this->valid_data());
-        $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
-
-        $response->assertStatus(302);
-        $response->assertRedirect('/login');
-        $this->assertFalse(auth()->check());
     }
 
     public function test_we_cannot_login_if_the_account_is_pending()
     {
-        UserFactory::createNextGenPetUser($this->valid_data(['account_status' => 'Pending']));
+        UserFactory::createUser($this->valid_data(['account_status' => 'Pending']));
 
         $response = $this->from(route('login.create'))->post(route('login.store'), $this->valid_data());
 

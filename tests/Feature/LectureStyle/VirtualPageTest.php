@@ -18,7 +18,7 @@ class VirtualPageTest extends TestCase
 
     public function test_we_can_see_the_virtual_page_as_a_next_gen_pet_user()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $this->actingAs($user)
             ->get('/lecture-style-class/instructor/next-gen-pet-virtual-conference')

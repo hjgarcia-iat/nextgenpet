@@ -21,7 +21,7 @@ class ViewAdminPageTest extends TestCase
 
     public function test_we_cannot_log_in_as_a_general_user()
     {
-        $user = UserFactory::createGeneralUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)->get(\route('admin.index'));
 

@@ -21,46 +21,7 @@ class UserFactory
      */
     public static function createAdminUser($userOverrides = [], $roleOverrides = [])
     {
-        return self::createGeneralUser($userOverrides, ['name' => 'admin']);
-    }
-
-    /**
-     * Create a Super Admin User
-     *
-     * @param array $userOverrides
-     * @return User|mixed
-     */
-    public static function createSuperAdminUser($userOverrides = [])
-    {
-        return self::createGeneralUser($userOverrides, ['name' => 'super_admin']);
-    }
-
-    /**
-     * Create a NextGen PET User
-     *
-     * @param array $userOverrides
-     * @return User|mixed
-     */
-    public static function createNextGenPetUser($userOverrides = [])
-    {
-        return self::createGeneralUser($userOverrides, ['name' => 'nextgen_pet_user']);
-    }
-
-    /**
-     * Create General Student Portal Account
-     *
-     * @return mixed
-     */
-    public static function createStudentPortalUser()
-    {
-        //create the user
-        $user = factory(User::class)->create(
-            ['username' => 'iqwst-student-portal', 'email' => 'iqwst@email.com', 'password' => 'IQWST2018']
-        );
-        //create account details
-        $user->account()->create(['first_name' => 'IQWST', 'last_name' => 'Student']);
-
-        return $user;
+        return self::createUser($userOverrides, ['name' => 'admin']);
     }
 
 
@@ -71,7 +32,7 @@ class UserFactory
      * @param array $roleOverrides
      * @return mixed|User
      */
-    public static function createGeneralUser($userOverrides = [], $roleOverrides = [])
+    public static function createUser($userOverrides = [], $roleOverrides = [])
     {
         $user = factory(User::class)->create($userOverrides);
 

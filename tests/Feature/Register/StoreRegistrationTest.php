@@ -120,7 +120,7 @@ class StoreRegistrationTest extends TestCase
 
     public function test_the_email_field_is_unique()
     {
-        UserFactory::createGeneralUser(['email' => 'taken-email@email.com']);
+        UserFactory::createUser(['email' => 'taken-email@email.com']);
         $response = $this->from(route('register.create'))
             ->post(route('register.store'), $this->valid_data(['register_email' => 'taken-email@email.com']));
 

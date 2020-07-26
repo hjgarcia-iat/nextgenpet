@@ -16,7 +16,7 @@ class InstructorMIPageTest extends TestCase
 
     public function test_we_can_see_the_instructor_mse_page_as_a_next_gen_pet_user()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $this->actingAs($user)
             ->get('/studio-style-class/instructor/matter-and-interactions-module')
@@ -30,25 +30,6 @@ class InstructorMIPageTest extends TestCase
         $this->actingAs($user)
             ->get('/studio-style-class/instructor/matter-and-interactions-module')
             ->assertStatus(200);
-    }
-
-    public function test_we_can_see_the_instructor_mse_page_as_a_super_admin_user()
-    {
-        $user = UserFactory::createSuperAdminUser();
-
-        $this->actingAs($user)
-            ->get('/studio-style-class/instructor/matter-and-interactions-module')
-            ->assertStatus(200);
-    }
-
-    public function test_we_cannot_see_the_instructor_mse_page_as_a_general_user()
-    {
-        $user = UserFactory::createGeneralUser();
-
-        $this->actingAs($user)
-            ->get('/studio-style-class/instructor/matter-and-interactions-module')
-            ->assertStatus(302)
-            ->assertRedirect(route('login.create'));
     }
 
     public function test_we_cannot_see_the_instructor_mse_page_if_we_are_not_logged_in()

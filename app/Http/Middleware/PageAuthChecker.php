@@ -24,11 +24,6 @@ class PageAuthChecker
                 auth()->logout();
                 return redirect(route('login.create'))->with('error', 'Please login to continue!');
             }
-
-            if(auth()->check() and !auth()->user()->hasRole(['nextgen_pet_user', 'admin', 'super_admin'])) {
-                auth()->logout();
-                return redirect(route('login.create'))->with('error', 'Please login to continue!');
-            }
         }
 
         return $next($request);

@@ -21,7 +21,7 @@ class ViewPasswordRecoverEmailFormTest extends TestCase
 
     public function test_we_cannot_see_the_recover_password_email_form_if_we_are_logged_in()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $this->actingAs($user)
             ->get(route('password.create'))

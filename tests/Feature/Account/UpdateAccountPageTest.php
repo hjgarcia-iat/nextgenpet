@@ -1,6 +1,6 @@
 <?php
 
-namespace Tests\feature\Account;
+namespace Tests\Feature\Account;
 
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
@@ -14,9 +14,9 @@ class UpdateAccountPageTest extends TestCase
 {
     use RefreshDatabase;
 
-    public function test_we_can_update_the_account_as_next_gen_pet_user()
+    public function test_we_can_update_our_account()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)
             ->from(route('my-account'))
@@ -32,7 +32,7 @@ class UpdateAccountPageTest extends TestCase
         });
     }
 
-    public function test_we_cannot_update_the_account_as_an_admin_user()
+    public function test_we_cannot_update_our_account_as_admins()
     {
         $user = UserFactory::createAdminUser();
 
@@ -40,35 +40,17 @@ class UpdateAccountPageTest extends TestCase
             ->from(route('my-account'))
             ->post(route('my-account-update'), $this->valid_data());
 
-        $response->assertStatus(404);
-    }
-
-    public function test_we_cannot_update_the_account_as_a_super_admin_user()
-    {
-        $user = UserFactory::createSuperAdminUser();
-
-        $response = $this->actingAs($user)
-            ->from(route('my-account'))
-            ->post(route('my-account-update'), $this->valid_data());
-
-        $response->assertStatus(404);
-    }
-
-    public function test_we_cannot_update_the_account_as_a_general_user()
-    {
-        $user = UserFactory::createSuperAdminUser();
-
-        $response = $this->actingAs($user)
-            ->from(route('my-account'))
-            ->post(route('my-account-update'), $this->valid_data());
-
-        $response->assertStatus(404);
+        $response->assertStatus(302);
+        $response->assertRedirect(route('admin.index'));
+        tap($user->fresh(), function ($user) {
+            $this->assertEquals($user->account->first_name, $user->account->first_name);
+            $this->assertEquals($user->account->last_name, $user->account->last_name);
+            $this->assertEquals($user->email, $user->email);
+        });
     }
 
     public function test_we_cannot_update_the_account_if_we_are_not_logged_in()
     {
-        UserFactory::createNextGenPetUser();
-
         $response = $this->post(route('my-account-update'), $this->valid_data());
 
         $response->assertStatus(302);
@@ -77,7 +59,7 @@ class UpdateAccountPageTest extends TestCase
 
     public function test_first_name_field_is_required()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)
             ->from(route('my-account'))
@@ -96,7 +78,7 @@ class UpdateAccountPageTest extends TestCase
 
     public function test_last_name_field_is_required()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)
             ->from(route('my-account'))
@@ -115,7 +97,7 @@ class UpdateAccountPageTest extends TestCase
 
     public function test_email_field_is_required()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)
             ->from(route('my-account'))
@@ -134,7 +116,7 @@ class UpdateAccountPageTest extends TestCase
 
     public function test_email_field_is_valid()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $response = $this->actingAs($user)
             ->from(route('my-account'))

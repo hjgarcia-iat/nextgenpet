@@ -47,8 +47,9 @@ class ResetPasswordController extends Controller
             return redirect()->route('login.create')->with('error', 'Page accessed in error!');
         }
 
-        if (!User::whereEmail($email)->first()->hasRole('nextgen_pet_user')) {
-            abort(404);
+        if (User::whereEmail($email)->first()->hasRole('admin')) {
+            return redirect(route('login.create'))
+                ->with('error','You cannot access this area.');
         }
 
         return view('auth.passwords.reset')
@@ -66,8 +67,9 @@ class ResetPasswordController extends Controller
     {
         $this->validate($request, $this->rules(), $this->validationErrorMessages());
 
-        if (!User::whereEmail($request->get('email'))->first()->hasRole('nextgen_pet_user')) {
-            abort(404);
+        if (User::whereEmail($request->get('email'))->first()->hasRole('admin')) {
+            return redirect(route('login.create'))
+                ->with('error', 'You cannot access this area.');
         }
 
         // Here we will attempt to reset the user's password. If it is successful we

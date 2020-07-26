@@ -22,7 +22,9 @@ class RoleValidation
      */
     public function handle($request, Closure $next)
     {
-        if (!auth()->user()->hasRole('nextgen_pet_user')) abort(404);
+        if (auth()->user()->hasRole('admin')) {
+            return redirect(route('admin.index'));
+        }
 
         return $next($request);
     }

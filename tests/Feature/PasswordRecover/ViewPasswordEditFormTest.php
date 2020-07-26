@@ -17,7 +17,7 @@ class ViewPasswordEditFormTest extends TestCase
 
     public function test_we_can_view_password_edit_form_page()
     {
-        $user  = UserFactory::createNextGenPetUser();
+        $user  = UserFactory::createUser();
         $token = Password::broker()->createToken($user);
 
         $response = $this->get(route('recover.password.edit', [$user->email, $token]));
@@ -34,7 +34,7 @@ class ViewPasswordEditFormTest extends TestCase
 
     public function test_we_cannot_view_password_edit_form_page_if_the_token_is_incorrect()
     {
-        $user  = UserFactory::createNextGenPetUser();
+        $user  = UserFactory::createUser();
 
         $response = $this->get(route('recover.password.edit', [$user->email, 'invalid-token']));
 
@@ -48,17 +48,6 @@ class ViewPasswordEditFormTest extends TestCase
 
         $response = $this->get(route('recover.password.edit', [$user->email, $token]));
 
-
-        $response->assertStatus(404);
-    }
-
-    public function test_we_cannot_view_password_edit_form_page_as_a_super_admin()
-    {
-        $user  = UserFactory::createSuperAdminUser();
-        $token = Password::broker()->createToken($user);
-
-        $response = $this->get(route('recover.password.edit', [$user->email, $token]));
-
-        $response->assertStatus(404);
+        $response->assertRedirect(route('login.create'));
     }
 }

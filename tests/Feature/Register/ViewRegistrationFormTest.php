@@ -22,7 +22,7 @@ class ViewRegistrationFormTest extends TestCase
 
     public function test_we_cannot_view_the_registration_form_if_we_are_logged_in()
     {
-        $user = UserFactory::createNextGenPetUser();
+        $user = UserFactory::createUser();
 
         $this->from('/')
             ->actingAs($user)

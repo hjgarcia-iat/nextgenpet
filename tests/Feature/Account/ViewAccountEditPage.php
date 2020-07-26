@@ -17,7 +17,7 @@ class ViewAccountEditPage extends TestCase
 
     public function test_we_can_see_the_account_page_as_a_next_gen_pet_user()
     {
-        $response = $this->actingAs(UserFactory::createNextGenPetUser())
+        $response = $this->actingAs(UserFactory::createUser())
             ->get(route('my-account'));
 
         $response->assertStatus(200);
@@ -28,23 +28,7 @@ class ViewAccountEditPage extends TestCase
         $response = $this->actingAs(UserFactory::createAdminUser())
             ->get(route('my-account'));
 
-        $response->assertStatus(404);
-    }
-
-    public function test_we_cannot_see_the_account_page_as_a_super_admin_user()
-    {
-        $response = $this->actingAs(UserFactory::createSuperAdminUser())
-            ->get(route('my-account'));
-
-        $response->assertStatus(404);
-    }
-
-    public function test_we_cannot_see_the_account_page_as_a_general_user()
-    {
-        $response = $this->actingAs(UserFactory::createGeneralUser())
-            ->get(route('my-account'));
-
-        $response->assertStatus(404);
+        $response->assertRedirect(route('admin.index'));
     }
 
     public function test_we_cannot_see_the_account_page_if_we_are_not_logged_in()
