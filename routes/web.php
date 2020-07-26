@@ -6,6 +6,10 @@ Route::get('/login', 'Auth\LoginController@create')->name('login.create');
 Route::post('/login', 'Auth\LoginController@store')->name('login.store');
 Route::post('/logout', 'Auth\LoginController@destroy')->name('login.destroy');
 
+Route::middleware(['auth','admin'])->group(function() {
+    Route::get('/admin', 'Admin\HomeController@index')->name('admin.index');
+});
+
 Route::get('/recover/password', 'Auth\ForgotPasswordController@create')->name('password.create');
 Route::post('/recover/password', 'Auth\ForgotPasswordController@store')->name('password.store');
 Route::get('/password/reset/{email}/{token}', 'Auth\ResetPasswordController@edit')->name('recover.password.edit');
