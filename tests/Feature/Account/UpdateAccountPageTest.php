@@ -32,23 +32,6 @@ class UpdateAccountPageTest extends TestCase
         });
     }
 
-    public function test_we_cannot_update_our_account_as_admins()
-    {
-        $user = UserFactory::createAdminUser();
-
-        $response = $this->actingAs($user)
-            ->from(route('my-account'))
-            ->post(route('my-account-update'), $this->valid_data());
-
-        $response->assertStatus(302);
-        $response->assertRedirect(route('admin.index'));
-        tap($user->fresh(), function ($user) {
-            $this->assertEquals($user->account->first_name, $user->account->first_name);
-            $this->assertEquals($user->account->last_name, $user->account->last_name);
-            $this->assertEquals($user->email, $user->email);
-        });
-    }
-
     public function test_we_cannot_update_the_account_if_we_are_not_logged_in()
     {
         $response = $this->post(route('my-account-update'), $this->valid_data());

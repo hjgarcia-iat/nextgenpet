@@ -19,23 +19,37 @@ class StoreRegistrationTest extends TestCase
 {
     use RefreshDatabase, MailTracking;
 
+    /**
+     * @var State
+     */
+    protected $state;
+
+    protected $data = [];
+
     public function setUp(): void
     {
         parent::setUp();
-
-        $zip   = factory(Zip::class)->create(['zip_code' => '11111', 'state_prefix' => 'ST']);
-        $state = factory(State::class)->create(['abbr' => $zip->state_prefix]);
-        $role  = factory(Role::class)->create(['name' => 'nextgen_pet_user']);
+        $this->state = factory(State::class)->create();
+        $this->data = $this->valid_data(['state_id' => $this->state->id]);
     }
 
     public function test_we_can_register()
     {
-        $response = $this->from(route('register.create'))
-            ->post(route('register.store'), $this->valid_data());
+
+        $response = $this
+            ->withoutExceptionHandling()
+            ->from(route('register.create'))
+            ->post(route('register.store'), $this->data);
 
         $response->assertRedirect('/');
         $response->assertStatus(302);
-        $this->assertDatabaseHas('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseHas('colleges', [
+            'name' => $this->valid_data()['institution'],
+            'address' => $this->valid_data()['address'],
+            'city' => $this->valid_data()['city'],
+            'state_id' => $this->valid_data()['state_id'],
+            'zip' => $this->valid_data()['zip'],
+        ]);
         $this->assertDatabaseHas('users', [
             'email'          => $this->valid_data()['register_email'],
             'account_status' => 'Pending',
@@ -47,7 +61,6 @@ class StoreRegistrationTest extends TestCase
 
         tap(User::whereEmail($this->valid_data()['register_email'])->first(), function ($user) {
             $this->assertEquals($user->colleges()->first()->name, $this->valid_data()['institution']);
-            $this->assertTrue($user->hasRole('nextgen_pet_user'));
         });
 
         $this->seeEmailWasSent();
@@ -183,22 +196,6 @@ class StoreRegistrationTest extends TestCase
         ]);
     }
 
-    public function test_the_zip_field_exists()
-    {
-        $response = $this->from(route('register.create'))
-            ->post(route('register.store'), $this->valid_data(['zip' => 'non-existent-zip']));
-
-        $response->assertStatus(302);
-        $response->assertSessionHasErrors('zip');
-        $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
-        $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
-        ]);
-    }
-
     private function valid_data($data = [])
     {
         return array_merge([
@@ -206,6 +203,9 @@ class StoreRegistrationTest extends TestCase
             'last_name'      => 'Doe',
             'register_email' => 'jdoe@email.com',
             'institution'    => 'College',
+            'address'            => '123 Street',
+            'city'            => 'City',
+            'state_id'            => 1,
             'zip'            => '11111',
         ], $data);
     }

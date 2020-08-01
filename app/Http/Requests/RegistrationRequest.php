@@ -27,7 +27,7 @@ class RegistrationRequest extends FormRequest
             'first_name'     => 'required|max:255',
             'last_name'      => 'required|max:255',
             'institution'    => 'required|max:255',
-            'zip'            => 'required|min:5|exists:zip_code_US,zip_code',
+            'zip'            => 'required|min:5',
             'register_email' => 'required|email|max:255|unique:users,email',
         ];
     }

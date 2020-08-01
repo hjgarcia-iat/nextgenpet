@@ -26,16 +26,15 @@ class CreateUserAccountTables extends Migration
         });
         // create user table
         Schema::create('users', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('username')->index();
-            $table->string('password')->index()->nullable();
-            $table->string('remember_token')->nullable();
+            $table->id();
+            $table->string('username')->unique()->index()->nullable();
+            $table->string('password')->nullable();
             $table->string('hash')->nullable();
-            $table->string('email')->index();
-            $table->string('account_status')->index();
-            $table->integer('user_group_id')->index()->unsigned();
-            $table->dateTime('account_expiration');
-            $table->string('order_number')->nullable();
+            $table->string('email')->unique();
+            $table->string('account_status');
+            $table->integer('user_group_id');
+            $table->timestamp('email_verified_at')->nullable();
+            $table->rememberToken();
             $table->timestamps();
         });
     }

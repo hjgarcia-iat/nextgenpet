@@ -23,18 +23,15 @@ class RegistrationService
     public function register()
     {
         \DB::beginTransaction();
-        //create college
-        if(!$zip = Zip::whereZipCode(request()->get('zip'))->first()) \DB::rollBack();
 
-        if(!$state = State::whereAbbr($zip->state_prefix)->first()) \DB::rollBack();
+        if(!$state = State::find(request('state_id'))) \DB::rollBack();
+
         //create college
-        $college = $this->createCollege($state, $zip);
+        $college = $this->createCollege($state);
         //create the user
         $user = $this->createUser();
         //attach college to teacher
         $user->colleges()->attach($college);
-        //attach the role
-        $user->assignRole('nextgen_pet_user');
 
         \DB::commit();
 
@@ -52,8 +49,6 @@ class RegistrationService
             'username'           => request()->get('register_email'),//needed for database
             'account_status'     => 'Pending',
             'user_group_id'      => 1,//needed for database
-            'account_expiration' => Carbon::now()->addYear(4),//needed for database
-            'order_number'       => 'NextGenPET',//needed for database
         ]);
 
         $user->account()->create([
@@ -66,17 +61,16 @@ class RegistrationService
     /**
      * Create College
      * @param $state
-     * @param $zip
      * @return College
      */
-    private function createCollege($state, $zip)
+    private function createCollege($state)
     {
         $college = College::create([
             'name'     => request()->get('institution'),
             'state_id' => $state->id,
-            'address'  => '-',
-            'city'     => $zip->city,
-            'zip'      => $zip->zip_code,
+            'address'  => request()->get('address'),
+            'city'     => request()->get('city'),
+            'zip'      => request()->get('zip'),
         ]);
         return $college;
     }
