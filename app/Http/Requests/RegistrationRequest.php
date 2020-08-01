@@ -27,6 +27,9 @@ class RegistrationRequest extends FormRequest
             'first_name'     => 'required|max:255',
             'last_name'      => 'required|max:255',
             'institution'    => 'required|max:255',
+            'address'    => 'required|max:255',
+            'city'    => 'required|max:255',
+            'state_id'    => 'required|exists:us_states,id',
             'zip'            => 'required|min:5',
             'register_email' => 'required|email|max:255|unique:users,email',
         ];

@@ -44,23 +44,23 @@ class StoreRegistrationTest extends TestCase
         $response->assertRedirect('/');
         $response->assertStatus(302);
         $this->assertDatabaseHas('colleges', [
-            'name' => $this->valid_data()['institution'],
-            'address' => $this->valid_data()['address'],
-            'city' => $this->valid_data()['city'],
-            'state_id' => $this->valid_data()['state_id'],
-            'zip' => $this->valid_data()['zip'],
+            'name' => $this->data['institution'],
+            'address' => $this->data['address'],
+            'city' => $this->data['city'],
+            'state_id' => $this->data['state_id'],
+            'zip' => $this->data['zip'],
         ]);
         $this->assertDatabaseHas('users', [
-            'email'          => $this->valid_data()['register_email'],
+            'email'          => $this->data['register_email'],
             'account_status' => 'Pending',
         ]);
         $this->assertDatabaseHas('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
 
-        tap(User::whereEmail($this->valid_data()['register_email'])->first(), function ($user) {
-            $this->assertEquals($user->colleges()->first()->name, $this->valid_data()['institution']);
+        tap(User::whereEmail($this->data['register_email'])->first(), function ($user) {
+            $this->assertEquals($user->colleges()->first()->name, $this->data['institution']);
         });
 
         $this->seeEmailWasSent();
@@ -75,11 +75,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('first_name');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -91,11 +91,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('last_name');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -107,11 +107,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -123,11 +123,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -140,11 +140,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('register_email');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -156,13 +156,78 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('institution');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
+
+    public function test_the_address_field_is_required()
+    {
+        $response = $this->from(route('register.create'))
+            ->post(route('register.store'), $this->valid_data(['address' => '']));
+
+        $response->assertStatus(302);
+        $response->assertSessionHasErrors('address');
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['address']]);
+        $this->assertDatabaseMissing('accounts', [
+            'first_name' => $this->data['first_name'],
+            'last_name' => $this->data['last_name'],
+        ]);
+    }
+
+    public function test_the_city_field_is_required()
+    {
+        $response = $this->from(route('register.create'))
+            ->post(route('register.store'), $this->valid_data(['city' => '']));
+
+        $response->assertStatus(302);
+        $response->assertSessionHasErrors('city');
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['city']]);
+        $this->assertDatabaseMissing('accounts', [
+            'first_name' => $this->data['first_name'],
+            'last_name' => $this->data['last_name'],
+        ]);
+    }
+
+    public function test_the_state_id_field_is_required()
+    {
+        $response = $this->from(route('register.create'))
+            ->post(route('register.store'), $this->valid_data(['state_id' => '']));
+
+        $response->assertStatus(302);
+        $response->assertSessionHasErrors('state_id');
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['state_id']]);
+        $this->assertDatabaseMissing('accounts', [
+            'first_name' => $this->data['first_name'],
+            'last_name' => $this->data['last_name'],
+        ]);
+    }
+
+    public function test_the_state_id_field_must_exist()
+    {
+        $response = $this->from(route('register.create'))
+            ->post(route('register.store'), $this->valid_data(['state_id' => 'not-real']));
+
+        $response->assertStatus(302);
+        $response->assertSessionHasErrors('state_id');
+        $response->assertRedirect(route('register.create'));
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['state_id']]);
+        $this->assertDatabaseMissing('accounts', [
+            'first_name' => $this->data['first_name'],
+            'last_name' => $this->data['last_name'],
+        ]);
+    }
+
 
     public function test_the_zip_field_is_required()
     {
@@ -172,11 +237,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('zip');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
@@ -188,11 +253,11 @@ class StoreRegistrationTest extends TestCase
         $response->assertStatus(302);
         $response->assertSessionHasErrors('zip');
         $response->assertRedirect(route('register.create'));
-        $this->assertDatabaseMissing('users', ['email' => $this->valid_data()['register_email']]);
-        $this->assertDatabaseMissing('colleges', ['name' => $this->valid_data()['institution']]);
+        $this->assertDatabaseMissing('users', ['email' => $this->data['register_email']]);
+        $this->assertDatabaseMissing('colleges', ['name' => $this->data['institution']]);
         $this->assertDatabaseMissing('accounts', [
-            'first_name' => $this->valid_data()['first_name'],
-            'last_name'  => $this->valid_data()['last_name'],
+            'first_name' => $this->data['first_name'],
+            'last_name'  => $this->data['last_name'],
         ]);
     }
 
