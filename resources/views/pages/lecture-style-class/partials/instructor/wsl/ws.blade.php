@@ -32,7 +32,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Wave on a String Simulation</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
@@ -101,7 +101,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/wave-interference">Wave Interference Simulation </a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-interference">Wave Interference Simulation </a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>

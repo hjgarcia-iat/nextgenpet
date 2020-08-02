@@ -309,7 +309,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/circuit-construction-kit-dc">Sim 1: Circuit Construction Kit</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/circuit-construction-kit-dc">Sim 1: Circuit Construction Kit</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>

@@ -88,8 +88,12 @@
                     <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mi/movies_mi_upc_a2.html">Classroom Video Clips</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-globe"></i> <a target="_blank"
+                            href="https://phet.colorado.edu/en/simulation/gas-properties">Gas Properties Simulation (HTML5)</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation (JAVA)</a>
                 </li>
             </ul>
         </div>
@@ -147,8 +151,12 @@
                     <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mi/movies_mi_upc_a3.html">Classroom Video Clips</a>
                 </li>
                 <li>
-                    <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation</a>
+                    <i class="fa-li fa fa-globe"></i> <a target="_blank"
+                            href="https://phet.colorado.edu/en/simulation/gas-properties">Gas Properties Simulation (HTML5)</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i> <a target="_blank"
+                            href="https://phet.colorado.edu/en/simulation/legacy/gas-properties">Gas Properties Simulation (JAVA)</a>
                 </li>
             </ul>
         </div>
