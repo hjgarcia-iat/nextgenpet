@@ -59,7 +59,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -111,7 +111,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>

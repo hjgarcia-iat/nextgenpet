@@ -74,7 +74,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -122,7 +122,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>

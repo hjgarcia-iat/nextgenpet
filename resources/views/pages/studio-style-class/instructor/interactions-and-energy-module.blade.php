@@ -69,7 +69,7 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-activity-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -115,7 +115,7 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-activity-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
