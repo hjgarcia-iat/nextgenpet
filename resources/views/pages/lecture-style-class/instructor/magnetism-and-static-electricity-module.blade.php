@@ -75,6 +75,10 @@
                             Ideas</a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_model_for_magnetism.docx']) }}">Summarizing Questions</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/tiny-magnets-alignment-model-handout.pdf']) }}">Tiny Magnets Alignment Model Handout</a>
                     </li>
@@ -123,6 +127,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/Unit_SE_Summary_Ideas_LC.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_developing_a_model_for_static_electricity.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">
