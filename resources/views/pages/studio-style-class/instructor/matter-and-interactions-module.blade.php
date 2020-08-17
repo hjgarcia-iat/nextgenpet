@@ -91,6 +91,10 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-summary-ideas-physical-changes.docx']) }}">Summary
                             Ideas Physical Changes</a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/physical-changes.docx']) }}">Summarizing Questions</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.studio-style-class.partials.instructor.mi.pc')
@@ -162,6 +166,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-summary-ideas.docx']) }}">Summary Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/chemical-reactions.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">
