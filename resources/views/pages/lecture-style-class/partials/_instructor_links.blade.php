@@ -22,5 +22,9 @@
 
         <a class="list-group-item" href="{{ url('lecture-style-class/instructor/next-gen-pet-virtual-conference') }}">
             <span>Next Gen PET Virtual Conference</span></a>
+
+        <a class="list-group-item"
+                href="{{ url('instructor/resources-for-teaching-ngp-online') }}">
+            <span>Resources for Teaching NGP Online</span></a>
     </div>
 </div>

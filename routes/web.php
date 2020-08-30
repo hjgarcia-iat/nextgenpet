@@ -31,6 +31,10 @@ Route::get('/lecture-style-class/instructor/next-gen-pet-virtual-conference', fu
     return redirect('http://ngpfolc.wpengine.com/?p=248');
 })->middleware('auth');
 
+Route::get('/instructor/resources-for-teaching-ngp-online', function () {
+    return redirect('https://nextgenpet.s3.amazonaws.com/web-docs/instructor/Resource+Guide+for+Teaching+NGP+Online+v1.pdf');
+})->middleware('auth');
+
 
 Route::get('{page}', [
     'uses' => 'PagesController@show',
