@@ -17,7 +17,7 @@
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i> <a
-                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/Dimensional+Coding+of+NGP+Test+Banks-Intro.docx']) }}"
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/dimensional-coding-of-ngp-test-banks-intro.docx']) }}"
                         target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
