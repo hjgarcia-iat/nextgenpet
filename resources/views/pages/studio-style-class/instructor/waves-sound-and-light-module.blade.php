@@ -12,10 +12,9 @@
         <h2>Waves, Sound &amp; Light Module</h2>
         <ul class="fa fa-ul">
             <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/module-wsl-test-bank.docx']) }}"
-                   target="_blank">Module
-                    WSL Test Bank</a>
+                <i class="fa-li fa fa-file-word-o"></i> <a
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/Dimensional+Coding+of+NGP+Test+Banks-Intro.docx']) }}"
+                        target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -49,6 +48,10 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitws-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-test-bank.docx']) }}">Unit WS Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -105,6 +108,10 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitl-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-test-bank.docx']) }}">Unit L Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>

@@ -16,10 +16,9 @@
                 <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-modif-studio.pdf']) }}">Target Ideas</a>
             </li>
             <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/module-if-test-bank.docx']) }}"
-                   target="_blank">Module
-                    IF Test Bank</a>
+                <i class="fa-li fa fa-file-word-o"></i> <a
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/Dimensional+Coding+of+NGP+Test+Banks-Intro.docx']) }}"
+                        target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -64,6 +63,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-test-bank.docx']) }}">Unit FM Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -116,6 +119,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-test-bank.docx']) }}">Unit CF Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>

@@ -16,9 +16,9 @@
         <h2>Matter &amp; Interactions Module</h2>
         <ul class="fa fa-ul">
             <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-test-bank-studio.docx']) }}"
-                   target="_blank">Module MI Test Bank (word)</a>
+                <i class="fa-li fa fa-file-word-o"></i> <a
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/Dimensional+Coding+of+NGP+Test+Banks-Intro.docx']) }}"
+                        target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -52,6 +52,10 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitpc-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-test-bank.docx']) }}">Unit PC Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -112,6 +116,10 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitcr-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-test-bank.docx']) }}">Unit CR Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
