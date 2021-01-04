@@ -14,13 +14,13 @@ services:
     environment:
       APACHE_DOCUMENT_ROOT: public/
   nextgenpet-db:
-    image: mysql
+    image: mysql:5.6.48
     ports:
       - "3308:3306"
     command: --default-authentication-plugin=mysql_native_password
     environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: root
+      MYSQL_DATABASE: nextgenpet
+      MYSQL_USER: nextgenpet
       MYSQL_PASSWORD: secret
       MYSQL_ROOT_PASSWORD: secret
     volumes:
