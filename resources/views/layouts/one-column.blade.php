@@ -7,8 +7,7 @@
 <body>
 <div class="site-wrapper">
     <div class="site-canvas">
-        <aside class="site-menu">
-            @include('layouts.partials._mobile_nav')
+        <aside class="site-menu">@include('layouts.partials._mobile_nav')
         </aside>
         <section class="site-content">
             @include('layouts.partials._page-header')
