@@ -6,7 +6,7 @@ use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\Factories\UserFactory;
 use Tests\TestCase;
 
-class StoreLoginTest extends TestCase
+class DestroyLoginTest extends TestCase
 {
     use RefreshDatabase;
 
