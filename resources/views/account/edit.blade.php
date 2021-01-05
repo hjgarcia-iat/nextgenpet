@@ -54,7 +54,7 @@
                            class="form-control {{ $errors->has('password') ? 'form-control-danger' : '' }}"
                            id="password"
                            name="password">
-                    <p class="text-muted mt-2">You password should should be at least 6 characters long and include at
+                    <p class="text-muted mt-2">You password should be at least 6 characters long and include at
                         least one digit, one lowercase letter and one uppercase letter.
                     </p>
                     {!! $errors->first('password','<div class="form-control-feedback">:message</div>') !!}
