@@ -2,7 +2,7 @@
 
 namespace App;
 
-use App\Notifications\ResetPasswordNotification;
+use App\Notification\ResetPasswordNotification;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
