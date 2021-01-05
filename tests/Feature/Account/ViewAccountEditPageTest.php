@@ -11,7 +11,7 @@ use Tests\Factories\UserFactory;
  * Class ViewAccountEditPage
  * @package Tests\Feature\Account
  */
-class ViewAccountEditPage extends TestCase
+class ViewAccountEditPageTest extends TestCase
 {
     use DatabaseTransactions, DatabaseMigrations;
 
@@ -21,14 +21,6 @@ class ViewAccountEditPage extends TestCase
             ->get(route('my-account'));
 
         $response->assertStatus(200);
-    }
-
-    public function test_we_cannot_see_the_account_page_as_an_admin_user()
-    {
-        $response = $this->actingAs(UserFactory::createAdminUser())
-            ->get(route('my-account'));
-
-        $response->assertRedirect(route('admin.index'));
     }
 
     public function test_we_cannot_see_the_account_page_if_we_are_not_logged_in()
