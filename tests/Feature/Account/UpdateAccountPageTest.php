@@ -117,14 +117,18 @@ class UpdateAccountPageTest extends TestCase
     }
 
 
-    private function valid_data($data = [])
+    /**
+     * @param array $data
+     * @return array
+     */
+    private function valid_data($data = []): array
     {
         return array_merge([
             'first_name'            => 'Jane',
             'last_name'             => 'Doe',
             'email'                 => 'jdoe@email.com',
-            'password'              => 'password',
-            'password_confirmation' => 'password',
+            'password'              => 'Password1',
+            'password_confirmation' => 'Password1',
         ], $data);
 
     }

@@ -28,7 +28,7 @@ class AccountRequest extends FormRequest
 			'first_name' => 'required',
 			'last_name'  => 'required',
 			'email'      => 'required|email|unique:users,email,' . auth()->user()->id,
-			'password'   => 'confirmed',
+			'password'   => 'confirmed|case_diff|numbers|letters|min:8',
 		];
 	}
 }
