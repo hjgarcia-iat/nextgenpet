@@ -13,8 +13,8 @@
         <ul class="fa fa-ul">
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/module-ie-test-bank.docx']) }}"
-                   target="_blank">Module Test Bank</a>
+                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/dimensional-coding-of-ngp-test-banks-intro.docx']) }}"
+                   target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -60,12 +60,20 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitem-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-test-bank.docx']) }}">Unit EM Test Bank</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-activity-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -87,6 +95,10 @@
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/1-unit-em-energy-based-model-for-interactions/unit-em-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/energy-based-model-for-interactions.docx']) }}">Summarizing Questions</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.studio-style-class.partials.instructor.ie.em')
@@ -102,12 +114,20 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas_unitpef-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-test-bank.docx']) }}">Unit PEF Test Bank</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
-                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-activity-keys.pdf']) }}">Lesson
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -128,6 +148,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-energy-module/2-unit-pef-potential-energy-and-fields/unit-pef-summary-ideas.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/potential-energy-and-fields.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

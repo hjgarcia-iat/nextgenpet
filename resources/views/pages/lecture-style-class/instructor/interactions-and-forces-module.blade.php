@@ -12,6 +12,10 @@
         <h2>Interactions &amp; Forces Module</h2>
         <ul class="fa fa-ul">
             <li>
+                <i class="fa-li fa fa-file-pdf-o"></i>
+                <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-modif-lecture.pdf']) }}">Target Ideas</a>
+            </li>
+            <li>
                 <i class="fa-li fa fa-file-word-o"></i>
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/module-if-test-bank.docx']) }}"
                    target="_blank">Module
@@ -36,6 +40,7 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-trajectory.pdf']) }}">Unit
                             Trajectory</a>
                     </li>
+
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
@@ -69,6 +74,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_force-based-model-for-interactions.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
@@ -117,6 +126,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/interactions-forces-module/2-unit-cf-combinations-of-forces/unit-cf-summary-ideas.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_combination-of-forces.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

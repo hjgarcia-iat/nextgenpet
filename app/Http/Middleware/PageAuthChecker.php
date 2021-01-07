@@ -22,12 +22,7 @@ class PageAuthChecker
         if (str_contains($request->getRequestUri(), 'instructor')) {
             if (!auth()->check()) {
                 auth()->logout();
-                throw new AuthenticationException('Please login to continue!');
-            }
-
-            if(auth()->check() and !auth()->user()->hasRole(['nextgen_pet_user', 'admin', 'super_admin'])) {
-                auth()->logout();
-                throw new AuthenticationException('Please login to continue!');
+                return redirect(route('login.create'))->with('error', 'Please login to continue!');
             }
         }
 

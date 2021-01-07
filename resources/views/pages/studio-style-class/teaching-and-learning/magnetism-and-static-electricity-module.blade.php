@@ -16,7 +16,7 @@
         <h3>Teaching &amp; Learning &mdash; Module MSE Cluster</h3>
         <p>
             Click on the activity titles below to view or download the activities in PDF format. The extensions below
-            can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching &
+            can be found on the <a href="http://nextgenpetstudent.activatelearning.com//extensions/index_tl.html" target="_blank">Teaching &
                 Learning Extensions page</a>
         </p>
         <p>Each Teaching and Learning activity and extension in the Module MSE (Developing Models for Magnetism and
@@ -90,9 +90,7 @@
             <tr>
                 <td></td>
                 <td colspan="6">
-                    <strong>Assign</strong> : After TL A1 and before first engineering design lesson or activity. In
-                    Unit M, before A6. If first ED activity is not in Units M or PEF, instructor may want to talk
-                    briefly about the law of magnetic poles and maglev trains before assigning Ext E.
+                    <strong>Assign</strong>: After TL A1. If you are not doing Unit M, assign Extension E before the first engineering design lesson or activity. If you are doing Unit M, assign Extension E <strong>after</strong> Unit M A6. If the first ED activity is not in Units M or PEF, instructor may want to talk briefly about the law of magnetic poles and maglev trains before assigning Ext E.
                 </td>
             </tr>
             <tr class="highlight">

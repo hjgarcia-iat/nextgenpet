@@ -12,10 +12,13 @@
         <h2>Interactions &amp; Forces Module</h2>
         <ul class="fa fa-ul">
             <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/module-if-test-bank.docx']) }}"
-                   target="_blank">Module
-                    IF Test Bank</a>
+                <i class="fa-li fa fa-file-pdf-o"></i>
+                <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-modif-studio.pdf']) }}">Target Ideas</a>
+            </li>
+            <li>
+                <i class="fa-li fa fa-file-word-o"></i> <a
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/dimensional-coding-of-ngp-test-banks-intro.docx']) }}"
+                        target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -62,6 +65,10 @@
                             Trajectory</a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-test-bank.docx']) }}">Unit FM Test Bank</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-and-extension-summaries.pdf']) }}">Activity
@@ -70,7 +77,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -95,6 +102,10 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/1-unit-fm-force-based-model-for-interactions/unit-fm-summary-ideas.pdf']) }}">Summary
                             Ideas</a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/force-based-model-for-interactions.docx']) }}">Summarizing Questions</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.studio-style-class.partials.instructor.if.fm')
@@ -110,6 +121,10 @@
                             Trajectory</a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-test-bank.docx']) }}">Unit CF Test Bank</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-and-extension-summaries.pdf']) }}">Activity
@@ -118,7 +133,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -142,6 +157,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/interactions-forces/2-unit-cf-combinations-of-forces/unit-cf-summary-ideas.doc']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/combination-of-forces.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

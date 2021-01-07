@@ -86,6 +86,9 @@
                     <span>Matter &amp; Interactions Module</span> </a>
                 <a class="dropdown-item{{ (Request::is('lecture-style-class/instructor/teaching-and-learning') ? ' active' : '') }}" href="{{ url('lecture-style-class/instructor/teaching-and-learning') }}">
                     <span>Teaching &amp; Learning</span> </a>
+
+                <a target="_blank" class="list-group-item" href="http://ngpfolc.wpengine.com/?p=248">
+                    <span>Next Gen PET Virtual Conference</span></a>
             </div>
         </div>
     </div>

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AccountRequest;
-use Illuminate\Http\Request;
+use Illuminate\Http\RedirectResponse;
 use Illuminate\View\View;
 
 /**
@@ -14,7 +14,7 @@ class AccountController extends Controller
 {
     public function __construct()
     {
-        $this->middleware(['auth','role']);
+        $this->middleware(['auth']);
     }
 
     /**
@@ -32,10 +32,10 @@ class AccountController extends Controller
      * Post Account Edit Form
      *
      * @param AccountRequest $request
-     * @return \Illuminate\Http\RedirectResponse
+     * @return RedirectResponse
      */
-	public function update(AccountRequest $request)
-	{
+	public function update(AccountRequest $request): RedirectResponse
+    {
 		auth()->user()->update($request->all());
 
 		return redirect()->route('my-account')->with('success', 'Account has been updated!');

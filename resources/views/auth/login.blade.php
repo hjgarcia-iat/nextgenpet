@@ -6,25 +6,16 @@
         <label class="form-control-label" for="email">
             Email Address
         </label>
-        <input class="form-control {{ $errors->has('email') ? 'form-control-danger' : '' }}" id="email" name="email"
-               required="required" type="email" value="{{ old('email') }}"/>
-        {!! $errors->first('email','
-        <div class="form-control-feedback">
-            :message
-        </div>
-        ') !!}
+        <input class="form-control {{ $errors->has('email') ? 'form-control-danger' : '' }}" id="email" name="email" type="text" value="{{ old('email') }}"/>
+        {!! $errors->first('email','<div class="invalid-feedback d-block">:message</div>') !!}
     </div>
     <div class="form-group {{ $errors->has('password') ? 'has-danger' : '' }}">
         <label class="form-control-label" for="password">
             Password
         </label>
         <input class="form-control {{ $errors->has('password') ? 'form-control-danger' : '' }}" id="password"
-               name="password" required="required" type="password"/>
-        {!! $errors->first('password','
-        <div class="form-control-feedback">
-            :message
-        </div>
-        ') !!}
+               name="password" type="password"/>
+        {!! $errors->first('password','<div class="invalid-feedback d-block">:message</div>') !!}
     </div>
     <div class="form-group text-center">
         <button class="btn btn-primary btn-block mx-auto mb-sm-2 mb-md-0 w-50" type="submit">

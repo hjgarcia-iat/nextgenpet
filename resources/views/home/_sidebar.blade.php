@@ -1,4 +1,4 @@
-<div class="page-side-menu sps">
+<div class="page-side-menu sps" id="home-page-side-menu">
     <div class="panel list-group">
         <a href="{{ url('/') }}"
            class="list-group-item{{ (Request::is('/') or Request::is('about/flexibility') or Request::is('about/research-based')) ? ' active' : '' }}">
@@ -29,21 +29,42 @@
            class="list-group-item{{ (Request::is('about/engineering-design-activities')) ? ' active' : '' }}">
             <span>Overview of Engineering Design Activities</span>
         </a>
-        <a href="{{ url('about/ngss-and-next-gen-pet') }}"
-           class="list-group-item{{ (Request::is('about/ngss-and-next-gen-pet')) ? ' active' : '' }}">
-            <span>NGSS &amp; Next Gen PET
-            </span>
-        </a>
+
+        <div class="card">
+            <a href="#" class="list-group-item sublink collapsed" data-toggle="collapse" data-target="#nextgenpet"
+               data-parent="#home-page-side-menu">NGSS &amp; Next Gen PET
+            </a>
+            <div id="nextgenpet"
+                 class="sublinks collapse{{ (Request::is('about/nextgen-pet/*') ? ' show' : '') }}">
+                <a class="list-group-item {{ (Request::is('about/nextgen-pet/overview') ? ' active' : '') }}"
+                   href="{{ url('about/nextgen-pet/overview') }}">
+                    <span>Overview</span>
+                </a>
+                <a class="list-group-item{{ (Request::is('about/nextgen-pet/science-and-engineering-practices') ? ' active' : '') }}"
+                   href="{{ url('about/nextgen-pet/science-and-engineering-practices') }}">
+                    <span>Science & Engineering Practices</span>
+                </a>
+                <a class="list-group-item{{ (Request::is('about/nextgen-pet/crosscutting-concepts') ? ' active' : '') }}"
+                   href="{{ url('about/nextgen-pet/crosscutting-concepts') }}">
+                    <span>Crosscutting Concepts</span>
+                </a>
+                <a class="list-group-item{{ (Request::is('about/nextgen-pet/disciplinary-core-ideas') ? ' active' : '') }}"
+                   href="{{ url('about/nextgen-pet/disciplinary-core-ideas') }}">
+                    <span>Disciplinary Core Ideas</span>
+                </a>
+            </div>
+        </div>
+
         <a href="{{ url('about/implementation-versions') }}"
            class="list-group-item{{ (Request::is('about/implementation-versions')) ? ' active' : '' }}">
             <span>Implementation Versions
             </span>
         </a>
-        {{--<a href="{{ url('workshops') }}"--}}
-           {{--class="list-group-item{{ (Request::is('workshops')) ? ' active' : '' }}">--}}
-            {{--<span>Workshops for Faculties &amp; PD Providers--}}
-            {{--</span>--}}
-        {{--</a>--}}
+        <a href="{{ url('ordering') }}"
+           class="list-group-item{{ (Request::is('ordering')) ? ' active' : '' }}">
+            <span>Ordering Next Gen PET Materials
+            </span>
+        </a>
         <a href="{{ url('about/development-staff') }}"
            class="list-group-item{{ (Request::is('about/development-staff')) ? ' active' : '' }}">
             <span>About the Development Staff

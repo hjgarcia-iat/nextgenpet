@@ -56,10 +56,9 @@ class ForgotPasswordController extends Controller
 	{
 	    $user = User::whereEmail($request->get('reset_email'))->first();
 
-	    if(!$user->hasRole('nextgen_pet_user')) {
-            return redirect()->route('password.create')
-                ->with('error', 'Your email address was not found!');
-
+	    if($user->hasRole('admin')) {
+            return redirect()->route('login.create')
+                ->with('error', 'You cannot access this area');
         }
 
 		\Password::broker()->sendResetLink(

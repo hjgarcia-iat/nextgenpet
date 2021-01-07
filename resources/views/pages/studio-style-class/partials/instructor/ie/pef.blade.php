@@ -28,7 +28,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a1.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a1.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -91,7 +91,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a2.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a2.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -154,7 +154,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a3.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a3.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -182,6 +182,14 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC/index.html">Extension Online (HTML5)
                     </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/UPEF+Extension+C-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtC-M/index.html">Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -228,7 +236,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a4.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a4.html">Demonstration
                         Movies</a>
                 </li>
             </ul>
@@ -296,12 +304,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a5.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a5.html">Demonstration
                         Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/circuit-construction-kit-dc">Sim 1: Circuit Construction Kit</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/circuit-construction-kit-dc">Sim 1: Circuit Construction Kit</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -332,6 +340,14 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE/index.html">Extension Online (HTML5)
                     </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/UPEF+Extension+E-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtE-M/index.html">Extension with Simulation Movies Online (HTML)</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -369,8 +385,52 @@
 
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_upef_a6.html">Demonstration
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_upef_a6.html">Demonstration
                         Movies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingTwentyTwo" role="tab">
+        <h5 class="mb-0">
+            <a aria-controls="collapseTwentyTwo" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwentyTwo">Extension F: Reviewing Potential Energy and Fields </a>
+        </h5>
+    </div>
+    <div aria-labelledby="headingTwentyTwo" class="collapse" id="collapseTwentyTwo" role="tabpanel">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"> </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-f-extension-mock-up.pptx']) }}" target="_blank">
+                        Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"> </i>
+                    <a href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtF/index.html " target="_blank">Extension Online (HTML5)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" id="headingTwentyThree" role="tab">
+        <h5 class="mb-0">
+            <a aria-controls="collapseTwentyThree" aria-expanded="false" class="collapsed" data-parent="#accordionTwo" data-toggle="collapse" href="#collapseTwentyThree">Extension G: Reviewing Potential Energy and Fields (no electromagnetic interaction)</a>
+        </h5>
+    </div>
+    <div aria-labelledby="headingTwentyThree" class="collapse" id="collapseTwentyThree" role="tabpanel">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"> </i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/upef-ext-g-extension-mock-up.pptx']) }}" target="_blank">
+                        Extension Mockup Slides </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"> </i>
+                    <a href="https://public.csusm.edu/NextGenPET/Extensions/PEF/ExtG/index.html" target="_blank">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>

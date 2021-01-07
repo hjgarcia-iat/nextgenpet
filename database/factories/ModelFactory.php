@@ -19,9 +19,7 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'email'              => $faker->email,
         'password'           => Hash::make(str_random(10)),
         'account_status'     => 'active',
-        'account_expiration' => Carbon::now()->addYear(6),
         'user_group_id'      => 1,
-        'order_number'       => 'IAT',
         'remember_token'     => str_random(10),
     ];
 });
@@ -32,8 +30,8 @@ $factory->define(App\Account::class, function (Faker\Generator $faker) {
         'user_id'    => function () {
             return factory(App\User::class)->create()->id;
         },
-        'first_name' => $faker->name,
-        'last_name'  => $faker->name,
+        'first_name' => $faker->firstName,
+        'last_name'  => $faker->lastName,
     ];
 });
 
@@ -76,18 +74,6 @@ $factory->define(\App\State::class, function (Faker\Generator $faker) {
     ];
 });
 
-/** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(\App\Zip::class, function (Faker\Generator $faker) {
-    return [
-        'zip_code'     => $faker->postcode,
-        'city'         => $faker->city,
-        'state_name'   => $faker->company,
-        'state_prefix' => $faker->citySuffix,
-        'county'       => $faker->company,
-        'lat'          => $faker->latitude,
-        'lon'          => $faker->longitude,
-    ];
-});
 
 
 

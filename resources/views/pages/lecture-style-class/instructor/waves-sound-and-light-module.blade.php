@@ -48,6 +48,10 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitws-lecture.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
@@ -80,6 +84,10 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/unit-ws-summary-ideas.docx']) }}">Summary
                             Ideas</a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_mechanical-waves-and-sound.docx']) }}">Summarizing Questions</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.lecture-style-class.partials.instructor.wsl.ws')
@@ -93,6 +101,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitl-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -127,6 +139,10 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/waves-sound-light-module/2-unit-l-light-and-color/unit-l-summary-ideas.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_light-and-color.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

@@ -16,9 +16,9 @@
         <h2>Matter &amp; Interactions Module</h2>
         <ul class="fa fa-ul">
             <li>
-                <i class="fa-li fa fa-file-word-o"></i>
-                <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/module-mi-test-bank-studio.docx']) }}"
-                   target="_blank">Module MI Test Bank (word)</a>
+                <i class="fa-li fa fa-file-word-o"></i> <a
+                        href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/dimensional-coding-of-ngp-test-banks-intro.docx']) }}"
+                        target="_blank">Dimensional Coding of Next Gen PET Test Banks: Introduction</a>
             </li>
             <li>
                 <i class="fa-li fa fa-file-word-o"></i>
@@ -51,6 +51,14 @@
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitpc-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-test-bank.docx']) }}">Unit PC Test Bank</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-lesson-and-extension-summaries.pdf']) }}">Activity
                             and Extension Summaries </a>
@@ -58,7 +66,7 @@
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank"
-                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-activity-keys.pdf']) }}">Lesson
+                           href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-activity-keys.pdf']) }}">Activity
                             Keys for Whole Unit </a>
                     </li>
                     <li>
@@ -87,6 +95,10 @@
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/1-unit-pc-physical-changes/unit-pc-summary-ideas-physical-changes.docx']) }}">Summary
                             Ideas Physical Changes</a>
                     </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/physical-changes.docx']) }}">Summarizing Questions</a>
+                    </li>
                 </ul>
                 <div id="accordion" role="tablist" aria-multiselectable="true">
                     @include('pages.studio-style-class.partials.instructor.mi.pc')
@@ -100,6 +112,14 @@
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/studio/target-ideas-unitcr-studio.pdf']) }}">Target Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-test-bank.docx']) }}">Unit CR Test Bank</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -154,6 +174,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank"
                            href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/matter-interactions-module/2-unit-cr-chemical-reactions/unit-cr-summary-ideas.docx']) }}">Summary Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/summarizing-questions/chemical-reactions.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

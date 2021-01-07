@@ -13,7 +13,7 @@
                 <nav class="top-bar-navigation">
                     <ul class="list-unstyled list-inline d-flex">
                         <li><a href="#contact">Contact Us</a></li>
-                        <li><a target="_blank" href="http://shop.iat.com">Shop</a></li>
+                        <li><a target="_blank" href="https://www.activatelearningstore.com/">Shop</a></li>
                         <li><a href="tel:646-502-5231">646-502-5231</a></li>
                         @if(auth()->check())
                             <li>

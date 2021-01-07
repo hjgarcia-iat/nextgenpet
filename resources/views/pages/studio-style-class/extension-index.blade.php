@@ -27,49 +27,49 @@
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_mse.html">Magnetism and Static Electricity Module
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_mse.html">Magnetism and Static Electricity Module
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_ie.html">Interactions and Energy Module
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_ie.html">Interactions and Energy Module
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_if.html">Interactions and Forces Module
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_if.html">Interactions and Forces Module
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_wsl.html">Waves, Sound and Light Module
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_wsl.html">Waves, Sound and Light Module
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_mi.html">Matter and Interactions Module
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_mi.html">Matter and Interactions Module
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
                 <a target="_blank"
-                   href="http://nextgenpet.sdsu.edu/extensions/index_tl.html">Teaching and Learning Extensions
+                   href="http://nextgenpetstudent.activatelearning.com//extensions/index_tl.html">Teaching and Learning Extensions
                 </a>
             </li>
             <li>
                 <i class="fa-li fa fa-html5"></i>
-                <a href="http://nextgenpet.sdsu.edu/extensions/extensions_index_studio_pci.html" target="_blank">
+                <a href="http://nextgenpetstudent.activatelearning.com//extensions/extensions_index_studio_pci.html" target="_blank">
                     <span>Planning and Conducting Investigations Extensions</span>
                 </a>
             </li>
 
         </ul>
         <p>
-            <a href="http://nextgenpet.sdsu.edu/sc/index.html" class="btn btn-primary" target="_blank">Student Portal
+            <a href="http://nextgenpetstudent.activatelearning.com//sc/index.html" class="btn btn-primary" target="_blank">Student Portal
             </a>
         </p>
         <p>

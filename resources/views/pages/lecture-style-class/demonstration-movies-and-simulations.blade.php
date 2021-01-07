@@ -31,28 +31,28 @@
 
         <ul class="fa-ul">
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/index_lc_mse.html">Magnetism and Static
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/index_lc_mse.html">Magnetism and Static
                     Electricity Module </a>
             </li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/index_lc_ie.html">Interactions and Energy
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/index_lc_ie.html">Interactions and Energy
                     Module </a>
             </li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/index_lc_if.html">Interactions and Forces
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/index_lc_if.html">Interactions and Forces
                     Module </a>
             </li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/index_lc_wsl.html">Waves, Sound and Light
+                <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/index_lc_wsl.html">Waves, Sound and Light
                     Module </a>
             </li>
             <li><i class="fa-li fa fa-html5"></i>
-                <a href="http://nextgenpet.sdsu.edu/movies/index_lc_mi.html " target="_blank"> Matter and Interactions
+                <a href="http://nextgenpetstudent.activatelearning.com//movies/index_lc_mi.html " target="_blank"> Matter and Interactions
                     Module </a>
             </li>
         </ul>
         <p>
-            <a href="http://nextgenpet.sdsu.edu/lc/index.html" class="btn btn-primary" target="_blank">Student
+            <a href="http://nextgenpetstudent.activatelearning.com//lc/index.html" class="btn btn-primary" target="_blank">Student
                 Portal</a>
         </p>
     </section>

@@ -13,12 +13,6 @@
             </a>
         </li>
         <li>
-            <a href="https://plus.google.com/u/0/+Activatelearning"
-               target="_blank">
-                <i class="fa fa-google-plus"></i>
-            </a>
-        </li>
-        <li>
             <a href="https://www.youtube.com/channel/UC-C9UkdJTa-v1WoCtqfYlNw"
                target="_blank">
                 <i class="fa fa-youtube"></i>

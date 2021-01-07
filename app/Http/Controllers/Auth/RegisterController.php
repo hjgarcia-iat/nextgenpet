@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\RegistrationRequest;
 use App\Mail\TeacherRegistered;
 use App\Services\RegistrationService;
+use App\State;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Mail;
 
@@ -34,7 +35,8 @@ class RegisterController extends Controller
 	 */
 	public function create()
 	{
-		return view('auth.register');
+	    $states = State::orderBy('name','asc')->get()->pluck('name','id');
+		return view('auth.register', compact('states'));
 	}
 
     /**

@@ -13,7 +13,7 @@
             Teaching &amp; Learning &mdash; General Activities &amp; Extensions </h3>
         <p>
             Click on the activity titles below to view or download the activities in PDF format. The extensions below
-            can be found on the <a href="http://nextgenpet.sdsu.edu/extensions/index_tl.html" target="_blank">Teaching
+            can be found on the <a href="http://nextgenpetstudent.activatelearning.com//extensions/index_tl.html" target="_blank">Teaching
                 &amp; Learning Extensions page</a>
         </p>
         <h5>

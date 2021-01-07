@@ -1,4 +1,4 @@
-const {mix} = require('laravel-mix');
+const mix = require('laravel-mix');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 /*
@@ -14,6 +14,7 @@ const BrowserSyncPlugin = require('browser-sync-webpack-plugin');
 
 mix.js('resources/assets/js/app.js', 'public/js')
     .sass('resources/assets/sass/app.scss', 'public/css')
+    .version()
     .options({
         processCssUrls: false
     }).sourceMaps();
@@ -27,7 +28,7 @@ mix.webpackConfig({
                 'public/js/*.js',
                 'resources/views/**/*.blade.php'
             ],
-            proxy: 'nextgenpet.activatelearning.test'
+            proxy: 'http://ngpet.al.local/'
         })
     ]
 });

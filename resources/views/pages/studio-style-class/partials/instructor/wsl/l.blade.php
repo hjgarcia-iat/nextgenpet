@@ -74,7 +74,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_ul_a2.html">Demonstration Movies </a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_ul_a2.html">Demonstration Movies </a>
                 </li>
             </ul>
         </div>
@@ -188,7 +188,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_ul_a5.html">Demonstration Movie</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_ul_a5.html">Demonstration Movie</a>
                 </li>
             </ul>
         </div>

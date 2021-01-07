@@ -24,12 +24,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l1.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l1.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l1.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l1.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -83,12 +83,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l2.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l2.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l2.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l2.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -142,12 +142,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l3.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l3.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l3.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l3.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -223,12 +223,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l4.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l4.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l4.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l4.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -282,12 +282,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l5.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l5.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l5.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l5.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -341,12 +341,12 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l6.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l6.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l6.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l6.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -401,7 +401,7 @@
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l7.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l7.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -446,12 +446,33 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_ie/movies_ie_uem_l8.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_ie/movies_ie_uem_l8.html">Demonstration Movies</a>
                 </li>
                 <li>
 
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_ie/movies_ie_uem_l8.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_ie/movies_ie_uem_l8.html">Classroom Video Clips</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingThirty">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThirty" aria-expanded="false" aria-controls="collapseThirty">Extension J: Reviewing Energy and Interactions</a>
+        </h5>
+    </div>
+    <div id="collapseThirty" class="collapse" role="tabpanel" aria-labelledby="headingThirty">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/uem-ext-j-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href="https://public.csusm.edu/NextGenPET/Extensions/IE/ExtJ/index.html">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>

@@ -28,15 +28,15 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_l1.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_uws_l1.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Wave on a String Simulation</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_wsl/movies_wsl_uws_l1.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_wsl/movies_wsl_uws_l1.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -97,15 +97,15 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_l2.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_uws_l2.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/wave-interference">Wave Interference Simulation </a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-interference">Wave Interference Simulation </a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_wsl/movies_wsl_uws_l2.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_wsl/movies_wsl_uws_l2.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -189,7 +189,7 @@
                 </li>
                  <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_l3.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_uws_l3.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -197,7 +197,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_wsl/movies_wsl_uws_l3.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_wsl/movies_wsl_uws_l3.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>

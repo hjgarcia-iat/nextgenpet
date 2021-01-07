@@ -71,6 +71,42 @@
         </div>
         ') !!}
     </div>
+
+    <div class="form-group {{ $errors->has('address') ? 'has-danger' : '' }}">
+        <label class="form-control-label" for="address"> Address </label> <input
+                class="form-control {{ $errors->has('address') ? 'form-control-danger' : '' }}" id="address"
+                name="address" required="required" type="text" value="{{ old('address') }}"/>
+        {!! $errors->first('address','
+        <div class="form-control-feedback">
+            :message
+        </div>
+        ') !!}
+    </div>
+
+    <div class="form-group {{ $errors->has('city') ? 'has-danger' : '' }}">
+        <label class="form-control-label" for="city"> City </label> <input
+                class="form-control {{ $errors->has('city') ? 'form-control-danger' : '' }}" id="city"
+                name="city" required="required" type="text" value="{{ old('city') }}"/>
+        {!! $errors->first('city','
+        <div class="form-control-feedback">
+            :message
+        </div>
+        ') !!}
+    </div>
+
+    <div class="form-group {{ $errors->has('state_id') ? 'has-danger' : '' }}">
+        <label class="form-control-label" for="state_id"> State </label>
+
+        {{ Form::select('state_id', $states,old('state_id'),['class' => 'form-control','placeholder' => 'Select a state...']) }}
+
+        {!! $errors->first('state_id','
+        <div class="form-control-feedback">
+            :message
+        </div>
+        ') !!}
+    </div>
+
+
     <div class="form-group {{ $errors->has('zip') ? 'has-danger' : '' }}">
         <label class="form-control-label"
                for="zip">

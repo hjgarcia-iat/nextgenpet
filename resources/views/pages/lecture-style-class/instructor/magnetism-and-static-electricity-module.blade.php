@@ -23,7 +23,7 @@
                 <a href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/module-equipment-list.pdf']) }}" target="_blank"><i class="fa fa-file-pdf-o"></i>
                     PDF</a>
             </li>
-        </ul>`
+        </ul>
 
         <ul class="nav nav-tabs" role="tablist">
             <li class="nav-item">
@@ -40,6 +40,10 @@
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-m-developing-a-model-for-magnetism/unit-m-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitm-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -71,6 +75,10 @@
                             Ideas</a>
                     </li>
                     <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_model_for_magnetism.docx']) }}">Summarizing Questions</a>
+                    </li>
+                    <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/tiny-magnets-alignment-model-handout.pdf']) }}">Tiny Magnets Alignment Model Handout</a>
                     </li>
@@ -86,6 +94,10 @@
                         <i class="fa-li fa fa-file-pdf-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/unit-se-trajectory.pdf']) }}">Unit
                             Trajectory</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-pdf-o"></i>
+                        <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/target-ideas/lecture/target-ideas-unitse-lecture.pdf']) }}">Target Ideas</a>
                     </li>
                     <li>
                         <i class="fa-li fa fa-file-pdf-o"></i>
@@ -115,6 +127,10 @@
                         <i class="fa-li fa fa-file-word-o"></i>
                         <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/Unit_SE_Summary_Ideas_LC.docx']) }}">Summary
                             Ideas</a>
+                    </li>
+                    <li>
+                        <i class="fa-li fa fa-file-word-o"></i> <a target="_blank"
+                                href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/summarizing-questions/summarizing_questions_lecture_unit_developing_a_model_for_static_electricity.docx']) }}">Summarizing Questions</a>
                     </li>
                 </ul>
                 <div id="accordionTwo" role="tablist" aria-multiselectable="true">

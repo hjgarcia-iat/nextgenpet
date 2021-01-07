@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse bg-inverse navbar-mobile align-items-start">
+<nav class="navbar navbar-inverse bg-inverse navbar-mobile align-items-start" id="mobile-side-menu">
     <ul class="navbar-nav">
         <li class="nav-item">
             <a href="" class="nav-link site-menu-toggle">

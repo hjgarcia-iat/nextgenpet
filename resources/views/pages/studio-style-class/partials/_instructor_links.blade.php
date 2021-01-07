@@ -42,5 +42,12 @@
            href="{{ url('studio-style-class/instructor/planning-and-conducting-investigations') }}">
             <span>Planning &amp; Conducting Investigations</span>
         </a>
+
+        <a class="list-group-item" href="{{ url('studio-style-class/instructor/next-gen-pet-virtual-conference') }}">
+            <span>Next Gen PET Virtual Conference</span></a>
+
+        <a class="list-group-item"
+                href="{{ url('instructor/resources-for-teaching-ngp-online') }}">
+            <span>Resources for Teaching NGP Online</span></a>
     </div>
 </div>

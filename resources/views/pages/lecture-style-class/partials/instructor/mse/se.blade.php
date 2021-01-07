@@ -24,11 +24,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_l1.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_mse/movies_mse_use_l1.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_l1.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mse/movies_mse_use_l1.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -75,6 +75,14 @@
                     <a target="_blank" href="http://public.csusm.edu/NextGenPET/Extensions/SE/ExtB/index.html">Extension Online (HTML5)</a>
                 </li>
                 <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank" href="https://nextgenpet.s3.amazonaws.com/web-docs/instructor/extensions/USE+Extension+B-M+Mock-up.pptx">Extension Mockup Slides with Simulation Movies</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank" href=https://public.csusm.edu/NextGenPET/Extensions/SE/ExtB-M/index.html>Extension with Simulation Movies Online (HTML)</a>
+                </li>
+                <li>
                     <i class="fa-li fa fa-file-video-o"></i>
                     <a target="_blank" href="https://phet.colorado.edu/en/simulation/electric-hockey">Electric Field Hockey Simulation</a>
                 </li>
@@ -108,11 +116,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_l2.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_mse/movies_mse_use_l2.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_l2.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mse/movies_mse_use_l2.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -144,11 +152,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_l3.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_mse/movies_mse_use_l3.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_l3.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mse/movies_mse_use_l3.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -228,11 +236,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_l4.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_mse/movies_mse_use_l4.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_l4.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mse/movies_mse_use_l4.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>
@@ -276,7 +284,7 @@
             <ul class="fa fa-ul">
                 <li>
                     <i class="fa-li fa fa-file-powerpoint-o"></i>
-                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/magnetism-static-electricty-module/unit-se-developing-a-model-for-static-electricity/10-ext-f-charged-and-uncharged-objects/use-extf-extension-mock-up.pptx']) }}">Extension Mockup Slides</a>
+                    <a target="_blank" href="{{ route('file.show',['file' => 'web-docs/instructor/extensions/USE-Extension-F-Mock-up.pptx']) }}">Extension Mockup Slides</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
@@ -316,11 +324,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_mse/movies_mse_use_l5.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_mse/movies_mse_use_l5.html">Demonstration Movies</a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/videos/movies_mse/movies_mse_use_l5.html">Classroom Video Clips</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//videos/movies_mse/movies_mse_use_l5.html">Classroom Video Clips</a>
                 </li>
             </ul>
         </div>

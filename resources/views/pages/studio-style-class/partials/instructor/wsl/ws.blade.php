@@ -27,7 +27,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Wave on a String Simulation</a>
                 </li>
             </ul>
         </div>
@@ -63,7 +63,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Waves on a String Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-on-a-string">Wave on a String Simulation</a>
                 </li>
             </ul>
         </div>
@@ -125,11 +125,11 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_a3.html">Demonstration Movies </a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_uws_a3.html">Demonstration Movies </a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
-                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/legacy/wave-interference">Wave Interference Simulation</a>
+                    <a target="_blank" href="https://phet.colorado.edu/en/simulation/wave-interference">Wave Interference Simulation</a>
                 </li>
             </ul>
         </div>
@@ -190,7 +190,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_wsl/movies_wsl_uws_a4.html">Demonstration Movies </a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_wsl/movies_wsl_uws_a4.html">Demonstration Movies </a>
                 </li>
                 <li>
                     <i class="fa-li fa fa-globe"></i>
@@ -257,6 +257,12 @@
                     <i class="fa-li fa fa-globe"></i>
                     <a href="http://www.mapdevelopers.com/draw-circle-tool.php" target="_blank">
                         Map circles drawing tool
+                    </a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a href="{{ route('file.show',['file' => 'web-docs/instructor/studio-style/waves-sound-light-module/1-unit-ws-mechanical-waves-and-sound/8-a5-ed-locatiing-an-earthquake/uws-act5-data-sheets.docx']) }}" target="_blank">
+                        Activity 5 Data Sheets
                     </a>
                 </li>
             </ul>

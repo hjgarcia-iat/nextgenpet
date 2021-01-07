@@ -27,7 +27,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a1.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_if/movies_if_ucf_a1.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>
@@ -88,7 +88,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a2.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_if/movies_if_ucf_a2.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>
@@ -174,7 +174,7 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a3.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_if/movies_if_ucf_a3.html">Demonstration Movies</a>
                 </li>
             </ul>
         </div>
@@ -287,7 +287,57 @@
                 </li>
                 <li>
                     <i class="fa-li fa fa-file-video-o"></i>
-                    <a target="_blank" href="http://nextgenpet.sdsu.edu/movies/movies_if/movies_if_ucf_a5.html">Demonstration Movies</a>
+                    <a target="_blank" href="http://nextgenpetstudent.activatelearning.com//movies/movies_if/movies_if_ucf_a5.html">Demonstration Movies</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingForty">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseForty"
+               aria-expanded="false" aria-controls="collapseForty">Extension F: Reviewing Forces & Interactions (Newton’s Three Laws)</a>
+        </h5>
+    </div>
+    <div id="collapseForty" class="collapse" role="tabpanel" aria-labelledby="headingForty">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/ucf-ext-f-extension-mock-up.pptx']) }}">Extension
+                        Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank"
+                       href="https://public.csusm.edu/NextGenPET/Extensions/CF/ExtF/index.html">Extension Online (HTML5)</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="card">
+    <div class="card-header" role="tab" id="headingFortyOne">
+        <h5 class="mb-0">
+            <a class="collapsed" data-toggle="collapse" data-parent="#accordionTwo" href="#collapseFortyOne"
+               aria-expanded="false" aria-controls="collapseFortyOne">Extension G: Reviewing Forces & Interactions (Newton’s First and Second Laws)</a>
+        </h5>
+    </div>
+    <div id="collapseFortyOne" class="collapse" role="tabpanel" aria-labelledby="headingFortyOne">
+        <div class="card-block">
+            <ul class="fa fa-ul">
+                <li>
+                    <i class="fa-li fa fa-file-powerpoint-o"></i>
+                    <a target="_blank"
+                       href="{{ route('file.show',['file' => 'web-docs/instructor/lecture-style/extensions/ucf-ext-g-extension-mock-up.pptx']) }}">Extension
+                        Mockup Slides</a>
+                </li>
+                <li>
+                    <i class="fa-li fa fa-globe"></i>
+                    <a target="_blank"
+                       href="https://public.csusm.edu/NextGenPET/Extensions/CF/ExtG/index.html ">Extension Online (HTML5)</a>
                 </li>
             </ul>
         </div>

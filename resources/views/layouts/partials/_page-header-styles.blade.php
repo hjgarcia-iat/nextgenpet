@@ -1,9 +1,4 @@
 <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
-
-@if(env('APP_ENV') == 'local')
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-@else
-    <link rel="stylesheet" href="{{ elixir('css/app.css') }}">
-@endif
+<link rel="stylesheet" href="{{ mix('css/app.css') }}">
 
 @yield('styles')

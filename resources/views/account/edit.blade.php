@@ -19,7 +19,7 @@
                            id="first_name"
                            name="first_name"
                            value="{{ old('first_name', $user->account->first_name) }}">
-                    {!! $errors->first('first_name','<div class="form-control-feedback">:message</div>') !!}
+                    {!! $errors->first('first_name','<div class="invalid-feedback d-block">:message</div>') !!}
                 </div>
         
                 <div class="form-group {{ $errors->has('last_name') ? 'has-danger' : '' }}">
@@ -31,7 +31,7 @@
                            id="last_name"
                            name="last_name"
                            value="{{ old('last_name', $user->account->last_name) }}">
-                    {!! $errors->first('last_name','<div class="form-control-feedback">:message</div>') !!}
+                    {!! $errors->first('last_name','<div class="invalid-feedback d-block">:message</div>') !!}
                 </div>
                 
                 <div class="form-group {{ $errors->has('email') ? 'has-danger' : '' }}">
@@ -43,7 +43,7 @@
                            id="email"
                            name="email"
                            value="{{ old('email', $user->email) }}">
-                    {!! $errors->first('email','<div class="form-control-feedback">:message</div>') !!}
+                    {!! $errors->first('email','<div class="invalid-feedback d-block">:message</div>') !!}
                 </div>
                 
                 <div class="form-group {{ $errors->has('password') ? 'has-danger' : '' }}">
@@ -54,7 +54,10 @@
                            class="form-control {{ $errors->has('password') ? 'form-control-danger' : '' }}"
                            id="password"
                            name="password">
-                    {!! $errors->first('password','<div class="form-control-feedback">:message</div>') !!}
+                    <p class="text-muted mt-2">You password should be at least 6 characters long and include at
+                        least one digit, one lowercase letter and one uppercase letter.
+                    </p>
+                    {!! $errors->first('password','<div class="invalid-feedback d-block">:message</div>') !!}
                 </div>
                 
                 <div class="form-group {{ $errors->has('password_confirmation') ? 'has-danger' : '' }}">
@@ -65,7 +68,7 @@
                            class="form-control {{ $errors->has('password_confirmation') ? 'form-control-danger' : '' }}"
                            id="password_confirmation"
                            name="password_confirmation">
-                    {!! $errors->first('password_confirmation','<div class="form-control-feedback">:message</div>') !!}
+                    {!! $errors->first('password_confirmation','<div class="invalid-feedback d-block">:message</div>') !!}
                 </div>
                 
                 <div class="form-group text-center">
