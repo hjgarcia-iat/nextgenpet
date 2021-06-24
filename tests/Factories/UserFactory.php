@@ -11,24 +11,11 @@ use Carbon\Carbon;
  */
 class UserFactory
 {
-
-    /**
-     * Create a Valid Admin User with Role and Account
-     *
-     * @param array $userOverrides
-     * @param array $roleOverrides
-     * @return mixed|User
-     */
-    public static function createAdminUser($userOverrides = [], $roleOverrides = [])
+    public static function createAdminUser(array $userOverrides = [], array $roleOverrides = [])
     {
         return self::createUser($userOverrides, ['name' => 'admin']);
     }
 
-
-    /**
-     * Create a general user
-     * @return mixed|User
-     */
     public static function createUser(array $userOverrides = [], array $roleOverrides = [])
     {
         $user = User::factory()->create($userOverrides);
@@ -46,13 +33,8 @@ class UserFactory
         return $user;
     }
 
-    /**
-     * Get valid Params for User Form
-     *
-     * @param array $overrides
-     * @return array
-     */
-    public static function getValidUserParams($overrides = [])
+
+    public static function getValidUserParams($overrides = []): array
     {
         return array_merge([
             'role'                  => ['admin'],
