@@ -18,12 +18,8 @@ class GroupTest extends TestCase
 
     public function test_we_can_return_the_user_relationship()
     {
-        $user = factory(User::class)->create();
-        $group = factory(Group::class)->create();
+        $group = Group::factory()->has(User::factory())->create();
 
-        $group->users()->attach($user);
-
-        $this->assertInstanceOf(User::class, $group->users()->first());
-        $this->assertEquals($user->id, $group->users()->first()->id);
+        $this->assertEquals(User::first()->id, $group->users->first()->id);
     }
 }
