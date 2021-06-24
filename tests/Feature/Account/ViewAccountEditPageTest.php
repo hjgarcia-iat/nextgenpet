@@ -2,8 +2,7 @@
 
 namespace Tests\Feature\Account;
 
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 use Tests\Factories\UserFactory;
 
@@ -13,7 +12,7 @@ use Tests\Factories\UserFactory;
  */
 class ViewAccountEditPageTest extends TestCase
 {
-    use DatabaseTransactions, DatabaseMigrations;
+    use RefreshDatabase;
 
     public function test_we_can_see_the_account_page_as_a_next_gen_pet_user()
     {

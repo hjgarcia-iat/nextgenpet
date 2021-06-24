@@ -27,19 +27,16 @@ class UserFactory
 
     /**
      * Create a general user
-     *
-     * @param array $userOverrides
-     * @param array $roleOverrides
      * @return mixed|User
      */
-    public static function createUser($userOverrides = [], $roleOverrides = [])
+    public static function createUser(array $userOverrides = [], array $roleOverrides = [])
     {
-        $user = factory(User::class)->create($userOverrides);
+        $user = User::factory()->create($userOverrides);
 
         if(isset($roleOverrides['name']) AND Role::whereName($roleOverrides['name'])->exists()) {
             $role = Role::whereName($roleOverrides['name'])->first();
         } else {
-            $role = factory(Role::class)->create($roleOverrides);
+            $role = Role::factory()->create($roleOverrides);
         }
 
         $user->account()->create(['first_name' => 'test', 'last_name' => 'user']);
