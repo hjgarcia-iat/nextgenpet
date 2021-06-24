@@ -5,8 +5,7 @@ namespace Tests\Unit\Models;
 use App\Account;
 use App\College;
 use App\User;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 /**
@@ -15,35 +14,58 @@ use Tests\TestCase;
  */
 class UserTest extends TestCase
 {
-    use DatabaseMigrations, DatabaseTransactions;
+    use RefreshDatabase;
 
     public function test_we_can_get_account_relationship()
     {
-        $account = factory(Account::class)->create();
+        $user = User::factory()->create()->tap(function ($user) {
 
-        $this->assertInstanceOf(Account::class, User::find($account->user_id)->account);
+            Account::factory()->create(['user_id' => $user->first()->id]);
+
+            return $user->first();
+        });
+
+        $this->assertEquals(Account::first()->id, $user->account->id);
     }
 
     public function test_we_can_get_the_college_relationship()
     {
-        $user = factory(User::class)->create();
-        $college = factory(College::class)->create();
+        $user = User::factory()->create()->tap(function ($user) {
 
-        $user->colleges()->attach($college);
+            Account::factory()->create(['user_id' => $user->first()->id]);
 
-        $this->assertInstanceOf(College::class, $user->colleges()->first());
+            return $user->first();
+        });
+
+        $college = College::factory()->hasAttached($user)->create();
+
+        $this->assertEquals($college->id, $user->colleges->first()->id);
     }
 
     public function test_we_can_get_name_attribute()
     {
-        $account = factory(Account::class)->create(['first_name' => 'John', 'last_name' => 'Doe']);
+        $user = User::factory()->create()->tap(function ($user) {
 
-        $this->assertEquals('John Doe', User::find($account->user_id)->name);
+            Account::factory()->create([
+                'user_id' => $user->first()->id,
+                'first_name' => 'John',
+                'last_name' => 'Doe',
+            ]);
+
+            return $user->first();
+        });
+
+        $this->assertEquals('John Doe', $user->fresh()->name);
     }
 
     public function test_we_can_hash_password()
     {
-        $user = factory(User::class)->make(['password' => 'password']);
+        $user = User::factory()->create()->tap(function ($user) {
+
+            Account::factory()->create(['user_id' => $user->first()->id]);
+
+            return $user->first();
+        });
 
         $this->assertTrue(\Hash::check('password', $user->password));
     }

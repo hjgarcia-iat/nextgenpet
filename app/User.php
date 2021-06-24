@@ -74,30 +74,24 @@ class User extends Authenticatable
 
     /**
      * Account Relationship
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
-    public function account()
+    public function account(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(Account::class);
     }
 
     /**
      * Return College Class
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
-    public function colleges()
+    public function colleges(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
         return $this->belongsToMany(College::class, 'college_user')->withTimestamps();
     }
 
     /**
      * Get the full name of the user
-     *
-     * @return string
      */
-    public function getNameAttribute()
+    public function getNameAttribute(): string
     {
         return $this->account->first_name . ' ' . $this->account->last_name;
     }
