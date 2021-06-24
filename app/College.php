@@ -52,20 +52,16 @@ class College extends Model
 
     /**
      * Return State Relationship
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
      */
-    public function state()
+    public function state(): \Illuminate\Database\Eloquent\Relations\BelongsTo
     {
         return $this->belongsTo(State::class);
     }
 
     /**
      * Return User Relationship
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
-    public function users()
+    public function users(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
         return $this->belongsToMany(User::class, 'college_user')->withTimestamps();
     }

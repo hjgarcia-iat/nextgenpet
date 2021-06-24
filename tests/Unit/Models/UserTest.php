@@ -16,6 +16,19 @@ class UserTest extends TestCase
 {
     use RefreshDatabase;
 
+    public function test_it_has_the_all_the_fields()
+    {
+        $data = [
+            'username' => 'username',
+            'email' => 'email@email.com',
+            'account_status' => 'Active',
+        ];
+
+        User::factory()->create($data);
+
+        $this->assertDatabaseHas('users', $data);
+    }
+
     public function test_we_can_get_account_relationship()
     {
         $user = User::factory()->create()->tap(function ($user) {
