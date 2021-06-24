@@ -29,7 +29,7 @@ class StoreRegistrationTest extends TestCase
     public function setUp(): void
     {
         parent::setUp();
-        $this->state = factory(State::class)->create();
+        $this->state = State::factory()->create();
         $this->data = $this->valid_data(['state_id' => $this->state->id]);
     }
 
@@ -64,7 +64,7 @@ class StoreRegistrationTest extends TestCase
         });
 
         $this->seeEmailWasSent();
-        $this->seeEmailTo(env('REGISTRATION_SUPPORT_EMAIL'));
+        $this->seeEmailTo(config('mail.to.registration_email_address'));
     }
 
     public function test_the_first_name_field_is_required()

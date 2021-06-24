@@ -61,7 +61,8 @@ return [
     ],
 
     'to' => [
-        'support_email_address' => env('SUPPORT_EMAIL','email@email.com')
+        'support_email_address' => env('SUPPORT_EMAIL','email@email.com'),
+        'registration_email_address' => env('REGISTRATION_SUPPORT_EMAIL','email@email.com')
     ],
 
     /*
