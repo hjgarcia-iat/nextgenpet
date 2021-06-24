@@ -6,7 +6,6 @@ use App\College;
 use App\State;
 use App\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Support\Collection;
 use Tests\TestCase;
 
 /**

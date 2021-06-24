@@ -16,14 +16,20 @@ class StateTest extends TestCase
 {
     use DatabaseMigrations, DatabaseTransactions;
 
+    public function test_it_has_all_the_fields()
+    {
+        $data = ['abbr' => 'test', 'name' => 'test'];
+
+        State::factory()->create($data);
+
+        $this->assertDatabaseHas('us_states', $data);
+    }
+
     public function test_we_can_get_the_college_relationship()
     {
-        $state = factory(State::class)->create();
-        $college = factory(College::class)->create(['state_id' => $state->id]);
+        $state = State::factory()->has(College::factory())->create();
 
-        $this->assertInstanceOf(College::class, $state->colleges()->first());
-        $this->assertEquals($college->id, $state->colleges()->first()->id);
-        $this->assertEquals($college->state_id, $state->id);
+        $this->assertEquals(College::first()->id, $state->colleges()->first()->id);
     }
 
 }
