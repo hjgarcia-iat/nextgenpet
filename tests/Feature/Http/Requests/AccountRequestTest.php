@@ -14,7 +14,7 @@ class AccountRequestTest extends TestCase
     public function test_it_has_the_correct_rules()
     {
         $account_request = new AccountRequest();
-        $user            = factory(User::class)->create();
+        $user            = User::factory()->create();
         $rules           = [
             'first_name' => 'required',
             'last_name'  => 'required',
