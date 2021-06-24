@@ -3,6 +3,10 @@
 <head>
     @include('layouts.partials._page-header-meta')
     @include('layouts.partials._page-header-styles')
+
+    @if(config('app.env') === "production")
+        @include('layouts.partials._analytics')
+    @endif
 </head>
 <body>
 <div class="site-wrapper">
