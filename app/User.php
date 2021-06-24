@@ -3,6 +3,7 @@
 namespace App;
 
 use App\Notification\ResetPasswordNotification;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
@@ -10,7 +11,7 @@ use Spatie\Permission\Traits\HasRoles;
 class User extends Authenticatable
 {
 
-    use HasRoles, Notifiable;
+    use HasFactory, HasRoles, Notifiable;
 
     /**
      * Columns that area Searchable by Eloquence

@@ -4,8 +4,7 @@ namespace Tests\Unit\Models;
 
 use App\Account;
 use App\User;
-use Illuminate\Foundation\Testing\DatabaseMigrations;
-use Illuminate\Foundation\Testing\DatabaseTransactions;
+use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
 /**
@@ -14,12 +13,25 @@ use Tests\TestCase;
  */
 class AccountTest extends TestCase
 {
-    use DatabaseMigrations, DatabaseTransactions;
+    use RefreshDatabase;
+
+    public function test_it_has_all_fields()
+    {
+        $data = [
+            'user_id' => 1,
+            'first_name' => 'John',
+            'last_name' => 'Doe',
+        ];
+
+        Account::factory()->create($data);
+
+        $this->assertDatabaseHas('accounts', $data);
+    }
 
     public function test_we_can_return_the_user_relationship()
     {
-        $account = factory(Account::class)->create();
+        $account = Account::factory()->create();
 
-        $this->assertInstanceOf(User::class, $account->user);
+        $this->assertEquals(User::first()->id, $account->user->id);
     }
 }
