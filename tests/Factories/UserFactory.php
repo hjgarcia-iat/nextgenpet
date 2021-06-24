@@ -2,8 +2,8 @@
 
 namespace Tests\Factories;
 
-use App\Role;
-use App\User;
+use App\Models\Role;
+use App\Models\User;
 use Carbon\Carbon;
 
 /**

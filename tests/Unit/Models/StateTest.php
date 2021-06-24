@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Models;
 
-use App\College;
-use App\State;
+use App\Models\College;
+use App\Models\State;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;

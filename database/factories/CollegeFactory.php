@@ -2,8 +2,8 @@
 
 namespace Database\Factories;
 
-use App\College;
-use App\State;
+use App\Models\College;
+use App\Models\State;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class CollegeFactory extends Factory

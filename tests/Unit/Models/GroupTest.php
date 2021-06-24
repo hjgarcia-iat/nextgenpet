@@ -2,8 +2,8 @@
 
 namespace Tests\Unit\Models;
 
-use App\Group;
-use App\User;
+use App\Models\Group;
+use App\Models\User;
 use Illuminate\Foundation\Testing\DatabaseMigrations;
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Tests\TestCase;

@@ -2,9 +2,8 @@
 
 namespace Tests\Feature\Register;
 
-use App\Role;
-use App\State;
-use App\User;
+use App\Models\State;
+use App\Models\User;
 use App\Zip;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Spinen\MailAssertions\MailTracking;

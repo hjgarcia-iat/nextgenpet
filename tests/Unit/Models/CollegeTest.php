@@ -2,9 +2,9 @@
 
 namespace Tests\Unit\Models;
 
-use App\College;
-use App\State;
-use App\User;
+use App\Models\College;
+use App\Models\State;
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Tests\TestCase;
 
