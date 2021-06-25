@@ -64,6 +64,12 @@
            class="dropdown-item{{ (Request::is('lecture-style-class/planning-your-course') ? ' active' : '') }}">
             Planning Your Course
         </a>
+
+        <a href="{{ url('lecture-style-class/hybrid-implementation') }}"
+                class="dropdown-item{{ (Request::is('lecture-style-class/hybrid-implementation') ? ' active' : '') }}">
+            <span>Hybrid Implementation</span> </a>
+
+
         <a href="{{ url('lecture-style-class/extension-index') }}" class="dropdown-item{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">
             Extensions Index </a>
         <a href="{{ url('lecture-style-class/demonstration-movies-and-simulations') }}" class="dropdown-item{{ (Request::is('lecture-style-class/demonstration-movies-and-simulations') ? ' active' : '') }}">

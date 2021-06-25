@@ -113,6 +113,11 @@
            class="dropdown-item{{ (Request::is('studio-style-class/planning-your-course') ? ' active' : '') }}">
             Planning Your Course
         </a>
+
+        <a href="{{ url('studio-style-class/hybrid-implementation') }}"
+                class="dropdown-item{{ (Request::is('studio-style-class/hybrid-implementation') ? ' active' : '') }}">
+            <span>Hybrid Implementation</span> </a>
+
         <a href="{{ url('studio-style-class/extension-index') }}"
            class="dropdown-item{{ (Request::is('studio-style-class/extension-index') ? ' active' : '') }}">
             Extensions Index
