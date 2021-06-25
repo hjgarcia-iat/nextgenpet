@@ -96,6 +96,12 @@
 
         <p>Hybrid implementation:  Semester-length physics course that includes both 2 75-min lectures and one 110-min lab per week.  The instructor orders both lecture-style and studio-style units from the publisher.</p>
 
+        <p>
+            <a href="https://nextgenpet.s3.amazonaws.com/web-docs/planning-your-course/studio-style/SampleHybridCourse.pdf"
+                    target="_blank">Sample Schedule</a></p>
+
+        <p>See <a href="{{ url('studio-style-class/hybrid-implementation') }}">Hybrid Implementation</a> for more about this kind of implementation.</p>
+
         <ul>
             <li>In lecture part, all lecture-style units: M, EM, FM, CF, WS</li>
             <li>In laboratory part, all studio-style units: SE, L</li>
