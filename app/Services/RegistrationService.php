@@ -2,11 +2,10 @@
 
 namespace App\Services;
 
-use App\College;
-use App\State;
-use App\User;
+use App\Models\College;
+use App\Models\State;
+use App\Models\User;
 use App\Zip;
-use Carbon\Carbon;
 
 /**
  * Class Registration

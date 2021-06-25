@@ -1,11 +1,13 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class State extends Model
 {
+    use HasFactory;
 
     /**
      * Columns that area Searchable by Eloquence
@@ -42,10 +44,8 @@ class State extends Model
 
     /**
      * Return College Relationship
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasMany
      */
-    public function colleges()
+    public function colleges(): \Illuminate\Database\Eloquent\Relations\HasMany
     {
         return $this->hasMany(College::class);
     }

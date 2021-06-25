@@ -4,7 +4,7 @@ namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RecoverPasswordRequest;
-use App\User;
+use App\Models\User;
 use Illuminate\Foundation\Auth\SendsPasswordResetEmails;
 
 /**

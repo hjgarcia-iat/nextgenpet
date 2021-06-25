@@ -2,7 +2,7 @@
 
 namespace Tests\Feature\PasswordRecover;
 
-use App\User;
+use App\Models\User;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 use Password;
 use Tests\Factories\UserFactory;

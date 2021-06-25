@@ -5,9 +5,11 @@ namespace App\Http\Controllers\Auth;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\RegistrationRequest;
 use App\Mail\TeacherRegistered;
+use App\Models\State;
 use App\Services\RegistrationService;
-use App\State;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Http\RedirectResponse;
+use Illuminate\View\View;
 use Mail;
 
 /**
@@ -30,28 +32,21 @@ class RegisterController extends Controller
 
 	/**
 	 * Show Create Form
-	 *
-	 * @return \Illuminate\View\View
 	 */
-	public function create()
-	{
-	    $states = State::orderBy('name','asc')->get()->pluck('name','id');
-		return view('auth.register', compact('states'));
+	public function create(): View
+    {
+	    $states = State::orderBy('name','asc')->get();
+		return view('auth.register', ['states' => $states]);
 	}
 
     /**
      * Store user
-     *
-     * @param RegistrationRequest $request
-     * @param RegistrationService $registrationService
-     * @return \Illuminate\Http\RedirectResponse
-     * @throws \Throwable
      */
-	public function store(RegistrationRequest $request, RegistrationService $registrationService)
+	public function store(RegistrationRequest $request, RegistrationService $registrationService): RedirectResponse
     {
         $user = $registrationService->register();
 
-        Mail::to(env('REGISTRATION_SUPPORT_EMAIL'))->send(new TeacherRegistered($user));
+        Mail::to(config('mail.to.registration_email_address'))->send(new TeacherRegistered($user));
 
 		return redirect()
 			->to('/')

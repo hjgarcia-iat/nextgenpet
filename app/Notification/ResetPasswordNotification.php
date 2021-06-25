@@ -2,9 +2,9 @@
 
 namespace App\Notification;
 
-use App\User;
-use Illuminate\Notifications\Notification;
+use App\Models\User;
 use Illuminate\Notifications\Messages\MailMessage;
+use Illuminate\Notifications\Notification;
 
 class ResetPasswordNotification extends Notification
 {

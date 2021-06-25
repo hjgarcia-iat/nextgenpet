@@ -1,16 +1,18 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
 use App\Notification\ResetPasswordNotification;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Spatie\Permission\Traits\HasRoles;
+use function request;
 
 class User extends Authenticatable
 {
 
-    use HasRoles, Notifiable;
+    use HasFactory, HasRoles, Notifiable;
 
     /**
      * Columns that area Searchable by Eloquence
@@ -73,30 +75,24 @@ class User extends Authenticatable
 
     /**
      * Account Relationship
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\HasOne
      */
-    public function account()
+    public function account(): \Illuminate\Database\Eloquent\Relations\HasOne
     {
         return $this->hasOne(Account::class);
     }
 
     /**
      * Return College Class
-     *
-     * @return \Illuminate\Database\Eloquent\Relations\BelongsToMany
      */
-    public function colleges()
+    public function colleges(): \Illuminate\Database\Eloquent\Relations\BelongsToMany
     {
         return $this->belongsToMany(College::class, 'college_user')->withTimestamps();
     }
 
     /**
      * Get the full name of the user
-     *
-     * @return string
      */
-    public function getNameAttribute()
+    public function getNameAttribute(): string
     {
         return $this->account->first_name . ' ' . $this->account->last_name;
     }

@@ -2,8 +2,8 @@
 
 namespace Tests\Factories;
 
-use App\Role;
-use App\User;
+use App\Models\Role;
+use App\Models\User;
 use Carbon\Carbon;
 
 /**
@@ -11,35 +11,19 @@ use Carbon\Carbon;
  */
 class UserFactory
 {
-
-    /**
-     * Create a Valid Admin User with Role and Account
-     *
-     * @param array $userOverrides
-     * @param array $roleOverrides
-     * @return mixed|User
-     */
-    public static function createAdminUser($userOverrides = [], $roleOverrides = [])
+    public static function createAdminUser(array $userOverrides = [], array $roleOverrides = [])
     {
         return self::createUser($userOverrides, ['name' => 'admin']);
     }
 
-
-    /**
-     * Create a general user
-     *
-     * @param array $userOverrides
-     * @param array $roleOverrides
-     * @return mixed|User
-     */
-    public static function createUser($userOverrides = [], $roleOverrides = [])
+    public static function createUser(array $userOverrides = [], array $roleOverrides = [])
     {
-        $user = factory(User::class)->create($userOverrides);
+        $user = User::factory()->create($userOverrides);
 
         if(isset($roleOverrides['name']) AND Role::whereName($roleOverrides['name'])->exists()) {
             $role = Role::whereName($roleOverrides['name'])->first();
         } else {
-            $role = factory(Role::class)->create($roleOverrides);
+            $role = Role::factory()->create($roleOverrides);
         }
 
         $user->account()->create(['first_name' => 'test', 'last_name' => 'user']);
@@ -49,13 +33,8 @@ class UserFactory
         return $user;
     }
 
-    /**
-     * Get valid Params for User Form
-     *
-     * @param array $overrides
-     * @return array
-     */
-    public static function getValidUserParams($overrides = [])
+
+    public static function getValidUserParams($overrides = []): array
     {
         return array_merge([
             'role'                  => ['admin'],

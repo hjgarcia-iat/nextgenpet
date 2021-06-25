@@ -1,6 +1,10 @@
 <?php
 
-namespace App;
+namespace App\Models;
+
+use function abort;
+use function request;
+use function resource_path;
 
 /**
  * Class Page

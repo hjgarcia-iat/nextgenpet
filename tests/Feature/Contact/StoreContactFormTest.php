@@ -19,7 +19,7 @@ class StoreContactFormTest extends TestCase
 
         $response->assertStatus(302);
         $this->seeEmailWasSent();
-        $this->seeEmailTo(env('SUPPORT_EMAIL'));
+        $this->seeEmailTo(config('mail.to.support_email_address'));
         $this->seeEmailContains($this->valid_data()['name']);
         $this->seeEmailContains($this->valid_data()['email']);
         $this->seeEmailContains($this->valid_data()['subject']);
@@ -73,11 +73,8 @@ class StoreContactFormTest extends TestCase
 
     /**
      * Valid form data
-     *
-     * @param array $data
-     * @return array
      */
-    private function valid_data($data = [])
+    private function valid_data($data = []): array
     {
         return array_merge([
             'name'    => 'John Doe',

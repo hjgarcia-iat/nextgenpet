@@ -11,9 +11,7 @@
 |
 */
 
-use Carbon\Carbon;
-
-$factory->define(App\User::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\User::class, function (Faker\Generator $faker) {
     return [
         'username'           => $faker->userName,
         'email'              => $faker->email,
@@ -25,39 +23,39 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
 });
 
 
-$factory->define(App\Account::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\Account::class, function (Faker\Generator $faker) {
     return [
         'user_id'    => function () {
-            return factory(App\User::class)->create()->id;
+            return factory(\App\Models\User::class)->create()->id;
         },
         'first_name' => $faker->firstName,
         'last_name'  => $faker->lastName,
     ];
 });
 
-$factory->define(App\Group::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\Group::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->word,
     ];
 });
 
 
-$factory->define(App\Role::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\Role::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->word,
     ];
 });
 
-$factory->define(App\Permission::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\Permission::class, function (Faker\Generator $faker) {
     return [
         'name' => $faker->word,
     ];
 });
 
-$factory->define(App\College::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\College::class, function (Faker\Generator $faker) {
     return [
         'state_id' => function () {
-            return factory(App\State::class)->create()->id;
+            return factory(\App\Models\State::class)->create()->id;
         },
         'name'     => $faker->word,
         'address'  => $faker->text(),
@@ -67,7 +65,7 @@ $factory->define(App\College::class, function (Faker\Generator $faker) {
 });
 
 /** @var \Illuminate\Database\Eloquent\Factory $factory */
-$factory->define(\App\State::class, function (Faker\Generator $faker) {
+$factory->define(\App\Models\State::class, function (Faker\Generator $faker) {
     return [
         'abbr' => $faker->citySuffix,
         'name' => $faker->company,

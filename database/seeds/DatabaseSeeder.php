@@ -1,10 +1,10 @@
 <?php
 
-use App\Account;
-use App\User;
-use App\College;
+use App\Models\Account;
+use App\Models\College;
+use App\Models\Role;
+use App\Models\User;
 use Illuminate\Database\Seeder;
-use App\Role;
 
 class DatabaseSeeder extends Seeder
 {

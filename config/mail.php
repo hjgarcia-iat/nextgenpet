@@ -60,6 +60,11 @@ return [
         'name' => 'It\'s About Time',
     ],
 
+    'to' => [
+        'support_email_address' => env('SUPPORT_EMAIL','email@email.com'),
+        'registration_email_address' => env('REGISTRATION_SUPPORT_EMAIL','email@email.com')
+    ],
+
     /*
     |--------------------------------------------------------------------------
     | E-Mail Encryption Protocol
