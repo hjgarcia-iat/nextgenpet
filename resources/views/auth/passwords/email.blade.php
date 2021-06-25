@@ -2,7 +2,8 @@
 @section('pageTitle','Recover Password')
 @section('content')
     <form action="{{ route('password.store') }}"
-          class="form-horizontal">
+          class="form-horizontal" method="post">
+        {{ csrf_field() }}
         <div class="form-group{{ $errors->has('reset_email') ? ' has-danger' : '' }}">
             <label for="reset_email"
                    id="reset_email"

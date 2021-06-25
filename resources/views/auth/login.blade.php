@@ -4,6 +4,7 @@
     <form action="{{ route('login.create') }}"
           method="post"
           class="form-horizontal">
+        {{ csrf_field() }}
         {!! Honeypot::generate('my_name', 'my_time') !!}
 
         <div class="form-group {{ $errors->has('email') ? 'has-danger' : '' }}">

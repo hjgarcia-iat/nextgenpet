@@ -3,6 +3,7 @@
 @section('content')
     <form class="form-horizontal" role="form" method="POST" action="{{ route('recover.password.update') }}">
         {{ csrf_field() }}
+        {{ csrf_field() }}
         <input type="hidden" name="token" value="{{ $token }}">
         <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
             <label for="email" class="control-label">E-Mail Address</label>

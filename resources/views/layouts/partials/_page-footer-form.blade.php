@@ -5,7 +5,7 @@
               method="post"
               class="form mt-4"
               id="contact">
-
+            {{ csrf_field() }}
 
             {!! Honeypot::generate('my_name', 'my_time') !!}
 

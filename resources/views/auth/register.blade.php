@@ -1,8 +1,8 @@
 @extends('layouts.auth')@section('pageTitle','Register')
 @section('content')
 
-    <form action="{{ route('register.create') }}" class="form-horizontal">
-
+    <form action="{{ route('register.create') }}" class="form-horizontal" method="post">
+        {{ csrf_field() }}
         {!! Honeypot::generate('my_name', 'my_time') !!}
         <div class="form-group {{ $errors->has('first_name') ? 'has-danger' : '' }}">
             <label class="form-control-label" for="first_name"> First Name </label> <input
