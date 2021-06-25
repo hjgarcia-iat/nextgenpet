@@ -3,6 +3,13 @@
        class="list-group-item{{ (Request::is('lecture-style-class/planning-your-course') ? ' active' : '') }}">
         <span>Planning Your Course</span> </a>
 </div>
+
+<div>
+    <a href="{{ url('lecture-style-class/hybrid-implementation') }}"
+            class="list-group-item{{ (Request::is('lecture-style-class/hybrid-implementation') ? ' active' : '') }}">
+        <span>Hybrid Implementation</span> </a>
+</div>
+
 <div>
     <a href="{{ url('lecture-style-class/extension-index') }}"
        class="list-group-item{{ (Request::is('lecture-style-class/extension-index') ? ' active' : '') }}">
