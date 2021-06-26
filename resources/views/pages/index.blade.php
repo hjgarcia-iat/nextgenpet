@@ -30,7 +30,7 @@
     <p>
         <strong>Versions for small or large courses or for lecture/lab hybrid courses</strong> <em>Next Gen PET</em> is
         a suite of materials, with a <em>Studio Style Class</em> version for small lab and discussion classroom
-        environments of 12-36 students; and a Lecture-style Class version for lecture-style classrooms. In both
+        environments of 12-36 students; and a <em>Lecture Style Class</em> version for lecture-style classrooms. In both
         versions, students draw on evidence, discuss ideas, develop, test and modify models, and engage in practices of
         scientific argumentation. If your course is a blend of lab and lecture, we also have tested a <em>Hybrid
             Implementation</em> in a course that combines two or three lectures per week with one lab per week.
@@ -67,7 +67,8 @@
                                                                     class="btn-link">click here</a>
     </p>
     <p>
-        Learn how <em>Next Gen PET</em> is Research-Based, <a href="{{ url('about/research-based') }}" class="btn-link">click
+        Learn how <em>Next Gen PET</em> is Research-Based, <a href="{{ url('about/research-based') }}"
+                                                              class="btn-link">click
             here</a>
     </p>
 @stop
