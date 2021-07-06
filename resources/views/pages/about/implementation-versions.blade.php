@@ -35,7 +35,8 @@
         through a set of PowerPoint™ slides that align with the student materials.
     </p>
     <p>If your class format involves both lecture sessions and weekly laboratory meetings in a separate room, then you
-        can consider implementing a <em>hybrid version</em> of the curriculum: using lecture-style materials for the
+        can consider implementing a <a href="{{ url('studio-style-class/hybrid-implementation') }}"><em>hybrid
+                version</em></a> of the curriculum: using lecture-style materials for the
         lectures and studio-style materials for the lab periods.
     </p>
     <p>
@@ -46,17 +47,17 @@
             Style</a>,
 
         <a target="_blank"
-                href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/um-l3-student-materials.pdf">Lecture
+           href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-mse/um-l3-student-materials.pdf">Lecture
             Style</a>),
 
         <strong>Interactions and Forces</strong>
 
         (<a target="_blank"
-                href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ufm-a1-student-materials.pdf">Studio
+            href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/studio-style-class/module-fm/ufm-a1-student-materials.pdf">Studio
             Style</a>,
 
         <a target="_blank"
-                href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-fm/ufm-l1-student-materials.pdf">Lecture
+           href="https://s3.amazonaws.com/nextgenpet/web-docs/review-activities/lecture-style-class/module-fm/ufm-l1-student-materials.pdf">Lecture
             Style</a>). See also the <strong>Design Principles</strong> table below that summarizes the differences in
         how each version implements the design features of the curriculum.
     </p>

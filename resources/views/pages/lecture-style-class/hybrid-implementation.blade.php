@@ -31,7 +31,7 @@
         </p>
         <p>A less intuitive way to do a hybrid implementation is to schedule <em>different</em> content in the lecture
             and the lab. While this is an unusual approach, it solves the difficulty in coordinating lecture and lab
-            schedules. This approach has been tested and works well. It also highlights connections in scientific <em>practices</em>
+            schedules. This approach has been tested and works well (<strong>NSF DUE-1611738</strong>). It also highlights connections in scientific <em>practices</em>
             in each setting, a dimension of the NGSS on equal footing with content (&ldquo;disciplinary core ideas.&rdquo;)
             The schedule below is based on this implementation.
         </p>
