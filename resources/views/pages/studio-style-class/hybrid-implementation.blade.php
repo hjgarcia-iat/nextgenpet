@@ -10,8 +10,10 @@
 @stop
 @section('content')
 
-    <section id="pdf-content" class="pdf-content"></section>
-    <section id="html-content" class="html-content">
+    <section id="pdf-content"
+             class="pdf-content"></section>
+    <section id="html-content"
+             class="html-content">
         <h3>Hybrid Lecture/Lab Implementation</h3>
         <p>Many universities have lab science classes that include two or three lectures per week along with a separate
             lab session. If your course follows this structure, you may wish to use a hybrid implementation that uses
@@ -31,7 +33,7 @@
         </p>
         <p>A less intuitive way to do a hybrid implementation is to schedule <em>different</em> content in the lecture
             and the lab. While this is an unusual approach, it solves the difficulty in coordinating lecture and lab
-            schedules. This approach has been tested and works well. It also highlights connections in scientific <em>practices</em>
+            schedules. This approach has been tested and works well (<strong>NSF DUE-1611738</strong>). It also highlights connections in scientific <em>practices</em>
             in each setting, a dimension of the NGSS on equal footing with content (&ldquo;disciplinary core ideas.&rdquo;)
             The schedule below is based on this implementation.
         </p>
@@ -73,7 +75,9 @@
         <ul>
             <li>In laboratory part, all studio-style units: SE, L</li>
         </ul>
-        <p><a href="https://nextgenpet.s3.amazonaws.com/web-docs/planning-your-course/studio-style/SampleHybridCourse.pdf" target="_blank">Sample Schedule</a></p>
+        <p>
+            <a href="https://nextgenpet.s3.amazonaws.com/web-docs/planning-your-course/studio-style/SampleHybridCourse.pdf"
+               target="_blank">Sample Schedule</a></p>
     </section>
 
 @stop
